@@ -1,0 +1,118 @@
+# 🍽️ Dubeč na talíři
+
+Mobilní webová aplikace (PWA) s jídelníčkem **MŠ a ZŠ Dubeč**.
+Bez frameworku, bez buildu — čisté HTML/CSS/JS, cca 40 kB. Otevře se okamžitě, funguje i offline.
+
+---
+
+## Spuštění
+
+```bash
+cd "/Users/zk/Dubeč Jídelníček" && python3 -m http.server 4173
+```
+
+Pak `http://localhost:4173`. (Servírovat přes HTTP je nutné kvůli service workeru — dvojklik na `index.html` funguje taky, jen bez offline režimu.)
+
+## Struktura
+
+| Soubor | Co dělá |
+|---|---|
+| `index.html` | Kostra – 4 pohledy + tab bar + bottom sheet |
+| `styles.css` | Liquid Glass design systém, světlý i tmavý režim |
+| `app.js` | Stav, render, gesta, filtr alergenů, sdílení |
+| `data.js` | **Jediné místo s daty jídelníčku** |
+| `sw.js` | Offline cache (stale-while-revalidate) |
+| `manifest.webmanifest` | Instalace na plochu |
+
+---
+
+## Co aplikace umí
+
+- **MŠ / ZŠ** přepínač — mateřinka má 4 chody (přesnídávka → svačina), základka polévku a dva hlavní chody
+- **Den / Týden** — denní osa s časy výdeje, nebo rozbalovací přehled celého týdne
+- **„Právě teď"** — podle času dne zvýrazní chod, který se zrovna vydává
+- **Filtr alergenů** — rodič si klepnutím vybere, co dítě nesmí; jídla se pak v celé aplikaci obarví červeně s výstrahou
+- **Detail jídla** — bottom sheet s vypsanými alergeny slovy (ne jen čísly) a hodnocením „chutnalo dětem?"
+- **Sdílení týdne** — nativní iOS share sheet, text do WhatsApp / třídní skupiny
+- **Tmavý režim** — automaticky podle systému, nebo ručně v Info → Vzhled (Automaticky / Světlý / Tmavý). Volba se pamatuje a přebarví i stavový řádek telefonu.
+- **Offline** — jednou načtený jídelníček zůstane v telefonu
+- **Gesta** — swipe doleva/doprava mezi dny, sheet se zavírá stažením dolů, haptická odezva
+
+### Designové principy (iOS 26/27)
+
+Vrstvený **Liquid Glass**: barevné pozadí, nad ním poloprůhledné panely s `backdrop-filter` a vnitřním světelným lemem. Plovoucí tab bar místo přilepené lišty. Pružinové animace (`cubic-bezier(.32,.72,0,1)`). Typografie SF Pro s napjatým `letter-spacing`. Respektuje `prefers-color-scheme` i `prefers-reduced-motion`, `safe-area-inset` pro Dynamic Island a home indicator.
+
+---
+
+## Jak to provozovat — doporučení
+
+### 0. Stav dat (k 7. 9. 2026)
+
+| Škola | Data | Zdroj |
+|---|---|---|
+| **ZŠ** | ✅ skutečný jídelníček, 1.–11. 9. 2026 (týdny 36 a 37) | [jidelna.cz, jídelna 47](https://www.jidelna.cz/jidelni-listek/?jidelna=47) |
+| **MŠ** | ⚠️ ukázková | [msdubec.cz](https://www.msdubec.cz/stranka-jidelnicek-45) má vyvěšený stále červenec 2026 |
+
+**MŠ nemá jídelníček nikde veřejně.** Prověřeno: vlastní web (jen červenec), jeho sekce Aktuality ze školní kuchyně, rejstřík jídelen na jidelna.cz (je tam jen ZŠ, jídelna 47), strava.cz i facebooková stránka školky (za přihlášením). Jediná cesta je domluva s vedoucí jídelny — jidelna@msdubec.cz, 734 463 835.
+
+Aplikace to nezakrývá: `data.js → meta.real` říká, která skupina je skutečná, a nad ukázkovým jídelníčkem se zobrazí žlutá poznámka. Až MŠ zveřejní září, stačí přepsat `days[…].ms` a přehodit `real.ms` na `true`.
+
+**Užitečný nález:** URL jidelna.cz přijímá parametry rozsahu, takže se nedá stáhnout jen aktuální týden, ale celé období:
+
+```
+https://www.jidelna.cz/jidelni-listek/?jidelna=47&zacatek=2026-09&delka=P1M
+```
+
+`zacatek` bere `RRRR-MM` i konkrétní datum, `delka` je ISO 8601 doba (`P1M`, `P7D`). Tohle je hotová cesta pro automatický odběr — jedno stažení měsíčně místo denního hlídání. Do budoucna se vyplatí publikované týdny archivovat, dopředu jídelna vypisuje jen pár dní.
+
+### 1. Odkud brát data
+
+Reálné varianty, od nejlevnější:
+
+**A. Ruční (nejjednodušší start)**
+Hospodářka jednou týdně přepíše jídelníček do `data.js` a nahraje soubor. Zvládne to kdokoli, kdo umí kopírovat text — struktura je jeden řádek na jídlo.
+
+**B. Tabulka jako redakční systém (doporučuji)**
+Google Sheet se sloupci `datum | skupina | chod | název | doplněk | alergeny`. Kuchyně píše do tabulky, kterou už zná. Malý skript (GitHub Action jednou denně) tabulku stáhne, převede na `menu.json` a nasadí. Nulové náklady, žádná administrace, verzování zdarma.
+
+**C. Automatický odběr z jidelna.cz (pro ZŠ hotová cesta)**
+ZŠ už svůj jídelníček publikuje na `https://www.jidelna.cz/jidelni-listek/?jidelna=47`. Skript spuštěný denně stránku stáhne, vytáhne z ní dny a chody, přidá je do archivu a nasadí. Nejmíň práce dlouhodobě, ale rozbije se, když jidelna.cz změní HTML — proto ať skript umí spadnout tiše a nechat v aplikaci poslední známá data. MŠ zveřejňuje jídelníček ručně na svém webu, tam se hodí spíš varianta A nebo B.
+
+> Ať zvolíte cokoli, `app.js` se nemění. Stačí `data.js` nahradit za `fetch('menu.json')` — struktura je totožná.
+
+### 2. Kde to hostovat
+
+**GitHub Pages, Netlify nebo Cloudflare Pages** — zdarma, HTTPS automaticky, nasazení = `git push`. PWA vyžaduje HTTPS, takže tohle je nutná podmínka pro „přidat na plochu". Doména typu `jidelnicek.dubec.cz` jako CNAME.
+
+### 3. Notifikace (druhá fáze)
+
+Nejžádanější funkce u rodičů bývá **„zítra je rybí filé, syn to nejí"**. Web Push funguje na iOS 16.4+ pouze pro aplikaci přidanou na plochu. Realizace: rodič si v Nastavení zvolí čas (např. 17:00) a případně alergeny; server pošle push jen tehdy, když se v zítřejším jídelníčku alergen objeví. Do té doby je levnější a spolehlivější **odběr kalendáře (.ics)** — jídelníček se zobrazí přímo v iOS Kalendáři, nula infrastruktury.
+
+### 4. Co dál stojí za zvážení
+
+| Funkce | Proč | Náročnost |
+|---|---|---|
+| Odkaz na odhlášení oběda | Nejčastější úkon rodiče vůbec | Nízká (deeplink do Strava.cz) |
+| Widget na plochu / zamykací obrazovku | „Co je dneska" bez otevírání appky | Vysoká (vyžaduje nativní app) |
+| Fotky jídel od kuchařek | Děti si vybírají očima, buduje důvěru | Střední |
+| Profily dětí (Anička = bez mléka) | Filtr alergenů per dítě | Střední |
+| Statistika „jak dětem chutnalo" | Zpětná vazba pro jídelnu, data už sbíráme lokálně | Střední (nutný backend) |
+
+### 5. Než to pustíte mezi rodiče
+
+- Domluvit se školou, že jde o **neoficiální přehled** (aplikace to uvádí v patičce i v Info)
+- Ověřit, kdo odpovídá za správnost alergenů — to je jediné právně citlivé místo
+- Krátký návod „Sdílet → Přidat na plochu" do třídních skupin; bez toho většina rodičů PWA neinstaluje
+
+---
+
+## Nasazení dat z tabulky — kostra
+
+```bash
+# .github/workflows/menu.yml  (jednou denně v 6:00)
+curl -L "https://docs.google.com/spreadsheets/d/<ID>/export?format=csv" -o menu.csv
+python3 tools/csv2json.py menu.csv > menu.json
+git commit -am "jídelníček $(date +%F)" && git push
+```
+
+Parser je ~40 řádků: seskupí řádky podle data a skupiny, alergeny rozsekne na čísla, vyhodí prázdné dny.

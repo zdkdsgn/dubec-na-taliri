@@ -1,0 +1,457 @@
+/* ══════════════════════════════════════════════════════════════════
+   Dubeč na talíři — světlý, vzdušný design systém
+   Bílé karty na zeleném přísvitu; iOS 26/27 idiom (safe area,
+   pružinové animace, plovoucí tab bar, bottom sheet).
+══════════════════════════════════════════════════════════════════ */
+
+:root{
+  --bg:#F6FAF7;
+  --ink:#10201A;
+  --ink-2:#5E7268;
+  --ink-3:#93A79C;
+  --accent:#1E7A55;
+  --accent-2:#2C9268;
+  --accent-soft:#EAF4EE;
+  --on-accent:#FFFFFF;
+  --on-tint:#FFFFFF;
+
+  --card:#FFFFFF;
+  --card-brd:rgba(16,40,28,.06);
+  --card-sh:0 1px 2px rgba(16,40,28,.04), 0 10px 24px -16px rgba(16,40,28,.22);
+  --line:rgba(16,40,28,.07);
+  --track:#EEF3F0;
+
+  --t-amber:#C98A12;  --t-amber-bg:#FDF3E0;
+  --t-orange:#D2643C; --t-orange-bg:#FCEDE6;
+  --t-green:#1E7A55;  --t-green-bg:#E7F3EB;
+  --t-blue:#3568C6;   --t-blue-bg:#E9F0FC;
+  --t-purple:#6F55C0; --t-purple-bg:#EFEBFA;
+  --t-red:#C4384F;    --t-red-bg:#FBEBEE;
+
+  --r-xl:26px; --r-lg:22px; --r-md:16px; --r-sm:12px; --r-pill:999px;
+  --safe-b:env(safe-area-inset-bottom,0px);
+  --safe-t:env(safe-area-inset-top,0px);
+  --spring:cubic-bezier(.32,.72,0,1);
+}
+
+/* Tmavý režim: automaticky podle systému i ručně přes data-theme="dark" */
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#0B120E;
+    --ink:#ECF3EE; --ink-2:#93A79C; --ink-3:#6B8075;
+    --accent:#4FCB8E; --accent-2:#7CE0B0; --accent-soft:rgba(79,203,142,.12);
+    --card:#131C17; --card-brd:rgba(255,255,255,.07);
+    --card-sh:0 1px 2px rgba(0,0,0,.3), 0 14px 30px -18px rgba(0,0,0,.8);
+    --line:rgba(255,255,255,.08);
+    --track:#182119;
+    --t-amber:#EBBB63; --t-amber-bg:rgba(235,187,99,.13);
+    --t-orange:#F09070; --t-orange-bg:rgba(240,144,112,.13);
+    --t-green:#4FCB8E;  --t-green-bg:rgba(79,203,142,.13);
+    --t-blue:#82A8F5;   --t-blue-bg:rgba(130,168,245,.13);
+    --t-purple:#A895EE; --t-purple-bg:rgba(168,149,238,.13);
+    --t-red:#EE7B90;    --t-red-bg:rgba(238,123,144,.13);
+  }
+}
+:root[data-theme="dark"]{
+    --bg:#0B120E;
+    --ink:#ECF3EE; --ink-2:#93A79C; --ink-3:#6B8075;
+    --accent:#4FCB8E; --accent-2:#7CE0B0; --accent-soft:rgba(79,203,142,.12);
+    --card:#131C17; --card-brd:rgba(255,255,255,.07);
+    --card-sh:0 1px 2px rgba(0,0,0,.3), 0 14px 30px -18px rgba(0,0,0,.8);
+    --line:rgba(255,255,255,.08);
+    --track:#182119;
+    --t-amber:#EBBB63; --t-amber-bg:rgba(235,187,99,.13);
+    --t-orange:#F09070; --t-orange-bg:rgba(240,144,112,.13);
+    --t-green:#4FCB8E;  --t-green-bg:rgba(79,203,142,.13);
+    --t-blue:#82A8F5;   --t-blue-bg:rgba(130,168,245,.13);
+    --t-purple:#A895EE; --t-purple-bg:rgba(168,149,238,.13);
+    --t-red:#EE7B90;    --t-red-bg:rgba(238,123,144,.13);
+}
+
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+[hidden]{display:none!important}
+html,body{height:100%}
+body{
+  margin:0;background:var(--bg);color:var(--ink);
+  font:400 16px/1.45 -apple-system,BlinkMacSystemFont,"SF Pro Text","Inter","Segoe UI",system-ui,sans-serif;
+  -webkit-font-smoothing:antialiased;letter-spacing:-.011em;
+  overscroll-behavior-y:none;
+}
+svg{width:22px;height:22px;fill:none;stroke:currentColor;stroke-width:1.8;
+    stroke-linecap:round;stroke-linejoin:round}
+button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
+h1,h2,h3{margin:0;letter-spacing:-.028em}
+
+/* jemný barevný přísvit pod obsahem */
+.ambient{position:fixed;inset:0;z-index:-1;overflow:hidden;
+  background:linear-gradient(180deg,#EAF4EC 0%,var(--bg) 46%)}
+.orb{position:absolute;border-radius:50%;filter:blur(80px);opacity:.5}
+.orb-a{width:80vw;height:60vw;left:-15vw;top:-14vw;background:#9BDDBB}
+.orb-b{width:70vw;height:55vw;right:-25vw;top:22vh;background:#F3DFA6;opacity:.42}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]) .ambient{background:linear-gradient(180deg,#111D15 0%,var(--bg) 52%)}
+  :root:not([data-theme="light"]) .orb-a{opacity:.15}
+  :root:not([data-theme="light"]) .orb-b{opacity:.06}
+}
+:root[data-theme="dark"] .ambient{background:linear-gradient(180deg,#111D15 0%,var(--bg) 52%)}
+:root[data-theme="dark"] .orb-a{opacity:.15}
+:root[data-theme="dark"] .orb-b{opacity:.06}
+
+/* ── Značka ─────────────────────────────────────────────────────── */
+.brand{
+  position:sticky;top:0;z-index:40;padding-top:var(--safe-t);
+  background:color-mix(in srgb,var(--bg) 82%,transparent);
+  -webkit-backdrop-filter:saturate(180%) blur(20px);backdrop-filter:saturate(180%) blur(20px);
+  border-bottom:1px solid transparent;transition:border-color .3s ease;
+}
+.brand.stuck{border-bottom-color:var(--line)}
+.brand-inner{
+  max-width:560px;margin:0 auto;display:flex;align-items:center;gap:12px;padding:12px 18px;
+}
+.brand-mark{
+  width:44px;height:44px;border-radius:14px;flex:none;display:grid;place-items:center;
+  background:var(--accent-soft);color:var(--accent);
+  box-shadow:inset 0 0 0 1px color-mix(in srgb,var(--accent) 10%,transparent);
+}
+.brand-mark svg{width:25px;height:25px;stroke-width:1.55}
+.brand-txt{flex:1;min-width:0;font-size:19px;font-weight:400;letter-spacing:-.025em;line-height:1.15}
+.brand-txt b{font-weight:720}
+.brand-txt small{
+  display:block;margin-top:3px;font-size:10px;font-weight:640;letter-spacing:.11em;
+  text-transform:uppercase;color:var(--ink-3);
+}
+.brand-info{
+  width:38px;height:38px;flex:none;display:grid;place-items:center;border-radius:50%;
+  background:var(--card);border:1px solid var(--card-brd);color:var(--ink-2);
+  box-shadow:var(--card-sh);transition:transform .3s var(--spring);
+}
+.brand-info svg{width:19px;height:19px}
+.brand-info:active{transform:scale(.9)}
+
+/* ── Layout ─────────────────────────────────────────────────────── */
+main{max-width:560px;margin:0 auto;padding:6px 18px calc(118px + var(--safe-b))}
+.view{animation:viewIn .4s var(--spring)}
+@keyframes viewIn{from{opacity:0;transform:translateY(8px)}}
+
+/* ── Hero ───────────────────────────────────────────────────────── */
+.hero{padding:20px 2px 22px}
+.hero.small{padding-bottom:16px}
+.eyebrow{
+  display:inline-flex;align-items:center;gap:8px;margin-bottom:12px;
+  font-size:11.5px;font-weight:680;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-2);
+}
+.eyebrow .dot{width:7px;height:7px;border-radius:50%;background:var(--accent)}
+.hero-title{font-size:clamp(31px,8.6vw,40px);line-height:1.08;font-weight:760}
+.hero-title em{font-style:normal;color:var(--accent)}
+.hero-sub{margin:10px 0 0;color:var(--ink-2);font-size:15.5px}
+
+/* ── Segmentovaný přepínač ──────────────────────────────────────── */
+.segmented{
+  position:relative;display:grid;grid-template-columns:1fr 1fr;padding:4px;
+  border-radius:var(--r-pill);margin-bottom:24px;background:var(--track);
+}
+.seg-thumb{
+  position:absolute;top:4px;bottom:4px;left:4px;width:calc(50% - 4px);
+  border-radius:var(--r-pill);background:var(--card);
+  box-shadow:0 1px 2px rgba(16,40,28,.10),0 5px 14px -8px rgba(16,40,28,.3);
+  transition:transform .5s var(--spring);
+}
+.segmented.zs .seg-thumb{transform:translateX(100%)}
+.seg{
+  position:relative;z-index:1;display:flex;align-items:center;justify-content:center;gap:8px;
+  height:42px;border-radius:var(--r-pill);font-size:14.5px;font-weight:600;
+  color:var(--ink-2);transition:color .3s ease;
+}
+.seg[aria-selected="true"]{color:var(--accent)}
+.seg-ico{width:17px;height:17px}
+
+/* ── Týdenní pás ────────────────────────────────────────────────── */
+.weekbar{margin-bottom:26px}
+.weekbar-head{display:flex;align-items:center;gap:10px;margin-bottom:12px;padding:0 2px}
+.wb-date{flex:1;display:flex;align-items:center;gap:9px;min-width:0}
+.wb-cal{width:19px;height:19px;color:var(--ink-3);flex:none}
+.wb-date b{font-size:15px;font-weight:620;font-variant-numeric:tabular-nums;white-space:nowrap}
+.wb-nav{display:flex;align-items:center;gap:2px;flex:none}
+.wb-nav button{
+  height:30px;min-width:30px;display:grid;place-items:center;border-radius:var(--r-pill);
+  color:var(--ink-2);transition:transform .3s var(--spring),background .2s;
+}
+.wb-nav button svg{width:18px;height:18px}
+.wb-nav button:active{transform:scale(.88);background:var(--track)}
+.wb-now{padding:0 10px;font-size:14px;font-weight:560;color:var(--ink-2)}
+
+.days{
+  display:grid;grid-template-columns:repeat(5,1fr);gap:4px;padding:6px;
+  border-radius:var(--r-lg);background:var(--card);
+  border:1px solid var(--card-brd);box-shadow:var(--card-sh);
+}
+.day{
+  display:flex;flex-direction:column;align-items:center;gap:3px;padding:11px 0 10px;
+  border-radius:var(--r-md);transition:background .35s var(--spring),color .3s ease,transform .3s var(--spring);
+}
+.day .dow{font-size:13px;font-weight:520;color:var(--ink-2);line-height:1}
+.day .num{font-size:21px;font-weight:700;font-variant-numeric:tabular-nums;line-height:1.1}
+.day .pip{width:5px;height:5px;border-radius:50%;background:var(--accent);opacity:0}
+.day.today .pip{opacity:1}
+.day.sel{background:var(--accent);color:var(--on-accent);
+  box-shadow:0 6px 14px -8px color-mix(in srgb,var(--accent) 80%,transparent)}
+.day.sel .dow{color:color-mix(in srgb,var(--on-accent) 76%,transparent)}
+.day.sel .pip{background:var(--on-accent)}
+.day:active{transform:scale(.94)}
+
+/* ── Hlavička dne ───────────────────────────────────────────────── */
+.dayhead{display:flex;align-items:baseline;gap:12px;padding:0 2px 14px}
+.dayhead h2{flex:1;font-size:26px;font-weight:740}
+.dayhead .date{margin-left:8px;font-size:14px;font-weight:500;color:var(--ink-3)}
+.link-week{
+  display:inline-flex;align-items:center;gap:5px;flex:none;
+  font-size:14.5px;font-weight:600;color:var(--accent);
+}
+.link-week svg{width:15px;height:15px}
+.link-week:active{opacity:.6}
+
+/* ── Karty jídel ────────────────────────────────────────────────── */
+.meals{display:flex;flex-direction:column;gap:12px}
+.meal{
+  position:relative;display:grid;grid-template-columns:46px 1fr;gap:15px;
+  width:100%;text-align:left;padding:17px 18px;
+  border-radius:var(--r-xl);background:var(--card);
+  border:1px solid var(--card-brd);box-shadow:var(--card-sh);
+  transition:transform .3s var(--spring),box-shadow .3s ease;
+}
+.meal:active{transform:scale(.985)}
+.meal-ico{
+  width:46px;height:46px;border-radius:15px;display:grid;place-items:center;
+}
+.meal-ico svg{width:23px;height:23px;stroke-width:1.7}
+.meal-body{min-width:0}
+.meal-kicker{
+  display:flex;align-items:center;gap:8px;flex-wrap:wrap;
+  font-size:11px;font-weight:660;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-3);
+}
+.meal-name{display:block;font-size:19px;font-weight:680;margin:5px 0 3px;line-height:1.25}
+.meal-desc{display:block;font-size:15px;color:var(--ink-2);line-height:1.35}
+
+.badge{
+  margin-left:auto;flex:none;white-space:nowrap;
+  font-size:11px;font-weight:660;letter-spacing:.01em;text-transform:none;
+  padding:4px 10px;border-radius:var(--r-pill);
+  background:var(--track);color:var(--ink-2);
+}
+.badge.lead{background:color-mix(in srgb,var(--accent) 14%,transparent);color:var(--accent)}
+.badge.now{background:var(--accent);color:var(--on-accent);animation:pulse 2.4s ease-in-out infinite}
+.badge.warn{background:var(--t-red);color:var(--on-tint)}
+@keyframes pulse{50%{opacity:.65}}
+
+/* zvýrazněný hlavní chod */
+.meal.lead{background:var(--t-green-bg);border-color:color-mix(in srgb,var(--accent) 16%,transparent)}
+.meal.lead .meal-name{color:var(--accent)}
+.meal.lead .meal-ico{background:color-mix(in srgb,var(--accent) 13%,transparent);color:var(--accent)}
+/* zásah alergenu */
+.meal.flagged{background:var(--t-red-bg);border-color:color-mix(in srgb,var(--t-red) 24%,transparent)}
+.meal.flagged .meal-name{color:var(--t-red)}
+.meal.flagged .meal-ico{background:color-mix(in srgb,var(--t-red) 12%,transparent);color:var(--t-red)}
+
+/* chip alergenů */
+.a-chip{
+  display:inline-flex;align-items:center;gap:6px;margin-top:11px;
+  padding:5px 9px 5px 8px;border-radius:var(--r-pill);
+  background:color-mix(in srgb,var(--ink) 5%,transparent);
+  font-size:12.5px;font-weight:600;color:var(--ink-2);font-variant-numeric:tabular-nums;
+}
+.a-chip .wheat{width:13px;height:13px;color:var(--ink-3);flex:none;opacity:.9}
+.a-chip .i{width:13px;height:13px;color:var(--ink-3);flex:none}
+.a-chip.hit{background:color-mix(in srgb,var(--t-red) 16%,transparent);color:var(--t-red)}
+.a-chip.hit .wheat,.a-chip.hit .i{color:var(--t-red)}
+.meal.lead .a-chip{background:color-mix(in srgb,var(--accent) 11%,transparent);color:var(--accent)}
+.meal.lead .a-chip .wheat,.meal.lead .a-chip .i{color:var(--accent)}
+
+/* tóny ikon */
+.tone-amber{background:var(--t-amber-bg);color:var(--t-amber)}
+.tone-orange{background:var(--t-orange-bg);color:var(--t-orange)}
+.tone-green{background:var(--t-green-bg);color:var(--t-green)}
+.tone-blue{background:var(--t-blue-bg);color:var(--t-blue)}
+.tone-purple{background:var(--t-purple-bg);color:var(--t-purple)}
+
+.empty{padding:36px 10px;text-align:center;color:var(--ink-3);
+  background:var(--card);border:1px solid var(--card-brd);border-radius:var(--r-xl)}
+.empty svg{width:34px;height:34px;margin-bottom:10px;color:var(--ink-3)}
+
+.disclaimer{margin:26px 6px 0;text-align:center;font-size:12.5px;color:var(--ink-3);line-height:1.55}
+
+/* ── Týdenní přehled ────────────────────────────────────────────── */
+.week-actions{margin-bottom:16px}
+.ghost-btn{
+  display:inline-flex;align-items:center;gap:8px;height:42px;padding:0 17px;
+  border-radius:var(--r-pill);font-size:14.5px;font-weight:600;color:var(--accent);
+  background:var(--card);border:1px solid var(--card-brd);box-shadow:var(--card-sh);
+}
+.ghost-btn svg{width:17px;height:17px}
+.ghost-btn:active{transform:scale(.96)}
+.ghost-btn.danger{color:var(--t-red);width:100%;justify-content:center;margin-top:16px;height:48px}
+
+.week-list{display:flex;flex-direction:column;gap:12px}
+.wday{
+  border-radius:var(--r-xl);overflow:hidden;background:var(--card);
+  border:1px solid var(--card-brd);box-shadow:var(--card-sh);
+}
+.wday-head{display:flex;align-items:center;gap:13px;width:100%;padding:15px 17px;text-align:left}
+.wday-date{
+  width:44px;height:44px;border-radius:14px;display:grid;place-items:center;flex:none;
+  background:var(--track);font-size:18px;font-weight:700;font-variant-numeric:tabular-nums;
+}
+.wday.today .wday-date{background:var(--accent);color:var(--on-accent)}
+.wday-txt{flex:1;min-width:0}
+.wday-txt h3{font-size:17px;font-weight:670}
+.wday-txt p{margin:3px 0 0;font-size:13.5px;color:var(--ink-2);
+  white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.wday-head .chev{width:18px;height:18px;color:var(--ink-3);transition:transform .4s var(--spring)}
+.wday.open .wday-head .chev{transform:rotate(90deg)}
+.wday-body{display:grid;grid-template-rows:0fr;transition:grid-template-rows .45s var(--spring)}
+.wday.open .wday-body{grid-template-rows:1fr}
+.wday-body > div{overflow:hidden}
+.wday-body .meals{padding:2px 12px 14px;gap:8px}
+.wday-body .meal{box-shadow:none;padding:13px 14px;border-radius:var(--r-lg);
+  background:color-mix(in srgb,var(--ink) 3%,transparent);border-color:transparent}
+.wday-body .meal.lead{background:var(--t-green-bg)}
+.wday-body .meal.flagged{background:var(--t-red-bg)}
+.wday-body .meal-name{font-size:17px}
+
+/* ── Alergeny ───────────────────────────────────────────────────── */
+.allergen-grid{display:flex;flex-direction:column;gap:9px}
+.a-row{
+  display:flex;align-items:center;gap:13px;padding:13px 15px;width:100%;text-align:left;
+  border-radius:var(--r-lg);background:var(--card);
+  border:1px solid var(--card-brd);box-shadow:var(--card-sh);
+  transition:transform .3s var(--spring);
+}
+.a-row:active{transform:scale(.985)}
+.a-row .num{
+  width:34px;height:34px;border-radius:12px;display:grid;place-items:center;flex:none;
+  font-size:14px;font-weight:700;font-variant-numeric:tabular-nums;
+  background:var(--track);color:var(--ink-2);
+}
+.a-row .txt{flex:1;min-width:0}
+.a-row .txt b{display:block;font-size:15.5px;font-weight:630}
+.a-row .txt small{color:var(--ink-3);font-size:12.5px}
+.a-row.on{background:var(--t-red-bg);border-color:color-mix(in srgb,var(--t-red) 26%,transparent)}
+.a-row.on .num{background:var(--t-red);color:var(--on-tint)}
+.switch{width:46px;height:28px;border-radius:var(--r-pill);flex:none;position:relative;
+  background:color-mix(in srgb,var(--ink) 13%,transparent);transition:background .3s ease}
+.switch::after{content:"";position:absolute;top:3px;left:3px;width:22px;height:22px;border-radius:50%;
+  background:#fff;box-shadow:0 1px 3px rgba(0,0,0,.25);transition:transform .4s var(--spring)}
+.a-row.on .switch{background:var(--t-red)}
+.a-row.on .switch::after{transform:translateX(18px)}
+
+/* ── Info karty ─────────────────────────────────────────────────── */
+.card-list{display:flex;flex-direction:column;gap:12px}
+.card{border-radius:var(--r-xl);padding:16px 18px;width:100%;text-align:left;
+  background:var(--card);border:1px solid var(--card-brd);box-shadow:var(--card-sh)}
+.info-row{display:flex;justify-content:space-between;gap:12px;padding:9px 0;font-size:15px;
+  border-bottom:1px solid var(--line)}
+.info-row:last-child{border:0}
+.info-row span{color:var(--ink-2)}
+.info-row b{font-weight:630}
+.notice,.link-card{display:flex;gap:14px;align-items:center}
+.notice{align-items:flex-start}
+.notice-ico{width:42px;height:42px;border-radius:14px;flex:none;display:grid;place-items:center;
+  background:var(--track);color:var(--ink-2)}
+.notice-ico svg{width:21px;height:21px}
+.tint-blue .notice-ico,.notice.tint-blue .notice-ico{background:var(--t-blue-bg);color:var(--t-blue)}
+.tint-amber{background:var(--t-amber-bg)!important;color:var(--t-amber)!important}
+.tint-green{background:var(--t-green-bg)!important;color:var(--t-green)!important}
+.notice h3,.link-card h3{font-size:16px;font-weight:660;margin-bottom:3px}
+.notice p,.link-card p{margin:0;font-size:14px;color:var(--ink-2);line-height:1.4}
+.link-card{text-decoration:none;color:inherit}
+.link-card .chev{margin-left:auto;width:18px;height:18px;color:var(--ink-3);flex:none}
+.link-card:active{transform:scale(.985)}
+
+/* ── Tab bar ────────────────────────────────────────────────────── */
+.tabbar{
+  position:fixed;left:50%;bottom:calc(14px + var(--safe-b));transform:translateX(-50%);
+  z-index:45;display:grid;grid-template-columns:repeat(4,1fr);gap:2px;
+  width:min(calc(100% - 32px),420px);padding:6px;border-radius:var(--r-pill);
+  background:color-mix(in srgb,var(--card) 88%,transparent);
+  -webkit-backdrop-filter:saturate(180%) blur(24px);backdrop-filter:saturate(180%) blur(24px);
+  border:1px solid var(--card-brd);
+  box-shadow:0 8px 30px -10px rgba(16,40,28,.28),0 1px 2px rgba(16,40,28,.05);
+}
+.tab{display:flex;flex-direction:column;align-items:center;gap:3px;padding:8px 4px 7px;
+  border-radius:var(--r-pill);color:var(--ink-3);font-size:10.5px;font-weight:620;
+  transition:color .3s ease,transform .35s var(--spring)}
+.tab svg{width:22px;height:22px}
+.tab svg[fill="currentColor"]{width:20px;height:20px}
+.tab.is-active{color:var(--accent)}
+.tab:active{transform:scale(.9)}
+
+/* ── Bottom sheet ───────────────────────────────────────────────── */
+.sheet-scrim{position:fixed;inset:0;z-index:60;background:rgba(8,20,14,.32);
+  opacity:0;transition:opacity .35s ease}
+.sheet-scrim.in{opacity:1}
+.sheet{
+  position:fixed;left:0;right:0;bottom:0;z-index:61;max-width:560px;margin:0 auto;
+  border-radius:32px 32px 0 0;padding:10px 22px calc(28px + var(--safe-b));
+  background:var(--card);border-top:1px solid var(--card-brd);
+  box-shadow:0 -14px 50px -14px rgba(16,40,28,.4);
+  transform:translateY(100%);transition:transform .5s var(--spring);
+  max-height:86vh;overflow:auto;
+}
+.sheet.in{transform:none}
+.sheet-grabber{width:38px;height:5px;border-radius:3px;margin:0 auto 16px;
+  background:color-mix(in srgb,var(--ink) 15%,transparent)}
+.sheet h2{font-size:26px;font-weight:740;line-height:1.15;margin-bottom:6px}
+.sheet .sub{color:var(--ink-2);font-size:15px;margin:0 0 18px}
+.sheet-kicker{display:flex;align-items:center;gap:9px;font-size:11px;font-weight:680;
+  letter-spacing:.09em;text-transform:uppercase;color:var(--ink-3);margin-bottom:12px}
+.sheet-kicker .meal-ico{width:28px;height:28px;border-radius:9px}
+.sheet-kicker .meal-ico svg{width:15px;height:15px}
+.sheet-sec{margin-top:22px}
+.sheet-sec h4{font-size:11.5px;font-weight:680;letter-spacing:.09em;text-transform:uppercase;
+  color:var(--ink-3);margin:0 0 10px}
+.a-full{display:flex;gap:12px;align-items:center;padding:10px 0;border-bottom:1px solid var(--line)}
+.a-full:last-child{border:0}
+.a-full .n{width:30px;height:30px;border-radius:10px;display:grid;place-items:center;flex:none;
+  background:var(--track);font-size:13px;font-weight:700}
+.a-full.hit .n{background:var(--t-red);color:var(--on-tint)}
+.a-full b{font-size:14.5px;font-weight:620}
+.a-full small{display:block;color:var(--ink-3);font-size:12.5px}
+.rate{display:flex;gap:10px}
+.rate button{flex:1;height:54px;border-radius:var(--r-md);font-size:22px;
+  background:var(--track);border:1px solid transparent;transition:transform .3s var(--spring)}
+.rate button:active{transform:scale(.94)}
+.rate button.on{background:var(--t-green-bg);border-color:var(--accent)}
+.rate .lbl{display:block;font-size:11px;font-weight:640;color:var(--ink-2);margin-top:1px}
+
+/* ── Toast ──────────────────────────────────────────────────────── */
+.toast{
+  position:fixed;left:50%;bottom:calc(96px + var(--safe-b));transform:translate(-50%,14px);
+  z-index:70;padding:11px 18px;border-radius:var(--r-pill);font-size:14px;font-weight:600;
+  background:var(--card);border:1px solid var(--card-brd);box-shadow:var(--card-sh);
+  opacity:0;transition:all .4s var(--spring);
+}
+.toast.in{opacity:1;transform:translate(-50%,0)}
+
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+
+/* ── Upozornění nad jídelníčkem ─────────────────────────────────── */
+.inline-note{
+  display:flex;gap:11px;align-items:flex-start;margin-bottom:14px;
+  padding:12px 14px;border-radius:var(--r-lg);
+  background:var(--t-amber-bg);color:var(--ink-2);font-size:13.5px;line-height:1.4;
+  border:1px solid color-mix(in srgb,var(--t-amber) 22%,transparent);
+}
+.inline-note svg{width:18px;height:18px;color:var(--t-amber);flex:none;margin-top:1px}
+.inline-note b{color:var(--ink);font-weight:640}
+
+/* ── Volba vzhledu ──────────────────────────────────────────────── */
+.theme-card h3{font-size:16px;font-weight:660;margin-bottom:12px}
+.theme-pick{display:grid;grid-template-columns:repeat(3,1fr);gap:4px;padding:4px;
+  border-radius:var(--r-md);background:var(--track)}
+.theme-pick button{
+  display:flex;flex-direction:column;align-items:center;gap:5px;padding:11px 4px 9px;
+  border-radius:var(--r-sm);font-size:12.5px;font-weight:600;color:var(--ink-2);
+  transition:background .3s var(--spring),color .3s ease;
+}
+.theme-pick button svg{width:20px;height:20px}
+.theme-pick button.on{background:var(--card);color:var(--accent);
+  box-shadow:0 1px 2px rgba(16,40,28,.10),0 4px 12px -8px rgba(16,40,28,.35)}
