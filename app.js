@@ -60,7 +60,7 @@ function nearestSchoolDay(from){
   return keys.find(k => k >= from) || keys[keys.length-1];
 }
 const S = {
-  school: store.get("school","ms"),
+  school: store.get("school","zs"),
   date  : nearestSchoolDay(TODAY),
   view  : "den",
   filter: new Set(store.get("filter",[])),
@@ -140,7 +140,7 @@ function renderDen(){
   const mon = monday(S.date);
   $("#heroSchool").textContent = S.school === "ms" ? "MŠ Dubeč" : "ZŠ Dubeč";
   $("#weekLabel").textContent  = `${short(mon)} – ${short(addD(mon,4))} ${parse(mon).getFullYear()}`;
-  $(".segmented").classList.toggle("zs", S.school === "zs");
+  $(".segmented").classList.toggle("ms", S.school === "ms");
   $$(".seg").forEach(b => b.setAttribute("aria-selected", b.dataset.school === S.school));
 
   const days = $("#days"); days.innerHTML = "";
@@ -365,7 +365,16 @@ swipe($("#timeline"), () => step(1), () => step(-1));
   });
 })();
 
-const onScroll = () => $("#brand").classList.toggle("stuck", window.scrollY > 8);
+/* Horní lišta se schová při scrollu dolů a vrátí se při scrollu nahoru. */
+let lastY = 0, barHidden = false;
+function onScroll(){
+  const y = Math.max(0, window.scrollY), bar = $("#brand"), dy = y - lastY;
+  bar.classList.toggle("stuck", y > 8);
+  if (y < 64)                        { bar.classList.remove("hide"); barHidden = false; }
+  else if (dy >  4 && !barHidden)    { bar.classList.add("hide");    barHidden = true;  }
+  else if (dy < -6 &&  barHidden)    { bar.classList.remove("hide"); barHidden = false; }
+  lastY = y;
+}
 window.addEventListener("scroll", onScroll, { passive:true });
 window.addEventListener("online",  renderInfo);
 window.addEventListener("offline", () => { renderInfo(); toast("Jste offline – zobrazujeme uloženou verzi"); });
