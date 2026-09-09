@@ -74,6 +74,26 @@ byl původní kód psaný natvrdo.
    nezakládá Apple Developer účet ani nebalí appku přes Capacitor/
    Cordova do nativního obalu – to je krok až na konci, ne teď.
 
+## Známé omezení parseru
+
+`tools/jidelna_client.py` počítá s max. 2 chody na oběd (polévka +
+1–2 hlavní jídla) – přesně jak to má ZŠ Dubeč. Při rozšiřování na
+další školy (2026-09) se ukázalo, že to negeneralizuje na všechny:
+
+- **Spojené ZŠ+MŠ na jedné stránce** (např. brněnská škola s víc
+  věkovými skupinami) mají v jednom "dni" klidně 6–7 položek, včetně
+  doslova zdvojených jídel pro různé skupiny.
+- **Některé MŠ** mají vlastní počet chodů (přesnídávka/oběd/svačina
+  přes 2 hlavní jídla), který se do zjednodušeného "chod 1 = oběd,
+  chod 2 = oběd II" nevejde.
+
+`tools/fetch-school.py` teď před zápisem kontroluje počet obědových
+položek a duplicitní názvy v rámci dne a **hlasitě varuje**, ale
+nezastaví se – je na vás si výstup přečíst a školu případně z registru
+vynechat (přesně tak se z prvního pokusu o rozšíření vyřadily 4 z 14
+nalezených škol). Opravdová oprava (rozpoznat víc "skupin" na stránce)
+je budoucí práce, ne dnešní.
+
 ## Rozumný další krok
 
 Až budete chtít pokračovat, navrhuju v tomhle pořadí:

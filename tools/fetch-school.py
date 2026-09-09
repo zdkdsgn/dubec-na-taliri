@@ -47,6 +47,19 @@ def stahni_skolu(skola_id: str) -> bool:
         print(f"  [{skola_id}] nic se nepodařilo přečíst – data nechávám beze změny", file=sys.stderr)
         return False
 
+    # Parser počítá s max. 2 "chody" na oběd (polévka + 1–2 hlavní jídla).
+    # Některé školy (typicky spojená ZŠ+MŠ na jedné stránce, nebo MŠ
+    # s vlastním počtem chodů) mají na jeden den víc – appka by pak
+    # klidně ukázala zdvojené nebo popletené jídlo. Radši nahlas
+    # varovat, ať si to někdo ověří ručně, než to tiše propašovat dál.
+    for den, zaznam in nove.items():
+        chody = zaznam.get("chody", [])
+        obedu = sum(1 for c in chody if c["c"] in ("obed", "obed2"))
+        nazvy = [c["n"] for c in chody]
+        if obedu > 2 or len(nazvy) != len(set(nazvy)):
+            print(f"  [{skola_id}] POZOR {den}: {len(chody)} chodů, {obedu} obědových položek – "
+                  f"tahle škola možná nesedí do dvouchodového modelu, zkontrolujte ručně", file=sys.stderr)
+
     dny.update(nove)
     dny = {d: dny[d] for d in sorted(dny)}
 
