@@ -19,28 +19,6 @@
 
 <div class="ambient" aria-hidden="true"><span class="orb orb-a"></span><span class="orb orb-b"></span></div>
 
-<!-- ── Značka ───────────────────────────────────────────────────── -->
-<header class="brand" id="brand">
-  <div class="brand-inner">
-    <span class="brand-mark" aria-hidden="true">
-      <svg viewBox="0 0 24 24" class="ico-mark">
-<path d="M5.2 3v4.8M7.8 3v4.8M10.4 3v4.8"/>
-        <path d="M5.2 7.8c0 1.55 1.15 2.6 2.6 2.6s2.6-1.05 2.6-2.6"/>
-        <path d="M7.8 10.4V21"/>
-        <path d="M16 3.1c1.52 0 2.75 1.75 2.75 3.9S17.52 10.9 16 10.9s-2.75-1.75-2.75-3.9S14.48 3.1 16 3.1z"/>
-        <path d="M16 10.9V21"/>
-      </svg>
-    </span>
-    <span class="brand-txt">
-      <b>Dubeč</b> na talíři
-      <small>Jídelníček pro malé i velké</small>
-    </span>
-    <button class="brand-info" id="brandInfo" aria-label="O aplikaci">
-      <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 11v5m0-8.5v.5"/></svg>
-    </button>
-  </div>
-</header>
-
 <main id="scroller">
 
   <!-- ── VIEW: DEN ─────────────────────────────────────────────── -->
@@ -223,6 +201,9 @@
     <span>Info</span>
   </button>
 </nav>
+
+<!-- Sbalená podoba spodního menu při scrollu – klepnutím se menu rozbalí zpět. -->
+<button class="tabbar-fab" id="tabbarFab" aria-label="Zobrazit menu" aria-expanded="false"></button>
 
 <div class="sheet-scrim" id="scrim" hidden></div>
 <div class="sheet" id="sheet" hidden role="dialog" aria-modal="true" aria-label="Detail jídla">

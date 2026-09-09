@@ -384,6 +384,7 @@ function setView(v){
   S.view = v;
   $$(".view").forEach(s => s.hidden = s.id !== "view-" + v);
   $$(".tab").forEach(t => t.classList.toggle("is-active", t.dataset.view === v));
+  syncFabIcon();
   window.scrollTo({ top: 0 });
   if (v === "tyden") renderTyden();
   if (v === "info")  renderInfo();
@@ -465,8 +466,12 @@ $("#weekNow").addEventListener("click",  () => {
   haptic(); prepniDen(nearestSchoolDay(TODAY)); toast("Zpět na aktuální týden");
 });
 $("#toWeek").addEventListener("click",      () => { haptic(); setView("tyden"); });
-$("#brandInfo").addEventListener("click",   () => { haptic(); setView("info"); });
 $("#toAllergens").addEventListener("click", () => { haptic(); setView("alergeny"); });
+$("#tabbarFab").addEventListener("click", () => {
+  haptic();
+  lastY = window.scrollY;   // ať hned po rozbalení scroll nezaklapne menu zpátky
+  setTabsCollapsed(false);
+});
 $$("#themePick button").forEach(b => b.addEventListener("click", () => {
   haptic(); S.theme = b.dataset.theme; store.set("theme", S.theme); applyTheme();
   toast(S.theme === "auto" ? "Vzhled podle systému" : S.theme === "dark" ? "Tmavý režim" : "Světlý režim");
@@ -527,14 +532,27 @@ document.addEventListener("visibilitychange", () => {
   zkontrolujAktualnost();
 });
 
-/* Horní lišta se schová při scrollu dolů a vrátí se při scrollu nahoru. */
-let lastY = 0, barHidden = false;
+/* Spodní menu se při scrollu dolů smrskne do jedné ikony (aktuální
+   záložky) a při scrollu nahoru – nebo klepnutím na tu ikonu – se zase
+   rozbalí. U kraje stránky je vždy rozbalené. */
+let lastY = 0, tabsCollapsed = false;
+function setTabsCollapsed(on){
+  if (on === tabsCollapsed) return;
+  tabsCollapsed = on;
+  $("#tabbar").classList.toggle("collapsed", on);
+  $("#tabbar").setAttribute("aria-hidden", String(on));
+  $("#tabbarFab").classList.toggle("show", on);
+  $("#tabbarFab").setAttribute("aria-expanded", String(!on));
+}
+function syncFabIcon(){
+  const active = $(".tab.is-active svg");
+  if (active) $("#tabbarFab").innerHTML = active.outerHTML;
+}
 function onScroll(){
-  const y = Math.max(0, window.scrollY), bar = $("#brand"), dy = y - lastY;
-  bar.classList.toggle("stuck", y > 8);
-  if (y < 64)                        { bar.classList.remove("hide"); barHidden = false; }
-  else if (dy >  4 && !barHidden)    { bar.classList.add("hide");    barHidden = true;  }
-  else if (dy < -6 &&  barHidden)    { bar.classList.remove("hide"); barHidden = false; }
+  const y = Math.max(0, window.scrollY), dy = y - lastY;
+  if (y < 64)                            setTabsCollapsed(false);
+  else if (dy >  4 && !tabsCollapsed)    setTabsCollapsed(true);
+  else if (dy < -6 &&  tabsCollapsed)    setTabsCollapsed(false);
   lastY = y;
 }
 window.addEventListener("scroll", onScroll, { passive:true });
