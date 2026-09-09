@@ -535,11 +535,14 @@ main{max-width:560px;margin:0 auto;
 /* ── Výběr školy ────────────────────────────────────────────────── */
 .skola-dostupne{display:flex;flex-direction:column;gap:8px}
 .skola-radek{
-  display:flex;align-items:center;gap:12px;padding:12px 14px;width:100%;text-align:left;
+  display:flex;align-items:stretch;width:100%;
   border-radius:var(--r-lg);background:var(--card);border:1px solid var(--card-brd);
+}
+.skola-radek-vyber{
+  display:flex;align-items:center;gap:12px;flex:1;min-width:0;padding:12px 6px 12px 14px;text-align:left;
   transition:transform .3s var(--spring);
 }
-.skola-radek:active{transform:scale(.985)}
+.skola-radek-vyber:active{transform:scale(.985)}
 .skola-radek .zn{
   width:36px;height:36px;border-radius:11px;flex:none;display:grid;place-items:center;
   background:var(--track);color:var(--ink-2);font-size:15px;font-weight:700;
@@ -553,6 +556,14 @@ main{max-width:560px;margin:0 auto;
   flex:none;font-size:10.5px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;
   padding:4px 8px;border-radius:var(--r-pill);background:var(--accent);color:var(--on-accent);
 }
+.skola-radek .hvezda{
+  flex:none;width:46px;display:grid;place-items:center;color:var(--ink-3);
+  transition:transform .3s var(--spring),color .25s ease;
+}
+.skola-radek .hvezda svg{width:19px;height:19px;transition:fill .25s ease}
+.skola-radek .hvezda:active{transform:scale(.8)}
+.skola-radek .hvezda.on{color:var(--t-amber)}
+.skola-radek .hvezda.on svg{fill:currentColor}
 
 .skola-hledat{
   display:flex;align-items:center;gap:10px;padding:0 14px;height:46px;margin-bottom:10px;

@@ -65,7 +65,8 @@ const S = {
   view  : "den",
   filter: new Set(store.get("filter",[])),
   rating: store.get("rating",{}),
-  theme : store.get("theme","auto")     /* auto | light | dark */
+  theme : store.get("theme","auto"),    /* auto | light | dark */
+  oblibene: new Set(store.get("oblibene",[]))
 };
 
 /* ── Vzhled ─────────────────────────────────────────────────────── */
@@ -615,16 +616,30 @@ function popisekSkoly(){
   return `${S.school === "ms" ? "MŠ" : "ZŠ"} ${zaklad}`;
 }
 
+const HVEZDA = `<svg viewBox="0 0 24 24"><path d="M12 3.4l2.7 6 6.4.6-4.9 4.4 1.5 6.3L12 17.4l-5.7 3.3 1.5-6.3-4.9-4.4 6.4-.6z"/></svg>`;
+
+function prepniOblibenou(polozka){
+  haptic();
+  if (S.oblibene.has(polozka.id)) S.oblibene.delete(polozka.id); else S.oblibene.add(polozka.id);
+  store.set("oblibene", [...S.oblibene]);
+  vykresliDostupneSkoly();
+}
+
 function skolaKarta(polozka, aktivni){
-  const b = document.createElement("button");
-  b.className = "skola-radek" + (aktivni ? " aktivni" : "");
+  const row = document.createElement("div");
+  row.className = "skola-radek" + (aktivni ? " aktivni" : "");
   const popisek = polozka.id === VYCHOZI_LOKACE ? ""
     : polozka.skutecna_data ? "" : "<small>ukázková data</small>";
-  b.innerHTML = `
-    <span class="zn">${polozka.nazev.slice(0,1)}</span>
-    <span class="txt"><b>${polozka.nazev}</b>${popisek}</span>
-    ${aktivni ? `<span class="stitek">Aktivní</span>` : ""}`;
-  b.addEventListener("click", async () => {
+  const oblibena = S.oblibene.has(polozka.id);
+  row.innerHTML = `
+    <button class="skola-radek-vyber" type="button">
+      <span class="zn">${polozka.nazev.slice(0,1)}</span>
+      <span class="txt"><b>${polozka.nazev}</b>${popisek}</span>
+      ${aktivni ? `<span class="stitek">Aktivní</span>` : ""}
+    </button>
+    <button class="hvezda${oblibena ? " on" : ""}" type="button"
+      aria-label="${oblibena ? "Odebrat z oblíbených" : "Přidat do oblíbených"}" aria-pressed="${oblibena}">${HVEZDA}</button>`;
+  $(".skola-radek-vyber", row).addEventListener("click", async () => {
     if (aktivni) { $("#skolaSheet").classList.contains("in") && zavriSkolaSheet(); return; }
     haptic();
     const ok = polozka.id === VYCHOZI_LOKACE ? (zpetNaVychozi(), true) : await prepniNaSkolu(polozka);
@@ -635,7 +650,8 @@ function skolaKarta(polozka, aktivni){
       toast(`Přepnuto na ${AKTIVNI ? AKTIVNI.nazev : "Dubeč"}`);
     }
   });
-  return b;
+  $(".hvezda", row).addEventListener("click", () => prepniOblibenou(polozka));
+  return row;
 }
 
 /* Když škola sama neříká svoje město (Dubeč – vestavěná, appka jí
@@ -656,13 +672,33 @@ function odhadniMesto(polozka){
 }
 
 function vykresliDostupneSkoly(){
-  const wrap = $("#skolaDostupne"); wrap.innerHTML = "";
+  const wrap = $("#skolaDostupne");
+  const otevrenaPredtim = new Set($$(".skola-sekce.otevrena .skola-sekce-hlavicka > span:first-child", wrap)
+    .map(el => el.textContent));
+  wrap.innerHTML = "";
 
   const vsechny = [
     { id: VYCHOZI_LOKACE, nazev: "Dubeč", kratky: "Dubeč", mesto: "Praha" },
     ...(registrSkol || []),
   ];
   const aktivniId = AKTIVNI ? AKTIVNI.id : VYCHOZI_LOKACE;
+
+  if (S.oblibene.size){
+    const oblibene = vsechny.filter(s => S.oblibene.has(s.id))
+      .sort((a, b) => (a.kratky || a.nazev).localeCompare(b.kratky || b.nazev, "cs"));
+    if (oblibene.length){
+      const sekce = document.createElement("div");
+      sekce.className = "skola-sekce skola-oblibene otevrena";
+      sekce.innerHTML = `
+        <div class="skola-sekce-hlavicka">
+          <span>★ Oblíbené</span><span class="pocet">${oblibene.length}</span>
+        </div>
+        <div class="skola-sekce-telo"><div></div></div>`;
+      const telo = $(".skola-sekce-telo > div", sekce);
+      oblibene.forEach(s => telo.appendChild(skolaKarta(s, s.id === aktivniId)));
+      wrap.appendChild(sekce);
+    }
+  }
 
   const podleMesta = {};
   vsechny.forEach(s => (podleMesta[odhadniMesto(s)] ??= []).push(s));
@@ -673,7 +709,7 @@ function vykresliDostupneSkoly(){
     const maAktivni = polozky.some(s => s.id === aktivniId);
 
     const sekce = document.createElement("div");
-    sekce.className = "skola-sekce" + (maAktivni ? " otevrena" : "");
+    sekce.className = "skola-sekce" + (maAktivni || otevrenaPredtim.has(mesto) ? " otevrena" : "");
     sekce.innerHTML = `
       <button class="skola-sekce-hlavicka">
         <span>${mesto}</span><span class="pocet">${polozky.length}</span>
