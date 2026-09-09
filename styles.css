@@ -80,6 +80,10 @@ body{
 svg{width:22px;height:22px;fill:none;stroke:currentColor;stroke-width:1.8;
     stroke-linecap:round;stroke-linejoin:round}
 button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
+/* Bez tohohle čeká iOS Safari ~300ms, jestli druhé ťuknutí nepřijde jako
+   gesto pro přiblížení (dvojklik-zoom), a při scrollu tenhle časový polštář
+   klidně sežere celý tap – tlačítko se pak jeví jako "neklikatelné". */
+button, a{touch-action:manipulation}
 h1,h2,h3{margin:0;letter-spacing:-.028em}
 
 /* jemný barevný přísvit pod obsahem */
@@ -356,6 +360,7 @@ main{max-width:560px;margin:0 auto;
   border:1px solid var(--card-brd);
   box-shadow:0 8px 30px -10px rgba(16,40,28,.28),0 1px 2px rgba(16,40,28,.05);
   transition:opacity .35s var(--spring), transform .35s var(--spring);
+  will-change:transform;touch-action:manipulation;
 }
 /* Při scrollu dolů se celý pruh smrskne směrem ke svému středu a rozplyne
    – z téhož místa se pak (viz .tabbar-fab) vynoří ikona a odjede doleva. */
@@ -391,6 +396,7 @@ main{max-width:560px;margin:0 auto;
   box-shadow:0 8px 30px -10px rgba(16,40,28,.28),0 1px 2px rgba(16,40,28,.05);
   opacity:0;transform:translateX(calc(50vw - 44px)) scale(.5);pointer-events:none;
   transition:opacity .3s ease, transform .5s var(--spring);
+  will-change:transform;touch-action:manipulation;
 }
 .tabbar-fab svg{width:23px;height:23px}
 .tabbar-fab.show{
