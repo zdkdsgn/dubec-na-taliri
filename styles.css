@@ -366,7 +366,7 @@ main{max-width:560px;margin:0 auto;
 
 /* ── Tab bar ────────────────────────────────────────────────────── */
 .tabbar{
-  position:fixed;left:50%;bottom:calc(6px + var(--safe-b));
+  position:fixed;left:50%;bottom:calc(2px + var(--safe-b));
   transform:translateX(-50%);
   z-index:45;display:grid;grid-template-columns:repeat(4,1fr);gap:2px;
   width:min(calc(100% - 32px),420px);padding:6px;border-radius:var(--r-pill);
@@ -402,7 +402,7 @@ main{max-width:560px;margin:0 auto;
    pozpátku. calc() počítá posun ze šířky okna, funguje na libovolný
    displej i po otočení telefonu. ────────────────────────────────── */
 .tabbar-fab{
-  position:fixed;left:18px;bottom:calc(6px + var(--safe-b));
+  position:fixed;left:18px;bottom:calc(2px + var(--safe-b));
   z-index:45;width:52px;height:52px;display:grid;place-items:center;
   border-radius:50%;color:var(--accent);
   background:color-mix(in srgb,var(--card) 88%,transparent);
