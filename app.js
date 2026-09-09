@@ -223,6 +223,12 @@ function aktualizujHlavicky(){
   ["heroSchool", "heroSchoolTyden", "heroSchoolAlergeny", "heroSchoolInfo"].forEach(id => {
     const el = $("#" + id); if (el) el.textContent = p;
   });
+  const nazevAppky = `${p} na talíři`;
+  if (document.title !== nazevAppky) document.title = nazevAppky;
+  const appleTitle = $('meta[name="apple-mobile-web-app-title"]');
+  if (appleTitle) appleTitle.setAttribute("content", nazevAppky);
+  const popis = $('meta[name="description"]');
+  if (popis) popis.setAttribute("content", `Jídelníček ${p} – celý den na jednom talíři.`);
 }
 
 function renderDen(){
