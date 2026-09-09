@@ -4,7 +4,7 @@
 (() => {
 "use strict";
 
-const D  = window.MENU_DATA;
+let D  = window.MENU_DATA;
 const $  = (s, r = document) => r.querySelector(s);
 const $$ = (s, r = document) => [...r.querySelectorAll(s)];
 
@@ -220,8 +220,9 @@ function mealNode(m, date){
 /* ── Pohled Den ─────────────────────────────────────────────────── */
 function renderDen(){
   const mon = monday(S.date);
-  $("#heroSchool").textContent = S.school === "ms" ? "MŠ Dubeč" : "ZŠ Dubeč";
+  $("#heroSchool").textContent = AKTIVNI ? AKTIVNI.nazev : (S.school === "ms" ? "MŠ Dubeč" : "ZŠ Dubeč");
   $("#weekLabel").textContent  = `${short(mon)} – ${short(addD(mon,4))} ${parse(mon).getFullYear()}`;
+  $(".segmented").hidden = !!AKTIVNI;
   $(".segmented").classList.toggle("ms", S.school === "ms");
   $$(".seg").forEach(b => b.setAttribute("aria-selected", b.dataset.school === S.school));
 
@@ -393,7 +394,8 @@ function setView(v){
 /* ── Sdílení ────────────────────────────────────────────────────── */
 function shareWeek(){
   const mon = monday(S.date);
-  let txt = `🍽️ Jídelníček ${S.school === "ms" ? "MŠ" : "ZŠ"} Dubeč\n${short(mon)}–${short(addD(mon,4))}\n`;
+  const jmenoSkoly = AKTIVNI ? AKTIVNI.nazev : `${S.school === "ms" ? "MŠ" : "ZŠ"} Dubeč`;
+  let txt = `🍽️ Jídelníček ${jmenoSkoly}\n${short(mon)}–${short(addD(mon,4))}\n`;
   for (let i = 0; i < 5; i++){
     const d = addD(mon,i), list = meals(d, S.school);
     if (!list.length) continue;
@@ -455,6 +457,166 @@ const weekStep = n => {
   toast("Pro tento týden zatím jídelníček nemáme");
 };
 
+/* ── Výběr školy ──────────────────────────────────────────────────
+   Výchozí appka (localStorage bez uloženého "lokace", nebo VYCHOZI_LOKACE)
+   se chová přesně jako dřív – bere data z vestavěného data.js, žádný
+   síťový dotaz navíc. Teprve když si rodič vybere jinou školu, appka
+   za běhu stáhne schools/<id>/{base,days}.json a nahradí jimi D.days –
+   allergeny i typy chodů (D.courses/D.allergens) zůstávají společné,
+   ty se nemění škola od školy.
+──────────────────────────────────────────────────────────────────── */
+const VYCHOZI_LOKACE = "dubec";
+const SKOLY_PROXY    = "https://zs-jidelny.zdkdsgn.workers.dev/";
+let AKTIVNI = null;   // {id, nazev, skutecna_data} když je zvolena jiná škola než výchozí
+let registrSkol = null;
+
+async function nactiRegistr(){
+  if (registrSkol) return registrSkol;
+  try {
+    const r = await fetch("schools/index.json", { cache: "no-store" });
+    registrSkol = r.ok ? await r.json() : [];
+  } catch { registrSkol = []; }
+  return registrSkol;
+}
+
+async function stahniSkolu(id){
+  const rd = await fetch(`schools/${id}/days.json`, { cache: "no-store" });
+  if (!rd.ok) throw new Error(`days.json ${rd.status}`);
+  const dny = await rd.json();
+
+  let base = {};
+  try {
+    const rb = await fetch(`schools/${id}/base.json`, { cache: "no-store" });
+    if (rb.ok) base = await rb.json();
+  } catch { /* meta je jen na dozdobení, appka bez ní funguje */ }
+
+  // Jednokuchyňová škola nemá ms/zs split – zabalíme ji pod "zs",
+  // ať appka pro ni beze změny použije existující vykreslování.
+  const zabaleneDny = {};
+  for (const [den, zaznam] of Object.entries(dny)) {
+    const chody = Array.isArray(zaznam) ? zaznam : (zaznam.chody || []);
+    zabaleneDny[den] = { zs: chody };
+    const cas = Array.isArray(zaznam) ? null : zaznam.vydej;
+    if (cas) zabaleneDny[den].vydej = { zs: cas };
+  }
+  return { dny: zabaleneDny, base };
+}
+
+async function prepniNaSkolu(polozka){
+  try {
+    const { dny, base } = await stahniSkolu(polozka.id);
+    D = {
+      ...window.MENU_DATA,
+      meta: { ...window.MENU_DATA.meta, ...base, real: { zs: !!polozka.skutecna_data } },
+      days: dny,
+    };
+    AKTIVNI = polozka;
+    S.school = "zs";
+    S.date   = nearestSchoolDay(TODAY);
+    store.set("lokace", polozka.id);
+    store.set("lokaceData", polozka);
+    return true;
+  } catch {
+    toast("Škola se nepodařilo načíst – zkuste to znovu");
+    return false;
+  }
+}
+
+function zpetNaVychozi(){
+  D = window.MENU_DATA;
+  AKTIVNI = null;
+  S.school = store.get("school", "zs") || "zs";
+  S.date   = nearestSchoolDay(TODAY);
+  store.set("lokace", VYCHOZI_LOKACE);
+}
+
+function skolaKarta(polozka, aktivni){
+  const b = document.createElement("button");
+  b.className = "skola-radek" + (aktivni ? " aktivni" : "");
+  const popisek = polozka.id === VYCHOZI_LOKACE ? ""
+    : polozka.skutecna_data ? "" : "<small>ukázková data</small>";
+  b.innerHTML = `
+    <span class="zn">${polozka.nazev.slice(0,1)}</span>
+    <span class="txt"><b>${polozka.nazev}</b>${popisek}</span>
+    ${aktivni ? `<span class="stitek">Aktivní</span>` : ""}`;
+  b.addEventListener("click", async () => {
+    if (aktivni) { $("#skolaSheet").classList.contains("in") && zavriSkolaSheet(); return; }
+    haptic();
+    const ok = polozka.id === VYCHOZI_LOKACE ? (zpetNaVychozi(), true) : await prepniNaSkolu(polozka);
+    if (ok) {
+      $("#skolaAktualni").textContent = AKTIVNI ? AKTIVNI.nazev : "Dubeč";
+      renderAll();
+      zavriSkolaSheet();
+      toast(`Přepnuto na ${AKTIVNI ? AKTIVNI.nazev : "Dubeč"}`);
+    }
+  });
+  return b;
+}
+
+function vykresliDostupneSkoly(){
+  const wrap = $("#skolaDostupne"); wrap.innerHTML = "";
+  wrap.appendChild(skolaKarta({ id: VYCHOZI_LOKACE, nazev: "Dubeč (výchozí)" }, !AKTIVNI));
+  (registrSkol || []).forEach(s => wrap.appendChild(skolaKarta(s, !!(AKTIVNI && AKTIVNI.id === s.id))));
+}
+
+let hledaniTimer = null;
+async function hledejSkolu(dotaz){
+  const vysledky = $("#skolaVysledky");
+  if (dotaz.trim().length < 4) { vysledky.innerHTML = ""; return; }
+  vysledky.innerHTML = `<div class="skola-stav">Hledám…</div>`;
+  try {
+    const r = await fetch(SKOLY_PROXY + "?q=" + encodeURIComponent(dotaz));
+    const data = await r.json();
+    if (!data.ok || !data.vysledky.length) {
+      vysledky.innerHTML = `<div class="skola-stav">${
+        data.stav === "prilis_siroke" ? "Moc obecný dotaz – upřesněte název nebo ulici."
+                                       : "Nic jsme nenašli."
+      }</div>`;
+      return;
+    }
+    const znameId = new Set((registrSkol || []).map(s => s.id));
+    vysledky.innerHTML = "";
+    data.vysledky.forEach(v => {
+      const dostupna = znameId.has(v.id);
+      const radek = document.createElement("div");
+      radek.className = "skola-vysledek";
+      radek.innerHTML = `
+        <span class="txt"><b>${v.nazev}</b>${dostupna ? "" : "<small>zatím bez staženého jídelníčku</small>"}</span>
+        ${dostupna ? `<button>Vybrat</button>` : ""}`;
+      if (dostupna) {
+        radek.querySelector("button").addEventListener("click", async () => {
+          haptic();
+          const polozka = registrSkol.find(s => s.id === v.id);
+          const ok = await prepniNaSkolu(polozka);
+          if (ok) {
+            $("#skolaAktualni").textContent = AKTIVNI.nazev;
+            renderAll();
+            zavriSkolaSheet();
+            toast(`Přepnuto na ${AKTIVNI.nazev}`);
+          }
+        });
+      }
+      vysledky.appendChild(radek);
+    });
+  } catch {
+    vysledky.innerHTML = `<div class="skola-stav">Vyhledávání teď nejde – zkuste to později.</div>`;
+  }
+}
+
+async function otevriSkolaSheet(){
+  haptic();
+  await nactiRegistr();
+  vykresliDostupneSkoly();
+  $("#skolaQuery").value = "";
+  $("#skolaVysledky").innerHTML = "";
+  $("#skolaScrim").hidden = false; $("#skolaSheet").hidden = false;
+  requestAnimationFrame(() => { $("#skolaScrim").classList.add("in"); $("#skolaSheet").classList.add("in"); });
+}
+function zavriSkolaSheet(){
+  $("#skolaScrim").classList.remove("in"); $("#skolaSheet").classList.remove("in");
+  setTimeout(() => { $("#skolaScrim").hidden = true; $("#skolaSheet").hidden = true; }, 420);
+}
+
 /* ── Události ───────────────────────────────────────────────────── */
 $$(".seg").forEach(b => b.addEventListener("click", () => {
   haptic(); S.school = b.dataset.school; store.set("school", S.school); renderDen(); renderTyden();
@@ -467,6 +629,12 @@ $("#weekNow").addEventListener("click",  () => {
 });
 $("#toWeek").addEventListener("click",      () => { haptic(); setView("tyden"); });
 $("#toAllergens").addEventListener("click", () => { haptic(); setView("alergeny"); });
+$("#toSkola").addEventListener("click", otevriSkolaSheet);
+$("#skolaScrim").addEventListener("click", zavriSkolaSheet);
+$("#skolaQuery").addEventListener("input", e => {
+  clearTimeout(hledaniTimer);
+  hledaniTimer = setTimeout(() => hledejSkolu(e.target.value), 400);
+});
 $("#tabbarFab").addEventListener("click", () => {
   haptic();
   lastY = window.scrollY;   // ať hned po rozbalení scroll nezaklapne menu zpátky
@@ -482,7 +650,7 @@ $("#clearAllergens").addEventListener("click", () => {
 });
 $("#scrim").addEventListener("click", closeSheet);
 document.addEventListener("keydown", e => {
-  if (e.key === "Escape") closeSheet();
+  if (e.key === "Escape") { closeSheet(); zavriSkolaSheet(); }
   if (S.view === "den" && e.key === "ArrowLeft")  step(-1);
   if (S.view === "den" && e.key === "ArrowRight") step(1);
 });
@@ -501,6 +669,21 @@ swipe($("#timeline"), p => step(1, p), p => step(-1, p));
     sh.style.transform = ""; if (dy > 110) closeSheet(); y0 = null;
   });
 })();
+
+function pripojStazeniSheetu(sh, zavri){
+  let y0 = null;
+  sh.addEventListener("touchstart", e => { if (sh.scrollTop <= 0) y0 = e.touches[0].clientY; }, { passive:true });
+  sh.addEventListener("touchmove",  e => {
+    if (y0 === null) return;
+    const dy = e.touches[0].clientY - y0; if (dy > 0) sh.style.transform = `translateY(${dy}px)`;
+  }, { passive:true });
+  sh.addEventListener("touchend", e => {
+    if (y0 === null) return;
+    const dy = e.changedTouches[0].clientY - y0;
+    sh.style.transform = ""; if (dy > 110) zavri(); y0 = null;
+  });
+}
+pripojStazeniSheetu($("#skolaSheet"), zavriSkolaSheet);
 
 /* ── Detekce nové verze po návratu do aplikace ──────────────────
    iOS appku na ploše často jen probudí z paměti a stránku znovu nenačte,
@@ -580,7 +763,21 @@ $("#installBtn").addEventListener("click", async () => {
 if ("serviceWorker" in navigator && location.protocol.startsWith("http"))
   window.addEventListener("load", () => navigator.serviceWorker.register("sw.js").catch(() => {}));
 
-applyTheme(); renderAll(); setView("den"); onScroll();
-overVerzi(false);   // appka právě naběhla čerstvě – jen zapamatovat výchozí verzi
-setInterval(renderDen, 60_000);
+(async () => {
+  applyTheme();
+
+  // Uložená volba jiné školy než výchozí Dubeč – načíst ji ještě před
+  // prvním vykreslením, ať appka rovnou naskočí na správná data (žádné
+  // blikání "nejdřív Dubeč, pak přeskok na tu vybranou").
+  const ulozenaLokace = store.get("lokace", VYCHOZI_LOKACE);
+  if (ulozenaLokace !== VYCHOZI_LOKACE) {
+    const ulozenaData = store.get("lokaceData", null);
+    if (ulozenaData) await prepniNaSkolu(ulozenaData);
+  }
+  $("#skolaAktualni").textContent = AKTIVNI ? AKTIVNI.nazev : "Dubeč";
+
+  renderAll(); setView("den"); onScroll();
+  overVerzi(false);   // appka právě naběhla čerstvě – jen zapamatovat výchozí verzi
+  setInterval(renderDen, 60_000);
+})();
 })();

@@ -40,12 +40,20 @@ byl původní kód psaný natvrdo.
 
 ## Co je vědomě odložené (rozhodnutí, ne opomenutí)
 
-1. **Appka samotná (index.html/app.js) víc škol zatím neumí.** Pořád
-   umí jen Dubeč, přesně jako dneska. Přepnutí na "appka si školu
-   vybere sama" je samostatný kus práce – hlavně UI pro výběr/hledání
-   školy a runtime načítání `schools/<id>/…` místo vestavěného
-   `data.js`. Chce to nejdřív probrat UX (textové hledání? mapa?
-   "poblíž mě"?), než se do toho pustím naslepo.
+1. **Appka umí vybrat jinou školu – hotovo.** Info → „Vaše škola"
+   otevře výběr: rychlé přepnutí na cokoli v `schools/index.json`,
+   nebo živé hledání přes `zs-jidelny.zdkdsgn.workers.dev`. Vybraná
+   škola se stáhne za běhu (`schools/<id>/{base,days}.json`) a nahradí
+   jen `D.days` – `D.courses`/`D.allergens` zůstávají společné pro
+   všechny školy. Výchozí appka (bez uložené volby) se chová úplně
+   stejně jako dřív, žádný síťový dotaz navíc.
+
+   Jednokuchyňová škola (cokoli mimo Dubeč) se zabalí pod interní
+   skupinu `"zs"` a segmentovaný přepínač ZŠ/MŠ se schová – ten zůstává
+   jen pro Dubeč, která je jediná appkou podporovaná "spárovaná"
+   lokalita (ruční MŠ + reálná ZŠ pod jedním pohledem). Obecnější model
+   (víc kuchyní na jednu lokalitu) není zatím potřeba – až přibude druhá
+   taková škola, dá se doplnit.
 
 2. **Živé vyhledávání škol z appky – nasazeno.**
    `cloudflare/skoly-proxy/` je Cloudflare Worker, který dotaz přepošle

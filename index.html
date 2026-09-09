@@ -141,6 +141,14 @@
         <div><h3>Nezapomínáme na pití</h3><p>Voda a čaj jsou dětem k dispozici po celý den.</p></div>
       </div>
 
+      <button class="card link-card" id="toSkola">
+        <div class="notice-ico tint-blue">
+          <svg viewBox="0 0 24 24"><path d="M3 11l9-7 9 7M5 10v9a1 1 0 001 1h4v-6h4v6h4a1 1 0 001-1v-9"/></svg>
+        </div>
+        <div><h3>Vaše škola</h3><p id="skolaAktualni">Dubeč</p></div>
+        <svg class="chev" viewBox="0 0 24 24"><path d="M9 5l7 7-7 7"/></svg>
+      </button>
+
       <button class="card link-card" id="toAllergens">
         <div class="notice-ico tint-amber">
           <svg viewBox="0 0 24 24" fill="currentColor" stroke="none">
@@ -209,6 +217,26 @@
 <div class="sheet" id="sheet" hidden role="dialog" aria-modal="true" aria-label="Detail jídla">
   <div class="sheet-grabber"></div>
   <div class="sheet-body" id="sheetBody"></div>
+</div>
+
+<div class="sheet-scrim" id="skolaScrim" hidden></div>
+<div class="sheet" id="skolaSheet" hidden role="dialog" aria-modal="true" aria-label="Výběr školy">
+  <div class="sheet-grabber"></div>
+  <div class="sheet-body">
+    <h2>Vaše škola</h2>
+    <p class="sub">Appka má zatím stažená data jen pro pár škol – ostatní jde najít, ale zatím bez jídelníčku.</p>
+
+    <div class="skola-dostupne" id="skolaDostupne"></div>
+
+    <div class="sheet-sec">
+      <h4>Hledat jinou školu</h4>
+      <div class="skola-hledat">
+        <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+        <input type="search" id="skolaQuery" placeholder="Název nebo ulice, aspoň 4 znaky" autocomplete="off">
+      </div>
+      <div id="skolaVysledky"></div>
+    </div>
+  </div>
 </div>
 
 <div class="toast" id="toast" hidden></div>
