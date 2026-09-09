@@ -16,6 +16,9 @@ css    = (root / "styles.css").read_text()
 data   = (root / "data.js").read_text()
 app    = (root / "app.js").read_text()
 
+# titulek se přebírá přímo z index.html, ať appku stačí přejmenovat na jednom místě
+titulek = re.search(r"<title>(.*?)</title>", html).group(1)
+
 # tělo stránky bez <head> – artefakt / jednosouborová verze si hlavičku nese sama
 body = re.search(r"<body>\n(.*)\n</body>", html, re.S).group(1)
 body = body.replace('<script src="data.js"></script>\n<script src="app.js"></script>', "")
@@ -23,7 +26,7 @@ body = body.replace('<script src="data.js"></script>\n<script src="app.js"></scr
 # service worker a manifest v jednosouborové verzi neexistují
 app = re.sub(r'if \("serviceWorker" in navigator.*?\.catch\(\(\) => \{\}\)\);\n', "", app, flags=re.S)
 
-out.write_text(f"""<title>Dubeč na talíři</title>
+out.write_text(f"""<title>{titulek}</title>
 <style>
 {css}
 </style>
