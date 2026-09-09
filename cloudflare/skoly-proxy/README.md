@@ -7,17 +7,25 @@ a vrátí appce s CORS hlavičkami. Appka samotná zůstává na GitHub Pages �
 tenhle worker se volá jen při hledání/přidávání školy, ne při běžném
 prohlížení jídelníčku.
 
-## Nasazení (jednorázově)
+## Nasazeno
+
+**https://zs-jidelny.zdkdsgn.workers.dev**
+
+```bash
+curl "https://zs-jidelny.zdkdsgn.workers.dev/?q=Starodubečská"
+```
+
+Znovu nasadit po úpravě `src/worker.js`:
 
 ```bash
 cd cloudflare/skoly-proxy
-npx wrangler login      # otevře prohlížeč, přihlásíte se / založíte účet zdarma
 npx wrangler deploy
 ```
 
-Vypíše se adresa tvaru `https://dubec-skoly-proxy.<váš-subdomain>.workers.dev`
-– tu si poznamenejte, appka ji bude potřebovat, až se postaví výběr
-školy.
+(Poprvé je potřeba `npx wrangler login` – přihlášení přes prohlížeč
+k Cloudflare účtu, jednorázově. Subdoména účtu `zdkdsgn.workers.dev`
+je nastavená v Cloudflare dashboardu a je sdílená pro všechny budoucí
+workery na tomhle účtu, ne jen pro tenhle jeden.)
 
 Zdarma stačí (Workers free plán: 100 000 požadavků/den, bez platební
 karty) – worker se volá jen při hledání školy, ne při běžném provozu.
