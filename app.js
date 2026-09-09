@@ -552,8 +552,11 @@ function zpetNaVychozi(){
    napevno v každém "kratky" zvlášť. */
 function popisekSkoly(){
   if (!AKTIVNI) return S.school === "ms" ? "MŠ Dubeč" : "ZŠ Dubeč";
-  const zaklad = AKTIVNI.kratky || AKTIVNI.nazev;
-  return AKTIVNI.viceSkupin ? `${S.school === "ms" ? "MŠ" : "ZŠ"} ${zaklad}` : zaklad;
+  let zaklad = AKTIVNI.kratky || AKTIVNI.nazev;
+  if (!AKTIVNI.viceSkupin) return zaklad;
+  zaklad = zaklad.replace(/^(ZŠ|MŠ)\s+/, "");   // "kratky" psané pro jednoskupinovou
+                                                  // podobu ať appka nezdvojí vlastním prefixem
+  return `${S.school === "ms" ? "MŠ" : "ZŠ"} ${zaklad}`;
 }
 
 function skolaKarta(polozka, aktivni){
