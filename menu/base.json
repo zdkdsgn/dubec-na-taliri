@@ -1,8 +1,8 @@
 {
   "meta": {
     "school": "MŠ & ZŠ Dubeč",
-    "updated": "2026-09-09T10:14:06+02:00",
-    "week": "2026-09-01 – 2026-09-18",
+    "updated": "2026-09-09T10:23:30+02:00",
+    "week": "podle staženého jídelníčku",
     "sources": {
       "zs": "https://www.jidelna.cz/jidelni-listek/?jidelna=47",
       "ms": "https://www.msdubec.cz/stranka-jidelnicek-45"
@@ -89,31 +89,26 @@
     "presnidavka": {
       "label": "Přesnídávka",
       "icon": "sun",
-      "time": "8:45",
       "tone": "amber"
     },
     "polevka": {
       "label": "Polévka",
       "icon": "bowl",
-      "time": "11:40",
       "tone": "orange"
     },
     "obed": {
       "label": "Hlavní chod",
       "icon": "fork",
-      "time": "11:45",
       "tone": "green"
     },
     "obed2": {
       "label": "Hlavní chod II",
       "icon": "fork2",
-      "time": "11:45",
       "tone": "blue"
     },
     "svacina": {
       "label": "Odpolední svačina",
       "icon": "cookie",
-      "time": "14:30",
       "tone": "purple"
     }
   }

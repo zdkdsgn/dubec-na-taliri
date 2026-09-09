@@ -98,38 +98,56 @@ function toast(msg){
   clearTimeout(toastT);
   toastT = setTimeout(() => { el.classList.remove("in"); setTimeout(() => el.hidden = true, 400); }, 2200);
 }
-function nowCourse(date){
-  if (date !== TODAY) return null;
-  const t = new Date(), m = t.getHours()*60 + t.getMinutes();
-  const win = { presnidavka:[7*60,10*60], polevka:[10*60,11*60+45],
-                obed:[11*60+45,13*60+30], svacina:[13*60+30,15*60+30] };
-  return Object.keys(win).find(c => m >= win[c][0] && m < win[c][1]) || null;
+/* Výdejní okno bereme z jídelního lístku. Kde ho jídelna neuvádí
+   (mateřská škola), neukazujeme žádný čas – radši nic než odhad. */
+const vydej = (date, school) => D.days[date]?.vydej?.[school] || null;
+
+function vydejBezi(date, school){
+  if (date !== TODAY) return false;
+  const v = vydej(date, school);
+  if (!v) return false;
+  const [od, do_] = v.split("–").map(t => {
+    const [h, m] = t.split(":").map(Number);
+    return h * 60 + m;
+  });
+  const t = new Date(), ted = t.getHours() * 60 + t.getMinutes();
+  return ted >= od && ted < do_;
 }
+
 const meals = (date, school) => D.days[date]?.[school] || [];
 const hasDay = (date, school = S.school) => (D.days[date]?.[school] || []).length > 0;
 const hits  = m => m.a.filter(n => S.filter.has(n));
+/* Položky chodu; u ručně psané MŠ je jen jedna – samotné jídlo. */
+const casti     = m => m.p || [{ l: "Jídlo", n: m.n, a: m.a }];
+const hlavni    = m => casti(m).find(c => c.l === "Jídlo") || casti(m)[0];
+const zasahHlav = m => hlavni(m).a.some(n => S.filter.has(n));
+const kdeZasah  = m => [...new Set(casti(m)
+  .filter(c => c.a.some(n => S.filter.has(n)))
+  .map(c => c.l.toLowerCase()))];
 
 /* ── Karta jídla ────────────────────────────────────────────────── */
-function mealNode(m, date, live){
+function mealNode(m, date){
   const c    = D.courses[m.c];
   const hs   = hits(m);
+  const vJid = hs.length && zasahHlav(m);          // alergen přímo v jídle
+  const mimo = hs.length && !vJid;                 // jen v příloze / nápoji
   const lead = (m.c === "obed" || m.c === "obed2") && !hs.length;
 
   let badge = "";
-  if (hs.length)            badge = `<span class="badge warn">Alergen ${hs.join(", ")}</span>`;
-  else if (live === m.c)    badge = `<span class="badge now">Právě teď</span>`;
+  if (vJid)                 badge = `<span class="badge warn">Alergen ${hs.join(", ")}</span>`;
+  else if (mimo)            badge = `<span class="badge warn-soft">Alergen ${hs.join(", ")} · ${kdeZasah(m).join(", ")}</span>`;
   else if (m.c === "obed")  badge = `<span class="badge lead">Oběd</span>`;
   else if (m.c === "obed2") badge = `<span class="badge lead">Oběd II</span>`;
 
   const el = document.createElement("button");
-  el.className = "meal" + (hs.length ? " flagged" : lead ? " lead" : "");
+  el.className = "meal" + (vJid ? " flagged" : mimo ? " flagged-soft" : lead ? " lead" : "");
   el.innerHTML = `
     <span class="meal-ico tone-${c.tone}">${ICON[m.c]}</span>
     <span class="meal-body">
       <span class="meal-kicker">${c.label}${badge}</span>
       <span class="meal-name">${m.n}</span>
       ${m.d ? `<span class="meal-desc">${m.d}</span>` : ""}
-      ${m.a.length ? `<span class="a-chip${hs.length ? " hit" : ""}">${I_WHEAT}${m.a.join(", ")}${I_INFO}</span>` : ""}
+      ${m.a.length ? `<span class="a-chip${vJid ? " hit" : mimo ? " hit-soft" : ""}">${I_WHEAT}${m.a.join(", ")}${I_INFO}</span>` : ""}
     </span>`;
   el.addEventListener("click", () => openSheet(m, date));
   return el;
@@ -156,15 +174,21 @@ function renderDen(){
 
   $("#dayName").innerHTML = `${DOW[parse(S.date).getDay()]} <span class="date">${long(S.date)}</span>`;
 
+  const cas = vydej(S.date, S.school), serve = $("#dayServe");
+  serve.hidden = !cas;
+  if (cas) serve.innerHTML = vydejBezi(S.date, S.school)
+    ? `<span class="live"></span>Právě se vydává · ${cas}`
+    : `Výdej ${cas}`;
+
   $("#demoNote").hidden = !!D.meta.real?.[S.school];
 
   const tl = $("#timeline"); tl.innerHTML = "";
-  const list = meals(S.date, S.school), live = nowCourse(S.date);
+  const list = meals(S.date, S.school);
   if (!list.length){
     tl.innerHTML = `<div class="empty">
       <svg viewBox="0 0 24 24"><path d="M4 11h16a8 8 0 01-16 0z"/><path d="M9 7c0-1 1-1.4 1-2.4S9 3 9 3m6 4c0-1 1-1.4 1-2.4S15 3 15 3"/></svg>
       <div>Pro tento den zatím jídelníček nemáme.</div></div>`;
-  } else list.forEach(m => tl.appendChild(mealNode(m, S.date, live)));
+  } else list.forEach(m => tl.appendChild(mealNode(m, S.date)));
 }
 
 /* ── Pohled Týden ───────────────────────────────────────────────── */
@@ -187,7 +211,7 @@ function renderTyden(){
       </button>
       <div class="wday-body"><div><div class="meals"></div></div></div>`;
     const tl = $(".meals", box);
-    list.forEach(m => tl.appendChild(mealNode(m, d, nowCourse(d))));
+    list.forEach(m => tl.appendChild(mealNode(m, d)));
     $(".wday-head", box).addEventListener("click", () => { haptic(); box.classList.toggle("open"); });
     wrap.appendChild(box);
   }
@@ -234,7 +258,7 @@ function openSheet(m, date){
   $("#sheetBody").innerHTML = `
     <div class="sheet-kicker">
       <span class="meal-ico tone-${c.tone}">${ICON[m.c]}</span>
-      ${c.label} · ${DOW[parse(date).getDay()]} ${short(date)} · ${c.time}
+      ${c.label} · ${DOW[parse(date).getDay()]} ${short(date)}${vydej(date, S.school) ? " · " + vydej(date, S.school) : ""}
     </div>
     <h2>${m.n}</h2>
     ${m.d ? `<p class="sub">${m.d}</p>` : ""}
@@ -242,9 +266,17 @@ function openSheet(m, date){
       ${m.a.length ? m.a.map(n => `
         <div class="a-full${S.filter.has(n) ? " hit" : ""}">
           <span class="n">${n}</span>
-          <span><b>${D.allergens[n].name}</b><small>${D.allergens[n].detail}</small></span>
+          <span><b>${D.allergens[n].name}</b><small>${
+            m.p ? m.p.filter(x => x.a.includes(n)).map(x => `${x.l}: ${x.n}`).join(" · ")
+                : D.allergens[n].detail}</small></span>
         </div>`).join("") : `<p class="sub" style="margin:0">Bez uvedených alergenů.</p>`}
     </div>
+    ${m.p && m.p.length > 1 ? `<div class="sheet-sec"><h4>Co je na talíři</h4>
+      ${m.p.map(x => `<div class="a-full">
+        <span class="l">${x.l}</span>
+        <span><b>${x.n}</b>${x.a.length ? `<small>alergeny ${x.a.join(", ")}</small>` : ""}</span>
+      </div>`).join("")}
+    </div>` : ""}
     <div class="sheet-sec"><h4>Chutnalo dětem?</h4>
       <div class="rate">
         <button data-r="1"  class="${r === 1  ? "on" : ""}">👍<span class="lbl">Super</span></button>

@@ -457,3 +457,35 @@ main{max-width:560px;margin:0 auto;padding:6px 18px calc(118px + var(--safe-b))}
 .theme-pick button svg{width:20px;height:20px}
 .theme-pick button.on{background:var(--card);color:var(--accent);
   box-shadow:0 1px 2px rgba(16,40,28,.10),0 4px 12px -8px rgba(16,40,28,.35)}
+
+/* ── Výdejní čas v hlavičce dne ─────────────────────────────────── */
+.dayhead-txt{flex:1;min-width:0}
+.serve{
+  display:flex;align-items:center;gap:7px;margin:5px 0 0;
+  font-size:13px;font-weight:560;color:var(--ink-2);font-variant-numeric:tabular-nums;
+}
+.serve .live{
+  width:7px;height:7px;border-radius:50%;background:var(--accent);flex:none;
+  box-shadow:0 0 0 0 color-mix(in srgb,var(--accent) 55%,transparent);
+  animation:tep 2s ease-out infinite;
+}
+@keyframes tep{
+  70%{box-shadow:0 0 0 7px color-mix(in srgb,var(--accent) 0%,transparent)}
+  100%{box-shadow:0 0 0 0 color-mix(in srgb,var(--accent) 0%,transparent)}
+}
+
+/* ── Alergen mimo hlavní jídlo (příloha, doplněk, nápoj) ────────── */
+.badge.warn-soft{background:var(--t-amber-bg);color:var(--t-amber);
+  box-shadow:inset 0 0 0 1px color-mix(in srgb,var(--t-amber) 35%,transparent)}
+.meal.flagged-soft{background:var(--t-amber-bg);
+  border-color:color-mix(in srgb,var(--t-amber) 26%,transparent)}
+.meal.flagged-soft .meal-ico{background:color-mix(in srgb,var(--t-amber) 15%,transparent);
+  color:var(--t-amber)}
+.a-chip.hit-soft{background:color-mix(in srgb,var(--t-amber) 18%,transparent);color:var(--t-amber)}
+.a-chip.hit-soft .wheat,.a-chip.hit-soft .i{color:var(--t-amber)}
+
+/* ── Rozpis položek chodu v detailu ─────────────────────────────── */
+.a-full .l{
+  width:64px;flex:none;font-size:11px;font-weight:660;letter-spacing:.06em;
+  text-transform:uppercase;color:var(--ink-3);padding-top:2px;
+}

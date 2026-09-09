@@ -23,7 +23,7 @@ Pak `http://localhost:4173`. (Servírovat přes HTTP je nutné kvůli service wo
 | `data.js` | Data jídelníčku — **generovaný soubor, needitovat ručně** |
 | `menu/base.json` | Meta, 14 alergenů, typy chodů (ruční) |
 | `menu/ms.json` | Jídelníček MŠ (ruční — MŠ ho nikde nepublikuje) |
-| `menu/zs.json` | Jídelníček ZŠ (generovaný, slouží jako archiv) |
+| `menu/zs.json` | Jídelníček ZŠ (generovaný, slouží jako archiv) — `{"vydej": "11:30–13:45", "chody": [...]}` |
 | `tools/update-menu.py` | Stáhne jídelníček ZŠ a přegeneruje `data.js` |
 | `.github/workflows/jidelnicek.yml` | Spouští to každé ráno |
 | `sw.js` | Offline cache (network-first) |
@@ -35,9 +35,9 @@ Pak `http://localhost:4173`. (Servírovat přes HTTP je nutné kvůli service wo
 
 - **MŠ / ZŠ** přepínač — mateřinka má 4 chody (přesnídávka → svačina), základka polévku a dva hlavní chody
 - **Den / Týden** — denní osa s časy výdeje, nebo rozbalovací přehled celého týdne
-- **„Právě teď"** — podle času dne zvýrazní chod, který se zrovna vydává
-- **Filtr alergenů** — rodič si klepnutím vybere, co dítě nesmí; jídla se pak v celé aplikaci obarví červeně s výstrahou
-- **Detail jídla** — bottom sheet s vypsanými alergeny slovy (ne jen čísly) a hodnocením „chutnalo dětem?"
+- **Skutečný čas výdeje** — bere se z jídelního lístku (`11:30–13:45`) a během výdeje bliká živá tečka. U MŠ, kde ho jídelna nezveřejňuje, se neukazuje nic — radši žádný údaj než odhad
+- **Filtr alergenů rozlišuje, kde alergen je** — když je mléko přímo v jídle, karta zčervená; když je jen v nápoji nebo příloze, zežloutne a odznak řekne „Alergen 7 · nápoj". Rodič tak pozná, kdy jde jídlo vzít a jen vynechat pití
+- **Detail jídla** — u každého alergenu stojí, ve které položce je, plus rozpis „co je na talíři" (jídlo, příloha, doplněk, nápoj) s vlastními alergeny
 - **Sdílení týdne** — nativní iOS share sheet, text do WhatsApp / třídní skupiny
 - **Tmavý režim** — automaticky podle systému, nebo ručně v Info → Vzhled (Automaticky / Světlý / Tmavý). Volba se pamatuje a přebarví i stavový řádek telefonu.
 - **Offline** — jednou načtený jídelníček zůstane v telefonu
@@ -83,7 +83,7 @@ python3 tools/update-menu.py --offline  # jen přegeneruje z menu/*.json
 
 Skript **nikdy nemaže** dny, které už v `menu/zs.json` jsou — archiv tak roste sám, i když jidelna.cz zveřejňuje jen několik týdnů dopředu. Když se z lístku nepodaří přečíst ani jeden den (typicky po změně HTML na jidelna.cz), skončí chybou a data nechá být. Action zčervená a přijde vám e-mail — lepší hlasitá chyba než tiše zastaralý jídelníček.
 
-Parsuje se ze struktury `div.den` → `div.menu` → `popiskaJidla` / `textJidla` / `alergeny`. Polévka se bere jen z prvního chodu (u druhého se opakuje), příloha, doplněk a nápoj se skládají do popisku odděleného tečkou a jejich alergeny se sčítají k hlavnímu jídlu. Kuchyňské zkratky (`más. maš`, `syp.`, `drožd.`) rozepisuje tabulka `ZKRATKY` na začátku skriptu — když narazíte na další, přidejte řádek.
+Parsuje se ze struktury `div.den` → `div.menu` → `popiskaJidla` / `textJidla` / `alergeny`, z hlavičky dne se bere výdejní okno. Polévka se bere jen z prvního chodu (u druhého se opakuje). Příloha, doplněk a nápoj se skládají do popisku odděleného tečkou, ale **zůstávají i rozepsané v poli `p`** i s vlastními alergeny — právě díky tomu umí aplikace říct, že mléko je jen v nápoji. Kuchyňské zkratky (`más. maš`, `syp.`, `drožd.`) rozepisuje tabulka `ZKRATKY` na začátku skriptu — když narazíte na další, přidejte řádek.
 
 ### 2. Jídelníček MŠ (ruční)
 
@@ -95,7 +95,7 @@ Mateřská škola jídelníček nikde nepublikuje, takže se do `menu/ms.json` p
 ]
 ```
 
-`c` je typ chodu (`presnidavka`, `polevka`, `obed`, `obed2`, `svacina`), `d` doplněk a `a` čísla alergenů. Po úpravě spusťte `python3 tools/update-menu.py --offline` a commitněte. Až MŠ začne jídelníček zveřejňovat, přehoďte v `menu/base.json` `meta.real.ms` na `true` — zmizí tím žlutá poznámka o ukázkových datech.
+`c` je typ chodu (`presnidavka`, `polevka`, `obed`, `obed2`, `svacina`), `d` doplněk a `a` čísla alergenů. Volitelně jde přidat `p` s rozpisem položek (`[{"l": "Jídlo", "n": "…", "a": [1]}]`) — aplikace pak i u MŠ pozná, ve které položce alergen je. Bez `p` se chová jako dosud. Po úpravě spusťte `python3 tools/update-menu.py --offline` a commitněte. Až MŠ začne jídelníček zveřejňovat, přehoďte v `menu/base.json` `meta.real.ms` na `true` — zmizí tím žlutá poznámka o ukázkových datech.
 
 ### 3. Kdyby to jednou přestalo stačit
 

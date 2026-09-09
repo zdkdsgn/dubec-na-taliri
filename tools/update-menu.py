@@ -76,6 +76,7 @@ def uprav(text: str) -> str:
 
 DEN_RE   = re.compile(r'<div class="den container-fluid">(.*?)(?=<div class="den container-fluid">|<div class="oddelovacTydnu">|</main>)', re.S)
 DATUM_RE = re.compile(r'<div class="datum[^"]*">\s*\w+\s+(\d{1,2})\.\s*(\d{1,2})\.\s*(\d{4})', re.S)
+VYDEJ_RE = re.compile(r'<div class="datum[^"]*">.*?\(\s*(\d{1,2}:\d{2})\s*(?:-|–|&nbsp;-&nbsp;)\s*(\d{1,2}:\d{2})\s*\)', re.S)
 MENU_RE  = re.compile(r'<div class="menu row">(.*?)(?=<div class="menu row">|\Z)', re.S)
 CISLO_RE = re.compile(r'nazevJidla[^>]*>\s*<p>\s*(\d+)\s*</p>', re.S)
 RADEK_RE = re.compile(
@@ -85,7 +86,12 @@ RADEK_RE = re.compile(
 
 
 def parsuj(html: str) -> dict:
-    """HTML jídelního lístku → {ISO datum: [chod, ...]}"""
+    """HTML jídelního lístku → {ISO datum: {"vydej": "11:30–13:45", "chody": [...]}}
+
+    U hlavního chodu si necháváme položky rozepsané (jídlo, příloha, doplněk,
+    nápoj) i s jejich vlastními alergeny – rodič pak v detailu vidí, jestli je
+    mléko v jídle, nebo jen v nápoji, který se dá vynechat.
+    """
     dny = {}
     for blok in DEN_RE.findall(html):
         m = DATUM_RE.search(blok)
@@ -94,40 +100,43 @@ def parsuj(html: str) -> dict:
         d, mes, rok = (int(x) for x in m.groups())
         iso = date(rok, mes, d).isoformat()
 
+        v = VYDEJ_RE.search(blok)
+        vydej = f"{v.group(1)}–{v.group(2)}" if v else None
+
         chody, polevka_hotova = [], False
         for menu_html in MENU_RE.findall(blok):
             cislo_m = CISLO_RE.search(menu_html)
             cislo   = int(cislo_m.group(1)) if cislo_m else 1
 
-            jidlo, doplnky, alergeny = None, [], set()
+            jidlo, polozky = None, []
             for r in RADEK_RE.finditer(menu_html):
                 popiska = cisty_text(r.group("popiska"))
                 text    = uprav(cisty_text(r.group("text")))
-                cisla   = {int(x) for x in re.findall(r">\s*(\d{1,2})\s*</a>", r.group("alergeny") or "")}
+                cisla   = sorted({int(x) for x in re.findall(r">\s*(\d{1,2})\s*</a>", r.group("alergeny") or "")})
                 if not text:
                     continue
 
                 if popiska.startswith("Polév"):
                     if not polevka_hotova:                    # u chodu 2 je stejná
-                        chody.append({"c": "polevka", "n": text, "d": "", "a": sorted(cisla)})
+                        chody.append({"c": "polevka", "n": text, "d": "", "a": cisla})
                         polevka_hotova = True
                 elif popiska.startswith("Jídlo"):
-                    jidlo = text
-                    alergeny |= cisla
+                    jidlo = {"l": "Jídlo", "n": text, "a": cisla}
                 else:                                          # Příloha, Doplněk, Nápoj
-                    doplnky.append(text)
-                    alergeny |= cisla
+                    polozky.append({"l": popiska, "n": text, "a": cisla})
 
             if jidlo:
+                vsechny = [jidlo] + polozky
                 chody.append({
                     "c": "obed" if cislo == 1 else "obed2",
-                    "n": jidlo,
-                    "d": " · ".join(doplnky),   # příloha · doplněk · nápoj
-                    "a": sorted(alergeny),
+                    "n": jidlo["n"],
+                    "d": " · ".join(p["n"] for p in polozky),
+                    "a": sorted({a for p in vsechny for a in p["a"]}),
+                    "p": vsechny,
                 })
 
         if chody:
-            dny[iso] = chody
+            dny[iso] = {"vydej": vydej, "chody": chody} if vydej else {"chody": chody}
     return dny
 
 
@@ -154,11 +163,23 @@ def js_hodnota(v, odsazeni=0):
 
 
 def generuj_data_js(base, ms, zs) -> str:
+    def rozbal(zaznam):
+        """Přijme starý tvar (pole chodů) i nový ({"vydej":…, "chody":[…]})."""
+        if isinstance(zaznam, list):
+            return None, zaznam
+        return zaznam.get("vydej"), zaznam.get("chody", [])
+
     dny = {}
     for iso in sorted(set(ms) | set(zs)):
-        z = {}
-        if iso in zs: z["zs"] = zs[iso]
-        if iso in ms: z["ms"] = ms[iso]
+        z, vydej = {}, {}
+        for skupina, zdroj in (("zs", zs), ("ms", ms)):
+            if iso in zdroj:
+                cas, chody = rozbal(zdroj[iso])
+                z[skupina] = chody
+                if cas:
+                    vydej[skupina] = cas
+        if vydej:
+            z["vydej"] = vydej
         dny[iso] = z
 
     obsah = {"meta": base["meta"], "allergens": base["allergens"],
@@ -198,7 +219,7 @@ def main() -> int:
             json.dumps(zs, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
         print(f"staženo {len(nove)} dní, změněno {len(zmenene)}, archiv {pred} → {len(zs)}")
         for d in zmenene:
-            print(f"  • {d}: " + " / ".join(c["n"] for c in nove[d]))
+            print(f"  • {d}: " + " / ".join(c["n"] for c in nove[d]["chody"]))
 
         base["meta"]["updated"] = datetime.now(timezone(timedelta(hours=2))).isoformat(timespec="seconds")
         if zs:
