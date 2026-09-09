@@ -20,8 +20,13 @@ Pak `http://localhost:4173`. (Servírovat přes HTTP je nutné kvůli service wo
 | `index.html` | Kostra – 4 pohledy + tab bar + bottom sheet |
 | `styles.css` | Liquid Glass design systém, světlý i tmavý režim |
 | `app.js` | Stav, render, gesta, filtr alergenů, sdílení |
-| `data.js` | **Jediné místo s daty jídelníčku** |
-| `sw.js` | Offline cache (stale-while-revalidate) |
+| `data.js` | Data jídelníčku — **generovaný soubor, needitovat ručně** |
+| `menu/base.json` | Meta, 14 alergenů, typy chodů (ruční) |
+| `menu/ms.json` | Jídelníček MŠ (ruční — MŠ ho nikde nepublikuje) |
+| `menu/zs.json` | Jídelníček ZŠ (generovaný, slouží jako archiv) |
+| `tools/update-menu.py` | Stáhne jídelníček ZŠ a přegeneruje `data.js` |
+| `.github/workflows/jidelnicek.yml` | Spouští to každé ráno |
+| `sw.js` | Offline cache (network-first) |
 | `manifest.webmanifest` | Instalace na plochu |
 
 ---
@@ -65,9 +70,36 @@ https://www.jidelna.cz/jidelni-listek/?jidelna=47&zacatek=2026-09&delka=P1M
 
 `zacatek` bere `RRRR-MM` i konkrétní datum, `delka` je ISO 8601 doba (`P1M`, `P7D`). Tohle je hotová cesta pro automatický odběr — jedno stažení měsíčně místo denního hlídání. Do budoucna se vyplatí publikované týdny archivovat, dopředu jídelna vypisuje jen pár dní.
 
-### 1. Odkud brát data
+### 1. Automatická aktualizace (ZŠ — hotovo)
 
-Reálné varianty, od nejlevnější:
+Každý všední den v 6:10 se spustí GitHub Action, která stáhne jídelní lístek ZŠ, porovná ho s archivem a při změně commitne. Push na `main` rovnou přesadí Pages, takže se rodičům nový jídelníček objeví sám.
+
+Ručně kdykoli:
+
+```bash
+python3 tools/update-menu.py            # stáhne a přegeneruje
+python3 tools/update-menu.py --offline  # jen přegeneruje z menu/*.json
+```
+
+Skript **nikdy nemaže** dny, které už v `menu/zs.json` jsou — archiv tak roste sám, i když jidelna.cz zveřejňuje jen několik týdnů dopředu. Když se z lístku nepodaří přečíst ani jeden den (typicky po změně HTML na jidelna.cz), skončí chybou a data nechá být. Action zčervená a přijde vám e-mail — lepší hlasitá chyba než tiše zastaralý jídelníček.
+
+Parsuje se ze struktury `div.den` → `div.menu` → `popiskaJidla` / `textJidla` / `alergeny`. Polévka se bere jen z prvního chodu (u druhého se opakuje), příloha, doplněk a nápoj se skládají do popisku odděleného tečkou a jejich alergeny se sčítají k hlavnímu jídlu. Kuchyňské zkratky (`más. maš`, `syp.`, `drožd.`) rozepisuje tabulka `ZKRATKY` na začátku skriptu — když narazíte na další, přidejte řádek.
+
+### 2. Jídelníček MŠ (ruční)
+
+Mateřská škola jídelníček nikde nepublikuje, takže se do `menu/ms.json` píše ručně. Formát je stejný jako u ZŠ:
+
+```json
+"2026-09-21": [
+  {"c": "presnidavka", "n": "Ovocný jogurt", "d": "Rohlík, hroznové víno", "a": [1, 7]}
+]
+```
+
+`c` je typ chodu (`presnidavka`, `polevka`, `obed`, `obed2`, `svacina`), `d` doplněk a `a` čísla alergenů. Po úpravě spusťte `python3 tools/update-menu.py --offline` a commitněte. Až MŠ začne jídelníček zveřejňovat, přehoďte v `menu/base.json` `meta.real.ms` na `true` — zmizí tím žlutá poznámka o ukázkových datech.
+
+### 3. Kdyby to jednou přestalo stačit
+
+Další varianty, od nejlevnější:
 
 **A. Ruční (nejjednodušší start)**
 Hospodářka jednou týdně přepíše jídelníček do `data.js` a nahraje soubor. Zvládne to kdokoli, kdo umí kopírovat text — struktura je jeden řádek na jídlo.
@@ -75,8 +107,7 @@ Hospodářka jednou týdně přepíše jídelníček do `data.js` a nahraje soub
 **B. Tabulka jako redakční systém (doporučuji)**
 Google Sheet se sloupci `datum | skupina | chod | název | doplněk | alergeny`. Kuchyně píše do tabulky, kterou už zná. Malý skript (GitHub Action jednou denně) tabulku stáhne, převede na `menu.json` a nasadí. Nulové náklady, žádná administrace, verzování zdarma.
 
-**C. Automatický odběr z jidelna.cz (pro ZŠ hotová cesta)**
-ZŠ už svůj jídelníček publikuje na `https://www.jidelna.cz/jidelni-listek/?jidelna=47`. Skript spuštěný denně stránku stáhne, vytáhne z ní dny a chody, přidá je do archivu a nasadí. Nejmíň práce dlouhodobě, ale rozbije se, když jidelna.cz změní HTML — proto ať skript umí spadnout tiše a nechat v aplikaci poslední známá data. MŠ zveřejňuje jídelníček ručně na svém webu, tam se hodí spíš varianta A nebo B.
+**C. Automatický odběr z jidelna.cz** — už běží, viz bod 1.
 
 > Ať zvolíte cokoli, `app.js` se nemění. Stačí `data.js` nahradit za `fetch('menu.json')` — struktura je totožná.
 
@@ -106,13 +137,8 @@ Nejžádanější funkce u rodičů bývá **„zítra je rybí filé, syn to ne
 
 ---
 
-## Nasazení dat z tabulky — kostra
+## Nasazení
 
-```bash
-# .github/workflows/menu.yml  (jednou denně v 6:00)
-curl -L "https://docs.google.com/spreadsheets/d/<ID>/export?format=csv" -o menu.csv
-python3 tools/csv2json.py menu.csv > menu.json
-git commit -am "jídelníček $(date +%F)" && git push
-```
+GitHub Pages z větve `main`, složka `/`. Adresa: **https://zdkdsgn.github.io/dubec-na-taliri/**
 
-Parser je ~40 řádků: seskupí řádky podle data a skupiny, alergeny rozsekne na čísla, vyhodí prázdné dny.
+Aby mohl automat commitovat, musí být v **Settings → Actions → General → Workflow permissions** zapnuto **Read and write permissions**. Bez toho Action doběhne, ale push selže.

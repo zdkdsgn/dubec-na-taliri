@@ -1,0 +1,120 @@
+{
+  "meta": {
+    "school": "MŠ & ZŠ Dubeč",
+    "updated": "2026-09-09T10:14:06+02:00",
+    "week": "2026-09-01 – 2026-09-18",
+    "sources": {
+      "zs": "https://www.jidelna.cz/jidelni-listek/?jidelna=47",
+      "ms": "https://www.msdubec.cz/stranka-jidelnicek-45"
+    },
+    "real": {
+      "zs": true,
+      "ms": false
+    },
+    "note": "Neoficiální přehled pro rodiče. Změna jídelníčku vyhrazena."
+  },
+  "allergens": {
+    "1": {
+      "name": "Obiloviny obsahující lepek",
+      "emoji": "🌾",
+      "detail": "Pšenice, žito, ječmen, oves, špalda, kamut."
+    },
+    "2": {
+      "name": "Korýši",
+      "emoji": "🦐",
+      "detail": "Krevety, krabi, langusty a výrobky z nich."
+    },
+    "3": {
+      "name": "Vejce",
+      "emoji": "🥚",
+      "detail": "Vejce a výrobky z nich."
+    },
+    "4": {
+      "name": "Ryby",
+      "emoji": "🐟",
+      "detail": "Ryby a výrobky z nich."
+    },
+    "5": {
+      "name": "Podzemnice olejná (arašídy)",
+      "emoji": "🥜",
+      "detail": "Arašídy a výrobky z nich."
+    },
+    "6": {
+      "name": "Sójové boby",
+      "emoji": "🫘",
+      "detail": "Sója a výrobky z ní."
+    },
+    "7": {
+      "name": "Mléko",
+      "emoji": "🥛",
+      "detail": "Mléko a výrobky z něj, včetně laktózy."
+    },
+    "8": {
+      "name": "Skořápkové plody",
+      "emoji": "🌰",
+      "detail": "Mandle, lískové ořechy, vlašské ořechy, kešu, pistácie."
+    },
+    "9": {
+      "name": "Celer",
+      "emoji": "🥬",
+      "detail": "Celer a výrobky z něj."
+    },
+    "10": {
+      "name": "Hořčice",
+      "emoji": "🌭",
+      "detail": "Hořčice a výrobky z ní."
+    },
+    "11": {
+      "name": "Sezamová semena",
+      "emoji": "🫓",
+      "detail": "Sezam a výrobky z něj."
+    },
+    "12": {
+      "name": "Oxid siřičitý a siřičitany",
+      "emoji": "🍇",
+      "detail": "V koncentraci vyšší než 10 mg/kg."
+    },
+    "13": {
+      "name": "Vlčí bob (lupina)",
+      "emoji": "🌱",
+      "detail": "Lupina a výrobky z ní."
+    },
+    "14": {
+      "name": "Měkkýši",
+      "emoji": "🐚",
+      "detail": "Mušle, chobotnice, šneci a výrobky z nich."
+    }
+  },
+  "courses": {
+    "presnidavka": {
+      "label": "Přesnídávka",
+      "icon": "sun",
+      "time": "8:45",
+      "tone": "amber"
+    },
+    "polevka": {
+      "label": "Polévka",
+      "icon": "bowl",
+      "time": "11:40",
+      "tone": "orange"
+    },
+    "obed": {
+      "label": "Hlavní chod",
+      "icon": "fork",
+      "time": "11:45",
+      "tone": "green"
+    },
+    "obed2": {
+      "label": "Hlavní chod II",
+      "icon": "fork2",
+      "time": "11:45",
+      "tone": "blue"
+    },
+    "svacina": {
+      "label": "Odpolední svačina",
+      "icon": "cookie",
+      "time": "14:30",
+      "tone": "purple"
+    }
+  }
+}

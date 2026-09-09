@@ -1,0 +1,36 @@
+name: Jídelníček ZŠ
+
+# Každý všední den ráno stáhne jídelní lístek ZŠ z jidelna.cz.
+# Když se něco změnilo, commitne to – push na main rovnou přesadí GitHub Pages.
+on:
+  schedule:
+    - cron: "10 4 * * 1-5"      # 06:10 letního / 05:10 zimního času
+  workflow_dispatch:            # ruční spuštění tlačítkem v záložce Actions
+
+permissions:
+  contents: write
+
+concurrency:
+  group: jidelnicek
+  cancel-in-progress: false
+
+jobs:
+  aktualizace:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Stáhnout jídelníček a přegenerovat data.js
+        run: python3 tools/update-menu.py
+
+      - name: Commitnout změny
+        run: |
+          if [ -z "$(git status --porcelain)" ]; then
+            echo "Jídelníček beze změny, není co commitovat."
+            exit 0
+          fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data.js menu/
+          git commit -m "Jídelníček ZŠ – automatická aktualizace $(date '+%-d. %-m. %Y')"
+          git push
