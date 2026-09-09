@@ -368,6 +368,40 @@ function odkazNaJidelnu(){
   };
 }
 
+/* Ratingy se ukládají jen jako číslo pod klíč den|skupina|chod (bez
+   ID školy – viz openSheet). Jméno jídla k nim dohledáváme zpětně
+   v aktuálně načteném jídelníčku; co se nedohledá (jiná škola, dávno
+   smazaný týden), do žebříčku prostě nespadne. */
+function zebricekJidel(){
+  const soucty = {};
+  for (const [key, hodnoceni] of Object.entries(S.rating)){
+    const [date, school, kurz] = key.split("|");
+    const jidlo = meals(date, school).find(m => m.c === kurz);
+    if (!jidlo) continue;
+    const z = soucty[jidlo.n] ??= { plus: 0, stred: 0, minus: 0 };
+    if (hodnoceni === 1) z.plus++;
+    else if (hodnoceni === -1) z.minus++;
+    else z.stred++;
+  }
+  return Object.entries(soucty)
+    .map(([nazev, z]) => ({ nazev, ...z }))
+    .sort((a, b) => (b.plus - b.minus) - (a.plus - a.minus) || (b.plus+b.stred+b.minus) - (a.plus+a.stred+a.minus));
+}
+
+function renderZebricek(){
+  const zebricek = zebricekJidel().slice(0, 6);
+  $("#cardZebricek").hidden = !zebricek.length;
+  $("#zebricekList").innerHTML = zebricek.map(z => `
+    <div class="zebricek-radek">
+      <span class="txt">${z.nazev}</span>
+      <span class="skore">
+        ${z.plus  ? `<b>👍${z.plus}</b>`  : ""}
+        ${z.stred ? `<b>😐${z.stred}</b>` : ""}
+        ${z.minus ? `<b>👎${z.minus}</b>` : ""}
+      </span>
+    </div>`).join("");
+}
+
 function renderInfo(){
   const u = new Date(D.meta.updated);
   $("#infoUpdated").textContent = `${u.getDate()}. ${u.getMonth()+1}. ${u.getFullYear()}`;
@@ -380,6 +414,7 @@ function renderInfo(){
   if (a) { a.href = url; }
   const p = $("#webJidelnyPopis");
   if (p) { p.textContent = popis; }
+  renderZebricek();
 }
 const renderAll = () => { renderDen(); renderTyden(); renderAlergeny(); renderInfo(); };
 
@@ -463,6 +498,17 @@ function shareWeek(){
   else { navigator.clipboard?.writeText(txt); toast("Zkopírováno do schránky"); }
 }
 
+function shareDen(){
+  const jmenoSkoly = popisekSkoly();
+  const list = meals(S.date, S.school);
+  let txt = `🍽️ ${jmenoSkoly} · ${DOW[parse(S.date).getDay()]} ${short(S.date)}\n`;
+  txt += list.length
+    ? list.map(m => `• ${D.courses[m.c].label}: ${m.n}`).join("\n")
+    : "Pro tento den zatím jídelníček nemáme.";
+  if (navigator.share) navigator.share({ title:"ZŠ na talíři", text:txt }).catch(() => {});
+  else { navigator.clipboard?.writeText(txt); toast("Zkopírováno do schránky"); }
+}
+
 /* ── Gesta ──────────────────────────────────────────────────────── */
 function swipe(el, onLeft, onRight){
   let x0 = null, y0 = null, lock = null, posun = 0;
@@ -527,12 +573,18 @@ const SKOLY_PROXY    = "https://zs-jidelny.zdkdsgn.workers.dev/";
 let AKTIVNI = null;   // {id, nazev, skutecna_data} když je zvolena jiná škola než výchozí
 let registrSkol = null;
 
+let registrChyba = false;
 async function nactiRegistr(){
   if (registrSkol) return registrSkol;
   try {
     const r = await fetch("schools/index.json", { cache: "no-store" });
-    registrSkol = r.ok ? await r.json() : [];
-  } catch { registrSkol = []; }
+    if (!r.ok) throw new Error(String(r.status));
+    registrSkol = await r.json();
+    registrChyba = false;
+  } catch {
+    registrChyba = true;
+    return [];   // neukládáme neúspěch – při příštím otevření (např. po obnově sítě) to zkusí znovu
+  }
   return registrSkol;
 }
 
@@ -677,6 +729,13 @@ function vykresliDostupneSkoly(){
     .map(el => el.textContent));
   wrap.innerHTML = "";
 
+  if (registrChyba) {
+    wrap.innerHTML = `<div class="skola-stav">
+      Plný seznam škol se nepodařilo načíst – nejspíš nejste online.
+      Dostupná zůstává jen ZŠ Dubeč.
+    </div>`;
+  }
+
   const vsechny = [
     { id: VYCHOZI_LOKACE, nazev: "Dubeč", kratky: "Dubeč", mesto: "Praha" },
     ...(registrSkol || []),
@@ -813,6 +872,7 @@ $$("#themePick button").forEach(b => b.addEventListener("click", () => {
   toast(S.theme === "auto" ? "Vzhled podle systému" : S.theme === "dark" ? "Tmavý režim" : "Světlý režim");
 }));
 $("#shareWeek").addEventListener("click", shareWeek);
+$("#shareDen").addEventListener("click", () => { haptic(); shareDen(); });
 $("#clearAllergens").addEventListener("click", () => {
   S.filter.clear(); store.set("filter", []); renderAll(); toast("Filtry zrušeny");
 });
@@ -919,8 +979,14 @@ function onScroll(){
   lastY = y;
 }
 window.addEventListener("scroll", onScroll, { passive:true });
-window.addEventListener("online",  renderInfo);
-window.addEventListener("offline", () => { renderInfo(); toast("Jste offline – zobrazujeme uloženou verzi"); });
+function aktualizujOfflineStav(){
+  const offline = !navigator.onLine;
+  document.body.classList.toggle("offline", offline);
+  $("#offlineBanner").classList.toggle("show", offline);
+}
+window.addEventListener("online",  () => { aktualizujOfflineStav(); renderInfo(); });
+window.addEventListener("offline", () => { aktualizujOfflineStav(); renderInfo(); });
+aktualizujOfflineStav();
 
 let deferred = null;
 window.addEventListener("beforeinstallprompt", e => { e.preventDefault(); deferred = e; $("#installBtn").hidden = false; });
