@@ -862,6 +862,12 @@ $("#skolaQuery").addEventListener("input", e => {
   clearTimeout(hledaniTimer);
   hledaniTimer = setTimeout(() => hledejSkolu(e.target.value), 400);
 });
+/* Pole je nahoře přilepené, ale výsledky se vykreslí pod ním – když
+   do něj ťuknete uprostřed odscrollovaného seznamu měst, ať se rovnou
+   vrátí nahoru, ať výsledky hned uvidíte. */
+$("#skolaQuery").addEventListener("focus", () => {
+  $("#skolaSheet").scrollTo({ top: 0, behavior: "smooth" });
+});
 $("#tabbarFab").addEventListener("click", () => {
   haptic();
   lastY = window.scrollY;   // ať hned po rozbalení scroll nezaklapne menu zpátky
