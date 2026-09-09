@@ -220,9 +220,9 @@ function mealNode(m, date){
 /* ── Pohled Den ─────────────────────────────────────────────────── */
 function renderDen(){
   const mon = monday(S.date);
-  $("#heroSchool").textContent = AKTIVNI ? (AKTIVNI.kratky || AKTIVNI.nazev) : (S.school === "ms" ? "MŠ Dubeč" : "ZŠ Dubeč");
+  $("#heroSchool").textContent = popisekSkoly();
   $("#weekLabel").textContent  = `${short(mon)} – ${short(addD(mon,4))} ${parse(mon).getFullYear()}`;
-  $(".segmented").hidden = !!AKTIVNI;
+  $(".segmented").hidden = !!AKTIVNI && !AKTIVNI.viceSkupin;
   $(".segmented").classList.toggle("ms", S.school === "ms");
   $$(".seg").forEach(b => b.setAttribute("aria-selected", b.dataset.school === S.school));
 
@@ -394,7 +394,7 @@ function setView(v){
 /* ── Sdílení ────────────────────────────────────────────────────── */
 function shareWeek(){
   const mon = monday(S.date);
-  const jmenoSkoly = AKTIVNI ? (AKTIVNI.kratky || AKTIVNI.nazev) : `${S.school === "ms" ? "MŠ" : "ZŠ"} Dubeč`;
+  const jmenoSkoly = popisekSkoly();
   let txt = `🍽️ Jídelníček ${jmenoSkoly}\n${short(mon)}–${short(addD(mon,4))}\n`;
   for (let i = 0; i < 5; i++){
     const d = addD(mon,i), list = meals(d, S.school);
@@ -490,28 +490,45 @@ async function stahniSkolu(id){
     if (rb.ok) base = await rb.json();
   } catch { /* meta je jen na dozdobení, appka bez ní funguje */ }
 
-  // Jednokuchyňová škola nemá ms/zs split – zabalíme ji pod "zs",
-  // ať appka pro ni beze změny použije existující vykreslování.
+  // Den může mít tři podoby (viz tools/jidelna_client.py):
+  //  - holé pole chodů (starý ruční tvar, např. MŠ Dubeč)
+  //  - {vydej, chody} – jednostopá škola, zabalíme pod "zs"
+  //  - {skupiny: {zs:{…}, ms:{…}}} – vícestopá škola (spojená ZŠ+MŠ na
+  //    jedné stránce), skupiny necháme tak, jak jsou, ať appka umí
+  //    ukázat stejný přepínač jako u Dubče
   const zabaleneDny = {};
+  const naleze = new Set();
   for (const [den, zaznam] of Object.entries(dny)) {
+    if (zaznam && zaznam.skupiny) {
+      const den_ = {};
+      for (const [sk, z] of Object.entries(zaznam.skupiny)) {
+        den_[sk] = z.chody;
+        if (z.vydej) (den_.vydej ??= {})[sk] = z.vydej;
+        naleze.add(sk);
+      }
+      zabaleneDny[den] = den_;
+      continue;
+    }
     const chody = Array.isArray(zaznam) ? zaznam : (zaznam.chody || []);
     zabaleneDny[den] = { zs: chody };
     const cas = Array.isArray(zaznam) ? null : zaznam.vydej;
     if (cas) zabaleneDny[den].vydej = { zs: cas };
+    naleze.add("zs");
   }
-  return { dny: zabaleneDny, base };
+  return { dny: zabaleneDny, base, skupiny: [...naleze].sort() };
 }
 
 async function prepniNaSkolu(polozka){
   try {
-    const { dny, base } = await stahniSkolu(polozka.id);
+    const { dny, base, skupiny } = await stahniSkolu(polozka.id);
     D = {
       ...window.MENU_DATA,
-      meta: { ...window.MENU_DATA.meta, ...base, real: { zs: !!polozka.skutecna_data } },
+      meta: { ...window.MENU_DATA.meta, ...base,
+              real: Object.fromEntries(skupiny.map(s => [s, !!polozka.skutecna_data])) },
       days: dny,
     };
-    AKTIVNI = polozka;
-    S.school = "zs";
+    AKTIVNI = { ...polozka, viceSkupin: skupiny.length > 1 };
+    S.school = skupiny.includes("zs") ? "zs" : skupiny[0];
     S.date   = nearestSchoolDay(TODAY);
     store.set("lokace", polozka.id);
     store.set("lokaceData", polozka);
@@ -528,6 +545,15 @@ function zpetNaVychozi(){
   S.school = store.get("school", "zs") || "zs";
   S.date   = nearestSchoolDay(TODAY);
   store.set("lokace", VYCHOZI_LOKACE);
+}
+
+/* Krátký, čitelný název aktivní školy – u vícestopé (ZŠ+MŠ) školy se
+   před ni dá stejný prefix jako u Dubče, ať appka nemusí mít prefix
+   napevno v každém "kratky" zvlášť. */
+function popisekSkoly(){
+  if (!AKTIVNI) return S.school === "ms" ? "MŠ Dubeč" : "ZŠ Dubeč";
+  const zaklad = AKTIVNI.kratky || AKTIVNI.nazev;
+  return AKTIVNI.viceSkupin ? `${S.school === "ms" ? "MŠ" : "ZŠ"} ${zaklad}` : zaklad;
 }
 
 function skolaKarta(polozka, aktivni){

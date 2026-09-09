@@ -15,6 +15,7 @@ import unicodedata
 import urllib.parse
 import urllib.request
 from datetime import date
+from typing import Optional
 
 JIDELNI_LISTEK_URL = "https://www.jidelna.cz/jidelni-listek/?jidelna={j}&zacatek={od}&delka=P{dnu}D"
 HLEDEJ_URL          = "https://www.jidelna.cz/vyhledej/jidelny/?q={q}"
@@ -90,19 +91,95 @@ def uprav(text: str) -> str:
 
 # ──────────────────────────────────────────────────────────── parsování
 
-DEN_RE   = re.compile(r'<div class="den container-fluid">(.*?)(?=<div class="den container-fluid">|<div class="oddelovacTydnu">|</main>)', re.S)
-DATUM_RE = re.compile(r'<div class="datum[^"]*">\s*\w+\s+(\d{1,2})\.\s*(\d{1,2})\.\s*(\d{4})', re.S)
-VYDEJ_RE = re.compile(r'<div class="datum[^"]*">.*?\(\s*(\d{1,2}:\d{2})\s*(?:-|–|&nbsp;-&nbsp;)\s*(\d{1,2}:\d{2})\s*\)', re.S)
-MENU_RE  = re.compile(r'<div class="menu row">(.*?)(?=<div class="menu row">|\Z)', re.S)
-CISLO_RE = re.compile(r'nazevJidla[^>]*>\s*<p>\s*(\d+)\s*</p>', re.S)
+DEN_RE     = re.compile(r'<div class="den container-fluid">(.*?)(?=<div class="den container-fluid">|<div class="oddelovacTydnu">|</main>)', re.S)
+DATUM_RE   = re.compile(r'<div class="datum[^"]*">\s*\w+\s+(\d{1,2})\.\s*(\d{1,2})\.\s*(\d{4})', re.S)
+VYDEJ_RE   = re.compile(r'<div class="datum[^"]*">.*?\(\s*(\d{1,2}:\d{2})\s*(?:-|–|&nbsp;-&nbsp;)\s*(\d{1,2}:\d{2})\s*\)', re.S)
+CASTDNE_RE = re.compile(r'<div class="castDne row">(.*?)(?=<div class="castDne row">|<div class="oddelovacTydnu">|</main>|\Z)', re.S)
+NADPIS_RE  = re.compile(r'<div class="hlavicka row">\s*([^<]+?)\s*</div>', re.S)
+NADPIS_CAS_RE = re.compile(r'\((\d{1,2}:\d{2})\s*-\s*(\d{1,2}:\d{2})\)')
+MENU_RE    = re.compile(r'<div class="menu row">(.*?)(?=<div class="menu row">|\Z)', re.S)
+CISLO_RE   = re.compile(r'nazevJidla[^>]*>\s*<p>\s*(\d+)\s*</p>', re.S)
 RADEK_RE = re.compile(
     r'popiskaJidla">\s*(?P<popiska>[^<]+?)\s*</div>.*?'
     r'textJidla">(?P<text>.*?)</div>'
     r'(?:\s*<div[^>]*alergeny">(?P<alergeny>.*?)</div>)?', re.S)
 
+# Text před závorkou s časem, ať jde poznat "Oběd"/"Přesnídávka"/"Svačina"
+# i s libovolnou skupinou za ním (MŠ/ZŠ/nic).
+KURZ_RE = {
+    "presnidavka": re.compile(r'^Přesnídávka', re.I),
+    "svacina":     re.compile(r'^(Odpolední\s+)?Svačina', re.I),
+    "obed":        re.compile(r'^Oběd', re.I),
+}
+
+
+def _skupina_z_nadpisu(text: str) -> Optional[str]:
+    """'Oběd ZŠ (11:00 - 14:00)' → 'zs'; 'Přesnídávka MŠ (...)' → 'ms';
+    bez skupiny (jednostopá škola jako ZŠ Dubeč) → None."""
+    if re.search(r'\bMŠ\b', text): return "ms"
+    if re.search(r'\bZŠ\b', text): return "zs"
+    return None
+
+
+def _alergeny_z_odkazu(html: str) -> list[int]:
+    """'1' i jemnější 'obiloviny' varianty typu '1a'/'1d' (pšenice/oves) –
+    appka zná jen základních 14 čísel, písmenko se zahodí a čísla ať se
+    sečtou do stejné množiny."""
+    return sorted({int(re.match(r'\d{1,2}', x).group()) for x in
+                   re.findall(r'>\s*(\d{1,2}[a-z]?)\s*</a>', html)})
+
+
+def _zpracuj_menu_bloky(usek_html: str, kurz: str) -> list[dict]:
+    """Rozparsuje 'menu row' bloky v jednom úseku (jeden chod dne pro jednu
+    skupinu). U oběda může být víc číslovaných chodů (1, 2 – jídlo A/B),
+    u přesnídávky/svačiny bývá jen jeden."""
+    chody, polevka_hotova = [], False
+    for menu_html in MENU_RE.findall(usek_html):
+        cislo_m = CISLO_RE.search(menu_html)
+        cislo   = int(cislo_m.group(1)) if cislo_m else 1
+
+        jidlo, polozky = None, []
+        for r in RADEK_RE.finditer(menu_html):
+            popiska = cisty_text(r.group("popiska"))
+            text    = uprav(cisty_text(r.group("text")))
+            cisla   = _alergeny_z_odkazu(r.group("alergeny") or "")
+            if not text:
+                continue
+
+            if popiska.startswith("Polév") and kurz == "obed":
+                if not polevka_hotova:                    # u druhého chodu je stejná
+                    chody.append({"c": "polevka", "n": text, "d": "", "a": cisla})
+                    polevka_hotova = True
+            elif popiska.startswith("Jídlo"):
+                jidlo = {"l": "Jídlo", "n": text, "a": cisla}
+            else:                                          # Příloha, Doplněk, Nápoj
+                polozky.append({"l": popiska, "n": text, "a": cisla})
+
+        if jidlo:
+            vsechny = [jidlo] + polozky
+            kod = kurz if kurz != "obed" else ("obed" if cislo == 1 else "obed2")
+            chody.append({
+                "c": kod,
+                "n": jidlo["n"],
+                "d": " · ".join(p["n"] for p in polozky),
+                "a": sorted({a for p in vsechny for a in p["a"]}),
+                "p": vsechny,
+            })
+    return chody
+
 
 def parsuj(html: str) -> dict:
-    """HTML jídelního lístku → {ISO datum: {"vydej": "11:30–13:45", "chody": [...]}}
+    """HTML jídelního lístku → {ISO datum: záznam dne}.
+
+    Jednostopá škola (ZŠ Dubeč a většina ostatních – jeden "castDne" bez
+    vlastního podnadpisu): {"vydej": "11:30–13:45", "chody": [...]}
+    – přesně dosavadní tvar, appka pro Dubeč se tímhle nemění.
+
+    Vícestopá škola (spojená ZŠ+MŠ na jedné stránce, kde "castDne" bloky
+    mají vlastní podnadpisy "Oběd ZŠ (11:00-14:00)", "Přesnídávka MŠ (…)"
+    apod.): {"skupiny": {"zs": {"vydej":…, "chody":[…]}, "ms": {…}}}
+    – appka pak pro takovou školu umí ukázat stejný ZŠ/MŠ přepínač jako
+    u Dubče, místo aby přesnídávku a oběd popletla dohromady.
 
     U hlavního chodu si necháváme položky rozepsané (jídlo, příloha, doplněk,
     nápoj) i s jejich vlastními alergeny – appka pak v detailu umí říct, jestli
@@ -117,40 +194,35 @@ def parsuj(html: str) -> dict:
         iso = date(rok, mes, d).isoformat()
 
         v = VYDEJ_RE.search(blok)
-        vydej = f"{v.group(1)}–{v.group(2)}" if v else None
+        vydej_dne = f"{v.group(1)}–{v.group(2)}" if v else None
 
-        chody, polevka_hotova = [], False
-        for menu_html in MENU_RE.findall(blok):
-            cislo_m = CISLO_RE.search(menu_html)
-            cislo   = int(cislo_m.group(1)) if cislo_m else 1
+        skupiny = {}   # type: dict[str, dict]
+        for usek in CASTDNE_RE.findall(blok):
+            nadpis_m = NADPIS_RE.search(usek)
+            nadpis   = nadpis_m.group(1) if nadpis_m else ""
 
-            jidlo, polozky = None, []
-            for r in RADEK_RE.finditer(menu_html):
-                popiska = cisty_text(r.group("popiska"))
-                text    = uprav(cisty_text(r.group("text")))
-                cisla   = sorted({int(x) for x in re.findall(r">\s*(\d{1,2})\s*</a>", r.group("alergeny") or "")})
-                if not text:
-                    continue
+            kurz = next((k for k, vzor in KURZ_RE.items() if vzor.match(nadpis)), "obed")
+            skupina = _skupina_z_nadpisu(nadpis) or "zs"
 
-                if popiska.startswith("Polév"):
-                    if not polevka_hotova:                    # u chodu 2 je stejná
-                        chody.append({"c": "polevka", "n": text, "d": "", "a": cisla})
-                        polevka_hotova = True
-                elif popiska.startswith("Jídlo"):
-                    jidlo = {"l": "Jídlo", "n": text, "a": cisla}
-                else:                                          # Příloha, Doplněk, Nápoj
-                    polozky.append({"l": popiska, "n": text, "a": cisla})
+            cas_m = NADPIS_CAS_RE.search(nadpis)
+            vydej_useku = f"{cas_m.group(1)}–{cas_m.group(2)}" if cas_m else vydej_dne
 
-            if jidlo:
-                vsechny = [jidlo] + polozky
-                chody.append({
-                    "c": "obed" if cislo == 1 else "obed2",
-                    "n": jidlo["n"],
-                    "d": " · ".join(p["n"] for p in polozky),
-                    "a": sorted({a for p in vsechny for a in p["a"]}),
-                    "p": vsechny,
-                })
+            nove_chody = _zpracuj_menu_bloky(usek, kurz)
+            if not nove_chody:
+                continue
 
-        if chody:
-            dny[iso] = {"vydej": vydej, "chody": chody} if vydej else {"chody": chody}
+            zaznam = skupiny.setdefault(skupina, {"vydej": None, "chody": []})
+            zaznam["chody"].extend(nove_chody)
+            if kurz == "obed":       # "Výdej" v appce vždy znamená oběd, ne přesnídávku/svačinu
+                zaznam["vydej"] = vydej_useku
+
+        if not skupiny:
+            continue
+
+        if list(skupiny) == ["zs"]:                     # jednostopá škola – starý tvar
+            zaznam = skupiny["zs"]
+            dny[iso] = {"vydej": zaznam["vydej"], "chody": zaznam["chody"]} if zaznam["vydej"] \
+                       else {"chody": zaznam["chody"]}
+        else:                                            # víc skupin na stránce
+            dny[iso] = {"skupiny": skupiny}
     return dny

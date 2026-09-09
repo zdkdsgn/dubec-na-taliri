@@ -74,25 +74,26 @@ byl původní kód psaný natvrdo.
    nezakládá Apple Developer účet ani nebalí appku přes Capacitor/
    Cordova do nativního obalu – to je krok až na konci, ne teď.
 
-## Známé omezení parseru
+## Parser umí i vícestopé školy (spojené ZŠ+MŠ)
 
-`tools/jidelna_client.py` počítá s max. 2 chody na oběd (polévka +
-1–2 hlavní jídla) – přesně jak to má ZŠ Dubeč. Při rozšiřování na
-další školy (2026-09) se ukázalo, že to negeneralizuje na všechny:
+Původní parser počítal jen s jedním "castDne" blokem na den (tak to
+má ZŠ Dubeč). Spojené instituce (typicky ZŠ+MŠ na jedné stránce)
+ale mají na jeden den víc "castDne" bloků, každý s vlastním podnadpisem
+("Oběd ZŠ (11:00-14:00)", "Přesnídávka MŠ (8:00-8:30)"…) – bez toho
+si appka pletla přesnídávku s obědem a duplikovala jídla mezi
+skupinami.
 
-- **Spojené ZŠ+MŠ na jedné stránce** (např. brněnská škola s víc
-  věkovými skupinami) mají v jednom "dni" klidně 6–7 položek, včetně
-  doslova zdvojených jídel pro různé skupiny.
-- **Některé MŠ** mají vlastní počet chodů (přesnídávka/oběd/svačina
-  přes 2 hlavní jídla), který se do zjednodušeného "chod 1 = oběd,
-  chod 2 = oběd II" nevejde.
+`tools/jidelna_client.py` teď podnadpisy čte a rozdělí den na skupiny
+(`zs`/`ms`) přesně jako appka odjakživa dělá pro Dubeč – taková škola
+pak v appce dostane stejný ZŠ/MŠ přepínač. Jednostopé školy (drtivá
+většina) se tímhle nezměnily, `parsuj()` pro ně vrací identický tvar
+jako dřív.
 
-`tools/fetch-school.py` teď před zápisem kontroluje počet obědových
-položek a duplicitní názvy v rámci dne a **hlasitě varuje**, ale
-nezastaví se – je na vás si výstup přečíst a školu případně z registru
-vynechat (přesně tak se z prvního pokusu o rozšíření vyřadily 4 z 14
-nalezených škol). Opravdová oprava (rozpoznat víc "skupin" na stránce)
-je budoucí práce, ne dnešní.
+**Pořád neumí:** školy s víc než 2 číslovanými obědovými variantami
+v jedné skupině (např. běžný oběd + bezlepková dieta jako chod 3) –
+`tools/fetch-school.py` na to při stahování hlasitě upozorní
+("N obědových položek"), ale nezastaví se. Jedna taková škola (ZŠ Na
+Líše, Praha 4) je zatím z registru vyřazená kvůli tomuhle.
 
 ## Rozumný další krok
 

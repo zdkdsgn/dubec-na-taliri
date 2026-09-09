@@ -1,11 +1,53 @@
 [
   {
+    "id": "41",
+    "nazev": "Mateřská škola Zahrádka, Praha 4, Ohradní",
+    "zdroj": "jidelna.cz",
+    "skutecna_data": true,
+    "kratky": "MŠ Zahrádka"
+  },
+  {
+    "id": "158",
+    "nazev": "Mateřská škola, Praha 4, K Podjezdu 2",
+    "zdroj": "jidelna.cz",
+    "skutecna_data": true,
+    "kratky": "MŠ K Podjezdu"
+  },
+  {
+    "id": "6",
+    "nazev": "Mateřská škola, Praha 4, V Zápolí 1249",
+    "zdroj": "jidelna.cz",
+    "skutecna_data": true,
+    "kratky": "MŠ V Zápolí"
+  },
+  {
+    "id": "90006",
+    "nazev": "Mateřská škola, Praha 4, V Zápolí 1249 - detašované pracoviště Na Lánech 22",
+    "zdroj": "jidelna.cz",
+    "skutecna_data": true,
+    "kratky": "MŠ Na Lánech"
+  },
+  {
     "id": "ms-dubec",
     "nazev": "Mateřská škola, Starodubečská 506, Praha 10 - Dubeč",
     "zdroj": "manual",
     "poznamka": "Nemá jídelníček v žádném veřejném systému (jidelna.cz, strava.cz) – jen na vlastním webu, ručně.",
     "skutecna_data": false,
     "kratky": "MŠ Dubeč"
+  },
+  {
+    "id": "76",
+    "nazev": "Základní škola a Mateřská škola Dr. Edvarda Beneše, Praha - Čakovice",
+    "zdroj": "jidelna.cz",
+    "skutecna_data": true,
+    "kratky": "Dr. E. Beneše (Čakovice)"
+  },
+  {
+    "id": "174",
+    "nazev": "Základní škola a Mateřská škola T. G. Masaryka, Praha 6, náměstí Českého povstání 6",
+    "zdroj": "jidelna.cz",
+    "skutecna_data": true,
+    "kratky": "ZŠ T. G. Masaryka"
   },
   {
     "id": "89",
@@ -29,11 +71,25 @@
     "kratky": "ZŠ Jarov"
   },
   {
+    "id": "994",
+    "nazev": "Základní škola a mateřská škola, Brno, Horníkova 1, příspěvková organizace",
+    "zdroj": "jidelna.cz",
+    "skutecna_data": true,
+    "kratky": "Horníkova (Brno)"
+  },
+  {
     "id": "151",
     "nazev": "Základní škola, Praha 4, Bítovská 1",
     "zdroj": "jidelna.cz",
     "skutecna_data": true,
     "kratky": "ZŠ Bítovská"
+  },
+  {
+    "id": "77",
+    "nazev": "Základní škola, Praha 4, Jižní IV., 10",
+    "zdroj": "jidelna.cz",
+    "skutecna_data": true,
+    "kratky": "ZŠ Jižní IV."
   },
   {
     "id": "21",
@@ -62,12 +118,5 @@
     "zdroj": "jidelna.cz",
     "skutecna_data": true,
     "kratky": "ZŠ Dubeč"
-  },
-  {
-    "id": "77",
-    "nazev": "Základní škola, Praha 4, Jižní IV., 10",
-    "zdroj": "jidelna.cz",
-    "skutecna_data": true,
-    "kratky": "ZŠ Jižní IV."
   }
 ]
