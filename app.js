@@ -220,7 +220,7 @@ function mealNode(m, date){
 /* ── Pohled Den ─────────────────────────────────────────────────── */
 function renderDen(){
   const mon = monday(S.date);
-  $("#heroSchool").textContent = AKTIVNI ? AKTIVNI.nazev : (S.school === "ms" ? "MŠ Dubeč" : "ZŠ Dubeč");
+  $("#heroSchool").textContent = AKTIVNI ? (AKTIVNI.kratky || AKTIVNI.nazev) : (S.school === "ms" ? "MŠ Dubeč" : "ZŠ Dubeč");
   $("#weekLabel").textContent  = `${short(mon)} – ${short(addD(mon,4))} ${parse(mon).getFullYear()}`;
   $(".segmented").hidden = !!AKTIVNI;
   $(".segmented").classList.toggle("ms", S.school === "ms");
@@ -394,7 +394,7 @@ function setView(v){
 /* ── Sdílení ────────────────────────────────────────────────────── */
 function shareWeek(){
   const mon = monday(S.date);
-  const jmenoSkoly = AKTIVNI ? AKTIVNI.nazev : `${S.school === "ms" ? "MŠ" : "ZŠ"} Dubeč`;
+  const jmenoSkoly = AKTIVNI ? (AKTIVNI.kratky || AKTIVNI.nazev) : `${S.school === "ms" ? "MŠ" : "ZŠ"} Dubeč`;
   let txt = `🍽️ Jídelníček ${jmenoSkoly}\n${short(mon)}–${short(addD(mon,4))}\n`;
   for (let i = 0; i < 5; i++){
     const d = addD(mon,i), list = meals(d, S.school);

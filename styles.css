@@ -114,10 +114,16 @@ main{max-width:560px;margin:0 auto;
 .hero{padding:20px 2px 22px}
 /* Slim hlavička na Dnu – jen jméno aktivní školy, žádný velký titulek. */
 .skola-hlavicka{
-  display:flex;align-items:center;gap:9px;padding:20px 2px 20px;
-  font-size:20px;font-weight:720;letter-spacing:-.02em;
+  display:flex;align-items:flex-start;gap:10px;padding:22px 2px 20px;
+  font-size:20px;font-weight:720;letter-spacing:-.02em;line-height:1.25;
 }
-.skola-hlavicka .dot{width:7px;height:7px;border-radius:50%;background:var(--accent);flex:none}
+.skola-hlavicka .dot{
+  width:7px;height:7px;border-radius:50%;background:var(--accent);flex:none;
+  margin-top:9px;                 /* zarovná tečku k první řádce, i když se jméno zalomí */
+}
+.skola-hlavicka span:last-child{
+  display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;
+}
 .hero.small{padding-bottom:16px}
 .eyebrow{
   display:inline-flex;align-items:center;gap:8px;margin-bottom:12px;

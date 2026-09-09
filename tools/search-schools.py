@@ -4,6 +4,11 @@ do schools/index.json (registr škol pro víceškolní appku).
 
     python3 tools/search-schools.py "Starodubečská"
     python3 tools/search-schools.py "Starodubečská" --add
+    python3 tools/search-schools.py "Starodubečská" --add --kratky "ZŠ Dubeč"
+
+Bez --kratky appka v hlavičce zobrazí celý oficiální název (zalomí se
+na 2 řádky) – funguje to, jen "ZŠ Dubeč" vypadá v hlavičce líp než
+"Základní škola, Starodubečská 413, Praha 10 - Dubeč".
 
 Pozor: jidelna.cz eviduje jen školy, které používají jejich software –
 nejde o vyčerpávající seznam všech škol v ČR. Když se nic nenajde nebo je
@@ -32,12 +37,29 @@ def uloz_registr(skoly: list[dict]) -> None:
     )
 
 
+def zpracuj_argumenty(argv):
+    """--add a --kratky "text" se vyloučí ze slov dotazu, ať se do
+    vyhledávání na jidelna.cz neprotáhnou omylem."""
+    pridat, kratky, slova = False, None, []
+    i = 0
+    while i < len(argv):
+        a = argv[i]
+        if a == "--add":
+            pridat = True
+        elif a == "--kratky":
+            i += 1
+            kratky = argv[i] if i < len(argv) else None
+        else:
+            slova.append(a)
+        i += 1
+    return pridat, kratky, " ".join(slova)
+
+
 def main() -> int:
     if len(sys.argv) < 2:
         print(__doc__)
         return 1
-    pridat = "--add" in sys.argv
-    dotaz  = " ".join(a for a in sys.argv[1:] if a != "--add")
+    pridat, kratky, dotaz = zpracuj_argumenty(sys.argv[1:])
 
     vysledky = hledej(dotaz)
     if not vysledky:
@@ -53,7 +75,10 @@ def main() -> int:
         nove = 0
         for s in vysledky:
             if s["id"] not in znama:
-                registr.append({"id": s["id"], "nazev": s["nazev"], "zdroj": "jidelna.cz"})
+                zaznam = {"id": s["id"], "nazev": s["nazev"], "zdroj": "jidelna.cz", "skutecna_data": True}
+                if kratky:
+                    zaznam["kratky"] = kratky
+                registr.append(zaznam)
                 nove += 1
         registr.sort(key=lambda s: s["nazev"])
         uloz_registr(registr)
