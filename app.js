@@ -1,5 +1,5 @@
 /* ══════════════════════════════════════════════════════════════════
-   Dubeč na talíři — aplikační logika
+   ZŠ na talíři — aplikační logika
 ══════════════════════════════════════════════════════════════════ */
 (() => {
 "use strict";
@@ -402,7 +402,7 @@ function shareWeek(){
     txt += `\n${DOW[parse(d).getDay()]} ${short(d)}\n`
          + list.map(m => `• ${D.courses[m.c].label}: ${m.n}`).join("\n") + "\n";
   }
-  if (navigator.share) navigator.share({ title:"Dubeč na talíři", text:txt }).catch(() => {});
+  if (navigator.share) navigator.share({ title:"ZŠ na talíři", text:txt }).catch(() => {});
   else { navigator.clipboard?.writeText(txt); toast("Zkopírováno do schránky"); }
 }
 
