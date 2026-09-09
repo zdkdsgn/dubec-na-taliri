@@ -7,8 +7,8 @@
 window.MENU_DATA = {
   meta: {
     school: "MŠ & ZŠ Dubeč",
-    updated: "2026-09-07T15:30:00+02:00",
-    week: "1. 9. – 11. 9. 2026",
+    updated: "2026-09-09T09:00:00+02:00",
+    week: "1. 9. – 18. 9. 2026",
     sources: {
       zs: "https://www.jidelna.cz/jidelni-listek/?jidelna=47",
       ms: "https://www.msdubec.cz/stranka-jidelnicek-45"
@@ -139,6 +139,43 @@ window.MENU_DATA = {
         { c: "polevka", n: "Zeleninová s droždovými knedlíčky", d: "", a: [1,3,7,9] },
         { c: "obed", n: "Vepřové na žampionech", d: "Rýže, mléčný koktejl", a: [7,8] },
         { c: "obed2", n: "Bramborové noky se slaninou a zelím", d: "Mléčný koktejl", a: [1,7,8,10] }
+      ]
+    },
+
+    /* ── Týden 38 – jen ZŠ ───────────────────────────────────────── */
+    "2026-09-14": {
+      zs: [
+        { c: "polevka", n: "Kapustová s bramborem", d: "", a: [7] },
+        { c: "obed", n: "Kuře na paprice", d: "Celozrnné těstoviny, ovoce, ovocný čaj / mléko / ochucená voda", a: [1,7] },
+        { c: "obed2", n: "Zeleninový salát s tuňákem", d: "Toustík, ovoce", a: [1,3,4,7,10] }
+      ]
+    },
+    "2026-09-15": {
+      zs: [
+        { c: "polevka", n: "Zeleninová se sýrem a svítkem", d: "", a: [1,3,7,9] },
+        { c: "obed", n: "Filet sumečka", d: "Šťouchané brambory s pažitkou, zelenina s dresinkem, ovocný čaj / mléčný koktejl", a: [3,4,7,8,10] },
+        { c: "obed2", n: "Rýžový nákyp s ovocem", d: "Zelenina s dresinkem", a: [3,7,8,10] }
+      ]
+    },
+    "2026-09-16": {
+      zs: [
+        { c: "polevka", n: "Hovězí vývar s těstovinou", d: "", a: [1,7,9] },
+        { c: "obed", n: "Hovězí svíčková na smetaně", d: "Houskové knedlíky, brusinky", a: [1,3,7,9] },
+        { c: "obed2", n: "Zeleninový salát s červenou řepou", d: "Pečivo", a: [1,3,7,9,10] }
+      ]
+    },
+    "2026-09-17": {
+      zs: [
+        { c: "polevka", n: "Krémová mrkvová", d: "", a: [7] },
+        { c: "obed", n: "Špagety se sušenými rajčaty", d: "Sypané sýrem, jogurt s müsli", a: [1,7] },
+        { c: "obed2", n: "Květákový mozek", d: "Šťouchané brambory, jogurt s müsli", a: [1,3,7] }
+      ]
+    },
+    "2026-09-18": {
+      zs: [
+        { c: "polevka", n: "Čočková", d: "", a: [] },
+        { c: "obed", n: "Smetanové karbanátky", d: "Bramborová kaše, okurkový salát, čaj / mléko", a: [1,3,7] },
+        { c: "obed2", n: "Kuskus se zeleninou", d: "Sypaný sýrem, okurkový salát", a: [1,7] }
       ]
     }
   }
