@@ -77,10 +77,11 @@
 
   <!-- ── VIEW: TÝDEN ───────────────────────────────────────────── -->
   <section class="view" id="view-tyden" hidden>
-    <div class="hero small">
-      <div class="eyebrow"><span class="dot"></span><span id="weekEyebrow">Týden</span></div>
-      <h1 class="hero-title">Celý <em>týden</em></h1>
+    <div class="skola-hlavicka">
+      <span class="dot"></span>
+      <span id="heroSchoolTyden"></span>
     </div>
+    <p class="pod-hlavickou" id="weekEyebrow"></p>
     <div class="week-actions">
       <button class="ghost-btn" id="shareWeek">
         <svg viewBox="0 0 24 24"><path d="M12 16V4m0 0L8 8m4-4l4 4M5 15v3a2 2 0 002 2h10a2 2 0 002-2v-3"/></svg>
@@ -92,21 +93,22 @@
 
   <!-- ── VIEW: ALERGENY ────────────────────────────────────────── -->
   <section class="view" id="view-alergeny" hidden>
-    <div class="hero small">
-      <div class="eyebrow"><span class="dot"></span><span>14 zákonných alergenů</span></div>
-      <h1 class="hero-title">Vyznáte se <em>v alergenech?</em></h1>
-      <p class="hero-sub">Vyberte ty, které dítě nesmí. Jídla s nimi se zvýrazní.</p>
+    <div class="skola-hlavicka">
+      <span class="dot"></span>
+      <span id="heroSchoolAlergeny"></span>
     </div>
+    <p class="pod-hlavickou">14 zákonných alergenů – vyberte ty, které dítě nesmí. Jídla s nimi se zvýrazní.</p>
     <div class="allergen-grid" id="allergenGrid"></div>
     <button class="ghost-btn danger" id="clearAllergens">Zrušit všechny filtry</button>
   </section>
 
   <!-- ── VIEW: INFO ────────────────────────────────────────────── -->
   <section class="view" id="view-info" hidden>
-    <div class="hero small">
-      <div class="eyebrow"><span class="dot"></span><span>O aplikaci</span></div>
-      <h1 class="hero-title">ZŠ <em>na talíři</em></h1>
+    <div class="skola-hlavicka">
+      <span class="dot"></span>
+      <span id="heroSchoolInfo"></span>
     </div>
+    <p class="pod-hlavickou">O aplikaci ZŠ na talíři</p>
     <div class="card-list">
       <div class="card">
         <div class="info-row"><span>Jídelníček aktualizován</span><b id="infoUpdated">—</b></div>
@@ -223,7 +225,7 @@
   <div class="sheet-grabber"></div>
   <div class="sheet-body">
     <h2>Vaše škola</h2>
-    <p class="sub">Appka má zatím stažená data jen pro pár škol – ostatní jde najít, ale zatím bez jídelníčku.</p>
+    <p class="sub">Přes 200 škol napříč republikou – další jde najít, ale zatím bez staženého jídelníčku.</p>
 
     <div class="skola-dostupne" id="skolaDostupne"></div>
 

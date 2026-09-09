@@ -569,3 +569,29 @@ main{max-width:560px;margin:0 auto;
 }
 .skola-vysledek button:active{transform:scale(.94)}
 .skola-stav{font-size:13px;color:var(--ink-3);padding:10px 2px;text-align:center}
+
+/* ── Malý řádek pod slim hlavičkou (kontext obrazovky) ──────────── */
+.pod-hlavickou{margin:0 2px 22px;color:var(--ink-2);font-size:14.5px;line-height:1.4}
+
+/* ── Výběr školy: sbalitelné sekce podle města ──────────────────── */
+.skola-sekce{
+  border-radius:var(--r-lg);background:var(--card);border:1px solid var(--card-brd);
+  overflow:hidden;margin-bottom:8px;
+}
+.skola-sekce-hlavicka{
+  display:flex;align-items:center;gap:8px;width:100%;padding:13px 14px;text-align:left;
+  font-size:14.5px;font-weight:660;
+}
+.skola-sekce-hlavicka .pocet{
+  font-size:12px;font-weight:600;color:var(--ink-3);font-variant-numeric:tabular-nums;
+}
+.skola-sekce-hlavicka .chev{
+  margin-left:auto;width:17px;height:17px;color:var(--ink-3);
+  transition:transform .4s var(--spring);
+}
+.skola-sekce.otevrena .skola-sekce-hlavicka .chev{transform:rotate(90deg)}
+.skola-sekce-telo{display:grid;grid-template-rows:0fr;transition:grid-template-rows .45s var(--spring)}
+.skola-sekce.otevrena .skola-sekce-telo{grid-template-rows:1fr}
+.skola-sekce-telo > div{overflow:hidden;display:flex;flex-direction:column;gap:6px;padding:0 8px 8px}
+.skola-sekce-telo .skola-radek{border:0;background:color-mix(in srgb,var(--ink) 3%,transparent)}
+.skola-sekce-telo .skola-radek.aktivni{background:var(--t-green-bg)}

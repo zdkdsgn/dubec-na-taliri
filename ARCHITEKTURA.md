@@ -95,6 +95,23 @@ v jedné skupině (např. běžný oběd + bezlepková dieta jako chod 3) –
 ("N obědových položek"), ale nezastaví se. Jedna taková škola (ZŠ Na
 Líše, Praha 4) je zatím z registru vyřazená kvůli tomuhle.
 
+## Plošné procházení celého ID prostoru (2026-09)
+
+jidelna.cz nemá "vypiš mi všechno" API, jen vyhledávání podle názvu –
+jediná cesta k opravdu úplnému seznamu je projet ID prostor sekvenčně.
+`tools/scan-all-schools.py <od> <do>` to dělá: pro každé ID jeden
+požadavek (stejná stránka, ze které appka číst jídelníček), 200 = platná
+škola, 302 = neplatné ID. robots.txt cestu `/jidelni-listek/` nezakazuje.
+
+Rozsah 1–4200 (hustě obsazená část prostoru, ověřeno vzorkováním až do
+20000) proběhl s 0,5s pauzou mezi požadavky – ~35 minut, běželo na
+pozadí. Výsledek: **179 nových škol**, **17 vyřazeno** (stejná pravidla
+jako u ručních importů – 3+ obědové položky na skupinu). Registr má
+teď **207 škol** napříč ~44 městy a okresy, ne jen Prahou a Brnem.
+
+Průběh a přehled nalezených/vyřazených škol je v `menu/sken-prubeh.json`
+– slouží jako log, appka ho sama nečte.
+
 ## Rozumný další krok
 
 Až budete chtít pokračovat, navrhuju v tomhle pořadí:
