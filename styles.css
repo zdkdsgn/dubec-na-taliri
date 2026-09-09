@@ -598,10 +598,11 @@ main{max-width:560px;margin:0 auto;
 .skola-radek .hvezda.on{color:var(--t-amber)}
 .skola-radek .hvezda.on svg{fill:currentColor}
 
-.skola-hledat-lepive{
-  position:sticky;top:0;z-index:5;margin:0 -22px 14px;padding:0 22px 12px;
+.skola-lepiva-hlavicka{
+  position:sticky;top:0;z-index:5;margin:0 -22px;padding:0 22px 14px;
   background:var(--card);border-bottom:1px solid var(--card-brd);
 }
+.skola-lepiva-hlavicka .sub{margin-bottom:16px}
 .skola-hledat{
   display:flex;align-items:center;gap:10px;padding:0 14px;height:46px;
   border-radius:var(--r-pill);background:var(--track);
