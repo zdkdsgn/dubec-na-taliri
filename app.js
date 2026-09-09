@@ -502,23 +502,35 @@ swipe($("#timeline"), p => step(1, p), p => step(-1, p));
   });
 })();
 
-/* ── Čerstvost dat po návratu do aplikace ───────────────────────
-   iOS appku na ploše často jen probudí z paměti a stránku znovu nenačte.
-   Bez téhle kontroly by ukazovala jídelníček z posledního spuštění –
-   klidně několik dní starý. Ptáme se na malý base.json (3 kB) a stránku
-   načteme znovu, jen když je opravdu novější. */
+/* ── Detekce nové verze po návratu do aplikace ──────────────────
+   iOS appku na ploše často jen probudí z paměti a stránku znovu nenačte,
+   takže by appka klidně několik dní ukazovala starý kód i stará data.
+   Porovnáváme drobný version.json (otisk index.html/styles.css/app.js/
+   sw.js) s tím, co appka viděla naposledy – hlídá tedy i úpravy appky
+   samotné, ne jen aktualizace jídelníčku. cache:"no-store" zajišťuje,
+   že se ptáme opravdu sítě, ne desetiminutové HTTP cache GitHub Pages. */
 const KONTROLA_PO = 5 * 60 * 1000;
 let posledniKontrola = Date.now();
 
-async function zkontrolujAktualnost(){
+/* kontrolovat=false: appka právě naběhla skutečným načtením stránky,
+   takže verze je jistě aktuální – jen si ji zapamatujeme jako výchozí.
+   kontrolovat=true: appka se jen probrala z paměti (návrat do appky),
+   žádné skutečné načtení neproběhlo – tady rozdíl znamená zastaralý kód
+   i data a je namístě appku restartovat. */
+async function overVerzi(kontrolovat){
   if (!navigator.onLine) return;
   try {
-    const r = await fetch("menu/base.json", { cache: "no-store" });
+    const r = await fetch("version.json", { cache: "no-store" });
     if (!r.ok) return;                                  // např. jednosouborová verze
-    const { meta } = await r.json();
-    if (!meta?.updated || meta.updated === D.meta.updated) return;
-    toast("Máme nový jídelníček");
-    setTimeout(() => location.reload(), 900);
+    const { v } = await r.json();
+    if (!v) return;
+
+    const videna = store.get("appVersion", null);
+    store.set("appVersion", v);
+    if (kontrolovat && videna !== null && videna !== v){
+      toast("Máme novou verzi");
+      setTimeout(() => location.reload(), 900);
+    }
   } catch {
     /* offline nebo výpadek sítě – necháme na obrazovce, co máme */
   }
@@ -529,7 +541,7 @@ document.addEventListener("visibilitychange", () => {
   if (!$("#sheet").hidden) return;                      // nebudeme rušit otevřený detail
   if (Date.now() - posledniKontrola < KONTROLA_PO) return;
   posledniKontrola = Date.now();
-  zkontrolujAktualnost();
+  overVerzi(true);
 });
 
 /* Spodní menu se při scrollu dolů smrskne do jedné ikony (aktuální
@@ -569,5 +581,6 @@ if ("serviceWorker" in navigator && location.protocol.startsWith("http"))
   window.addEventListener("load", () => navigator.serviceWorker.register("sw.js").catch(() => {}));
 
 applyTheme(); renderAll(); setView("den"); onScroll();
+overVerzi(false);   // appka právě naběhla čerstvě – jen zapamatovat výchozí verzi
 setInterval(renderDen, 60_000);
 })();

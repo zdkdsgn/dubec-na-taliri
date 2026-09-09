@@ -18,6 +18,9 @@ je hlasitá chyba než tiše zastaralý jídelníček.
 """
 
 import json, re, sys, unicodedata, urllib.request
+
+sys.path.insert(0, str(__import__("pathlib").Path(__file__).resolve().parent))
+from _version import zapis_verzi
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
@@ -229,6 +232,9 @@ def main() -> int:
 
     (ROOT / "data.js").write_text(generuj_data_js(base, ms, zs), encoding="utf-8")
     print(f"data.js: {len(set(ms) | set(zs))} dní (ZŠ {len(zs)}, MŠ {len(ms)})")
+
+    verze = zapis_verzi(ROOT)
+    print(f"version.json: {verze}")
     return 0
 
 

@@ -1,6 +1,6 @@
 /* Network-first pro vlastní soubory: online rodič vidí vždy čerstvý
    jídelníček, offline se servíruje poslední uložená verze. */
-const CACHE = "dubec-na-taliri-v2";
+const CACHE = "dubec-na-taliri-v3";
 const ASSETS = [
   "./", "./index.html", "./styles.css", "./app.js", "./data.js",
   "./manifest.webmanifest", "./assets/icon.svg",
@@ -22,7 +22,10 @@ self.addEventListener("fetch", e => {
   if (req.method !== "GET" || new URL(req.url).origin !== location.origin) return;
 
   e.respondWith(
-    fetch(req)
+    /* cache:"no-store" je tu klíčové – bez něj prohlížeč klidně vrátí
+       vlastní HTTP cache (GitHub Pages posílá Cache-Control: max-age=600)
+       a "network-first" fetch se ve skutečnosti sítě vůbec nezeptá. */
+    fetch(req, { cache: "no-store" })
       .then(res => {
         if (res.ok) { const copy = res.clone(); caches.open(CACHE).then(c => c.put(req, copy)); }
         return res;

@@ -24,8 +24,10 @@ Pak `http://localhost:4173`. (Servírovat přes HTTP je nutné kvůli service wo
 | `menu/base.json` | Meta, 14 alergenů, typy chodů (ruční) |
 | `menu/ms.json` | Jídelníček MŠ (ruční — MŠ ho nikde nepublikuje) |
 | `menu/zs.json` | Jídelníček ZŠ (generovaný, slouží jako archiv) — `{"vydej": "11:30–13:45", "chody": [...]}` |
-| `tools/update-menu.py` | Stáhne jídelníček ZŠ a přegeneruje `data.js` |
-| `.github/workflows/jidelnicek.yml` | Spouští to každé ráno |
+| `tools/update-menu.py` | Stáhne jídelníček ZŠ, přegeneruje `data.js` i `version.json` |
+| `tools/write-version.py` | Přegeneruje jen `version.json` – spustit po ruční úpravě appky |
+| `version.json` | Otisk appky (`index.html`+`styles.css`+`app.js`+`sw.js`+manifest), podle kterého appka na telefonu pozná novou verzi |
+| `.github/workflows/jidelnicek.yml` | Spouští `update-menu.py` každé ráno |
 | `sw.js` | Offline cache (network-first) |
 | `manifest.webmanifest` | Instalace na plochu |
 
@@ -42,6 +44,7 @@ Pak `http://localhost:4173`. (Servírovat přes HTTP je nutné kvůli service wo
 - **Tmavý režim** — automaticky podle systému, nebo ručně v Info → Vzhled (Automaticky / Světlý / Tmavý). Volba se pamatuje a přebarví i stavový řádek telefonu.
 - **Sama se aktualizuje** — service worker je network-first, takže při spuštění vždy sáhne na síť. Navíc po návratu do aplikace (a nejdřív 5 minut od načtení) porovná `meta.updated` v `menu/base.json` s načtenou verzí; když vyšel novější jídelníček, stránku tiše načte znovu. Bez toho by appka probuzená iOSem z paměti ukazovala data z posledního spuštění
 - **Spodní menu se schovává** — při scrollu dolů se smrskne do jedné kulaté ikony (aktuální záložky), při scrollu nahoru nebo klepnutím na ni se zase rozbalí. Horní hlavička byla odstraněna úplně, identitu appky nese ikona a stránka Info
+- **Pozná i aktualizaci kódu, ne jen dat** — `version.json` je otisk appky; při probuzení z paměti appka porovná, co vidí server, s tím, co viděla naposledy, a při rozdílu se sama restartuje. Kryje tak i úpravy vzhledu a chování appky, ne jen nový jídelníček
 - **Offline** — jednou načtený jídelníček zůstane v telefonu
 - **Gesta** — swipe doleva/doprava mezi dny, sheet se zavírá stažením dolů, haptická odezva
 
@@ -71,6 +74,16 @@ https://www.jidelna.cz/jidelni-listek/?jidelna=47&zacatek=2026-09&delka=P1M
 ```
 
 `zacatek` bere `RRRR-MM` i konkrétní datum, `delka` je ISO 8601 doba (`P1M`, `P7D`). Tohle je hotová cesta pro automatický odběr — jedno stažení měsíčně místo denního hlídání. Do budoucna se vyplatí publikované týdny archivovat, dopředu jídelna vypisuje jen pár dní.
+
+### 0. Po každé ruční úpravě appky
+
+```bash
+python3 tools/write-version.py
+```
+
+Bez tohohle appka probuzená na telefonu z paměti nepozná, že se něco změnilo – uvidí starý vzhled i chování donekonečna, dokud appku sama nezavřete a znovu neotevřete. `tools/update-menu.py` totéž dělá automaticky za vás, tenhle krok je jen pro zásahy do `index.html`/`styles.css`/`app.js`/`sw.js`.
+
+**Servisní worker navíc obchází desetiminutovou HTTP cache GitHub Pages** (`cache:"no-store"` v `sw.js`) – bez toho by "network-first" fetch klidně vrátil starou verzi souboru z mezipaměti prohlížeče, aniž by se sítě vůbec zeptal. Tohle byla skutečná příčina, proč appka jednou po nasazení nové verze ukazovala starý vzhled i s aktivním service workerem.
 
 ### 1. Automatická aktualizace (ZŠ — hotovo)
 
