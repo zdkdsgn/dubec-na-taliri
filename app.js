@@ -133,6 +133,28 @@ const bezAnimaci = () => matchMedia("(prefers-reduced-motion: reduce)").matches;
 let prepinam = false;
 
 /* Zelená dlaždice se nekreslí do buňky, ale posouvá se pod ně. */
+/* Zamkne skrolování/swajpování stránky pod vyjetým sheetem (počítadlo
+   pro případ, že by se překrývaly dva sheety najednou). Na iOS nestačí
+   jen overflow:hidden – position:fixed je jediný spolehlivý způsob,
+   jak zabránit swajpu pozadím i s odraženým bounce efektem. */
+let zamcenoScrollu = 0, ulozenyScrollY = 0;
+function zamkniScroll(){
+  if (zamcenoScrollu++ > 0) return;
+  ulozenyScrollY = window.scrollY;
+  document.body.style.position = "fixed";
+  document.body.style.top      = `-${ulozenyScrollY}px`;
+  document.body.style.left     = "0";
+  document.body.style.right    = "0";
+}
+function odemkniScroll(){
+  if (zamcenoScrollu === 0 || --zamcenoScrollu > 0) return;
+  document.body.style.position = "";
+  document.body.style.top      = "";
+  document.body.style.left     = "";
+  document.body.style.right    = "";
+  window.scrollTo(0, ulozenyScrollY);
+}
+
 function posunThumb(thumb, days, cil, skoc){
   if (!cil) { thumb.style.opacity = "0"; return; }
   const r = cil.getBoundingClientRect(), rp = days.getBoundingClientRect();
@@ -231,7 +253,7 @@ function aktualizujHlavicky(){
   if (popis) popis.setAttribute("content", `Jídelníček ${p} – celý den na jednom talíři.`);
 }
 
-function renderDen(){
+function renderDen(skoc){
   const mon = monday(S.date);
   aktualizujHlavicky();
   $("#weekLabel").textContent  = `${short(mon)} – ${short(addD(mon,4))} ${parse(mon).getFullYear()}`;
@@ -240,7 +262,7 @@ function renderDen(){
   $$(".seg").forEach(b => b.setAttribute("aria-selected", b.dataset.school === S.school));
 
   const days = $("#days");
-  const jinyTyden = days.dataset.mon !== mon;
+  const jinyTyden = skoc || days.dataset.mon !== mon;
   days.dataset.mon = mon;
 
   /* Dlaždici nepřekreslujeme – musí zůstat v DOM, aby měla odkud přejet. */
@@ -404,10 +426,12 @@ function openSheet(m, date){
     if (S.rating[key] !== undefined) toast("Uloženo do vašeho telefonu");
   }));
   $("#scrim").hidden = false; $("#sheet").hidden = false;
+  zamkniScroll();
   requestAnimationFrame(() => { $("#scrim").classList.add("in"); $("#sheet").classList.add("in"); });
 }
 function closeSheet(){
   $("#scrim").classList.remove("in"); $("#sheet").classList.remove("in");
+  odemkniScroll();
   setTimeout(() => { $("#scrim").hidden = true; $("#sheet").hidden = true; }, 460);
 }
 
@@ -418,6 +442,7 @@ function setView(v){
   $$(".tab").forEach(t => t.classList.toggle("is-active", t.dataset.view === v));
   syncFabIcon();
   window.scrollTo({ top: 0 });
+  if (v === "den")   renderDen(true);
   if (v === "tyden") renderTyden();
   if (v === "info")  renderInfo();
 }
@@ -715,10 +740,12 @@ async function otevriSkolaSheet(){
   $("#skolaQuery").value = "";
   $("#skolaVysledky").innerHTML = "";
   $("#skolaScrim").hidden = false; $("#skolaSheet").hidden = false;
+  zamkniScroll();
   requestAnimationFrame(() => { $("#skolaScrim").classList.add("in"); $("#skolaSheet").classList.add("in"); });
 }
 function zavriSkolaSheet(){
   $("#skolaScrim").classList.remove("in"); $("#skolaSheet").classList.remove("in");
+  odemkniScroll();
   setTimeout(() => { $("#skolaScrim").hidden = true; $("#skolaSheet").hidden = true; }, 460);
 }
 
