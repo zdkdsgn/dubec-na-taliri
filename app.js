@@ -125,6 +125,70 @@ const kdeZasah  = m => [...new Set(casti(m)
   .filter(c => c.a.some(n => S.filter.has(n)))
   .map(c => c.l.toLowerCase()))];
 
+/* ── Přechod mezi dny ───────────────────────────────────────────
+   Obsah odjede směrem swipu, nový přijede z druhé strany a karty
+   naskáčou po sobě. Dlaždice vybraného dne mezitím plynule přejede.
+──────────────────────────────────────────────────────────────── */
+const bezAnimaci = () => matchMedia("(prefers-reduced-motion: reduce)").matches;
+let prepinam = false;
+
+/* Zelená dlaždice se nekreslí do buňky, ale posouvá se pod ně. */
+function posunThumb(thumb, days, cil, skoc){
+  if (!cil) { thumb.style.opacity = "0"; return; }
+  const r = cil.getBoundingClientRect(), rp = days.getBoundingClientRect();
+  const x = r.left - rp.left - days.clientLeft;
+  const y = r.top  - rp.top  - days.clientTop;
+  if (skoc || bezAnimaci()) thumb.style.transition = "none";
+  thumb.style.opacity   = "1";
+  thumb.style.width     = `${r.width}px`;
+  thumb.style.height    = `${r.height}px`;
+  thumb.style.transform = `translate(${x}px, ${y}px)`;
+  if (skoc || bezAnimaci()) requestAnimationFrame(() => thumb.style.transition = "");
+}
+
+function naskakejKarty(smer){
+  if (bezAnimaci()) return;
+  $$("#timeline .meal").forEach((el, i) => el.animate(
+    [{ opacity: 0, transform: `translate3d(${smer * 22}px,6px,0) scale(.985)` },
+     { opacity: 1, transform: "none" }],
+    { duration: 380, delay: i * 45, easing: "cubic-bezier(.32,.72,0,1)", fill: "backwards" }
+  ));
+}
+
+/* smer: 1 = na další den (obsah odjede doleva), -1 = na předchozí.
+   odKud = kde obsah zrovna je pod prstem, aby odchod plynule navázal. */
+async function prepniDen(cil, smer, odKud = 0){
+  if (prepinam || cil === S.date) return;
+  smer = smer || (cil > S.date ? 1 : -1);
+
+  if (bezAnimaci()) { S.date = cil; renderDen(); renderTyden(); return; }
+
+  prepinam = true;
+  const tl = $("#timeline");
+  let odchod;
+  try {
+    odchod = tl.animate(
+      [{ opacity: Math.max(.4, 1 - Math.abs(odKud) / 420), transform: `translate3d(${odKud}px,0,0)` },
+       { opacity: 0, transform: `translate3d(${-smer * 60}px,0,0)` }],
+      { duration: 160, easing: "cubic-bezier(.4,0,1,1)", fill: "forwards" }
+    );
+    /* Když je stránka na pozadí, prohlížeč animace nepřehrává a finished by
+       nikdy nedoběhlo – proto čekáme nejvýš 260 ms a pak pokračujeme tak jako tak.
+       Bez toho by se dal jídelníček zaseknout přepnutím aplikace uprostřed swipu. */
+    await Promise.race([
+      odchod.finished.catch(() => {}),
+      new Promise(r => setTimeout(r, 260)),
+    ]);
+    S.date = cil;
+    renderDen();
+    renderTyden();
+  } finally {
+    odchod?.cancel();          // fill:forwards by jinak držel obsah neviditelný
+    prepinam = false;
+  }
+  naskakejKarty(smer);
+}
+
 /* ── Karta jídla ────────────────────────────────────────────────── */
 function mealNode(m, date){
   const c    = D.courses[m.c];
@@ -161,16 +225,31 @@ function renderDen(){
   $(".segmented").classList.toggle("ms", S.school === "ms");
   $$(".seg").forEach(b => b.setAttribute("aria-selected", b.dataset.school === S.school));
 
-  const days = $("#days"); days.innerHTML = "";
+  const days = $("#days");
+  const jinyTyden = days.dataset.mon !== mon;
+  days.dataset.mon = mon;
+
+  /* Dlaždici nepřekreslujeme – musí zůstat v DOM, aby měla odkud přejet. */
+  $$(".day", days).forEach(b => b.remove());
+  let thumb = $(".day-thumb", days);
+  if (!thumb){
+    thumb = document.createElement("span");
+    thumb.className = "day-thumb";
+    days.appendChild(thumb);
+  }
+
+  let vybrany = null;
   for (let i = 0; i < 5; i++){
     const d = addD(mon,i);
     const b = document.createElement("button");
     b.className = "day" + (d === S.date ? " sel" : "") + (d === TODAY ? " today" : "");
     b.innerHTML = `<span class="dow">${DOWS[parse(d).getDay()]}</span>
                    <span class="num">${parse(d).getDate()}</span><span class="pip"></span>`;
-    b.addEventListener("click", () => { haptic(); S.date = d; renderDen(); });
+    b.addEventListener("click", () => { haptic(); prepniDen(d); });
     days.appendChild(b);
+    if (d === S.date) vybrany = b;
   }
+  posunThumb(thumb, days, vybrany, jinyTyden);
 
   $("#dayName").innerHTML = `${DOW[parse(S.date).getDay()]} <span class="date">${long(S.date)}</span>`;
 
@@ -326,31 +405,52 @@ function shareWeek(){
 
 /* ── Gesta ──────────────────────────────────────────────────────── */
 function swipe(el, onLeft, onRight){
-  let x0 = null, y0 = null, lock = null;
-  el.addEventListener("touchstart", e => { x0 = e.touches[0].clientX; y0 = e.touches[0].clientY; lock = null; }, { passive:true });
+  let x0 = null, y0 = null, lock = null, posun = 0;
+
+  el.addEventListener("touchstart", e => {
+    if (prepinam) return;
+    x0 = e.touches[0].clientX; y0 = e.touches[0].clientY; lock = null; posun = 0;
+  }, { passive: true });
+
   el.addEventListener("touchmove", e => {
     if (x0 === null) return;
     const dx = e.touches[0].clientX - x0, dy = e.touches[0].clientY - y0;
-    if (lock === null && (Math.abs(dx) > 10 || Math.abs(dy) > 10)) lock = Math.abs(dx) > Math.abs(dy) ? "x" : "y";
-    if (lock === "x") el.style.transform = `translateX(${dx * .26}px)`;
-  }, { passive:true });
+    if (lock === null && (Math.abs(dx) > 10 || Math.abs(dy) > 10))
+      lock = Math.abs(dx) > Math.abs(dy) ? "x" : "y";
+    if (lock === "x"){
+      posun = dx * .45;
+      el.style.transform = `translate3d(${posun}px,0,0)`;
+      el.style.opacity   = String(Math.max(.4, 1 - Math.abs(posun) / 420));
+    }
+  }, { passive: true });
+
   el.addEventListener("touchend", e => {
     if (x0 === null) return;
     const dx = e.changedTouches[0].clientX - x0;
-    el.style.transition = "transform .45s var(--spring)"; el.style.transform = "";
-    setTimeout(() => el.style.transition = "", 460);
-    if (lock === "x" && Math.abs(dx) > 55){ haptic(); dx < 0 ? onLeft() : onRight(); }
-    x0 = y0 = null;
+    const potvrzeno = lock === "x" && Math.abs(dx) > 55;
+
+    if (potvrzeno){
+      haptic();
+      el.style.transform = ""; el.style.opacity = "";     // převezme prepniDen
+      (dx < 0 ? onLeft : onRight)(posun);
+    } else if (lock === "x"){
+      el.style.transition = "transform .45s var(--spring), opacity .3s ease";
+      el.style.transform  = ""; el.style.opacity = "";
+      setTimeout(() => el.style.transition = "", 460);
+    }
+    x0 = y0 = null; posun = 0;
   });
 }
-const step = n => {
+
+const step = (n, odKud = 0) => {
   let d = S.date;
   for (let i = 0; i < 10; i++){ d = addD(d,n); if (hasDay(d)) break; }
-  if (hasDay(d)){ S.date = d; renderDen(); } else toast("Další jídelníček zatím není k dispozici");
+  if (hasDay(d)) prepniDen(d, n, odKud);
+  else toast("Další jídelníček zatím není k dispozici");
 };
 const weekStep = n => {
   const cand = addD(monday(S.date), n*7);
-  for (let i = 0; i < 5; i++) if (hasDay(addD(cand,i))){ S.date = addD(cand,i); renderDen(); renderTyden(); return; }
+  for (let i = 0; i < 5; i++) if (hasDay(addD(cand,i))){ prepniDen(addD(cand,i), n); return; }
   toast("Pro tento týden zatím jídelníček nemáme");
 };
 
@@ -362,7 +462,7 @@ $$(".tab").forEach(t => t.addEventListener("click", () => { haptic(); setView(t.
 $("#weekPrev").addEventListener("click", () => { haptic(); weekStep(-1); });
 $("#weekNext").addEventListener("click", () => { haptic(); weekStep(1); });
 $("#weekNow").addEventListener("click",  () => {
-  haptic(); S.date = nearestSchoolDay(TODAY); renderDen(); renderTyden(); toast("Zpět na aktuální týden");
+  haptic(); prepniDen(nearestSchoolDay(TODAY)); toast("Zpět na aktuální týden");
 });
 $("#toWeek").addEventListener("click",      () => { haptic(); setView("tyden"); });
 $("#brandInfo").addEventListener("click",   () => { haptic(); setView("info"); });
@@ -381,7 +481,7 @@ document.addEventListener("keydown", e => {
   if (S.view === "den" && e.key === "ArrowLeft")  step(-1);
   if (S.view === "den" && e.key === "ArrowRight") step(1);
 });
-swipe($("#timeline"), () => step(1), () => step(-1));
+swipe($("#timeline"), p => step(1, p), p => step(-1, p));
 
 (() => {  /* sheet stažením dolů */
   const sh = $("#sheet"); let y0 = null;
