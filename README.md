@@ -40,6 +40,7 @@ Pak `http://localhost:4173`. (Servírovat přes HTTP je nutné kvůli service wo
 - **Detail jídla** — u každého alergenu stojí, ve které položce je, plus rozpis „co je na talíři" (jídlo, příloha, doplněk, nápoj) s vlastními alergeny
 - **Sdílení týdne** — nativní iOS share sheet, text do WhatsApp / třídní skupiny
 - **Tmavý režim** — automaticky podle systému, nebo ručně v Info → Vzhled (Automaticky / Světlý / Tmavý). Volba se pamatuje a přebarví i stavový řádek telefonu.
+- **Sama se aktualizuje** — service worker je network-first, takže při spuštění vždy sáhne na síť. Navíc po návratu do aplikace (a nejdřív 5 minut od načtení) porovná `meta.updated` v `menu/base.json` s načtenou verzí; když vyšel novější jídelníček, stránku tiše načte znovu. Bez toho by appka probuzená iOSem z paměti ukazovala data z posledního spuštění
 - **Offline** — jednou načtený jídelníček zůstane v telefonu
 - **Gesta** — swipe doleva/doprava mezi dny, sheet se zavírá stažením dolů, haptická odezva
 

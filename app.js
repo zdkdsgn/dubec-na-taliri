@@ -497,6 +497,36 @@ swipe($("#timeline"), p => step(1, p), p => step(-1, p));
   });
 })();
 
+/* ── Čerstvost dat po návratu do aplikace ───────────────────────
+   iOS appku na ploše často jen probudí z paměti a stránku znovu nenačte.
+   Bez téhle kontroly by ukazovala jídelníček z posledního spuštění –
+   klidně několik dní starý. Ptáme se na malý base.json (3 kB) a stránku
+   načteme znovu, jen když je opravdu novější. */
+const KONTROLA_PO = 5 * 60 * 1000;
+let posledniKontrola = Date.now();
+
+async function zkontrolujAktualnost(){
+  if (!navigator.onLine) return;
+  try {
+    const r = await fetch("menu/base.json", { cache: "no-store" });
+    if (!r.ok) return;                                  // např. jednosouborová verze
+    const { meta } = await r.json();
+    if (!meta?.updated || meta.updated === D.meta.updated) return;
+    toast("Máme nový jídelníček");
+    setTimeout(() => location.reload(), 900);
+  } catch {
+    /* offline nebo výpadek sítě – necháme na obrazovce, co máme */
+  }
+}
+
+document.addEventListener("visibilitychange", () => {
+  if (document.visibilityState !== "visible") return;
+  if (!$("#sheet").hidden) return;                      // nebudeme rušit otevřený detail
+  if (Date.now() - posledniKontrola < KONTROLA_PO) return;
+  posledniKontrola = Date.now();
+  zkontrolujAktualnost();
+});
+
 /* Horní lišta se schová při scrollu dolů a vrátí se při scrollu nahoru. */
 let lastY = 0, barHidden = false;
 function onScroll(){
