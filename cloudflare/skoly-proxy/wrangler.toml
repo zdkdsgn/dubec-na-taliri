@@ -1,0 +1,6 @@
+name = "dubec-skoly-proxy"
+main = "src/worker.js"
+compatibility_date = "2026-09-01"
+
+# Bezplatný plán stačí – appka volá tenhle worker jen při hledání školy,
+# ne při běžném prohlížení jídelníčku (to zůstává statické na GitHub Pages).

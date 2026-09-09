@@ -47,12 +47,12 @@ byl původní kód psaný natvrdo.
    `data.js`. Chce to nejdřív probrat UX (textové hledání? mapa?
    "poblíž mě"?), než se do toho pustím naslepo.
 
-2. **Živé vyhledávání škol z appky.** Kvůli CORS to jde jen přes
-   server. Nejlevnější a nejmíň závazná varianta je malá serverless
-   funkce (např. Cloudflare Worker, zdarma), která jen přeposílá dotaz
-   na jidelna.cz a vrátí JSON – appka samotná zůstává na GitHub Pages.
-   Vyžaduje to ale nový účet/službu navíc, proto to nezakládám bez
-   potvrzení.
+2. **Živé vyhledávání škol z appky – hotovo, čeká na nasazení.**
+   `cloudflare/skoly-proxy/` je otestovaný Cloudflare Worker, který
+   dotaz přepošle na jidelna.cz a vrátí JSON s CORS hlavičkami. Appka
+   samotná zůstává na GitHub Pages, worker se volá jen při hledání
+   školy. Nasazení vyžaduje váš Cloudflare účet (zdarma, bez platební
+   karty) – návod v `cloudflare/skoly-proxy/README.md`.
 
 3. **Hromadné doplňování registru.** `search-schools.py` umí najít
    školu podle přesného názvu/ulice, ale nejde "vylistovat všechny
