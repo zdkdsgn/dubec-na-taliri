@@ -332,6 +332,19 @@ function renderAlergeny(){
   });
 }
 
+function odkazNaJidelnu(){
+  if (!AKTIVNI) {
+    return {
+      url: D.meta.sources?.[S.school] || D.meta.sources?.zs || "https://www.zsdubec.cz",
+      popis: "Oficiální informace, ceny a odhlašování obědů.",
+    };
+  }
+  return {
+    url: `https://www.jidelna.cz/jidelni-listek/?jidelna=${AKTIVNI.id}`,
+    popis: "Jídelníček přímo na webu jídelny.",
+  };
+}
+
 function renderInfo(){
   const u = new Date(D.meta.updated);
   $("#infoUpdated").textContent = `${u.getDate()}. ${u.getMonth()+1}. ${u.getFullYear()}`;
@@ -339,6 +352,11 @@ function renderInfo(){
   $("#infoWeek").textContent = `${short(mon)} – ${short(addD(mon,4))}`;
   $("#infoSource").textContent = D.meta.real?.[S.school] ? "Oficiální jídelníček" : "Ukázková data";
   $("#infoMode").textContent   = navigator.onLine ? "Online" : "Offline (z paměti)";
+  const { url, popis } = odkazNaJidelnu();
+  const a = $("#webJidelny");
+  if (a) { a.href = url; }
+  const p = $("#webJidelnyPopis");
+  if (p) { p.textContent = popis; }
 }
 const renderAll = () => { renderDen(); renderTyden(); renderAlergeny(); renderInfo(); };
 
