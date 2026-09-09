@@ -384,7 +384,7 @@ function openSheet(m, date){
 }
 function closeSheet(){
   $("#scrim").classList.remove("in"); $("#sheet").classList.remove("in");
-  setTimeout(() => { $("#scrim").hidden = true; $("#sheet").hidden = true; }, 420);
+  setTimeout(() => { $("#scrim").hidden = true; $("#sheet").hidden = true; }, 460);
 }
 
 /* ── Pohledy ────────────────────────────────────────────────────── */
@@ -695,7 +695,7 @@ async function otevriSkolaSheet(){
 }
 function zavriSkolaSheet(){
   $("#skolaScrim").classList.remove("in"); $("#skolaSheet").classList.remove("in");
-  setTimeout(() => { $("#skolaScrim").hidden = true; $("#skolaSheet").hidden = true; }, 420);
+  setTimeout(() => { $("#skolaScrim").hidden = true; $("#skolaSheet").hidden = true; }, 460);
 }
 
 /* ── Události ───────────────────────────────────────────────────── */
