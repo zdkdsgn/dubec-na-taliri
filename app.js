@@ -77,7 +77,7 @@ function applyTheme(){
   const dark    = S.theme === "dark" || (S.theme === "auto" && sysDark);
   document.querySelectorAll('meta[name="theme-color"]').forEach(m => m.remove());
   const m = document.createElement("meta");
-  m.name = "theme-color"; m.content = dark ? "#0B120E" : "#F6FAF7";
+  m.name = "theme-color"; m.content = dark ? "#14100B" : "#FBF8F3";
   document.head.appendChild(m);
 
   document.querySelectorAll("#themePick button").forEach(b => {
