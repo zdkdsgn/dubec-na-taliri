@@ -244,6 +244,12 @@
       <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
       <input type="search" id="skolaQuery" placeholder="Název nebo ulice, aspoň 4 znaky" autocomplete="off">
     </div>
+    <div class="skola-typ-filtr" id="skolaTypFiltr" role="tablist" aria-label="Typ školy">
+      <button data-typ="vse" class="on" role="tab" aria-selected="true">Vše</button>
+      <button data-typ="zs" role="tab" aria-selected="false">ZŠ</button>
+      <button data-typ="ms" role="tab" aria-selected="false">MŠ</button>
+      <button data-typ="ss" role="tab" aria-selected="false">SŠ</button>
+    </div>
   </div>
   <div class="sheet-body">
     <div id="skolaVysledky"></div>

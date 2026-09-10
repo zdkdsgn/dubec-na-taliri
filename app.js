@@ -720,6 +720,21 @@ function odhadniMesto(polozka){
   return "Ostatní";
 }
 
+/* Typ školy appka nikde neeviduje – odhaduje se z názvu, stejně jako
+   město. Spojená ZŠ+MŠ v názvu (běžné u menších obcí) spadne do obou
+   filtrů zároveň, ať se neschová ani pod jedním. */
+function odhadniTyp(polozka){
+  if (polozka.id === VYCHOZI_LOKACE) return ["zs", "ms"];   // Dubeč – spojená ZŠ+MŠ
+  const n = polozka.nazev;
+  const typy = new Set();
+  if (/mateřsk[áé]\s+škol|^MŠ\b/i.test(n)) typy.add("ms");
+  if (/základn[íi]\s+škol|^ZŠ\b/i.test(n)) typy.add("zs");
+  if (/gymnázium|střední\s+(odborn|škol)|lyceum|konzervato[řr]|obchodní akademie|\bSOU\b|\bSOŠ\b/i.test(n)) typy.add("ss");
+  return typy.size ? [...typy] : ["ostatni"];
+}
+
+let filtrTypu = "vse";
+
 function vykresliDostupneSkoly(){
   const wrap = $("#skolaDostupne");
   const otevrenaPredtim = new Set($$(".skola-sekce.otevrena .skola-sekce-hlavicka > span:first-child", wrap)
@@ -738,9 +753,10 @@ function vykresliDostupneSkoly(){
     ...(registrSkol || []),
   ];
   const aktivniId = AKTIVNI ? AKTIVNI.id : VYCHOZI_LOKACE;
+  const filtrovane = filtrTypu === "vse" ? vsechny : vsechny.filter(s => odhadniTyp(s).includes(filtrTypu));
 
   if (S.oblibene.size){
-    const oblibene = vsechny.filter(s => S.oblibene.has(s.id))
+    const oblibene = filtrovane.filter(s => S.oblibene.has(s.id))
       .sort((a, b) => (a.kratky || a.nazev).localeCompare(b.kratky || b.nazev, "cs"));
     if (oblibene.length){
       const sekce = document.createElement("div");
@@ -756,8 +772,13 @@ function vykresliDostupneSkoly(){
     }
   }
 
+  if (!filtrovane.length){
+    wrap.insertAdjacentHTML("beforeend",
+      `<div class="skola-stav">V tomto typu žádnou školu nemáme.</div>`);
+  }
+
   const podleMesta = {};
-  vsechny.forEach(s => (podleMesta[odhadniMesto(s)] ??= []).push(s));
+  filtrovane.forEach(s => (podleMesta[odhadniMesto(s)] ??= []).push(s));
 
   Object.keys(podleMesta).sort((a, b) => a.localeCompare(b, "cs")).forEach(mesto => {
     const polozky = podleMesta[mesto].sort((a, b) =>
@@ -828,6 +849,11 @@ async function hledejSkolu(dotaz){
 async function otevriSkolaSheet(){
   haptic();
   await nactiRegistr();
+  filtrTypu = "vse";
+  $$(".skola-typ-filtr button").forEach(b => {
+    b.classList.toggle("on", b.dataset.typ === "vse");
+    b.setAttribute("aria-selected", b.dataset.typ === "vse");
+  });
   vykresliDostupneSkoly();
   $("#skolaQuery").value = "";
   $("#skolaVysledky").innerHTML = "";
@@ -855,6 +881,16 @@ $("#toWeek").addEventListener("click",      () => { haptic(); setView("tyden"); 
 $("#toAllergens").addEventListener("click", () => { haptic(); setView("alergeny"); });
 $("#toSkola").addEventListener("click", otevriSkolaSheet);
 $("#skolaScrim").addEventListener("click", zavriSkolaSheet);
+$$(".skola-typ-filtr button").forEach(b => b.addEventListener("click", () => {
+  if (b.dataset.typ === filtrTypu) return;
+  haptic();
+  filtrTypu = b.dataset.typ;
+  $$(".skola-typ-filtr button").forEach(x => {
+    x.classList.toggle("on", x === b);
+    x.setAttribute("aria-selected", x === b);
+  });
+  vykresliDostupneSkoly();
+}));
 $("#skolaQuery").addEventListener("input", e => {
   clearTimeout(hledaniTimer);
   hledaniTimer = setTimeout(() => hledejSkolu(e.target.value), 400);

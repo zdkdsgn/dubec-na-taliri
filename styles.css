@@ -614,6 +614,14 @@ main{max-width:560px;margin:0 auto;
 }
 .skola-hledat input::placeholder{color:var(--ink-3)}
 .skola-hledat input::-webkit-search-cancel-button{-webkit-appearance:none}
+.skola-typ-filtr{display:flex;gap:8px;margin-top:10px}
+.skola-typ-filtr button{
+  flex:1;padding:9px 0;border-radius:var(--r-pill);background:var(--track);
+  font-size:13px;font-weight:660;color:var(--ink-2);text-align:center;
+  transition:background .25s ease,color .25s ease,transform .3s var(--spring);
+}
+.skola-typ-filtr button.on{background:var(--accent);color:var(--on-accent)}
+.skola-typ-filtr button:active{transform:scale(.93)}
 
 .skola-vysledek{padding:11px 2px;border-bottom:1px solid var(--line);display:flex;gap:12px;align-items:center}
 .skola-vysledek:last-child{border-bottom:0}
