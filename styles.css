@@ -168,6 +168,21 @@ main{max-width:560px;margin:0 auto;
 .seg[aria-selected="true"]{color:var(--accent)}
 .seg-ico{width:17px;height:17px}
 
+/* ── Rychlý přepínač oblíbených škol (2+ v oblíbených) ───────────── */
+.skola-prepinac{
+  display:flex;gap:8px;margin-bottom:24px;overflow-x:auto;scrollbar-width:none;
+  -webkit-overflow-scrolling:touch;
+}
+.skola-prepinac::-webkit-scrollbar{display:none}
+.skola-prepinac button{
+  flex:none;max-width:220px;padding:10px 16px;border-radius:var(--r-pill);
+  background:var(--track);color:var(--ink-2);font-size:13.5px;font-weight:640;
+  white-space:nowrap;overflow:hidden;text-overflow:ellipsis;
+  transition:background .25s ease,color .25s ease,transform .3s var(--spring);
+}
+.skola-prepinac button.on{background:var(--accent);color:var(--on-accent)}
+.skola-prepinac button:active{transform:scale(.95)}
+
 /* ── Týdenní pás ────────────────────────────────────────────────── */
 .weekbar{margin-bottom:26px}
 .weekbar-head{display:flex;align-items:center;gap:10px;margin-bottom:12px;padding:0 2px}

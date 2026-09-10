@@ -254,6 +254,7 @@ function aktualizujHlavicky(){
 function renderDen(skoc){
   const mon = monday(S.date);
   aktualizujHlavicky();
+  renderPrepinacOblibenych();
   $("#weekLabel").textContent  = `${short(mon)} – ${short(addD(mon,4))} ${parse(mon).getFullYear()}`;
   $(".segmented").hidden = !AKTIVNI.viceSkupin;
   $(".segmented").classList.toggle("ms", S.school === "ms");
@@ -664,6 +665,32 @@ function prepniOblibenou(polozka){
   if (S.oblibene.has(polozka.id)) S.oblibene.delete(polozka.id); else S.oblibene.add(polozka.id);
   store.set("oblibene", [...S.oblibene]);
   vykresliDostupneSkoly();
+  renderPrepinacOblibenych();
+}
+
+/* Rychlý přepínač nahoře na Den – jen když jsou v oblíbených aspoň
+   2 školy, co appka umí pojmenovat (z registru, nebo rovnou aktivní
+   škola, kdyby registr ještě nebyl načtený). U jedné oblíbené nemá
+   smysl cokoli přepínat, tak se nezobrazí vůbec. */
+function renderPrepinacOblibenych(){
+  const wrap = $("#skolaPrepinac");
+  if (!wrap) return;
+  const zname = new Map((registrSkol || []).map(s => [s.id, s]));
+  if (AKTIVNI) zname.set(AKTIVNI.id, AKTIVNI);
+  const skoly = [...S.oblibene].map(id => zname.get(id)).filter(Boolean)
+    .sort((a, b) => (a.kratky || a.nazev).localeCompare(b.kratky || b.nazev, "cs"));
+  wrap.hidden = skoly.length < 2;
+  if (skoly.length < 2) { wrap.innerHTML = ""; return; }
+  wrap.innerHTML = skoly.map(s => `
+    <button type="button" role="tab" data-id="${s.id}"
+      class="${AKTIVNI && AKTIVNI.id === s.id ? "on" : ""}"
+      aria-selected="${AKTIVNI && AKTIVNI.id === s.id}">${s.kratky || s.nazev}</button>`).join("");
+  $$("button", wrap).forEach(b => b.addEventListener("click", async () => {
+    if (b.classList.contains("on")) return;
+    haptic();
+    const ok = await prepniNaSkolu(skoly.find(s => s.id === b.dataset.id));
+    if (ok) { renderAll(); toast(`Přepnuto na ${AKTIVNI.nazev}`); }
+  }));
 }
 
 function skolaKarta(polozka, aktivni){
@@ -1048,6 +1075,11 @@ if ("serviceWorker" in navigator && location.protocol.startsWith("http"))
   renderAll(); setView("den"); onScroll();
   overVerzi(false);   // appka právě naběhla čerstvě – jen zapamatovat výchozí verzi
   setInterval(renderDen, 60_000);
+
+  // Registr se jinak načítá až při otevření "Vaše škola" – ať ale jde
+  // rovnou vidět přepínač oblíbených škol na Den, natáhneme ho potichu
+  // na pozadí i tady, bez čekání na vykreslení prvního obsahu.
+  if (S.oblibene.size >= 2) nactiRegistr().then(renderPrepinacOblibenych);
 
   if (jePrvniSpusteni) setTimeout(otevriSkolaSheet, 700);
 })();
