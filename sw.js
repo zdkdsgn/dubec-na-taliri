@@ -3,7 +3,7 @@
 const CACHE = "dubec-na-taliri-v3";
 const ASSETS = [
   "./", "./index.html", "./styles.css", "./app.js", "./data.js",
-  "./manifest.webmanifest", "./assets/icon.svg",
+  "./manifest.webmanifest", "./assets/icon.png",
   "./assets/icon-180.png", "./assets/icon-192.png", "./assets/icon-512.png"
 ];
 

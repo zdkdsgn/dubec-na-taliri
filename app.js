@@ -1,5 +1,5 @@
 /* ══════════════════════════════════════════════════════════════════
-   ZŠ na talíři — aplikační logika
+   Škola na talíři — aplikační logika
 ══════════════════════════════════════════════════════════════════ */
 (() => {
 "use strict";
@@ -588,7 +588,7 @@ function shareWeek(){
     txt += `\n${DOW[parse(d).getDay()]} ${short(d)}\n`
          + list.map(m => `• ${D.courses[m.c].label}: ${m.n}`).join("\n") + "\n";
   }
-  if (navigator.share) navigator.share({ title:"ZŠ na talíři", text:txt }).catch(() => {});
+  if (navigator.share) navigator.share({ title:"Škola na talíři", text:txt }).catch(() => {});
   else { navigator.clipboard?.writeText(txt); toast("Zkopírováno do schránky"); }
 }
 
@@ -599,7 +599,7 @@ function shareDen(){
   txt += list.length
     ? list.map(m => `• ${D.courses[m.c].label}: ${m.n}`).join("\n")
     : "Pro tento den zatím jídelníček nemáme.";
-  if (navigator.share) navigator.share({ title:"ZŠ na talíři", text:txt }).catch(() => {});
+  if (navigator.share) navigator.share({ title:"Škola na talíři", text:txt }).catch(() => {});
   else { navigator.clipboard?.writeText(txt); toast("Zkopírováno do schránky"); }
 }
 
@@ -619,7 +619,7 @@ async function sdiletOblibene(){
   haptic();
   const url = odkazNaSdileni();
   if (navigator.share) {
-    navigator.share({ title: "ZŠ na talíři – moje oblíbené školy", text: "Otevřete tenhle odkaz, ať máte v appce stejné oblíbené školy:", url }).catch(() => {});
+    navigator.share({ title: "Škola na talíři – moje oblíbené školy", text: "Otevřete tenhle odkaz, ať máte v appce stejné oblíbené školy:", url }).catch(() => {});
   } else {
     navigator.clipboard?.writeText(url);
     toast("Odkaz zkopírován do schránky");
@@ -638,7 +638,7 @@ async function zpracujSdileneNastaveni(){
     sk ? "výchozí škola" : null,
   ].filter(Boolean).join(" a ");
   if (!popis) return;
-  if (!confirm(`Otevřeli jste odkaz se sdíleným nastavením appky ZŠ na talíři (${popis}). Chcete ho převzít do tohoto zařízení?`)) return;
+  if (!confirm(`Otevřeli jste odkaz se sdíleným nastavením appky Škola na talíři (${popis}). Chcete ho převzít do tohoto zařízení?`)) return;
 
   idsObl.forEach(id => S.oblibene.add(id));
   store.set("oblibene", [...S.oblibene]);
@@ -1257,7 +1257,7 @@ async function sdiletApp(){
   haptic();
   const url = odkazNaApp();
   if (navigator.share) {
-    navigator.share({ title: "ZŠ na talíři", text: "Jídelníček školní jídelny na jednom talíři – vyzkoušejte appku:", url }).catch(() => {});
+    navigator.share({ title: "Škola na talíři", text: "Jídelníček školní jídelny na jednom talíři – vyzkoušejte appku:", url }).catch(() => {});
   } else {
     navigator.clipboard?.writeText(url);
     toast("Odkaz zkopírován do schránky");
