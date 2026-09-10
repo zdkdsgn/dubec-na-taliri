@@ -956,7 +956,7 @@ document.addEventListener("keydown", e => {
   if (S.view === "den" && e.key === "ArrowRight") step(1);
 });
 swipe($("#timeline"), p => step(1, p), p => step(-1, p));
-swipe($(".weekbar"), () => weekStep(1), () => weekStep(-1));
+swipe($("#days"), () => weekStep(1), () => weekStep(-1));
 
 (() => {  /* sheet stažením dolů */
   const sh = $("#sheet"); let y0 = null;
