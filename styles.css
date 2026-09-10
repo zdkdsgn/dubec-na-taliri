@@ -391,6 +391,7 @@ main{max-width:560px;margin:0 auto;
 .tint-blue .notice-ico,.notice.tint-blue .notice-ico{background:var(--t-blue-bg);color:var(--t-blue)}
 .tint-amber{background:var(--t-amber-bg)!important;color:var(--t-amber)!important}
 .tint-green{background:var(--t-green-bg)!important;color:var(--t-green)!important}
+.tint-purple{background:var(--t-purple-bg)!important;color:var(--t-purple)!important}
 .notice h3,.link-card h3{font-size:16px;font-weight:660;margin-bottom:3px}
 .notice p,.link-card p{margin:0;font-size:14px;color:var(--ink-2);line-height:1.4}
 .link-card{text-decoration:none;color:inherit}

@@ -439,6 +439,7 @@ function renderInfo(){
   if (a) { a.href = url; }
   const p = $("#webJidelnyPopis");
   if (p) { p.textContent = popis; }
+  $("#sdiletOblibene").hidden = !S.oblibene.size;
   renderZebricek();
 }
 const renderAll = () => { renderDen(); renderTyden(); renderAlergeny(); renderInfo(); };
@@ -536,6 +537,53 @@ function shareDen(){
     : "Pro tento den zatím jídelníček nemáme.";
   if (navigator.share) navigator.share({ title:"ZŠ na talíři", text:txt }).catch(() => {});
   else { navigator.clipboard?.writeText(txt); toast("Zkopírováno do schránky"); }
+}
+
+/* ── Sdílení oblíbených škol mezi zařízeními ───────────────────────
+   Appka nemá žádný server, takže "sdílení" znamená zakódovat oblíbené
+   + aktivní školu přímo do URL. Druhé zařízení odkaz otevře, appka mu
+   před prvním vykreslením nabídne převzetí (viz zpracujSdileneNastaveni). */
+function odkazNaSdileni(){
+  const url = new URL(location.href);
+  url.search = "";
+  url.searchParams.set("obl", [...S.oblibene].join(","));
+  if (AKTIVNI) url.searchParams.set("sk", AKTIVNI.id);
+  return url.toString();
+}
+
+async function sdiletOblibene(){
+  haptic();
+  const url = odkazNaSdileni();
+  if (navigator.share) {
+    navigator.share({ title: "ZŠ na talíři – moje oblíbené školy", text: "Otevřete tenhle odkaz, ať máte v appce stejné oblíbené školy:", url }).catch(() => {});
+  } else {
+    navigator.clipboard?.writeText(url);
+    toast("Odkaz zkopírován do schránky");
+  }
+}
+
+async function zpracujSdileneNastaveni(){
+  const params = new URL(location.href).searchParams;
+  const obl = params.get("obl"), sk = params.get("sk");
+  if (!obl && !sk) return;
+  history.replaceState(null, "", location.pathname);   // ať parametry hned zmizí z adresního řádku
+
+  const idsObl = obl ? obl.split(",").filter(Boolean) : [];
+  const popis = [
+    idsObl.length ? `${idsObl.length} oblíbených škol` : null,
+    sk ? "výchozí škola" : null,
+  ].filter(Boolean).join(" a ");
+  if (!popis) return;
+  if (!confirm(`Otevřeli jste odkaz se sdíleným nastavením appky ZŠ na talíři (${popis}). Chcete ho převzít do tohoto zařízení?`)) return;
+
+  idsObl.forEach(id => S.oblibene.add(id));
+  store.set("oblibene", [...S.oblibene]);
+
+  if (sk) {
+    await nactiRegistr();
+    const polozka = sk === VYCHOZI_LOKACE ? VYCHOZI_SKOLA : (registrSkol || []).find(s => s.id === sk);
+    if (polozka) await prepniNaSkolu(polozka);
+  }
 }
 
 /* ── Gesta ──────────────────────────────────────────────────────── */
@@ -981,6 +1029,7 @@ $$("#themePick button").forEach(b => b.addEventListener("click", () => {
 }));
 $("#shareWeek").addEventListener("click", shareWeek);
 $("#shareDen").addEventListener("click", () => { haptic(); shareDen(); });
+$("#sdiletOblibene").addEventListener("click", sdiletOblibene);
 $("#clearAllergens").addEventListener("click", () => {
   S.filter.clear(); store.set("filter", []); renderAll(); toast("Filtry zrušeny");
 });
@@ -1103,6 +1152,11 @@ if ("serviceWorker" in navigator && location.protocol.startsWith("http"))
 (async () => {
   applyTheme();
 
+  // Odkaz se sdíleným nastavením (viz sdiletOblibene) – zpracovat ještě
+  // před běžným startem, ať appka rovnou naběhne na převzatou školu,
+  // pokud si ji uživatel potvrdí.
+  await zpracujSdileneNastaveni();
+
   // Úplně první spuštění appky (v localStorage ještě není žádná volba
   // školy) – appka si zatím tiše "vybere" ZŠ Dubeč jako rozumný výchozí
   // tip, ať má hned co ukázat, ale rovnou po vykreslení otevře výběr,
@@ -1110,15 +1164,17 @@ if ("serviceWorker" in navigator && location.protocol.startsWith("http"))
   // ZŠ Dubeč), se tímhle znovu neobtěžuje. Funkčně se to od výběru
   // jakékoli jiné školy nijak neliší – žádná "vestavěná" výjimka.
   const jePrvniSpusteni = localStorage.getItem("dubec:lokace") === null;
-  const ulozenaData = store.get("lokaceData", null);
-  const ok = await prepniNaSkolu(ulozenaData || VYCHOZI_SKOLA);
-  if (!ok) {
-    // Offline při úplně prvním spuštění (nic stažené k dispozici) –
-    // ukážeme aspoň vestavěná ukázková data, ať appka nezůstane prázdná.
-    D = window.MENU_DATA;
-    AKTIVNI = { id: VYCHOZI_LOKACE, nazev: D.meta.school, kratky: D.meta.school, viceSkupin: true };
-    S.school = store.get("school", "zs") || "zs";
-    S.date   = nearestSchoolDay(TODAY);
+  if (!AKTIVNI) {
+    const ulozenaData = store.get("lokaceData", null);
+    const ok = await prepniNaSkolu(ulozenaData || VYCHOZI_SKOLA);
+    if (!ok) {
+      // Offline při úplně prvním spuštění (nic stažené k dispozici) –
+      // ukážeme aspoň vestavěná ukázková data, ať appka nezůstane prázdná.
+      D = window.MENU_DATA;
+      AKTIVNI = { id: VYCHOZI_LOKACE, nazev: D.meta.school, kratky: D.meta.school, viceSkupin: true };
+      S.school = store.get("school", "zs") || "zs";
+      S.date   = nearestSchoolDay(TODAY);
+    }
   }
   $("#skolaAktualni").textContent = AKTIVNI.nazev;
 
