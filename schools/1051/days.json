@@ -538,5 +538,115 @@
         ]
       }
     ]
+  },
+  "2026-09-09": {
+    "vydej": "11:30–14:00",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Zeleninová miska se sýrem",
+        "d": "Kukuřičný chlebíček · Čaj svěží yuzu, voda s citrónem",
+        "a": [
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Zeleninová miska se sýrem",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Kukuřičný chlebíček",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj svěží yuzu, voda s citrónem",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Česneková s krutony",
+        "d": "",
+        "a": [
+          1,
+          3
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Masové koule v rajčatové omáčce",
+        "d": "Těstoviny vřeténka · Mandarinka ZŠ, banán MŠ · Čaj svěží yuzu, mléko, voda s citrónem",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Masové koule v rajčatové omáčce",
+            "a": [
+              3
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Těstoviny vřeténka",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Mandarinka ZŠ, banán MŠ",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj svěží yuzu, mléko, voda s citrónem",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Toustový chléb, pomazánkové máslo",
+        "d": "Hrušky · Mléko",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Toustový chléb, pomazánkové máslo",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Hrušky",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko",
+            "a": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
   }
 }

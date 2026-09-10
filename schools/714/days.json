@@ -3293,5 +3293,96 @@
         ]
       }
     ]
+  },
+  "2026-09-30": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Mrkvová s popcornem",
+        "d": "",
+        "a": [
+          1,
+          7
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Krupicová kaše s kakaem",
+        "d": "Pečivo · Pomazánka sýrová",
+        "a": [
+          1,
+          3,
+          6,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Krupicová kaše s kakaem",
+            "a": [
+              1,
+              6,
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Pečivo",
+            "a": [
+              1,
+              3,
+              6,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Pomazánka sýrová",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "n": "Těstovinový salát s drůbežím masem a zeleninou",
+        "d": "Pečivo · Pomazánka sýrová",
+        "a": [
+          1,
+          3,
+          6,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Těstovinový salát s drůbežím masem a zeleninou",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Pečivo",
+            "a": [
+              1,
+              3,
+              6,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Pomazánka sýrová",
+            "a": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
   }
 }

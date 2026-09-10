@@ -1440,5 +1440,76 @@
         ]
       }
     ]
+  },
+  "2026-09-30": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Z hlívy ústřičné",
+        "d": "",
+        "a": [
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Záhorácký závitek",
+        "d": "Bramborové knedlíky · Ovoce · Mléko, džus, voda s citr.",
+        "a": [
+          1,
+          9
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Záhorácký závitek",
+            "a": [
+              1,
+              9
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Bramborové knedlíky",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko, džus, voda s citr.",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "n": "Krupicová kaše se skořicí/kakaem",
+        "d": "Ovoce",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Krupicová kaše se skořicí/kakaem",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          }
+        ]
+      }
+    ]
   }
 }

@@ -1281,5 +1281,80 @@
         ]
       }
     ]
+  },
+  "2026-09-30": {
+    "vydej": "10:01–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Luštěninová",
+        "d": "",
+        "a": [
+          7,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Francouzské brambory",
+        "d": "Kyselá okurka · Zelenina · Čaj, ovocný džus",
+        "a": [
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Francouzské brambory",
+            "a": [
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Kyselá okurka",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zelenina",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj, ovocný džus",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "n": "Gnocchi s kuřecím masem a špenátem",
+        "d": "Zelenina · Čaj, ovocný džus",
+        "a": [
+          1
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Gnocchi s kuřecím masem a špenátem",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zelenina",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj, ovocný džus",
+            "a": []
+          }
+        ]
+      }
+    ]
   }
 }

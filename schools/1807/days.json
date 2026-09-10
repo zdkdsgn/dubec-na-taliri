@@ -362,7 +362,7 @@
       },
       {
         "c": "obed",
-        "n": "Rybí filé se šunkou a žampiony",
+        "n": "Rybi file se žampiony a šunkou",
         "d": "Dušená rýže s pohankou · Jablko, puding · Mléčný koktejl",
         "a": [
           1,
@@ -372,7 +372,7 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Rybí filé se šunkou a žampiony",
+            "n": "Rybi file se žampiony a šunkou",
             "a": [
               1,
               4
@@ -415,7 +415,7 @@
       },
       {
         "c": "obed",
-        "n": "Bramborový guláš",
+        "n": "Bramborový guláš se salámem 1",
         "d": "Chléb · Jablko · Ovocný čaj, mléko",
         "a": [
           1,
@@ -424,10 +424,8 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Bramborový guláš",
-            "a": [
-              1
-            ]
+            "n": "Bramborový guláš se salámem 1",
+            "a": []
           },
           {
             "l": "Příloha",
@@ -964,6 +962,58 @@
           {
             "l": "Nápoj",
             "n": "Ovocný čaj se sirupem, mléko",
+            "a": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-09-30": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Gulášová",
+        "d": "",
+        "a": [
+          1,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Zeleninové lečo se salámem",
+        "d": "Chléb · Jablko · Džus, mléko",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Zeleninové lečo se salámem",
+            "a": [
+              3
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Chléb",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Jablko",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Džus, mléko",
             "a": [
               7
             ]

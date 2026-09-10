@@ -649,7 +649,7 @@
       },
       {
         "c": "obed2",
-        "n": "Palačinky ze špaldové mouky s ovocným přelivem",
+        "n": "Palačinky ze špaldové mouky s ovocným tvarohem",
         "d": "Zelenino-ovocný bar · Voda, čaj",
         "a": [
           1,
@@ -665,7 +665,7 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Palačinky ze špaldové mouky s ovocným přelivem",
+            "n": "Palačinky ze špaldové mouky s ovocným tvarohem",
             "a": [
               1,
               3,
@@ -1977,6 +1977,115 @@
           {
             "l": "Jídlo",
             "n": "Šumavské nudle ( žampióny, pórek, šunka, vejce, sýr )",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zelenino-ovocný bar",
+            "a": [
+              1,
+              2,
+              3,
+              4,
+              7,
+              8,
+              9,
+              10,
+              11
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Voda, čaj",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-09-30": {
+    "vydej": "11:30–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Pórková s vejcem",
+        "d": "",
+        "a": [
+          1,
+          3,
+          7
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Hovězí guláš, těstoviny",
+        "d": "Zelenino-ovocný bar · Voda, čaj",
+        "a": [
+          1,
+          2,
+          3,
+          4,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Hovězí guláš, těstoviny",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zelenino-ovocný bar",
+            "a": [
+              1,
+              2,
+              3,
+              4,
+              7,
+              8,
+              9,
+              10,
+              11
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Voda, čaj",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "n": "Dušený hrášek s mrkví, brambory, vejce",
+        "d": "Zelenino-ovocný bar · Voda, čaj",
+        "a": [
+          1,
+          2,
+          3,
+          4,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Dušený hrášek s mrkví, brambory, vejce",
             "a": [
               1,
               3,

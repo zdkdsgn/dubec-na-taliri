@@ -153,7 +153,7 @@
       {
         "c": "obed",
         "n": "Vepřová sekaná",
-        "d": "Šťouchané brambory s cibulkou · Rajčatový salát · Mléko, voda",
+        "d": "Šťouchané brambory s cibulkou · Rajčatový salát · Kakao, voda",
         "a": [
           1,
           3,
@@ -181,7 +181,7 @@
           },
           {
             "l": "Nápoj",
-            "n": "Mléko, voda",
+            "n": "Kakao, voda",
             "a": [
               7
             ]
@@ -1016,6 +1016,161 @@
             "a": [
               7
             ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-09-30": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Hrachová se zeleninou",
+        "d": "",
+        "a": [
+          1,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Dukátové buchtičky s vanilkovým krémem",
+        "d": "Ovoce · Čaj, voda",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Dukátové buchtičky s vanilkovým krémem",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj, voda",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-01": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Krupicová s vejci",
+        "d": "",
+        "a": [
+          1,
+          3,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Čínská krůtí směs",
+        "d": "Basmati rýže · Šťáva, voda",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Čínská krůtí směs",
+            "a": []
+          },
+          {
+            "l": "Příloha",
+            "n": "Basmati rýže",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Šťáva, voda",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "n": "Kari kuskus s kuřecím masem sypaný paprikovým sýrem",
+        "d": "Zeleninová obloha · Šťáva, voda",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Kari kuskus s kuřecím masem sypaný paprikovým sýrem",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zeleninová obloha",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Šťáva, voda",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-02": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Vločková s bramborem a zeleninou",
+        "d": "",
+        "a": [
+          1,
+          7
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Ragú z červené čočky se špagetami sypané sýrem",
+        "d": "Polníček, ovoce · Čaj, voda",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Ragú z červené čočky se špagetami sypané sýrem",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Polníček, ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj, voda",
+            "a": []
           }
         ]
       }

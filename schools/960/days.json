@@ -372,14 +372,47 @@
     "vydej": "11:00–14:00",
     "chody": [
       {
-        "c": "obed",
-        "n": "Oběd",
+        "c": "polevka",
+        "n": "Celerový krém s krutóny",
         "d": "",
-        "a": [],
+        "a": [
+          1,
+          7,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Krůtí maso v ajvarové omáčce",
+        "d": "Tarhoňa · Banán · Ovocný nápoj, voda",
+        "a": [
+          1,
+          7
+        ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Oběd",
+            "n": "Krůtí maso v ajvarové omáčce",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Tarhoňa",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Banán",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný nápoj, voda",
             "a": []
           }
         ]
@@ -390,14 +423,49 @@
     "vydej": "11:00–14:00",
     "chody": [
       {
-        "c": "obed",
-        "n": "Oběd",
+        "c": "polevka",
+        "n": "Zeleninová s quinoou",
         "d": "",
-        "a": [],
+        "a": [
+          1,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Sekaná pečeně s jarní cibulkou",
+        "d": "Bramborová kaše · Červená řepa · Ochucená voda s citrónem, voda",
+        "a": [
+          1,
+          3,
+          7,
+          9
+        ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Oběd",
+            "n": "Sekaná pečeně s jarní cibulkou",
+            "a": [
+              1,
+              3
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Bramborová kaše",
+            "a": [
+              7,
+              9
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Červená řepa",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ochucená voda s citrónem, voda",
             "a": []
           }
         ]
@@ -408,14 +476,43 @@
     "vydej": "11:00–14:00",
     "chody": [
       {
-        "c": "obed",
-        "n": "Oběd",
+        "c": "polevka",
+        "n": "Bramborá se zelím",
         "d": "",
-        "a": [],
+        "a": [
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Hovězí stroganof",
+        "d": "Dušená rýže basmati · Okurkový salát · Ovocný nápoj, voda",
+        "a": [
+          7,
+          10
+        ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Oběd",
+            "n": "Hovězí stroganof",
+            "a": [
+              7,
+              10
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Dušená rýže basmati",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Okurkový salát",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný nápoj, voda",
             "a": []
           }
         ]
@@ -426,14 +523,39 @@
     "vydej": "11:00–14:00",
     "chody": [
       {
-        "c": "obed",
-        "n": "Oběd",
+        "c": "polevka",
+        "n": "Švédská rybí",
         "d": "",
-        "a": [],
+        "a": [
+          1,
+          4,
+          7,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Zapečené brambory s kuřecím masem",
+        "d": "Strouhaná mrkev s kukuřicí · Ochucená voda s citrónem, voda",
+        "a": [
+          7
+        ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Oběd",
+            "n": "Zapečené brambory s kuřecím masem",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Strouhaná mrkev s kukuřicí",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ochucená voda s citrónem, voda",
             "a": []
           }
         ]
@@ -444,14 +566,40 @@
     "vydej": "11:00–14:00",
     "chody": [
       {
-        "c": "obed",
-        "n": "Oběd",
+        "c": "polevka",
+        "n": "Drůbeží vývar se zavářkou",
         "d": "",
-        "a": [],
+        "a": [
+          1,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Šumestr s fazolí a slaninou, okurek",
+        "d": "Tvarohová miska s ovocem · Ovocný nápoj, voda",
+        "a": [
+          1,
+          7
+        ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Oběd",
+            "n": "Šumestr s fazolí a slaninou, okurek",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Tvarohová miska s ovocem",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný nápoj, voda",
             "a": []
           }
         ]
@@ -549,6 +697,60 @@
     ]
   },
   "2026-09-29": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "obed",
+        "n": "Oběd",
+        "d": "",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Oběd",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-09-30": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "obed",
+        "n": "Oběd",
+        "d": "",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Oběd",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-01": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "obed",
+        "n": "Oběd",
+        "d": "",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Oběd",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-02": {
     "vydej": "11:00–14:00",
     "chody": [
       {

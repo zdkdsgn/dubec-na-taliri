@@ -1819,5 +1819,67 @@
         ]
       }
     ]
+  },
+  "2026-10-14": {
+    "vydej": "11:30–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Vývar s rýží",
+        "d": "",
+        "a": [
+          1,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Kuřecí roláda, šťouchané brambory",
+        "d": "Voda, sirup",
+        "a": [
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Kuřecí roláda, šťouchané brambory",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Voda, sirup",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "n": "Bageta se sýrem, vejcem a zeleninou",
+        "d": "Voda, sirup",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Bageta se sýrem, vejcem a zeleninou",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Voda, sirup",
+            "a": []
+          }
+        ]
+      }
+    ]
   }
 }
