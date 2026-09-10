@@ -535,6 +535,10 @@ main{max-width:560px;margin:0 auto;
 .inline-note.warn{background:var(--t-red-bg);border-color:color-mix(in srgb,var(--t-red) 24%,transparent)}
 .inline-note.warn svg{color:var(--t-red)}
 
+/* ── O appce ───────────────────────────────────────────────────── */
+.about-card h3{font-size:16px;font-weight:660;margin-bottom:6px}
+.about-card p{margin:0;color:var(--ink-2);font-size:14.5px;line-height:1.55}
+
 /* ── Žebříček oblíbenosti jídel ────────────────────────────────── */
 .zebricek-card h3{font-size:16px;font-weight:660;margin-bottom:4px}
 .zebricek-card > p{color:var(--ink-2);font-size:13.5px;line-height:1.4;margin:0 0 14px}
