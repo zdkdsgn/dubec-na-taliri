@@ -122,9 +122,10 @@ const vydej = (date, school) => D.days[date]?.vydej?.[school] || null;
    výdejního okna) – ať appka umí rozlišit nejen "právě se vydává", ale
    i "už je po výdeji", ne jen budoucí/dnešní čas bez rozdílu. */
 function vydejStav(date, school){
-  if (date !== TODAY) return null;
   const v = vydej(date, school);
   if (!v) return null;
+  if (date < TODAY) return "po";     // minulý den – výdej už dávno proběhl
+  if (date > TODAY) return "pred";   // budoucí den – ještě nemá smysl počítat čas
   const [od, do_] = v.split("–").map(t => {
     const [h, m] = t.split(":").map(Number);
     return h * 60 + m;
@@ -356,6 +357,7 @@ function renderDen(skoc){
   }
 
   const tl = $("#timeline"); tl.innerHTML = "";
+  tl.classList.toggle("minuly", S.date < TODAY);
   const list = meals(S.date, S.school);
   if (!list.length){
     tl.innerHTML = `<div class="empty">
@@ -401,6 +403,7 @@ function renderTyden(){
       </button>
       <div class="wday-body"><div><div class="meals"></div></div></div>`;
     const tl = $(".meals", box);
+    tl.classList.toggle("minuly", d < TODAY);
     list.forEach(m => tl.appendChild(mealNode(m, d)));
     $(".wday-head", box).addEventListener("click", () => { haptic(); box.classList.toggle("open"); });
     wrap.appendChild(box);
