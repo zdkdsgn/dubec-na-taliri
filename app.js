@@ -1054,14 +1054,8 @@ function onScroll(){
   lastY = y;
 }
 window.addEventListener("scroll", onScroll, { passive:true });
-function aktualizujOfflineStav(){
-  const offline = !navigator.onLine;
-  document.body.classList.toggle("offline", offline);
-  $("#offlineBanner").classList.toggle("show", offline);
-}
-window.addEventListener("online",  () => { aktualizujOfflineStav(); renderInfo(); });
-window.addEventListener("offline", () => { aktualizujOfflineStav(); renderInfo(); });
-aktualizujOfflineStav();
+window.addEventListener("online",  renderInfo);
+window.addEventListener("offline", () => { renderInfo(); toast("Jste offline – zobrazujeme uloženou verzi"); });
 
 let deferred = null;
 window.addEventListener("beforeinstallprompt", e => { e.preventDefault(); deferred = e; $("#installBtn").hidden = false; });
