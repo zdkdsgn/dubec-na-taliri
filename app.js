@@ -1140,12 +1140,84 @@ window.addEventListener("scroll", onScroll, { passive:true });
 window.addEventListener("online",  renderInfo);
 window.addEventListener("offline", () => { renderInfo(); toast("Jste offline – zobrazujeme uloženou verzi"); });
 
+/* ── Přidat appku na plochu ─────────────────────────────────────── */
+const jeIOS = /iP(hone|ad|od)/.test(navigator.userAgent) && !window.MSStream;
+const jeAndroid = /Android/.test(navigator.userAgent);
+const jeNainstalovana = () =>
+  matchMedia("(display-mode: standalone)").matches || navigator.standalone === true;
+
+function odkazNaApp(){ return location.origin + location.pathname; }
+
+async function sdiletApp(){
+  haptic();
+  const url = odkazNaApp();
+  if (navigator.share) {
+    navigator.share({ title: "ZŠ na talíři", text: "Jídelníček školní jídelny na jednom talíři – vyzkoušejte appku:", url }).catch(() => {});
+  } else {
+    navigator.clipboard?.writeText(url);
+    toast("Odkaz zkopírován do schránky");
+  }
+}
+
 let deferred = null;
-window.addEventListener("beforeinstallprompt", e => { e.preventDefault(); deferred = e; $("#installBtn").hidden = false; });
-$("#installBtn").addEventListener("click", async () => {
-  if (!deferred) return;
-  deferred.prompt(); await deferred.userChoice; deferred = null; $("#installBtn").hidden = true;
+window.addEventListener("beforeinstallprompt", e => {
+  e.preventDefault(); deferred = e;
+  $("#installBtn").hidden = jeNainstalovana();
+  $("#instalovatBtn").hidden = false;
 });
+
+function vykresliNavodKroky(){
+  let kroky;
+  if (jeIOS) {
+    kroky = [
+      ["1", "Klepněte na Sdílet", "Ikona čtverečku se šipkou nahoru – v liště Safari."],
+      ["2", "Vyberte „Přidat na plochu“", "V nabídce sjeďte níž, pokud ji hned nevidíte."],
+      ["3", "Potvrďte „Přidat“", "Appka se objeví na ploše jako běžná ikona."],
+    ];
+  } else if (jeAndroid) {
+    kroky = [
+      ["1", "Klepněte na ⋮ (nabídka prohlížeče)", "Vpravo nahoře v Chromu."],
+      ["2", "Vyberte „Přidat na plochu“ / „Instalovat aplikaci“", "Podle verze Chromu se název liší."],
+      ["3", "Potvrďte", "Appka se objeví na ploše jako běžná ikona."],
+    ];
+  } else {
+    kroky = [
+      ["1", "Otevřete odkaz na appku na telefonu", "Přidání na plochu funguje jen v mobilním prohlížeči."],
+      ["2", "V nabídce prohlížeče najděte „Přidat na plochu“", "Nebo „Instalovat aplikaci“ – podle prohlížeče."],
+    ];
+  }
+  $("#navodKroky").innerHTML = kroky.map(([n, nadpis, popis]) => `
+    <div class="a-full">
+      <span class="n">${n}</span>
+      <span><b>${nadpis}</b><small>${popis}</small></span>
+    </div>`).join("");
+}
+
+function otevriNavodSheet(){
+  haptic();
+  vykresliNavodKroky();
+  $("#navodScrim").hidden = false; $("#navodSheet").hidden = false;
+  zamkniScroll();
+  requestAnimationFrame(() => { $("#navodScrim").classList.add("in"); $("#navodSheet").classList.add("in"); });
+}
+function zavriNavodSheet(){
+  $("#navodScrim").classList.remove("in"); $("#navodSheet").classList.remove("in");
+  odemkniScroll();
+  setTimeout(() => { $("#navodScrim").hidden = true; $("#navodSheet").hidden = true; }, 460);
+}
+
+$("#installBtn").hidden = jeNainstalovana();
+$("#installBtn").addEventListener("click", otevriNavodSheet);
+$("#doporucitBtn").addEventListener("click", otevriNavodSheet);
+$("#navodScrim").addEventListener("click", zavriNavodSheet);
+$("#poslatOdkazBtn").addEventListener("click", sdiletApp);
+$("#instalovatBtn").addEventListener("click", async () => {
+  if (!deferred) return;
+  haptic();
+  deferred.prompt(); await deferred.userChoice; deferred = null;
+  $("#instalovatBtn").hidden = true; $("#installBtn").hidden = jeNainstalovana();
+});
+
 if ("serviceWorker" in navigator && location.protocol.startsWith("http"))
   window.addEventListener("load", () => navigator.serviceWorker.register("sw.js").catch(() => {}));
 

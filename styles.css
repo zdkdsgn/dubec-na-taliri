@@ -320,6 +320,9 @@ main{max-width:560px;margin:0 auto;
 .ghost-btn svg{width:17px;height:17px}
 .ghost-btn:active{transform:scale(.96)}
 .ghost-btn.danger{color:var(--t-red);width:100%;justify-content:center;margin-top:16px;height:48px}
+.ghost-btn.primary{background:var(--accent);color:var(--on-accent);border-color:transparent;
+  width:100%;justify-content:center;height:48px}
+.ghost-btn + .ghost-btn{margin-top:10px}
 
 .week-list{display:flex;flex-direction:column;gap:12px}
 .wday{

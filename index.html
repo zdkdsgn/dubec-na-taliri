@@ -204,6 +204,14 @@
         <div><h3>Přidat na plochu</h3><p>Jídelníček jedním klepnutím, i bez internetu.</p></div>
         <svg class="chev" viewBox="0 0 24 24"><path d="M9 5l7 7-7 7"/></svg>
       </button>
+
+      <button class="card link-card" id="doporucitBtn">
+        <div class="notice-ico tint-purple">
+          <svg viewBox="0 0 24 24"><path d="M8.5 10.5L4 13v7l4.5-2.5M8.5 10.5L15 7m-6.5 3.5L15 17m0-10l5-3v7l-5 3m0-10v10"/></svg>
+        </div>
+        <div><h3>Doporučit appku</h3><p>Pošlete odkaz a návod na přidání na plochu.</p></div>
+        <svg class="chev" viewBox="0 0 24 24"><path d="M9 5l7 7-7 7"/></svg>
+      </button>
     </div>
   </section>
 
@@ -264,6 +272,27 @@
   <div class="sheet-body">
     <div id="skolaVysledky"></div>
     <div class="skola-dostupne" id="skolaDostupne"></div>
+  </div>
+</div>
+
+<div class="sheet-scrim" id="navodScrim" hidden></div>
+<div class="sheet" id="navodSheet" hidden role="dialog" aria-modal="true" aria-label="Přidat appku na plochu">
+  <div class="sheet-grabber"></div>
+  <div class="sheet-body">
+    <h2>Přidat appku na plochu</h2>
+    <p class="sub">Appka pak jde otevřít jedním klepnutím z plochy, jako běžná aplikace – i bez internetu.</p>
+    <button class="ghost-btn primary" id="instalovatBtn" hidden>
+      <svg viewBox="0 0 24 24"><path d="M12 4v11m0 0l-4-4m4 4l4-4M5 19h14"/></svg>
+      Přidat na plochu
+    </button>
+    <button class="ghost-btn" id="poslatOdkazBtn">
+      <svg viewBox="0 0 24 24"><path d="M12 16V4m0 0L8 8m4-4l4 4M5 15v3a2 2 0 002 2h10a2 2 0 002-2v-3"/></svg>
+      Poslat odkaz na appku
+    </button>
+    <div class="sheet-sec">
+      <h4>Jak na to</h4>
+      <div id="navodKroky"></div>
+    </div>
   </div>
 </div>
 
