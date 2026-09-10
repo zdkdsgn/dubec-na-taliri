@@ -1143,10 +1143,40 @@ window.addEventListener("offline", () => { renderInfo(); toast("Jste offline –
 /* ── Přidat appku na plochu ─────────────────────────────────────── */
 const jeIOS = /iP(hone|ad|od)/.test(navigator.userAgent) && !window.MSStream;
 const jeAndroid = /Android/.test(navigator.userAgent);
-const jeNainstalovana = () =>
-  matchMedia("(display-mode: standalone)").matches || navigator.standalone === true;
 
 function odkazNaApp(){ return location.origin + location.pathname; }
+
+/* QR knihovna (kazuhikoarase/qrcode-generator, cdnjs) se natáhne, jen
+   když ji uživatel reálně potřebuje – ať appka na běžnou návštěvu
+   nestahuje nic navíc. */
+let qrLib = null;
+function nactiQrLib(){
+  if (window.qrcode) return Promise.resolve(window.qrcode);
+  if (!qrLib) {
+    qrLib = new Promise((resolve, reject) => {
+      const s = document.createElement("script");
+      s.src = "https://cdnjs.cloudflare.com/ajax/libs/qrcode-generator/1.4.4/qrcode.min.js";
+      s.onload = () => resolve(window.qrcode);
+      s.onerror = () => { qrLib = null; reject(new Error("QR knihovna se nenačetla")); };
+      document.head.appendChild(s);
+    });
+  }
+  return qrLib;
+}
+
+async function vykresliQr(){
+  const wrap = $("#qrKod");
+  wrap.innerHTML = `<span class="qr-nacita">Načítám…</span>`;
+  try {
+    const qrcode = await nactiQrLib();
+    const qr = qrcode(6, "M");
+    qr.addData(odkazNaApp());
+    qr.make();
+    wrap.innerHTML = qr.createSvgTag({ scalable: true });
+  } catch {
+    wrap.innerHTML = `<span class="qr-nacita">QR kód se teď nepodařilo načíst (chce to připojení k internetu).</span>`;
+  }
+}
 
 async function sdiletApp(){
   haptic();
@@ -1162,7 +1192,6 @@ async function sdiletApp(){
 let deferred = null;
 window.addEventListener("beforeinstallprompt", e => {
   e.preventDefault(); deferred = e;
-  $("#installBtn").hidden = jeNainstalovana();
   $("#instalovatBtn").hidden = false;
 });
 
@@ -1196,6 +1225,7 @@ function vykresliNavodKroky(){
 function otevriNavodSheet(){
   haptic();
   vykresliNavodKroky();
+  vykresliQr();
   $("#navodScrim").hidden = false; $("#navodSheet").hidden = false;
   zamkniScroll();
   requestAnimationFrame(() => { $("#navodScrim").classList.add("in"); $("#navodSheet").classList.add("in"); });
@@ -1206,16 +1236,14 @@ function zavriNavodSheet(){
   setTimeout(() => { $("#navodScrim").hidden = true; $("#navodSheet").hidden = true; }, 460);
 }
 
-$("#installBtn").hidden = jeNainstalovana();
 $("#installBtn").addEventListener("click", otevriNavodSheet);
-$("#doporucitBtn").addEventListener("click", otevriNavodSheet);
 $("#navodScrim").addEventListener("click", zavriNavodSheet);
 $("#poslatOdkazBtn").addEventListener("click", sdiletApp);
 $("#instalovatBtn").addEventListener("click", async () => {
   if (!deferred) return;
   haptic();
   deferred.prompt(); await deferred.userChoice; deferred = null;
-  $("#instalovatBtn").hidden = true; $("#installBtn").hidden = jeNainstalovana();
+  $("#instalovatBtn").hidden = true;
 });
 
 if ("serviceWorker" in navigator && location.protocol.startsWith("http"))
