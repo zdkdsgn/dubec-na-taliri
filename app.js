@@ -10,8 +10,6 @@ const $$ = (s, r = document) => [...r.querySelectorAll(s)];
 
 const DOW  = ["Neděle","Pondělí","Úterý","Středa","Čtvrtek","Pátek","Sobota"];
 const DOWS = ["Ne","Po","Út","St","Čt","Pá","So"];
-const MON  = ["ledna","února","března","dubna","května","června","července",
-              "srpna","září","října","listopadu","prosince"];
 
 /* ── Ikony (line art, stejný rukopis jako značka) ───────────────── */
 const svg = p => `<svg viewBox="0 0 24 24">${p}</svg>`;
@@ -45,7 +43,6 @@ const parse = s => { const [y,m,d] = s.split("-").map(Number); return new Date(y
 const addD  = (s,n) => { const d = parse(s); d.setDate(d.getDate()+n); return iso(d); };
 const monday= s => { const d = parse(s); d.setDate(d.getDate()-((d.getDay()+6)%7)); return iso(d); };
 const short = s => { const d = parse(s); return `${d.getDate()}. ${d.getMonth()+1}.`; };
-const long  = s => { const d = parse(s); return `${d.getDate()}. ${MON[d.getMonth()]}`; };
 const TODAY = iso(new Date());
 
 /* ── Stav ───────────────────────────────────────────────────────── */
@@ -288,7 +285,7 @@ function renderDen(skoc){
   }
   posunThumb(thumb, days, vybrany, jinyTyden);
 
-  $("#dayName").innerHTML = `${DOW[parse(S.date).getDay()]} <span class="date">${long(S.date)}</span>`;
+  $("#dayName").textContent = DOW[parse(S.date).getDay()];
 
   const cas = vydej(S.date, S.school), serve = $("#dayServe");
   serve.hidden = !cas;
