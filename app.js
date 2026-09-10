@@ -326,8 +326,8 @@ function renderDen(skoc){
   const cas = vydej(S.date, S.school), serve = $("#dayServe");
   serve.hidden = !cas;
   if (cas) serve.innerHTML = vydejBezi(S.date, S.school)
-    ? `<span class="live"></span>Právě se vydává · ${cas}`
-    : `Výdej ${cas}`;
+    ? `<span class="live"></span><span class="serve-label">Právě se vydává ·</span><span class="serve-cas">${cas}</span>`
+    : `<span class="serve-label">Výdej</span><span class="serve-cas">${cas}</span>`;
 
   $("#demoNote").hidden = !!D.meta.real?.[S.school];
 

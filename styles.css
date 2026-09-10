@@ -576,9 +576,10 @@ main{max-width:560px;margin:0 auto;
 /* ── Výdejní čas v hlavičce dne ─────────────────────────────────── */
 .dayhead-txt{flex:1;min-width:0}
 .serve{
-  display:flex;align-items:center;gap:7px;margin:5px 0 0;
+  display:flex;flex-wrap:wrap;align-items:center;gap:4px 7px;margin:5px 0 0;
   font-size:13px;font-weight:560;color:var(--ink-2);font-variant-numeric:tabular-nums;
 }
+.serve-label,.serve-cas{white-space:nowrap}
 .serve .live{
   width:7px;height:7px;border-radius:50%;background:var(--accent);flex:none;
   box-shadow:0 0 0 0 color-mix(in srgb,var(--accent) 55%,transparent);
