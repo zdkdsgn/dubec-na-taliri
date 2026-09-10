@@ -168,13 +168,18 @@ function odemkniScroll(){
 
 function posunThumb(thumb, days, cil, skoc){
   if (!cil) { thumb.style.opacity = "0"; return; }
+  /* getBoundingClientRect() vrací souřadnice už vynásobené CSS zoomem
+     (viz "Velikost textu"), ale transform/width na elementu uvnitř
+     téhož zoomovaného stromu se zoomem přenásobí ještě jednou – bez
+     vydělení zpátky by "thumb" ujížděl a byl špatně velký. */
+  const zoom = parseFloat(getComputedStyle(document.documentElement).zoom) || 1;
   const r = cil.getBoundingClientRect(), rp = days.getBoundingClientRect();
-  const x = r.left - rp.left - days.clientLeft;
-  const y = r.top  - rp.top  - days.clientTop;
+  const x = (r.left - rp.left - days.clientLeft) / zoom;
+  const y = (r.top  - rp.top  - days.clientTop) / zoom;
   if (skoc || bezAnimaci()) thumb.style.transition = "none";
   thumb.style.opacity   = "1";
-  thumb.style.width     = `${r.width}px`;
-  thumb.style.height    = `${r.height}px`;
+  thumb.style.width     = `${r.width / zoom}px`;
+  thumb.style.height    = `${r.height / zoom}px`;
   thumb.style.transform = `translate(${x}px, ${y}px)`;
   if (skoc || bezAnimaci()) requestAnimationFrame(() => thumb.style.transition = "");
 }
@@ -1101,6 +1106,11 @@ $$("#themePick button").forEach(b => b.addEventListener("click", () => {
 $$("#textPick button").forEach(b => b.addEventListener("click", () => {
   haptic(); S.textSize = b.dataset.text; store.set("textSize", S.textSize); applyTextSize();
   toast(S.textSize === "velky" ? "Větší text" : "Normální text");
+  /* Zoom mění vykreslenou velikost všeho, ale posuvné "thumb" prvky
+     (vybraný den, rychlý přepínač škol) mají svou pozici zapsanou
+     jako pevné px z doby PŘED přepnutím – bez přepočtu by zůstaly
+     ujeté, i když je uživatel zrovna nevidí (jiný pohled než Den). */
+  if (AKTIVNI) renderDen(true);
 }));
 $("#shareWeek").addEventListener("click", shareWeek);
 $("#shareDen").addEventListener("click", () => { haptic(); shareDen(); });
