@@ -254,6 +254,19 @@ function aktualizujHlavicky(){
   if (popis) popis.setAttribute("content", `Jídelníček ${p} – celý den na jednom talíři.`);
 }
 
+/* Appka se aktualizuje automaticky každý všední den – pokud je poslední
+   stažení výrazně starší (a zrovna je všední den, kdy by k aktualizaci
+   mělo dojít), radši na to rodiče upozorníme, než aby se nevědomky
+   rozhodoval podle starého jídelníčku. U ukázkových dat (--skutecna_data:
+   false) tohle záměrně nekontrolujeme – ta se aktualizovat nemají. */
+function zastaralaData(){
+  if (!D.meta.real?.[S.school] || !D.meta.updated) return null;
+  const dnesVsedniDen = ![0, 6].includes(new Date().getDay());
+  if (!dnesVsedniDen) return null;
+  const dny = Math.floor((Date.now() - new Date(D.meta.updated).getTime()) / 86_400_000);
+  return dny >= 3 ? dny : null;
+}
+
 function renderDen(skoc){
   const mon = monday(S.date);
   aktualizujHlavicky();
@@ -302,6 +315,14 @@ function renderDen(skoc){
     : `Výdej ${cas}`;
 
   $("#demoNote").hidden = !!D.meta.real?.[S.school];
+
+  const dnyStara = zastaralaData();
+  $("#staleNote").hidden = dnyStara === null;
+  if (dnyStara !== null) {
+    const datum = new Date(D.meta.updated);
+    $("#staleNoteTxt").textContent =
+      `Naposledy staženo ${datum.getDate()}. ${datum.getMonth() + 1}. (před ${dnyStara} dny) – než se podle jídelníčku rozhodnete, ověřte to prosím na webu jídelny.`;
+  }
 
   const tl = $("#timeline"); tl.innerHTML = "";
   const list = meals(S.date, S.school);
