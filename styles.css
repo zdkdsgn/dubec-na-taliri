@@ -170,17 +170,22 @@ main{max-width:560px;margin:0 auto;
 
 /* ── Rychlý přepínač oblíbených škol (2+ v oblíbených) ───────────── */
 .skola-prepinac{
-  display:flex;gap:8px;margin-bottom:24px;overflow-x:auto;scrollbar-width:none;
+  position:relative;display:flex;gap:8px;margin-bottom:24px;overflow-x:auto;scrollbar-width:none;
   -webkit-overflow-scrolling:touch;
 }
 .skola-prepinac::-webkit-scrollbar{display:none}
+.prepinac-thumb{
+  position:absolute;top:0;left:0;border-radius:var(--r-pill);background:var(--accent);
+  opacity:0;z-index:0;
+  transition:transform .5s var(--spring),width .5s var(--spring),height .5s var(--spring),opacity .3s ease;
+}
 .skola-prepinac button{
-  flex:none;max-width:220px;padding:10px 16px;border-radius:var(--r-pill);
+  position:relative;z-index:1;flex:none;max-width:220px;padding:10px 16px;border-radius:var(--r-pill);
   background:var(--track);color:var(--ink-2);font-size:13.5px;font-weight:640;
   white-space:nowrap;overflow:hidden;text-overflow:ellipsis;
-  transition:background .25s ease,color .25s ease,transform .3s var(--spring);
+  transition:color .3s ease,transform .3s var(--spring);
 }
-.skola-prepinac button.on{background:var(--accent);color:var(--on-accent)}
+.skola-prepinac button.on{background:none;color:var(--on-accent)}
 .skola-prepinac button:active{transform:scale(.95)}
 
 /* ── Týdenní pás ────────────────────────────────────────────────── */

@@ -254,7 +254,7 @@ function aktualizujHlavicky(){
 function renderDen(skoc){
   const mon = monday(S.date);
   aktualizujHlavicky();
-  renderPrepinacOblibenych();
+  renderPrepinacOblibenych(skoc);
   $("#weekLabel").textContent  = `${short(mon)} – ${short(addD(mon,4))} ${parse(mon).getFullYear()}`;
   $(".segmented").hidden = !AKTIVNI.viceSkupin;
   $(".segmented").classList.toggle("ms", S.school === "ms");
@@ -672,7 +672,7 @@ function prepniOblibenou(polozka){
    2 školy, co appka umí pojmenovat (z registru, nebo rovnou aktivní
    škola, kdyby registr ještě nebyl načtený). U jedné oblíbené nemá
    smysl cokoli přepínat, tak se nezobrazí vůbec. */
-function renderPrepinacOblibenych(){
+function renderPrepinacOblibenych(skoc){
   const wrap = $("#skolaPrepinac");
   if (!wrap) return;
   const zname = new Map((registrSkol || []).map(s => [s.id, s]));
@@ -681,16 +681,36 @@ function renderPrepinacOblibenych(){
     .sort((a, b) => (a.kratky || a.nazev).localeCompare(b.kratky || b.nazev, "cs"));
   wrap.hidden = skoly.length < 2;
   if (skoly.length < 2) { wrap.innerHTML = ""; return; }
-  wrap.innerHTML = skoly.map(s => `
-    <button type="button" role="tab" data-id="${s.id}"
-      class="${AKTIVNI && AKTIVNI.id === s.id ? "on" : ""}"
-      aria-selected="${AKTIVNI && AKTIVNI.id === s.id}">${s.kratky || s.nazev}</button>`).join("");
-  $$("button", wrap).forEach(b => b.addEventListener("click", async () => {
-    if (b.classList.contains("on")) return;
-    haptic();
-    const ok = await prepniNaSkolu(skoly.find(s => s.id === b.dataset.id));
-    if (ok) { renderAll(); toast(`Přepnuto na ${AKTIVNI.nazev}`); }
-  }));
+
+  /* Přepínač si podobně jako dlaždice dní nechává vlastní "thumb" v
+     DOM napříč překreslením, ať má odkud plynule přejet na nově
+     zvolenou školu, místo aby jen naskočila barva. */
+  let thumb = $(".prepinac-thumb", wrap);
+  $$("button", wrap).forEach(b => b.remove());
+  if (!thumb){
+    thumb = document.createElement("span");
+    thumb.className = "prepinac-thumb";
+    wrap.appendChild(thumb);
+  }
+
+  let vybrany = null;
+  skoly.forEach(s => {
+    const aktivni = !!AKTIVNI && AKTIVNI.id === s.id;
+    const b = document.createElement("button");
+    b.type = "button"; b.setAttribute("role", "tab"); b.dataset.id = s.id;
+    b.className = aktivni ? "on" : "";
+    b.setAttribute("aria-selected", aktivni);
+    b.textContent = s.kratky || s.nazev;
+    b.addEventListener("click", async () => {
+      if (aktivni) return;
+      haptic();
+      const ok = await prepniNaSkolu(s);
+      if (ok) { renderAll(); toast(`Přepnuto na ${AKTIVNI.nazev}`); }
+    });
+    wrap.appendChild(b);
+    if (aktivni) vybrany = b;
+  });
+  posunThumb(thumb, wrap, vybrany, skoc);
 }
 
 function skolaKarta(polozka, aktivni){
@@ -936,6 +956,7 @@ document.addEventListener("keydown", e => {
   if (S.view === "den" && e.key === "ArrowRight") step(1);
 });
 swipe($("#timeline"), p => step(1, p), p => step(-1, p));
+swipe($("#days"), p => step(1, p), p => step(-1, p));
 
 (() => {  /* sheet stažením dolů */
   const sh = $("#sheet"); let y0 = null;
