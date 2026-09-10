@@ -260,17 +260,18 @@ function renderDen(skoc){
   $(".segmented").classList.toggle("ms", S.school === "ms");
   $$(".seg").forEach(b => b.setAttribute("aria-selected", b.dataset.school === S.school));
 
-  const days = $("#days");
+  const days  = $("#days");
+  const track = $("#daysTrack");
   const jinyTyden = skoc || days.dataset.mon !== mon;
   days.dataset.mon = mon;
 
   /* Dlaždici nepřekreslujeme – musí zůstat v DOM, aby měla odkud přejet. */
-  $$(".day", days).forEach(b => b.remove());
-  let thumb = $(".day-thumb", days);
+  $$(".day", track).forEach(b => b.remove());
+  let thumb = $(".day-thumb", track);
   if (!thumb){
     thumb = document.createElement("span");
     thumb.className = "day-thumb";
-    days.appendChild(thumb);
+    track.appendChild(thumb);
   }
 
   let vybrany = null;
@@ -281,10 +282,10 @@ function renderDen(skoc){
     b.innerHTML = `<span class="dow">${DOWS[parse(d).getDay()]}</span>
                    <span class="num">${parse(d).getDate()}</span><span class="pip"></span>`;
     b.addEventListener("click", () => { haptic(); prepniDen(d); });
-    days.appendChild(b);
+    track.appendChild(b);
     if (d === S.date) vybrany = b;
   }
-  posunThumb(thumb, days, vybrany, jinyTyden);
+  posunThumb(thumb, track, vybrany, jinyTyden);
 
   $("#dayName").textContent = DOW[parse(S.date).getDay()];
 
@@ -504,7 +505,7 @@ function shareDen(){
 }
 
 /* ── Gesta ──────────────────────────────────────────────────────── */
-function swipe(el, onLeft, onRight){
+function swipe(el, onLeft, onRight, vizual = el){
   let x0 = null, y0 = null, lock = null, posun = 0;
 
   el.addEventListener("touchstart", e => {
@@ -519,8 +520,8 @@ function swipe(el, onLeft, onRight){
       lock = Math.abs(dx) > Math.abs(dy) ? "x" : "y";
     if (lock === "x"){
       posun = dx * .45;
-      el.style.transform = `translate3d(${posun}px,0,0)`;
-      el.style.opacity   = String(Math.max(.4, 1 - Math.abs(posun) / 420));
+      vizual.style.transform = `translate3d(${posun}px,0,0)`;
+      vizual.style.opacity   = String(Math.max(.4, 1 - Math.abs(posun) / 420));
     }
   }, { passive: true });
 
@@ -531,12 +532,12 @@ function swipe(el, onLeft, onRight){
 
     if (potvrzeno){
       haptic();
-      el.style.transform = ""; el.style.opacity = "";     // převezme prepniDen
+      vizual.style.transform = ""; vizual.style.opacity = "";     // převezme prepniDen
       (dx < 0 ? onLeft : onRight)(posun);
     } else if (lock === "x"){
-      el.style.transition = "transform .45s var(--spring), opacity .3s ease";
-      el.style.transform  = ""; el.style.opacity = "";
-      setTimeout(() => el.style.transition = "", 460);
+      vizual.style.transition = "transform .45s var(--spring), opacity .3s ease";
+      vizual.style.transform  = ""; vizual.style.opacity = "";
+      setTimeout(() => vizual.style.transition = "", 460);
     }
     x0 = y0 = null; posun = 0;
   });
@@ -956,7 +957,7 @@ document.addEventListener("keydown", e => {
   if (S.view === "den" && e.key === "ArrowRight") step(1);
 });
 swipe($("#timeline"), p => step(1, p), p => step(-1, p));
-swipe($("#days"), () => weekStep(1), () => weekStep(-1));
+swipe($("#days"), () => weekStep(1), () => weekStep(-1), $("#daysTrack"));
 
 (() => {  /* sheet stažením dolů */
   const sh = $("#sheet"); let y0 = null;
