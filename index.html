@@ -154,6 +154,17 @@
             Tmavý
           </button>
         </div>
+        <h3 class="theme-card-sub">Velikost textu</h3>
+        <div class="theme-pick two" id="textPick" role="tablist" aria-label="Velikost textu">
+          <button data-text="normal" class="on" role="tab" aria-selected="true">
+            <span class="text-a">A</span>
+            Normální
+          </button>
+          <button data-text="velky" role="tab" aria-selected="false">
+            <span class="text-a big">A</span>
+            Větší
+          </button>
+        </div>
       </div>
 
       <div class="card notice tint-blue">
@@ -179,6 +190,14 @@
         <svg class="chev" viewBox="0 0 24 24"><path d="M9 5l7 7-7 7"/></svg>
       </button>
 
+      <button class="card link-card" id="toHledani">
+        <div class="notice-ico tint-blue">
+          <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+        </div>
+        <div><h3>Hledat v jídelníčku</h3><p>Kdy jsme měli naposledy…? Najděte jídlo napříč týdny.</p></div>
+        <svg class="chev" viewBox="0 0 24 24"><path d="M9 5l7 7-7 7"/></svg>
+      </button>
+
       <button class="card link-card" id="toAllergens">
         <div class="notice-ico tint-amber">
           <svg viewBox="0 0 24 24" fill="currentColor" stroke="none">
@@ -193,6 +212,13 @@
         <div><h3>Vyznáte se v alergenech?</h3><p>Nastavte, co dítě nesmí – jídla se zvýrazní.</p></div>
         <svg class="chev" viewBox="0 0 24 24"><path d="M9 5l7 7-7 7"/></svg>
       </button>
+
+      <div class="card notice">
+        <div class="notice-ico tint-amber">
+          <svg viewBox="0 0 24 24"><path d="M4 10h16M8 3v3m8-3v3M5 6h14a1 1 0 011 1v12a1 1 0 01-1 1H5a1 1 0 01-1-1V7a1 1 0 011-1z"/><path d="M9.5 13.5l5 5m0-5l-5 5"/></svg>
+        </div>
+        <div><h3>Nezapomeňte odhlásit oběd</h3><p>Při nemoci nebo dovolené je potřeba oběd včas odhlásit – řeší se přímo na webu jídelny (karta níže).</p></div>
+      </div>
 
       <a class="card link-card" id="webJidelny" href="https://www.zsdubec.cz" target="_blank" rel="noopener">
         <div class="notice-ico">
@@ -296,6 +322,22 @@
       <h4>Jak na to</h4>
       <div id="navodKroky"></div>
     </div>
+  </div>
+</div>
+
+<div class="sheet-scrim" id="hledatScrim" hidden></div>
+<div class="sheet" id="hledatSheet" hidden role="dialog" aria-modal="true" aria-label="Hledat v jídelníčku">
+  <div class="skola-lepiva-hlavicka">
+    <div class="sheet-grabber"></div>
+    <h2>Hledat v jídelníčku</h2>
+    <p class="sub">Prohledá celou staženou historii i budoucí týdny.</p>
+    <div class="skola-hledat">
+      <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+      <input type="search" id="hledatQuery" aria-label="Hledat jídlo" placeholder="Název jídla, aspoň 2 znaky" autocomplete="off">
+    </div>
+  </div>
+  <div class="sheet-body">
+    <div id="hledatVysledky"></div>
   </div>
 </div>
 

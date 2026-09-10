@@ -63,6 +63,7 @@ const S = {
   filter: new Set(store.get("filter",[])),
   rating: store.get("rating",{}),
   theme : store.get("theme","auto"),    /* auto | light | dark */
+  textSize: store.get("textSize","normal"),   /* normal | velky */
   oblibene: new Set(store.get("oblibene",[]))
 };
 
@@ -88,6 +89,15 @@ function applyTheme(){
 matchMedia("(prefers-color-scheme: dark)").addEventListener("change", () => {
   if (S.theme === "auto") applyTheme();
 });
+
+function applyTextSize(){
+  document.documentElement.setAttribute("data-text", S.textSize);
+  document.querySelectorAll("#textPick button").forEach(b => {
+    const aktivni = b.dataset.text === S.textSize;
+    b.classList.toggle("on", aktivni);
+    b.setAttribute("aria-selected", aktivni);
+  });
+}
 
 /* ── Drobnosti ──────────────────────────────────────────────────── */
 const haptic = (ms = 8) => navigator.vibrate?.(ms);
@@ -425,6 +435,60 @@ function renderZebricek(){
         ${z.minus ? `<b>👎${z.minus}</b>` : ""}
       </span>
     </div>`).join("");
+}
+
+/* ── Hledání v jídelníčku ───────────────────────────────────────── */
+const normalizovat = s => s.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
+
+function hledejVJidelnicku(dotaz){
+  const q = normalizovat(dotaz.trim());
+  if (q.length < 2) return [];
+  const nalezy = [];
+  for (const den of Object.keys(D.days).sort()) {
+    for (const m of meals(den, S.school)) {
+      if (normalizovat(m.n).includes(q)) nalezy.push({ den, m });
+    }
+  }
+  return nalezy;
+}
+
+function vykresliHledani(dotaz){
+  const wrap = $("#hledatVysledky");
+  if (dotaz.trim().length < 2) { wrap.innerHTML = ""; return; }
+  const nalezy = hledejVJidelnicku(dotaz).slice(-60).reverse();   // nejnovější nahoře, max 60
+  if (!nalezy.length) {
+    wrap.innerHTML = `<div class="skola-stav">Nic jsme v jídelníčku nenašli.</div>`;
+    return;
+  }
+  wrap.innerHTML = nalezy.map(({ den, m }) => `
+    <div class="skola-vysledek" data-den="${den}">
+      <span class="txt"><b>${m.n}</b><small>${DOW[parse(den).getDay()]} ${short(den)} · ${D.courses[m.c].label}</small></span>
+      <button type="button">Zobrazit</button>
+    </div>`).join("");
+  $$("#hledatVysledky .skola-vysledek button").forEach(b => b.addEventListener("click", () => {
+    haptic();
+    const den = b.closest(".skola-vysledek").dataset.den;
+    zavriHledatSheet();
+    setView("den");
+    prepniDen(den);
+  }));
+}
+
+function otevriHledatSheet(){
+  haptic();
+  $("#hledatQuery").value = "";
+  $("#hledatVysledky").innerHTML = "";
+  $("#hledatScrim").hidden = false; $("#hledatSheet").hidden = false;
+  zamkniScroll();
+  requestAnimationFrame(() => {
+    $("#hledatScrim").classList.add("in"); $("#hledatSheet").classList.add("in");
+    $("#hledatQuery").focus();
+  });
+}
+function zavriHledatSheet(){
+  $("#hledatScrim").classList.remove("in"); $("#hledatSheet").classList.remove("in");
+  odemkniScroll();
+  setTimeout(() => { $("#hledatScrim").hidden = true; $("#hledatSheet").hidden = true; }, 460);
 }
 
 function renderInfo(){
@@ -996,6 +1060,13 @@ $("#weekNow").addEventListener("click",  () => {
 });
 $("#toWeek").addEventListener("click",      () => { haptic(); setView("tyden"); });
 $("#toAllergens").addEventListener("click", () => { haptic(); setView("alergeny"); });
+$("#toHledani").addEventListener("click", otevriHledatSheet);
+$("#hledatScrim").addEventListener("click", zavriHledatSheet);
+let hledatTimer = null;
+$("#hledatQuery").addEventListener("input", e => {
+  clearTimeout(hledatTimer);
+  hledatTimer = setTimeout(() => vykresliHledani(e.target.value), 250);
+});
 $("#toSkola").addEventListener("click", otevriSkolaSheet);
 $("#skolaScrim").addEventListener("click", zavriSkolaSheet);
 $$(".skola-typ-filtr button").forEach(b => b.addEventListener("click", () => {
@@ -1026,6 +1097,10 @@ $("#tabbarFab").addEventListener("click", () => {
 $$("#themePick button").forEach(b => b.addEventListener("click", () => {
   haptic(); S.theme = b.dataset.theme; store.set("theme", S.theme); applyTheme();
   toast(S.theme === "auto" ? "Vzhled podle systému" : S.theme === "dark" ? "Tmavý režim" : "Světlý režim");
+}));
+$$("#textPick button").forEach(b => b.addEventListener("click", () => {
+  haptic(); S.textSize = b.dataset.text; store.set("textSize", S.textSize); applyTextSize();
+  toast(S.textSize === "velky" ? "Větší text" : "Normální text");
 }));
 $("#shareWeek").addEventListener("click", shareWeek);
 $("#shareDen").addEventListener("click", () => { haptic(); shareDen(); });
@@ -1251,6 +1326,7 @@ if ("serviceWorker" in navigator && location.protocol.startsWith("http"))
 
 (async () => {
   applyTheme();
+  applyTextSize();
 
   // Odkaz se sdíleným nastavením (viz sdiletOblibene) – zpracovat ještě
   // před běžným startem, ať appka rovnou naběhne na převzatou školu,

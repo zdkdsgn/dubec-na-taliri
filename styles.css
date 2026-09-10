@@ -71,6 +71,11 @@
 }
 
 *{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+/* Zvětšený text (viz Info → Vzhled) – zoom škáluje celou appku (layout
+   i písmo) proporcionálně, bez nutnosti přepisovat desítky pevných
+   px hodnot na rem. Podporují ho Safari/Chrome (naprostá většina
+   mobilních návštěv); ostatní prohlížeče přepínač jen tiše ignorují. */
+html[data-text="velky"]{zoom:1.15}
 [hidden]{display:none!important}
 html,body{height:100%}
 body{
@@ -563,6 +568,10 @@ main{max-width:560px;margin:0 auto;
 .theme-pick button svg{width:20px;height:20px}
 .theme-pick button.on{background:var(--card);color:var(--accent);
   box-shadow:0 1px 2px rgba(16,40,28,.10),0 4px 12px -8px rgba(16,40,28,.35)}
+.theme-pick.two{grid-template-columns:repeat(2,1fr)}
+.theme-card-sub{font-size:13px;font-weight:660;color:var(--ink-2);margin:18px 0 8px}
+.text-a{font-size:14px;font-weight:700;line-height:1}
+.text-a.big{font-size:19px}
 
 /* ── Výdejní čas v hlavičce dne ─────────────────────────────────── */
 .dayhead-txt{flex:1;min-width:0}
