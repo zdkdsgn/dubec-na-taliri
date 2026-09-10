@@ -565,7 +565,7 @@ main{max-width:560px;margin:0 auto;
 
 /* ── Výběr školy ────────────────────────────────────────────────── */
 #skolaVysledky:not(:empty){margin-bottom:18px}
-.skola-dostupne{display:flex;flex-direction:column;gap:8px}
+.skola-dostupne{display:flex;flex-direction:column;gap:8px;margin-top:16px}
 .skola-radek{
   display:flex;align-items:stretch;width:100%;
   border-radius:var(--r-lg);background:var(--card);border:1px solid var(--card-brd);
