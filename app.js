@@ -36,6 +36,7 @@ const WHEAT = (cls) => `<svg class="${cls}" viewBox="0 0 24 24" fill="currentCol
 </svg>`;
 const I_WHEAT = WHEAT("wheat");
 const I_INFO  = `<svg class="i" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 11v5m0-8.5v.5"/></svg>`;
+const I_DONE  = `<svg viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7"/></svg>`;
 
 /* ── Datum ──────────────────────────────────────────────────────── */
 const iso   = d => `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,"0")}-${String(d.getDate()).padStart(2,"0")}`;
@@ -117,16 +118,19 @@ function toast(msg){
    (mateřská škola), neukazujeme žádný čas – radši nic než odhad. */
 const vydej = (date, school) => D.days[date]?.vydej?.[school] || null;
 
-function vydejBezi(date, school){
-  if (date !== TODAY) return false;
+/* "pred" | "bezi" | "po" | null (jiný den než dnes, nebo bez uvedeného
+   výdejního okna) – ať appka umí rozlišit nejen "právě se vydává", ale
+   i "už je po výdeji", ne jen budoucí/dnešní čas bez rozdílu. */
+function vydejStav(date, school){
+  if (date !== TODAY) return null;
   const v = vydej(date, school);
-  if (!v) return false;
+  if (!v) return null;
   const [od, do_] = v.split("–").map(t => {
     const [h, m] = t.split(":").map(Number);
     return h * 60 + m;
   });
   const t = new Date(), ted = t.getHours() * 60 + t.getMinutes();
-  return ted >= od && ted < do_;
+  return ted < od ? "pred" : ted < do_ ? "bezi" : "po";
 }
 
 const meals = (date, school) => D.days[date]?.[school] || [];
@@ -331,9 +335,15 @@ function renderDen(skoc){
 
   const cas = vydej(S.date, S.school), serve = $("#dayServe");
   serve.hidden = !cas;
-  if (cas) serve.innerHTML = vydejBezi(S.date, S.school)
-    ? `<span class="serve-lead"><span class="live"></span><span class="serve-label">Právě se vydává ·</span></span><span class="serve-cas">${cas}</span>`
-    : `<span class="serve-label">Výdej</span><span class="serve-cas">${cas}</span>`;
+  if (cas){
+    const stav = vydejStav(S.date, S.school);
+    serve.classList.toggle("serve-po", stav === "po");
+    serve.innerHTML = stav === "bezi"
+      ? `<span class="serve-lead"><span class="live"></span><span class="serve-label">Právě se vydává ·</span></span><span class="serve-cas">${cas}</span>`
+      : stav === "po"
+      ? `<span class="serve-lead"><span class="done">${I_DONE}</span><span class="serve-label">Již vydáno ·</span></span><span class="serve-cas">${cas}</span>`
+      : `<span class="serve-label">Výdej</span><span class="serve-cas">${cas}</span>`;
+  }
 
   $("#demoNote").hidden = !!D.meta.real?.[S.school];
 
