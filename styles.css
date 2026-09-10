@@ -280,6 +280,7 @@ main{max-width:560px;margin:0 auto;
 .badge.lead{background:color-mix(in srgb,var(--accent) 14%,transparent);color:var(--accent)}
 .badge.now{background:var(--accent);color:var(--on-accent);animation:pulse 2.4s ease-in-out infinite}
 .badge.warn{background:var(--t-red);color:var(--on-tint)}
+.badge.muted{background:var(--track);color:var(--ink-3)}
 @keyframes pulse{50%{opacity:.65}}
 
 /* zvýrazněný hlavní chod */
@@ -290,6 +291,9 @@ main{max-width:560px;margin:0 auto;
 .meal.flagged{background:var(--t-red-bg);border-color:color-mix(in srgb,var(--t-red) 24%,transparent)}
 .meal.flagged .meal-name{color:var(--t-red)}
 .meal.flagged .meal-ico{background:color-mix(in srgb,var(--t-red) 12%,transparent);color:var(--t-red)}
+/* osobní "nemá rádo" – tlumené, ne zdravotní varování */
+.meal.disliked{opacity:.78}
+.meal.disliked .meal-name{color:var(--ink-2);text-decoration:line-through;text-decoration-color:var(--ink-3);text-decoration-thickness:1.5px}
 
 /* chip alergenů */
 .a-chip{
@@ -316,10 +320,12 @@ main{max-width:560px;margin:0 auto;
   background:var(--card);border:1px solid var(--card-brd);border-radius:var(--r-xl)}
 .empty svg{width:34px;height:34px;margin-bottom:10px;color:var(--ink-3)}
 
+.tomorrow-card{margin-top:12px}
+
 .disclaimer{margin:26px 6px 0;text-align:center;font-size:12.5px;color:var(--ink-3);line-height:1.55}
 
 /* ── Týdenní přehled ────────────────────────────────────────────── */
-.week-actions{margin-bottom:16px}
+.week-actions{margin-bottom:16px;display:flex;flex-wrap:wrap;gap:10px}
 .ghost-btn{
   display:inline-flex;align-items:center;gap:8px;height:42px;padding:0 17px;
   border-radius:var(--r-pill);font-size:14.5px;font-weight:600;color:var(--accent);
@@ -331,6 +337,17 @@ main{max-width:560px;margin:0 auto;
 .ghost-btn.primary{background:var(--accent);color:var(--on-accent);border-color:transparent;
   width:100%;justify-content:center;height:48px}
 .ghost-btn + .ghost-btn{margin-top:10px}
+.week-actions .ghost-btn + .ghost-btn{margin-top:0}
+
+/* ── Malé tlačítko uvnitř karty (např. připomínka odhlášení) ──────── */
+.mini-btn{
+  margin-top:10px;display:inline-flex;align-items:center;gap:6px;
+  height:34px;padding:0 14px;border-radius:var(--r-pill);
+  font-size:13px;font-weight:640;color:var(--accent);
+  background:color-mix(in srgb,var(--accent) 10%,transparent);
+}
+.mini-btn svg{width:15px;height:15px}
+.mini-btn:active{transform:scale(.95)}
 .qr-box{
   display:flex;flex-direction:column;align-items:center;gap:10px;margin-top:16px;
   padding:18px;border-radius:var(--r-lg);background:var(--track);
@@ -499,13 +516,23 @@ main{max-width:560px;margin:0 auto;
   background:color-mix(in srgb,var(--ink) 15%,transparent)}
 .sheet h2{font-size:26px;font-weight:740;line-height:1.15;margin-bottom:6px}
 .sheet .sub{color:var(--ink-2);font-size:15px;margin:0 0 18px}
+.sheet-top-row{display:flex;align-items:flex-start;justify-content:space-between;gap:10px;margin-bottom:12px}
 .sheet-kicker{display:flex;align-items:center;gap:9px;font-size:11px;font-weight:680;
-  letter-spacing:.09em;text-transform:uppercase;color:var(--ink-3);margin-bottom:12px}
+  letter-spacing:.09em;text-transform:uppercase;color:var(--ink-3);flex:1;min-width:0}
+.sheet-top-row .icon-btn{flex:none;margin-top:1px}
 .sheet-kicker .meal-ico{width:28px;height:28px;border-radius:9px}
 .sheet-kicker .meal-ico svg{width:15px;height:15px}
 .sheet-sec{margin-top:22px}
 .sheet-sec h4{font-size:11.5px;font-weight:680;letter-spacing:.09em;text-transform:uppercase;
   color:var(--ink-3);margin:0 0 10px}
+.dislike-toggle{
+  width:100%;height:48px;border-radius:var(--r-md);display:flex;align-items:center;
+  justify-content:center;gap:8px;font-size:14.5px;font-weight:620;color:var(--ink-2);
+  background:var(--card);border:1px solid var(--card-brd);transition:background .2s,border-color .2s;
+}
+.dislike-toggle svg{width:17px;height:17px;flex:none}
+.dislike-toggle:active{transform:scale(.98)}
+.dislike-toggle.on{background:var(--track);border-color:var(--ink-3);color:var(--ink)}
 .a-full{display:flex;gap:12px;align-items:center;padding:10px 0;border-bottom:1px solid var(--line)}
 .a-full:last-child{border:0}
 .a-full .n{width:30px;height:30px;border-radius:10px;display:grid;place-items:center;flex:none;
@@ -709,3 +736,17 @@ main{max-width:560px;margin:0 auto;
 .skola-sekce-telo > div{overflow:hidden;display:flex;flex-direction:column;gap:6px;padding:0 8px 8px}
 .skola-sekce-telo .skola-radek{border:0;background:color-mix(in srgb,var(--ink) 3%,transparent)}
 .skola-sekce-telo .skola-radek.aktivni{background:var(--t-green-bg)}
+
+/* ── Tisk týdne (Týden → Tisknout / PDF) ────────────────────────────
+   Žádná zvláštní příprava v JS – tenhle blok sám rozbalí všechny dny
+   a schová appkové ovládání, ať jde vidět jen čistý jídelníček. */
+@media print{
+  body{background:#fff}
+  .ambient,.tabbar,.tabbar-fab,.skola-prepinac,.segmented,.week-actions,
+  .sheet,.sheet-scrim,.toast,.wday-head .chev{display:none!important}
+  main{padding:0!important;max-width:100%!important}
+  .wday-body{grid-template-rows:1fr!important}
+  .wday-body > div{overflow:visible!important}
+  .wday{box-shadow:none!important;border:1px solid #ccc;break-inside:avoid;margin-bottom:10px}
+  .meal{box-shadow:none!important;border:1px solid #ddd}
+}

@@ -82,6 +82,14 @@
 
     <div class="meals" id="timeline"></div>
 
+    <button class="card link-card tomorrow-card" id="tomorrowCard" hidden>
+      <div class="notice-ico tint-blue">
+        <svg viewBox="0 0 24 24"><path d="M4 10h16M8 3v3m8-3v3M5 6h14a1 1 0 011 1v12a1 1 0 01-1 1H5a1 1 0 01-1-1V7a1 1 0 011-1z"/></svg>
+      </div>
+      <div><h3>Zítra · <span id="tomorrowDen"></span></h3><p id="tomorrowJidlo"></p></div>
+      <svg class="chev" viewBox="0 0 24 24"><path d="M9 5l7 7-7 7"/></svg>
+    </button>
+
     <p class="disclaimer">Neoficiální přehled pro rodiče.<br>Změna jídelníčku vyhrazena.</p>
   </section>
 
@@ -96,6 +104,10 @@
       <button class="ghost-btn" id="shareWeek">
         <svg viewBox="0 0 24 24"><path d="M12 16V4m0 0L8 8m4-4l4 4M5 15v3a2 2 0 002 2h10a2 2 0 002-2v-3"/></svg>
         Sdílet týden
+      </button>
+      <button class="ghost-btn" id="printWeek">
+        <svg viewBox="0 0 24 24"><path d="M6 9V3h12v6M6 18H4a1 1 0 01-1-1v-6a1 1 0 011-1h16a1 1 0 011 1v6a1 1 0 01-1 1h-2M6 14h12v7H6z"/></svg>
+        Tisknout / PDF
       </button>
     </div>
     <div id="weekList" class="week-list"></div>
@@ -217,7 +229,14 @@
         <div class="notice-ico tint-amber">
           <svg viewBox="0 0 24 24"><path d="M4 10h16M8 3v3m8-3v3M5 6h14a1 1 0 011 1v12a1 1 0 01-1 1H5a1 1 0 01-1-1V7a1 1 0 011-1z"/><path d="M9.5 13.5l5 5m0-5l-5 5"/></svg>
         </div>
-        <div><h3>Nezapomeňte odhlásit oběd</h3><p>Při nemoci nebo dovolené je potřeba oběd včas odhlásit – řeší se přímo na webu jídelny (karta níže).</p></div>
+        <div>
+          <h3>Nezapomeňte odhlásit oběd</h3>
+          <p>Při nemoci nebo dovolené je potřeba oběd včas odhlásit – řeší se přímo na webu jídelny (karta níže).</p>
+          <button class="mini-btn" id="pripominkaBtn">
+            <svg viewBox="0 0 24 24"><path d="M4 10h16M8 3v3m8-3v3M5 6h14a1 1 0 011 1v12a1 1 0 01-1 1H5a1 1 0 01-1-1V7a1 1 0 011-1z"/><path d="M9 14l2 2 4-4"/></svg>
+            Přidat připomínku do kalendáře
+          </button>
+        </div>
       </div>
 
       <a class="card link-card" id="webJidelny" href="https://www.zsdubec.cz" target="_blank" rel="noopener">

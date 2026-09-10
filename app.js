@@ -64,7 +64,11 @@ const S = {
   rating: store.get("rating",{}),
   theme : store.get("theme","auto"),    /* auto | light | dark */
   textSize: store.get("textSize","normal"),   /* normal | velky */
-  oblibene: new Set(store.get("oblibene",[]))
+  oblibene: new Set(store.get("oblibene",[])),
+  /* Osobní (nezdravotní) poznámka „tohle dítě nemá rádo" – ukládá se podle
+     normalizovaného názvu jídla, ať zvýraznění funguje i při opakování
+     stejného jídla v jiném týdnu. Nemá nic společného s alergeny. */
+  neoblibene: new Set(store.get("neoblibene",[]))
 };
 
 /* ── Vzhled ─────────────────────────────────────────────────────── */
@@ -233,16 +237,18 @@ function mealNode(m, date){
   const hs   = hits(m);
   const vJid = hs.length && zasahHlav(m);          // alergen přímo v jídle
   const mimo = hs.length && !vJid;                 // jen v příloze / nápoji
-  const lead = (m.c === "obed" || m.c === "obed2") && !hs.length;
+  const nelibi = !hs.length && S.neoblibene.has(normalizovat(m.n));
+  const lead = (m.c === "obed" || m.c === "obed2") && !hs.length && !nelibi;
 
   let badge = "";
   if (vJid)                 badge = `<span class="badge warn">Alergen ${hs.join(", ")}</span>`;
   else if (mimo)            badge = `<span class="badge warn-soft">Alergen ${hs.join(", ")} · ${kdeZasah(m).join(", ")}</span>`;
+  else if (nelibi)          badge = `<span class="badge muted">Nemá rádo</span>`;
   else if (m.c === "obed")  badge = `<span class="badge lead">Oběd</span>`;
   else if (m.c === "obed2") badge = `<span class="badge lead">Oběd II</span>`;
 
   const el = document.createElement("button");
-  el.className = "meal" + (vJid ? " flagged" : mimo ? " flagged-soft" : lead ? " lead" : "");
+  el.className = "meal" + (vJid ? " flagged" : mimo ? " flagged-soft" : nelibi ? " disliked" : lead ? " lead" : "");
   el.innerHTML = `
     <span class="meal-ico tone-${c.tone}">${ICON[m.c]}</span>
     <span class="meal-body">
@@ -346,6 +352,23 @@ function renderDen(skoc){
       <svg viewBox="0 0 24 24"><path d="M4 11h16a8 8 0 01-16 0z"/><path d="M9 7c0-1 1-1.4 1-2.4S9 3 9 3m6 4c0-1 1-1.4 1-2.4S15 3 15 3"/></svg>
       <div>Pro tento den zatím jídelníček nemáme.</div></div>`;
   } else list.forEach(m => tl.appendChild(mealNode(m, S.date)));
+
+  /* Rychlý náhled zítřka – jen když se dívám na dnešek, ať appka
+     nenabízí "zítra" vzhledem k dnu, který si zrovna prohlížím. */
+  const tCard = $("#tomorrowCard");
+  if (tCard){
+    const zitra   = addD(TODAY, 1);
+    const listZit = S.date === TODAY ? meals(zitra, S.school) : [];
+    if (listZit.length){
+      const hlavniZit = listZit.find(x => x.c === "obed") || listZit[0];
+      $("#tomorrowDen").textContent   = DOW[parse(zitra).getDay()];
+      $("#tomorrowJidlo").textContent = hlavniZit.n;
+      tCard.hidden = false;
+      tCard.onclick = () => { haptic(); prepniDen(zitra); };
+    } else {
+      tCard.hidden = true;
+    }
+  }
 }
 
 /* ── Pohled Týden ───────────────────────────────────────────────── */
@@ -517,12 +540,19 @@ const renderAll = () => { renderDen(); renderTyden(); renderAlergeny(); renderIn
 function openSheet(m, date){
   haptic();
   const c   = D.courses[m.c];
-  const key = `${date}|${S.school}|${m.c}`;
-  const r   = S.rating[key];
+  const key    = `${date}|${S.school}|${m.c}`;
+  const r      = S.rating[key];
+  const nKey   = normalizovat(m.n);
+  const nelibi = S.neoblibene.has(nKey);
   $("#sheetBody").innerHTML = `
-    <div class="sheet-kicker">
-      <span class="meal-ico tone-${c.tone}">${ICON[m.c]}</span>
-      ${c.label} · ${DOW[parse(date).getDay()]} ${short(date)}${vydej(date, S.school) ? " · " + vydej(date, S.school) : ""}
+    <div class="sheet-top-row">
+      <div class="sheet-kicker">
+        <span class="meal-ico tone-${c.tone}">${ICON[m.c]}</span>
+        ${c.label} · ${DOW[parse(date).getDay()]} ${short(date)}${vydej(date, S.school) ? " · " + vydej(date, S.school) : ""}
+      </div>
+      <button class="icon-btn" id="shareMealBtn" aria-label="Sdílet toto jídlo">
+        <svg viewBox="0 0 24 24"><path d="M12 16V4m0 0L8 8m4-4l4 4M5 15v3a2 2 0 002 2h10a2 2 0 002-2v-3"/></svg>
+      </button>
     </div>
     <h2>${m.n}</h2>
     ${m.d ? `<p class="sub">${m.d}</p>` : ""}
@@ -547,7 +577,24 @@ function openSheet(m, date){
         <button data-r="0"  aria-pressed="${r === 0}"  class="${r === 0  ? "on" : ""}">😐<span class="lbl">Ujde</span></button>
         <button data-r="-1" aria-pressed="${r === -1}" class="${r === -1 ? "on" : ""}">👎<span class="lbl">Nic moc</span></button>
       </div>
+    </div>
+    <div class="sheet-sec"><h4>Osobní poznámka</h4>
+      <button class="dislike-toggle${nelibi ? " on" : ""}" id="dislikeBtn" aria-pressed="${nelibi}">
+        <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M6 6l12 12"/></svg>
+        Dítě tohle nemá rádo
+      </button>
     </div>`;
+  $("#shareMealBtn").addEventListener("click", () => { haptic(); shareMeal(m, date); });
+  $("#dislikeBtn").addEventListener("click", function(){
+    haptic(12);
+    if (S.neoblibene.has(nKey)) S.neoblibene.delete(nKey); else S.neoblibene.add(nKey);
+    store.set("neoblibene", [...S.neoblibene]);
+    const on = S.neoblibene.has(nKey);
+    this.classList.toggle("on", on);
+    this.setAttribute("aria-pressed", on);
+    toast(on ? "Uloženo – příště se jídlo zvýrazní" : "Odebráno z osobní poznámky");
+    renderDen(); renderTyden();
+  });
   $$("#sheetBody .rate button").forEach(b => b.addEventListener("click", () => {
     haptic(14);
     const v = +b.dataset.r;
@@ -597,6 +644,14 @@ function shareWeek(){
   else { navigator.clipboard?.writeText(txt); toast("Zkopírováno do schránky"); }
 }
 
+function shareMeal(m, date){
+  const jmenoSkoly = popisekSkoly();
+  const c = D.courses[m.c];
+  const txt = `🍽️ ${m.n}\n${c.label} · ${DOW[parse(date).getDay()]} ${short(date)} · ${jmenoSkoly}`;
+  if (navigator.share) navigator.share({ title: m.n, text: txt }).catch(() => {});
+  else { navigator.clipboard?.writeText(txt); toast("Zkopírováno do schránky"); }
+}
+
 function shareDen(){
   const jmenoSkoly = popisekSkoly();
   const list = meals(S.date, S.school);
@@ -607,6 +662,46 @@ function shareDen(){
   if (navigator.share) navigator.share({ title:"Škola na talíři", text:txt }).catch(() => {});
   else { navigator.clipboard?.writeText(txt); toast("Zkopírováno do schránky"); }
 }
+
+/* ── Připomínka na odhlášení oběda (.ics do kalendáře) ─────────────
+   Appka nezná konkrétní uzávěrku jídelny (ta se liší škola od školy),
+   takže místo přesného termínu nabízí obecnou večerní připomínku den
+   předem, ať má rodič včas prostor si to rozmyslet a případně odhlásit. */
+function pripominkaICS(){
+  const cil = nearestSchoolDay(addD(TODAY, 1));
+  const d = parse(cil);
+  const pad = n => String(n).padStart(2, "0");
+  const dtStart = `${d.getFullYear()}${pad(d.getMonth()+1)}${pad(d.getDate())}`;
+  const stamp = new Date().toISOString().replace(/[-:]/g, "").split(".")[0] + "Z";
+  return [
+    "BEGIN:VCALENDAR","VERSION:2.0","PRODID:-//Skola na talíři//CS","CALSCALE:GREGORIAN",
+    "BEGIN:VEVENT",
+    `UID:pripominka-obed-${dtStart}@skola-na-taliri`,
+    `DTSTAMP:${stamp}`,
+    `DTSTART;VALUE=DATE:${dtStart}`,
+    "SUMMARY:Rozhodnout o obědě – případně odhlásit",
+    "DESCRIPTION:Pokud dítě zítra nepůjde do školy\\, nezapomeňte oběd včas odhlásit na webu jídelny.",
+    "BEGIN:VALARM","ACTION:DISPLAY","DESCRIPTION:Odhlásit oběd","TRIGGER:-P1DT5H","END:VALARM",
+    "END:VEVENT","END:VCALENDAR",
+  ].join("\r\n");
+}
+
+function stahnoutPripominku(){
+  haptic();
+  const blob = new Blob([pripominkaICS()], { type: "text/calendar" });
+  const url  = URL.createObjectURL(blob);
+  const a    = document.createElement("a");
+  a.href = url; a.download = "pripominka-obed.ics";
+  document.body.appendChild(a); a.click(); a.remove();
+  setTimeout(() => URL.revokeObjectURL(url), 4000);
+  toast("Připomínka stažena – otevřete ji a přidejte do kalendáře");
+}
+
+/* ── Tisk / PDF týdne ───────────────────────────────────────────────
+   Žádná knihovna – necháme na tiskovém dialogu prohlížeče (na mobilu
+   nabídne "Uložit jako PDF"). @media print v styles.css se postará
+   o rozbalení všech dnů a skrytí ovládacích prvků. */
+function tiskniTyden(){ haptic(); window.print(); }
 
 /* ── Sdílení oblíbených škol mezi zařízeními ───────────────────────
    Appka nemá žádný server, takže "sdílení" znamená zakódovat oblíbené
@@ -1113,7 +1208,9 @@ $$("#textPick button").forEach(b => b.addEventListener("click", () => {
   if (AKTIVNI) renderDen(true);
 }));
 $("#shareWeek").addEventListener("click", shareWeek);
+$("#printWeek").addEventListener("click", tiskniTyden);
 $("#shareDen").addEventListener("click", () => { haptic(); shareDen(); });
+$("#pripominkaBtn").addEventListener("click", stahnoutPripominku);
 $("#sdiletOblibene").addEventListener("click", sdiletOblibene);
 $("#clearAllergens").addEventListener("click", () => {
   S.filter.clear(); store.set("filter", []); renderAll(); toast("Filtry zrušeny");
