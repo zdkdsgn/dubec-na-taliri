@@ -79,8 +79,11 @@ function applyTheme(){
   m.name = "theme-color"; m.content = dark ? "#0B120E" : "#F6FAF7";
   document.head.appendChild(m);
 
-  document.querySelectorAll("#themePick button")
-    .forEach(b => b.classList.toggle("on", b.dataset.theme === S.theme));
+  document.querySelectorAll("#themePick button").forEach(b => {
+    const aktivni = b.dataset.theme === S.theme;
+    b.classList.toggle("on", aktivni);
+    b.setAttribute("aria-selected", aktivni);
+  });
 }
 matchMedia("(prefers-color-scheme: dark)").addEventListener("change", () => {
   if (S.theme === "auto") applyTheme();
@@ -277,10 +280,13 @@ function renderDen(skoc){
   let vybrany = null;
   for (let i = 0; i < 5; i++){
     const d = addD(mon,i);
+    const vybran = d === S.date;
     const b = document.createElement("button");
-    b.className = "day" + (d === S.date ? " sel" : "") + (d === TODAY ? " today" : "");
-    b.innerHTML = `<span class="dow">${DOWS[parse(d).getDay()]}</span>
-                   <span class="num">${parse(d).getDate()}</span><span class="pip"></span>`;
+    b.className = "day" + (vybran ? " sel" : "") + (d === TODAY ? " today" : "");
+    b.setAttribute("aria-label", `${DOW[parse(d).getDay()]} ${short(d)}${d === TODAY ? " · dnes" : ""}`);
+    b.setAttribute("aria-current", vybran ? "date" : "false");
+    b.innerHTML = `<span class="dow" aria-hidden="true">${DOWS[parse(d).getDay()]}</span>
+                   <span class="num" aria-hidden="true">${parse(d).getDate()}</span><span class="pip" aria-hidden="true"></span>`;
     b.addEventListener("click", () => { haptic(); prepniDen(d); });
     track.appendChild(b);
     if (d === S.date) vybrany = b;
@@ -336,8 +342,11 @@ function renderTyden(){
 function renderAlergeny(){
   const g = $("#allergenGrid"); g.innerHTML = "";
   Object.entries(D.allergens).forEach(([n,a]) => {
+    const zapnuto = S.filter.has(+n);
     const b = document.createElement("button");
-    b.className = "a-row" + (S.filter.has(+n) ? " on" : "");
+    b.className = "a-row" + (zapnuto ? " on" : "");
+    b.setAttribute("role", "switch");
+    b.setAttribute("aria-checked", zapnuto);
     b.innerHTML = `<span class="num">${n}</span>
       <span class="txt"><b>${a.name}</b><small>${a.detail}</small></span>
       <span class="switch"></span>`;
@@ -443,9 +452,9 @@ function openSheet(m, date){
     </div>` : ""}
     <div class="sheet-sec"><h4>Chutnalo dětem?</h4>
       <div class="rate">
-        <button data-r="1"  class="${r === 1  ? "on" : ""}">👍<span class="lbl">Super</span></button>
-        <button data-r="0"  class="${r === 0  ? "on" : ""}">😐<span class="lbl">Ujde</span></button>
-        <button data-r="-1" class="${r === -1 ? "on" : ""}">👎<span class="lbl">Nic moc</span></button>
+        <button data-r="1"  aria-pressed="${r === 1}"  class="${r === 1  ? "on" : ""}">👍<span class="lbl">Super</span></button>
+        <button data-r="0"  aria-pressed="${r === 0}"  class="${r === 0  ? "on" : ""}">😐<span class="lbl">Ujde</span></button>
+        <button data-r="-1" aria-pressed="${r === -1}" class="${r === -1 ? "on" : ""}">👎<span class="lbl">Nic moc</span></button>
       </div>
     </div>`;
   $$("#sheetBody .rate button").forEach(b => b.addEventListener("click", () => {
@@ -453,7 +462,11 @@ function openSheet(m, date){
     const v = +b.dataset.r;
     if (S.rating[key] === v) delete S.rating[key]; else S.rating[key] = v;
     store.set("rating", S.rating);
-    $$("#sheetBody .rate button").forEach(x => x.classList.toggle("on", +x.dataset.r === S.rating[key]));
+    $$("#sheetBody .rate button").forEach(x => {
+      const aktivni = +x.dataset.r === S.rating[key];
+      x.classList.toggle("on", aktivni);
+      x.setAttribute("aria-pressed", aktivni);
+    });
     if (S.rating[key] !== undefined) toast("Uloženo do vašeho telefonu");
   }));
   $("#scrim").hidden = false; $("#sheet").hidden = false;

@@ -8,7 +8,7 @@
   --bg:#F6FAF7;
   --ink:#10201A;
   --ink-2:#5E7268;
-  --ink-3:#93A79C;
+  --ink-3:#5F7166;   /* kontrast ≥4.5:1 na --bg i --card (WCAG AA) */
   --accent:#1E7A55;
   --accent-2:#2C9268;
   --accent-soft:#EAF4EE;
@@ -38,8 +38,9 @@
 @media (prefers-color-scheme: dark){
   :root:not([data-theme="light"]){
     --bg:#0B120E;
-    --ink:#ECF3EE; --ink-2:#93A79C; --ink-3:#6B8075;
+    --ink:#ECF3EE; --ink-2:#93A79C; --ink-3:#728979;
     --accent:#4FCB8E; --accent-2:#7CE0B0; --accent-soft:rgba(79,203,142,.12);
+    --on-accent:var(--bg); --on-tint:var(--bg);   /* tmavý text na světlejších tmavo-módních akcentech (WCAG AA) */
     --card:#131C17; --card-brd:rgba(255,255,255,.07);
     --card-sh:0 1px 2px rgba(0,0,0,.3), 0 14px 30px -18px rgba(0,0,0,.8);
     --line:rgba(255,255,255,.08);
@@ -54,8 +55,9 @@
 }
 :root[data-theme="dark"]{
     --bg:#0B120E;
-    --ink:#ECF3EE; --ink-2:#93A79C; --ink-3:#6B8075;
+    --ink:#ECF3EE; --ink-2:#93A79C; --ink-3:#728979;
     --accent:#4FCB8E; --accent-2:#7CE0B0; --accent-soft:rgba(79,203,142,.12);
+    --on-accent:var(--bg); --on-tint:var(--bg);   /* tmavý text na světlejších tmavo-módních akcentech (WCAG AA) */
     --card:#131C17; --card-brd:rgba(255,255,255,.07);
     --card-sh:0 1px 2px rgba(0,0,0,.3), 0 14px 30px -18px rgba(0,0,0,.8);
     --line:rgba(255,255,255,.08);
@@ -87,6 +89,11 @@ button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
    gesto pro přiblížení (dvojklik-zoom), a při scrollu tenhle časový polštář
    klidně sežere celý tap – tlačítko se pak jeví jako "neklikatelné". */
 button, a{touch-action:manipulation}
+/* Viditelné zvýraznění pro ovládání klávesnicí/čtečkou – jen když se
+   opravdu naviguje klávesnicí (myš/dotyk `:focus-visible` nezasáhne). */
+button:focus-visible, a:focus-visible, input:focus-visible, [tabindex]:focus-visible{
+  outline:2px solid var(--accent);outline-offset:2px;border-radius:var(--r-sm);
+}
 h1,h2,h3{margin:0;letter-spacing:-.028em}
 
 /* jemný barevný přísvit pod obsahem */
@@ -613,7 +620,9 @@ main{max-width:560px;margin:0 auto;
 .skola-hledat{
   display:flex;align-items:center;gap:10px;padding:0 14px;height:46px;
   border-radius:var(--r-pill);background:var(--track);
+  outline:2px solid transparent;outline-offset:2px;transition:outline-color .15s ease;
 }
+.skola-hledat:focus-within{outline-color:var(--accent)}
 .skola-hledat svg{width:18px;height:18px;color:var(--ink-3);flex:none}
 .skola-hledat input{
   flex:1;min-width:0;border:0;background:none;outline:0;font:inherit;color:var(--ink);
