@@ -715,7 +715,18 @@ function stahnoutPripominku(){
    Žádná knihovna – necháme na tiskovém dialogu prohlížeče (na mobilu
    nabídne "Uložit jako PDF"). @media print v styles.css se postará
    o rozbalení všech dnů a skrytí ovládacích prvků. */
-function tiskniTyden(){ haptic(); window.print(); }
+function tiskniTyden(){
+  haptic();
+  /* iOS ve standalone appce (přidané na plochu) nemá žádné Safari UI,
+     ze kterého by se tiskové okno vykreslilo – window.print() je tam
+     tiše no-op. V běžné kartě Safari/Chromu funguje normálně. */
+  const vStandalone = navigator.standalone === true || matchMedia("(display-mode: standalone)").matches;
+  if (jeIOS && vStandalone) {
+    toast("Tisk na iPhonu funguje jen v běžném Safari, ne v appce na ploše.");
+    return;
+  }
+  window.print();
+}
 
 /* ── Sdílení oblíbených škol mezi zařízeními ───────────────────────
    Appka nemá žádný server, takže "sdílení" znamená zakódovat oblíbené
