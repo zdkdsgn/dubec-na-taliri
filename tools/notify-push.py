@@ -47,6 +47,10 @@ def main():
     req = Request(WORKER, data=body, method="POST", headers={
         "Content-Type": "application/json",
         "X-Notify-Secret": tajemstvi,
+        # Bez vlastního User-Agentu blokuje Cloudflare výchozí
+        # "Python-urllib/…" hlavičku ještě předtím, než dotaz vůbec
+        # dorazí do workeru (403 rovnou z edge, ne z naší logiky).
+        "User-Agent": "dubec-na-taliri-github-action/1.0",
     })
     try:
         with urlopen(req, timeout=20) as r:
