@@ -162,9 +162,9 @@ async function poslatNotifikace(request, env, origin) {
   let posláno = 0, smazáno = 0;
   for (const { id, nazev } of schools) {
     const prefix = `sub:${id}:`;
-    let cursor;
+    let cursor, seznam;
     do {
-      const seznam = await env.PUSH_SUBS.list({ prefix, cursor });
+      seznam = await env.PUSH_SUBS.list({ prefix, cursor });
       cursor = seznam.cursor;
       for (const { name } of seznam.keys) {
         const syrove = await env.PUSH_SUBS.get(name);
