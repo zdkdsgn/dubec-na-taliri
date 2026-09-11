@@ -415,6 +415,12 @@ main{max-width:560px;margin:0 auto;
 .a-row.on .switch{background:var(--t-red)}
 .a-row.on .switch::after{transform:translateX(18px)}
 
+/* ── Karta "Upozornění na nový jídelníček" (Info) ───────────────── */
+.push-card .switch{margin-left:auto}
+.push-card.on .switch{background:var(--accent)}
+.push-card.on .switch::after{transform:translateX(18px)}
+.push-card:disabled{opacity:.55}
+
 /* ── Info karty ─────────────────────────────────────────────────── */
 .card-list{display:flex;flex-direction:column;gap:12px}
 .card{border-radius:var(--r-xl);padding:16px 18px;width:100%;text-align:left;

@@ -27,6 +27,14 @@ jobs:
       - name: Stáhnout jídelníček ostatních škol z registru
         run: python3 tools/fetch-school.py --all
 
+      - name: Zjistit, které školy se opravdu změnily
+        id: zmeny
+        run: |
+          zmenene=$(git diff --name-only -- 'schools/*/days.json' \
+            | sed -E 's#schools/([^/]+)/days\.json#\1#' | sort -u | tr '\n' ' ')
+          echo "ids=$zmenene" >> "$GITHUB_OUTPUT"
+          echo "Změněné školy: ${zmenene:-žádné}"
+
       - name: Commitnout změny
         run: |
           if [ -z "$(git status --porcelain)" ]; then
@@ -38,3 +46,9 @@ jobs:
           git add data.js menu/ version.json schools/
           git commit -m "Jídelníček – automatická aktualizace $(date '+%-d. %-m. %Y')"
           git push
+
+      - name: Poslat push notifikace ("nový jídelníček je venku")
+        if: steps.zmeny.outputs.ids != ''
+        env:
+          NOTIFY_SECRET: ${{ secrets.NOTIFY_SECRET }}
+        run: python3 tools/notify-push.py ${{ steps.zmeny.outputs.ids }}

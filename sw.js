@@ -17,6 +17,33 @@ self.addEventListener("activate", e => {
     .then(() => self.clients.claim()));
 });
 
+/* ── Push notifikace ("nový jídelníček je venku") ──────────────────
+   Payload posílá worker jako JSON {title, body, schoolId} – viz
+   cloudflare/skoly-proxy/src/worker.js. Klik na notifikaci appku buď
+   přivede do popředí (už otevřenou kartu), nebo otevře novou. */
+self.addEventListener("push", e => {
+  let data = { title: "Škola na talíři", body: "Nový jídelníček je venku." };
+  try { if (e.data) data = { ...data, ...e.data.json() }; } catch {}
+  e.waitUntil(self.registration.showNotification(data.title, {
+    body: data.body,
+    icon: "./assets/icon-192.png",
+    badge: "./assets/icon-192.png",
+    tag: "novy-jidelnicek",
+    data: { schoolId: data.schoolId },
+  }));
+});
+
+self.addEventListener("notificationclick", e => {
+  e.notification.close();
+  e.waitUntil((async () => {
+    const clientList = await self.clients.matchAll({ type: "window", includeUncontrolled: true });
+    for (const c of clientList) {
+      if ("focus" in c) return c.focus();
+    }
+    if (self.clients.openWindow) return self.clients.openWindow("./");
+  })());
+});
+
 self.addEventListener("fetch", e => {
   const req = e.request;
   if (req.method !== "GET" || new URL(req.url).origin !== location.origin) return;
