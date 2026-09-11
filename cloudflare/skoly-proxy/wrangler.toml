@@ -1,6 +1,19 @@
 name = "zs-jidelny"
 main = "src/worker.js"
 compatibility_date = "2026-09-01"
+compatibility_flags = ["nodejs_compat"]   # kvůli "web-push" (posílání push notifikací)
 
-# Bezplatný plán stačí – appka volá tenhle worker jen při hledání školy,
-# ne při běžném prohlížení jídelníčku (to zůstává statické na GitHub Pages).
+# Bezplatný plán stačí – appka volá tenhle worker jen při hledání školy
+# a při zapínání/vypínání upozornění, ne při běžném prohlížení
+# jídelníčku (to zůstává statické na GitHub Pages).
+
+# Úložiště odběrů push notifikací (kdo + pro jakou školu).
+[[kv_namespaces]]
+binding = "PUSH_SUBS"
+id = "798e4c7079f14cabaa57fb38bb51a51f"
+
+# Veřejný VAPID klíč – bezpečně sdílený i s appkou (viz app.js), proto tu
+# je jako obyčejná proměnná. Soukromý klíč a NOTIFY_SECRET jsou naopak
+# tajné a jdou přes `wrangler secret put`, nikdy do tohohle souboru.
+[vars]
+VAPID_PUBLIC_KEY = "BGwZchpHrmyca3Trpo4EU5iqeDgygE-g6WujVszMaRqNEkydpdRE3c1cMSwQqylbLUyCQnRxX71VxXJ7rdPqOS8"
