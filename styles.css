@@ -416,10 +416,20 @@ main{max-width:560px;margin:0 auto;
 .a-row.on .switch::after{transform:translateX(18px)}
 
 /* ── Karta "Upozornění na nový jídelníček" (Info) ───────────────── */
-.push-card .switch{margin-left:auto}
-.push-card.on .switch{background:var(--accent)}
-.push-card.on .switch::after{transform:translateX(18px)}
-.push-card:disabled{opacity:.55}
+.push-card-head{display:flex;gap:14px;align-items:flex-start;margin-bottom:14px}
+.push-list{display:flex;flex-direction:column;gap:8px}
+.push-row{
+  display:flex;align-items:center;gap:10px;width:100%;text-align:left;
+  padding:11px 13px;border-radius:var(--r-md);background:var(--track);
+  transition:background .2s;
+}
+.push-row .txt{flex:1;min-width:0;font-size:14.5px;font-weight:620;
+  overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.push-row .switch{margin-left:auto;flex:none}
+.push-row.on{background:color-mix(in srgb,var(--accent) 11%,transparent)}
+.push-row.on .switch{background:var(--accent)}
+.push-row.on .switch::after{transform:translateX(18px)}
+.push-row:disabled{opacity:.55}
 
 /* ── Info karty ─────────────────────────────────────────────────── */
 .card-list{display:flex;flex-direction:column;gap:12px}

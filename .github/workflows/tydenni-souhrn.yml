@@ -1,0 +1,20 @@
+name: Týdenní souhrn
+
+# Neděle podvečer – push "tenhle týden vás čeká…" se souhrnem hlavních
+# jídel Po–Pá. Nezávislé na denní aktualizaci (jidelnicek.yml) – čte
+# jen data, co už jsou v repu, nic nestahuje ani necommitne.
+on:
+  schedule:
+    - cron: "0 17 * * 0"        # ~18-19h místního času (podle letního/zimního)
+  workflow_dispatch:            # ruční spuštění tlačítkem v záložce Actions
+
+jobs:
+  souhrn:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Poslat týdenní souhrn
+        env:
+          NOTIFY_SECRET: ${{ secrets.NOTIFY_SECRET }}
+        run: python3 tools/weekly-digest.py

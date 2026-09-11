@@ -160,7 +160,7 @@ async function poslatNotifikace(request, env, origin) {
   webpush.setVapidDetails("mailto:zdeko.design@gmail.com", env.VAPID_PUBLIC_KEY, env.VAPID_PRIVATE_KEY);
 
   let posláno = 0, smazáno = 0;
-  for (const { id, nazev } of schools) {
+  for (const { id, nazev, title, body: vlastniText } of schools) {
     const prefix = `sub:${id}:`;
     let cursor, seznam;
     do {
@@ -171,8 +171,8 @@ async function poslatNotifikace(request, env, origin) {
         if (!syrove) continue;
         const subscription = JSON.parse(syrove);
         const payload = JSON.stringify({
-          title: "Škola na talíři",
-          body: `Nový jídelníček pro ${nazev} je venku.`,
+          title: title || "Škola na talíři",
+          body: vlastniText || `Nový jídelníček pro ${nazev} je venku.`,
           schoolId: id,
         });
         try {

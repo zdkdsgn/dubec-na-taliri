@@ -28,7 +28,13 @@ self.addEventListener("push", e => {
     body: data.body,
     icon: "./assets/icon-192.png",
     badge: "./assets/icon-192.png",
-    tag: "novy-jidelnicek",
+    /* Tag podle školy (ne napevno) – jinak by si notifikace pro různé
+       školy tiše přepisovaly jedna druhou. renotify ať i tak vždy
+       upozorní, kdyby náhodou stejná škola dostala dvě zprávy rychle
+       po sobě (dřív tohle chybělo, takže druhá appka jen tiše
+       nahradila první beze zvuku/vibrace). */
+    tag: data.schoolId ? `skola-${data.schoolId}` : "novy-jidelnicek",
+    renotify: true,
     data: { schoolId: data.schoolId },
   }));
 });

@@ -157,13 +157,15 @@
         <svg class="chev" viewBox="0 0 24 24"><path d="M9 5l7 7-7 7"/></svg>
       </button>
 
-      <button class="card notice push-card" id="pushToggle" role="switch" aria-checked="false" hidden>
-        <div class="notice-ico tint-blue">
-          <svg viewBox="0 0 24 24"><path d="M9 18a3 3 0 006 0M5 12c0-4 2.5-7 7-7s7 3 7 7c0 3 .8 4.4 1.6 5.4a.8.8 0 01-.6 1.3H4a.8.8 0 01-.6-1.3C4.2 16.4 5 15 5 12z"/></svg>
+      <div class="card push-card" id="pushCard" hidden>
+        <div class="push-card-head">
+          <div class="notice-ico tint-blue">
+            <svg viewBox="0 0 24 24"><path d="M9 18a3 3 0 006 0M5 12c0-4 2.5-7 7-7s7 3 7 7c0 3 .8 4.4 1.6 5.4a.8.8 0 01-.6 1.3H4a.8.8 0 01-.6-1.3C4.2 16.4 5 15 5 12z"/></svg>
+          </div>
+          <div><h3>Upozornění na nový jídelníček</h3><p>Dáme vědět, jakmile appka stáhne nový jídelníček – zvlášť pro každou školu.</p></div>
         </div>
-        <div><h3>Upozornění na nový jídelníček</h3><p id="pushPopis">Dáme vědět, jakmile appka stáhne nový jídelníček pro tuhle školu.</p></div>
-        <span class="switch"></span>
-      </button>
+        <div id="pushList" class="push-list"></div>
+      </div>
 
       <div class="card theme-card">
         <h3>Vzhled</h3>

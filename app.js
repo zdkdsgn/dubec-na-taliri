@@ -927,6 +927,7 @@ function prepniOblibenou(polozka){
   store.set("oblibene", [...S.oblibene]);
   vykresliDostupneSkoly();
   renderPrepinacOblibenych();
+  renderPushCard();
 }
 
 /* Rychlý přepínač nahoře na Den – jen když jsou v oblíbených aspoň
@@ -1343,13 +1344,25 @@ const jeAndroid = /Android/.test(navigator.userAgent);
 function odkazNaApp(){ return location.origin + location.pathname; }
 
 /* ── Push notifikace ("nový jídelníček je venku") ───────────────────
-   Prohlížeč umí mít jen jeden aktivní push subscription na appku, takže
-   "zapnuto" vždy znamená "pro školu, co mám právě aktivní" – přepnutím
-   školy a zapnutím znovu se stejný odběr jen přesune (worker dostane
-   pokyn odhlásit starou školu a přihlásit novou).
+   Prohlížeč umí mít jen jeden aktivní push subscription na appku – ale
+   ten samý odběr jde na workeru zapsat pod víc školami najednou (viz
+   cloudflare/skoly-proxy), takže appka může notifikovat klidně za
+   všechny oblíbené školy zároveň, ne jen za tu, co mám zrovna aktivní.
    Na iOS funguje push jen appce přidané na plochu (iOS 16.4+), v běžné
    kartě Safari ho appka radši vůbec nenabízí. */
 const VAPID_PUBLIC_KEY = "BGwZchpHrmyca3Trpo4EU5iqeDgygE-g6WujVszMaRqNEkydpdRE3c1cMSwQqylbLUyCQnRxX71VxXJ7rdPqOS8";
+
+// Migrace ze staré appky, co uměla upozornění jen pro jednu (aktivní)
+// školu – co si tam uživatel zapnul, se zachová.
+{
+  const stareId = store.get("pushSchool", null);
+  const nove = store.get("pushSchools", null);
+  S.pushSchools = new Set(nove ?? (stareId ? [stareId] : []));
+  if (stareId !== null) {
+    try { localStorage.removeItem("dubec:pushSchool"); } catch {}
+    store.set("pushSchools", [...S.pushSchools]);
+  }
+}
 
 function urlBase64ToUint8Array(base64){
   const padding = "=".repeat((4 - base64.length % 4) % 4);
@@ -1363,27 +1376,52 @@ function jePushPodporovan(){
   return true;
 }
 
-async function renderPushCard(){
-  const card = $("#pushToggle");
-  if (!card) return;
-  if (!jePushPodporovan() || !AKTIVNI) { card.hidden = true; return; }
-  card.hidden = false;
-  $("#pushPopis").textContent = `Dáme vědět, jakmile appka stáhne nový jídelníček pro ${popisekSkoly()}.`;
-
-  let zapnuto = false;
-  try {
-    const reg = await navigator.serviceWorker.ready;
-    const sub = await reg.pushManager.getSubscription();
-    zapnuto = !!sub && store.get("pushSchool", null) === AKTIVNI.id;
-  } catch { /* SW se ještě nestihl zaregistrovat – necháme vypnuto */ }
-  card.classList.toggle("on", zapnuto);
-  card.setAttribute("aria-checked", zapnuto);
+/* Oblíbené školy + aktivní škola (i když zrovna není oblíbená) – ať jde
+   upozornění zapnout i na tu, co si prohlížím, bez nutnosti ji nejdřív
+   hvězdičkovat. Jména dotahujeme z registru, pokud je zrovna po ruce. */
+function skolyProPush(){
+  const zname = new Map((registrSkol || []).map(s => [s.id, s]));
+  if (AKTIVNI) zname.set(AKTIVNI.id, AKTIVNI);
+  const ids = new Set(S.oblibene);
+  if (AKTIVNI) ids.add(AKTIVNI.id);
+  return [...ids].map(id => zname.get(id)).filter(Boolean)
+    .sort((a, b) => (a.kratky || a.nazev).localeCompare(b.kratky || b.nazev, "cs"));
 }
 
-async function prepniPush(){
-  const card = $("#pushToggle");
-  if (!AKTIVNI || card.disabled) return;
-  card.disabled = true;
+async function renderPushCard(){
+  const card = $("#pushCard"), list = $("#pushList");
+  if (!card) return;
+  if (!jePushPodporovan()) { card.hidden = true; return; }
+
+  // Registr se jinak natahuje jen při otevření "Vaše škola" – tady ho
+  // potichu doneseme taky, ať jde vidět jméno i u oblíbené školy, co
+  // zrovna není aktivní.
+  if (S.oblibene.size && !registrSkol) { nactiRegistr().then(renderPushCard); }
+
+  const skoly = skolyProPush();
+  if (!skoly.length) { card.hidden = true; return; }
+  card.hidden = false;
+
+  let sub = null;
+  try { sub = await (await navigator.serviceWorker.ready).pushManager.getSubscription(); } catch {}
+  if (!sub && S.pushSchools.size) { S.pushSchools.clear(); store.set("pushSchools", []); }
+
+  list.innerHTML = "";
+  skoly.forEach(s => {
+    const zapnuto = S.pushSchools.has(s.id);
+    const b = document.createElement("button");
+    b.className = "push-row" + (zapnuto ? " on" : "");
+    b.type = "button"; b.role = "switch"; b.setAttribute("aria-checked", zapnuto);
+    b.innerHTML = `<span class="txt">${s.kratky || s.nazev}</span><span class="switch"></span>`;
+    b.addEventListener("click", () => { haptic(); prepniPush(s); });
+    list.appendChild(b);
+  });
+}
+
+async function prepniPush(polozka){
+  const radky = $$("#pushList .push-row");
+  if (radky.some(r => r.disabled)) return;
+  radky.forEach(r => r.disabled = true);
   try {
     if (Notification.permission === "denied"){
       toast("Upozornění jsou v telefonu/prohlížeči zablokovaná – povolte je v nastavení.");
@@ -1394,45 +1432,39 @@ async function prepniPush(){
 
     const reg = await navigator.serviceWorker.ready;
     let sub = await reg.pushManager.getSubscription();
-    const zapnutoTeto = !!sub && store.get("pushSchool", null) === AKTIVNI.id;
+    const zapnutoTeto = S.pushSchools.has(polozka.id);
 
     if (zapnutoTeto){
-      await fetch(SKOLY_PROXY + "push/unsubscribe", {
-        method: "POST", headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ endpoint: sub.endpoint, schoolId: AKTIVNI.id }),
-      }).catch(() => {});
-      await sub.unsubscribe();
-      store.set("pushSchool", null);
-      toast("Upozornění vypnuta");
+      S.pushSchools.delete(polozka.id);
+      if (sub) {
+        await fetch(SKOLY_PROXY + "push/unsubscribe", {
+          method: "POST", headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ endpoint: sub.endpoint, schoolId: polozka.id }),
+        }).catch(() => {});
+        if (!S.pushSchools.size) await sub.unsubscribe();   // poslední škola – uvolníme celý odběr
+      }
+      toast(`Upozornění vypnuta pro ${polozka.kratky || polozka.nazev}`);
     } else {
-      const predchoziSkola = store.get("pushSchool", null);
       if (!sub){
         sub = await reg.pushManager.subscribe({
           userVisibleOnly: true,
           applicationServerKey: urlBase64ToUint8Array(VAPID_PUBLIC_KEY),
         });
       }
-      if (predchoziSkola && predchoziSkola !== AKTIVNI.id){
-        await fetch(SKOLY_PROXY + "push/unsubscribe", {
-          method: "POST", headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({ endpoint: sub.endpoint, schoolId: predchoziSkola }),
-        }).catch(() => {});
-      }
       await fetch(SKOLY_PROXY + "push/subscribe", {
         method: "POST", headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ subscription: sub.toJSON(), schoolId: AKTIVNI.id }),
+        body: JSON.stringify({ subscription: sub.toJSON(), schoolId: polozka.id }),
       });
-      store.set("pushSchool", AKTIVNI.id);
-      toast(`Upozornění zapnuta pro ${popisekSkoly()}`);
+      S.pushSchools.add(polozka.id);
+      toast(`Upozornění zapnuta pro ${polozka.kratky || polozka.nazev}`);
     }
+    store.set("pushSchools", [...S.pushSchools]);
   } catch {
-    toast("Upozornění se nepodařilo zapnout – zkuste to znovu");
+    toast("Upozornění se nepodařilo změnit – zkuste to znovu");
   } finally {
-    card.disabled = false;
     renderPushCard();
   }
 }
-$("#pushToggle")?.addEventListener("click", () => { haptic(); prepniPush(); });
 
 /* QR knihovna (kazuhikoarase/qrcode-generator, cdnjs) se natáhne, jen
    když ji uživatel reálně potřebuje – ať appka na běžnou návštěvu
