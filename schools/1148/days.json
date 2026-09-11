@@ -705,7 +705,9 @@
         "d": "Voda s mangem, čaj, mléko",
         "a": [
           1,
-          7
+          3,
+          7,
+          11
         ],
         "p": [
           {
@@ -713,7 +715,9 @@
             "n": "Pomazánka mrkvová, bulka se sezamem, mix ovoce",
             "a": [
               1,
-              7
+              3,
+              7,
+              11
             ]
           },
           {
@@ -812,11 +816,9 @@
       },
       {
         "c": "polevka",
-        "n": "Z jarní zeleniny",
+        "n": "Brokolicový krém",
         "d": "",
         "a": [
-          1,
-          3,
           7,
           9
         ]
@@ -873,20 +875,22 @@
     "chody": [
       {
         "c": "presnidavka",
-        "n": "Croissanty s kakaovou pomazánkou a jahody",
+        "n": "Pomazánka rybí, chléb, mix zeleniny",
         "d": "Voda, čaj, mléko",
         "a": [
           1,
           3,
+          4,
           7
         ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Croissanty s kakaovou pomazánkou a jahody",
+            "n": "Pomazánka rybí, chléb, mix zeleniny",
             "a": [
               1,
               3,
+              4,
               7
             ]
           },
@@ -901,10 +905,13 @@
       },
       {
         "c": "polevka",
-        "n": "Brokolicová",
+        "n": "Z jarní zeleniny",
         "d": "",
         "a": [
-          7
+          1,
+          3,
+          7,
+          9
         ]
       },
       {
@@ -955,20 +962,18 @@
     "chody": [
       {
         "c": "presnidavka",
-        "n": "Pomazánka rybí, chléb, mix zeleniny",
+        "n": "Croissant s kakaovým máslem a čerstvými jahody",
         "d": "Voda, čaj, mléko",
         "a": [
           1,
-          4,
           7
         ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Pomazánka rybí, chléb, mix zeleniny",
+            "n": "Croissant s kakaovým máslem a čerstvými jahody",
             "a": [
               1,
-              4,
               7
             ]
           },
@@ -1060,16 +1065,17 @@
       },
       {
         "c": "polevka",
-        "n": "Rajčatová",
+        "n": "Rajčatová s písmenky",
         "d": "",
         "a": [
           1,
+          3,
           7
         ]
       },
       {
         "c": "obed",
-        "n": "Cuketové placičky, vařené brambory, tzatziki",
+        "n": "Zeleninové placičky, vařené brambory, tzatziki",
         "d": "Voda",
         "a": [
           1,
@@ -1079,7 +1085,7 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Cuketové placičky, vařené brambory, tzatziki",
+            "n": "Zeleninové placičky, vařené brambory, tzatziki",
             "a": [
               1,
               3,

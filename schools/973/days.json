@@ -837,40 +837,104 @@
     "chody": [
       {
         "c": "presnidavka",
-        "n": "Bude doplněno",
-        "d": "",
-        "a": [],
+        "n": "Slunečnicový chléb, pomazánka z uzeného sýru",
+        "d": "Ovoce · Mléko – čaj",
+        "a": [
+          1,
+          7
+        ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Bude doplněno",
+            "n": "Slunečnicový chléb, pomazánka z uzeného sýru",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
             "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko – čaj",
+            "a": [
+              7
+            ]
           }
         ]
       },
       {
-        "c": "obed",
-        "n": "Bude doplněno",
+        "c": "polevka",
+        "n": "Mrkvová",
         "d": "",
-        "a": [],
+        "a": [
+          1,
+          7,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Zapečené těstoviny s mletým masem",
+        "d": "Červená řepa · Pitná voda s mátou a ovocem",
+        "a": [
+          1,
+          3,
+          7,
+          12
+        ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Bude doplněno",
+            "n": "Zapečené těstoviny s mletým masem",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Červená řepa",
+            "a": [
+              12
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Pitná voda s mátou a ovocem",
             "a": []
           }
         ]
       },
       {
         "c": "svacina",
-        "n": "Bude doplněno",
-        "d": "",
-        "a": [],
+        "n": "Loupáček",
+        "d": "Mléko – čaj",
+        "a": [
+          1,
+          3,
+          7
+        ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Bude doplněno",
-            "a": []
+            "n": "Loupáček",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko – čaj",
+            "a": [
+              7
+            ]
           }
         ]
       }
@@ -881,40 +945,111 @@
     "chody": [
       {
         "c": "presnidavka",
-        "n": "Bude doplněno",
-        "d": "",
-        "a": [],
+        "n": "Smetanový jogurt",
+        "d": "Cereálie · Pitná voda, ovocný čaj",
+        "a": [
+          1,
+          6,
+          7
+        ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Bude doplněno",
+            "n": "Smetanový jogurt",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Cereálie",
+            "a": [
+              1,
+              6
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Pitná voda, ovocný čaj",
             "a": []
           }
         ]
       },
       {
-        "c": "obed",
-        "n": "Bude doplněno",
+        "c": "polevka",
+        "n": "Rybí krémová",
         "d": "",
-        "a": [],
+        "a": [
+          1,
+          4,
+          7,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Přírodní vepřový plátek",
+        "d": "Šťouchané brambory · Ovocný a zeleninový bar · Pitná voda s mátou, ovocný nápoj",
+        "a": [
+          1,
+          7
+        ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Bude doplněno",
+            "n": "Přírodní vepřový plátek",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Šťouchané brambory",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovocný a zeleninový bar",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Pitná voda s mátou, ovocný nápoj",
             "a": []
           }
         ]
       },
       {
         "c": "svacina",
-        "n": "Bude doplněno",
-        "d": "",
-        "a": [],
+        "n": "Kukuřičný rohlík s máslem",
+        "d": "Mrkev · Mléko – čaj",
+        "a": [
+          1,
+          7
+        ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Bude doplněno",
+            "n": "Kukuřičný rohlík s máslem",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Mrkev",
             "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko – čaj",
+            "a": [
+              7
+            ]
           }
         ]
       }
@@ -925,40 +1060,105 @@
     "chody": [
       {
         "c": "presnidavka",
-        "n": "Bude doplněno",
-        "d": "",
-        "a": [],
+        "n": "Chléb s drožďovou pomazánkou",
+        "d": "Okurka · Mléko – čaj",
+        "a": [
+          1,
+          3,
+          6,
+          7
+        ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Bude doplněno",
+            "n": "Chléb s drožďovou pomazánkou",
+            "a": [
+              1,
+              3,
+              6,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Okurka",
             "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko – čaj",
+            "a": [
+              7
+            ]
           }
         ]
       },
       {
-        "c": "obed",
-        "n": "Bude doplněno",
+        "c": "polevka",
+        "n": "Česneková s vejcem",
         "d": "",
-        "a": [],
+        "a": [
+          3,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Pečené kuřecí maso",
+        "d": "Dušená rýže · Ovocný a zeleninový bar · Pitná voda s mátou a ovocem",
+        "a": [
+          1,
+          7
+        ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Bude doplněno",
+            "n": "Pečené kuřecí maso",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Dušená rýže",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovocný a zeleninový bar",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Pitná voda s mátou a ovocem",
             "a": []
           }
         ]
       },
       {
         "c": "svacina",
-        "n": "Bude doplněno",
-        "d": "",
-        "a": [],
+        "n": "Raženka s pomazánkovým máslem",
+        "d": "Ovocný kefír",
+        "a": [
+          1,
+          7
+        ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Bude doplněno",
-            "a": []
+            "n": "Raženka s pomazánkovým máslem",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný kefír",
+            "a": [
+              7
+            ]
           }
         ]
       }
@@ -969,39 +1169,101 @@
     "chody": [
       {
         "c": "presnidavka",
-        "n": "Bude doplněno",
-        "d": "",
-        "a": [],
+        "n": "Citronová babeta",
+        "d": "Jablko · Banánové mléčko",
+        "a": [
+          1,
+          3,
+          7
+        ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Bude doplněno",
+            "n": "Citronová babeta",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Jablko",
             "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Banánové mléčko",
+            "a": [
+              7
+            ]
           }
         ]
       },
       {
-        "c": "obed",
-        "n": "Bude doplněno",
+        "c": "polevka",
+        "n": "Vývar s nudlemi",
         "d": "",
-        "a": [],
+        "a": [
+          1,
+          3,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Vepřový guláš",
+        "d": "Bramborové halušky · Ovocný a zeleninový bar · Pitná voda s mátou, ovocný čaj",
+        "a": [
+          1,
+          3
+        ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Bude doplněno",
+            "n": "Vepřový guláš",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Bramborové halušky",
+            "a": [
+              1,
+              3
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovocný a zeleninový bar",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Pitná voda s mátou, ovocný čaj",
             "a": []
           }
         ]
       },
       {
         "c": "svacina",
-        "n": "Bude doplněno",
-        "d": "",
-        "a": [],
+        "n": "Ovocný salát",
+        "d": "Pitná voda – čaj",
+        "a": [
+          12
+        ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Bude doplněno",
+            "n": "Ovocný salát",
+            "a": [
+              12
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Pitná voda – čaj",
             "a": []
           }
         ]
@@ -1013,39 +1275,94 @@
     "chody": [
       {
         "c": "presnidavka",
-        "n": "Bude doplněno",
-        "d": "",
-        "a": [],
+        "n": "Cereální rohlík s máslem a plátkem sýru",
+        "d": "Rajče · Mléko – čaj",
+        "a": [
+          1,
+          6,
+          7,
+          11
+        ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Bude doplněno",
+            "n": "Cereální rohlík s máslem a plátkem sýru",
+            "a": [
+              1,
+              6,
+              7,
+              11
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Rajče",
             "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko – čaj",
+            "a": [
+              7
+            ]
           }
         ]
       },
       {
-        "c": "obed",
-        "n": "Bude doplněno",
+        "c": "polevka",
+        "n": "Hrstková",
         "d": "",
-        "a": [],
+        "a": [
+          1,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Jesenické borůvkové knedliky",
+        "d": "Pitná voda – čaj",
+        "a": [
+          1,
+          3,
+          7,
+          11
+        ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Bude doplněno",
+            "n": "Jesenické borůvkové knedliky",
+            "a": [
+              1,
+              3,
+              7,
+              11
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Pitná voda – čaj",
             "a": []
           }
         ]
       },
       {
         "c": "svacina",
-        "n": "Bude doplněno",
-        "d": "",
-        "a": [],
+        "n": "Knupsi chlebík, Lučina",
+        "d": "Pitná voda s mátou a ovocem",
+        "a": [
+          7
+        ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Bude doplněno",
+            "n": "Knupsi chlebík, Lučina",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Pitná voda s mátou a ovocem",
             "a": []
           }
         ]

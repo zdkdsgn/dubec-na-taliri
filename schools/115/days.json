@@ -1881,5 +1881,66 @@
         ]
       }
     ]
+  },
+  "2026-10-15": {
+    "vydej": "11:30–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Dýňová",
+        "d": "",
+        "a": [
+          1,
+          7,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Vepřový steak z krkovice na slanině, rýže",
+        "d": "Voda, sirup",
+        "a": [
+          1
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Vepřový steak z krkovice na slanině, rýže",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Voda, sirup",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "n": "Houbové bulgurové rizoto se sýrem",
+        "d": "Voda, sirup",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Houbové bulgurové rizoto se sýrem",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Voda, sirup",
+            "a": []
+          }
+        ]
+      }
+    ]
   }
 }

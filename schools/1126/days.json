@@ -1115,7 +1115,7 @@
       {
         "c": "obed2",
         "n": "Těstovinový salát s kuřecím masem a zeleninou",
-        "d": "Ovoce · Štáva",
+        "d": "Z důvodu přerušení dodávky vody se oběd ze dne 9.9.2026 přesouvá na 15.9.2026 · Ovoce · Štáva",
         "a": [
           1
         ],
@@ -1126,6 +1126,11 @@
             "a": [
               1
             ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Z důvodu přerušení dodávky vody se oběd ze dne 9.9.2026 přesouvá na 15.9.2026",
+            "a": []
           },
           {
             "l": "Doplněk",
@@ -1354,56 +1359,6 @@
             "l": "Příloha",
             "n": "Rýže",
             "a": []
-          },
-          {
-            "l": "Doplněk",
-            "n": "Zeleninová příloha",
-            "a": []
-          },
-          {
-            "l": "Nápoj",
-            "n": "Štáva",
-            "a": []
-          }
-        ]
-      },
-      {
-        "c": "obed2",
-        "n": "Králičí ragů po Srbsku",
-        "d": "Gnocchi · Zeleninová příloha · Štáva",
-        "a": [
-          1,
-          4,
-          6,
-          7,
-          9,
-          10,
-          11,
-          12
-        ],
-        "p": [
-          {
-            "l": "Jídlo",
-            "n": "Králičí ragů po Srbsku",
-            "a": [
-              1,
-              9,
-              10
-            ]
-          },
-          {
-            "l": "Příloha",
-            "n": "Gnocchi",
-            "a": [
-              1,
-              4,
-              6,
-              7,
-              9,
-              10,
-              11,
-              12
-            ]
           },
           {
             "l": "Doplněk",
@@ -3884,6 +3839,142 @@
             "a": [
               1,
               3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zelenina",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-15": {
+    "vydej": "11:30–13:45",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Rohlík s mrkvovou pomazánkou",
+        "d": "Ovoce, zelenina · Špaldové mléko",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Rohlík s mrkvovou pomazánkou",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce, zelenina",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Špaldové mléko",
+            "a": [
+              1,
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Selská",
+        "d": "",
+        "a": [
+          1,
+          7,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Hovězí Chilli Con Carne",
+        "d": "Dušená rýže · Šťáva",
+        "a": [
+          1
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Hovězí Chilli Con Carne",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Dušená rýže",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Šťáva",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "n": "Tilápie na másle s dušenou zeleninou",
+        "d": "Brambory · Šťáva",
+        "a": [
+          4,
+          9
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Tilápie na másle s dušenou zeleninou",
+            "a": [
+              4,
+              9
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Brambory",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Šťáva",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Slunečnicový chléb s máslem a plátkovým sýrem",
+        "d": "Zelenina · Čaj",
+        "a": [
+          1,
+          3,
+          6,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Slunečnicový chléb s máslem a plátkovým sýrem",
+            "a": [
+              1,
+              3,
+              6,
               7
             ]
           },

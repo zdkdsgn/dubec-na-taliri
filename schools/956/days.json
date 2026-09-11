@@ -540,7 +540,7 @@
       {
         "c": "obed",
         "n": "Krůtí steak na bylinkách, bramborová kaše",
-        "d": "Sterilovaný okurek · Voda, čaj",
+        "d": "Zelný salát · Voda, ovocný čaj",
         "a": [
           10
         ],
@@ -551,15 +551,15 @@
             "a": []
           },
           {
-            "l": "Příloha",
-            "n": "Sterilovaný okurek",
+            "l": "Doplněk",
+            "n": "Zelný salát",
             "a": [
               10
             ]
           },
           {
-            "l": "Doplněk",
-            "n": "Voda, čaj",
+            "l": "Nápoj",
+            "n": "Voda, ovocný čaj",
             "a": []
           }
         ]
@@ -652,10 +652,12 @@
       },
       {
         "c": "polevka",
-        "n": "Zeleninová krémová s krutony",
+        "n": "Dýňová s krutony",
         "d": "",
         "a": [
-          1
+          1,
+          7,
+          9
         ]
       },
       {

@@ -541,7 +541,7 @@
       {
         "c": "obed",
         "n": "Plněný paprikový lusk, rajská omáčka",
-        "d": "Rýže · Kompot · Ovocný nápoj, voda, ochucené mléko",
+        "d": "Rýže · Kompot · Ovocný nápoj Tea Fruit Botanicals, voda, ochucené mléko",
         "a": [
           1,
           3,
@@ -569,7 +569,7 @@
           },
           {
             "l": "Nápoj",
-            "n": "Ovocný nápoj, voda, ochucené mléko",
+            "n": "Ovocný nápoj Tea Fruit Botanicals, voda, ochucené mléko",
             "a": [
               7
             ]
@@ -579,7 +579,7 @@
       {
         "c": "obed2",
         "n": "Salát Coleslaw",
-        "d": "Pečivo · Kompot · Ovocný nápoj, voda, ochucené mléko",
+        "d": "Pečivo · Kompot · Ovocný nápoj Tea Fruit Botanicals, voda, ochucené mléko",
         "a": [
           1,
           3,
@@ -614,7 +614,7 @@
           },
           {
             "l": "Nápoj",
-            "n": "Ovocný nápoj, voda, ochucené mléko",
+            "n": "Ovocný nápoj Tea Fruit Botanicals, voda, ochucené mléko",
             "a": [
               7
             ]
@@ -965,7 +965,7 @@
       {
         "c": "obed",
         "n": "Smetanová čočka, kyselá okurka",
-        "d": "Chléb · Moučník · Sirup, voda, mléko",
+        "d": "Chléb · Bublanina s ovocem · Sirup, voda, mléko",
         "a": [
           1,
           3,
@@ -993,7 +993,7 @@
           },
           {
             "l": "Doplněk",
-            "n": "Moučník",
+            "n": "Bublanina s ovocem",
             "a": [
               1,
               3,
@@ -1015,7 +1015,7 @@
       {
         "c": "obed2",
         "n": "Vepřová pečeně, špenát",
-        "d": "Chlupaté knedlíky · Moučník · Sirup, voda, mléko",
+        "d": "Chlupaté knedlíky · Bublanina s ovocem · Sirup, voda, mléko",
         "a": [
           1,
           3,
@@ -1045,7 +1045,7 @@
           },
           {
             "l": "Doplněk",
-            "n": "Moučník",
+            "n": "Bublanina s ovocem",
             "a": [
               1,
               3,
@@ -2631,6 +2631,101 @@
             "l": "Nápoj",
             "n": "Sirup, voda, mléko",
             "a": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-15": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "S ovesnými vločkami",
+        "d": "",
+        "a": [
+          1,
+          7,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Špagety se sýrovou omáčkou a vepřovým masem",
+        "d": "Ovoce · Neslazený bylinný čaj, voda, bílá káva",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Špagety se sýrovou omáčkou a vepřovým masem",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Neslazený bylinný čaj, voda, bílá káva",
+            "a": [
+              1,
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "n": "Celerový salát",
+        "d": "Pečivo · Ovoce · Neslazený bylinný čaj, voda, bílá káva",
+        "a": [
+          1,
+          3,
+          7,
+          9,
+          10
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Celerový salát",
+            "a": [
+              3,
+              7,
+              9,
+              10
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Pečivo",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Neslazený bylinný čaj, voda, bílá káva",
+            "a": [
+              1,
               7
             ]
           }
