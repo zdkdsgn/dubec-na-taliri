@@ -740,6 +740,25 @@ async function sdiletOblibene(){
   }
 }
 
+/* Klik na push notifikaci – přepne appku na školu, ke které se
+   notifikace vázala (viz sw.js "notificationclick"), a rovnou ukáže
+   Den. Na rozdíl od zpracujSdileneNastaveni() se tu nic nepotvrzuje –
+   je to vlastní zařízení, ne cizí sdílený odkaz. */
+async function otevritSkoluAJidelnicek(id){
+  if (!id) return;
+  if (AKTIVNI && AKTIVNI.id === id) { setView("den"); return; }
+  await nactiRegistr();
+  const polozka = id === VYCHOZI_LOKACE ? VYCHOZI_SKOLA : (registrSkol || []).find(s => s.id === id);
+  if (polozka) {
+    const ok = await prepniNaSkolu(polozka);
+    if (ok) { $("#skolaAktualni").textContent = AKTIVNI.nazev; renderAll(); }
+  }
+  setView("den");
+}
+navigator.serviceWorker?.addEventListener?.("message", e => {
+  if (e.data?.type === "otevrit-skolu") otevritSkoluAJidelnicek(e.data.schoolId);
+});
+
 async function zpracujSdileneNastaveni(){
   const params = new URL(location.href).searchParams;
   const obl = params.get("obl"), sk = params.get("sk");
@@ -1607,6 +1626,15 @@ if ("serviceWorker" in navigator && location.protocol.startsWith("http"))
   // rovnou vidět přepínač oblíbených škol na Den, natáhneme ho potichu
   // na pozadí i tady, bez čekání na vykreslení prvního obsahu.
   if (S.oblibene.size >= 2) nactiRegistr().then(renderPrepinacOblibenych);
+
+  // Appka se právě otevřela z push notifikace přes clients.openWindow
+  // (viz sw.js) – appka totiž předtím neběžela, takže postMessage
+  // nebylo komu poslat. Přepneme na tu školu rovnou tady.
+  const pushId = new URL(location.href).searchParams.get("push");
+  if (pushId) {
+    history.replaceState(null, "", location.pathname);
+    otevritSkoluAJidelnicek(pushId);
+  }
 
   if (jePrvniSpusteni) setTimeout(otevriSkolaSheet, 700);
 })();

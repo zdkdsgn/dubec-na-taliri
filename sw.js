@@ -41,12 +41,21 @@ self.addEventListener("push", e => {
 
 self.addEventListener("notificationclick", e => {
   e.notification.close();
+  const schoolId = e.notification.data?.schoolId;
   e.waitUntil((async () => {
     const clientList = await self.clients.matchAll({ type: "window", includeUncontrolled: true });
     for (const c of clientList) {
-      if ("focus" in c) return c.focus();
+      if ("focus" in c) {
+        await c.focus();
+        // appka už běží – řekneme jí přes postMessage, na kterou školu
+        // přepnout, ať to nemusí řešit přes URL parametr při startu.
+        if (schoolId) c.postMessage({ type: "otevrit-skolu", schoolId });
+        return;
+      }
     }
-    if (self.clients.openWindow) return self.clients.openWindow("./");
+    if (self.clients.openWindow) {
+      return self.clients.openWindow(schoolId ? `./?push=${encodeURIComponent(schoolId)}` : "./");
+    }
   })());
 });
 
