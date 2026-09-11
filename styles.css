@@ -329,7 +329,7 @@ main{max-width:560px;margin:0 auto;
 .disclaimer{margin:26px 6px 0;text-align:center;font-size:12.5px;color:var(--ink-3);line-height:1.55}
 
 /* ── Týdenní přehled ────────────────────────────────────────────── */
-.week-actions{margin-bottom:16px;display:flex;flex-wrap:wrap;gap:10px}
+.week-actions{margin-bottom:16px}
 .ghost-btn{
   display:inline-flex;align-items:center;gap:8px;height:42px;padding:0 17px;
   border-radius:var(--r-pill);font-size:14.5px;font-weight:600;color:var(--accent);
@@ -341,7 +341,6 @@ main{max-width:560px;margin:0 auto;
 .ghost-btn.primary{background:var(--accent);color:var(--on-accent);border-color:transparent;
   width:100%;justify-content:center;height:48px}
 .ghost-btn + .ghost-btn{margin-top:10px}
-.week-actions .ghost-btn + .ghost-btn{margin-top:0}
 
 /* ── Malé tlačítko uvnitř karty (např. připomínka odhlášení) ──────── */
 .mini-btn{
@@ -764,17 +763,3 @@ main{max-width:560px;margin:0 auto;
 .skola-sekce-telo > div{overflow:hidden;display:flex;flex-direction:column;gap:6px;padding:0 8px 8px}
 .skola-sekce-telo .skola-radek{border:0;background:color-mix(in srgb,var(--ink) 3%,transparent)}
 .skola-sekce-telo .skola-radek.aktivni{background:var(--t-green-bg)}
-
-/* ── Tisk týdne (Týden → Tisknout / PDF) ────────────────────────────
-   Žádná zvláštní příprava v JS – tenhle blok sám rozbalí všechny dny
-   a schová appkové ovládání, ať jde vidět jen čistý jídelníček. */
-@media print{
-  body{background:#fff}
-  .ambient,.tabbar,.tabbar-fab,.skola-prepinac,.segmented,.week-actions,
-  .sheet,.sheet-scrim,.toast,.wday-head .chev{display:none!important}
-  main{padding:0!important;max-width:100%!important}
-  .wday-body{grid-template-rows:1fr!important}
-  .wday-body > div{overflow:visible!important}
-  .wday{box-shadow:none!important;border:1px solid #ccc;break-inside:avoid;margin-bottom:10px}
-  .meal{box-shadow:none!important;border:1px solid #ddd}
-}
