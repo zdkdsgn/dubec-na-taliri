@@ -336,6 +336,38 @@
     "vydej": "11:00–13:00",
     "chody": [
       {
+        "c": "presnidavka",
+        "n": "Veka",
+        "d": "Bylinkové máslo, jablko · Mléko",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Veka",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Bylinkové máslo, jablko",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
         "c": "polevka",
         "n": "Zeleninová s kapáním",
         "d": "",
@@ -378,38 +410,6 @@
         ]
       },
       {
-        "c": "presnidavka",
-        "n": "Veka",
-        "d": "Bylinkové máslo, jablko · Mléko",
-        "a": [
-          1,
-          7
-        ],
-        "p": [
-          {
-            "l": "Jídlo",
-            "n": "Veka",
-            "a": [
-              1
-            ]
-          },
-          {
-            "l": "Doplněk",
-            "n": "Bylinkové máslo, jablko",
-            "a": [
-              7
-            ]
-          },
-          {
-            "l": "Nápoj",
-            "n": "Mléko",
-            "a": [
-              7
-            ]
-          }
-        ]
-      },
-      {
         "c": "svacina",
         "n": "Chalupářský bochník",
         "d": "Džemové máslo, hruška · Mléko",
@@ -446,6 +446,38 @@
   "2026-09-08": {
     "vydej": "11:00–13:00",
     "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Cereální chlebánek",
+        "d": "Budulínkova pomazánka, cherry rajče · Mléko vanilkové",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Cereální chlebánek",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Budulínkova pomazánka, cherry rajče",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko vanilkové",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
       {
         "c": "polevka",
         "n": "Z červené čočky s jáhly",
@@ -491,38 +523,6 @@
         ]
       },
       {
-        "c": "presnidavka",
-        "n": "Cereální chlebánek",
-        "d": "Budulínkova pomazánka, cherry rajče · Mléko vanilkové",
-        "a": [
-          1,
-          7
-        ],
-        "p": [
-          {
-            "l": "Jídlo",
-            "n": "Cereální chlebánek",
-            "a": [
-              1
-            ]
-          },
-          {
-            "l": "Doplněk",
-            "n": "Budulínkova pomazánka, cherry rajče",
-            "a": [
-              7
-            ]
-          },
-          {
-            "l": "Nápoj",
-            "n": "Mléko vanilkové",
-            "a": [
-              7
-            ]
-          }
-        ]
-      },
-      {
         "c": "svacina",
         "n": "Podmáslový chléb",
         "d": "Pomazánka z cottage sýru, mrkev · Bikava",
@@ -562,6 +562,36 @@
     "vydej": "11:00–13:00",
     "chody": [
       {
+        "c": "presnidavka",
+        "n": "Chia chléb",
+        "d": "Pomazánka z lučiny, ředkvička · Granko",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Chia chléb",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Pomazánka z lučiny, ředkvička",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Granko",
+            "a": []
+          }
+        ]
+      },
+      {
         "c": "polevka",
         "n": "Cizrnová",
         "d": "",
@@ -592,36 +622,6 @@
           {
             "l": "Nápoj",
             "n": "Džus",
-            "a": []
-          }
-        ]
-      },
-      {
-        "c": "presnidavka",
-        "n": "Chia chléb",
-        "d": "Pomazánka z lučiny, ředkvička · Granko",
-        "a": [
-          1,
-          7
-        ],
-        "p": [
-          {
-            "l": "Jídlo",
-            "n": "Chia chléb",
-            "a": [
-              1
-            ]
-          },
-          {
-            "l": "Doplněk",
-            "n": "Pomazánka z lučiny, ředkvička",
-            "a": [
-              7
-            ]
-          },
-          {
-            "l": "Nápoj",
-            "n": "Granko",
             "a": []
           }
         ]
@@ -660,6 +660,37 @@
   "2026-09-10": {
     "vydej": "11:00–13:00",
     "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Jahodový puding",
+        "d": "Piškot · Bylinkový čaj",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Jahodový puding",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Piškot",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Bylinkový čaj",
+            "a": []
+          }
+        ]
+      },
       {
         "c": "polevka",
         "n": "Krupicová",
@@ -702,37 +733,6 @@
           {
             "l": "Nápoj",
             "n": "Sirup",
-            "a": []
-          }
-        ]
-      },
-      {
-        "c": "presnidavka",
-        "n": "Jahodový puding",
-        "d": "Piškot · Bylinkový čaj",
-        "a": [
-          1,
-          3,
-          7
-        ],
-        "p": [
-          {
-            "l": "Jídlo",
-            "n": "Jahodový puding",
-            "a": []
-          },
-          {
-            "l": "Doplněk",
-            "n": "Piškot",
-            "a": [
-              1,
-              3,
-              7
-            ]
-          },
-          {
-            "l": "Nápoj",
-            "n": "Bylinkový čaj",
             "a": []
           }
         ]

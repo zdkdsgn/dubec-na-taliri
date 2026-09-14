@@ -718,7 +718,7 @@
       {
         "c": "obed",
         "n": "Vepřové maso v mrkvi",
-        "d": "Brambory · Ovoce · Čaj s citronem, voda, ochucené mléko",
+        "d": "Brambory · Broskev paraguayo · Čaj s citronem, voda, ochucené mléko",
         "a": [
           7
         ],
@@ -737,7 +737,7 @@
           },
           {
             "l": "Doplněk",
-            "n": "Ovoce",
+            "n": "Broskev paraguayo",
             "a": []
           },
           {
@@ -752,7 +752,7 @@
       {
         "c": "obed2",
         "n": "Sýrový karbanátek s dresinkem a brusinkami",
-        "d": "Brambory · Ovoce · Čaj s citronem, voda, ochucené mléko",
+        "d": "Brambory · Broskev paraguayo · Čaj s citronem, voda, ochucené mléko",
         "a": [
           1,
           3,
@@ -775,7 +775,7 @@
           },
           {
             "l": "Doplněk",
-            "n": "Ovoce",
+            "n": "Broskev paraguayo",
             "a": []
           },
           {
@@ -2724,6 +2724,94 @@
           {
             "l": "Nápoj",
             "n": "Neslazený bylinný čaj, voda, bílá káva",
+            "a": [
+              1,
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-16": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Fazolová",
+        "d": "",
+        "a": [
+          7,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Obalovaný květák",
+        "d": "Brambory, dresink ze zakysané smetany · Čaj s citronem, voda, horká čokoláda",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Obalovaný květák",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Brambory, dresink ze zakysané smetany",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj s citronem, voda, horká čokoláda",
+            "a": [
+              1,
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "n": "Masové kuličky v rajské omáčce",
+        "d": "Těstoviny · Čaj s citronem, voda, horká čokoláda",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Masové kuličky v rajské omáčce",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Těstoviny",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj s citronem, voda, horká čokoláda",
             "a": [
               1,
               7

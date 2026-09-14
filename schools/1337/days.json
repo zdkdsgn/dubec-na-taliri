@@ -545,6 +545,7 @@
         "d": "",
         "a": [
           1,
+          4,
           7
         ],
         "p": [
@@ -553,6 +554,7 @@
             "n": "Chléb, pomazánka z tuňáka, zelenina, kakao",
             "a": [
               1,
+              4,
               7
             ]
           }
@@ -856,7 +858,7 @@
       },
       {
         "c": "svacina",
-        "n": "Chléb, eidam, zelenina, čaj",
+        "n": "Chléb, mozzarella, rajče, sirup",
         "d": "",
         "a": [
           1,
@@ -865,7 +867,7 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Chléb, eidam, zelenina, čaj",
+            "n": "Chléb, mozzarella, rajče, sirup",
             "a": [
               1,
               7
@@ -1191,20 +1193,22 @@
       },
       {
         "c": "obed",
-        "n": "Těstovinový salát se sýrem a vejcem",
+        "n": "Těstovinový salát se sýrem, vejci a tofu",
         "d": "Mléko",
         "a": [
           1,
           3,
+          6,
           7
         ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Těstovinový salát se sýrem a vejcem",
+            "n": "Těstovinový salát se sýrem, vejci a tofu",
             "a": [
               1,
               3,
+              6,
               7
             ]
           },
@@ -1243,7 +1247,7 @@
     "chody": [
       {
         "c": "presnidavka",
-        "n": "Chléb, pomazánka z tofu, ovoce, mléko s medem",
+        "n": "Chléb, pomazánka z uhlířského sýru, ovoce, medové mléko",
         "d": "",
         "a": [
           1,
@@ -1253,7 +1257,7 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Chléb, pomazánka z tofu, ovoce, mléko s medem",
+            "n": "Chléb, pomazánka z uhlířského sýru, ovoce, medové mléko",
             "a": [
               1,
               6,
@@ -1276,7 +1280,7 @@
       {
         "c": "obed",
         "n": "Krůtí na asijský způsob",
-        "d": "Rýže basmati s kurkumou · Ovoce · Nápoj",
+        "d": "Rýže s kurkumou · Ovoce · Nápoj",
         "a": [
           1,
           2,
@@ -1297,7 +1301,7 @@
           },
           {
             "l": "Příloha",
-            "n": "Rýže basmati s kurkumou",
+            "n": "Rýže s kurkumou",
             "a": [
               2
             ]
@@ -1340,19 +1344,25 @@
     "chody": [
       {
         "c": "presnidavka",
-        "n": "Pyré jablko-banán-broskev, piškoty, čaj",
+        "n": "Mléko, cereálie, ovoce, čaj",
         "d": "",
         "a": [
           1,
-          3
+          5,
+          6,
+          7,
+          8
         ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Pyré jablko-banán-broskev, piškoty, čaj",
+            "n": "Mléko, cereálie, ovoce, čaj",
             "a": [
               1,
-              3
+              5,
+              6,
+              7,
+              8
             ]
           }
         ]
@@ -1580,7 +1590,7 @@
       },
       {
         "c": "svacina",
-        "n": "Tvaroháček, ovoce, mysli tyčinka, čaj",
+        "n": "Tvaroháček, ovoce, čaj",
         "d": "",
         "a": [
           7
@@ -1588,7 +1598,7 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Tvaroháček, ovoce, mysli tyčinka, čaj",
+            "n": "Tvaroháček, ovoce, čaj",
             "a": [
               7
             ]
@@ -1633,7 +1643,7 @@
       {
         "c": "obed",
         "n": "Květákové placičky s čočkou, sýrem a omáčkou z lučiny",
-        "d": "Brambor · Mléčný koktejl",
+        "d": "Brambor · Ovoce · Mléčný koktejl",
         "a": [
           1,
           3,
@@ -1652,6 +1662,11 @@
           {
             "l": "Příloha",
             "n": "Brambor",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
             "a": []
           },
           {
@@ -1946,7 +1961,7 @@
       },
       {
         "c": "svacina",
-        "n": "Jogurtový dezert miláček, ovoce, sirup",
+        "n": "Smetánek, ovoce, sirup",
         "d": "",
         "a": [
           1,
@@ -1957,7 +1972,7 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Jogurtový dezert miláček, ovoce, sirup",
+            "n": "Smetánek, ovoce, sirup",
             "a": [
               1,
               3,
@@ -1995,18 +2010,17 @@
       },
       {
         "c": "polevka",
-        "n": "Bramboračka",
+        "n": "Hrstková",
         "d": "",
         "a": [
           1,
-          7,
           9
         ]
       },
       {
         "c": "obed",
         "n": "Vdolky pečené v troubě s marmeládou a zakysanou smetanou",
-        "d": "Ovoce · Kefír",
+        "d": "Kefír",
         "a": [
           1,
           3,
@@ -2021,11 +2035,6 @@
               3,
               7
             ]
-          },
-          {
-            "l": "Doplněk",
-            "n": "Ovoce",
-            "a": []
           },
           {
             "l": "Nápoj",
@@ -2101,7 +2110,7 @@
       {
         "c": "obed",
         "n": "Kuřecí prsa v hořčičné omáčce",
-        "d": "Těstoviny · Čaj",
+        "d": "Těstoviny · Ovoce · Čaj",
         "a": [
           1,
           3,
@@ -2125,6 +2134,11 @@
               1,
               3
             ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
           },
           {
             "l": "Nápoj",
@@ -2283,10 +2297,11 @@
       },
       {
         "c": "polevka",
-        "n": "Dýňová s jablky a dýňovými semínky",
+        "n": "Bramboračka s kroupama",
         "d": "",
         "a": [
           1,
+          7,
           9
         ]
       },
@@ -2368,19 +2383,17 @@
       },
       {
         "c": "polevka",
-        "n": "Lázeňská (směs adzuki, mungo, jáhly, cizrna, zelenina)",
+        "n": "Dýňová s jablky a dýňovými semínky",
         "d": "",
         "a": [
           1,
-          3,
-          7,
           9
         ]
       },
       {
         "c": "obed",
         "n": "Švédské masové kuličky",
-        "d": "Brambor · Zelenina · Nápoj",
+        "d": "Brambor · Svěží mungo salát · Nápoj",
         "a": [
           1,
           3,
@@ -2403,7 +2416,7 @@
           },
           {
             "l": "Doplněk",
-            "n": "Zelenina",
+            "n": "Svěží mungo salát",
             "a": []
           },
           {
@@ -2428,6 +2441,464 @@
             "a": [
               1,
               7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-12": {
+    "vydej": "11:30–13:00",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Chléb, vaječná pomazánka se žervé, čerstvá zelenina, mléko",
+        "d": "",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Chléb, vaječná pomazánka se žervé, čerstvá zelenina, mléko",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Květáková s kurkumou",
+        "d": "",
+        "a": [
+          7
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Nugetky z lososa",
+        "d": "Bramborová kaše · Ledový salát · Nápoj",
+        "a": [
+          1,
+          3,
+          4,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Nugetky z lososa",
+            "a": [
+              1,
+              3,
+              4,
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Bramborová kaše",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ledový salát",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Nápoj",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Celozrnná bageta, pomazánkové máslo, zelenina, sirup",
+        "d": "",
+        "a": [
+          1,
+          5,
+          6,
+          7,
+          8,
+          11
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Celozrnná bageta, pomazánkové máslo, zelenina, sirup",
+            "a": [
+              1,
+              5,
+              6,
+              7,
+              8,
+              11
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-13": {
+    "vydej": "11:30–13:00",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Ovocné pyré, piškoty, ovoce, čaj",
+        "d": "",
+        "a": [
+          1,
+          3
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Ovocné pyré, piškoty, ovoce, čaj",
+            "a": [
+              1,
+              3
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Fazolková s mrkví",
+        "d": "",
+        "a": [
+          7
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Přírodní krůtí plátek",
+        "d": "Bulgur s citronem a quinoou · Ovoce · Nápoj",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Přírodní krůtí plátek",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Bulgur s citronem a quinoou",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Nápoj",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Apetito, finský rohlík, zelenina, čaj",
+        "d": "",
+        "a": [
+          1,
+          5,
+          7,
+          8,
+          11
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Apetito, finský rohlík, zelenina, čaj",
+            "a": [
+              1,
+              5,
+              7,
+              8,
+              11
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-14": {
+    "vydej": "11:30–13:00",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Chléb s máslem a mozzarelou, rajče, čaj, mléko",
+        "d": "",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Chléb s máslem a mozzarelou, rajče, čaj, mléko",
+            "a": [
+              1,
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Klechtanka",
+        "d": "",
+        "a": [
+          1,
+          3,
+          7
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Špenát s vejcem",
+        "d": "Brambor s máslem · Mléčný koktejl",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Špenát s vejcem",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Brambor s máslem",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléčný koktejl",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Sýrový rohlík, ovoce, čaj",
+        "d": "",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Sýrový rohlík, ovoce, čaj",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-15": {
+    "vydej": "11:30–13:00",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Celozrné tousty se sýrem, okurka, mléko",
+        "d": "",
+        "a": [
+          1,
+          5,
+          6,
+          7,
+          8,
+          10,
+          11
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Celozrné tousty se sýrem, okurka, mléko",
+            "a": [
+              1,
+              5,
+              6,
+              7,
+              8,
+              10,
+              11
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Masový vývar, jáhly",
+        "d": "",
+        "a": [
+          1,
+          3,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Hovězí guláš",
+        "d": "Chléb · Nápoj",
+        "a": [
+          1
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Hovězí guláš",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Chléb",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Nápoj",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Vánočka, ovoce, mléko, čaj",
+        "d": "",
+        "a": [
+          1,
+          3,
+          7,
+          8
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Vánočka, ovoce, mléko, čaj",
+            "a": [
+              1,
+              3,
+              7,
+              8
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-16": {
+    "vydej": "11:30–13:00",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Chléb, pomazánka z tofu jako humrový krém, zelenina, mléko",
+        "d": "",
+        "a": [
+          1,
+          6,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Chléb, pomazánka z tofu jako humrový krém, zelenina, mléko",
+            "a": [
+              1,
+              6,
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Hrášková",
+        "d": "",
+        "a": [
+          3,
+          7
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Kuře pečené v americké marinádě",
+        "d": "Brambor · Nápoj",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Kuře pečené v americké marinádě",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Brambor",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Nápoj",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Jogurt, malinová tyčinka, ovoce, čaj",
+        "d": "",
+        "a": [
+          7,
+          8
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Jogurt, malinová tyčinka, ovoce, čaj",
+            "a": [
+              7,
+              8
             ]
           }
         ]

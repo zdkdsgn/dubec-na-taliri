@@ -25,6 +25,13 @@ jobs:
         run: python3 tools/update-menu.py
 
       - name: Stáhnout jídelníček ostatních škol z registru
+        # fetch-school.py skončí s chybou, i když se nepodaří přečíst
+        # třeba jen 1 z 200+ škol (typicky MŠ, co ještě nemá nový týden
+        # vyvěšený) – ať to samo o sobě nezastaví commit a notifikace
+        # pro všechny ostatní, co se v pořádku stáhly. Skript sám o sobě
+        # už neúspěšné školy ošetřuje správně (nechá jejich data beze
+        # změny, nic nepřepíše špatně).
+        continue-on-error: true
         run: python3 tools/fetch-school.py --all
 
       - name: Stáhnout jídelníček MŠ Dubeč (vlastní web, ne jidelna.cz)

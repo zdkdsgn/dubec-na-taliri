@@ -894,14 +894,42 @@
     "chody": [
       {
         "c": "presnidavka",
-        "n": "Bude doplněno",
-        "d": "",
-        "a": [],
+        "n": "Máslo, plátkový sýr",
+        "d": "Chléb kmínový · Ovoce · Mléko",
+        "a": [
+          1,
+          3,
+          7
+        ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Bude doplněno",
+            "n": "Máslo, plátkový sýr",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Pečivo",
+            "n": "Chléb kmínový",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
             "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko",
+            "a": [
+              7
+            ]
           }
         ]
       },
@@ -938,13 +966,39 @@
       },
       {
         "c": "svacina",
-        "n": "Bude doplněno",
-        "d": "",
-        "a": [],
+        "n": "Pom.droždová",
+        "d": "Chléb Sázava · Zelenina · Čaj",
+        "a": [
+          1,
+          3,
+          7
+        ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Bude doplněno",
+            "n": "Pom.droždová",
+            "a": [
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Pečivo",
+            "n": "Chléb Sázava",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zelenina",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj",
             "a": []
           }
         ]
@@ -956,14 +1010,41 @@
     "chody": [
       {
         "c": "presnidavka",
-        "n": "Bude doplněno",
-        "d": "",
-        "a": [],
+        "n": "Jahodové máslo",
+        "d": "Chléb kmínový · Ovoce · Mléko",
+        "a": [
+          1,
+          3,
+          7
+        ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Bude doplněno",
+            "n": "Jahodové máslo",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Pečivo",
+            "n": "Chléb kmínový",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
             "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko",
+            "a": [
+              7
+            ]
           }
         ]
       },
@@ -1004,13 +1085,40 @@
       },
       {
         "c": "svacina",
-        "n": "Bude doplněno",
-        "d": "",
-        "a": [],
+        "n": "Pom.bzenecká",
+        "d": "Chléb Sázava · Ovoce · Čaj",
+        "a": [
+          1,
+          3,
+          7,
+          9
+        ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Bude doplněno",
+            "n": "Pom.bzenecká",
+            "a": [
+              7,
+              9
+            ]
+          },
+          {
+            "l": "Pečivo",
+            "n": "Chléb Sázava",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj",
             "a": []
           }
         ]
@@ -1022,13 +1130,40 @@
     "chody": [
       {
         "c": "presnidavka",
-        "n": "Bude doplněno",
-        "d": "",
-        "a": [],
+        "n": "Pom.švédská",
+        "d": "Chléb celozrnný · Zelenina · Čaj",
+        "a": [
+          1,
+          3,
+          4,
+          7
+        ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Bude doplněno",
+            "n": "Pom.švédská",
+            "a": [
+              4,
+              7
+            ]
+          },
+          {
+            "l": "Pečivo",
+            "n": "Chléb celozrnný",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zelenina",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj",
             "a": []
           }
         ]
@@ -1076,14 +1211,36 @@
       },
       {
         "c": "svacina",
-        "n": "Bude doplněno",
-        "d": "",
-        "a": [],
+        "n": "Pom.mrkvová",
+        "d": "Chléb podmáslový · Mléko",
+        "a": [
+          1,
+          3,
+          7
+        ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Bude doplněno",
-            "a": []
+            "n": "Pom.mrkvová",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Pečivo",
+            "n": "Chléb podmáslový",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko",
+            "a": [
+              7
+            ]
           }
         ]
       }
@@ -1094,14 +1251,41 @@
     "chody": [
       {
         "c": "presnidavka",
-        "n": "Bude doplněno",
-        "d": "",
-        "a": [],
+        "n": "Pom.ze zeleného hrášku",
+        "d": "Chléb žitný · Ovoce · Mléko",
+        "a": [
+          1,
+          3,
+          7
+        ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Bude doplněno",
+            "n": "Pom.ze zeleného hrášku",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Pečivo",
+            "n": "Chléb žitný",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
             "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko",
+            "a": [
+              7
+            ]
           }
         ]
       },
@@ -1148,13 +1332,38 @@
       },
       {
         "c": "svacina",
-        "n": "Bude doplněno",
-        "d": "",
-        "a": [],
+        "n": "Máslo",
+        "d": "Celozrnná bulka · Zelenina · Čaj",
+        "a": [
+          1,
+          3,
+          7
+        ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Bude doplněno",
+            "n": "Máslo",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Pečivo",
+            "n": "Celozrnná bulka",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zelenina",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj",
             "a": []
           }
         ]
@@ -1166,14 +1375,41 @@
     "chody": [
       {
         "c": "presnidavka",
-        "n": "Bude doplněno",
-        "d": "",
-        "a": [],
+        "n": "Pom.dýňová",
+        "d": "Chléb slunečnicový · Ovoce · Mléko",
+        "a": [
+          1,
+          3,
+          7
+        ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Bude doplněno",
+            "n": "Pom.dýňová",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Pečivo",
+            "n": "Chléb slunečnicový",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
             "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko",
+            "a": [
+              7
+            ]
           }
         ]
       },
@@ -1215,13 +1451,74 @@
       },
       {
         "c": "svacina",
-        "n": "Bude doplněno",
-        "d": "",
-        "a": [],
+        "n": "Šunková pěna",
+        "d": "Celozrnný rohlík · Zelenina · Čaj",
+        "a": [
+          1,
+          7
+        ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Bude doplněno",
+            "n": "Šunková pěna",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Pečivo",
+            "n": "Celozrnný rohlík",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zelenina",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-09-21": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Špenátová",
+        "d": "",
+        "a": [
+          1,
+          7
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Nudle s mákem",
+        "d": "Ovoce",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Nudle s mákem",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
             "a": []
           }
         ]

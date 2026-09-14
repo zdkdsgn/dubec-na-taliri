@@ -1580,7 +1580,7 @@
           {
             "c": "obed",
             "n": "Zapečené těstoviny s kuř. masem",
-            "d": "Ovocno-zeleninový bar · Džus, voda s pomerančem",
+            "d": "Džus, voda s pomerančem",
             "a": [
               1,
               3,
@@ -1595,11 +1595,6 @@
                   3,
                   7
                 ]
-              },
-              {
-                "l": "Doplněk",
-                "n": "Ovocno-zeleninový bar",
-                "a": []
               },
               {
                 "l": "Nápoj",
@@ -1999,5 +1994,232 @@
         ]
       }
     }
+  },
+  "2026-09-21": {
+    "vydej": "11:30–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Špenátová",
+        "d": "",
+        "a": [
+          1,
+          3,
+          7
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Drůbeži po zahradnicku",
+        "d": "Vař. brambory · Džus, voda s citrónem",
+        "a": [
+          1
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Drůbeži po zahradnicku",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Vař. brambory",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Džus, voda s citrónem",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-09-22": {
+    "vydej": "11:30–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Jáhlová se zeleninou",
+        "d": "",
+        "a": [
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Čočka na kyselo, vejce",
+        "d": "Chléb · Sterilovaný okurek · Džus, voda s pomerančem",
+        "a": [
+          1,
+          3,
+          6
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Čočka na kyselo, vejce",
+            "a": [
+              1,
+              3
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Chléb",
+            "a": [
+              1,
+              6
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Sterilovaný okurek",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Džus, voda s pomerančem",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-09-23": {
+    "vydej": "11:30–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Dýňová s luštěninovými nudličkami",
+        "d": "",
+        "a": [
+          1,
+          7,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Bulgurové rizoto s vepřovým masem",
+        "d": "Zeleninová obloha · Džus, voda s limetkou",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Bulgurové rizoto s vepřovým masem",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zeleninová obloha",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Džus, voda s limetkou",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-09-24": {
+    "vydej": "11:30–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Bulharská květáková",
+        "d": "",
+        "a": [
+          1,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Pečený kuřecí steak",
+        "d": "Bramborova kase · Ovocno-zeleninový bar · Džus, voda s citrónem",
+        "a": [
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Pečený kuřecí steak",
+            "a": []
+          },
+          {
+            "l": "Příloha",
+            "n": "Bramborova kase",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovocno-zeleninový bar",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Džus, voda s citrónem",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-09-25": {
+    "vydej": "11:30–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Krupicová s vejci",
+        "d": "",
+        "a": [
+          1,
+          3,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Hovězí svíčková na smetaně",
+        "d": "Kynutý knedlík · Džus, voda s pomerančem",
+        "a": [
+          1,
+          3,
+          7,
+          9
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Hovězí svíčková na smetaně",
+            "a": [
+              1,
+              7,
+              9
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Kynutý knedlík",
+            "a": [
+              1,
+              3
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Džus, voda s pomerančem",
+            "a": []
+          }
+        ]
+      }
+    ]
   }
 }

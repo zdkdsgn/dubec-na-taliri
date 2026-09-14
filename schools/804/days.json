@@ -647,6 +647,37 @@
     "vydej": "11:00–13:45",
     "chody": [
       {
+        "c": "presnidavka",
+        "n": "Choceňský jogurt ovocný",
+        "d": "Jablko · Mléko",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Choceňský jogurt ovocný",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Jablko",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
         "c": "polevka",
         "n": "Zeleninová s kačenkami",
         "d": "",
@@ -1137,6 +1168,294 @@
             "l": "Nápoj",
             "n": "Čaj",
             "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-09-28": {
+    "vydej": "11:00–13:45",
+    "chody": [
+      {
+        "c": "obed",
+        "n": "Svátek",
+        "d": "",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Svátek",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-09-29": {
+    "vydej": "11:00–13:45",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Mungo",
+        "d": "",
+        "a": [
+          7
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Rybí prsty",
+        "d": "Bramborová kaše · Míchaný zelný salát · Čaj",
+        "a": [
+          1,
+          3,
+          4,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Rybí prsty",
+            "a": [
+              1,
+              3,
+              4
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Bramborová kaše",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Míchaný zelný salát",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "n": "Špagety carbonara",
+        "d": "",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Špagety carbonara",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-09-30": {
+    "vydej": "11:00–13:45",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Zeleninová s kroupami",
+        "d": "",
+        "a": [
+          1,
+          3,
+          7,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Kuřecí na kari se zeleninou",
+        "d": "Basmati rýže · Hruška · Čaj s citronem",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Kuřecí na kari se zeleninou",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Basmati rýže",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Hruška",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj s citronem",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-01": {
+    "vydej": "11:00–13:45",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Zeleninová s játrovými knedlíčky",
+        "d": "",
+        "a": [
+          1,
+          3,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Smažený sýr",
+        "d": "Brambory s máslem · Trhané saláty s dijonskou hořčicí · Kakao",
+        "a": [
+          7,
+          10
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Smažený sýr",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Brambory s máslem",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Trhané saláty s dijonskou hořčicí",
+            "a": [
+              10
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Kakao",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "n": "Sněhový kuřecí závitek",
+        "d": "Bramborová kaše · Trhané saláty s dijonskou hořčicí · Kakao",
+        "a": [
+          1,
+          7,
+          10
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Sněhový kuřecí závitek",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Bramborová kaše",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Trhané saláty s dijonskou hořčicí",
+            "a": [
+              10
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Kakao",
+            "a": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-02": {
+    "vydej": "11:00–13:45",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Květáková",
+        "d": "",
+        "a": [
+          1,
+          7
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Vepřové maso na paprice",
+        "d": "Celozrnné těstoviny · Banán · Ledový čaj",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Vepřové maso na paprice",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Celozrnné těstoviny",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Banán",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ledový čaj",
+            "a": [
+              7
+            ]
           }
         ]
       }
