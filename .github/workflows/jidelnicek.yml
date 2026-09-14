@@ -27,6 +27,13 @@ jobs:
       - name: Stáhnout jídelníček ostatních škol z registru
         run: python3 tools/fetch-school.py --all
 
+      - name: Stáhnout jídelníček MŠ Dubeč (vlastní web, ne jidelna.cz)
+        # Nejkřehčí scraper ze všech (žádné API, jen text webu jedné
+        # konkrétní školy) – ať jeho pád nezastaví aktualizaci
+        # a notifikace pro zbytek registru.
+        continue-on-error: true
+        run: python3 tools/fetch-ms-dubec.py
+
       - name: Zjistit, které školy se opravdu změnily
         id: zmeny
         run: |

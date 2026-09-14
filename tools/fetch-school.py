@@ -9,8 +9,9 @@ Tohle je obecná, víceškolní verze tools/update-menu.py (ten zůstává beze
 změny a dál obsluhuje jen appku pro Dubeč – tenhle skript je příprava na
 appku, která si školu vybere sama, viz ARCHITEKTURA.md).
 
-Funguje jen pro školy se zdrojem "jidelna.cz" – "manual" školy (jako MŠ
-Dubeč) se editují ručně přímo v jejich schools/<id>/days.json.
+Funguje jen pro školy se zdrojem "jidelna.cz" – ostatní zdroje mají
+vlastní skript (MŠ Dubeč → tools/fetch-ms-dubec.py) nebo se editují
+ručně přímo v jejich schools/<id>/days.json.
 """
 import json, sys, time
 from datetime import date, datetime, timedelta, timezone
