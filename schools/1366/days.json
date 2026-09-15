@@ -993,7 +993,7 @@
       {
         "c": "presnidavka",
         "n": "Vanilkový termix, rohlík",
-        "d": "Banán · Mléko, ovocný sirup, voda s citronem",
+        "d": "Banán, školka+ školáci · Mléko, ovocný sirup, voda s citronem",
         "a": [
           1,
           7
@@ -1009,7 +1009,7 @@
           },
           {
             "l": "Doplněk",
-            "n": "Banán",
+            "n": "Banán, školka+ školáci",
             "a": []
           },
           {
@@ -1426,6 +1426,201 @@
           {
             "l": "Nápoj",
             "n": "Mléko, ovocná šťáva, voda s citronem",
+            "a": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-09-21": {
+    "vydej": "11:00–13:00",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Kukuřičné lupínky s mlékem",
+        "d": "Hruška, jablko · Mléko, ovocný sirup, voda s citronem",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Kukuřičné lupínky s mlékem",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Hruška, jablko",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko, ovocný sirup, voda s citronem",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Kuřecí vývar s nudlemi",
+        "d": "",
+        "a": [
+          1,
+          3,
+          7,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Tilapie se sýrem",
+        "d": "Vařené brambory s pažitkou · Ovocný čaj, voda se sirupem, voda s citronem",
+        "a": [
+          3,
+          4,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Tilapie se sýrem",
+            "a": [
+              3,
+              4,
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Vařené brambory s pažitkou",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný čaj, voda se sirupem, voda s citronem",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Vita rohlík, s ramou, plátkový sýr",
+        "d": "Kapie, rajče · Mléko, čaj, voda se sirupem, voda s citronem",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Vita rohlík, s ramou, plátkový sýr",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Kapie, rajče",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko, čaj, voda se sirupem, voda s citronem",
+            "a": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-09-22": {
+    "vydej": "11:00–13:00",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Chléb celožitný ošatkový, rybičková pomazánka",
+        "d": "Kedlubna, rajče · Mléko, ovocný čaj, voda s citronem, voda se sirupem",
+        "a": [
+          1,
+          3,
+          4,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Chléb celožitný ošatkový, rybičková pomazánka",
+            "a": [
+              1,
+              3,
+              4,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Kedlubna, rajče",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko, ovocný čaj, voda s citronem, voda se sirupem",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Zeleninová s kuskusem",
+        "d": "",
+        "a": [
+          1,
+          3,
+          7
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Buřt guláš, chléb",
+        "d": "Školáci-výlet, müsli tyčinka, pitíčko Kubík, banán · Mléko, ovocný čaj, voda",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Buřt guláš, chléb",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Školáci-výlet, müsli tyčinka, pitíčko Kubík, banán",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko, ovocný čaj, voda",
             "a": [
               7
             ]

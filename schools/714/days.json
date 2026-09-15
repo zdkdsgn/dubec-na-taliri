@@ -4010,5 +4010,78 @@
         ]
       }
     ]
+  },
+  "2026-10-19": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Masová krémová",
+        "d": "",
+        "a": [
+          1
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Smažený sýr",
+        "d": "Brambory, tatarská omáčka · Zelenina",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Smažený sýr",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Brambory, tatarská omáčka",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zelenina",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "n": "Kuřecí roláda",
+        "d": "Brambory, tatarská omáčka · TATO NABÍDKA JE POUZE PRO DOSPĚLÉ STRÁVNÍKY",
+        "a": [
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Kuřecí roláda",
+            "a": []
+          },
+          {
+            "l": "Příloha",
+            "n": "Brambory, tatarská omáčka",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "TATO NABÍDKA JE POUZE PRO DOSPĚLÉ STRÁVNÍKY",
+            "a": []
+          }
+        ]
+      }
+    ]
   }
 }

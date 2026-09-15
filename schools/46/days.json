@@ -2637,5 +2637,97 @@
         ]
       }
     ]
+  },
+  "2026-10-19": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Jemná drůbeží",
+        "d": "",
+        "a": [
+          1,
+          3,
+          7,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Fazolový guláš",
+        "d": "Chléb · Ovoce · Ovocný nápoj, voda, čaj",
+        "a": [
+          1,
+          9
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Fazolový guláš",
+            "a": [
+              1,
+              9
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Chléb",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný nápoj, voda, čaj",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "n": "Bramborové šišky sypané mákem nebo strouhankou",
+        "d": "Mléko · Ovoce · Ovocný nápoj, voda, čaj",
+        "a": [
+          1,
+          3,
+          7,
+          13
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Bramborové šišky sypané mákem nebo strouhankou",
+            "a": [
+              1,
+              3,
+              7,
+              13
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Mléko",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný nápoj, voda, čaj",
+            "a": []
+          }
+        ]
+      }
+    ]
   }
 }

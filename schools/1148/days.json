@@ -737,7 +737,7 @@
       {
         "c": "obed",
         "n": "Honzovy buchty s povidly, hruška",
-        "d": "Voda s citronem",
+        "d": "Voda s citronem, mléko",
         "a": [
           1,
           3,
@@ -755,8 +755,10 @@
           },
           {
             "l": "Nápoj",
-            "n": "Voda s citronem",
-            "a": []
+            "n": "Voda s citronem, mléko",
+            "a": [
+              7
+            ]
           }
         ]
       },
@@ -812,9 +814,11 @@
       },
       {
         "c": "polevka",
-        "n": "Brokolicový krém",
+        "n": "Z jarní zeleniny",
         "d": "",
         "a": [
+          1,
+          3,
           7,
           9
         ]
@@ -1210,7 +1214,7 @@
     "chody": [
       {
         "c": "presnidavka",
-        "n": "Lučina, rohlík graham, paprika",
+        "n": "Lučina, šunka, sýr, graham rohlík, mix zeleniny",
         "d": "Voda, čaj, mléko",
         "a": [
           1,
@@ -1219,7 +1223,7 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Lučina, rohlík graham, paprika",
+            "n": "Lučina, šunka, sýr, graham rohlík, mix zeleniny",
             "a": [
               1,
               7
@@ -1247,7 +1251,7 @@
       {
         "c": "obed",
         "n": "Čevabčiči",
-        "d": "Brambory s pažitkou, červená řepa · Voda",
+        "d": "Brambory s máslem a pažitkou, červená řepa · Voda s citronem",
         "a": [
           1,
           3,
@@ -1264,14 +1268,14 @@
           },
           {
             "l": "Příloha",
-            "n": "Brambory s pažitkou, červená řepa",
+            "n": "Brambory s máslem a pažitkou, červená řepa",
             "a": [
               7
             ]
           },
           {
             "l": "Nápoj",
-            "n": "Voda",
+            "n": "Voda s citronem",
             "a": []
           }
         ]
@@ -1304,7 +1308,7 @@
     "chody": [
       {
         "c": "presnidavka",
-        "n": "Pomazánka rybí, rohlík, mrkev",
+        "n": "Pomazánka rybí, rohlík, mix zeleniny",
         "d": "Voda, čaj, mléko",
         "a": [
           1,
@@ -1314,7 +1318,7 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Pomazánka rybí, rohlík, mrkev",
+            "n": "Pomazánka rybí, rohlík, mix zeleniny",
             "a": [
               1,
               4,
@@ -1343,7 +1347,7 @@
       {
         "c": "obed",
         "n": "Krůtí na smetaně",
-        "d": "Kynutý knedlík, banán · Voda",
+        "d": "Kynutý knedlík, banán · Voda s pomerančem, mléko",
         "a": [
           1,
           3,
@@ -1369,8 +1373,10 @@
           },
           {
             "l": "Nápoj",
-            "n": "Voda",
-            "a": []
+            "n": "Voda s pomerančem, mléko",
+            "a": [
+              7
+            ]
           }
         ]
       },
@@ -1435,7 +1441,7 @@
       {
         "c": "obed",
         "n": "Mexický guláš",
-        "d": "Rýže, sýr, hruška · Voda",
+        "d": "Rýže, sýr, hruška · Voda, mléko",
         "a": [
           7
         ],
@@ -1454,14 +1460,16 @@
           },
           {
             "l": "Nápoj",
-            "n": "Voda",
-            "a": []
+            "n": "Voda, mléko",
+            "a": [
+              7
+            ]
           }
         ]
       },
       {
         "c": "svacina",
-        "n": "Máslo, sýr plátkový, kaiserka, jablko, voda, čaj",
+        "n": "Máslo, sýr, kaiserka, jablko, voda, čaj",
         "d": "",
         "a": [
           1,
@@ -1470,7 +1478,7 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Máslo, sýr plátkový, kaiserka, jablko, voda, čaj",
+            "n": "Máslo, sýr, kaiserka, jablko, voda, čaj",
             "a": [
               1,
               7
@@ -1513,7 +1521,7 @@
       },
       {
         "c": "polevka",
-        "n": "Česneková",
+        "n": "Česneková s brambory a vejci",
         "d": "",
         "a": [
           1,
@@ -1523,8 +1531,8 @@
       },
       {
         "c": "obed",
-        "n": "Čočka na kyselo, vejce, chléb, jablko",
-        "d": "Voda",
+        "n": "Čočka na kyselo, vejce, okurek, chléb, tyčinka",
+        "d": "Voda s citronem",
         "a": [
           1,
           3
@@ -1532,7 +1540,7 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Čočka na kyselo, vejce, chléb, jablko",
+            "n": "Čočka na kyselo, vejce, okurek, chléb, tyčinka",
             "a": [
               1,
               3
@@ -1540,7 +1548,7 @@
           },
           {
             "l": "Nápoj",
-            "n": "Voda",
+            "n": "Voda s citronem",
             "a": []
           }
         ]

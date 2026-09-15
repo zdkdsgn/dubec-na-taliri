@@ -3800,5 +3800,128 @@
         ]
       }
     ]
+  },
+  "2026-10-19": {
+    "vydej": "11:40–13:30",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Chléb",
+        "d": "Rybí pomazánka · Zelenina · Džus/voda",
+        "a": [
+          1,
+          3,
+          4,
+          7,
+          10
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Chléb",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Rybí pomazánka",
+            "a": [
+              4,
+              7,
+              10
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zelenina",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Džus/voda",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Pohanková se zeleninou",
+        "d": "",
+        "a": [
+          1,
+          9,
+          10
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Hovězí guláš",
+        "d": "Chléb · Džus/voda",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Hovězí guláš",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Chléb",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Džus/voda",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Domácí bublanina",
+        "d": "Ovoce · Mléko/ voda",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Domácí bublanina",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko/ voda",
+            "a": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
   }
 }
