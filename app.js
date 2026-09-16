@@ -268,11 +268,37 @@ function mealNode(m, date){
 /* Souhrnná kartička "Přílohy a pití" – vedlejší složky jídel (ovoce,
    pečivo, nápoj…), co appka dřív ukazovala jako malý podtext přímo
    pod každým jídlem. Radši jedna přehledná kartička na konci dne než
-   ten podtext u každého jídla zvlášť. */
+   ten podtext u každého jídla zvlášť.
+   Zdroj (jidelna_client.py) spojuje jednotlivé položky přílohy/pití
+   přes " · " – a poslední položky (typicky volitelné pití, občas
+   i zelenina k výběru) bývají u všech chodů dne úplně stejné, protože
+   je to ve skutečnosti jedna společná nabídka, ne něco specifického
+   pro konkrétní chod. Takhle dlouhý shodný "ocas" napříč chody
+   vytáhneme a ukážeme jen jednou, ať se neopakuje u každého řádku. */
 function prilohyNode(list){
-  const radky = list.filter(m => m.d).map(m => `
-    <div class="priloha-row"><span class="l">${D.courses[m.c].label}</span><span class="v">${m.d}</span></div>`);
+  const zaznamy = list.filter(m => m.d).map(m => ({ label: D.courses[m.c].label, segs: m.d.split(" · ") }));
+  if (!zaznamy.length) return null;
+
+  let spolecne = [];
+  if (zaznamy.length > 1) {
+    const nejkratsi = Math.min(...zaznamy.map(z => z.segs.length));
+    for (let k = 1; k <= nejkratsi; k++) {
+      const ocasy = new Set(zaznamy.map(z => z.segs.slice(-k).join("")));
+      if (ocasy.size !== 1) break;
+      spolecne = zaznamy[0].segs.slice(-k);
+    }
+  }
+
+  const radky = [];
+  zaznamy.forEach(z => {
+    const vlastni = spolecne.length ? z.segs.slice(0, z.segs.length - spolecne.length) : z.segs;
+    if (vlastni.length) radky.push(
+      `<div class="priloha-row"><span class="l">${z.label}</span><span class="v">${vlastni.join(" · ")}</span></div>`);
+  });
+  if (spolecne.length) radky.push(
+    `<div class="priloha-row"><span class="l">Na výběr</span><span class="v">${spolecne.join(" · ")}</span></div>`);
   if (!radky.length) return null;
+
   const el = document.createElement("div");
   el.className = "card priloha-card";
   el.innerHTML = `<h4 class="priloha-title">Přílohy a pití</h4>${radky.join("")}`;
