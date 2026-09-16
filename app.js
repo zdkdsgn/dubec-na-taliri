@@ -237,7 +237,27 @@ async function prepniDen(cil, smer, odKud = 0){
 }
 
 /* ── Karta jídla ────────────────────────────────────────────────── */
-function mealNode(m, date){
+/* Zdroj (jidelna_client.py) spojuje jednotlivé položky přílohy/pití
+   u jednoho jídla přes " · " – a poslední položky (typicky volitelné
+   pití, občas i zelenina k výběru) bývají u všech chodů dne úplně
+   stejné, protože je to ve skutečnosti jedna společná volitelná
+   nabídka, ne něco specifického pro konkrétní chod. Najde takhle
+   dlouhý shodný "ocas" napříč chody dne, ať appka ví, co z popisu
+   patří jen tomu jednomu jídlu a co je společné pro všechny. */
+function spolecnyOcas(list){
+  const segy = list.filter(m => m.d).map(m => m.d.split(" · "));
+  if (segy.length < 2) return [];
+  let spolecne = [];
+  const nejkratsi = Math.min(...segy.map(s => s.length));
+  for (let k = 1; k <= nejkratsi; k++) {
+    const ocasy = new Set(segy.map(s => s.slice(-k).join("")));
+    if (ocasy.size !== 1) break;
+    spolecne = segy[0].slice(-k);
+  }
+  return spolecne;
+}
+
+function mealNode(m, date, ocas = []){
   const c    = D.courses[m.c];
   const hs   = hits(m);
   const vJid = hs.length && zasahHlav(m);          // alergen přímo v jídle
@@ -252,6 +272,12 @@ function mealNode(m, date){
   else if (m.c === "obed")  badge = `<span class="badge lead">Oběd</span>`;
   else if (m.c === "obed2") badge = `<span class="badge lead">Oběd II</span>`;
 
+  // Vlastní popis jídla bez společné (viz "Na výběr") části na konci.
+  const segy = m.d ? m.d.split(" · ") : [];
+  const vlastniPopis = !ocas.length ? m.d
+    : segy.length > ocas.length ? segy.slice(0, segy.length - ocas.length).join(" · ")
+    : "";
+
   const el = document.createElement("button");
   el.className = "meal" + (vJid ? " flagged" : mimo ? " flagged-soft" : nelibi ? " disliked" : lead ? " lead" : "");
   el.innerHTML = `
@@ -259,49 +285,24 @@ function mealNode(m, date){
     <span class="meal-body">
       <span class="meal-kicker">${c.label}${badge}</span>
       <span class="meal-name">${m.n}</span>
+      ${vlastniPopis ? `<span class="meal-desc">${vlastniPopis}</span>` : ""}
       ${m.a.length ? `<span class="a-chip${vJid ? " hit" : mimo ? " hit-soft" : ""}">${I_WHEAT}${m.a.join(", ")}${I_INFO}</span>` : ""}
     </span>`;
   el.addEventListener("click", () => openSheet(m, date));
   return el;
 }
 
-/* Souhrnná kartička "Přílohy a pití" – vedlejší složky jídel (ovoce,
-   pečivo, nápoj…), co appka dřív ukazovala jako malý podtext přímo
-   pod každým jídlem. Radši jedna přehledná kartička na konci dne než
-   ten podtext u každého jídla zvlášť.
-   Zdroj (jidelna_client.py) spojuje jednotlivé položky přílohy/pití
-   přes " · " – a poslední položky (typicky volitelné pití, občas
-   i zelenina k výběru) bývají u všech chodů dne úplně stejné, protože
-   je to ve skutečnosti jedna společná nabídka, ne něco specifického
-   pro konkrétní chod. Takhle dlouhý shodný "ocas" napříč chody
-   vytáhneme a ukážeme jen jednou, ať se neopakuje u každého řádku. */
+/* Souhrnná kartička "Na výběr" – jen ta část přílohy/pití, co je
+   společná pro víc jídel dne (viz spolecnyOcas výš). Co je specifické
+   jen pro jedno jídlo, zůstává jako podtext přímo u něj (mealNode).
+   Když se žádná společná volitelná nabídka nenajde, appka žádnou
+   kartu neukazuje. */
 function prilohyNode(list){
-  const zaznamy = list.filter(m => m.d).map(m => ({ label: D.courses[m.c].label, segs: m.d.split(" · ") }));
-  if (!zaznamy.length) return null;
-
-  let spolecne = [];
-  if (zaznamy.length > 1) {
-    const nejkratsi = Math.min(...zaznamy.map(z => z.segs.length));
-    for (let k = 1; k <= nejkratsi; k++) {
-      const ocasy = new Set(zaznamy.map(z => z.segs.slice(-k).join("")));
-      if (ocasy.size !== 1) break;
-      spolecne = zaznamy[0].segs.slice(-k);
-    }
-  }
-
-  const radky = [];
-  zaznamy.forEach(z => {
-    const vlastni = spolecne.length ? z.segs.slice(0, z.segs.length - spolecne.length) : z.segs;
-    if (vlastni.length) radky.push(
-      `<div class="priloha-row"><span class="l">${z.label}</span><span class="v">${vlastni.join(" · ")}</span></div>`);
-  });
-  if (spolecne.length) radky.push(
-    `<div class="priloha-row"><span class="l">Na výběr</span><span class="v">${spolecne.join(" · ")}</span></div>`);
-  if (!radky.length) return null;
-
+  const ocas = spolecnyOcas(list);
+  if (!ocas.length) return null;
   const el = document.createElement("div");
   el.className = "card priloha-card";
-  el.innerHTML = `<h4 class="priloha-title">Přílohy a pití</h4>${radky.join("")}`;
+  el.innerHTML = `<h4 class="priloha-title">Na výběr</h4><p class="priloha-text">${ocas.join(" · ")}</p>`;
   return el;
 }
 
@@ -403,7 +404,8 @@ function renderDen(skoc){
       <svg viewBox="0 0 24 24"><path d="M4 11h16a8 8 0 01-16 0z"/><path d="M9 7c0-1 1-1.4 1-2.4S9 3 9 3m6 4c0-1 1-1.4 1-2.4S15 3 15 3"/></svg>
       <div>Pro tento den zatím jídelníček nemáme.</div></div>`;
   } else {
-    list.forEach(m => tl.appendChild(mealNode(m, S.date)));
+    const ocas = spolecnyOcas(list);
+    list.forEach(m => tl.appendChild(mealNode(m, S.date, ocas)));
     const prilohy = prilohyNode(list);
     if (prilohy) tl.appendChild(prilohy);
   }
@@ -447,7 +449,8 @@ function renderTyden(){
       <div class="wday-body"><div><div class="meals"></div></div></div>`;
     const tl = $(".meals", box);
     tl.classList.toggle("minuly", d < TODAY);
-    list.forEach(m => tl.appendChild(mealNode(m, d)));
+    const ocas = spolecnyOcas(list);
+    list.forEach(m => tl.appendChild(mealNode(m, d, ocas)));
     const prilohy = prilohyNode(list);
     if (prilohy) tl.appendChild(prilohy);
     $(".wday-head", box).addEventListener("click", () => { haptic(); box.classList.toggle("open"); });

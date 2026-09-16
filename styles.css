@@ -273,20 +273,16 @@ main{max-width:560px;margin:0 auto;
   font-size:11px;font-weight:660;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-3);
 }
 .meal-name{display:block;font-size:19px;font-weight:680;margin:5px 0 3px;line-height:1.25}
+.meal-desc{display:block;font-size:15px;color:var(--ink-2);line-height:1.35}
 
-/* ── "Přílohy a pití" – souhrn vedlejších složek jídel dne ───────── */
+/* ── "Na výběr" – společná volitelná nabídka (pití, zelenina…) ──── */
 .priloha-card{
   background:var(--track);border-style:dashed;border-color:var(--card-brd);
-  box-shadow:none;padding:14px 16px 4px;
+  box-shadow:none;padding:14px 16px;
 }
 .priloha-title{font-size:11px;font-weight:680;letter-spacing:.09em;text-transform:uppercase;
   color:var(--ink-3);margin:0 0 4px}
-.priloha-row{
-  display:flex;flex-wrap:wrap;justify-content:space-between;align-items:baseline;gap:2px 16px;
-  padding:10px 0;border-top:1px solid var(--line);
-}
-.priloha-row .l{color:var(--ink-2);font-size:13.5px;font-weight:620;flex:none}
-.priloha-row .v{color:var(--ink-2);font-size:13.5px;text-align:right;flex:1;min-width:140px}
+.priloha-text{margin:0;font-size:14.5px;color:var(--ink-2);line-height:1.4}
 
 .badge{
   margin-left:auto;flex:none;white-space:nowrap;
