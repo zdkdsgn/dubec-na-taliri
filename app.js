@@ -259,10 +259,23 @@ function mealNode(m, date){
     <span class="meal-body">
       <span class="meal-kicker">${c.label}${badge}</span>
       <span class="meal-name">${m.n}</span>
-      ${m.d ? `<span class="meal-desc">${m.d}</span>` : ""}
       ${m.a.length ? `<span class="a-chip${vJid ? " hit" : mimo ? " hit-soft" : ""}">${I_WHEAT}${m.a.join(", ")}${I_INFO}</span>` : ""}
     </span>`;
   el.addEventListener("click", () => openSheet(m, date));
+  return el;
+}
+
+/* Souhrnná kartička "Přílohy a pití" – vedlejší složky jídel (ovoce,
+   pečivo, nápoj…), co appka dřív ukazovala jako malý podtext přímo
+   pod každým jídlem. Radši jedna přehledná kartička na konci dne než
+   ten podtext u každého jídla zvlášť. */
+function prilohyNode(list){
+  const radky = list.filter(m => m.d).map(m => `
+    <div class="priloha-row"><span class="l">${D.courses[m.c].label}</span><span class="v">${m.d}</span></div>`);
+  if (!radky.length) return null;
+  const el = document.createElement("div");
+  el.className = "card priloha-card";
+  el.innerHTML = `<h4 class="priloha-title">Přílohy a pití</h4>${radky.join("")}`;
   return el;
 }
 
@@ -363,7 +376,11 @@ function renderDen(skoc){
     tl.innerHTML = `<div class="empty">
       <svg viewBox="0 0 24 24"><path d="M4 11h16a8 8 0 01-16 0z"/><path d="M9 7c0-1 1-1.4 1-2.4S9 3 9 3m6 4c0-1 1-1.4 1-2.4S15 3 15 3"/></svg>
       <div>Pro tento den zatím jídelníček nemáme.</div></div>`;
-  } else list.forEach(m => tl.appendChild(mealNode(m, S.date)));
+  } else {
+    list.forEach(m => tl.appendChild(mealNode(m, S.date)));
+    const prilohy = prilohyNode(list);
+    if (prilohy) tl.appendChild(prilohy);
+  }
 
   /* Rychlý náhled zítřka – jen když se dívám na dnešek, ať appka
      nenabízí "zítra" vzhledem k dnu, který si zrovna prohlížím. */
@@ -405,6 +422,8 @@ function renderTyden(){
     const tl = $(".meals", box);
     tl.classList.toggle("minuly", d < TODAY);
     list.forEach(m => tl.appendChild(mealNode(m, d)));
+    const prilohy = prilohyNode(list);
+    if (prilohy) tl.appendChild(prilohy);
     $(".wday-head", box).addEventListener("click", () => { haptic(); box.classList.toggle("open"); });
     wrap.appendChild(box);
   }
