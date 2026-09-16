@@ -1441,12 +1441,12 @@
       },
       {
         "c": "polevka",
-        "n": "Česneková s bramborem",
+        "n": "Rýžová polévka",
         "d": "",
         "a": [
-          3,
-          9,
-          10
+          1,
+          7,
+          9
         ]
       },
       {
@@ -1582,30 +1582,21 @@
       },
       {
         "c": "obed",
-        "n": "Kuřecí na kari",
-        "d": "Rýže · Zelný salát s jogurtem · Čaj/voda",
+        "n": "Zeleninové rizoto se sýrem",
+        "d": "Zelný salát s jogurtem · Čaj/voda",
         "a": [
           1,
-          3,
           7,
-          10
+          9
         ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Kuřecí na kari",
+            "n": "Zeleninové rizoto se sýrem",
             "a": [
               1,
-              10
-            ]
-          },
-          {
-            "l": "Příloha",
-            "n": "Rýže",
-            "a": [
-              1,
-              3,
-              7
+              7,
+              9
             ]
           },
           {
@@ -2318,7 +2309,7 @@
       {
         "c": "obed",
         "n": "Kuřecí špalík na medu",
-        "d": "Brambor · Zelný salát s mrkví · Šťáva",
+        "d": "Pohanková rýže · Zelný salát s mrkví · Šťáva",
         "a": [
           10
         ],
@@ -2332,7 +2323,7 @@
           },
           {
             "l": "Příloha",
-            "n": "Brambor",
+            "n": "Pohanková rýže",
             "a": []
           },
           {
@@ -3919,6 +3910,107 @@
             "a": [
               7
             ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-20": {
+    "vydej": "11:40–13:30",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Puding",
+        "d": "Ovoce · Šťáva",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Puding",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Šťáva",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Česneková s bramborem",
+        "d": "",
+        "a": [
+          3,
+          9,
+          10
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Kuřecí plátek",
+        "d": "Brambor · Zeleninový salát · Šťáva",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Kuřecí plátek",
+            "a": []
+          },
+          {
+            "l": "Příloha",
+            "n": "Brambor",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zeleninový salát",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Šťáva",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Veka",
+        "d": "Avokádová pomazánka · Rajče, paprika · Šťáva",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Veka",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Avokádová pomazánka",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Rajče, paprika",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Šťáva",
+            "a": []
           }
         ]
       }

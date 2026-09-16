@@ -1208,7 +1208,7 @@
       {
         "c": "obed",
         "n": "Kuskus s kuřecím masem, zeleninou a sýrem",
-        "d": "Ovocný kompot · Voda",
+        "d": "Ovocný kompot, zelenina · Voda",
         "a": [
           1,
           6,
@@ -1228,7 +1228,7 @@
           },
           {
             "l": "Doplněk",
-            "n": "Ovocný kompot",
+            "n": "Ovocný kompot, zelenina",
             "a": []
           },
           {
@@ -1332,6 +1332,23 @@
             "a": []
           }
         ]
+      },
+      {
+        "c": "svacina",
+        "n": "Banán, mléko",
+        "d": "",
+        "a": [
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Banán, mléko",
+            "a": [
+              7
+            ]
+          }
+        ]
       }
     ]
   },
@@ -1413,6 +1430,25 @@
             "a": []
           }
         ]
+      },
+      {
+        "c": "svacina",
+        "n": "Chléb, máslo, rajče, mléko",
+        "d": "",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Chléb, máslo, rajče, mléko",
+            "a": [
+              1,
+              7
+            ]
+          }
+        ]
       }
     ]
   },
@@ -1491,6 +1527,31 @@
             "a": []
           }
         ]
+      },
+      {
+        "c": "svacina",
+        "n": "Graham, máslo, vařená vejce, čaj",
+        "d": "",
+        "a": [
+          1,
+          6,
+          7,
+          11,
+          13
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Graham, máslo, vařená vejce, čaj",
+            "a": [
+              1,
+              6,
+              7,
+              11,
+              13
+            ]
+          }
+        ]
       }
     ]
   },
@@ -1499,25 +1560,21 @@
     "chody": [
       {
         "c": "presnidavka",
-        "n": "Chléb, celerová pomazánka, zelenina, kakao",
+        "n": "Jogurt, kukuřičné lupínky, ovoce, čaj",
         "d": "",
         "a": [
           1,
-          3,
-          6,
           7,
-          9
+          8
         ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Chléb, celerová pomazánka, zelenina, kakao",
+            "n": "Jogurt, kukuřičné lupínky, ovoce, čaj",
             "a": [
               1,
-              3,
-              6,
               7,
-              9
+              8
             ]
           }
         ]
@@ -1567,6 +1624,25 @@
             "l": "Nápoj",
             "n": "Čaj",
             "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Chléb, máslo, cottage, mléko",
+        "d": "",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Chléb, máslo, cottage, mléko",
+            "a": [
+              1,
+              7
+            ]
           }
         ]
       }
@@ -1680,6 +1756,16 @@
     "vydej": "11:00–14:00",
     "chody": [
       {
+        "c": "polevka",
+        "n": "Hovězí vývar s těstovinou",
+        "d": "",
+        "a": [
+          1,
+          3,
+          9
+        ]
+      },
+      {
         "c": "obed",
         "n": "Segedinský guláš",
         "d": "Houskový knedlík · Ovoce · Čaj",
@@ -1727,11 +1813,10 @@
     "chody": [
       {
         "c": "polevka",
-        "n": "Moravská s kroupami",
+        "n": "Bramborová",
         "d": "",
         "a": [
           1,
-          7,
           9
         ]
       },

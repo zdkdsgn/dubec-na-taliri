@@ -1030,6 +1030,7 @@
         "d": "",
         "a": [
           1,
+          3,
           9
         ]
       },
@@ -1692,19 +1693,21 @@
       },
       {
         "c": "obed",
-        "n": "Filet z tilapie na bylinkách",
+        "n": "Filet z platýse na bylinkách a sezamovém semínku",
         "d": "Bramborová kaše · Mix salátů se zálivkou · Džus",
         "a": [
           4,
-          7
+          7,
+          11
         ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Filet z tilapie na bylinkách",
+            "n": "Filet z platýse na bylinkách a sezamovém semínku",
             "a": [
               4,
-              7
+              7,
+              11
             ]
           },
           {
@@ -1907,13 +1910,18 @@
         "n": "Domácí kynuté buchty s povidlím",
         "d": "Jablko · Kakao",
         "a": [
+          1,
+          3,
           7
         ],
         "p": [
           {
             "l": "Jídlo",
             "n": "Domácí kynuté buchty s povidlím",
-            "a": []
+            "a": [
+              1,
+              3
+            ]
           },
           {
             "l": "Doplněk",

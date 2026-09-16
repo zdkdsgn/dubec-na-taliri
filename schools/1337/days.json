@@ -2993,5 +2993,98 @@
         ]
       }
     ]
+  },
+  "2026-10-20": {
+    "vydej": "11:30–13:00",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Chléb moskva, hermelínová pomazánka, zelenina, kakao",
+        "d": "",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Chléb moskva, hermelínová pomazánka, zelenina, kakao",
+            "a": [
+              1,
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Beskydská",
+        "d": "",
+        "a": [
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Kuře na způsob bažanta",
+        "d": "Bramborový knedlík s cibulkou · Ovoce · Nápoj",
+        "a": [
+          1,
+          3,
+          7,
+          11
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Kuře na způsob bažanta",
+            "a": [
+              1,
+              3,
+              7,
+              11
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Bramborový knedlík s cibulkou",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Nápoj",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Ražená houska, máslo, med, ovoce, mléko, čaj",
+        "d": "",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Ražená houska, máslo, med, ovoce, mléko, čaj",
+            "a": [
+              1,
+              7
+            ]
+          }
+        ]
+      }
+    ]
   }
 }

@@ -879,7 +879,7 @@
       },
       {
         "c": "svacina",
-        "n": "Chléb s čedarem, rajče, mléko",
+        "n": "Chléb s goudou, rajče, mléko",
         "d": "",
         "a": [
           1,
@@ -888,7 +888,7 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Chléb s čedarem, rajče, mléko",
+            "n": "Chléb s goudou, rajče, mléko",
             "a": [
               1,
               7
@@ -1175,7 +1175,7 @@
       },
       {
         "c": "polevka",
-        "n": "Kuřecí s nudlemi",
+        "n": "Kuřecí s játrovou rýží",
         "d": "",
         "a": [
           3,
@@ -1185,7 +1185,7 @@
       {
         "c": "obed",
         "n": "Hrachová kaše s uzeným masem",
-        "d": "Chléb, kyselá okurka · Broskvový čaj",
+        "d": "Chléb, kyselá okurka · Ovocné pyré · Broskvový čaj",
         "a": [
           1,
           7,
@@ -1207,6 +1207,11 @@
               1,
               10
             ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovocné pyré",
+            "a": []
           },
           {
             "l": "Nápoj",

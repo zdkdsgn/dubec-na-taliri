@@ -551,7 +551,7 @@
       {
         "c": "presnidavka",
         "n": "Houska, kuchařčina pomazánka",
-        "d": "Rajče · Mléko",
+        "d": "Mrkev · Mléko",
         "a": [
           1,
           3,
@@ -569,7 +569,7 @@
           },
           {
             "l": "Doplněk",
-            "n": "Rajče",
+            "n": "Mrkev",
             "a": []
           },
           {
@@ -779,7 +779,7 @@
       {
         "c": "presnidavka",
         "n": "Houska, pomazánka z tofu",
-        "d": "Salátová okurka · Kakao",
+        "d": "Salátová okurka",
         "a": [
           1,
           7
@@ -797,13 +797,6 @@
             "l": "Doplněk",
             "n": "Salátová okurka",
             "a": []
-          },
-          {
-            "l": "Nápoj",
-            "n": "Kakao",
-            "a": [
-              7
-            ]
           }
         ]
       },
@@ -851,8 +844,8 @@
       },
       {
         "c": "svacina",
-        "n": "Müsli sypané, mléko",
-        "d": "Hruška",
+        "n": "Ovocná přesnídávka",
+        "d": "Piškoty · Hruška",
         "a": [
           1,
           3
@@ -860,14 +853,19 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Müsli sypané, mléko",
+            "n": "Ovocná přesnídávka",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Piškoty",
             "a": [
               1,
               3
             ]
           },
           {
-            "l": "Doplněk",
+            "l": "Nápoj",
             "n": "Hruška",
             "a": []
           }

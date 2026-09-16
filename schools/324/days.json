@@ -918,15 +918,16 @@
       },
       {
         "c": "obed",
-        "n": "A:1 KRUTÍ PLÁTEK, BABY KAROTKA",
+        "n": "A:1 KRUTÍ PLÁTEK NA ŽAMPIÓNECH",
         "d": "A: BRAMBORY · A:7 TVAROH S GRANKEM · A: OVOCNY ČAJ, VODA",
         "a": [
-          1
+          1,
+          7
         ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "A:1 KRUTÍ PLÁTEK, BABY KAROTKA",
+            "n": "A:1 KRUTÍ PLÁTEK NA ŽAMPIÓNECH",
             "a": [
               1
             ]
@@ -939,7 +940,9 @@
           {
             "l": "Doplněk",
             "n": "A:7 TVAROH S GRANKEM",
-            "a": []
+            "a": [
+              7
+            ]
           },
           {
             "l": "Nápoj",

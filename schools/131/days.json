@@ -463,7 +463,7 @@
       {
         "c": "obed",
         "n": "Vepřové nudličky s ananasem",
-        "d": "Jasmínová rýže · Mléko, ovocný čaj, voda",
+        "d": "Jasmínová rýže · Ovocný bufet · Mléko, ovocný čaj, voda",
         "a": [
           7
         ],
@@ -476,6 +476,11 @@
           {
             "l": "Příloha",
             "n": "Jasmínová rýže",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovocný bufet",
             "a": []
           },
           {
@@ -505,7 +510,7 @@
       {
         "c": "obed",
         "n": "Špagety s balkánským sýrem z jednoho pekáčku",
-        "d": "Ovocný bufet · Mléko, voda, sirup",
+        "d": "Ovocné pitíčko · Mléko, voda, sirup",
         "a": [
           1,
           3,
@@ -523,7 +528,7 @@
           },
           {
             "l": "Doplněk",
-            "n": "Ovocný bufet",
+            "n": "Ovocné pitíčko",
             "a": []
           },
           {
@@ -880,6 +885,844 @@
             "l": "Jídlo",
             "n": "STÁTNÍ SVÁTEK",
             "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-09-29": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Zeleninový vývar s vaječnou sedlinou",
+        "d": "",
+        "a": [
+          1,
+          3
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Mexický guláš",
+        "d": "Barevná rýže · Tvarohový dezert · Mléko, ovocný čaj, voda",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Mexický guláš",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Barevná rýže",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Tvarohový dezert",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko, ovocný čaj, voda",
+            "a": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-09-30": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Dýňová",
+        "d": "",
+        "a": [
+          1,
+          7
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Zapečená kuřecí prsa s bramborem a smetanou",
+        "d": "Zeleninový bufet · Mléko, voda, sirup",
+        "a": [
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Zapečená kuřecí prsa s bramborem a smetanou",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zeleninový bufet",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko, voda, sirup",
+            "a": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-01": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Cibulová se sýrem a krutony",
+        "d": "",
+        "a": [
+          1,
+          3,
+          7
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Vepřové kostky v mrkvi",
+        "d": "Tarhoňa · Mléko, voda, čaj",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Vepřové kostky v mrkvi",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Tarhoňa",
+            "a": [
+              1,
+              3
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko, voda, čaj",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "n": "Slaný štrůdl s kysaným zelím/šunkou a sýrem",
+        "d": "Mléko, voda, čaj",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Slaný štrůdl s kysaným zelím/šunkou a sýrem",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko, voda, čaj",
+            "a": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-02": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Chlebová",
+        "d": "",
+        "a": [
+          1,
+          3,
+          7
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Fazolové lusky na smetaně, vařené vejce",
+        "d": "Brambor · Ovocný bufet · Mléko, ovocný čaj, voda",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Fazolové lusky na smetaně, vařené vejce",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Brambor",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovocný bufet",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko, ovocný čaj, voda",
+            "a": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-05": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Zeleninová polévka s tofu knedlíčky",
+        "d": "",
+        "a": [
+          1,
+          3,
+          6
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Africký sumeček pečený na olivovým oleji s rajčaty a paprikou",
+        "d": "Rýže basmati · Žofík s kakaovou náplní · Mléko, voda, sirup",
+        "a": [
+          1,
+          3,
+          5,
+          7,
+          8
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Africký sumeček pečený na olivovým oleji s rajčaty a paprikou",
+            "a": []
+          },
+          {
+            "l": "Příloha",
+            "n": "Rýže basmati",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Žofík s kakaovou náplní",
+            "a": [
+              1,
+              3,
+              5,
+              7,
+              8
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko, voda, sirup",
+            "a": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-06": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Celerová polévka s hříbky",
+        "d": "",
+        "a": [
+          1,
+          7,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Krůtí prsíčko na pečeném česneku",
+        "d": "Bramborový knedlík · Mléko, ovocný čaj, voda",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Krůtí prsíčko na pečeném česneku",
+            "a": []
+          },
+          {
+            "l": "Příloha",
+            "n": "Bramborový knedlík",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko, ovocný čaj, voda",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "n": "Krémové kari s fazolemi, kešu ořechy a špenátem",
+        "d": "Hrášková rýže · Mléko, ovocný čaj, voda",
+        "a": [
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Krémové kari s fazolemi, kešu ořechy a špenátem",
+            "a": []
+          },
+          {
+            "l": "Příloha",
+            "n": "Hrášková rýže",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko, ovocný čaj, voda",
+            "a": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-07": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Polévka z hlívy ústřičné",
+        "d": "",
+        "a": [
+          1,
+          7
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Kuskusové rizoto se zeleninou, olivami, chia semínky, sypané čedarem",
+        "d": "Ovocný bufet · Mléko, voda, čaj",
+        "a": [
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Kuskusové rizoto se zeleninou, olivami, chia semínky, sypané čedarem",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovocný bufet",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko, voda, čaj",
+            "a": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-08": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Hrachová s krutony",
+        "d": "",
+        "a": [
+          1,
+          3,
+          7
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Lívance s borůvkovou marmeládou a zakysanou smetanou",
+        "d": "Mléko, voda, sirup",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Lívance s borůvkovou marmeládou a zakysanou smetanou",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko, voda, sirup",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "n": "Drůbeží játra na slanině",
+        "d": "Dušená rýže · Mléko, voda, sirup",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Drůbeží játra na slanině",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Dušená rýže",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko, voda, sirup",
+            "a": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-09": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Zeleninový vývar s fritátovými nudlemi",
+        "d": "",
+        "a": [
+          1,
+          3,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Vepřové řízečky",
+        "d": "Bramborová kaše · Okurkový salát · Mléko, ovocný čaj, voda",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Vepřové řízečky",
+            "a": [
+              1,
+              3
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Bramborová kaše",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Okurkový salát",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko, ovocný čaj, voda",
+            "a": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-12": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Žampióný krém",
+        "d": "",
+        "a": [
+          1,
+          7
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Zapečené těstoviny \"šunkafleky\"",
+        "d": "Červená řepa · Mléko, ovocný čaj, voda",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Zapečené těstoviny \"šunkafleky\"",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Červená řepa",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko, ovocný čaj, voda",
+            "a": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-13": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Zeleninový vývar s jáhly",
+        "d": "",
+        "a": []
+      },
+      {
+        "c": "obed",
+        "n": "Rozlítaný ptáček",
+        "d": "Dušená rýže · Mléko, voda, sirup",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Rozlítaný ptáček",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Dušená rýže",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko, voda, sirup",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "n": "Ovesné placky s kozím sýrem a zeleninou",
+        "d": "Mléko, voda, sirup",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Ovesné placky s kozím sýrem a zeleninou",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko, voda, sirup",
+            "a": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-14": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Selská",
+        "d": "",
+        "a": [
+          1,
+          3,
+          7
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Pečené kuřátko na másle, dušené červené zelí",
+        "d": "Houskový knedlík · Mléko, voda, čaj",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Pečené kuřátko na másle, dušené červené zelí",
+            "a": []
+          },
+          {
+            "l": "Příloha",
+            "n": "Houskový knedlík",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko, voda, čaj",
+            "a": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-15": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Hovězí vývar s rýží a hráškem",
+        "d": "",
+        "a": []
+      },
+      {
+        "c": "obed",
+        "n": "Masové koule v rajské omáčce",
+        "d": "Těstoviny – kolínka · Ovocný bufet · Mléko, voda, sirup",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Masové koule v rajské omáčce",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Těstoviny – kolínka",
+            "a": [
+              1,
+              3
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovocný bufet",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko, voda, sirup",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "n": "Těstovinový salát se zeleninou, vejci a uzenou makrelou",
+        "d": "Ovocný bufet · Mléko, ovocný čaj, voda",
+        "a": [
+          1,
+          3,
+          4,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Těstovinový salát se zeleninou, vejci a uzenou makrelou",
+            "a": [
+              1,
+              3,
+              4,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovocný bufet",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko, ovocný čaj, voda",
+            "a": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-16": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Frankfurtská",
+        "d": "",
+        "a": [
+          1,
+          7
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Sója po Sečuánsku",
+        "d": "Bramborové krokety · Cereální tyčinka Corny · Mléko, voda, sirup",
+        "a": [
+          1,
+          3,
+          6,
+          7,
+          8
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Sója po Sečuánsku",
+            "a": [
+              6
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Bramborové krokety",
+            "a": [
+              1,
+              3
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Cereální tyčinka Corny",
+            "a": [
+              1,
+              6,
+              7,
+              8
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko, voda, sirup",
+            "a": [
+              7
+            ]
           }
         ]
       }
