@@ -55,7 +55,7 @@ def hledej(dotaz: str) -> list[dict]:
 # Kuchyňské zkratky z jídelního lístku → čitelný text.
 # Aplikují se po sjednocení mezer, takže "syp ." i "syp." padnou do stejného vzoru.
 ZKRATKY = [
-    (r"\bm[áa]s\.?\s*maš\.?", "s máslem, mačkané"),
+    (r"\bm[áa]s\.?\s*maš\.?", "máslem maštěné"),
     (r"\bsyp\.\s*",           "sypané "),
     (r"\bdrožd\.\s*",         "droždovými "),
     (r"\bluštěni\.\s*",       "luštěninovými "),

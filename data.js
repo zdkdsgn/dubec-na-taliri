@@ -9,7 +9,7 @@
 window.MENU_DATA = {
   meta: {
     school: "MŠ & ZŠ Dubeč",
-    updated: "2026-09-16T11:15:12+02:00",
+    updated: "2026-09-17T11:18:30+02:00",
     week: "2026-09-01 – 2026-09-25",
     sources: {
       zs: "https://www.jidelna.cz/jidelni-listek/?jidelna=47",
@@ -247,7 +247,7 @@ window.MENU_DATA = {
     "2026-09-15": {
       zs: [
           {"c": "polevka", "n": "Zeleninová se sýrem, svítkem", "d": "", "a": [1, 3, 7, 9]},
-          {"c": "obed", "n": "Filet sumečka", "d": "Brambory s pažitkou s máslem, mačkané · Zelenina – dresink · Ovocný čaj, mléčný koktejl", "a": [3, 4, 7, 8, 10], "p": [{"l": "Jídlo", "n": "Filet sumečka", "a": [4]}, {"l": "Příloha", "n": "Brambory s pažitkou s máslem, mačkané", "a": [7]}, {"l": "Doplněk", "n": "Zelenina – dresink", "a": [3, 7, 10]}, {"l": "Nápoj", "n": "Ovocný čaj, mléčný koktejl", "a": [7, 8]}]},
+          {"c": "obed", "n": "Filet sumečka", "d": "Brambory s pažitkou máslem maštěné · Zelenina – dresink · Ovocný čaj, mléčný koktejl", "a": [3, 4, 7, 8, 10], "p": [{"l": "Jídlo", "n": "Filet sumečka", "a": [4]}, {"l": "Příloha", "n": "Brambory s pažitkou máslem maštěné", "a": [7]}, {"l": "Doplněk", "n": "Zelenina – dresink", "a": [3, 7, 10]}, {"l": "Nápoj", "n": "Ovocný čaj, mléčný koktejl", "a": [7, 8]}]},
           {"c": "obed2", "n": "Rýžový nákyp s ovocem", "d": "Zelenina – dresink · Ovocný čaj, mléčný koktejl", "a": [3, 7, 8, 10], "p": [{"l": "Jídlo", "n": "Rýžový nákyp s ovocem", "a": [3, 7]}, {"l": "Doplněk", "n": "Zelenina – dresink", "a": [3, 7, 10]}, {"l": "Nápoj", "n": "Ovocný čaj, mléčný koktejl", "a": [7, 8]}]}
         ],
       vydej: {
@@ -268,7 +268,7 @@ window.MENU_DATA = {
       zs: [
           {"c": "polevka", "n": "Krémová mrkvová polévka", "d": "", "a": [7]},
           {"c": "obed", "n": "Špagety se sušenými rajčaty, sypané sýrem", "d": "Jogurt s musli (cereálie – čokoláda – kokos) · Čaj, mléko", "a": [1, 7], "p": [{"l": "Jídlo", "n": "Špagety se sušenými rajčaty, sypané sýrem", "a": [1, 7]}, {"l": "Doplněk", "n": "Jogurt s musli (cereálie – čokoláda – kokos)", "a": [1, 7]}, {"l": "Nápoj", "n": "Čaj, mléko", "a": [7]}]},
-          {"c": "obed2", "n": "Květákový mozeček", "d": "Brambory s máslem, mačkané · Jogurt s musli (cereálie – čokoláda – kokos) · Čaj, mléko", "a": [1, 3, 7], "p": [{"l": "Jídlo", "n": "Květákový mozeček", "a": [3, 7]}, {"l": "Příloha", "n": "Brambory s máslem, mačkané", "a": [7]}, {"l": "Doplněk", "n": "Jogurt s musli (cereálie – čokoláda – kokos)", "a": [1, 7]}, {"l": "Nápoj", "n": "Čaj, mléko", "a": [7]}]}
+          {"c": "obed2", "n": "Květákový mozeček", "d": "Brambory máslem maštěné · Jogurt s musli (cereálie – čokoláda – kokos) · Čaj, mléko", "a": [1, 3, 7], "p": [{"l": "Jídlo", "n": "Květákový mozeček", "a": [3, 7]}, {"l": "Příloha", "n": "Brambory máslem maštěné", "a": [7]}, {"l": "Doplněk", "n": "Jogurt s musli (cereálie – čokoláda – kokos)", "a": [1, 7]}, {"l": "Nápoj", "n": "Čaj, mléko", "a": [7]}]}
         ],
       vydej: {
         zs: "11:30–13:45"
@@ -277,7 +277,7 @@ window.MENU_DATA = {
     "2026-09-18": {
       zs: [
           {"c": "polevka", "n": "Čočková", "d": "", "a": []},
-          {"c": "obed", "n": "Smetanové karbanátky", "d": "Bramborová kaše s máslem, mačkané · Okurkový salát · Čaj, mléko", "a": [1, 3, 7], "p": [{"l": "Jídlo", "n": "Smetanové karbanátky", "a": [1, 3, 7]}, {"l": "Příloha", "n": "Bramborová kaše s máslem, mačkané", "a": [7]}, {"l": "Doplněk", "n": "Okurkový salát", "a": []}, {"l": "Nápoj", "n": "Čaj, mléko", "a": [7]}]},
+          {"c": "obed", "n": "Smetanové karbanátky", "d": "Bramborová kaše máslem maštěné · Okurkový salát · Čaj, mléko", "a": [1, 3, 7], "p": [{"l": "Jídlo", "n": "Smetanové karbanátky", "a": [1, 3, 7]}, {"l": "Příloha", "n": "Bramborová kaše máslem maštěné", "a": [7]}, {"l": "Doplněk", "n": "Okurkový salát", "a": []}, {"l": "Nápoj", "n": "Čaj, mléko", "a": [7]}]},
           {"c": "obed2", "n": "Kuskus se zeleninou, sypané sýrem", "d": "Okurkový salát · Čaj, mléko", "a": [1, 7], "p": [{"l": "Jídlo", "n": "Kuskus se zeleninou, sypané sýrem", "a": [1, 7]}, {"l": "Doplněk", "n": "Okurkový salát", "a": []}, {"l": "Nápoj", "n": "Čaj, mléko", "a": [7]}]}
         ],
       vydej: {
