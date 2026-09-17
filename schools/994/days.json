@@ -7334,5 +7334,241 @@
         ]
       }
     }
+  },
+  "2026-10-21": {
+    "skupiny": {
+      "ms": {
+        "vydej": "11:00–14:00",
+        "chody": [
+          {
+            "c": "presnidavka",
+            "n": "Grahamový chléb, budapešťská pomazánka",
+            "d": "Čerstvé mléko",
+            "a": [
+              1,
+              7
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Grahamový chléb, budapešťská pomazánka",
+                "a": [
+                  1,
+                  7
+                ]
+              },
+              {
+                "l": "Nápoj",
+                "n": "Čerstvé mléko",
+                "a": [
+                  7
+                ]
+              }
+            ]
+          },
+          {
+            "c": "polevka",
+            "n": "Hovězí vývar s masem a nudlemi",
+            "d": "",
+            "a": [
+              1,
+              3,
+              9
+            ]
+          },
+          {
+            "c": "obed",
+            "n": "Smažená treska",
+            "d": "Vařené brambory · Kompot · Čaj, vitamínový nápoj",
+            "a": [
+              1,
+              3,
+              4,
+              7
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Smažená treska",
+                "a": [
+                  1,
+                  3,
+                  4,
+                  7
+                ]
+              },
+              {
+                "l": "Příloha",
+                "n": "Vařené brambory",
+                "a": [
+                  7
+                ]
+              },
+              {
+                "l": "Doplněk",
+                "n": "Kompot",
+                "a": []
+              },
+              {
+                "l": "Nápoj",
+                "n": "Čaj, vitamínový nápoj",
+                "a": []
+              }
+            ]
+          },
+          {
+            "c": "svacina",
+            "n": "Cereální pečivo, špenátová pomazánka",
+            "d": "Cherry rajče · Čaj",
+            "a": [
+              1,
+              3,
+              7,
+              11
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Cereální pečivo, špenátová pomazánka",
+                "a": [
+                  1,
+                  3,
+                  7,
+                  11
+                ]
+              },
+              {
+                "l": "Doplněk",
+                "n": "Cherry rajče",
+                "a": []
+              },
+              {
+                "l": "Nápoj",
+                "n": "Čaj",
+                "a": []
+              }
+            ]
+          }
+        ]
+      },
+      "zs": {
+        "vydej": "11:00–14:00",
+        "chody": [
+          {
+            "c": "presnidavka",
+            "n": "Grahamový chléb, budapešťská pomazánka",
+            "d": "Čerstvé mléko",
+            "a": [
+              1,
+              7
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Grahamový chléb, budapešťská pomazánka",
+                "a": [
+                  1,
+                  7
+                ]
+              },
+              {
+                "l": "Nápoj",
+                "n": "Čerstvé mléko",
+                "a": [
+                  7
+                ]
+              }
+            ]
+          },
+          {
+            "c": "polevka",
+            "n": "Hovězí vývar s masem a nudlemi",
+            "d": "",
+            "a": [
+              1,
+              3,
+              9
+            ]
+          },
+          {
+            "c": "obed",
+            "n": "Smažená treska",
+            "d": "Vařené brambory · Mrkvový salát · Čaj, vitamínový nápoj",
+            "a": [
+              1,
+              3,
+              4,
+              7
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Smažená treska",
+                "a": [
+                  1,
+                  3,
+                  4,
+                  7
+                ]
+              },
+              {
+                "l": "Příloha",
+                "n": "Vařené brambory",
+                "a": [
+                  7
+                ]
+              },
+              {
+                "l": "Doplněk",
+                "n": "Mrkvový salát",
+                "a": []
+              },
+              {
+                "l": "Nápoj",
+                "n": "Čaj, vitamínový nápoj",
+                "a": []
+              }
+            ]
+          },
+          {
+            "c": "obed2",
+            "n": "Francouzská kachní roláda",
+            "d": "Vařené brambory · Kompot · Čaj, vitamínový nápoj",
+            "a": [
+              1,
+              7,
+              9
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Francouzská kachní roláda",
+                "a": [
+                  1,
+                  9
+                ]
+              },
+              {
+                "l": "Příloha",
+                "n": "Vařené brambory",
+                "a": [
+                  7
+                ]
+              },
+              {
+                "l": "Doplněk",
+                "n": "Kompot",
+                "a": []
+              },
+              {
+                "l": "Nápoj",
+                "n": "Čaj, vitamínový nápoj",
+                "a": []
+              }
+            ]
+          }
+        ]
+      }
+    }
   }
 }

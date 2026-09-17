@@ -1296,7 +1296,7 @@
       {
         "c": "obed",
         "n": "Fazolový guláš se sojovým masem",
-        "d": "Chléb · Ovoce · Čaj",
+        "d": "Chléb · Ovoce, mléčný nápoj Kravík · Čaj",
         "a": [
           1,
           6,
@@ -1323,8 +1323,10 @@
           },
           {
             "l": "Doplněk",
-            "n": "Ovoce",
-            "a": []
+            "n": "Ovoce, mléčný nápoj Kravík",
+            "a": [
+              7
+            ]
           },
           {
             "l": "Nápoj",
@@ -1335,16 +1337,18 @@
       },
       {
         "c": "svacina",
-        "n": "Banán, mléko",
+        "n": "Slunečnicová kostka, pom.máslo, mléko",
         "d": "",
         "a": [
+          1,
           7
         ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Banán, mléko",
+            "n": "Slunečnicová kostka, pom.máslo, mléko",
             "a": [
+              1,
               7
             ]
           }
@@ -1663,6 +1667,27 @@
     "vydej": "11:00–14:00",
     "chody": [
       {
+        "c": "presnidavka",
+        "n": "Chléb, tuňáková pomazánka, zelenina, čaj",
+        "d": "",
+        "a": [
+          1,
+          4,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Chléb, tuňáková pomazánka, zelenina, čaj",
+            "a": [
+              1,
+              4,
+              7
+            ]
+          }
+        ]
+      },
+      {
         "c": "polevka",
         "n": "Pohanková",
         "d": "",
@@ -1697,12 +1722,56 @@
             "a": []
           }
         ]
+      },
+      {
+        "c": "svacina",
+        "n": "Graham, máslo, rajče, čaj",
+        "d": "",
+        "a": [
+          1,
+          6,
+          7,
+          11,
+          13
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Graham, máslo, rajče, čaj",
+            "a": [
+              1,
+              6,
+              7,
+              11,
+              13
+            ]
+          }
+        ]
       }
     ]
   },
   "2026-09-30": {
     "vydej": "11:00–14:00",
     "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Ovesná kaše banánovo-dýńová, ovoce, čaj",
+        "d": "",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Ovesná kaše banánovo-dýńová, ovoce, čaj",
+            "a": [
+              1,
+              7
+            ]
+          }
+        ]
+      },
       {
         "c": "polevka",
         "n": "Zeleninová s drožďovými noky",
@@ -1747,6 +1816,25 @@
             "l": "Nápoj",
             "n": "Čaj",
             "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Chléb, máslo, sýr, čaj",
+        "d": "",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Chléb, máslo, sýr, čaj",
+            "a": [
+              1,
+              7
+            ]
           }
         ]
       }

@@ -686,7 +686,7 @@
       {
         "c": "obed",
         "n": "Hovězí maso vařené, rajská omáčka",
-        "d": "Celozrnný houskový knedlík · Mošt, voda, mléko",
+        "d": "Celozrnný houskový knedlík · Jogurtové mléko · Mošt, voda, mléko",
         "a": [
           1,
           3,
@@ -711,6 +711,13 @@
               3,
               7,
               11
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Jogurtové mléko",
+            "a": [
+              7
             ]
           },
           {
@@ -740,22 +747,24 @@
       {
         "c": "obed",
         "n": "Krůtí maso v kuskusu",
-        "d": "Ovocík, voda, mléko",
+        "d": "Ovocík, voda, mléko, kakao",
         "a": [
           1,
-          7
+          7,
+          12
         ],
         "p": [
           {
             "l": "Jídlo",
             "n": "Krůtí maso v kuskusu",
             "a": [
-              1
+              1,
+              12
             ]
           },
           {
             "l": "Nápoj",
-            "n": "Ovocík, voda, mléko",
+            "n": "Ovocík, voda, mléko, kakao",
             "a": [
               7
             ]
@@ -780,7 +789,7 @@
       {
         "c": "obed",
         "n": "Sekaná pečeně",
-        "d": "Bramborová kaše m.m. · Ovocná šťáva, voda, mléko",
+        "d": "Bramborová kaše m.m., brokolicový salát · Ovocná šťáva, voda, mléko",
         "a": [
           1,
           3,
@@ -798,7 +807,7 @@
           },
           {
             "l": "Příloha",
-            "n": "Bramborová kaše m.m.",
+            "n": "Bramborová kaše m.m., brokolicový salát",
             "a": [
               7
             ]
@@ -829,7 +838,7 @@
       {
         "c": "obed",
         "n": "Bulgur se zeleninou ratatoulle a tofu",
-        "d": "Vitaminový nápoj, voda, mléko",
+        "d": "Mrkvový salát · Vitaminový nápoj, voda, mléko",
         "a": [
           1,
           6,
@@ -843,6 +852,11 @@
               1,
               6
             ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Mrkvový salát",
+            "a": []
           },
           {
             "l": "Nápoj",
