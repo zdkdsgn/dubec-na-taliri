@@ -2776,5 +2776,209 @@
         ]
       }
     }
+  },
+  "2026-09-28": {
+    "skupiny": {
+      "zs": {
+        "vydej": "11:30–14:00",
+        "chody": [
+          {
+            "c": "polevka",
+            "n": "Státní svátek",
+            "d": "",
+            "a": []
+          }
+        ]
+      },
+      "ms": {
+        "vydej": "11:30–12:00",
+        "chody": [
+          {
+            "c": "polevka",
+            "n": "Státní svátek",
+            "d": "",
+            "a": []
+          }
+        ]
+      }
+    }
+  },
+  "2026-09-29": {
+    "vydej": "11:30–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Brokolicový krém",
+        "d": "",
+        "a": [
+          1,
+          7
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Lososové nugety",
+        "d": "Vař.brambory · Zeleninový bar · Džus, voda s citrónem",
+        "a": [
+          1,
+          3,
+          4
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Lososové nugety",
+            "a": [
+              1,
+              3,
+              4
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Vař.brambory",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zeleninový bar",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Džus, voda s citrónem",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-09-30": {
+    "vydej": "11:30–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Drůbeží vývar s barevými písmenky",
+        "d": "",
+        "a": [
+          1,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Boloňské špagety",
+        "d": "Džus, voda s limetkou",
+        "a": [
+          1
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Boloňské špagety",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Džus, voda s limetkou",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-01": {
+    "vydej": "11:30–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Polévka zeleninová s kapáním",
+        "d": "",
+        "a": [
+          3,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Čevabčiči s hořčicí",
+        "d": "Bramborova kase · Zelenoninový bar",
+        "a": [
+          7,
+          10
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Čevabčiči s hořčicí",
+            "a": [
+              10
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Bramborova kase",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zelenoninový bar",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-02": {
+    "vydej": "11:30–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Cizrnový krém s luštěninovými nudličkami",
+        "d": "",
+        "a": [
+          1,
+          7,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Kynutý táč se švestkami",
+        "d": "Ovocný bar · Mléko, voda",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Kynutý táč se švestkami",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovocný bar",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko, voda",
+            "a": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
   }
 }

@@ -1005,14 +1005,22 @@
       },
       {
         "c": "obed",
-        "n": "Fazolovocizrnový guláš",
+        "n": "Fazole na kyselo, vejce",
         "d": "Bageta · Voda, ovocný nápoj",
-        "a": [],
+        "a": [
+          1,
+          3,
+          7
+        ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Fazolovocizrnový guláš",
-            "a": []
+            "n": "Fazole na kyselo, vejce",
+            "a": [
+              1,
+              3,
+              7
+            ]
           },
           {
             "l": "Příloha",
@@ -1138,7 +1146,7 @@
     "chody": [
       {
         "c": "presnidavka",
-        "n": "Grahamový rohlík, máslo, ovoce, vanilkový mléčný nápoj",
+        "n": "Grahamový rohlík, fruit pomazánka, ovoce, vanilkový mléčný nápoj",
         "d": "",
         "a": [
           1,
@@ -1147,7 +1155,7 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Grahamový rohlík, máslo, ovoce, vanilkový mléčný nápoj",
+            "n": "Grahamový rohlík, fruit pomazánka, ovoce, vanilkový mléčný nápoj",
             "a": [
               1,
               7

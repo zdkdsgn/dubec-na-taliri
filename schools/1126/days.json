@@ -1413,7 +1413,7 @@
     "chody": [
       {
         "c": "presnidavka",
-        "n": "Chléb s brynzovou pomazánkou",
+        "n": "Celozrnná bageta s brynzovou pomazánkou",
         "d": "Ovoce, zelenina · Špaldové mléko",
         "a": [
           1,
@@ -1422,7 +1422,7 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Chléb s brynzovou pomazánkou",
+            "n": "Celozrnná bageta s brynzovou pomazánkou",
             "a": [
               1,
               7
@@ -4353,6 +4353,307 @@
           {
             "l": "Doplněk",
             "n": "Zelenina",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-21": {
+    "vydej": "11:30–13:45",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Toastový chléb s francouzskou pomazánkou",
+        "d": "Ovoce, zelenina · Bílá káva",
+        "a": [
+          1,
+          3,
+          4,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Toastový chléb s francouzskou pomazánkou",
+            "a": [
+              1,
+              3,
+              4,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce, zelenina",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Bílá káva",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Květáková",
+        "d": "",
+        "a": [
+          1,
+          7,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Kuřecí maso, fazolky na slanině",
+        "d": "Šťouchané brambory · Šťáva",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Kuřecí maso, fazolky na slanině",
+            "a": []
+          },
+          {
+            "l": "Příloha",
+            "n": "Šťouchané brambory",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Šťáva",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "n": "Drůbeží játra na cibulce",
+        "d": "Dušená rýže · Okurek · Šťáva",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Drůbeží játra na cibulce",
+            "a": []
+          },
+          {
+            "l": "Příloha",
+            "n": "Dušená rýže",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Okurek",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Šťáva",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Chléb s pomazánkou s červené čočky",
+        "d": "Zelenina · Čaj",
+        "a": [
+          1,
+          3,
+          5,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Chléb s pomazánkou s červené čočky",
+            "a": [
+              1,
+              3,
+              5,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zelenina",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-22": {
+    "vydej": "11:30–13:45",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Celozrnný rohlík s taveným sýrem",
+        "d": "Ovove, zelenina · Cereální nápoj",
+        "a": [
+          1,
+          3,
+          6,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Celozrnný rohlík s taveným sýrem",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovove, zelenina",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Cereální nápoj",
+            "a": [
+              1,
+              6,
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Droždová s ovesnými vločkami",
+        "d": "",
+        "a": []
+      },
+      {
+        "c": "obed",
+        "n": "Vepřová pečeně, špenát",
+        "d": "Gnocchi · Ovoce · Šťáva",
+        "a": [
+          1,
+          3,
+          4,
+          6,
+          7,
+          9,
+          10,
+          11,
+          12
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Vepřová pečeně, špenát",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Gnocchi",
+            "a": [
+              1,
+              4,
+              6,
+              7,
+              9,
+              10,
+              11,
+              12
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Šťáva",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "n": "Zapékané špecle s tuňákem",
+        "d": "Okurek · Ovoce · Šťáva",
+        "a": [
+          1,
+          3,
+          4,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Zapékané špecle s tuňákem",
+            "a": [
+              1,
+              3,
+              4,
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Okurek",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Šťáva",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Chléb s pomazánkou z uzeného TOFU",
+        "d": "Ovoce, zelenina · Čaj",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Chléb s pomazánkou z uzeného TOFU",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce, zelenina",
             "a": []
           },
           {

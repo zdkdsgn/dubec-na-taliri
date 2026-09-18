@@ -1821,7 +1821,7 @@
       },
       {
         "c": "svacina",
-        "n": "Chléb, máslo, sýr, čaj",
+        "n": "Chléb, máslo, šunka, mléko",
         "d": "",
         "a": [
           1,
@@ -1830,7 +1830,7 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Chléb, máslo, sýr, čaj",
+            "n": "Chléb, máslo, šunka, mléko",
             "a": [
               1,
               7
@@ -1843,6 +1843,25 @@
   "2026-10-01": {
     "vydej": "11:00–14:00",
     "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Chia chléb, tvarohová pomazánka, zelenina, čaj",
+        "d": "",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Chia chléb, tvarohová pomazánka, zelenina, čaj",
+            "a": [
+              1,
+              7
+            ]
+          }
+        ]
+      },
       {
         "c": "polevka",
         "n": "Hovězí vývar s těstovinou",
@@ -1893,12 +1912,52 @@
             "a": []
           }
         ]
+      },
+      {
+        "c": "svacina",
+        "n": "Rohlík, pomazánkové máslo, čaj",
+        "d": "",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Rohlík, pomazánkové máslo, čaj",
+            "a": [
+              1,
+              7
+            ]
+          }
+        ]
       }
     ]
   },
   "2026-10-02": {
     "vydej": "11:00–14:00",
     "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Jogurt, kukuřičné lupínky, ovoce, čaj",
+        "d": "",
+        "a": [
+          1,
+          7,
+          8
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Jogurt, kukuřičné lupínky, ovoce, čaj",
+            "a": [
+              1,
+              7,
+              8
+            ]
+          }
+        ]
+      },
       {
         "c": "polevka",
         "n": "Bramborová",
@@ -1943,6 +2002,25 @@
             "l": "Nápoj",
             "n": "Voda s citronem",
             "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Chléb, máslo, plátkový sýr, mléko",
+        "d": "",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Chléb, máslo, plátkový sýr, mléko",
+            "a": [
+              1,
+              7
+            ]
           }
         ]
       }

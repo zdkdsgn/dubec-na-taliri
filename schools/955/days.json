@@ -1190,7 +1190,7 @@
       {
         "c": "obed",
         "n": "Kuskusoto s drůbežím masem a zeleninou sypané sýrem",
-        "d": "Starilovaný okurek · Voda, bylinkový čaj",
+        "d": "Sterilovaný okurek · Voda, bylinkový čaj",
         "a": [
           7,
           10
@@ -1205,7 +1205,7 @@
           },
           {
             "l": "Doplněk",
-            "n": "Starilovaný okurek",
+            "n": "Sterilovaný okurek",
             "a": [
               10
             ]
@@ -1272,7 +1272,7 @@
       },
       {
         "c": "obed",
-        "n": "Bramborové šišky sypané mákem přelité sýrem",
+        "n": "Bramborové šišky sypané mákem přelité máslem",
         "d": "Čerstvé ovoce · Mléko, čaj, voda",
         "a": [
           7
@@ -1280,7 +1280,7 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Bramborové šišky sypané mákem přelité sýrem",
+            "n": "Bramborové šišky sypané mákem přelité máslem",
             "a": [
               7
             ]
@@ -1323,19 +1323,21 @@
     "chody": [
       {
         "c": "presnidavka",
-        "n": "Pšenično-žitný chléb, škvrková pomazánka z pohanky, zeleninová obloha, mléko",
+        "n": "Pšenično-žitný chléb, škvarková pomazánka z pohanky, zeleninová obloha, mléko",
         "d": "",
         "a": [
           1,
-          3
+          3,
+          10
         ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Pšenično-žitný chléb, škvrková pomazánka z pohanky, zeleninová obloha, mléko",
+            "n": "Pšenično-žitný chléb, škvarková pomazánka z pohanky, zeleninová obloha, mléko",
             "a": [
               1,
-              3
+              3,
+              10
             ]
           }
         ]
@@ -1460,7 +1462,7 @@
       },
       {
         "c": "svacina",
-        "n": "Kakaový závin, čerstvé ovoce, mléko, voda",
+        "n": "Rohlík s pomazánkou z cottage sýru, zeleninová obloha, čaj",
         "d": "",
         "a": [
           1,
@@ -1469,7 +1471,7 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Kakaový závin, čerstvé ovoce, mléko, voda",
+            "n": "Rohlík s pomazánkou z cottage sýru, zeleninová obloha, čaj",
             "a": [
               1,
               7

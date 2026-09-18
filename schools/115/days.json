@@ -2195,5 +2195,65 @@
         ]
       }
     ]
+  },
+  "2026-10-22": {
+    "vydej": "11:30–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Čočková",
+        "d": "",
+        "a": [
+          1,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Kuře na paprice, těstoviny",
+        "d": "Voda, sirup",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Kuře na paprice, těstoviny",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Voda, sirup",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "n": "Hrachová kaše, vejce, okurka",
+        "d": "Voda, sirup",
+        "a": [
+          3
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Hrachová kaše, vejce, okurka",
+            "a": [
+              3
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Voda, sirup",
+            "a": []
+          }
+        ]
+      }
+    ]
   }
 }

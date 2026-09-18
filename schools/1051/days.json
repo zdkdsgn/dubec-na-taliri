@@ -1038,5 +1038,215 @@
         ]
       }
     ]
+  },
+  "2026-09-16": {
+    "vydej": "11:30–14:00",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Chléb pětizrnná švýcarka, tvarohová pomazánka s jarní cibulkou",
+        "d": "Jablko · Mléko",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Chléb pětizrnná švýcarka, tvarohová pomazánka s jarní cibulkou",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Jablko",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Valašská kyselica",
+        "d": "",
+        "a": [
+          1,
+          7
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Vepřové ražniči na plechu",
+        "d": "Šťouchaný brambor · Ledový salát · Čaj jahoda, mléko, voda s citrónem",
+        "a": [
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Vepřové ražniči na plechu",
+            "a": []
+          },
+          {
+            "l": "Příloha",
+            "n": "Šťouchaný brambor",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ledový salát",
+            "a": [
+              3
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj jahoda, mléko, voda s citrónem",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Křehký chlebíček graham, cizrnová pomazánka s žervé",
+        "d": "Kedlubna · Čaj jahoda, voda s citrónem",
+        "a": [
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Křehký chlebíček graham, cizrnová pomazánka s žervé",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Kedlubna",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj jahoda, voda s citrónem",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-09-17": {
+    "vydej": "11:30–14:00",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Ovocná miska (jablko, banán, mandarinky, hroznové víno)",
+        "d": "Kukuřičný chlebíček s lněným semínkem · Čaj zahradní směs",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Ovocná miska (jablko, banán, mandarinky, hroznové víno)",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Kukuřičný chlebíček s lněným semínkem",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj zahradní směs",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Z červené řepy",
+        "d": "",
+        "a": []
+      },
+      {
+        "c": "obed",
+        "n": "Tarhoňa se zeleninou, červenou čočkou a sýrem",
+        "d": "Míchaný zeleninový salát · Jogurt Hollandia · Čaj zahradní směs, mléko, voda s citrónem",
+        "a": [
+          1,
+          7,
+          9
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Tarhoňa se zeleninou, červenou čočkou a sýrem",
+            "a": [
+              1,
+              7,
+              9
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Míchaný zeleninový salát",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Jogurt Hollandia",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj zahradní směs, mléko, voda s citrónem",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Chléb Slovanský krajánek, sýr palouček",
+        "d": "Rajče · Mléko",
+        "a": [
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Chléb Slovanský krajánek, sýr palouček",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Rajče",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko",
+            "a": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
   }
 }

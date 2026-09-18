@@ -1373,20 +1373,111 @@
     "vydej": "11:00–14:00",
     "chody": [
       {
+        "c": "presnidavka",
+        "n": "Vločková kaše s kakaem",
+        "d": "Ovoce · Citronová voda, voda",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Vločková kaše s kakaem",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Citronová voda, voda",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Rajská s kapáním",
+        "d": "",
+        "a": [
+          1,
+          3,
+          7
+        ]
+      },
+      {
         "c": "obed",
         "n": "Sekaná",
-        "d": "Bramborový salát",
-        "a": [],
+        "d": "Bramborový salát · Ovocný čaj, voda",
+        "a": [
+          1,
+          3,
+          10,
+          12
+        ],
         "p": [
           {
             "l": "Jídlo",
             "n": "Sekaná",
-            "a": []
+            "a": [
+              1,
+              3,
+              10
+            ]
           },
           {
             "l": "Příloha",
             "n": "Bramborový salát",
+            "a": [
+              10,
+              12
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný čaj, voda",
             "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Chléb, pomazánka ze sardinek",
+        "d": "Zeleninová obloha · Mléko, voda",
+        "a": [
+          1,
+          4,
+          7,
+          10
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Chléb, pomazánka ze sardinek",
+            "a": [
+              1,
+              4,
+              7,
+              10
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zeleninová obloha",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko, voda",
+            "a": [
+              7
+            ]
           }
         ]
       }
@@ -1396,23 +1487,108 @@
     "vydej": "11:00–14:00",
     "chody": [
       {
-        "c": "obed",
-        "n": "Hovězí na žampionech",
-        "d": "Dušená rýže",
+        "c": "presnidavka",
+        "n": "Tmavý toustový chléb, celerová pomazánka",
+        "d": "Zeleninová obloha · Multivitamín, voda",
         "a": [
-          1
+          1,
+          7,
+          9,
+          10
         ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Hovězí na žampionech",
+            "n": "Tmavý toustový chléb, celerová pomazánka",
             "a": [
-              1
+              1,
+              7,
+              9,
+              10
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zeleninová obloha",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Multivitamín, voda",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Písmenková",
+        "d": "",
+        "a": [
+          1,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Svíčková na smetaně",
+        "d": "Houskový knedlík · Multivitamín, voda",
+        "a": [
+          1,
+          3,
+          7,
+          9
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Svíčková na smetaně",
+            "a": [
+              1,
+              7,
+              9
             ]
           },
           {
             "l": "Příloha",
-            "n": "Dušená rýže",
+            "n": "Houskový knedlík",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Multivitamín, voda",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Rohlík, pomazánkové máslo",
+        "d": "Ovoce · Bylinkový čaj, voda",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Rohlík, pomazánkové máslo",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Bylinkový čaj, voda",
             "a": []
           }
         ]
@@ -1423,9 +1599,9 @@
     "vydej": "11:00–14:00",
     "chody": [
       {
-        "c": "obed",
-        "n": "Zapečené těstoviny s kuřecím masem a zeleninou",
-        "d": "Salát Coleslaw",
+        "c": "presnidavka",
+        "n": "Tvaroháček, rohlík",
+        "d": "Ovoce · Lipový čaj, voda",
         "a": [
           1,
           7
@@ -1433,7 +1609,7 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Zapečené těstoviny s kuřecím masem a zeleninou",
+            "n": "Tvaroháček, rohlík",
             "a": [
               1,
               7
@@ -1441,7 +1617,86 @@
           },
           {
             "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Lipový čaj, voda",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Kapustová",
+        "d": "",
+        "a": [
+          1
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Zapečené těstoviny s uzeným masem",
+        "d": "Salát Coleslaw · Jogurtové mléko",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Zapečené těstoviny s uzeným masem",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
             "n": "Salát Coleslaw",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Jogurtové mléko",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Chléb, česneková pomazánka",
+        "d": "Zeleninová obloha · Hruškový nápoj, voda",
+        "a": [
+          1,
+          7,
+          10
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Chléb, česneková pomazánka",
+            "a": [
+              1,
+              7,
+              10
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zeleninová obloha",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Hruškový nápoj, voda",
             "a": []
           }
         ]
@@ -1452,19 +1707,96 @@
     "vydej": "11:00–14:00",
     "chody": [
       {
-        "c": "obed",
-        "n": "Křenová omáčka, uzené maso",
-        "d": "Houskový knedlík",
-        "a": [],
+        "c": "presnidavka",
+        "n": "Chléb, zeleninová pomazánka",
+        "d": "Kedlubna, okurek · Ovocný čaj, voda",
+        "a": [
+          1,
+          7,
+          10
+        ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Křenová omáčka, uzené maso",
+            "n": "Chléb, zeleninová pomazánka",
+            "a": [
+              1,
+              7,
+              10
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Kedlubna, okurek",
             "a": []
           },
           {
+            "l": "Nápoj",
+            "n": "Ovocný čaj, voda",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Zeleninová s jáhly",
+        "d": "",
+        "a": [
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Krůtí na žampionech",
+        "d": "Dušená rýže · Jablkový nápoj, voda",
+        "a": [
+          1
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Krůtí na žampionech",
+            "a": [
+              1
+            ]
+          },
+          {
             "l": "Příloha",
-            "n": "Houskový knedlík",
+            "n": "Dušená rýže",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Jablkový nápoj, voda",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Rohlík, máslo, plátkový sýr",
+        "d": "Ovoce · Pomerančový nápoj, voda",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Rohlík, máslo, plátkový sýr",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Pomerančový nápoj, voda",
             "a": []
           }
         ]
@@ -1475,9 +1807,51 @@
     "vydej": "11:00–14:00",
     "chody": [
       {
+        "c": "presnidavka",
+        "n": "Vánočka",
+        "d": "Ovoce · Mléko",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Vánočka",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Vločková",
+        "d": "",
+        "a": [
+          1,
+          9
+        ]
+      },
+      {
         "c": "obed",
         "n": "Fazolový guláš",
-        "d": "Chléb",
+        "d": "Chléb · Bylinkový čaj, voda",
         "a": [
           1
         ],
@@ -1493,6 +1867,42 @@
             "a": [
               1
             ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Bylinkový čaj, voda",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Rustikální pečivo, lučina",
+        "d": "Zeleninová obloha · Ovocný čaj, voda",
+        "a": [
+          1,
+          7,
+          11
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Rustikální pečivo, lučina",
+            "a": [
+              1,
+              7,
+              11
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zeleninová obloha",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný čaj, voda",
+            "a": []
           }
         ]
       }

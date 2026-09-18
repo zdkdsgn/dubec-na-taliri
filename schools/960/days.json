@@ -519,7 +519,7 @@
     "chody": [
       {
         "c": "polevka",
-        "n": "Celerový krém s krutóny",
+        "n": "Celerový krém s hrachem",
         "d": "",
         "a": [
           1,
@@ -614,14 +614,38 @@
     "vydej": "11:00–14:00",
     "chody": [
       {
-        "c": "obed",
-        "n": "Oběd",
+        "c": "polevka",
+        "n": "Dýňový krém s toustovým chlebem",
         "d": "",
-        "a": [],
+        "a": [
+          1,
+          7,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Zeleninové rizoto s uzeným tofu",
+        "d": "Mandarinka · Limetková voda, voda",
+        "a": [
+          6
+        ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Oběd",
+            "n": "Zeleninové rizoto s uzeným tofu",
+            "a": [
+              6
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Mandarinka",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Limetková voda, voda",
             "a": []
           }
         ]
@@ -632,14 +656,43 @@
     "vydej": "11:00–14:00",
     "chody": [
       {
-        "c": "obed",
-        "n": "Oběd",
+        "c": "polevka",
+        "n": "Vývar z kostí s drožďovým kapáním",
         "d": "",
-        "a": [],
+        "a": [
+          1,
+          3,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Vepřové výpečky, sterilované zelí",
+        "d": "Bramborový knedlík · Ovocný nápoj, voda",
+        "a": [
+          1,
+          10,
+          12
+        ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Oběd",
+            "n": "Vepřové výpečky, sterilované zelí",
+            "a": [
+              10,
+              12
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Bramborový knedlík",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný nápoj, voda",
             "a": []
           }
         ]
@@ -650,14 +703,41 @@
     "vydej": "11:00–14:00",
     "chody": [
       {
-        "c": "obed",
-        "n": "Oběd",
+        "c": "polevka",
+        "n": "Podzimní zeleninová s quinoou",
         "d": "",
-        "a": [],
+        "a": [
+          1,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Kuřecí plátek, sýrová omáčka s ninou",
+        "d": "Penne · Ovocný nápoj, voda",
+        "a": [
+          1,
+          7
+        ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Oběd",
+            "n": "Kuřecí plátek, sýrová omáčka s ninou",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Penne",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný nápoj, voda",
             "a": []
           }
         ]
@@ -668,14 +748,45 @@
     "vydej": "11:00–14:00",
     "chody": [
       {
-        "c": "obed",
-        "n": "Oběd",
+        "c": "polevka",
+        "n": "Z červené čočky s kokosovým mlékem",
         "d": "",
-        "a": [],
+        "a": [
+          1,
+          7,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Aljašská treska na byl.másle",
+        "d": "Brambory · Grilovaná zelenina · Pomerančová voda, voda",
+        "a": [
+          4,
+          7
+        ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Oběd",
+            "n": "Aljašská treska na byl.másle",
+            "a": [
+              4,
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Brambory",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Grilovaná zelenina",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Pomerančová voda, voda",
             "a": []
           }
         ]
@@ -686,15 +797,39 @@
     "vydej": "11:00–14:00",
     "chody": [
       {
-        "c": "obed",
-        "n": "Oběd",
+        "c": "polevka",
+        "n": "Gulášová z hlívy ústřičné",
         "d": "",
-        "a": [],
+        "a": [
+          1,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Jablečná žemlovka s rozinkami a skořicí",
+        "d": "Mléko, voda",
+        "a": [
+          1,
+          3,
+          7
+        ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Oběd",
-            "a": []
+            "n": "Jablečná žemlovka s rozinkami a skořicí",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko, voda",
+            "a": [
+              7
+            ]
           }
         ]
       }

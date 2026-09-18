@@ -1320,5 +1320,722 @@
         ]
       }
     ]
+  },
+  "2026-09-28": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "obed",
+        "n": "STÁTNÍ SVÁTEK",
+        "d": "",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "STÁTNÍ SVÁTEK",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-09-29": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Zeleninová s bulgurem",
+        "d": "",
+        "a": [
+          1,
+          7,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Čevabčiči, brambory, hořčice, cibule, kečup",
+        "d": "Ovoce · Černý čaj s medem",
+        "a": [
+          1,
+          3,
+          7,
+          10
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Čevabčiči, brambory, hořčice, cibule, kečup",
+            "a": [
+              1,
+              3,
+              7,
+              10
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Černý čaj s medem",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "n": "Halušky s brynzou a slaninou",
+        "d": "Ovoce · Černý čaj s medem",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Halušky s brynzou a slaninou",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Černý čaj s medem",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-09-30": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Drůbeží se zeleninou a písmenky",
+        "d": "",
+        "a": [
+          1,
+          3,
+          7,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Segedínský guláš, houskové knedlíky",
+        "d": "Ovoce · Čaj se sirupem",
+        "a": [
+          1,
+          3,
+          6,
+          7,
+          10
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Segedínský guláš, houskové knedlíky",
+            "a": [
+              1,
+              3,
+              6,
+              7,
+              10
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj se sirupem",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "n": "Bramborové gnocchi se špenátem, sýrem a smetanou",
+        "d": "Ovoce · Čaj se sirupem",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Bramborové gnocchi se špenátem, sýrem a smetanou",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj se sirupem",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-01": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Kachní krémová se zeleninou",
+        "d": "",
+        "a": [
+          1,
+          7,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Hovězí po znojemsku, basmati rýže",
+        "d": "Zeleninový raut · Ovocný čaj",
+        "a": [
+          1,
+          3,
+          12
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Hovězí po znojemsku, basmati rýže",
+            "a": [
+              1,
+              3,
+              12
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zeleninový raut",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný čaj",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "n": "Kuřecí kapsa plněná šunkou a sýrem, brambory",
+        "d": "Zeleninový raut · Ovocný čaj",
+        "a": [
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Kuřecí kapsa plněná šunkou a sýrem, brambory",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zeleninový raut",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný čaj",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-02": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Hovězí se zeleninou a bylinkovým kapáním",
+        "d": "",
+        "a": [
+          1,
+          3,
+          7,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Vepřové na smetaně, těstoviny",
+        "d": "Ovoce · Ovocný nápoj, čerstvé farmářské mléko",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Vepřové na smetaně, těstoviny",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný nápoj, čerstvé farmářské mléko",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "n": "Telecí játra na rozmarýnu, batátové hranolky",
+        "d": "Ovoce · Ovocný nápoj, čerstvé farmářské mléko",
+        "a": [
+          7,
+          10
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Telecí játra na rozmarýnu, batátové hranolky",
+            "a": [
+              7,
+              10
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný nápoj, čerstvé farmářské mléko",
+            "a": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-05": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Hráškový krém s houstičkou",
+        "d": "",
+        "a": [
+          1,
+          3,
+          6,
+          7,
+          10
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Špagety s kuřecím masem, ratattouille zeleninou, sypané mozzarellou",
+        "d": "Ovoce · Černý čaj s citrónem, ochucené mléko",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Špagety s kuřecím masem, ratattouille zeleninou, sypané mozzarellou",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Černý čaj s citrónem, ochucené mléko",
+            "a": [
+              1,
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "n": "Bramborové šišky s mákem",
+        "d": "Kompot · Černý čaj s citrónem, ochucené mléko",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Bramborové šišky s mákem",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Kompot",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Černý čaj s citrónem, ochucené mléko",
+            "a": [
+              1,
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-06": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Zeleninová s vaječnou jíškou",
+        "d": "",
+        "a": [
+          1,
+          3,
+          7,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Fazolový guláš s vepřovým masem, chléb",
+        "d": "Zeleninový raut · Ovocný čaj",
+        "a": [
+          1,
+          3,
+          6,
+          7,
+          8,
+          11
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Fazolový guláš s vepřovým masem, chléb",
+            "a": [
+              1,
+              3,
+              6,
+              7,
+              8,
+              11
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zeleninový raut",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný čaj",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "n": "Salát z černé čočky a batátů, balkánský sýr, pečivo",
+        "d": "Zeleninový raut · Ovocný čaj",
+        "a": [
+          1,
+          3,
+          7,
+          8,
+          10
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Salát z černé čočky a batátů, balkánský sýr, pečivo",
+            "a": [
+              1,
+              3,
+              7,
+              8,
+              10
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zeleninový raut",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný čaj",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-07": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Kachní vývar s máslovými noky",
+        "d": "",
+        "a": [
+          1,
+          3,
+          7,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Jemný hovězí guláš, těstoviny",
+        "d": "Ovoce · Čaj se sirupem",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Jemný hovězí guláš, těstoviny",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj se sirupem",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "n": "Kuřecí plátek s bazalkovou omáčkou, divoká rýže",
+        "d": "Ovoce · Čaj se sirupem",
+        "a": [
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Kuřecí plátek s bazalkovou omáčkou, divoká rýže",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj se sirupem",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-08": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Bramboračka s houbamí",
+        "d": "",
+        "a": [
+          1,
+          7,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Kuře ala husa, bramborové knedlíky",
+        "d": "Ovoce · Černý čaj s medem",
+        "a": [
+          1,
+          3,
+          7,
+          12
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Kuře ala husa, bramborové knedlíky",
+            "a": [
+              1,
+              3,
+              7,
+              12
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Černý čaj s medem",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "n": "Houbové rizoto sypané Cheddarem",
+        "d": "Ovoce · Černý čaj s medem",
+        "a": [
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Houbové rizoto sypané Cheddarem",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Černý čaj s medem",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-09": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Krupicová s vejci",
+        "d": "",
+        "a": [
+          1,
+          3,
+          7,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Vepřové v mrkvi, brambory",
+        "d": "Ovocný nápoj, čerstvé farmářské mléko",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Vepřové v mrkvi, brambory",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný nápoj, čerstvé farmářské mléko",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "n": "Brambory pečené s červenou řepou a kořenovou zeleninou",
+        "d": "Ovocný nápoj, čerstvé farmářské mléko",
+        "a": [
+          7,
+          9
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Brambory pečené s červenou řepou a kořenovou zeleninou",
+            "a": [
+              9
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný nápoj, čerstvé farmářské mléko",
+            "a": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
   }
 }

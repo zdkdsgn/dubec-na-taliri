@@ -2201,5 +2201,84 @@
         ]
       }
     ]
+  },
+  "2026-10-22": {
+    "vydej": "11:30–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Čočková",
+        "d": "",
+        "a": [
+          1,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Kuřecí prsa na tymiánu",
+        "d": "Bulgur · Ovoce · Čaj, mléko, voda",
+        "a": [
+          1,
+          7,
+          9
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Kuřecí prsa na tymiánu",
+            "a": [
+              1,
+              7,
+              9
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Bulgur",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj, mléko, voda",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "n": "Vaječná omeleta se špenátem",
+        "d": "Brambor · Ovoce",
+        "a": [
+          8
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Vaječná omeleta se špenátem",
+            "a": [
+              8
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Brambor",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          }
+        ]
+      }
+    ]
   }
 }

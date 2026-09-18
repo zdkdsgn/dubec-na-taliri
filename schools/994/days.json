@@ -7570,5 +7570,258 @@
         ]
       }
     }
+  },
+  "2026-10-22": {
+    "skupiny": {
+      "ms": {
+        "vydej": "11:00–14:00",
+        "chody": [
+          {
+            "c": "presnidavka",
+            "n": "Kmínový chléb, rybí pomazánka",
+            "d": "Mrkev · Bílá káva",
+            "a": [
+              1,
+              4,
+              7
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Kmínový chléb, rybí pomazánka",
+                "a": [
+                  1,
+                  4,
+                  7
+                ]
+              },
+              {
+                "l": "Doplněk",
+                "n": "Mrkev",
+                "a": []
+              },
+              {
+                "l": "Nápoj",
+                "n": "Bílá káva",
+                "a": [
+                  7
+                ]
+              }
+            ]
+          },
+          {
+            "c": "polevka",
+            "n": "Polévka zelná s bramborem",
+            "d": "",
+            "a": [
+              1,
+              9,
+              10
+            ]
+          },
+          {
+            "c": "obed",
+            "n": "Pražská hovězí pečeně",
+            "d": "Těstoviny · Zeleninový salát · Čaj, vitamínový nápoj",
+            "a": [
+              1,
+              3,
+              9,
+              10
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Pražská hovězí pečeně",
+                "a": [
+                  1,
+                  3,
+                  9
+                ]
+              },
+              {
+                "l": "Příloha",
+                "n": "Těstoviny",
+                "a": [
+                  1,
+                  3
+                ]
+              },
+              {
+                "l": "Doplněk",
+                "n": "Zeleninový salát",
+                "a": [
+                  10
+                ]
+              },
+              {
+                "l": "Nápoj",
+                "n": "Čaj, vitamínový nápoj",
+                "a": []
+              }
+            ]
+          },
+          {
+            "c": "svacina",
+            "n": "Francouzská bageta, lučinová pomazánka s koprem",
+            "d": "Salátová okurka · Čaj",
+            "a": [
+              1,
+              7
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Francouzská bageta, lučinová pomazánka s koprem",
+                "a": [
+                  1,
+                  7
+                ]
+              },
+              {
+                "l": "Doplněk",
+                "n": "Salátová okurka",
+                "a": []
+              },
+              {
+                "l": "Nápoj",
+                "n": "Čaj",
+                "a": []
+              }
+            ]
+          }
+        ]
+      },
+      "zs": {
+        "vydej": "11:00–14:00",
+        "chody": [
+          {
+            "c": "presnidavka",
+            "n": "Kmínový chléb, rybí pomazánka",
+            "d": "Mrkev · Bílá káva",
+            "a": [
+              1,
+              4,
+              7
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Kmínový chléb, rybí pomazánka",
+                "a": [
+                  1,
+                  4,
+                  7
+                ]
+              },
+              {
+                "l": "Doplněk",
+                "n": "Mrkev",
+                "a": []
+              },
+              {
+                "l": "Nápoj",
+                "n": "Bílá káva",
+                "a": [
+                  7
+                ]
+              }
+            ]
+          },
+          {
+            "c": "polevka",
+            "n": "Polévka zelná s bramborem",
+            "d": "",
+            "a": [
+              1,
+              9,
+              10
+            ]
+          },
+          {
+            "c": "obed",
+            "n": "Pražská hovězí pečeně",
+            "d": "Těstoviny · Zeleninový salát · Čaj, vitamínový nápoj",
+            "a": [
+              1,
+              3,
+              9,
+              10
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Pražská hovězí pečeně",
+                "a": [
+                  1,
+                  3,
+                  9
+                ]
+              },
+              {
+                "l": "Příloha",
+                "n": "Těstoviny",
+                "a": [
+                  1,
+                  3
+                ]
+              },
+              {
+                "l": "Doplněk",
+                "n": "Zeleninový salát",
+                "a": [
+                  10
+                ]
+              },
+              {
+                "l": "Nápoj",
+                "n": "Čaj, vitamínový nápoj",
+                "a": []
+              }
+            ]
+          },
+          {
+            "c": "obed2",
+            "n": "Zapečená brokolice se sýrem",
+            "d": "Vařené brambory · Kompot · Čaj, vitamínový nápoj",
+            "a": [
+              1,
+              3,
+              7,
+              9
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Zapečená brokolice se sýrem",
+                "a": [
+                  1,
+                  3,
+                  7,
+                  9
+                ]
+              },
+              {
+                "l": "Příloha",
+                "n": "Vařené brambory",
+                "a": [
+                  7
+                ]
+              },
+              {
+                "l": "Doplněk",
+                "n": "Kompot",
+                "a": []
+              },
+              {
+                "l": "Nápoj",
+                "n": "Čaj, vitamínový nápoj",
+                "a": []
+              }
+            ]
+          }
+        ]
+      }
+    }
   }
 }
