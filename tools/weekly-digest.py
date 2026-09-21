@@ -68,19 +68,23 @@ def main():
     registr = json.loads((ROOT / "schools" / "index.json").read_text(encoding="utf-8"))
     schools = []
     for polozka in registr:
-        soubor = ROOT / "schools" / polozka["id"] / "days.json"
-        if not soubor.exists():
-            continue
-        dny = json.loads(soubor.read_text(encoding="utf-8"))
-        souhrn = sestav_souhrn(dny, tyden)
-        if not souhrn:
-            continue
-        schools.append({
-            "id": polozka["id"],
-            "nazev": polozka.get("kratky") or polozka["nazev"],
-            "title": f"Škola na talíři · týden {nadpis_tyden}",
-            "body": souhrn,
-        })
+        try:
+            soubor = ROOT / "schools" / polozka["id"] / "days.json"
+            if not soubor.exists():
+                continue
+            dny = json.loads(soubor.read_text(encoding="utf-8"))
+            souhrn = sestav_souhrn(dny, tyden)
+            if not souhrn:
+                continue
+            schools.append({
+                "id": polozka["id"],
+                "nazev": polozka.get("kratky") or polozka["nazev"],
+                "title": f"Škola na talíři · týden {nadpis_tyden}",
+                "body": souhrn,
+            })
+        except Exception as e:
+            # Jedna vadná škola nesmí shodit souhrn pro všechny ostatní.
+            print(f"weekly-digest: přeskakuji {polozka.get('id')} ({e})", file=sys.stderr)
 
     if not schools:
         print("weekly-digest: žádná škola nemá data na příští týden, nic neposílám")
@@ -95,8 +99,10 @@ def main():
     try:
         with urlopen(req, timeout=25) as r:
             print("weekly-digest:", r.read().decode("utf-8"))
-    except (URLError, HTTPError) as e:
+    except (URLError, HTTPError, OSError) as e:
         # Souhrn není kritická část provozu – chyba tu appku nemá zastavit.
+        # OSError navíc chytí i timeouty na connectu, které urlopen občas
+        # nezabalí do URLError a jinak by spadly nezachycené (viz CI 20. 9.).
         print(f"weekly-digest: worker se nepodařilo zavolat ({e}) – necháno být", file=sys.stderr)
 
 
