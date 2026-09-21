@@ -875,6 +875,7 @@
         "a": [
           1,
           3,
+          4,
           7,
           9
         ]
@@ -2824,6 +2825,88 @@
               3,
               7
             ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-23": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Z červené čočky s bramborem",
+        "d": "",
+        "a": [
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Masové koule, rajská omáčka",
+        "d": "Houskové a vícezrnné knedlíky · Ovoce · Mléko, sirup, voda s mátou",
+        "a": [
+          1,
+          3,
+          7,
+          9
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Masové koule, rajská omáčka",
+            "a": [
+              1,
+              9
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Houskové a vícezrnné knedlíky",
+            "a": [
+              1,
+              3
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko, sirup, voda s mátou",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "n": "Špagety aglio olio sypané parmazánem",
+        "d": "Ovoce",
+        "a": [
+          1,
+          6,
+          7,
+          12
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Špagety aglio olio sypané parmazánem",
+            "a": [
+              1,
+              6,
+              7,
+              12
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
           }
         ]
       }

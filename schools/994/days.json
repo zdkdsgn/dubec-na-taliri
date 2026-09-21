@@ -7823,5 +7823,221 @@
         ]
       }
     }
+  },
+  "2026-10-23": {
+    "skupiny": {
+      "ms": {
+        "vydej": "11:00–14:00",
+        "chody": [
+          {
+            "c": "presnidavka",
+            "n": "Jáhlová kaše s vanilkou sypaná cukrem a kakaem, máslo",
+            "d": "Čaj",
+            "a": [
+              1,
+              7
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Jáhlová kaše s vanilkou sypaná cukrem a kakaem, máslo",
+                "a": [
+                  1,
+                  7
+                ]
+              },
+              {
+                "l": "Nápoj",
+                "n": "Čaj",
+                "a": []
+              }
+            ]
+          },
+          {
+            "c": "polevka",
+            "n": "Polévka frankfurtská s bramborem jemnou uzeninou",
+            "d": "",
+            "a": [
+              1,
+              7,
+              9
+            ]
+          },
+          {
+            "c": "obed",
+            "n": "Pečené kuře",
+            "d": "Dušená rýže · Kompot, ovoce · Čaj, vitamínový nápoj",
+            "a": [
+              1,
+              7,
+              9
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Pečené kuře",
+                "a": [
+                  1,
+                  9
+                ]
+              },
+              {
+                "l": "Příloha",
+                "n": "Dušená rýže",
+                "a": [
+                  7
+                ]
+              },
+              {
+                "l": "Doplněk",
+                "n": "Kompot, ovoce",
+                "a": []
+              },
+              {
+                "l": "Nápoj",
+                "n": "Čaj, vitamínový nápoj",
+                "a": []
+              }
+            ]
+          },
+          {
+            "c": "svacina",
+            "n": "Podmáslový chléb, vaječná pomazánka s pažitkou",
+            "d": "Ředkvičky · Čaj",
+            "a": [
+              1,
+              3,
+              7
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Podmáslový chléb, vaječná pomazánka s pažitkou",
+                "a": [
+                  1,
+                  3,
+                  7
+                ]
+              },
+              {
+                "l": "Doplněk",
+                "n": "Ředkvičky",
+                "a": []
+              },
+              {
+                "l": "Nápoj",
+                "n": "Čaj",
+                "a": []
+              }
+            ]
+          }
+        ]
+      },
+      "zs": {
+        "vydej": "11:00–14:00",
+        "chody": [
+          {
+            "c": "presnidavka",
+            "n": "Jáhlová kaše s vanilkou sypaná cukrem a kakaem, máslo",
+            "d": "Čaj",
+            "a": [
+              1,
+              7
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Jáhlová kaše s vanilkou sypaná cukrem a kakaem, máslo",
+                "a": [
+                  1,
+                  7
+                ]
+              },
+              {
+                "l": "Nápoj",
+                "n": "Čaj",
+                "a": []
+              }
+            ]
+          },
+          {
+            "c": "polevka",
+            "n": "Polévka frankfurtská s bramborem jemnou uzeninou",
+            "d": "",
+            "a": [
+              1,
+              7,
+              9
+            ]
+          },
+          {
+            "c": "obed",
+            "n": "Pečené kuře",
+            "d": "Dušená rýže · Kompot, ovoce · Čaj, vitamínový nápoj",
+            "a": [
+              1,
+              7,
+              9
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Pečené kuře",
+                "a": [
+                  1,
+                  9
+                ]
+              },
+              {
+                "l": "Příloha",
+                "n": "Dušená rýže",
+                "a": [
+                  7
+                ]
+              },
+              {
+                "l": "Doplněk",
+                "n": "Kompot, ovoce",
+                "a": []
+              },
+              {
+                "l": "Nápoj",
+                "n": "Čaj, vitamínový nápoj",
+                "a": []
+              }
+            ]
+          },
+          {
+            "c": "obed2",
+            "n": "Salát z kuskusu a pečené zeleniny, jogurtový dip s mátou",
+            "d": "Ovoce · Čaj, vitamínový nápoj",
+            "a": [
+              1,
+              7
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Salát z kuskusu a pečené zeleniny, jogurtový dip s mátou",
+                "a": [
+                  1,
+                  7
+                ]
+              },
+              {
+                "l": "Doplněk",
+                "n": "Ovoce",
+                "a": []
+              },
+              {
+                "l": "Nápoj",
+                "n": "Čaj, vitamínový nápoj",
+                "a": []
+              }
+            ]
+          }
+        ]
+      }
+    }
   }
 }

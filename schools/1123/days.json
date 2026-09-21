@@ -1286,7 +1286,7 @@
       },
       {
         "c": "svacina",
-        "n": "Lívanečky s ovesných vloček, caro",
+        "n": "Lívanečky z ovesných vloček, caro",
         "d": "",
         "a": [
           1,
@@ -1296,7 +1296,7 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Lívanečky s ovesných vloček, caro",
+            "n": "Lívanečky z ovesných vloček, caro",
             "a": [
               1,
               3,
@@ -1586,6 +1586,23 @@
     "vydej": "11:30–13:00",
     "chody": [
       {
+        "c": "presnidavka",
+        "n": "Chléb s máslem, zelenina, ovocný čaj",
+        "d": "",
+        "a": [
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Chléb s máslem, zelenina, ovocný čaj",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
         "c": "polevka",
         "n": "Pórkový krém",
         "d": "",
@@ -1598,7 +1615,7 @@
       {
         "c": "obed",
         "n": "Kuře na paprice",
-        "d": "Těstoviny · Voda, citrónový čaj",
+        "d": "Těstoviny, ovoce · Voda, citrónový čaj",
         "a": [
           1,
           3,
@@ -1617,7 +1634,7 @@
           },
           {
             "l": "Příloha",
-            "n": "Těstoviny",
+            "n": "Těstoviny, ovoce",
             "a": [
               1,
               3
@@ -1626,6 +1643,278 @@
           {
             "l": "Nápoj",
             "n": "Voda, citrónový čaj",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Cizrnová pomazánka, žitný chléb, čaj",
+        "d": "",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Cizrnová pomazánka, žitný chléb, čaj",
+            "a": [
+              1,
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-09-30": {
+    "vydej": "11:30–13:00",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Pražský rohlík, kakao, ovoce",
+        "d": "",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Pražský rohlík, kakao, ovoce",
+            "a": [
+              1,
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Zeleninová s kápáním",
+        "d": "",
+        "a": [
+          1,
+          3,
+          7,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Vepřové na mrkvi",
+        "d": "Brambor, ovoce · Voda, citrónový čaj",
+        "a": [
+          1,
+          9
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Vepřové na mrkvi",
+            "a": [
+              1,
+              9
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Brambor, ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Voda, citrónový čaj",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Rohlík s tvarohovou pomazánkou, paprika, ovocná šťáva",
+        "d": "",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Rohlík s tvarohovou pomazánkou, paprika, ovocná šťáva",
+            "a": [
+              1,
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-01": {
+    "vydej": "11:30–13:00",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Ovocný jogurt s rohlíkem, citrónový čaj",
+        "d": "",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Ovocný jogurt s rohlíkem, citrónový čaj",
+            "a": [
+              1,
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Hovězí vývar s celozrnnou těstovinou",
+        "d": "",
+        "a": [
+          1,
+          3,
+          7,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Hovězí roštěnka s rýží",
+        "d": "Okurkový salát · Voda, ovocný mošt",
+        "a": [
+          1,
+          7,
+          9,
+          12
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Hovězí roštěnka s rýží",
+            "a": [
+              1,
+              7,
+              9
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Okurkový salát",
+            "a": [
+              12
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Voda, ovocný mošt",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Chléb s rybí pomazánkou, okurek, mléko",
+        "d": "",
+        "a": [
+          1,
+          4,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Chléb s rybí pomazánkou, okurek, mléko",
+            "a": [
+              1,
+              4,
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-02": {
+    "vydej": "11:30–13:00",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Žitný chléb s pom. z pečené papriky, zelenina, bílá káva",
+        "d": "",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Žitný chléb s pom. z pečené papriky, zelenina, bílá káva",
+            "a": [
+              1,
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Fazolová",
+        "d": "",
+        "a": [
+          1,
+          7
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Halušky se zelím",
+        "d": "Actimel · Voda, šípkový čaj",
+        "a": [
+          1,
+          3,
+          7,
+          12
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Halušky se zelím",
+            "a": [
+              1,
+              3,
+              12
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Actimel",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Voda, šípkový čaj",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Přesnídávka s piškoty, čaj",
+        "d": "",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Přesnídávka s piškoty, čaj",
             "a": []
           }
         ]

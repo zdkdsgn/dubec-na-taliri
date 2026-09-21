@@ -2977,5 +2977,98 @@
         ]
       }
     ]
+  },
+  "2026-10-23": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Kapustová",
+        "d": "",
+        "a": [
+          1,
+          7
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Hejk v těstíčku",
+        "d": "Bramborová kaše · Zeleninový salát · Ovocný nápoj, voda, čaj",
+        "a": [
+          1,
+          3,
+          4,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Hejk v těstíčku",
+            "a": [
+              1,
+              3,
+              4,
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Bramborová kaše",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zeleninový salát",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný nápoj, voda, čaj",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "n": "Hamburská pečeně",
+        "d": "Houskové knedlíky · Ovocný nápoj, voda, čaj",
+        "a": [
+          1,
+          3,
+          7,
+          9,
+          10
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Hamburská pečeně",
+            "a": [
+              1,
+              3,
+              7,
+              9,
+              10
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Houskové knedlíky",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný nápoj, voda, čaj",
+            "a": []
+          }
+        ]
+      }
+    ]
   }
 }

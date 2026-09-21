@@ -1094,7 +1094,7 @@
       {
         "c": "obed",
         "n": "Kuřecí mls",
-        "d": "Dušená rýže s pohankou · Jablko · Mléčný koktejl",
+        "d": "Dušená rýže s pohankou · Jablko, puding · Mléčný koktejl",
         "a": [
           1,
           7
@@ -1114,8 +1114,10 @@
           },
           {
             "l": "Doplněk",
-            "n": "Jablko",
-            "a": []
+            "n": "Jablko, puding",
+            "a": [
+              7
+            ]
           },
           {
             "l": "Nápoj",
@@ -1343,57 +1345,8 @@
       },
       {
         "c": "obed",
-        "n": "Smažený kveták",
-        "d": "Brambor, dip · Okurkový salát · Džus, mléko",
-        "a": [
-          7
-        ],
-        "p": [
-          {
-            "l": "Jídlo",
-            "n": "Smažený kveták",
-            "a": []
-          },
-          {
-            "l": "Příloha",
-            "n": "Brambor, dip",
-            "a": [
-              7
-            ]
-          },
-          {
-            "l": "Doplněk",
-            "n": "Okurkový salát",
-            "a": []
-          },
-          {
-            "l": "Nápoj",
-            "n": "Džus, mléko",
-            "a": [
-              7
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  "2026-10-12": {
-    "vydej": "11:00–14:00",
-    "chody": [
-      {
-        "c": "polevka",
-        "n": "Brokolicová polévka se smaženým hráškem",
-        "d": "",
-        "a": [
-          1,
-          3,
-          7
-        ]
-      },
-      {
-        "c": "obed",
         "n": "Vepřové maso na houbách",
-        "d": "Barevné těstoviny · Zeleninový salát · Džus, mléko",
+        "d": "Barevné těstoviny · Jablko, puding · Džus, mléko",
         "a": [
           1,
           7
@@ -1415,7 +1368,57 @@
           },
           {
             "l": "Doplněk",
-            "n": "Zeleninový salát",
+            "n": "Jablko, puding",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Džus, mléko",
+            "a": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-12": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Gulášová",
+        "d": "",
+        "a": [
+          1,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Smažený květák",
+        "d": "Brambor, dip · Okurkový salát · Džus, mléko",
+        "a": [
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Smažený květák",
+            "a": []
+          },
+          {
+            "l": "Příloha",
+            "n": "Brambor, dip",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Okurkový salát",
             "a": []
           },
           {
@@ -1494,22 +1497,22 @@
       },
       {
         "c": "obed",
-        "n": "Zapečená brokolice se sýrem",
-        "d": "Brambory · Zeleninový salát · Ovocný čaj, mléko",
+        "n": "Kuřecí řízek se smetanou",
+        "d": "Bramborová kaše · Zeleninový salát · Ovocný čaj, mléko",
         "a": [
           7
         ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Zapečená brokolice se sýrem",
+            "n": "Kuřecí řízek se smetanou",
             "a": [
               7
             ]
           },
           {
             "l": "Příloha",
-            "n": "Brambory",
+            "n": "Bramborová kaše",
             "a": [
               7
             ]
@@ -1811,9 +1814,7 @@
           {
             "l": "Jídlo",
             "n": "Čočka na kyselo",
-            "a": [
-              3
-            ]
+            "a": []
           },
           {
             "l": "Příloha",
@@ -1831,6 +1832,57 @@
           {
             "l": "Nápoj",
             "n": "Džus, mléko",
+            "a": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-23": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Drubkova s rýží",
+        "d": "",
+        "a": [
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Rybí filé na másle",
+        "d": "Opečený brambor, dip · Kompot · Ovocný čaj se sirupem, mléko",
+        "a": [
+          4,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Rybí filé na másle",
+            "a": [
+              4,
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Opečený brambor, dip",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Kompot",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný čaj se sirupem, mléko",
             "a": [
               7
             ]

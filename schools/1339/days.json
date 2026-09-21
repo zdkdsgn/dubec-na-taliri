@@ -1100,7 +1100,7 @@
       {
         "c": "obed",
         "n": "Zbojnický skřivan",
-        "d": "Bramborový knedlík · Borůvkový čaj",
+        "d": "Bramborový knedlík · Ovocná tyčinka · Borůvkový čaj",
         "a": [
           1,
           3,
@@ -1122,6 +1122,11 @@
               1,
               3
             ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovocná tyčinka",
+            "a": []
           },
           {
             "l": "Nápoj",
@@ -1328,7 +1333,7 @@
     "chody": [
       {
         "c": "presnidavka",
-        "n": "Chléb, vajíčková pomazánka, paprika, okurka, sirup",
+        "n": "Chléb, vajíčková pomazánka, rajče, okurka, sirup",
         "d": "",
         "a": [
           1,
@@ -1338,7 +1343,7 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Chléb, vajíčková pomazánka, paprika, okurka, sirup",
+            "n": "Chléb, vajíčková pomazánka, rajče, okurka, sirup",
             "a": [
               1,
               3,
@@ -2812,6 +2817,390 @@
             "n": "Křupavý chléb, mozzarela, rajče, mléko",
             "a": [
               1,
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-19": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Chléb, pomazánka z červené řepy, mrkev, okurka, bílá káva",
+        "d": "",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Chléb, pomazánka z červené řepy, mrkev, okurka, bílá káva",
+            "a": [
+              1,
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Kuřecí s těstovinou",
+        "d": "",
+        "a": [
+          1,
+          3
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Fazolový guláš",
+        "d": "Chléb · Borůvkový čaj",
+        "a": [
+          1
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Fazolový guláš",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Chléb",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Borůvkový čaj",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Dalamánek s máslem a pažitkou, paprika, mléko",
+        "d": "",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Dalamánek s máslem a pažitkou, paprika, mléko",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-20": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Rohlík s džemem, hruška, mléko vanilkové",
+        "d": "",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Rohlík s džemem, hruška, mléko vanilkové",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Polévka z červené čočky",
+        "d": "",
+        "a": [
+          1
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Vepřové na kmíně",
+        "d": "Bulgur · Rajče · Mošt, citronový čaj",
+        "a": [
+          1
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Vepřové na kmíně",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Bulgur",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Rajče",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mošt, citronový čaj",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Chléb, pomazánka z cizrny, mrkev, citronový čaj",
+        "d": "",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Chléb, pomazánka z cizrny, mrkev, citronový čaj",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-21": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Pomazánka vaječná s mrkví, chléb, mrkev, paprika, borůvkový čaj",
+        "d": "",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Pomazánka vaječná s mrkví, chléb, mrkev, paprika, borůvkový čaj",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Gulášová",
+        "d": "",
+        "a": [
+          1,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Krupičná kaše",
+        "d": "Jablko · Borůvkový čaj",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Krupičná kaše",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Jablko",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Borůvkový čaj",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Cottage s rajčaty a sýrem, houska, borůvkový čaj",
+        "d": "",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Cottage s rajčaty a sýrem, houska, borůvkový čaj",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-22": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Bílý jogurt s chia semínky, rohlík déčko, banán, mléko",
+        "d": "",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Bílý jogurt s chia semínky, rohlík déčko, banán, mléko",
+            "a": [
+              1,
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Kuřecí s drobením",
+        "d": "",
+        "a": [
+          1,
+          7,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Zapečené brambory s uzeným masem",
+        "d": "Sirup",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Zapečené brambory s uzeným masem",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Sirup",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Houska s lučinou a pažitkou, okurka, mléko",
+        "d": "",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Houska s lučinou a pažitkou, okurka, mléko",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-23": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Pomazánka z tuňáka, chléb, mrkev, okurka, káva latte",
+        "d": "",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Pomazánka z tuňáka, chléb, mrkev, okurka, káva latte",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Pórková s krutony",
+        "d": "",
+        "a": [
+          1,
+          7,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Králík pečený na česneku",
+        "d": "Brambory · Broskvový čaj",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Králík pečený na česneku",
+            "a": []
+          },
+          {
+            "l": "Příloha",
+            "n": "Brambory",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Broskvový čaj",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Domácí perník, mléko",
+        "d": "",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Domácí perník, mléko",
+            "a": [
+              1,
+              3,
               7
             ]
           }

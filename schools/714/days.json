@@ -2169,7 +2169,7 @@
         "chody": [
           {
             "c": "presnidavka",
-            "n": "Bagetka světlá",
+            "n": "Bageta",
             "d": "Mrkev · Koktejl jahodový",
             "a": [
               1,
@@ -2181,7 +2181,7 @@
             "p": [
               {
                 "l": "Jídlo",
-                "n": "Bagetka světlá",
+                "n": "Bageta",
                 "a": [
                   1,
                   3,
@@ -2249,7 +2249,7 @@
         "chody": [
           {
             "c": "svacina",
-            "n": "Bagetka světlá",
+            "n": "Bageta",
             "d": "Mrkev · Koktejl jahodový",
             "a": [
               1,
@@ -2261,7 +2261,7 @@
             "p": [
               {
                 "l": "Jídlo",
-                "n": "Bagetka světlá",
+                "n": "Bageta",
                 "a": [
                   1,
                   3,
@@ -6484,6 +6484,170 @@
                 "l": "Nápoj",
                 "n": "Džus, voda",
                 "a": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "2026-10-23": {
+    "skupiny": {
+      "ms": {
+        "vydej": null,
+        "chody": [
+          {
+            "c": "presnidavka",
+            "n": "Chléb",
+            "d": "Pomazánka cottage s tuňákem · Ředkvičky · Čaj ovocný",
+            "a": [
+              1,
+              4,
+              6,
+              7
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Chléb",
+                "a": [
+                  1,
+                  6
+                ]
+              },
+              {
+                "l": "Příloha",
+                "n": "Pomazánka cottage s tuňákem",
+                "a": [
+                  4,
+                  7
+                ]
+              },
+              {
+                "l": "Doplněk",
+                "n": "Ředkvičky",
+                "a": []
+              },
+              {
+                "l": "Nápoj",
+                "n": "Čaj ovocný",
+                "a": []
+              }
+            ]
+          },
+          {
+            "c": "svacina",
+            "n": "Chlebíček rýžový",
+            "d": "Meloun · Mléko",
+            "a": [
+              7
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Chlebíček rýžový",
+                "a": []
+              },
+              {
+                "l": "Doplněk",
+                "n": "Meloun",
+                "a": []
+              },
+              {
+                "l": "Nápoj",
+                "n": "Mléko",
+                "a": [
+                  7
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "zs": {
+        "vydej": "11:00–14:00",
+        "chody": [
+          {
+            "c": "svacina",
+            "n": "Chléb",
+            "d": "Pomazánka cottage s tuňákem · Ředkvičky · Čaj, mléko",
+            "a": [
+              1,
+              4,
+              6,
+              7
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Chléb",
+                "a": [
+                  1,
+                  6
+                ]
+              },
+              {
+                "l": "Příloha",
+                "n": "Pomazánka cottage s tuňákem",
+                "a": [
+                  4,
+                  7
+                ]
+              },
+              {
+                "l": "Doplněk",
+                "n": "Ředkvičky",
+                "a": []
+              },
+              {
+                "l": "Nápoj",
+                "n": "Čaj, mléko",
+                "a": [
+                  7
+                ]
+              }
+            ]
+          },
+          {
+            "c": "polevka",
+            "n": "Kulajda",
+            "d": "",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "c": "obed",
+            "n": "Bavorské vdolečky s povidly a tvarohem",
+            "d": "Ovoce · Voda, mléko",
+            "a": [
+              1,
+              3,
+              7
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Bavorské vdolečky s povidly a tvarohem",
+                "a": [
+                  1,
+                  3,
+                  7
+                ]
+              },
+              {
+                "l": "Doplněk",
+                "n": "Ovoce",
+                "a": []
+              },
+              {
+                "l": "Nápoj",
+                "n": "Voda, mléko",
+                "a": [
+                  7
+                ]
               }
             ]
           }
