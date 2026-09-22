@@ -59,14 +59,37 @@ self.addEventListener("notificationclick", e => {
   })());
 });
 
+/* Appka samotná (HTML/CSS/JS/ikony) ať naskočí OKAMŽITĚ z cache – žádný
+   síťový round-trip před prvním vykreslením. Detekci zastaralého kódu
+   po probuzení appky z paměti řeší overVerzi() v app.js (porovnává
+   version.json), tohle na to nemá vliv – jen se v cache na pozadí
+   potichu obnoví, co bude appka chtít příště. */
+const ASSETS_ABS = new Set(ASSETS.map(p => new URL(p, self.registration.scope).href));
+
 self.addEventListener("fetch", e => {
   const req = e.request;
   if (req.method !== "GET" || new URL(req.url).origin !== location.origin) return;
 
+  const jeShell = req.mode === "navigate" || ASSETS_ABS.has(req.url);
+
+  if (jeShell) {
+    e.respondWith((async () => {
+      const cache  = await caches.open(CACHE);
+      const cached = await cache.match(req);
+      const cerstve = fetch(req, { cache: "no-store" })
+        .then(res => { if (res.ok) cache.put(req, res.clone()); return res; })
+        .catch(() => null);
+      return cached || (await cerstve) || cache.match("./index.html");
+    })());
+    return;
+  }
+
+  /* Jídelníček a ostatní data ať zůstanou network-first – tady na
+     čerstvosti záleží mnohem víc než na rychlosti prvního vykreslení.
+     cache:"no-store" je klíčové – bez něj by prohlížeč klidně vrátil
+     vlastní HTTP cache (GitHub Pages posílá Cache-Control: max-age=600)
+     a "network-first" fetch by se sítě vůbec nezeptal. */
   e.respondWith(
-    /* cache:"no-store" je tu klíčové – bez něj prohlížeč klidně vrátí
-       vlastní HTTP cache (GitHub Pages posílá Cache-Control: max-age=600)
-       a "network-first" fetch se ve skutečnosti sítě vůbec nezeptá. */
     fetch(req, { cache: "no-store" })
       .then(res => {
         if (res.ok) { const copy = res.clone(); caches.open(CACHE).then(c => c.put(req, copy)); }
