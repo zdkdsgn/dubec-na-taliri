@@ -111,16 +111,19 @@ const haptic = (ms = 8) => navigator.vibrate?.(ms);
    ať kryje appku i v té nejranější fázi, kdy ještě neběží žádný JS.
    Schováváme ho až po prvním doopravdy hotovém vykreslení dne, ne jen
    po timeoutu – ať appka nikdy neukáže na zlomek vteřiny prázdný obsah.
-   Appka na rychlém připojení/z cache umí naběhnout za pár desítek ms –
-   bez minimální doby by pak splash i s jeho animací proletěl skoro
-   neviditelně. MIN_SPLASH je vyladěná na délku jeho CSS animace
-   (viz styles.css), ať se vždy celá doehraje. */
+
+   Minimální doba zobrazení (ať animace stihne doběhnout) dává smysl
+   jen při úplně prvním/nenakešovaném spuštění, kdy appka i tak čeká na
+   síť – viz sw.js. Jakmile appku ovládá už aktivní service worker (typicky
+   od druhého spuštění dál), appka shellem z cache naběhne prakticky
+   okamžitě a vynucovat animaci navíc by jen zbytečně brzdilo otevření. */
 const MIN_SPLASH = 1150;
 function schovejSplash(){
   const el = $("#splash");
   if (!el) return;
   const skryj = () => { el.classList.add("hide"); setTimeout(() => el.remove(), 600); };
-  const zbyva = bezAnimaci() ? 0 : MIN_SPLASH - (performance.now() - appStart);
+  const nakesovano = !!navigator.serviceWorker?.controller;
+  const zbyva = (bezAnimaci() || nakesovano) ? 0 : MIN_SPLASH - (performance.now() - appStart);
   zbyva > 0 ? setTimeout(skryj, zbyva) : skryj();
 }
 /* Krátký "pop" na potvrzení přepnutí (hvězdička, push přepínač, …) –
