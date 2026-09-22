@@ -1411,9 +1411,10 @@
       {
         "c": "obed",
         "n": "Brambory zapékané se sýrem, smetanou a vejcem",
-        "d": "Čalamáda · Čaj se sirupem, voda",
+        "d": "Čalamáda · Nektarinka · Čaj se sirupem, voda",
         "a": [
           3,
+          4,
           7,
           9
         ],
@@ -1431,6 +1432,13 @@
             "n": "Čalamáda",
             "a": [
               9
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Nektarinka",
+            "a": [
+              4
             ]
           },
           {
@@ -1518,10 +1526,9 @@
       {
         "c": "obed",
         "n": "Koložvárské zelí (rýže, vepřové maso, kyselé zelí)",
-        "d": "Chléb · Nektarinka · Čaj, voda",
+        "d": "Chléb · Hruška · Čaj, voda",
         "a": [
           1,
-          4,
           7,
           11
         ],
@@ -1544,10 +1551,8 @@
           },
           {
             "l": "Doplněk",
-            "n": "Nektarinka",
-            "a": [
-              4
-            ]
+            "n": "Hruška",
+            "a": []
           },
           {
             "l": "Nápoj",
@@ -2298,7 +2303,7 @@
       },
       {
         "c": "svacina",
-        "n": "Chia rohlík, pomazánkové máslo",
+        "n": "Graham rohlík, pomazánkové máslo",
         "d": "Zeleninová miska · Čaj, voda",
         "a": [
           1,
@@ -2307,7 +2312,7 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Chia rohlík, pomazánkové máslo",
+            "n": "Graham rohlík, pomazánkové máslo",
             "a": [
               1,
               7

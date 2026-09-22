@@ -2158,7 +2158,7 @@
       },
       {
         "c": "obed",
-        "n": "Krůtí nudličky",
+        "n": "Krůtí nudličky restované",
         "d": "Rýže · Paprika · Neslazený čaj",
         "a": [
           1,
@@ -2167,7 +2167,7 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Krůtí nudličky",
+            "n": "Krůtí nudličky restované",
             "a": [
               1,
               12
@@ -3830,10 +3830,12 @@
       },
       {
         "c": "polevka",
-        "n": "Brokolicová",
+        "n": "Z rybího filé",
         "d": "",
         "a": [
-          1
+          1,
+          4,
+          12
         ]
       },
       {
@@ -3884,6 +3886,107 @@
             "a": [
               1,
               3,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-26": {
+    "vydej": "11:00–13:30",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Veka, máslo, plátkový sýr",
+        "d": "Zelenina · Melta",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Veka, máslo, plátkový sýr",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zelenina",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Melta",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Frankfurtská s bramborem",
+        "d": "",
+        "a": [
+          7,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Těstoviny se špenátem a smetanou",
+        "d": "Džus – voda",
+        "a": [
+          1,
+          4,
+          8
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Těstoviny se špenátem a smetanou",
+            "a": [
+              1,
+              4,
+              8
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Džus – voda",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Střekovský chléb, pomazánka z tuňáka",
+        "d": "Čaj",
+        "a": [
+          1,
+          3,
+          4,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Střekovský chléb, pomazánka z tuňáka",
+            "a": [
+              1,
+              3,
+              4,
               7
             ]
           },

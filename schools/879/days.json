@@ -2603,5 +2603,85 @@
         ]
       }
     ]
+  },
+  "2026-10-26": {
+    "vydej": "10:01–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Fazolová polévka",
+        "d": "",
+        "a": [
+          1,
+          3,
+          7,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Kuře na žampionech",
+        "d": "Těstoviny · Čaj, ovocný džus",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Kuře na žampionech",
+            "a": []
+          },
+          {
+            "l": "Příloha",
+            "n": "Těstoviny",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj, ovocný džus",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "n": "Vepřové na kmíně",
+        "d": "Rýže dušená · Čaj, ovocný džus",
+        "a": [
+          1,
+          3,
+          7,
+          9
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Vepřové na kmíně",
+            "a": [
+              1,
+              3,
+              7,
+              9
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Rýže dušená",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj, ovocný džus",
+            "a": []
+          }
+        ]
+      }
+    ]
   }
 }

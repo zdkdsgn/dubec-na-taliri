@@ -1515,8 +1515,8 @@
       },
       {
         "c": "svacina",
-        "n": "Toustový chléb s nutelou",
-        "d": "Ovoce · Mléko, voda",
+        "n": "Houska s taveným sýrem",
+        "d": "Zelenina · Mléko, voda",
         "a": [
           1,
           7
@@ -1524,7 +1524,7 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Toustový chléb s nutelou",
+            "n": "Houska s taveným sýrem",
             "a": [
               1,
               7
@@ -1532,7 +1532,7 @@
           },
           {
             "l": "Doplněk",
-            "n": "Ovoce",
+            "n": "Zelenina",
             "a": []
           },
           {
@@ -2694,6 +2694,56 @@
     ]
   },
   "2026-10-23": {
+    "vydej": "12:00–12:30",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Jídelníček bude upřesněn",
+        "d": "",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Jídelníček bude upřesněn",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Jídelníček bude upřesněn",
+        "d": "",
+        "a": []
+      },
+      {
+        "c": "obed",
+        "n": "Jídelníček bude upřesněn",
+        "d": "",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Jídelníček bude upřesněn",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Jídelníček bude upřesněn",
+        "d": "",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Jídelníček bude upřesněn",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-26": {
     "vydej": "12:00–12:30",
     "chody": [
       {

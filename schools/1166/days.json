@@ -1946,6 +1946,47 @@
             ]
           }
         ]
+      },
+      {
+        "c": "svacina",
+        "n": "Pom.z míchaných vajec",
+        "d": "Chleba kmínový · Ovoce · Mléko",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Pom.z míchaných vajec",
+            "a": [
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Pečivo",
+            "n": "Chleba kmínový",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko",
+            "a": [
+              7
+            ]
+          }
+        ]
       }
     ]
   },
@@ -2117,6 +2158,57 @@
             "l": "Jídlo",
             "n": "SVÁTEK",
             "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-01": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "obed",
+        "n": "Hovězí",
+        "d": "",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Hovězí",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-02": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "obed",
+        "n": "Holandký řízek",
+        "d": "Bramborová kaše",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Holandký řízek",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Bramborová kaše",
+            "a": [
+              7
+            ]
           }
         ]
       }

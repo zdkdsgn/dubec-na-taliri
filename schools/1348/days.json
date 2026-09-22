@@ -2650,8 +2650,8 @@
         "chody": [
           {
             "c": "presnidavka",
-            "n": "Chalupářský bochník s Lučinou a plátkovým sýrem",
-            "d": "Rajče · Kakao",
+            "n": "Kmínový chléb s máslem a plátkovým sýrem",
+            "d": "Jablko · Mléko",
             "a": [
               1,
               7
@@ -2659,7 +2659,7 @@
             "p": [
               {
                 "l": "Jídlo",
-                "n": "Chalupářský bochník s Lučinou a plátkovým sýrem",
+                "n": "Kmínový chléb s máslem a plátkovým sýrem",
                 "a": [
                   1,
                   7
@@ -2667,12 +2667,12 @@
               },
               {
                 "l": "Doplněk",
-                "n": "Rajče",
+                "n": "Jablko",
                 "a": []
               },
               {
                 "l": "Nápoj",
-                "n": "Kakao",
+                "n": "Mléko",
                 "a": [
                   7
                 ]
@@ -2762,8 +2762,8 @@
           },
           {
             "c": "presnidavka",
-            "n": "Chalupářský bochník/křehký plátek, tvarohová pomazánka, Lučina, plátkový sýr, máslo, F",
-            "d": "Zeleninový bar · Kakao, voda, bylinkový čaj",
+            "n": "Kmínový chléb/křehký plátek, tvarohová pomazánka, Lučina, plátkový sýr, máslo, Flora",
+            "d": "Ovocný bar · Kakao, voda, bylinkový čaj",
             "a": [
               1,
               7
@@ -2771,7 +2771,7 @@
             "p": [
               {
                 "l": "Jídlo",
-                "n": "Chalupářský bochník/křehký plátek, tvarohová pomazánka, Lučina, plátkový sýr, máslo, F",
+                "n": "Kmínový chléb/křehký plátek, tvarohová pomazánka, Lučina, plátkový sýr, máslo, Flora",
                 "a": [
                   1,
                   7
@@ -2779,7 +2779,7 @@
               },
               {
                 "l": "Doplněk",
-                "n": "Zeleninový bar",
+                "n": "Ovocný bar",
                 "a": []
               },
               {
@@ -2812,5 +2812,309 @@
         ]
       }
     ]
+  },
+  "2026-10-01": {
+    "skupiny": {
+      "ms": {
+        "vydej": null,
+        "chody": [
+          {
+            "c": "presnidavka",
+            "n": "Grahamový rohlík s makrelovou pomazánkou",
+            "d": "Paprika · Kakao",
+            "a": [
+              1,
+              4,
+              7
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Grahamový rohlík s makrelovou pomazánkou",
+                "a": [
+                  1,
+                  4,
+                  7
+                ]
+              },
+              {
+                "l": "Doplněk",
+                "n": "Paprika",
+                "a": []
+              },
+              {
+                "l": "Nápoj",
+                "n": "Kakao",
+                "a": [
+                  7
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "zs": {
+        "vydej": "11:00–13:30",
+        "chody": [
+          {
+            "c": "polevka",
+            "n": "Kmínová s vajíčkem",
+            "d": "",
+            "a": [
+              3,
+              9
+            ]
+          },
+          {
+            "c": "obed",
+            "n": "Hrachová kaše s uzeným masem",
+            "d": "Chalupářský bochník · Okurek · Ovocný fresh s vodou",
+            "a": [
+              1
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Hrachová kaše s uzeným masem",
+                "a": []
+              },
+              {
+                "l": "Příloha",
+                "n": "Chalupářský bochník",
+                "a": [
+                  1
+                ]
+              },
+              {
+                "l": "Doplněk",
+                "n": "Okurek",
+                "a": []
+              },
+              {
+                "l": "Nápoj",
+                "n": "Ovocný fresh s vodou",
+                "a": []
+              }
+            ]
+          },
+          {
+            "c": "svacina",
+            "n": "Žitná bulka se smetanovým sýrem",
+            "d": "Ovoce · Mléko",
+            "a": [
+              1,
+              6,
+              7
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Žitná bulka se smetanovým sýrem",
+                "a": [
+                  1,
+                  6,
+                  7
+                ]
+              },
+              {
+                "l": "Doplněk",
+                "n": "Ovoce",
+                "a": []
+              },
+              {
+                "l": "Nápoj",
+                "n": "Mléko",
+                "a": [
+                  7
+                ]
+              }
+            ]
+          },
+          {
+            "c": "presnidavka",
+            "n": "Grahamový rohlík/žitná bulka, makrelová pomazánka, tavený sýr, tradiční pomazánkové, má",
+            "d": "Zeleninový bar · Kakao, bylinkový čaj, voda s ovocem",
+            "a": [
+              1,
+              4,
+              6,
+              7
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Grahamový rohlík/žitná bulka, makrelová pomazánka, tavený sýr, tradiční pomazánkové, má",
+                "a": [
+                  1,
+                  4,
+                  6,
+                  7
+                ]
+              },
+              {
+                "l": "Doplněk",
+                "n": "Zeleninový bar",
+                "a": []
+              },
+              {
+                "l": "Nápoj",
+                "n": "Kakao, bylinkový čaj, voda s ovocem",
+                "a": [
+                  7
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "2026-10-02": {
+    "skupiny": {
+      "ms": {
+        "vydej": null,
+        "chody": [
+          {
+            "c": "presnidavka",
+            "n": "Veletržní bageta s fazolovou pomazánkou",
+            "d": "Okurka · Ovocný čaj",
+            "a": [
+              1,
+              7,
+              11
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Veletržní bageta s fazolovou pomazánkou",
+                "a": [
+                  1,
+                  7,
+                  11
+                ]
+              },
+              {
+                "l": "Doplněk",
+                "n": "Okurka",
+                "a": []
+              },
+              {
+                "l": "Nápoj",
+                "n": "Ovocný čaj",
+                "a": []
+              }
+            ]
+          }
+        ]
+      },
+      "zs": {
+        "vydej": "11:00–13:30",
+        "chody": [
+          {
+            "c": "polevka",
+            "n": "Bramboračka s houbami",
+            "d": "",
+            "a": [
+              9
+            ]
+          },
+          {
+            "c": "obed",
+            "n": "Americké kotlety",
+            "d": "Bramborová kaše · Ovocný bar · Voda s ovocem",
+            "a": [
+              7,
+              10
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Americké kotlety",
+                "a": [
+                  10
+                ]
+              },
+              {
+                "l": "Příloha",
+                "n": "Bramborová kaše",
+                "a": [
+                  7
+                ]
+              },
+              {
+                "l": "Doplněk",
+                "n": "Ovocný bar",
+                "a": []
+              },
+              {
+                "l": "Nápoj",
+                "n": "Voda s ovocem",
+                "a": []
+              }
+            ]
+          },
+          {
+            "c": "svacina",
+            "n": "Ovocné pyré s piškoty",
+            "d": "Mléko",
+            "a": [
+              1,
+              3,
+              7
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Ovocné pyré s piškoty",
+                "a": [
+                  1,
+                  3
+                ]
+              },
+              {
+                "l": "Nápoj",
+                "n": "Mléko",
+                "a": [
+                  7
+                ]
+              }
+            ]
+          },
+          {
+            "c": "presnidavka",
+            "n": "Veletržní bageta/slunečnicový chléb, fazolová pomazánka, Žervé, máslo, Flora",
+            "d": "Ovocný talíř · Ovocný čaj, voda s citronem, mléko",
+            "a": [
+              1,
+              7,
+              11
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Veletržní bageta/slunečnicový chléb, fazolová pomazánka, Žervé, máslo, Flora",
+                "a": [
+                  1,
+                  7,
+                  11
+                ]
+              },
+              {
+                "l": "Doplněk",
+                "n": "Ovocný talíř",
+                "a": []
+              },
+              {
+                "l": "Nápoj",
+                "n": "Ovocný čaj, voda s citronem, mléko",
+                "a": [
+                  7
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
   }
 }

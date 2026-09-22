@@ -1483,7 +1483,7 @@
       {
         "c": "obed",
         "n": "Tilapie se sýrem",
-        "d": "Vařené brambory s pažitkou · Ovocný čaj, voda se sirupem, voda s citronem",
+        "d": "Vařené brambory s pažitkou · Školáci- jablko · Ovocný čaj, voda se sirupem, voda s citronem",
         "a": [
           3,
           4,
@@ -1505,6 +1505,11 @@
             "a": [
               7
             ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Školáci- jablko",
+            "a": []
           },
           {
             "l": "Nápoj",
@@ -1601,9 +1606,10 @@
       {
         "c": "obed",
         "n": "Buřt guláš, chléb",
-        "d": "Školáci-výlet, müsli tyčinka, pitíčko Kubík, banán · Mléko, ovocný čaj, voda",
+        "d": "Školáci-výlet, müsli tyčinka, pitíčko Kubík, banán, koláč · Ovocný čaj, voda s citronem, ovocná šťáva",
         "a": [
           1,
+          3,
           7
         ],
         "p": [
@@ -1611,29 +1617,30 @@
             "l": "Jídlo",
             "n": "Buřt guláš, chléb",
             "a": [
-              1
+              1,
+              7
             ]
           },
           {
             "l": "Doplněk",
-            "n": "Školáci-výlet, müsli tyčinka, pitíčko Kubík, banán",
+            "n": "Školáci-výlet, müsli tyčinka, pitíčko Kubík, banán, koláč",
             "a": [
-              1
+              1,
+              3,
+              7
             ]
           },
           {
             "l": "Nápoj",
-            "n": "Mléko, ovocný čaj, voda",
-            "a": [
-              7
-            ]
+            "n": "Ovocný čaj, voda s citronem, ovocná šťáva",
+            "a": []
           }
         ]
       },
       {
         "c": "svacina",
         "n": "Koláč s mlékem",
-        "d": "Broskev · Mléko, ovocný čaj, ovocná šťáva, voda",
+        "d": "Broskev, nektarinka · Mléko, ovocný čaj, ovocná šťáva, voda",
         "a": [
           1,
           7
@@ -1649,7 +1656,7 @@
           },
           {
             "l": "Doplněk",
-            "n": "Broskev",
+            "n": "Broskev, nektarinka",
             "a": []
           },
           {
@@ -1982,6 +1989,461 @@
           {
             "l": "Nápoj",
             "n": "Mléko, ovocná šťáva, voda s citronem",
+            "a": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-09-28": {
+    "vydej": "11:00–13:00",
+    "chody": [
+      {
+        "c": "obed",
+        "n": "STÁTNÍ SVÁTEK, NEVAŘÍ SE!",
+        "d": "",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "STÁTNÍ SVÁTEK, NEVAŘÍ SE!",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-09-29": {
+    "vydej": "11:00–13:00",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Chléb Fit, vajíčková pomazánka",
+        "d": "Kapie, rajče · Mléko, čaj, voda s citronem, ovocná štˇáva",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Chléb Fit, vajíčková pomazánka",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Kapie, rajče",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko, čaj, voda s citronem, ovocná štˇáva",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Kuřecí vývar s bylinkovými noky",
+        "d": "",
+        "a": [
+          1,
+          3,
+          7,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Čína s krůtím masem",
+        "d": "Dušená rýže · Ovocná šťáva, voda s citronem, čaj",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Čína s krůtím masem",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Dušená rýže",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocná šťáva, voda s citronem, čaj",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Termix, rohlík",
+        "d": "Hruška, jablko · Mléko, ovocná šťáva, voda s citronem, čaj",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Termix, rohlík",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Hruška, jablko",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko, ovocná šťáva, voda s citronem, čaj",
+            "a": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-09-30": {
+    "vydej": "11:00–13:00",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Pizza barbecue",
+        "d": "Rajče · Ovocný čaj, voda s citronem, ovocná šťáva, mléko",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Pizza barbecue",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Rajče",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný čaj, voda s citronem, ovocná šťáva, mléko",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Gulášová s uzeninou, chléb",
+        "d": "",
+        "a": [
+          1,
+          7
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Buchtičky se šodó",
+        "d": "Čaj, voda s citronem, sirup",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Buchtičky se šodó",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj, voda s citronem, sirup",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Grahámek s taveným sýrem",
+        "d": "Broskev, švestka · Mléko, čaj, voda s citronem, ovocná štˇáva",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Grahámek s taveným sýrem",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Broskev, švestka",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko, čaj, voda s citronem, ovocná štˇáva",
+            "a": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-01": {
+    "vydej": "11:00–13:00",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Hermelínová pomazánka, chléb Zlaťák",
+        "d": "Kapie · Ochucené mléko, čaj, voda se sirupem, ovocná šťáva",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Hermelínová pomazánka, chléb Zlaťák",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Kapie",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ochucené mléko, čaj, voda se sirupem, ovocná šťáva",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Hovězí vývar s rýží",
+        "d": "",
+        "a": [
+          7
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Plněné bramborové knedlíky uzeným, zelí",
+        "d": "Voda se sirupem, čaj, voda s citronem",
+        "a": [
+          1,
+          3
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Plněné bramborové knedlíky uzeným, zelí",
+            "a": [
+              1,
+              3
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Voda se sirupem, čaj, voda s citronem",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Ovocné smoothie",
+        "d": "Piškoty · Mléko, čaj, voda s citronem, ovocná štˇáva",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Ovocné smoothie",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Piškoty",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko, čaj, voda s citronem, ovocná štˇáva",
+            "a": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-02": {
+    "vydej": "11:00–13:00",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Celozrnná bageta s máslem, plátkový sýr",
+        "d": "Kapie, okurka · Kakao, čaj, ovocná šťáva, voda s citronem",
+        "a": [
+          1,
+          3,
+          7,
+          11
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Celozrnná bageta s máslem, plátkový sýr",
+            "a": [
+              1,
+              3,
+              7,
+              11
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Kapie, okurka",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Kakao, čaj, ovocná šťáva, voda s citronem",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Rajčatová s tarhoňou",
+        "d": "",
+        "a": [
+          1,
+          7
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Zapečené těstoviny s cuketou a mletým masem",
+        "d": "Salát · Ovocný čaj, voda s citronem, ovocná šťáva",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Zapečené těstoviny s cuketou a mletým masem",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Salát",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný čaj, voda s citronem, ovocná šťáva",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Jablečná kapsa, mléko",
+        "d": "Jablko · Mléko, čaj, ovocná šťáva, voda",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Jablečná kapsa, mléko",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Jablko",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko, čaj, ovocná šťáva, voda",
             "a": [
               7
             ]

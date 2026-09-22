@@ -2514,7 +2514,7 @@
         "chody": [
           {
             "c": "presnidavka",
-            "n": "Kaiserka tmavá",
+            "n": "Kaiserka",
             "d": "Sýr mazurský · Ledový salát · Mléko",
             "a": [
               1,
@@ -2525,7 +2525,7 @@
             "p": [
               {
                 "l": "Jídlo",
-                "n": "Kaiserka tmavá",
+                "n": "Kaiserka",
                 "a": [
                   1,
                   6,
@@ -2602,7 +2602,7 @@
         "chody": [
           {
             "c": "svacina",
-            "n": "Kaiserka tmavá",
+            "n": "Kaiserka",
             "d": "Sýr mazurský · Ledový salát · Mléko, džus",
             "a": [
               1,
@@ -2613,7 +2613,7 @@
             "p": [
               {
                 "l": "Jídlo",
-                "n": "Kaiserka tmavá",
+                "n": "Kaiserka",
                 "a": [
                   1,
                   6,
@@ -6654,5 +6654,49 @@
         ]
       }
     }
+  },
+  "2026-10-26": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Hrachová",
+        "d": "",
+        "a": [
+          1
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Krůtí maso po Thajsku",
+        "d": "Rýžové těstoviny · Ovoce",
+        "a": [
+          1,
+          6,
+          9
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Krůtí maso po Thajsku",
+            "a": [
+              1,
+              6,
+              9
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Rýžové těstoviny",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          }
+        ]
+      }
+    ]
   }
 }

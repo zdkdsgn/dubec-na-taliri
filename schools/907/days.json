@@ -2700,23 +2700,21 @@
       },
       {
         "c": "svacina",
-        "n": "Skořicové cereálie",
+        "n": "Rohlík, perla, džem",
         "d": "Ovoce · Čaj, mléko",
         "a": [
           1,
           3,
-          7,
-          8
+          7
         ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Skořicové cereálie",
+            "n": "Rohlík, perla, džem",
             "a": [
               1,
               3,
-              7,
-              8
+              7
             ]
           },
           {
@@ -2738,21 +2736,23 @@
     "chody": [
       {
         "c": "presnidavka",
-        "n": "Jahodový pudink s piškoty",
+        "n": "Cereálie",
         "d": "Ovoce · Čaj, mléko",
         "a": [
           1,
           3,
-          7
+          7,
+          8
         ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Jahodový pudink s piškoty",
+            "n": "Cereálie",
             "a": [
               1,
               3,
-              7
+              7,
+              8
             ]
           },
           {
@@ -2804,7 +2804,7 @@
       },
       {
         "c": "svacina",
-        "n": "Chléb, pomazánka vaječná",
+        "n": "Chléb, pomazánkové máslo",
         "d": "Zelenina · Čaj, mléko",
         "a": [
           1,
@@ -2814,7 +2814,7 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Chléb, pomazánka vaječná",
+            "n": "Chléb, pomazánkové máslo",
             "a": [
               1,
               3,
@@ -3875,6 +3875,104 @@
           {
             "l": "Jídlo",
             "n": "Knuspi, pomazánkové máslo, sýr",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj, mléko",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-26": {
+    "vydej": "11:50–13:45",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Rohlík, pomazánka rybí",
+        "d": "Zelenina · Čaj, mléko",
+        "a": [
+          1,
+          3,
+          5,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Rohlík, pomazánka rybí",
+            "a": [
+              1,
+              3,
+              5,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zelenina",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj, mléko",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Z červené čočky",
+        "d": "",
+        "a": []
+      },
+      {
+        "c": "obed",
+        "n": "Vepřové maso na paprice",
+        "d": "Domácí houskový knedlík s cizrnovou moukou · Čaj",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Vepřové maso na paprice",
+            "a": []
+          },
+          {
+            "l": "Příloha",
+            "n": "Domácí houskový knedlík s cizrnovou moukou",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Chléb, máslo, sýr",
+        "d": "Ovoce · Čaj, mléko",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Chléb, máslo, sýr",
             "a": [
               1,
               3,

@@ -2320,5 +2320,66 @@
         ]
       }
     ]
+  },
+  "2026-10-26": {
+    "vydej": "11:30–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Hovězí vývar s kapáním",
+        "d": "",
+        "a": [
+          1,
+          3,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Chilli con carne, rýže",
+        "d": "Voda, sirup",
+        "a": [
+          1
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Chilli con carne, rýže",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Voda, sirup",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "n": "Řecký salát, toast",
+        "d": "Voda, sirup",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Řecký salát, toast",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Voda, sirup",
+            "a": []
+          }
+        ]
+      }
+    ]
   }
 }

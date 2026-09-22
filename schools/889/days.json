@@ -645,7 +645,7 @@
       {
         "c": "obed",
         "n": "Těstoviny s gril.zeleninou, sýr",
-        "d": "Ovocný čaj, voda, mléko",
+        "d": "Zeleninová obloha · Ovoce · Ovocný čaj, voda, mléko",
         "a": [
           1,
           7
@@ -658,6 +658,16 @@
               1,
               7
             ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Zeleninová obloha",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
           },
           {
             "l": "Nápoj",
@@ -902,8 +912,9 @@
       {
         "c": "obed",
         "n": "Filet ze sumečka afrického s cuketou",
-        "d": "Bramborová kaše · Ovocný čaj s citrónem, voda, mléko",
+        "d": "Bramborovo-mrkvové pyré · Ovocný čaj s citrónem, voda, mléko",
         "a": [
+          3,
           4,
           7
         ],
@@ -918,8 +929,9 @@
           },
           {
             "l": "Příloha",
-            "n": "Bramborová kaše",
+            "n": "Bramborovo-mrkvové pyré",
             "a": [
+              3,
               7
             ]
           },

@@ -705,7 +705,7 @@
       {
         "c": "obed",
         "n": "Smetanová houbová omáčka, vepřové maso",
-        "d": "Houskový knedlík · JABLKO · Černý čaj se sirupem / voda",
+        "d": "Houskový knedlík · JABLKO · Fruttanella / voda",
         "a": [
           1,
           3,
@@ -736,7 +736,7 @@
           },
           {
             "l": "Nápoj",
-            "n": "Černý čaj se sirupem / voda",
+            "n": "Fruttanella / voda",
             "a": []
           }
         ]
@@ -748,42 +748,38 @@
     "chody": [
       {
         "c": "polevka",
-        "n": "Dýňová",
+        "n": "Zeleninová",
         "d": "",
         "a": [
           1,
-          7,
           9
         ]
       },
       {
         "c": "obed",
-        "n": "Masové rizoto se zeleninou",
-        "d": "Sypané sýrem · Zeleninový salát · Voda / ochucené mléko",
+        "n": "Krupicová kaše sypaná kakaem",
+        "d": "JABLKO · Fruttanella / mléko",
         "a": [
+          1,
           7
         ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Masové rizoto se zeleninou",
-            "a": []
-          },
-          {
-            "l": "Příloha",
-            "n": "Sypané sýrem",
+            "n": "Krupicová kaše sypaná kakaem",
             "a": [
+              1,
               7
             ]
           },
           {
             "l": "Doplněk",
-            "n": "Zeleninový salát",
+            "n": "JABLKO",
             "a": []
           },
           {
             "l": "Nápoj",
-            "n": "Voda / ochucené mléko",
+            "n": "Fruttanella / mléko",
             "a": [
               7
             ]
@@ -806,8 +802,8 @@
       },
       {
         "c": "obed",
-        "n": "Milánské špagety s masem a drcenými rajčaty",
-        "d": "Strouhaný sýr · Jogurt Bohunka · Ovocný čaj slazený/ voda",
+        "n": "Rizoto s masem a zeleninou",
+        "d": "Strouhaný sýr · Zeleninový salát · Fruttanella / mléko",
         "a": [
           1,
           7
@@ -815,7 +811,7 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Milánské špagety s masem a drcenými rajčaty",
+            "n": "Rizoto s masem a zeleninou",
             "a": [
               1
             ]
@@ -829,15 +825,15 @@
           },
           {
             "l": "Doplněk",
-            "n": "Jogurt Bohunka",
-            "a": [
-              7
-            ]
+            "n": "Zeleninový salát",
+            "a": []
           },
           {
             "l": "Nápoj",
-            "n": "Ovocný čaj slazený/ voda",
-            "a": []
+            "n": "Fruttanella / mléko",
+            "a": [
+              7
+            ]
           }
         ]
       }
@@ -857,28 +853,26 @@
       },
       {
         "c": "obed",
-        "n": "Hovězí guláš",
-        "d": "Rýžové těstoviny · BLUMA · Fruttanella / voda",
+        "n": "Milánské špagety s masem a drcenými rajčaty",
+        "d": "Sypané sýrem · Fruttanella / voda",
         "a": [
-          1
+          1,
+          7
         ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Hovězí guláš",
+            "n": "Milánské špagety s masem a drcenými rajčaty",
             "a": [
               1
             ]
           },
           {
             "l": "Příloha",
-            "n": "Rýžové těstoviny",
-            "a": []
-          },
-          {
-            "l": "Doplněk",
-            "n": "BLUMA",
-            "a": []
+            "n": "Sypané sýrem",
+            "a": [
+              7
+            ]
           },
           {
             "l": "Nápoj",

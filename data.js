@@ -9,8 +9,8 @@
 window.MENU_DATA = {
   meta: {
     school: "MŠ & ZŠ Dubeč",
-    updated: "2026-09-21T11:51:58+02:00",
-    week: "2026-09-01 – 2026-09-25",
+    updated: "2026-09-22T11:15:43+02:00",
+    week: "2026-09-01 – 2026-10-02",
     sources: {
       zs: "https://www.jidelna.cz/jidelni-listek/?jidelna=47",
       ms: "https://www.msdubec.cz/stranka-jidelnicek-45"
@@ -329,6 +329,45 @@ window.MENU_DATA = {
           {"c": "polevka", "n": "Zeleninová s těstovinou", "d": "", "a": [1, 7, 9]},
           {"c": "obed", "n": "Moravský vrabec", "d": "Brambor. knedlíky, zelí · Ovocný čaj, mléko, ochucená voda", "a": [1, 7, 10], "p": [{"l": "Jídlo", "n": "Moravský vrabec", "a": []}, {"l": "Příloha", "n": "Brambor. knedlíky, zelí", "a": [1, 10]}, {"l": "Nápoj", "n": "Ovocný čaj, mléko, ochucená voda", "a": [7]}]},
           {"c": "obed2", "n": "Zapečené brambory s cuketou a smetanou", "d": "Ovocný čaj, mléko, ochucená voda", "a": [3, 7], "p": [{"l": "Jídlo", "n": "Zapečené brambory s cuketou a smetanou", "a": [3, 7]}, {"l": "Nápoj", "n": "Ovocný čaj, mléko, ochucená voda", "a": [7]}]}
+        ],
+      vydej: {
+        zs: "11:30–13:45"
+      }
+    },
+    "2026-09-29": {
+      zs: [
+          {"c": "polevka", "n": "Vločková se zeleninou", "d": "", "a": [1, 7, 9]},
+          {"c": "obed", "n": "Obalovaná ryba (hejk)", "d": "Bramborová kaše máslem maštěné · Zelenina – dresink · Ovocný čaj, mléko, ochucená voda", "a": [1, 3, 4, 7, 10], "p": [{"l": "Jídlo", "n": "Obalovaná ryba (hejk)", "a": [1, 3, 4, 7]}, {"l": "Příloha", "n": "Bramborová kaše máslem maštěné", "a": [7]}, {"l": "Doplněk", "n": "Zelenina – dresink", "a": [3, 7, 10]}, {"l": "Nápoj", "n": "Ovocný čaj, mléko, ochucená voda", "a": [7]}]}
+        ],
+      vydej: {
+        zs: "11:30–13:45"
+      }
+    },
+    "2026-09-30": {
+      zs: [
+          {"c": "polevka", "n": "Vývar se špaldovými knedlíčky", "d": "", "a": [1, 3, 7, 9]},
+          {"c": "obed", "n": "Hovězí guláš znojemský", "d": "Rýže · Ovoce · Čaj, mléčný koktejl, voda", "a": [7, 8], "p": [{"l": "Jídlo", "n": "Hovězí guláš znojemský", "a": []}, {"l": "Příloha", "n": "Rýže", "a": []}, {"l": "Doplněk", "n": "Ovoce", "a": []}, {"l": "Nápoj", "n": "Čaj, mléčný koktejl, voda", "a": [7, 8]}]},
+          {"c": "obed2", "n": "Zeleninový salát s chia semínky", "d": "Kukuřičný chlebíček · Ovoce · Čaj, mléčný koktejl, voda", "a": [7, 8, 10], "p": [{"l": "Jídlo", "n": "Zeleninový salát s chia semínky", "a": [10]}, {"l": "Příloha", "n": "Kukuřičný chlebíček", "a": []}, {"l": "Doplněk", "n": "Ovoce", "a": []}, {"l": "Nápoj", "n": "Čaj, mléčný koktejl, voda", "a": [7, 8]}]}
+        ],
+      vydej: {
+        zs: "11:30–13:45"
+      }
+    },
+    "2026-10-01": {
+      zs: [
+          {"c": "polevka", "n": "Porková", "d": "", "a": [1, 3, 7]},
+          {"c": "obed", "n": "Perlový kuskus se zeleninou a sýrem", "d": "Ovocný jogurt · Ovocný čaj, mléko, ochucená voda", "a": [1, 7], "p": [{"l": "Jídlo", "n": "Perlový kuskus se zeleninou a sýrem", "a": [1, 7]}, {"l": "Doplněk", "n": "Ovocný jogurt", "a": [7]}, {"l": "Nápoj", "n": "Ovocný čaj, mléko, ochucená voda", "a": [7]}]},
+          {"c": "obed2", "n": "Kuřecí játra na cibulce", "d": "Brambory · Ovocný jogurt · Ovocný čaj, mléko, ochucená voda", "a": [7], "p": [{"l": "Jídlo", "n": "Kuřecí játra na cibulce", "a": []}, {"l": "Příloha", "n": "Brambory", "a": []}, {"l": "Doplněk", "n": "Ovocný jogurt", "a": [7]}, {"l": "Nápoj", "n": "Ovocný čaj, mléko, ochucená voda", "a": [7]}]}
+        ],
+      vydej: {
+        zs: "11:30–13:45"
+      }
+    },
+    "2026-10-02": {
+      zs: [
+          {"c": "polevka", "n": "Z červené čočky a kari", "d": "", "a": [7]},
+          {"c": "obed", "n": "Krůtí medailonky", "d": "Smetanové brambory – ledový salátek · Čaj, mléko", "a": [7], "p": [{"l": "Jídlo", "n": "Krůtí medailonky", "a": []}, {"l": "Příloha", "n": "Smetanové brambory – ledový salátek", "a": [7]}, {"l": "Nápoj", "n": "Čaj, mléko", "a": [7]}]},
+          {"c": "obed2", "n": "Špecle se zeleninou", "d": "Čaj, mléko", "a": [1, 3, 7], "p": [{"l": "Jídlo", "n": "Špecle se zeleninou", "a": [1, 3]}, {"l": "Nápoj", "n": "Čaj, mléko", "a": [7]}]}
         ],
       vydej: {
         zs: "11:30–13:45"
