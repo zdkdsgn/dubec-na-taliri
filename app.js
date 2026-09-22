@@ -106,6 +106,22 @@ function applyTextSize(){
 
 /* ── Drobnosti ──────────────────────────────────────────────────── */
 const haptic = (ms = 8) => navigator.vibrate?.(ms);
+/* Úvodní splash je v HTML od prvního vykreslení stránky (viz index.html),
+   ať kryje appku i v té nejranější fázi, kdy ještě neběží žádný JS.
+   Schováváme ho až po prvním doopravdy hotovém vykreslení dne, ne jen
+   po timeoutu – ať appka nikdy neukáže na zlomek vteřiny prázdný obsah. */
+function schovejSplash(){
+  const el = $("#splash");
+  if (!el) return;
+  el.classList.add("hide");
+  setTimeout(() => el.remove(), 600);
+}
+/* Krátký "pop" na potvrzení přepnutí (hvězdička, push přepínač, …) –
+   jen vizuální feedback navíc k haptiku, ať přepnutí působí živěji. */
+function pop(el){
+  if (!el || bezAnimaci()) return;
+  el.classList.remove("pop"); void el.offsetWidth; el.classList.add("pop");
+}
 let toastT;
 function toast(msg){
   const el = $("#toast");
@@ -654,6 +670,7 @@ function openSheet(m, date){
     const on = S.neoblibene.has(nKey);
     this.classList.toggle("on", on);
     this.setAttribute("aria-pressed", on);
+    pop(this);
     toast(on ? "Uloženo – příště se jídlo zvýrazní" : "Odebráno z osobní poznámky");
     renderDen(); renderTyden();
   });
@@ -666,6 +683,7 @@ function openSheet(m, date){
       const aktivni = +x.dataset.r === S.rating[key];
       x.classList.toggle("on", aktivni);
       x.setAttribute("aria-pressed", aktivni);
+      if (aktivni) pop(x);
     });
     if (S.rating[key] !== undefined) toast("Uloženo do vašeho telefonu");
   }));
@@ -1060,7 +1078,7 @@ function skolaKarta(polozka, aktivni){
       toast(`Přepnuto na ${AKTIVNI.nazev}`);
     }
   });
-  $(".hvezda", row).addEventListener("click", () => prepniOblibenou(polozka));
+  $(".hvezda", row).addEventListener("click", function(){ pop(this); prepniOblibenou(polozka); });
   return row;
 }
 
@@ -1328,6 +1346,62 @@ function pripojStazeniSheetu(sh, zavri){
 }
 pripojStazeniSheetu($("#skolaSheet"), zavriSkolaSheet);
 
+/* ── Potažením dolů obnovit jídelníček (pohled Den) ─────────────────
+   Znovu stáhne data aktivní školy a zůstane na dni, který si uživatel
+   zrovna prohlíží (prepniNaSkolu by ho jinak tiše přeskočilo na
+   nejbližší školní den). */
+async function obnovitData(){
+  if (!AKTIVNI) return;
+  const drzenyDen = S.date;
+  const ok = await prepniNaSkolu(AKTIVNI);
+  if (!ok) { toast("Obnovení se nepodařilo – zkuste to znovu"); return; }
+  if (hasDay(drzenyDen, S.school)) S.date = drzenyDen;
+  renderAll();
+  toast("Jídelníček obnoven");
+}
+
+(() => {
+  const PRAH = 62, STROP = 100;
+  const ptr = $("#ptr");
+  let y0 = null, obnovuje = false;
+
+  window.addEventListener("touchstart", e => {
+    if (S.view !== "den" || obnovuje || window.scrollY > 0) { y0 = null; return; }
+    y0 = e.touches[0].clientY;
+  }, { passive:true });
+
+  window.addEventListener("touchmove", e => {
+    if (y0 === null) return;
+    const dy = e.touches[0].clientY - y0;
+    if (dy <= 0) { ptr.classList.remove("show"); return; }
+    const tazeno = Math.min(STROP, dy * .5);
+    ptr.classList.remove("snap");
+    ptr.classList.toggle("show", tazeno > 8);
+    ptr.style.transform = `translate(-50%, ${-46 + tazeno}px) scale(${.7 + .3 * Math.min(1, tazeno / PRAH)})`;
+  }, { passive:true });
+
+  window.addEventListener("touchend", e => {
+    if (y0 === null) return;
+    const dy = Math.min(STROP, Math.max(0, (e.changedTouches[0].clientY - y0) * .5));
+    ptr.classList.add("snap");
+    y0 = null;
+    if (dy >= PRAH) {
+      haptic(10);
+      obnovuje = true;
+      ptr.classList.add("loading");
+      ptr.style.transform = "translate(-50%, 4px) scale(1)";
+      obnovitData().finally(() => {
+        obnovuje = false;
+        ptr.classList.remove("loading", "show");
+        ptr.style.transform = "translate(-50%, -46px) scale(.7)";
+      });
+    } else {
+      ptr.classList.remove("show");
+      ptr.style.transform = "translate(-50%, -46px) scale(.7)";
+    }
+  });
+})();
+
 /* ── Detekce nové verze po návratu do aplikace ──────────────────
    iOS appku na ploše často jen probudí z paměti a stránku znovu nenačte,
    takže by appka klidně několik dní ukazovala starý kód i stará data.
@@ -1473,7 +1547,7 @@ async function renderPushCard(){
     b.className = "push-row" + (zapnuto ? " on" : "");
     b.type = "button"; b.role = "switch"; b.setAttribute("aria-checked", zapnuto);
     b.innerHTML = `<span class="txt">${s.kratky || s.nazev}</span><span class="switch"></span>`;
-    b.addEventListener("click", () => { haptic(); prepniPush(s); });
+    b.addEventListener("click", function(){ haptic(); pop(this); prepniPush(s); });
     list.appendChild(b);
   });
 }
@@ -1660,6 +1734,7 @@ if ("serviceWorker" in navigator && location.protocol.startsWith("http"))
   $("#skolaAktualni").textContent = AKTIVNI.nazev;
 
   renderAll(); setView("den"); onScroll();
+  schovejSplash();
   overVerzi(false);   // appka právě naběhla čerstvě – jen zapamatovat výchozí verzi
   setInterval(renderDen, 60_000);
 

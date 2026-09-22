@@ -116,6 +116,55 @@ h1,h2,h3{margin:0;letter-spacing:-.028em}
 :root[data-theme="dark"] .orb-a{opacity:.15}
 :root[data-theme="dark"] .orb-b{opacity:.06}
 
+/* ── Úvodní animace (splash) ────────────────────────────────────────
+   V DOM od prvního HTML (bez čekání na JS/CSS appky), ať kryje i tu
+   nejranější fázi načítání. JS appku po prvním vykreslení schová
+   (viz app.js, schovejSplash()) – tady jen definice vzhledu/animace. */
+.splash{
+  position:fixed;inset:0;z-index:200;
+  display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px;
+  background:var(--bg);
+  transition:opacity .5s ease, visibility .5s;
+}
+.splash-icon{
+  width:84px;height:84px;border-radius:22px;
+  box-shadow:0 10px 28px -12px rgba(16,40,28,.35);
+  animation:splashIcon 1.1s var(--spring) both;
+}
+.splash-name{
+  font-size:15px;font-weight:680;letter-spacing:-.01em;color:var(--ink-2);
+  animation:splashName .6s ease .25s both;
+}
+@keyframes splashIcon{
+  0%{opacity:0;transform:scale(.55) translateY(6px)}
+  60%{opacity:1;transform:scale(1.06)}
+  100%{opacity:1;transform:scale(1)}
+}
+@keyframes splashName{from{opacity:0;transform:translateY(5px)}to{opacity:1}}
+.splash.hide{opacity:0;visibility:hidden;pointer-events:none}
+@media (prefers-reduced-motion:reduce){
+  .splash-icon,.splash-name{animation:none}
+}
+
+/* ── Pull-to-refresh (pohled Den) ────────────────────────────────── */
+.ptr{
+  position:fixed;left:50%;top:calc(var(--safe-t) + 10px);z-index:40;
+  width:34px;height:34px;border-radius:50%;
+  display:grid;place-items:center;
+  background:var(--card);box-shadow:var(--card-sh);
+  opacity:0;transform:translate(-50%,-46px) scale(.7);
+  transition:opacity .25s ease;
+}
+.ptr.show{opacity:1}
+.ptr.snap{transition:opacity .25s ease, transform .4s var(--spring)}
+.ptr-spin{
+  width:16px;height:16px;border-radius:50%;
+  border:2px solid color-mix(in srgb,var(--accent) 25%,transparent);
+  border-top-color:var(--accent);
+}
+.ptr.loading .ptr-spin{animation:ptrSpin .7s linear infinite}
+@keyframes ptrSpin{to{transform:rotate(360deg)}}
+
 /* ── Layout ─────────────────────────────────────────────────────── */
 main{max-width:560px;margin:0 auto;
   padding:calc(var(--safe-t) + 16px) 18px calc(110px + var(--safe-b));}
@@ -295,6 +344,12 @@ main{max-width:560px;margin:0 auto;
 .badge.warn{background:var(--t-red);color:var(--on-tint)}
 .badge.muted{background:var(--track);color:var(--ink-3)}
 @keyframes pulse{50%{opacity:.65}}
+
+/* Krátké potvrzující "pop" – hvězdička, push přepínač, osobní poznámka
+   (viz pop() v app.js). Přidává se/odebírá jako jednorázová třída, ne
+   trvalý stav, takže neruší ostatní přechody prvku. */
+.pop{animation:popAnim .42s var(--spring)}
+@keyframes popAnim{0%{transform:scale(1)}35%{transform:scale(1.22)}65%{transform:scale(.94)}100%{transform:scale(1)}}
 
 /* zvýrazněný hlavní chod */
 .meal.lead{background:var(--t-green-bg);border-color:color-mix(in srgb,var(--accent) 16%,transparent)}
@@ -646,8 +701,11 @@ main{max-width:560px;margin:0 auto;
   animation:tep 2s ease-out infinite;
 }
 @keyframes tep{
+  0%{transform:scale(1)}
+  15%{transform:scale(1.25)}
+  30%{transform:scale(1)}
   70%{box-shadow:0 0 0 7px color-mix(in srgb,var(--accent) 0%,transparent)}
-  100%{box-shadow:0 0 0 0 color-mix(in srgb,var(--accent) 0%,transparent)}
+  100%{box-shadow:0 0 0 0 color-mix(in srgb,var(--accent) 0%,transparent);transform:scale(1)}
 }
 /* Po skončení výdeje – klidný, netikající stav (žádný pulz), ať
    je na první pohled jasné, že už se čeká na zítřek. */
