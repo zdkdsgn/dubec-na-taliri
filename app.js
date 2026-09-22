@@ -117,7 +117,7 @@ const haptic = (ms = 8) => navigator.vibrate?.(ms);
    síť – viz sw.js. Jakmile appku ovládá už aktivní service worker (typicky
    od druhého spuštění dál), appka shellem z cache naběhne prakticky
    okamžitě a vynucovat animaci navíc by jen zbytečně brzdilo otevření. */
-const MIN_SPLASH = 1150;
+const MIN_SPLASH = 3000;
 function schovejSplash(){
   const el = $("#splash");
   if (!el) return;

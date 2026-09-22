@@ -143,14 +143,18 @@ h1,h2,h3{margin:0;letter-spacing:-.028em}
   animation:splashIcon .6s var(--spring) both;
 }
 .splash-icon{width:100%;height:100%;display:block}
-/* Jeden jemný lesklý přejezd přes ikonu, ať to celé "chytne světlo". */
+/* Lesklý přejezd přes ikonu, ať to celé "chytne světlo" – u delšího
+   splashe se opakuje (rychlý přejezd, pak pauza), ne jen jednou. */
 .splash-shine{
   position:absolute;top:-60%;left:-60%;width:60%;height:220%;
   background:linear-gradient(100deg,transparent 20%,rgba(255,255,255,.55) 48%,transparent 76%);
   transform:rotate(18deg) translateX(-160%);
-  animation:splashShine .85s ease-out .3s both;
+  animation:splashShine 1.3s ease-in-out .4s infinite;
 }
-@keyframes splashShine{to{transform:rotate(18deg) translateX(260%)}}
+@keyframes splashShine{
+  0%{transform:rotate(18deg) translateX(-160%)}
+  30%,100%{transform:rotate(18deg) translateX(260%)}
+}
 .splash-name{
   font-size:15px;font-weight:680;letter-spacing:-.01em;color:var(--ink-2);
   animation:splashName .45s ease .2s both;
