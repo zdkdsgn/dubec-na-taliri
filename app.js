@@ -5,6 +5,7 @@
 "use strict";
 
 let D  = window.MENU_DATA;
+const appStart = performance.now();   // pro minimální dobu zobrazení splashe, viz schovejSplash()
 const $  = (s, r = document) => r.querySelector(s);
 const $$ = (s, r = document) => [...r.querySelectorAll(s)];
 
@@ -109,12 +110,18 @@ const haptic = (ms = 8) => navigator.vibrate?.(ms);
 /* Úvodní splash je v HTML od prvního vykreslení stránky (viz index.html),
    ať kryje appku i v té nejranější fázi, kdy ještě neběží žádný JS.
    Schováváme ho až po prvním doopravdy hotovém vykreslení dne, ne jen
-   po timeoutu – ať appka nikdy neukáže na zlomek vteřiny prázdný obsah. */
+   po timeoutu – ať appka nikdy neukáže na zlomek vteřiny prázdný obsah.
+   Appka na rychlém připojení/z cache umí naběhnout za pár desítek ms –
+   bez minimální doby by pak splash i s jeho animací proletěl skoro
+   neviditelně. MIN_SPLASH je vyladěná na délku jeho CSS animace
+   (viz styles.css), ať se vždy celá doehraje. */
+const MIN_SPLASH = 1150;
 function schovejSplash(){
   const el = $("#splash");
   if (!el) return;
-  el.classList.add("hide");
-  setTimeout(() => el.remove(), 600);
+  const skryj = () => { el.classList.add("hide"); setTimeout(() => el.remove(), 600); };
+  const zbyva = bezAnimaci() ? 0 : MIN_SPLASH - (performance.now() - appStart);
+  zbyva > 0 ? setTimeout(skryj, zbyva) : skryj();
 }
 /* Krátký "pop" na potvrzení přepnutí (hvězdička, push přepínač, …) –
    jen vizuální feedback navíc k haptiku, ať přepnutí působí živěji. */
