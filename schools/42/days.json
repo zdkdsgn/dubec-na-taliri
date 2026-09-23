@@ -1142,7 +1142,7 @@
       {
         "c": "obed",
         "n": "Štěpánská pečeně",
-        "d": "Dušená rýe s quinoou · Voda s mátou a limetkou, Voda",
+        "d": "Dušená rýže s quinoou · Voda s mátou a limetkou, Voda",
         "a": [
           1,
           3
@@ -1158,12 +1158,25 @@
           },
           {
             "l": "Příloha",
-            "n": "Dušená rýe s quinoou",
+            "n": "Dušená rýže s quinoou",
             "a": []
           },
           {
             "l": "Nápoj",
             "n": "Voda s mátou a limetkou, Voda",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "n": "Zeleninové lečo, brambory",
+        "d": "",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Zeleninové lečo, brambory",
             "a": []
           }
         ]
@@ -1175,14 +1188,14 @@
     "chody": [
       {
         "c": "polevka",
-        "n": "Sedlácká",
+        "n": "Hrstková",
         "d": "",
         "a": []
       },
       {
         "c": "obed",
-        "n": "Ragů z cizrny a uzené papriky",
-        "d": "Chléb · Mléčný dezert · Ovocný nápoj, voda",
+        "n": "Krůtí maso na kari",
+        "d": "Těstoviny · Ovoce · Ovocný nápoj, voda",
         "a": [
           1,
           3,
@@ -1191,9 +1204,79 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Ragů z cizrny a uzené papriky",
+            "n": "Krůtí maso na kari",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Těstoviny",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
             "a": [
               7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný nápoj, voda",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "n": "Celerový salát se šunkou, celozrnné pečivo",
+        "d": "",
+        "a": [
+          7,
+          9
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Celerový salát se šunkou, celozrnné pečivo",
+            "a": [
+              7,
+              9
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-08": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Sedlácká",
+        "d": "",
+        "a": []
+      },
+      {
+        "c": "obed",
+        "n": "Ragú z cizrny a uzené papriky",
+        "d": "Chléb · Mléčný dezert · Čaj, voda",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Ragú z cizrny a uzené papriky",
+            "a": [
+              1
             ]
           },
           {
@@ -1209,59 +1292,36 @@
             "l": "Doplněk",
             "n": "Mléčný dezert",
             "a": [
+              1,
+              3,
               7
             ]
           },
           {
             "l": "Nápoj",
-            "n": "Ovocný nápoj, voda",
+            "n": "Čaj, voda",
             "a": []
           }
         ]
-      }
-    ]
-  },
-  "2026-10-08": {
-    "vydej": "11:00–14:00",
-    "chody": [
-      {
-        "c": "polevka",
-        "n": "Hrstková",
-        "d": "",
-        "a": []
       },
       {
-        "c": "obed",
-        "n": "Krůtí maso na kari",
-        "d": "Těstoviny · Ovoce · Čaj, voda",
+        "c": "obed2",
+        "n": "Houbové rizoto se sýrem",
+        "d": "Steril.okurka",
         "a": [
-          1,
-          3
+          7
         ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Krůtí maso na kari",
+            "n": "Houbové rizoto se sýrem",
             "a": [
-              1
+              7
             ]
           },
           {
             "l": "Příloha",
-            "n": "Těstoviny",
-            "a": [
-              1,
-              3
-            ]
-          },
-          {
-            "l": "Doplněk",
-            "n": "Ovoce",
-            "a": []
-          },
-          {
-            "l": "Nápoj",
-            "n": "Čaj, voda",
+            "n": "Steril.okurka",
             "a": []
           }
         ]
@@ -1308,6 +1368,323 @@
           {
             "l": "Nápoj",
             "n": "Ovocný čaj, voda",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-12": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Čočková",
+        "d": "",
+        "a": [
+          1,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Srbské rizoto se sýrem",
+        "d": "Ovoce · Oovocný čaj, voda",
+        "a": [
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Srbské rizoto se sýrem",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Oovocný čaj, voda",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "n": "( Oběd na přání 1.C )",
+        "d": "",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "( Oběd na přání 1.C )",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-13": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Hovězí vývar se zeleninou a kapáním",
+        "d": "",
+        "a": [
+          1,
+          3
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Hovězí maso na slanině",
+        "d": "Těstoviny · Ovocný čaj, mléko",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Hovězí maso na slanině",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Těstoviny",
+            "a": [
+              1,
+              3
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný čaj, mléko",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "n": "Kuskus s restovanou zeleninou a slaninou",
+        "d": "",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Kuskus s restovanou zeleninou a slaninou",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-14": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Brokolicový krém",
+        "d": "",
+        "a": [
+          1,
+          7
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Pečené rybí filé na kmíně",
+        "d": "Brambory šťouchané · Rajský salát · Ovocný čaj, voda",
+        "a": [
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Pečené rybí filé na kmíně",
+            "a": []
+          },
+          {
+            "l": "Příloha",
+            "n": "Brambory šťouchané",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Rajský salát",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný čaj, voda",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "n": "Květákový mozeček",
+        "d": "Vařené brambory · Rajský salát",
+        "a": [
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Květákový mozeček",
+            "a": [
+              3
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Vařené brambory",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Rajský salát",
+            "a": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-15": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Polévka z vaječné jíšky",
+        "d": "",
+        "a": [
+          1,
+          3,
+          7,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Těstoviny Pepka námořníka (těstoviny, kuřecí maso, špenát, smetana)",
+        "d": "Pudink · Mléko, čaj",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Těstoviny Pepka námořníka (těstoviny, kuřecí maso, špenát, smetana)",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Pudink",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko, čaj",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "n": "CIzrnové kari",
+        "d": "Pečivo",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "CIzrnové kari",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Pečivo",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-16": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Drůbeží vývar se zeleninou a zavářkou",
+        "d": "",
+        "a": [
+          1,
+          3,
+          7,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Vepřová pečeně po myslivecku",
+        "d": "Houskové knedlíky · Ovocný nápoj, voda",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Vepřová pečeně po myslivecku",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Houskové knedlíky",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný nápoj, voda",
             "a": []
           }
         ]

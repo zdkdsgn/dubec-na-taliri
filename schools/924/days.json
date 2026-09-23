@@ -1202,6 +1202,37 @@
     "vydej": "11:00–12:10",
     "chody": [
       {
+        "c": "presnidavka",
+        "n": "Rohlík s máslem a meruňkovým džemem",
+        "d": "Banán, jablko · Mléko, dětský čaj",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Rohlík s máslem a meruňkovým džemem",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Banán, jablko",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko, dětský čaj",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
         "c": "polevka",
         "n": "Hrachová",
         "d": "",
@@ -1243,6 +1274,33 @@
           {
             "l": "Nápoj",
             "n": "Ovocný nápoj, voda",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Chléb s paštikou",
+        "d": "Rajče, okurka · Šípkový čaj",
+        "a": [
+          1
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Chléb s paštikou",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Rajče, okurka",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Šípkový čaj",
             "a": []
           }
         ]
@@ -1418,6 +1476,35 @@
           {
             "l": "Nápoj",
             "n": "Čaj s citronem, voda",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Raženka s ochuceným pomazánkovým máslem a pažitkou",
+        "d": "Rajče, kedlubna · Broskvový čaj, voda",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Raženka s ochuceným pomazánkovým máslem a pažitkou",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Rajče, kedlubna",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Broskvový čaj, voda",
             "a": []
           }
         ]
@@ -1743,8 +1830,8 @@
       },
       {
         "c": "obed",
-        "n": "Vepřový řízek, bramborová kaše",
-        "d": "Školní salát",
+        "n": "Vepřový řízek",
+        "d": "Šťouchané brambory s máslem · Školní salát",
         "a": [
           1,
           3,
@@ -1753,7 +1840,7 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Vepřový řízek, bramborová kaše",
+            "n": "Vepřový řízek",
             "a": [
               1,
               3,
@@ -1762,6 +1849,11 @@
           },
           {
             "l": "Příloha",
+            "n": "Šťouchané brambory s máslem",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
             "n": "Školní salát",
             "a": []
           }

@@ -1375,7 +1375,7 @@
     "chody": [
       {
         "c": "presnidavka",
-        "n": "Zapečený toust se sýrem, kečup, kakao, ovocný čaj",
+        "n": "Zapečený toust se sýrem, kečup, kakao, ovocný čajj, pomeranč",
         "d": "",
         "a": [
           1,
@@ -1384,7 +1384,7 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Zapečený toust se sýrem, kečup, kakao, ovocný čaj",
+            "n": "Zapečený toust se sýrem, kečup, kakao, ovocný čajj, pomeranč",
             "a": [
               1,
               7
@@ -1627,7 +1627,7 @@
       },
       {
         "c": "polevka",
-        "n": "Brokolicová s krutony",
+        "n": "Brokolicová",
         "d": "",
         "a": [
           1,
@@ -1998,11 +1998,10 @@
       },
       {
         "c": "polevka",
-        "n": "Hráškový krém",
+        "n": "Hrachová",
         "d": "",
         "a": [
-          1,
-          7
+          1
         ]
       },
       {
@@ -2850,6 +2849,83 @@
             "l": "Jídlo",
             "n": "Banán, jogurt",
             "a": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-27": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Chléb s pórkovou pomaz, mléko, bylinkový čaj",
+        "d": "",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Chléb s pórkovou pomaz, mléko, bylinkový čaj",
+            "a": [
+              1,
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Krupičková",
+        "d": "",
+        "a": []
+      },
+      {
+        "c": "obed",
+        "n": "Smažený květák, brambory, jogurtová tatarka",
+        "d": "Ovocná šťáva",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Smažený květák, brambory, jogurtová tatarka",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocná šťáva",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Piškoty s vařeným vanilk. pudinkem, čaj ovocný",
+        "d": "",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Piškoty s vařeným vanilk. pudinkem, čaj ovocný",
+            "a": [
+              1,
+              3,
               7
             ]
           }

@@ -1379,10 +1379,9 @@
       {
         "c": "obed",
         "n": "Rybí filé na kmíně, bramborová kaše",
-        "d": "Pečený okoun na másle, vařený brambor, zeleninový salátek · Voda, čaj",
+        "d": "Zeleninový salátek · Voda, čaj",
         "a": [
-          4,
-          7
+          10
         ],
         "p": [
           {
@@ -1392,16 +1391,282 @@
           },
           {
             "l": "Doplněk",
-            "n": "Pečený okoun na másle, vařený brambor, zeleninový salátek",
+            "n": "Zeleninový salátek",
             "a": [
-              4,
-              7
+              10
             ]
           },
           {
             "l": "Nápoj",
             "n": "Voda, čaj",
             "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-05": {
+    "vydej": "11:30–13:30",
+    "chody": [
+      {
+        "c": "svacina",
+        "n": "Tmavý rohlík, pomazánka z pečené mrkve s bylinkami, čaj, zelenina a ovoce",
+        "d": "",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Tmavý rohlík, pomazánka z pečené mrkve s bylinkami, čaj, zelenina a ovoce",
+            "a": [
+              1,
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Masový vývar s písmenky a kořenovou zeleninou",
+        "d": "",
+        "a": [
+          1,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Hovězí roštěná s dušenou rýží",
+        "d": "Sterilovaný okurek · Voda, čaj, voda s ovocem",
+        "a": [
+          10
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Hovězí roštěná s dušenou rýží",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Sterilovaný okurek",
+            "a": [
+              10
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Voda, čaj, voda s ovocem",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-06": {
+    "vydej": "11:30–13:30",
+    "chody": [
+      {
+        "c": "svacina",
+        "n": "Slunečnicový chléb, pomazánka z tuňáka, zelenina, ovoce, špaldový nápoj",
+        "d": "",
+        "a": [
+          1,
+          4,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Slunečnicový chléb, pomazánka z tuňáka, zelenina, ovoce, špaldový nápoj",
+            "a": [
+              1,
+              4,
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Selská bramboračka se zeleninou",
+        "d": "",
+        "a": [
+          1,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Jáhelník se švestkami",
+        "d": "Výběr ovoce · Voda, čaj",
+        "a": [
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Jáhelník se švestkami",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Výběr ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Voda, čaj",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-07": {
+    "vydej": "11:30–13:30",
+    "chody": [
+      {
+        "c": "svacina",
+        "n": "Kovářská bageta, avokádová pomazánka s tvarohem a bylinkami Dobrá nálada",
+        "d": "",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Kovářská bageta, avokádová pomazánka s tvarohem a bylinkami Dobrá nálada",
+            "a": [
+              1,
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Zeleninová s pohankou",
+        "d": "",
+        "a": [
+          7,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Sekaná pečeně s bramborovou kaší",
+        "d": "Zeleninový salát · Ovocná voda, čaj, voda",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Sekaná pečeně s bramborovou kaší",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zeleninový salát",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocná voda, čaj, voda",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-08": {
+    "vydej": "11:30–13:30",
+    "chody": [
+      {
+        "c": "svacina",
+        "n": "Chia bageta, pomazánka z fazolí, výběr zeleniny a ovoce, mléko",
+        "d": "",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Chia bageta, pomazánka z fazolí, výběr zeleniny a ovoce, mléko",
+            "a": [
+              1,
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Rybí s ajvarem",
+        "d": "",
+        "a": [
+          1,
+          4,
+          10
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Kuřecí kousky na bazalce, tagliatelle (bazalka, bazalkové pesto, sýr)",
+        "d": "Zeleninový salát · Voda s pomerančem, voda, čaj",
+        "a": [
+          7,
+          8
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Kuřecí kousky na bazalce, tagliatelle (bazalka, bazalkové pesto, sýr)",
+            "a": [
+              7,
+              8
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zeleninový salát",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Voda s pomerančem, voda, čaj",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-09": {
+    "vydej": "9:30–9:45",
+    "chody": [
+      {
+        "c": "obed",
+        "n": "Pizza toast se sýrem a šunkou, zeleninová obloha, čaj, voda",
+        "d": "",
+        "a": [
+          1,
+          7,
+          10
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Pizza toast se sýrem a šunkou, zeleninová obloha, čaj, voda",
+            "a": [
+              1,
+              7,
+              10
+            ]
           }
         ]
       }

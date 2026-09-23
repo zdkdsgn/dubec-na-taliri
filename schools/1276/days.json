@@ -4281,5 +4281,108 @@
         ]
       }
     ]
+  },
+  "2026-10-27": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Ovocná rýžová kaše",
+        "d": "Granko, mléko, voda, čaj",
+        "a": [
+          6,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Ovocná rýžová kaše",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Granko, mléko, voda, čaj",
+            "a": [
+              6,
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Krupicová s vejcem",
+        "d": "",
+        "a": [
+          1,
+          3,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Kuřecí stehno, dušená zelenina",
+        "d": "Dušená rýže · Ovoce · Čaj",
+        "a": [
+          1,
+          9,
+          14
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Kuřecí stehno, dušená zelenina",
+            "a": [
+              1,
+              9,
+              14
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Dušená rýže",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Šveskový koláč s drobenkou",
+        "d": "Mléko, voda",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Šveskový koláč s drobenkou",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko, voda",
+            "a": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
   }
 }

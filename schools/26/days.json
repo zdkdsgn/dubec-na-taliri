@@ -748,7 +748,7 @@
     "chody": [
       {
         "c": "polevka",
-        "n": "Zeleninová",
+        "n": "Zeleninová-kapustová",
         "d": "",
         "a": [
           1,
@@ -805,16 +805,13 @@
         "n": "Rizoto s masem a zeleninou",
         "d": "Strouhaný sýr · Zeleninový salát · Fruttanella / mléko",
         "a": [
-          1,
           7
         ],
         "p": [
           {
             "l": "Jídlo",
             "n": "Rizoto s masem a zeleninou",
-            "a": [
-              1
-            ]
+            "a": []
           },
           {
             "l": "Příloha",
@@ -877,6 +874,199 @@
           {
             "l": "Nápoj",
             "n": "Fruttanella / voda",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-09-28": {
+    "vydej": "11:15–14:00",
+    "chody": [
+      {
+        "c": "obed",
+        "n": "S t á t n í s v á t e k",
+        "d": "",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "S t á t n í s v á t e k",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-09-29": {
+    "vydej": "11:15–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Čočková",
+        "d": "",
+        "a": [
+          1,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Obalované drůbeží safari",
+        "d": "Brambory · Kečup",
+        "a": [
+          1,
+          3,
+          7,
+          10
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Obalované drůbeží safari",
+            "a": [
+              1,
+              3
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Brambory",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Kečup",
+            "a": [
+              10
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-09-30": {
+    "vydej": "11:15–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Vývar se zeleninou a rýží",
+        "d": "",
+        "a": [
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Vepřové na kmíně",
+        "d": "Těstoviny · BLUMA",
+        "a": [
+          1
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Vepřové na kmíně",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Těstoviny",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "BLUMA",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-01": {
+    "vydej": "11:15–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Z vaječné jíšky",
+        "d": "",
+        "a": [
+          1,
+          3,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Kulaté bramborové knedlíky plněné uzeným",
+        "d": "Červené zelí, smažená cibulka",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Kulaté bramborové knedlíky plněné uzeným",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Červené zelí, smažená cibulka",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-02": {
+    "vydej": "11:15–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Vývar se zeleninou a těstovinami",
+        "d": "",
+        "a": [
+          1,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Zeleninová čína s nudličkami z vepřové kýty",
+        "d": "Rýže · JABLKO",
+        "a": [
+          6,
+          9
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Zeleninová čína s nudličkami z vepřové kýty",
+            "a": [
+              6,
+              9
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Rýže",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "JABLKO",
             "a": []
           }
         ]

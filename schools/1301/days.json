@@ -6191,5 +6191,131 @@
         ]
       }
     }
+  },
+  "2026-10-27": {
+    "skupiny": {
+      "ms": {
+        "vydej": "10:30–14:30",
+        "chody": [
+          {
+            "c": "polevka",
+            "n": "Hrachová polévka s fridátovými nudlemi",
+            "d": "",
+            "a": [
+              1,
+              10
+            ]
+          },
+          {
+            "c": "obed",
+            "n": "Mexický guláš",
+            "d": "Dušená rýže · Ovocný čaj, voda s citrónem, pomerančem a mátou, voda",
+            "a": [
+              1,
+              7
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Mexický guláš",
+                "a": [
+                  1,
+                  7
+                ]
+              },
+              {
+                "l": "Příloha",
+                "n": "Dušená rýže",
+                "a": []
+              },
+              {
+                "l": "Nápoj",
+                "n": "Ovocný čaj, voda s citrónem, pomerančem a mátou, voda",
+                "a": []
+              }
+            ]
+          }
+        ]
+      },
+      "zs": {
+        "vydej": "10:30–14:30",
+        "chody": [
+          {
+            "c": "polevka",
+            "n": "Hrachová polévka s fridátovými nudlemi",
+            "d": "",
+            "a": [
+              1,
+              10
+            ]
+          },
+          {
+            "c": "obed",
+            "n": "Mexický guláš",
+            "d": "Dušená rýže · Ovocný čaj, voda s citrónem, pomerančem a mátou, voda",
+            "a": [
+              1,
+              7
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Mexický guláš",
+                "a": [
+                  1,
+                  7
+                ]
+              },
+              {
+                "l": "Příloha",
+                "n": "Dušená rýže",
+                "a": []
+              },
+              {
+                "l": "Nápoj",
+                "n": "Ovocný čaj, voda s citrónem, pomerančem a mátou, voda",
+                "a": []
+              }
+            ]
+          },
+          {
+            "c": "obed2",
+            "n": "Čočka na kyselo, sázené vejce",
+            "d": "Chléb · Sterilovaná okurka · Ovocný čaj, voda s citrónem, pomerančem a mátou, voda",
+            "a": [
+              1,
+              10
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Čočka na kyselo, sázené vejce",
+                "a": []
+              },
+              {
+                "l": "Příloha",
+                "n": "Chléb",
+                "a": [
+                  1,
+                  10
+                ]
+              },
+              {
+                "l": "Doplněk",
+                "n": "Sterilovaná okurka",
+                "a": [
+                  10
+                ]
+              },
+              {
+                "l": "Nápoj",
+                "n": "Ovocný čaj, voda s citrónem, pomerančem a mátou, voda",
+                "a": []
+              }
+            ]
+          }
+        ]
+      }
+    }
   }
 }
