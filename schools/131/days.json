@@ -1850,26 +1850,21 @@
       },
       {
         "c": "obed2",
-        "n": "ČÍNA – Zeleninové čínské nudle s tofu a sezamem",
+        "n": "Špagety AGLIO OLIO, parmazán",
         "d": "Liči · Mléko, ovocný čaj, voda",
         "a": [
           1,
           3,
-          6,
-          7,
-          9,
-          11
+          7
         ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "ČÍNA – Zeleninové čínské nudle s tofu a sezamem",
+            "n": "Špagety AGLIO OLIO, parmazán",
             "a": [
               1,
               3,
-              6,
-              9,
-              11
+              7
             ]
           },
           {
@@ -1982,23 +1977,31 @@
       },
       {
         "c": "obed2",
-        "n": "THAJSKO – PAD THAI se zeleninou a vejcem",
-        "d": "Mléko, voda, sirup",
+        "n": "Zeleninový karbanátek",
+        "d": "Opečené brambory · Zeleninový salát · Mléko, voda, sirup",
         "a": [
+          1,
           3,
-          6,
-          7,
-          9
+          7
         ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "THAJSKO – PAD THAI se zeleninou a vejcem",
+            "n": "Zeleninový karbanátek",
             "a": [
-              3,
-              6,
-              9
+              1,
+              3
             ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Opečené brambory",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zeleninový salát",
+            "a": []
           },
           {
             "l": "Nápoj",
@@ -2092,6 +2095,24 @@
           {
             "l": "Jídlo",
             "n": "PODZIMNÍ PRÁZDNINY",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-28": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "obed",
+        "n": "STÁTNÍ SVÁTEK",
+        "d": "",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "STÁTNÍ SVÁTEK",
             "a": []
           }
         ]

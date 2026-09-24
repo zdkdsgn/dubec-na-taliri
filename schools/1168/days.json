@@ -1660,13 +1660,17 @@
         "c": "polevka",
         "n": "Masový vývar s vločkami",
         "d": "",
-        "a": []
+        "a": [
+          1
+        ]
       },
       {
         "c": "obed",
         "n": "Vepřové maso na hříbkách",
         "d": "Dušená rýže",
-        "a": [],
+        "a": [
+          8
+        ],
         "p": [
           {
             "l": "Jídlo",
@@ -1676,7 +1680,9 @@
           {
             "l": "Příloha",
             "n": "Dušená rýže",
-            "a": []
+            "a": [
+              8
+            ]
           }
         ]
       },
@@ -1755,12 +1761,18 @@
         "c": "svacina",
         "n": "Grahamový rohlík, žervé, zelenina, nápoj",
         "d": "",
-        "a": [],
+        "a": [
+          1,
+          7
+        ],
         "p": [
           {
             "l": "Jídlo",
             "n": "Grahamový rohlík, žervé, zelenina, nápoj",
-            "a": []
+            "a": [
+              1,
+              7
+            ]
           }
         ]
       }

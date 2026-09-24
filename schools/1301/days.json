@@ -4253,58 +4253,42 @@
   },
   "2026-10-05": {
     "skupiny": {
-      "ms": {
+      "zs": {
         "vydej": "10:30–14:30",
         "chody": [
           {
-            "c": "polevka",
-            "n": "Gulášová polévka",
-            "d": "",
+            "c": "presnidavka",
+            "n": "Vaječná omeleta se šunkou",
+            "d": "Chleba · Mléko, ovocný čaj, voda",
             "a": [
-              1
-            ]
-          },
-          {
-            "c": "obed",
-            "n": "Rybí filé na másle a česneku",
-            "d": "Bramborová kaše · Zeleninová obloha · Ovocný čaj, voda s citrónem, pomerančem a mátou, voda",
-            "a": [
-              4,
+              1,
+              3,
               7
             ],
             "p": [
               {
                 "l": "Jídlo",
-                "n": "Rybí filé na másle a česneku",
+                "n": "Vaječná omeleta se šunkou",
                 "a": [
-                  4,
-                  7
+                  3
                 ]
               },
               {
-                "l": "Příloha",
-                "n": "Bramborová kaše",
+                "l": "pečivo",
+                "n": "Chleba",
                 "a": [
-                  7
+                  1
                 ]
-              },
-              {
-                "l": "Doplněk",
-                "n": "Zeleninová obloha",
-                "a": []
               },
               {
                 "l": "Nápoj",
-                "n": "Ovocný čaj, voda s citrónem, pomerančem a mátou, voda",
-                "a": []
+                "n": "Mléko, ovocný čaj, voda",
+                "a": [
+                  7
+                ]
               }
             ]
-          }
-        ]
-      },
-      "zs": {
-        "vydej": "10:30–14:30",
-        "chody": [
+          },
           {
             "c": "polevka",
             "n": "Gulášová polévka",
@@ -4373,6 +4357,55 @@
                 "a": [
                   1
                 ]
+              },
+              {
+                "l": "Nápoj",
+                "n": "Ovocný čaj, voda s citrónem, pomerančem a mátou, voda",
+                "a": []
+              }
+            ]
+          }
+        ]
+      },
+      "ms": {
+        "vydej": "10:30–14:30",
+        "chody": [
+          {
+            "c": "polevka",
+            "n": "Gulášová polévka",
+            "d": "",
+            "a": [
+              1
+            ]
+          },
+          {
+            "c": "obed",
+            "n": "Rybí filé na másle a česneku",
+            "d": "Bramborová kaše · Zeleninová obloha · Ovocný čaj, voda s citrónem, pomerančem a mátou, voda",
+            "a": [
+              4,
+              7
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Rybí filé na másle a česneku",
+                "a": [
+                  4,
+                  7
+                ]
+              },
+              {
+                "l": "Příloha",
+                "n": "Bramborová kaše",
+                "a": [
+                  7
+                ]
+              },
+              {
+                "l": "Doplněk",
+                "n": "Zeleninová obloha",
+                "a": []
               },
               {
                 "l": "Nápoj",
@@ -6313,6 +6346,32 @@
                 "a": []
               }
             ]
+          }
+        ]
+      }
+    }
+  },
+  "2026-10-28": {
+    "skupiny": {
+      "ms": {
+        "vydej": "10:30–14:30",
+        "chody": [
+          {
+            "c": "polevka",
+            "n": "STÁTNÍ SVÁTEK",
+            "d": "",
+            "a": []
+          }
+        ]
+      },
+      "zs": {
+        "vydej": "10:30–14:30",
+        "chody": [
+          {
+            "c": "polevka",
+            "n": "STÁTNÍ SVÁTEK",
+            "d": "",
+            "a": []
           }
         ]
       }

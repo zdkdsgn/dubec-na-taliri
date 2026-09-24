@@ -1949,39 +1949,8 @@
     "chody": [
       {
         "c": "obed",
-        "n": "Kuřecí na paprice",
-        "d": "Těstoviny",
-        "a": [
-          1,
-          7
-        ],
-        "p": [
-          {
-            "l": "Jídlo",
-            "n": "Kuřecí na paprice",
-            "a": [
-              1,
-              7
-            ]
-          },
-          {
-            "l": "Příloha",
-            "n": "Těstoviny",
-            "a": [
-              1
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  "2026-10-01": {
-    "vydej": "11:00–14:00",
-    "chody": [
-      {
-        "c": "obed",
-        "n": "Losos na másle A-4, 7",
-        "d": "Bramborová kaše · Okurkový salát",
+        "n": "Losos na másle",
+        "d": "Bramborová kaše · Zeleninový salát",
         "a": [
           4,
           7
@@ -1989,7 +1958,7 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Losos na másle A-4, 7",
+            "n": "Losos na másle",
             "a": [
               4,
               7
@@ -2004,8 +1973,39 @@
           },
           {
             "l": "Doplněk",
-            "n": "Okurkový salát",
+            "n": "Zeleninový salát",
             "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-01": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "obed",
+        "n": "Krůtí na paprice",
+        "d": "Těstoviny",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Krůtí na paprice",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Těstoviny",
+            "a": [
+              1
+            ]
           }
         ]
       }

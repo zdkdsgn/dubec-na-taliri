@@ -1340,7 +1340,7 @@
       {
         "c": "obed",
         "n": "Krůtí na paprice, tarhoňa",
-        "d": "Domácí jogurt s ovocem · Chlaz voda, čaj, mléko",
+        "d": "Domácí jogurt s ovocem a kousky čokolády · Chlaz voda, čaj, mléko",
         "a": [
           1,
           7
@@ -1356,7 +1356,7 @@
           },
           {
             "l": "Doplněk",
-            "n": "Domácí jogurt s ovocem",
+            "n": "Domácí jogurt s ovocem a kousky čokolády",
             "a": [
               7
             ]
@@ -1373,7 +1373,7 @@
       {
         "c": "obed2",
         "n": "Čokoládové brownies",
-        "d": "Domácí jogurt s ovocem · Chlaz.voda, čaj, mléko",
+        "d": "Domácí jogurt s ovocema kousky čokolády · Chlaz.voda, čaj, mléko",
         "a": [
           1,
           3,
@@ -1392,7 +1392,7 @@
           },
           {
             "l": "Doplněk",
-            "n": "Domácí jogurt s ovocem",
+            "n": "Domácí jogurt s ovocema kousky čokolády",
             "a": [
               7
             ]
@@ -1629,6 +1629,309 @@
             "a": []
           }
         ]
+      }
+    ]
+  },
+  "2026-10-05": {
+    "vydej": "11:30–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Pol. z červené čočky",
+        "d": "",
+        "a": [
+          7,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Kuřecí soté po indicku",
+        "d": "Celozrnný kuskus · Ovoce · Ovocný čaj Biogena, voda, mléko",
+        "a": [
+          1,
+          7,
+          10
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Kuřecí soté po indicku",
+            "a": [
+              1,
+              7,
+              10
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Celozrnný kuskus",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný čaj Biogena, voda, mléko",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "n": "Nudle s tvarohem, máslo, cukr",
+        "d": "Ovoce · Ovocný čaj Biogena, voda, mléko",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Nudle s tvarohem, máslo, cukr",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný čaj Biogena, voda, mléko",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-06": {
+    "vydej": "11:30–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Gulášová",
+        "d": "",
+        "a": [
+          1
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Rizoto po srbsku s bulgurem, sýr",
+        "d": "Salátový bar · Čaj s citronem, mléko, voda",
+        "a": [
+          1,
+          7,
+          13
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Rizoto po srbsku s bulgurem, sýr",
+            "a": [
+              1,
+              7,
+              13
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Salátový bar",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj s citronem, mléko, voda",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "n": "Losos na páře, brambory s pažítkou",
+        "d": "Salátový bar · Čaj s citronem, mléko, voda",
+        "a": [
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Losos na páře, brambory s pažítkou",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Salátový bar",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj s citronem, mléko, voda",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-07": {
+    "vydej": "11:30–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Pol.česnečka s bramborem a pohankou",
+        "d": "",
+        "a": [
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Krůtí marinovaná pečeně, N.Ú",
+        "d": "Brambory, bruselské kapustičky · Ovoce · Chlaz.voda, čaj bylinkový, mléko",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Krůtí marinovaná pečeně, N.Ú",
+            "a": []
+          },
+          {
+            "l": "Příloha",
+            "n": "Brambory, bruselské kapustičky",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Chlaz.voda, čaj bylinkový, mléko",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "n": "Cizrna na paprice, farmářský chléb",
+        "d": "Ovoce · Chlaz.voda, čaj bylinkový, mléko",
+        "a": [
+          1
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Cizrna na paprice, farmářský chléb",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Chlaz.voda, čaj bylinkový, mléko",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-08": {
+    "vydej": "11:30–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Hovězí vývar se strouháním",
+        "d": "",
+        "a": [
+          1,
+          7,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Hov. maso vařené, rajská omáčka",
+        "d": "Houskový knedlík, kynutý knedlík z celozrnné špaldové mouky · Džus",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Hov. maso vařené, rajská omáčka",
+            "a": []
+          },
+          {
+            "l": "Příloha",
+            "n": "Houskový knedlík, kynutý knedlík z celozrnné špaldové mouky",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Džus",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "n": "Medové mašličky s kuř. masem a sušenými rajčaty",
+        "d": "Džus",
+        "a": [
+          1,
+          7,
+          10
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Medové mašličky s kuř. masem a sušenými rajčaty",
+            "a": [
+              1,
+              7,
+              10
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Džus",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-09": {
+    "vydej": "11:30–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Ředitelské volno- nevaří se",
+        "d": "",
+        "a": []
       }
     ]
   }

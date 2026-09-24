@@ -1200,6 +1200,30 @@
     "vydej": "11:00–13:00",
     "chody": [
       {
+        "c": "presnidavka",
+        "n": "Zapečený toustík",
+        "d": "Borůvkový čaj",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Zapečený toustík",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Borůvkový čaj",
+            "a": []
+          }
+        ]
+      },
+      {
         "c": "polevka",
         "n": "Česneková",
         "d": "",
@@ -1247,30 +1271,6 @@
         ]
       },
       {
-        "c": "presnidavka",
-        "n": "Zapečený toustík",
-        "d": "Borůvkový čaj",
-        "a": [
-          1,
-          7
-        ],
-        "p": [
-          {
-            "l": "Jídlo",
-            "n": "Zapečený toustík",
-            "a": [
-              1,
-              7
-            ]
-          },
-          {
-            "l": "Nápoj",
-            "n": "Borůvkový čaj",
-            "a": []
-          }
-        ]
-      },
-      {
         "c": "svacina",
         "n": "Sýrová pletýnka, sýrová pletýnka",
         "d": "Pomeranč, pomeranč · Karamelové mléko, karamelové mléko",
@@ -1308,6 +1308,36 @@
   "2026-09-18": {
     "vydej": "11:00–13:00",
     "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Chléb Mušketýr",
+        "d": "Máslo, šunka, okurek · Bylinkový čaj",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Chléb Mušketýr",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Máslo, šunka, okurek",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Bylinkový čaj",
+            "a": []
+          }
+        ]
+      },
       {
         "c": "polevka",
         "n": "Z vaječné jíšky",
@@ -1355,36 +1385,6 @@
         ]
       },
       {
-        "c": "presnidavka",
-        "n": "Chléb Mušketýr",
-        "d": "Máslo, šunka, okurek · Bylinkový čaj",
-        "a": [
-          1,
-          7
-        ],
-        "p": [
-          {
-            "l": "Jídlo",
-            "n": "Chléb Mušketýr",
-            "a": [
-              1
-            ]
-          },
-          {
-            "l": "Doplněk",
-            "n": "Máslo, šunka, okurek",
-            "a": [
-              7
-            ]
-          },
-          {
-            "l": "Nápoj",
-            "n": "Bylinkový čaj",
-            "a": []
-          }
-        ]
-      },
-      {
         "c": "svacina",
         "n": "Loupáček",
         "d": "Hruška · Mléko",
@@ -1421,6 +1421,35 @@
   "2026-09-21": {
     "vydej": "11:00–13:00",
     "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Topinky",
+        "d": "Zeleninová obloha · Ranní čaj",
+        "a": [
+          1,
+          6
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Topinky",
+            "a": [
+              1,
+              6
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zeleninová obloha",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ranní čaj",
+            "a": []
+          }
+        ]
+      },
       {
         "c": "polevka",
         "n": "Selská",
@@ -1469,35 +1498,6 @@
         ]
       },
       {
-        "c": "presnidavka",
-        "n": "Topinky",
-        "d": "Zeleninová obloha · Ranní čaj",
-        "a": [
-          1,
-          6
-        ],
-        "p": [
-          {
-            "l": "Jídlo",
-            "n": "Topinky",
-            "a": [
-              1,
-              6
-            ]
-          },
-          {
-            "l": "Doplněk",
-            "n": "Zeleninová obloha",
-            "a": []
-          },
-          {
-            "l": "Nápoj",
-            "n": "Ranní čaj",
-            "a": []
-          }
-        ]
-      },
-      {
         "c": "svacina",
         "n": "Rohlík",
         "d": "Máslo, mrkev · Mléko",
@@ -1529,6 +1529,38 @@
   "2026-09-22": {
     "vydej": "11:00–13:00",
     "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Cereální raženka",
+        "d": "Budapešťská pomazánka, okurek · Bílá káva",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Cereální raženka",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Budapešťská pomazánka, okurek",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Bílá káva",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
       {
         "c": "polevka",
         "n": "Zeleninová s ovesnými vločkami",
@@ -1567,38 +1599,6 @@
             "l": "Nápoj",
             "n": "Ovocný neslazený čaj",
             "a": []
-          }
-        ]
-      },
-      {
-        "c": "presnidavka",
-        "n": "Cereální raženka",
-        "d": "Budapešťská pomazánka, okurek · Bílá káva",
-        "a": [
-          1,
-          7
-        ],
-        "p": [
-          {
-            "l": "Jídlo",
-            "n": "Cereální raženka",
-            "a": [
-              1
-            ]
-          },
-          {
-            "l": "Doplněk",
-            "n": "Budapešťská pomazánka, okurek",
-            "a": [
-              7
-            ]
-          },
-          {
-            "l": "Nápoj",
-            "n": "Bílá káva",
-            "a": [
-              7
-            ]
           }
         ]
       },
