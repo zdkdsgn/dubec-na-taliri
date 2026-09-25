@@ -1065,7 +1065,7 @@
       {
         "c": "obed",
         "n": "Rozlítaný španělský ptáček 1, 3, 10",
-        "d": "Dušená rýže · Ovocný bar · Ovocný nápoj, voda",
+        "d": "Dušená rýže · Ovocný bar, mléčný dezert 1, 7 · Ovocný nápoj, voda",
         "a": [],
         "p": [
           {
@@ -1080,7 +1080,7 @@
           },
           {
             "l": "Doplněk",
-            "n": "Ovocný bar",
+            "n": "Ovocný bar, mléčný dezert 1, 7",
             "a": []
           },
           {
@@ -2007,6 +2007,58 @@
           {
             "l": "Jídlo",
             "n": "STÁTNÍ SVÁTEK",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-29": {
+    "vydej": "11:30–14:15",
+    "chody": [
+      {
+        "c": "obed",
+        "n": "PODZIMNÍ PRÁZDNINY",
+        "d": "",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "PODZIMNÍ PRÁZDNINY",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Zeleninová s kuskusem 1, 7, 9",
+        "d": "",
+        "a": []
+      },
+      {
+        "c": "obed2",
+        "n": "Vepřová panenka po řecku 1",
+        "d": "Dušená rýže · Ovoce · Ovocný nápoj, voda",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Vepřová panenka po řecku 1",
+            "a": []
+          },
+          {
+            "l": "Příloha",
+            "n": "Dušená rýže",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný nápoj, voda",
             "a": []
           }
         ]

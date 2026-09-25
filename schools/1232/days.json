@@ -1822,5 +1822,400 @@
         ]
       }
     ]
+  },
+  "2026-09-28": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Státní svátek",
+        "d": "",
+        "a": []
+      }
+    ]
+  },
+  "2026-09-29": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Bramborová houska, máslo",
+        "d": "Zelenina · Kakao",
+        "a": [
+          1,
+          3,
+          6,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Bramborová houska, máslo",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zelenina",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Kakao",
+            "a": [
+              6,
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Hovězí s nudlemi",
+        "d": "",
+        "a": [
+          1,
+          3,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Hrachová kaše, vejce",
+        "d": "Zelenina · Čerstvý džus – mango",
+        "a": [
+          3,
+          7,
+          9
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Hrachová kaše, vejce",
+            "a": [
+              3,
+              7,
+              9
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Zelenina",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čerstvý džus – mango",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Čokoládový pudink s jahodovým přelivem a piškotami",
+        "d": "",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Čokoládový pudink s jahodovým přelivem a piškotami",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-09-30": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Tvarohový Míšánek",
+        "d": "Ovoce · Multivitamín",
+        "a": [
+          12
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Tvarohový Míšánek",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Multivitamín",
+            "a": [
+              12
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Kmínová s rýžovými vločkami",
+        "d": "",
+        "a": [
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Šumavský knedlík, pečení vrabci, špenát",
+        "d": "",
+        "a": [
+          1,
+          3,
+          7,
+          9
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Šumavský knedlík, pečení vrabci, špenát",
+            "a": [
+              1,
+              3,
+              7,
+              9
+            ]
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Chléb, máslo",
+        "d": "Zeleninový tác",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Chléb, máslo",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zeleninový tác",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-01": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Rohlík, sýrová pommazánka",
+        "d": "Mléko",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Rohlík, sýrová pommazánka",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Zeleninová s bílou quinnou",
+        "d": "",
+        "a": [
+          9,
+          11
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Obalovaná treska v sezamu, bramborová kaše",
+        "d": "",
+        "a": [
+          1,
+          3,
+          4,
+          7,
+          9,
+          11
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Obalovaná treska v sezamu, bramborová kaše",
+            "a": [
+              1,
+              3,
+              4,
+              7,
+              9,
+              11
+            ]
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Chléb, budapešťská pomazánka s pažitkou",
+        "d": "Zelenina",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Chléb, budapešťská pomazánka s pažitkou",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zelenina",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-02": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Chléb, rybičková pomazánka",
+        "d": "Kapie · Ovocný čaj",
+        "a": [
+          1,
+          3,
+          4,
+          7,
+          12
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Chléb, rybičková pomazánka",
+            "a": [
+              1,
+              3,
+              4,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Kapie",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný čaj",
+            "a": [
+              12
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Hrášková se smetanou",
+        "d": "",
+        "a": [
+          1,
+          7,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Kuřecí masová směs se zeleninou, rýže",
+        "d": "",
+        "a": [
+          1,
+          7,
+          9
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Kuřecí masová směs se zeleninou, rýže",
+            "a": [
+              1,
+              7,
+              9
+            ]
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Toustový chléb, čerstvý sýr",
+        "d": "Zeleninový talíř",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Toustový chléb, čerstvý sýr",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zeleninový talíř",
+            "a": []
+          }
+        ]
+      }
+    ]
   }
 }

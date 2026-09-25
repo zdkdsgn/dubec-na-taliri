@@ -1069,7 +1069,7 @@
       {
         "c": "obed",
         "n": "Tuňákový karbanátek, dušená zelenina na másle",
-        "d": "Bramborová kaše · Ovocná přesnídávka · Čaj, sirup, mléko, voda",
+        "d": "Bramborová kaše · Jogurt · Čaj, sirup, mléko, voda",
         "a": [
           4,
           7,
@@ -1093,7 +1093,7 @@
           },
           {
             "l": "Doplněk",
-            "n": "Ovocná přesnídávka",
+            "n": "Jogurt",
             "a": [
               7
             ]
@@ -1108,7 +1108,7 @@
       {
         "c": "obed2",
         "n": "Krupicová kaše s grankem a skořicí",
-        "d": "Ovoce – výběr · Čaj, sirup, mléko, voda",
+        "d": "Kusové ovoce · Čaj, sirup, mléko, voda",
         "a": [
           1,
           7,
@@ -1126,7 +1126,7 @@
           },
           {
             "l": "Doplněk",
-            "n": "Ovoce – výběr",
+            "n": "Kusové ovoce",
             "a": []
           },
           {
@@ -1281,7 +1281,7 @@
       },
       {
         "c": "obed2",
-        "n": "Houskový knedlík s vejcem, hlávkový ksalát se zakysanou smetanou",
+        "n": "Houskový knedlík s vejcem, hlávkový salát se zakysanou smetanou",
         "d": "Čaj, sirup, mléko, voda",
         "a": [
           1,
@@ -1291,7 +1291,7 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Houskový knedlík s vejcem, hlávkový ksalát se zakysanou smetanou",
+            "n": "Houskový knedlík s vejcem, hlávkový salát se zakysanou smetanou",
             "a": [
               1,
               3,
@@ -1325,7 +1325,7 @@
       {
         "c": "obed",
         "n": "Kapustový karbanátek (kapusta, ovesné vločky) dospělí strávníci uzené maso/",
-        "d": "Vařený brambor · Ovocná přesnídávka / mléčný výrobek · Čaj, sirup, mléko, voda",
+        "d": "Vařený brambor · Ovocná přesnídávka · Čaj, sirup, mléko, voda",
         "a": [
           1,
           3,
@@ -1348,7 +1348,7 @@
           },
           {
             "l": "Doplněk",
-            "n": "Ovocná přesnídávka / mléčný výrobek",
+            "n": "Ovocná přesnídávka",
             "a": [
               7
             ]
@@ -1415,10 +1415,11 @@
       {
         "c": "obed",
         "n": "Krůtí na kari",
-        "d": "Dušená rýže s pečeným květákem · Mléčný výrobek · Čaj, sirup, mléko, voda",
+        "d": "Dušená rýže s pečeným květákem · Rajčatový salát s rukolou semínky · Čaj, sirup, mléko, voda",
         "a": [
           7,
-          9
+          9,
+          11
         ],
         "p": [
           {
@@ -1438,15 +1439,49 @@
           },
           {
             "l": "Doplněk",
-            "n": "Mléčný výrobek",
+            "n": "Rajčatový salát s rukolou semínky",
             "a": [
-              7
+              11
             ]
           },
           {
             "l": "Nápoj",
             "n": "Čaj, sirup, mléko, voda",
             "a": []
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "n": "Těstoviny s mozzarelou, rajčaty a bazalkou (bezmasé)",
+        "d": "Kusové ovoce – výběr · Čaj, sirup, mléko, voda",
+        "a": [
+          1,
+          3,
+          7,
+          9
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Těstoviny s mozzarelou, rajčaty a bazalkou (bezmasé)",
+            "a": [
+              1,
+              3,
+              9
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Kusové ovoce – výběr",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj, sirup, mléko, voda",
+            "a": [
+              7
+            ]
           }
         ]
       }

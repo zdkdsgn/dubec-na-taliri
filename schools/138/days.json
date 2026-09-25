@@ -2254,39 +2254,41 @@
       },
       {
         "c": "polevka",
-        "n": "Drůbezí vývar s písmenky",
+        "n": "Kmínová s vejci",
         "d": "",
         "a": [
-          1
+          1,
+          3,
+          7,
+          9
         ]
       },
       {
         "c": "obed",
-        "n": "Pečené kuřecí stehno",
-        "d": "Bramborová kaše · Salátek · Džus ředěný x voda",
+        "n": "Čočka na kyselo s cibulkou",
+        "d": "Vařené vejce · Okurka · Džus ředěný x voda",
         "a": [
           1,
-          4,
-          7
+          3
         ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Pečené kuřecí stehno",
+            "n": "Čočka na kyselo s cibulkou",
             "a": [
-              1,
-              4,
-              7
+              1
             ]
           },
           {
             "l": "Příloha",
-            "n": "Bramborová kaše",
-            "a": []
+            "n": "Vařené vejce",
+            "a": [
+              3
+            ]
           },
           {
             "l": "Doplněk",
-            "n": "Salátek",
+            "n": "Okurka",
             "a": []
           },
           {
@@ -2365,28 +2367,25 @@
       },
       {
         "c": "polevka",
-        "n": "Kmínová pol. s vejcem",
+        "n": "Drůbeží vývar s písmenky",
         "d": "",
         "a": [
           1,
-          3,
-          7,
           9
         ]
       },
       {
         "c": "obed",
-        "n": "Čočka na kyselo s cibulkou",
-        "d": "Vařené vejce · Džus ředěný x voda",
+        "n": "Pečené kuřecí stehýnko",
+        "d": "Bramborová kaše · Salátek · Džus ředěný x voda",
         "a": [
           1,
-          3,
           7
         ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Čočka na kyselo s cibulkou",
+            "n": "Pečené kuřecí stehýnko",
             "a": [
               1,
               7
@@ -2394,10 +2393,15 @@
           },
           {
             "l": "Příloha",
-            "n": "Vařené vejce",
+            "n": "Bramborová kaše",
             "a": [
-              3
+              7
             ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Salátek",
+            "a": []
           },
           {
             "l": "Nápoj",

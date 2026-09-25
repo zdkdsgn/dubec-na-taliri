@@ -2019,7 +2019,7 @@
     "chody": [
       {
         "c": "presnidavka",
-        "n": "Žitná bageta, budapešťská pomazánka",
+        "n": "Rohlík žitný, budapešťská pomazánka",
         "d": "Zelenina · Ovocný čaj",
         "a": [
           1,
@@ -2029,7 +2029,7 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Žitná bageta, budapešťská pomazánka",
+            "n": "Rohlík žitný, budapešťská pomazánka",
             "a": [
               1,
               3,
@@ -2083,7 +2083,7 @@
       },
       {
         "c": "svacina",
-        "n": "Žitná bageta, pažitkové máslo",
+        "n": "Bageta, pažitkové máslo",
         "d": "Šťáva",
         "a": [
           1,
@@ -2093,7 +2093,7 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Žitná bageta, pažitkové máslo",
+            "n": "Bageta, pažitkové máslo",
             "a": [
               1,
               3,
@@ -4125,6 +4125,103 @@
           {
             "l": "Jídlo",
             "n": "Státní svátek",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-29": {
+    "vydej": "11:00–13:30",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Čokokuličky s mlékem",
+        "d": "Ovoce · Neslazený čaj",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Čokokuličky s mlékem",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Neslazený čaj",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Kuřecí vývar se zavářkou",
+        "d": "",
+        "a": [
+          1,
+          3,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Hovězí maso ve vlastní šťávě",
+        "d": "Dušená rýže · Džus – voda",
+        "a": [
+          1
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Hovězí maso ve vlastní šťávě",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Dušená rýže",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Džus – voda",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Podmáslový chléb, pomazánka z pečené mrkve",
+        "d": "Šťáva",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Podmáslový chléb, pomazánka z pečené mrkve",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Šťáva",
             "a": []
           }
         ]

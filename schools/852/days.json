@@ -1401,7 +1401,7 @@
       },
       {
         "c": "svacina",
-        "n": "Houska, tvaroohová s kapií",
+        "n": "Slunečnicový chléb, tvarohová s kapií",
         "d": "Zelenina · Mléko, ovocný sirup, voda s ovocem",
         "a": [
           1,
@@ -1410,7 +1410,7 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Houska, tvaroohová s kapií",
+            "n": "Slunečnicový chléb, tvarohová s kapií",
             "a": [
               1,
               7
@@ -1992,6 +1992,455 @@
             "a": [
               3
             ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-09-28": {
+    "vydej": "11:45–13:35",
+    "chody": [
+      {
+        "c": "obed",
+        "n": "STÁTNÍ SVÁTEK – MŠ A ZŠ UZAVŘENA",
+        "d": "",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "STÁTNÍ SVÁTEK – MŠ A ZŠ UZAVŘENA",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-09-29": {
+    "vydej": "11:45–13:35",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Dětská přesnídávka",
+        "d": "Loupák · Ovocný sirup, voda s citrónem a mátou",
+        "a": [
+          1,
+          3,
+          7,
+          8
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Dětská přesnídávka",
+            "a": []
+          },
+          {
+            "l": "Příloha",
+            "n": "Loupák",
+            "a": [
+              1,
+              3,
+              8
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný sirup, voda s citrónem a mátou",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Gulášová polévka ( vepřové maso, brambor )",
+        "d": "",
+        "a": [
+          1
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Hrachová kaše s cibulkou",
+        "d": "Volské oko, kyselá okurka · Ovocný sirup, voda s citrónem a mátou",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Hrachová kaše s cibulkou",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Volské oko, kyselá okurka",
+            "a": [
+              3
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný sirup, voda s citrónem a mátou",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Chléb, pomazánka česneková",
+        "d": "Zelenina · Mléko, ovocný sirup, voda s citrónem a mátou",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Chléb, pomazánka česneková",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zelenina",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko, ovocný sirup, voda s citrónem a mátou",
+            "a": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-09-30": {
+    "vydej": "11:45–13:35",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Rohlík, rama, šunka, sýr",
+        "d": "MŠ – bar ( zelenina, ovoce ), ZŠ -zelenina · Kakao, ovocný sirup, voda s pomerančem",
+        "a": [
+          1,
+          7,
+          8
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Rohlík, rama, šunka, sýr",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "MŠ – bar ( zelenina, ovoce ), ZŠ -zelenina",
+            "a": [
+              8
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Kakao, ovocný sirup, voda s pomerančem",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Pórková s kapáním",
+        "d": "",
+        "a": [
+          1,
+          3,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Vepřová kýta na kmíně",
+        "d": "Brambor · Ovocný sirup, voda s pomerančem",
+        "a": [
+          1
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Vepřová kýta na kmíně",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Brambor",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný sirup, voda s pomerančem",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Kaiserka cereální, falešná humrová pomazánka",
+        "d": "Mléko, sirup, voda s pomerančem",
+        "a": [
+          1,
+          7,
+          9
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Kaiserka cereální, falešná humrová pomazánka",
+            "a": [
+              1,
+              7,
+              9
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko, sirup, voda s pomerančem",
+            "a": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-01": {
+    "vydej": "11:45–13:35",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Slunečnicový rohlík, pomazánka z lososa",
+        "d": "MŠ – bar ( zelenina, ovoce ), ZŠ -zelenina · Ovocný sirup, voda s ovocem",
+        "a": [
+          1,
+          4,
+          7,
+          8
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Slunečnicový rohlík, pomazánka z lososa",
+            "a": [
+              1,
+              4,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "MŠ – bar ( zelenina, ovoce ), ZŠ -zelenina",
+            "a": [
+              8
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný sirup, voda s ovocem",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Brokolicová",
+        "d": "",
+        "a": [
+          1,
+          7
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Hovězí svíčková",
+        "d": "Houskový knedlík · Ovocný sirup, voda s ovocem",
+        "a": [
+          1,
+          3,
+          7,
+          9
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Hovězí svíčková",
+            "a": [
+              1,
+              7,
+              9
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Houskový knedlík",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný sirup, voda s ovocem",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Tmavý toastový chléb, pažitková pomazánka",
+        "d": "Zelenina · Mléko, sirup, voda s ovocem",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Tmavý toastový chléb, pažitková pomazánka",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zelenina",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko, sirup, voda s ovocem",
+            "a": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-02": {
+    "vydej": "11:45–13:35",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Ovesná kaše s mrazem sušenými malinami",
+        "d": "MŠ – bar ( zelenina, ovoce ) · Ovocný sirup, voda s grepem",
+        "a": [
+          1,
+          7,
+          8
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Ovesná kaše s mrazem sušenými malinami",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "MŠ – bar ( zelenina, ovoce )",
+            "a": [
+              8
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný sirup, voda s grepem",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Zeleninová jáhlová",
+        "d": "",
+        "a": []
+      },
+      {
+        "c": "obed",
+        "n": "Kuřecí nudličky",
+        "d": "Jasmínová rýže s quinoou a sušenými rajčaty · Ovocný sirup, voda s grepem",
+        "a": [
+          1
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Kuřecí nudličky",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Jasmínová rýže s quinoou a sušenými rajčaty",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný sirup, voda s grepem",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Podmáslový chléb, pomazánka z červené čočky",
+        "d": "Zelenina · Sirup, voda s grepem",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Podmáslový chléb, pomazánka z červené čočky",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zelenina",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Sirup, voda s grepem",
+            "a": []
           }
         ]
       }

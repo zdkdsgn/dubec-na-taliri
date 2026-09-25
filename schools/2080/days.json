@@ -1644,9 +1644,52 @@
       }
     ]
   },
+  "2026-09-28": {
+    "vydej": "11:30–12:30",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Státní svátek",
+        "d": "",
+        "a": []
+      }
+    ]
+  },
   "2026-09-29": {
     "vydej": "11:30–12:30",
     "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Pomazánka z tresčích jater, rohlík, zelenina",
+        "d": "Čaj",
+        "a": [
+          1,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Pomazánka z tresčích jater, rohlík, zelenina",
+            "a": [
+              1,
+              3,
+              4,
+              5,
+              6,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj",
+            "a": []
+          }
+        ]
+      },
       {
         "c": "polevka",
         "n": "REŽIE – oběd ZŠ Bynov – NUTNÉ ODHLÁSIT na strava.cz! Bramboračka",
@@ -1681,12 +1724,66 @@
             "a": []
           }
         ]
+      },
+      {
+        "c": "svacina",
+        "n": "Kobliha, ovoce",
+        "d": "Mléko",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Kobliha, ovoce",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko",
+            "a": [
+              7
+            ]
+          }
+        ]
       }
     ]
   },
   "2026-09-30": {
     "vydej": "11:30–12:30",
     "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Croissant máslový, lučina, pesto, šunka/sýr, rajče",
+        "d": "Čaj",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Croissant máslový, lučina, pesto, šunka/sýr, rajče",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj",
+            "a": []
+          }
+        ]
+      },
       {
         "c": "polevka",
         "n": "REŽIE – oběd ZŠ Bynov – NUTNÉ ODHLÁSIT na strava.cz! Krupicová polévka s vejcem",
@@ -1727,12 +1824,64 @@
             "a": []
           }
         ]
+      },
+      {
+        "c": "svacina",
+        "n": "Mléčná rýže, ovoce",
+        "d": "Čaj",
+        "a": [
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Mléčná rýže, ovoce",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj",
+            "a": [
+              7
+            ]
+          }
+        ]
       }
     ]
   },
   "2026-10-01": {
     "vydej": "11:30–12:30",
     "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Vajíčková pomazánka, chléb, zelenina",
+        "d": "Kakao",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Vajíčková pomazánka, chléb, zelenina",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Kakao",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
       {
         "c": "polevka",
         "n": "REŽIE – oběd ZŠ Bynov – NUTNÉ ODHLÁSIT na strava.cz! Brokolicová",
@@ -1760,12 +1909,66 @@
             "a": []
           }
         ]
+      },
+      {
+        "c": "svacina",
+        "n": "Jogurt, piškoty",
+        "d": "Voda",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Jogurt, piškoty",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Voda",
+            "a": []
+          }
+        ]
       }
     ]
   },
   "2026-10-02": {
     "vydej": "11:30–12:30",
     "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Patifu pomazánka, chléb, zelenina",
+        "d": "Čaj",
+        "a": [
+          1,
+          3,
+          6,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Patifu pomazánka, chléb, zelenina",
+            "a": [
+              1,
+              3,
+              6,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj",
+            "a": []
+          }
+        ]
+      },
       {
         "c": "polevka",
         "n": "REŽIE – oběd ZŠ Bynov – NUTNÉ ODHLÁSIT na strava.cz! Luštěninová",
@@ -1800,6 +2003,34 @@
           {
             "l": "Nápoj",
             "n": "Voda",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Bebe, ovoce",
+        "d": "Čaj",
+        "a": [
+          1,
+          3,
+          7,
+          8
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Bebe, ovoce",
+            "a": [
+              1,
+              3,
+              7,
+              8
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj",
             "a": []
           }
         ]

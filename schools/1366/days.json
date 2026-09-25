@@ -1793,7 +1793,7 @@
       {
         "c": "presnidavka",
         "n": "Jablečná přesnídávka, piškoty",
-        "d": "Borůvky · Mléko, čaj, ovocná šťáva, voda s citronem",
+        "d": "Borůvky, hroznové víno · Mléko, čaj, ovocná šťáva, voda s citronem",
         "a": [
           1,
           3,
@@ -1810,7 +1810,7 @@
           },
           {
             "l": "Doplněk",
-            "n": "Borůvky",
+            "n": "Borůvky, hroznové víno",
             "a": []
           },
           {
@@ -1824,7 +1824,7 @@
       },
       {
         "c": "polevka",
-        "n": "Hovězí vývar s rýží a hráškem",
+        "n": "Hovězí vývar s rýží",
         "d": "",
         "a": [
           7,
@@ -1905,7 +1905,7 @@
       {
         "c": "presnidavka",
         "n": "Chléb Zlaťák, tvarohová pomazánka",
-        "d": "Kapie, rajče · Mléko, čaj, ovocná šťáva, voda",
+        "d": "Rajče, okurka · Mléko, čaj, ovocná šťáva, voda",
         "a": [
           1,
           3,
@@ -1923,7 +1923,7 @@
           },
           {
             "l": "Doplněk",
-            "n": "Kapie, rajče",
+            "n": "Rajče, okurka",
             "a": []
           },
           {
@@ -1937,7 +1937,7 @@
       },
       {
         "c": "polevka",
-        "n": "Krémová dýňová",
+        "n": "Krémová dýňová smažený hrášek",
         "d": "",
         "a": [
           1,
@@ -1971,7 +1971,7 @@
       {
         "c": "svacina",
         "n": "Podmáslový chléb, lučina",
-        "d": "Hruška, švestka · Mléko, ovocná šťáva, voda s citronem",
+        "d": "Banán · Mléko, ovocná šťáva, voda s citronem",
         "a": [
           7
         ],
@@ -1983,7 +1983,7 @@
           },
           {
             "l": "Doplněk",
-            "n": "Hruška, švestka",
+            "n": "Banán",
             "a": []
           },
           {
@@ -2020,20 +2020,18 @@
     "chody": [
       {
         "c": "presnidavka",
-        "n": "Chléb Fit, vajíčková pomazánka",
+        "n": "Chléb Fit, sýrová pomazánka",
         "d": "Kapie, rajče · Mléko, čaj, voda s citronem, ovocná štˇáva",
         "a": [
           1,
-          3,
           7
         ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Chléb Fit, vajíčková pomazánka",
+            "n": "Chléb Fit, sýrová pomazánka",
             "a": [
               1,
-              3,
               7
             ]
           },
@@ -2200,7 +2198,7 @@
       {
         "c": "svacina",
         "n": "Grahámek s taveným sýrem",
-        "d": "Broskev, švestka · Mléko, čaj, voda s citronem, ovocná štˇáva",
+        "d": "Nektarinka, švestka · Mléko, čaj, voda s citronem, ovocná štˇáva",
         "a": [
           1,
           3,
@@ -2218,7 +2216,7 @@
           },
           {
             "l": "Doplněk",
-            "n": "Broskev, švestka",
+            "n": "Nektarinka, švestka",
             "a": []
           },
           {
@@ -2343,7 +2341,7 @@
       {
         "c": "presnidavka",
         "n": "Celozrnná bageta s máslem, plátkový sýr",
-        "d": "Kapie, okurka · Kakao, čaj, ovocná šťáva, voda s citronem",
+        "d": "Okurka · Kakao, čaj, ovocná šťáva, voda s citronem",
         "a": [
           1,
           3,
@@ -2363,7 +2361,7 @@
           },
           {
             "l": "Doplněk",
-            "n": "Kapie, okurka",
+            "n": "Okurka",
             "a": []
           },
           {
@@ -2419,7 +2417,7 @@
       },
       {
         "c": "svacina",
-        "n": "Jablečná kapsa, mléko",
+        "n": "Koblížek s džemem",
         "d": "Jablko · Mléko, čaj, ovocná šťáva, voda",
         "a": [
           1,
@@ -2429,7 +2427,7 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Jablečná kapsa, mléko",
+            "n": "Koblížek s džemem",
             "a": [
               1,
               3,

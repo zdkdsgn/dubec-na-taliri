@@ -913,7 +913,7 @@
       {
         "c": "obed",
         "n": "Obalované drůbeží safari",
-        "d": "Brambory · Kečup",
+        "d": "Brambory · Kečup · Fruttanella / voda",
         "a": [
           1,
           3,
@@ -942,6 +942,11 @@
             "a": [
               10
             ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Fruttanella / voda",
+            "a": []
           }
         ]
       }
@@ -961,9 +966,10 @@
       {
         "c": "obed",
         "n": "Vepřové na kmíně",
-        "d": "Těstoviny · BLUMA",
+        "d": "Těstoviny · BLUMA · Fruttanella / mléko",
         "a": [
-          1
+          1,
+          7
         ],
         "p": [
           {
@@ -984,6 +990,13 @@
             "l": "Doplněk",
             "n": "BLUMA",
             "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Fruttanella / mléko",
+            "a": [
+              7
+            ]
           }
         ]
       }
@@ -1005,7 +1018,7 @@
       {
         "c": "obed",
         "n": "Kulaté bramborové knedlíky plněné uzeným",
-        "d": "Červené zelí, smažená cibulka",
+        "d": "Červené zelí, smažená cibulka · Černý čaj se sirupem / voda",
         "a": [
           1,
           3,
@@ -1024,6 +1037,11 @@
           {
             "l": "Příloha",
             "n": "Červené zelí, smažená cibulka",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Černý čaj se sirupem / voda",
             "a": []
           }
         ]
@@ -1045,8 +1063,9 @@
       {
         "c": "obed",
         "n": "Zeleninová čína s nudličkami z vepřové kýty",
-        "d": "Rýže · JABLKO",
+        "d": "Rýže · JABLKO · Ovocný čaj slazený/ voda",
         "a": [
+          1,
           6,
           9
         ],
@@ -1055,6 +1074,7 @@
             "l": "Jídlo",
             "n": "Zeleninová čína s nudličkami z vepřové kýty",
             "a": [
+              1,
               6,
               9
             ]
@@ -1067,6 +1087,11 @@
           {
             "l": "Doplněk",
             "n": "JABLKO",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný čaj slazený/ voda",
             "a": []
           }
         ]

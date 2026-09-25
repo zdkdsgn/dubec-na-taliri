@@ -4408,5 +4408,116 @@
         "a": []
       }
     ]
+  },
+  "2026-10-29": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Chléb s máslem, sýr Parenica",
+        "d": "Jablko · Čaj, mléko, voda s citronem",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Chléb s máslem, sýr Parenica",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Jablko",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj, mléko, voda s citronem",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Fazolová s mrkví a hráškem",
+        "d": "",
+        "a": [
+          1,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Mletý máslový řízek",
+        "d": "Vařené brambory MM · Kompot · Čaj",
+        "a": [
+          1,
+          3,
+          6,
+          7,
+          8,
+          9
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Mletý máslový řízek",
+            "a": [
+              1,
+              3,
+              6,
+              7,
+              8,
+              9
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Vařené brambory MM",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Kompot",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Vanikový pudink s piškoty a ovocem",
+        "d": "Mléko, voda s bylinkami",
+        "a": [
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Vanikový pudink s piškoty a ovocem",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko, voda s bylinkami",
+            "a": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
   }
 }

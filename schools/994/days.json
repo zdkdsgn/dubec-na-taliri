@@ -6668,6 +6668,34 @@
             ]
           },
           {
+            "c": "obed",
+            "n": "Těstoviny s milánskou omáčkou a sýrem",
+            "d": "Čaj, vitamínový nápoj",
+            "a": [
+              1,
+              3,
+              7,
+              9
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Těstoviny s milánskou omáčkou a sýrem",
+                "a": [
+                  1,
+                  3,
+                  7,
+                  9
+                ]
+              },
+              {
+                "l": "Nápoj",
+                "n": "Čaj, vitamínový nápoj",
+                "a": []
+              }
+            ]
+          },
+          {
             "c": "obed2",
             "n": "Míchaný zeleninový salát s grilovanou panenkou a dresinkem",
             "d": "Pečivo · Čaj, vitamínový nápoj",
@@ -8487,6 +8515,155 @@
                   3,
                   4,
                   7
+                ]
+              },
+              {
+                "l": "Doplněk",
+                "n": "Ovoce",
+                "a": []
+              },
+              {
+                "l": "Nápoj",
+                "n": "Čaj, vitamínový nápoj",
+                "a": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "2026-10-29": {
+    "skupiny": {
+      "ms": {
+        "vydej": "11:00–14:00",
+        "chody": [
+          {
+            "c": "presnidavka",
+            "n": "Šlehaný tvaroh s ovocem",
+            "d": "Čaj",
+            "a": [
+              7
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Šlehaný tvaroh s ovocem",
+                "a": [
+                  7
+                ]
+              },
+              {
+                "l": "Nápoj",
+                "n": "Čaj",
+                "a": []
+              }
+            ]
+          },
+          {
+            "c": "polevka",
+            "n": "Polévka čočková",
+            "d": "",
+            "a": [
+              1,
+              9
+            ]
+          },
+          {
+            "c": "obed",
+            "n": "Domácí buchty",
+            "d": "Ovoce · Čaj, vitamínový nápoj",
+            "a": [
+              1,
+              3,
+              7,
+              12
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Domácí buchty",
+                "a": [
+                  1,
+                  3,
+                  7,
+                  12
+                ]
+              },
+              {
+                "l": "Doplněk",
+                "n": "Ovoce",
+                "a": []
+              },
+              {
+                "l": "Nápoj",
+                "n": "Čaj, vitamínový nápoj",
+                "a": []
+              }
+            ]
+          },
+          {
+            "c": "svacina",
+            "n": "Kmínový chléb, pomazánkové máslo s jarní cibulkou",
+            "d": "Paprika · Čaj",
+            "a": [
+              1,
+              7
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Kmínový chléb, pomazánkové máslo s jarní cibulkou",
+                "a": [
+                  1,
+                  7
+                ]
+              },
+              {
+                "l": "Doplněk",
+                "n": "Paprika",
+                "a": []
+              },
+              {
+                "l": "Nápoj",
+                "n": "Čaj",
+                "a": []
+              }
+            ]
+          }
+        ]
+      },
+      "zs": {
+        "vydej": "11:00–14:00",
+        "chody": [
+          {
+            "c": "polevka",
+            "n": "Polévka čočková",
+            "d": "",
+            "a": [
+              1,
+              9
+            ]
+          },
+          {
+            "c": "obed",
+            "n": "Domácí buchty",
+            "d": "Ovoce · Čaj, vitamínový nápoj",
+            "a": [
+              1,
+              3,
+              7,
+              12
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Domácí buchty",
+                "a": [
+                  1,
+                  3,
+                  7,
+                  12
                 ]
               },
               {

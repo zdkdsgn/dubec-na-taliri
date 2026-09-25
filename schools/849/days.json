@@ -1905,16 +1905,18 @@
     "chody": [
       {
         "c": "presnidavka",
-        "n": "Křupavý chlebíček se sýrovou pomazánkou",
+        "n": "Houska se šunkou",
         "d": "Ovocný a zeleninový talíř · Mléko",
         "a": [
+          1,
           7
         ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Křupavý chlebíček se sýrovou pomazánkou",
+            "n": "Houska se šunkou",
             "a": [
+              1,
               7
             ]
           },
@@ -1977,32 +1979,23 @@
       },
       {
         "c": "svacina",
-        "n": "Houska s máslem a šunkou",
-        "d": "Zelenina · Mléko",
+        "n": "Ovocná přesnídávka, piškot",
+        "d": "Čaj, voda, mléko",
         "a": [
-          1,
-          7
+          1
         ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Houska s máslem a šunkou",
+            "n": "Ovocná přesnídávka, piškot",
             "a": [
-              1,
-              7
+              1
             ]
-          },
-          {
-            "l": "Doplněk",
-            "n": "Zelenina",
-            "a": []
           },
           {
             "l": "Nápoj",
-            "n": "Mléko",
-            "a": [
-              7
-            ]
+            "n": "Čaj, voda, mléko",
+            "a": []
           }
         ]
       }
@@ -2087,18 +2080,23 @@
       },
       {
         "c": "svacina",
-        "n": "Tvaroh šlehaný s ovocem",
-        "d": "Mléko",
+        "n": "Křupavý chlebíček se sýrovou pomazánkou",
+        "d": "Zelenina · Mléko",
         "a": [
           7
         ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Tvaroh šlehaný s ovocem",
+            "n": "Křupavý chlebíček se sýrovou pomazánkou",
             "a": [
               7
             ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zelenina",
+            "a": []
           },
           {
             "l": "Nápoj",

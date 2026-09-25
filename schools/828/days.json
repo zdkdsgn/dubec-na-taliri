@@ -832,5 +832,445 @@
         ]
       }
     ]
+  },
+  "2026-09-29": {
+    "vydej": "11:30–13:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Z rybího filé",
+        "d": "",
+        "a": [
+          1,
+          4,
+          7,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Smažený kuřecí řízek",
+        "d": "Bramborová kaše m.m. · Hruškový kompot · Čaj ovocný, voda",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Smažený kuřecí řízek",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Bramborová kaše m.m.",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Hruškový kompot",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj ovocný, voda",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-09-30": {
+    "vydej": "11:30–13:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Z fazole mungo",
+        "d": "",
+        "a": [
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Špagety s pikantní omáčkou, sypané goudou",
+        "d": "Banán · Bílá káva, mléko, voda",
+        "a": [
+          1,
+          3,
+          7,
+          9
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Špagety s pikantní omáčkou, sypané goudou",
+            "a": [
+              1,
+              3,
+              7,
+              9
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Banán",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Bílá káva, mléko, voda",
+            "a": [
+              1,
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-01": {
+    "vydej": "11:30–13:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Rychlá s vejcem",
+        "d": "",
+        "a": [
+          3,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Vepřová kotleta se švestkovou omáčkou",
+        "d": "Houskový knedlík s celozrnnou moukou · Džus, voda",
+        "a": [
+          1,
+          3,
+          7,
+          9
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Vepřová kotleta se švestkovou omáčkou",
+            "a": [
+              1,
+              9
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Houskový knedlík s celozrnnou moukou",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Džus, voda",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-02": {
+    "vydej": "11:30–13:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Jáhlová se zeleninou",
+        "d": "",
+        "a": [
+          7,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Pečené rybí filety tilápie na bylinkovém másle",
+        "d": "Brambory m.m. s pažitkou · Míchaný salát z čínského zelí s jogurtovým dresinkem · Sirup, voda",
+        "a": [
+          4,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Pečené rybí filety tilápie na bylinkovém másle",
+            "a": [
+              4,
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Brambory m.m. s pažitkou",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Míchaný salát z čínského zelí s jogurtovým dresinkem",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Sirup, voda",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-05": {
+    "vydej": "11:30–13:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Špaldová kroupová se zeleninou",
+        "d": "",
+        "a": [
+          1,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Pečená vepřová panenka",
+        "d": "Brambory m.m. s petrželkou · Mrkvový salát · Džus, voda",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Pečená vepřová panenka",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Brambory m.m. s petrželkou",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Mrkvový salát",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Džus, voda",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-06": {
+    "vydej": "11:30–13:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Bramborová venkovská",
+        "d": "",
+        "a": [
+          1,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Lahůdkový párek",
+        "d": "Hrachová kaše, okurek st. · Amarantové kroužky · Čaj ovocný, voda",
+        "a": [
+          6,
+          7,
+          10
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Lahůdkový párek",
+            "a": []
+          },
+          {
+            "l": "Příloha",
+            "n": "Hrachová kaše, okurek st.",
+            "a": [
+              7,
+              10
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Amarantové kroužky",
+            "a": [
+              6,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj ovocný, voda",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-07": {
+    "vydej": "11:30–13:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Rýžová se zeleninou",
+        "d": "",
+        "a": [
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Kuřecí karbanátek",
+        "d": "Bramborová kaše m.m. · Salát z červené řepy s jablky · Mošt, voda",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Kuřecí karbanátek",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Bramborová kaše m.m.",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Salát z červené řepy s jablky",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mošt, voda",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-08": {
+    "vydej": "11:30–13:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Zeleninová",
+        "d": "",
+        "a": [
+          7,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Krupicová kaše, sypaná kakaem",
+        "d": "Hruška · Čaj ovocný, voda",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Krupicová kaše, sypaná kakaem",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Hruška",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj ovocný, voda",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-09": {
+    "vydej": "11:30–13:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Vločková",
+        "d": "",
+        "a": [
+          1,
+          7,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Boloňské lasagne",
+        "d": "Džus, voda",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Boloňské lasagne",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Džus, voda",
+            "a": []
+          }
+        ]
+      }
+    ]
   }
 }
