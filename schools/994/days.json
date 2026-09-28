@@ -8681,5 +8681,168 @@
         ]
       }
     }
+  },
+  "2026-10-30": {
+    "skupiny": {
+      "ms": {
+        "vydej": "11:00–14:00",
+        "chody": [
+          {
+            "c": "presnidavka",
+            "n": "Toustový chléb, lučinová pomazánka s pórkem",
+            "d": "Čerstvé mléko",
+            "a": [
+              1,
+              7
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Toustový chléb, lučinová pomazánka s pórkem",
+                "a": [
+                  1,
+                  7
+                ]
+              },
+              {
+                "l": "Nápoj",
+                "n": "Čerstvé mléko",
+                "a": [
+                  7
+                ]
+              }
+            ]
+          },
+          {
+            "c": "polevka",
+            "n": "Polévka česnekový krém s krutony",
+            "d": "",
+            "a": [
+              1,
+              9
+            ]
+          },
+          {
+            "c": "obed",
+            "n": "Rybí filé na tymiánu",
+            "d": "Šťouchané brambory · Kompot · Čaj, vitamínový nápoj",
+            "a": [
+              1,
+              4,
+              7
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Rybí filé na tymiánu",
+                "a": [
+                  1,
+                  4,
+                  7
+                ]
+              },
+              {
+                "l": "Příloha",
+                "n": "Šťouchané brambory",
+                "a": [
+                  7
+                ]
+              },
+              {
+                "l": "Doplněk",
+                "n": "Kompot",
+                "a": []
+              },
+              {
+                "l": "Nápoj",
+                "n": "Čaj, vitamínový nápoj",
+                "a": []
+              }
+            ]
+          },
+          {
+            "c": "svacina",
+            "n": "Žitný chléb, máslo, vepřová šunka",
+            "d": "Cherry rajče · Čaj",
+            "a": [
+              1,
+              7
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Žitný chléb, máslo, vepřová šunka",
+                "a": [
+                  1,
+                  7
+                ]
+              },
+              {
+                "l": "Doplněk",
+                "n": "Cherry rajče",
+                "a": []
+              },
+              {
+                "l": "Nápoj",
+                "n": "Čaj",
+                "a": []
+              }
+            ]
+          }
+        ]
+      },
+      "zs": {
+        "vydej": "11:00–14:00",
+        "chody": [
+          {
+            "c": "polevka",
+            "n": "Polévka česnekový krém s krutony",
+            "d": "",
+            "a": [
+              1,
+              9
+            ]
+          },
+          {
+            "c": "obed",
+            "n": "Rybí filé na tymiánu",
+            "d": "Šťouchané brambory · Kompot · Čaj, vitamínový nápoj",
+            "a": [
+              1,
+              4,
+              7
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Rybí filé na tymiánu",
+                "a": [
+                  1,
+                  4,
+                  7
+                ]
+              },
+              {
+                "l": "Příloha",
+                "n": "Šťouchané brambory",
+                "a": [
+                  7
+                ]
+              },
+              {
+                "l": "Doplněk",
+                "n": "Kompot",
+                "a": []
+              },
+              {
+                "l": "Nápoj",
+                "n": "Čaj, vitamínový nápoj",
+                "a": []
+              }
+            ]
+          }
+        ]
+      }
+    }
   }
 }

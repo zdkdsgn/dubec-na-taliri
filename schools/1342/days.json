@@ -4707,5 +4707,122 @@
         ]
       }
     ]
+  },
+  "2026-10-30": {
+    "vydej": "11:40–13:30",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Chléb",
+        "d": "Butapešťská pomazánka · Zelenina · Čaj",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Chléb",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Butapešťská pomazánka",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zelenina",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Gulášová polévka",
+        "d": "",
+        "a": [
+          1,
+          3,
+          7,
+          8,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Tvarohová žemlovka s jablky",
+        "d": "Čaj/voda",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Tvarohová žemlovka s jablky",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj/voda",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Žitný chléb",
+        "d": "Tvarohová pomazánka · Ovoce · Čaj",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Žitný chléb",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Tvarohová pomazánka",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj",
+            "a": []
+          }
+        ]
+      }
+    ]
   }
 }

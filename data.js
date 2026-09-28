@@ -9,7 +9,7 @@
 window.MENU_DATA = {
   meta: {
     school: "MŠ & ZŠ Dubeč",
-    updated: "2026-09-25T11:33:42+02:00",
+    updated: "2026-09-28T12:49:17+02:00",
     week: "2026-09-01 – 2026-10-02",
     sources: {
       zs: "https://www.jidelna.cz/jidelni-listek/?jidelna=47",

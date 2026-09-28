@@ -1443,7 +1443,7 @@
       {
         "c": "obed",
         "n": "Losos po francouzsku, zel.obloha",
-        "d": "Bramborová kaše · Chlebíček s pomazánkou · Ovocný nápoj, voda",
+        "d": "Bramborová kaše · Ovocný nápoj, voda",
         "a": [
           1,
           3,
@@ -1470,16 +1470,6 @@
             ]
           },
           {
-            "l": "Doplněk",
-            "n": "Chlebíček s pomazánkou",
-            "a": [
-              1,
-              3,
-              7,
-              10
-            ]
-          },
-          {
             "l": "Nápoj",
             "n": "Ovocný nápoj, voda",
             "a": []
@@ -1489,12 +1479,9 @@
       {
         "c": "obed2",
         "n": "Přírodní plátek na houbách",
-        "d": "Dušená rýže · Chlebíček s pomazánkou · Ovocný nápoj, voda",
+        "d": "Dušená rýže · Ovocný nápoj, voda",
         "a": [
-          1,
-          3,
-          7,
-          10
+          1
         ],
         "p": [
           {
@@ -1508,16 +1495,6 @@
             "l": "Příloha",
             "n": "Dušená rýže",
             "a": []
-          },
-          {
-            "l": "Doplněk",
-            "n": "Chlebíček s pomazánkou",
-            "a": [
-              1,
-              3,
-              7,
-              10
-            ]
           },
           {
             "l": "Nápoj",
@@ -1624,12 +1601,14 @@
       {
         "c": "obed",
         "n": "Bulgur s kuřecím masem a zeleninou",
-        "d": "Zeleninová obloha · Moučník · Ovocný nápoj, voda, čaj",
+        "d": "Zeleninová obloha · Chlebíček s pomazánkou · Ovocný nápoj, voda, čaj",
         "a": [
           1,
           3,
+          4,
           7,
-          9
+          9,
+          10
         ],
         "p": [
           {
@@ -1647,11 +1626,13 @@
           },
           {
             "l": "Doplněk",
-            "n": "Moučník",
+            "n": "Chlebíček s pomazánkou",
             "a": [
               1,
               3,
-              7
+              4,
+              7,
+              10
             ]
           },
           {
@@ -1664,11 +1645,13 @@
       {
         "c": "obed2",
         "n": "Kuře na smetaně",
-        "d": "Houskové knedlíky · Moučník · Ovocný nápoj, voda, čaj",
+        "d": "Houskové knedlíky · Chlebíček s pomazánkou · Ovocný nápoj, voda, čaj",
         "a": [
           1,
           3,
-          7
+          4,
+          7,
+          10
         ],
         "p": [
           {
@@ -1691,11 +1674,13 @@
           },
           {
             "l": "Doplněk",
-            "n": "Moučník",
+            "n": "Chlebíček s pomazánkou",
             "a": [
               1,
               3,
-              7
+              4,
+              7,
+              10
             ]
           },
           {

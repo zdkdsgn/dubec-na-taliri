@@ -2569,7 +2569,7 @@
       {
         "c": "obed",
         "n": "Svíčková pečeně",
-        "d": "Houskový knedlík · Děti – ovoce · Mléko, ovocný nápoj, voda",
+        "d": "Houskový knedlík · Děti – ovocný a zeleninový bar · Mléko, ovocný nápoj, voda",
         "a": [
           1,
           3,
@@ -2596,7 +2596,7 @@
           },
           {
             "l": "Doplněk",
-            "n": "Děti – ovoce",
+            "n": "Děti – ovocný a zeleninový bar",
             "a": []
           },
           {
@@ -2611,7 +2611,7 @@
       {
         "c": "obed2",
         "n": "Jogurtové knedlíčky s ovocnou omáčkou a zakys. smetanou",
-        "d": "Děti – ovoce · Mléko, ovocný nápoj, voda",
+        "d": "Děti – ovocný a zeleninový bar · Mléko, ovocný nápoj, voda",
         "a": [
           1,
           7
@@ -2627,7 +2627,7 @@
           },
           {
             "l": "Doplněk",
-            "n": "Děti – ovoce",
+            "n": "Děti – ovocný a zeleninový bar",
             "a": []
           },
           {
@@ -2656,7 +2656,7 @@
       {
         "c": "obed",
         "n": "Kuřecí maso na divoko",
-        "d": "Dušená rýže se zeleninou · Děti – jogurt s ovocem · Ovocný nápoj, voda",
+        "d": "Dušená rýže se zeleninou · Děti – jogurt s ovocem, děti ovocný a zeleninový bar · Ovocný nápoj, voda",
         "a": [
           1,
           7
@@ -2676,7 +2676,7 @@
           },
           {
             "l": "Doplněk",
-            "n": "Děti – jogurt s ovocem",
+            "n": "Děti – jogurt s ovocem, děti ovocný a zeleninový bar",
             "a": [
               7
             ]
@@ -2691,7 +2691,7 @@
       {
         "c": "obed2",
         "n": "Špekové knedlíky se zelím",
-        "d": "Děti – jogurt s ovocem · Ovocný nápoj, voda",
+        "d": "Děti – jogurt s ovocem, děti ovocný a zeleninový bar · Ovocný nápoj, voda",
         "a": [
           1,
           3,
@@ -2709,8 +2709,10 @@
           },
           {
             "l": "Doplněk",
-            "n": "Děti – jogurt s ovocem",
-            "a": []
+            "n": "Děti – jogurt s ovocem, děti ovocný a zeleninový bar",
+            "a": [
+              7
+            ]
           },
           {
             "l": "Nápoj",
@@ -2737,7 +2739,7 @@
       {
         "c": "obed",
         "n": "Vepřové maso na paprice",
-        "d": "Těstoviny · Děti – ovoce · Mléko, ovocný nápoj, voda",
+        "d": "Těstoviny · Děti – ovocný a zeleninový bar · Mléko, ovocný nápoj, voda",
         "a": [
           1,
           7
@@ -2758,7 +2760,7 @@
           },
           {
             "l": "Doplněk",
-            "n": "Děti – ovoce",
+            "n": "Děti – ovocný a zeleninový bar",
             "a": []
           },
           {
@@ -2773,7 +2775,7 @@
       {
         "c": "obed2",
         "n": "Zeleninový salát s kousky smaženého lososa, bazalkový přeliv",
-        "d": "Děti – ovoce · Mléko, ovocný nápoj, voda",
+        "d": "Děti – ovocný a zeleninový bar · Mléko, ovocný nápoj, voda",
         "a": [
           4,
           7
@@ -2788,7 +2790,7 @@
           },
           {
             "l": "Doplněk",
-            "n": "Děti – ovoce",
+            "n": "Děti – ovocný a zeleninový bar",
             "a": []
           },
           {
@@ -2814,7 +2816,7 @@
       {
         "c": "obed",
         "n": "Rizoto s masem a zeleninou, sýr, okurka",
-        "d": "Děti – paprika · Ovocný nápoj, voda",
+        "d": "Děti – ovocný a zeleninový bar · Ovocný nápoj, voda",
         "a": [
           7
         ],
@@ -2828,7 +2830,7 @@
           },
           {
             "l": "Doplněk",
-            "n": "Děti – paprika",
+            "n": "Děti – ovocný a zeleninový bar",
             "a": []
           },
           {
@@ -2841,7 +2843,7 @@
       {
         "c": "obed2",
         "n": "Špenátové těstoviny se smetanovou omáčkou a žampióny",
-        "d": "Děti – ovoce · Ovocný nápoj, voda",
+        "d": "Děti – ovocný a zeleninový bar · Ovocný nápoj, voda",
         "a": [
           1,
           3,
@@ -2859,7 +2861,7 @@
           },
           {
             "l": "Doplněk",
-            "n": "Děti – ovoce",
+            "n": "Děti – ovocný a zeleninový bar",
             "a": []
           },
           {
@@ -3008,6 +3010,52 @@
             "a": [
               7
             ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-30": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Kuřecí se zeleninou, masem a nudlemi",
+        "d": "",
+        "a": [
+          1,
+          3,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Zapečené těstoviny, okurka",
+        "d": "Zelný salát · Ovocný nápoj, voda",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Zapečené těstoviny, okurka",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zelný salát",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný nápoj, voda",
+            "a": []
           }
         ]
       }

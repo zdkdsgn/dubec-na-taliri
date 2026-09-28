@@ -4581,5 +4581,119 @@
         ]
       }
     ]
+  },
+  "2026-10-30": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Vánočka",
+        "d": "Jablko · Mléko, čaj",
+        "a": [
+          1,
+          3,
+          6,
+          7,
+          8
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Vánočka",
+            "a": [
+              1,
+              3,
+              6,
+              8
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Jablko",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko, čaj",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Polévka jarní s rýží",
+        "d": "",
+        "a": [
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Fazole po Bretaňsku",
+        "d": "Chléb · Šťáva, voda, mléko",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Fazole po Bretaňsku",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Chléb",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Šťáva, voda, mléko",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Rohlík, žervé",
+        "d": "Jablko · Mléko, čaj",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Rohlík, žervé",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Jablko",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko, čaj",
+            "a": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
   }
 }
