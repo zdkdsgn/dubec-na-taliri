@@ -912,7 +912,7 @@
       {
         "c": "obed",
         "n": "Filet ze sumečka afrického s cuketou",
-        "d": "Bramborovo-mrkvové pyré · Ovocný čaj s citrónem, voda, mléko",
+        "d": "Bramborovo-mrkvové pyré · Ryngle · Ovocný čaj s citrónem, voda, mléko",
         "a": [
           3,
           4,
@@ -934,6 +934,11 @@
               3,
               7
             ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ryngle",
+            "a": []
           },
           {
             "l": "Nápoj",
@@ -1012,7 +1017,7 @@
       {
         "c": "obed",
         "n": "Moravský vrabec",
-        "d": "Bramborové špalíčky, špenát · Ovocná šťáva, voda, mléko",
+        "d": "Bramborové špalíčky, špenát · Bobik tvaroh · Ovocná šťáva, voda, mléko",
         "a": [
           1,
           3,
@@ -1032,6 +1037,13 @@
             "a": [
               1,
               3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Bobik tvaroh",
+            "a": [
               7
             ]
           },
@@ -1084,6 +1096,245 @@
           {
             "l": "Nápoj",
             "n": "Vitamax nápoj, voda, mléko",
+            "a": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-05": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Bramborová s cizrnou",
+        "d": "",
+        "a": [
+          7
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Špagety se zeleninovou omáčkou, sýr",
+        "d": "Ovocný čaj, voda, mléko",
+        "a": [
+          7,
+          9,
+          12
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Špagety se zeleninovou omáčkou, sýr",
+            "a": [
+              7,
+              9,
+              12
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný čaj, voda, mléko",
+            "a": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-06": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Zeleninová s pohankou",
+        "d": "",
+        "a": [
+          1,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Hovězí maso na smetaně, brusinky",
+        "d": "Celozrnný houskový knedlík · Džus, voda, mléko",
+        "a": [
+          1,
+          3,
+          7,
+          9,
+          11
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Hovězí maso na smetaně, brusinky",
+            "a": [
+              1,
+              7,
+              9
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Celozrnný houskový knedlík",
+            "a": [
+              1,
+              3,
+              7,
+              11
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Džus, voda, mléko",
+            "a": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-07": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Letní polévka",
+        "d": "",
+        "a": [
+          1,
+          7,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Hrachová kaše s cib.uz.maso",
+        "d": "Steril.okurek · Ovocík, voda, mléko, káva latté",
+        "a": [
+          1,
+          7,
+          9,
+          10,
+          12
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Hrachová kaše s cib.uz.maso",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Steril.okurek",
+            "a": [
+              9,
+              10,
+              12
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocík, voda, mléko, káva latté",
+            "a": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-08": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Hrstková",
+        "d": "",
+        "a": [
+          1,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Vypečená brokolice",
+        "d": "Vitamax nápoj, voda, mléko",
+        "a": [
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Vypečená brokolice",
+            "a": [
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Vitamax nápoj, voda, mléko",
+            "a": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-09": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Rybí krémová z tresky",
+        "d": "",
+        "a": [
+          3,
+          4,
+          7,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Masovo-sýrové koule",
+        "d": "Brambory m.m · Tykvík, voda, mléko",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Masovo-sýrové koule",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Brambory m.m",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Tykvík, voda, mléko",
             "a": [
               7
             ]

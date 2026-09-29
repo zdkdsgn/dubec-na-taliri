@@ -1368,7 +1368,7 @@
       {
         "c": "obed",
         "n": "Zapečený květák",
-        "d": "Brambor · Červená řepa · Voda, voda s citrusy a zázvorem, voda s ovocem",
+        "d": "Brambor · Červená řepa · Voda, voda s citrusy a zázvorem, voda s ovocem, mléko",
         "a": [
           1,
           3,
@@ -1398,8 +1398,10 @@
           },
           {
             "l": "Nápoj",
-            "n": "Voda, voda s citrusy a zázvorem, voda s ovocem",
-            "a": []
+            "n": "Voda, voda s citrusy a zázvorem, voda s ovocem, mléko",
+            "a": [
+              7
+            ]
           }
         ]
       }

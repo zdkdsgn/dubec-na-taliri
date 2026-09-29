@@ -1211,20 +1211,9 @@
     "vydej": "11:00–13:30",
     "chody": [
       {
-        "c": "polevka",
-        "n": "Drožďová",
-        "d": "",
-        "a": [
-          1,
-          3,
-          7,
-          9
-        ]
-      },
-      {
         "c": "obed",
-        "n": "Cikánská vepřová pečeně",
-        "d": "Rýže · Ovoce · Mléko, čaj, mošt, džus. citr.voda, voda",
+        "n": "Obložená bageta ( sýr, šunka, hlávk.salát )",
+        "d": "Ovoce-mandarinka · Mléko, čaj, citron.voda",
         "a": [
           1,
           7
@@ -1232,48 +1221,21 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Cikánská vepřová pečeně",
+            "n": "Obložená bageta ( sýr, šunka, hlávk.salát )",
             "a": [
-              1
+              1,
+              7
             ]
           },
           {
-            "l": "Příloha",
-            "n": "Rýže",
-            "a": []
-          },
-          {
             "l": "Doplněk",
-            "n": "Ovoce",
+            "n": "Ovoce-mandarinka",
             "a": []
           },
           {
             "l": "Nápoj",
-            "n": "Mléko, čaj, mošt, džus. citr.voda, voda",
+            "n": "Mléko, čaj, citron.voda",
             "a": [
-              7
-            ]
-          }
-        ]
-      },
-      {
-        "c": "obed2",
-        "n": "Salát z kukuřičných těstovin s tuňákem a zeleninou, parmazán",
-        "d": "",
-        "a": [
-          1,
-          3,
-          4,
-          7
-        ],
-        "p": [
-          {
-            "l": "Jídlo",
-            "n": "Salát z kukuřičných těstovin s tuňákem a zeleninou, parmazán",
-            "a": [
-              1,
-              3,
-              4,
               7
             ]
           }
@@ -1285,21 +1247,12 @@
     "vydej": "11:00–13:30",
     "chody": [
       {
-        "c": "polevka",
-        "n": "Gulášová",
-        "d": "",
-        "a": [
-          1,
-          7,
-          9
-        ]
-      },
-      {
         "c": "obed",
-        "n": "Čočka na kari, uzená plec",
-        "d": "Výběr sterilované zeleniny · Mléko, čaj, džus, citr.voda, voda",
+        "n": "Vídeňské párky, hořčice, kečup",
+        "d": "Chléb · Sušenka · Mléko, čaj",
         "a": [
           1,
+          6,
           7,
           10,
           12
@@ -1307,45 +1260,34 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Čočka na kari, uzená plec",
+            "n": "Vídeňské párky, hořčice, kečup",
             "a": [
               1,
               10
             ]
           },
           {
-            "l": "Doplněk",
-            "n": "Výběr sterilované zeleniny",
+            "l": "Příloha",
+            "n": "Chléb",
             "a": [
+              1
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Sušenka",
+            "a": [
+              1,
+              6,
+              7,
               10,
               12
             ]
           },
           {
             "l": "Nápoj",
-            "n": "Mléko, čaj, džus, citr.voda, voda",
+            "n": "Mléko, čaj",
             "a": [
-              7
-            ]
-          }
-        ]
-      },
-      {
-        "c": "obed2",
-        "n": "Celozrnný kuskus se zeleninou, vejce",
-        "d": "",
-        "a": [
-          1,
-          3,
-          7
-        ],
-        "p": [
-          {
-            "l": "Jídlo",
-            "n": "Celozrnný kuskus se zeleninou, vejce",
-            "a": [
-              1,
-              3,
               7
             ]
           }
@@ -1357,69 +1299,29 @@
     "vydej": "11:00–13:30",
     "chody": [
       {
-        "c": "polevka",
-        "n": "Květáková",
-        "d": "",
-        "a": [
-          1,
-          7
-        ]
-      },
-      {
         "c": "obed",
-        "n": "Pečené kuř.stehno ( paličky )",
-        "d": "Gratinované brambory se smetanou, hlávk.salát · Mléko, ochucené mléko, čaj, džus, citr.voda, voda",
+        "n": "Tvarohové buchty, granko",
+        "d": "Mléko, čaj",
         "a": [
           1,
+          6,
           7
         ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Pečené kuř.stehno ( paličky )",
+            "n": "Tvarohové buchty, granko",
             "a": [
               1,
-              7
-            ]
-          },
-          {
-            "l": "Příloha",
-            "n": "Gratinované brambory se smetanou, hlávk.salát",
-            "a": [
+              6,
               7
             ]
           },
           {
             "l": "Nápoj",
-            "n": "Mléko, ochucené mléko, čaj, džus, citr.voda, voda",
+            "n": "Mléko, čaj",
             "a": [
-              1,
               7
-            ]
-          }
-        ]
-      },
-      {
-        "c": "obed2",
-        "n": "Zeleninový karbanátek, brambor, hlávk.salát",
-        "d": "Tatarská om.",
-        "a": [
-          1,
-          3
-        ],
-        "p": [
-          {
-            "l": "Jídlo",
-            "n": "Zeleninový karbanátek, brambor, hlávk.salát",
-            "a": [
-              1
-            ]
-          },
-          {
-            "l": "Příloha",
-            "n": "Tatarská om.",
-            "a": [
-              3
             ]
           }
         ]
@@ -1430,51 +1332,34 @@
     "vydej": "11:00–13:30",
     "chody": [
       {
-        "c": "polevka",
-        "n": "Celerová s bylinkovými noky",
-        "d": "",
-        "a": [
-          1,
-          3,
-          7,
-          9
-        ]
-      },
-      {
         "c": "obed",
-        "n": "Špagety po italsku, sýr",
-        "d": "Pečený karamelovník · Mléko, granko, čaj, džus, citr.voda, voda",
+        "n": "Rizoto z vepř.masa se sýrem",
+        "d": "Kyselá okurka · Mléko, čaj",
         "a": [
           1,
-          3,
-          6,
-          7
+          7,
+          10
         ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Špagety po italsku, sýr",
+            "n": "Rizoto z vepř.masa se sýrem",
             "a": [
               1,
-              3,
               7
             ]
           },
           {
-            "l": "Doplněk",
-            "n": "Pečený karamelovník",
+            "l": "Příloha",
+            "n": "Kyselá okurka",
             "a": [
-              1,
-              3,
-              7
+              10
             ]
           },
           {
             "l": "Nápoj",
-            "n": "Mléko, granko, čaj, džus, citr.voda, voda",
+            "n": "Mléko, čaj",
             "a": [
-              1,
-              6,
               7
             ]
           }
