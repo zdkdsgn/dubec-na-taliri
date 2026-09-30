@@ -2668,7 +2668,7 @@
       {
         "c": "obed",
         "n": "Ryba na másle",
-        "d": "Brambor · Šťáva",
+        "d": "Brambor · Zš mléko · Šťáva",
         "a": [
           1,
           4,
@@ -2688,6 +2688,13 @@
             "l": "Příloha",
             "n": "Brambor",
             "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zš mléko",
+            "a": [
+              7
+            ]
           },
           {
             "l": "Nápoj",
@@ -3198,7 +3205,7 @@
     "chody": [
       {
         "c": "presnidavka",
-        "n": "Rohlík",
+        "n": "Bulka cristallino",
         "d": "Pažitková pomazánka · Zelenina · Čaj/voda",
         "a": [
           1,
@@ -3208,10 +3215,11 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Rohlík",
+            "n": "Bulka cristallino",
             "a": [
               1,
-              3
+              3,
+              7
             ]
           },
           {
@@ -3320,7 +3328,7 @@
     "chody": [
       {
         "c": "presnidavka",
-        "n": "Chléb",
+        "n": "Chléb bramborový",
         "d": "Sýr · Rajče · Voda s limetkou",
         "a": [
           1,
@@ -3330,7 +3338,7 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Chléb",
+            "n": "Chléb bramborový",
             "a": [
               1,
               3,
@@ -3368,26 +3376,31 @@
       },
       {
         "c": "obed",
-        "n": "Hovězí kostky po znojemsku",
-        "d": "Těstovina · Voda s limetkou",
+        "n": "Hovězí svíčková na smetaně",
+        "d": "Houskový Knedlík · Voda s limetkou",
         "a": [
           1,
           3,
           7,
+          8,
+          9,
           10
         ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Hovězí kostky po znojemsku",
+            "n": "Hovězí svíčková na smetaně",
             "a": [
               1,
+              7,
+              8,
+              9,
               10
             ]
           },
           {
             "l": "Příloha",
-            "n": "Těstovina",
+            "n": "Houskový Knedlík",
             "a": [
               1,
               3,
@@ -3594,12 +3607,12 @@
       },
       {
         "c": "polevka",
-        "n": "Polévka z kysaného zelí",
+        "n": "Rybí polévka s kuskusem",
         "d": "",
         "a": [
           1,
-          7,
-          10
+          4,
+          9
         ]
       },
       {
@@ -3852,7 +3865,7 @@
       {
         "c": "obed",
         "n": "Hovězí guláš",
-        "d": "Chléb · Džus/voda",
+        "d": "Bramborový chléb · Džus/voda",
         "a": [
           1,
           3,
@@ -3868,7 +3881,7 @@
           },
           {
             "l": "Příloha",
-            "n": "Chléb",
+            "n": "Bramborový chléb",
             "a": [
               1,
               3,
@@ -4072,8 +4085,11 @@
       {
         "c": "obed",
         "n": "Fazole v rajčatové omáčce",
-        "d": "Opečený toust · Voda s mátou",
+        "d": "Rustikální celozrnný chléb · Voda s mátou",
         "a": [
+          1,
+          3,
+          7,
           10
         ],
         "p": [
@@ -4086,8 +4102,12 @@
           },
           {
             "l": "Příloha",
-            "n": "Opečený toust",
-            "a": []
+            "n": "Rustikální celozrnný chléb",
+            "a": [
+              1,
+              3,
+              7
+            ]
           },
           {
             "l": "Nápoj",
@@ -4409,23 +4429,21 @@
       },
       {
         "c": "obed",
-        "n": "Kološvarské zelí",
+        "n": "Zapečené těstoviny se sýrem a brokolicí",
         "d": "Čaj/voda",
         "a": [
           1,
           3,
-          7,
-          10
+          7
         ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Kološvarské zelí",
+            "n": "Zapečené těstoviny se sýrem a brokolicí",
             "a": [
               1,
               3,
-              7,
-              10
+              7
             ]
           },
           {
@@ -4761,8 +4779,8 @@
       },
       {
         "c": "obed",
-        "n": "Tvarohová žemlovka s jablky",
-        "d": "Čaj/voda",
+        "n": "Zapečené těstoviny",
+        "d": "Okurkový salát · Čaj/voda",
         "a": [
           1,
           3,
@@ -4771,12 +4789,17 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Tvarohová žemlovka s jablky",
+            "n": "Zapečené těstoviny",
             "a": [
               1,
               3,
               7
             ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Okurkový salát",
+            "a": []
           },
           {
             "l": "Nápoj",
@@ -4936,6 +4959,130 @@
           {
             "l": "Nápoj",
             "n": "Ovocný čaj",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-11-03": {
+    "vydej": "11:40–13:30",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Celozrné pečivo",
+        "d": "Pórková pomazánka · Okurek · Mléko/voda",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Celozrné pečivo",
+            "a": [
+              1,
+              3
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Pórková pomazánka",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Okurek",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko/voda",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Kmínová s vejci",
+        "d": "",
+        "a": [
+          1,
+          3,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Krůtí maso na slanině",
+        "d": "Rýže · Mrkvový salát · Voda s mátou / mléko",
+        "a": [
+          1,
+          7,
+          10
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Krůtí maso na slanině",
+            "a": [
+              1,
+              10
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Rýže",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Mrkvový salát",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Voda s mátou / mléko",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Loupáček",
+        "d": "Mandarinka · Voda s mátou",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Loupáček",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Mandarinka",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Voda s mátou",
             "a": []
           }
         ]

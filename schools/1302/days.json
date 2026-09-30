@@ -951,7 +951,7 @@
       {
         "c": "obed",
         "n": "Francouzské brambory s vepřovým masem",
-        "d": "Dušená duo mrkev · Mléko, voda",
+        "d": "Dušená duo mrkev · MŠ Šťáva, voda, ZŠ mléko, voda",
         "a": [
           3,
           7
@@ -972,7 +972,7 @@
           },
           {
             "l": "Nápoj",
-            "n": "Mléko, voda",
+            "n": "MŠ Šťáva, voda, ZŠ mléko, voda",
             "a": [
               7
             ]
@@ -1246,7 +1246,7 @@
       {
         "c": "obed",
         "n": "Zeleninové rizoto sypané sýrem",
-        "d": "Mrkvový salát s jablky · Šťáva, voda",
+        "d": "Mrkvový salát · Šťáva, voda",
         "a": [
           7
         ],
@@ -1260,7 +1260,7 @@
           },
           {
             "l": "Doplněk",
-            "n": "Mrkvový salát s jablky",
+            "n": "Mrkvový salát",
             "a": []
           },
           {
@@ -1273,7 +1273,7 @@
       {
         "c": "obed2",
         "n": "Králík na česneku",
-        "d": "Brambory · Mrkvový salát s jablky · Šťáva, voda",
+        "d": "Brambory · Mrkvový · Šťáva, voda",
         "a": [
           1
         ],
@@ -1292,7 +1292,7 @@
           },
           {
             "l": "Doplněk",
-            "n": "Mrkvový salát s jablky",
+            "n": "Mrkvový",
             "a": []
           },
           {
@@ -1763,7 +1763,7 @@
       {
         "c": "obed",
         "n": "Kuřecí maso na citrónu",
-        "d": "Opěkané brambory ZŠ, vařené brambory MŠ · Dresink, zeleninová obloha · Šťáva, voda",
+        "d": "Opěkané brambory ZŠ, vařené brambory MŠ · Jogurtový dresink s koprem, zeleninová obloha · Šťáva, voda",
         "a": [
           7
         ],
@@ -1782,10 +1782,317 @@
           },
           {
             "l": "Doplněk",
-            "n": "Dresink, zeleninová obloha",
+            "n": "Jogurtový dresink s koprem, zeleninová obloha",
             "a": [
               7
             ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Šťáva, voda",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-19": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Ze žluté čočky",
+        "d": "",
+        "a": []
+      },
+      {
+        "c": "obed",
+        "n": "Tmavá treska po kavkazsku",
+        "d": "Bramborová kaše · Dušená lahůdková zeleninová směs · Čaj, voda",
+        "a": [
+          1,
+          4,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Tmavá treska po kavkazsku",
+            "a": [
+              1,
+              4
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Bramborová kaše",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Dušená lahůdková zeleninová směs",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj, voda",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-20": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Boršč",
+        "d": "",
+        "a": [
+          1,
+          7,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Nudle s mákem",
+        "d": "Ovocný kompot · Mléko, voda",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Nudle s mákem",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovocný kompot",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko, voda",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "n": "Plovdivské vepřové maso",
+        "d": "Těstoviny · Ovoce · Mléko, voda",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Plovdivské vepřové maso",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Těstoviny",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko, voda",
+            "a": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-21": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Pohanková",
+        "d": "",
+        "a": [
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Pečený kuřecí steak",
+        "d": "Rýže basmati · Červená řepa",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Pečený kuřecí steak",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Rýže basmati",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Červená řepa",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-22": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "S celozrnným kuskusem a zeleninou",
+        "d": "",
+        "a": [
+          1,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Květákový nákyp",
+        "d": "Šťouchané brambory s cibulkou · Okurkový salát · Čaj, voda",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Květákový nákyp",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Šťouchané brambory s cibulkou",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Okurkový salát",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj, voda",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "n": "Barevné bulgureto s krůtím masem, fazolí mungo a zeleninou restovanou na másle",
+        "d": "Okurkový salát · Čaj, voda",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Barevné bulgureto s krůtím masem, fazolí mungo a zeleninou restovanou na másle",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Okurkový salát",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj, voda",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-23": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Zeleninový krém",
+        "d": "",
+        "a": [
+          1,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Hovězí svíčková na smetaně",
+        "d": "Kynutý houskový knedlík · Ovoce · Šťáva, voda",
+        "a": [
+          1,
+          3,
+          7,
+          9
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Hovězí svíčková na smetaně",
+            "a": [
+              1,
+              7,
+              9
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Kynutý houskový knedlík",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
           },
           {
             "l": "Nápoj",

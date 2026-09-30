@@ -9,7 +9,7 @@
 window.MENU_DATA = {
   meta: {
     school: "MŠ & ZŠ Dubeč",
-    updated: "2026-09-29T12:37:11+02:00",
+    updated: "2026-09-30T12:26:07+02:00",
     week: "2026-09-01 – 2026-10-09",
     sources: {
       zs: "https://www.jidelna.cz/jidelni-listek/?jidelna=47",
@@ -346,8 +346,8 @@ window.MENU_DATA = {
     "2026-09-30": {
       zs: [
           {"c": "polevka", "n": "Vývar se špaldovými knedlíčky", "d": "", "a": [1, 3, 7, 9]},
-          {"c": "obed", "n": "Hovězí guláš znojemský", "d": "Rýže · Ovoce · Čaj, mléčný koktejl, voda", "a": [7, 8], "p": [{"l": "Jídlo", "n": "Hovězí guláš znojemský", "a": []}, {"l": "Příloha", "n": "Rýže", "a": []}, {"l": "Doplněk", "n": "Ovoce", "a": []}, {"l": "Nápoj", "n": "Čaj, mléčný koktejl, voda", "a": [7, 8]}]},
-          {"c": "obed2", "n": "Zeleninový salát s chia semínky", "d": "Kukuřičný chlebíček · Ovoce · Čaj, mléčný koktejl, voda", "a": [7, 8, 10], "p": [{"l": "Jídlo", "n": "Zeleninový salát s chia semínky", "a": [10]}, {"l": "Příloha", "n": "Kukuřičný chlebíček", "a": []}, {"l": "Doplněk", "n": "Ovoce", "a": []}, {"l": "Nápoj", "n": "Čaj, mléčný koktejl, voda", "a": [7, 8]}]}
+          {"c": "obed", "n": "Hovězí guláš znojemský", "d": "Rýže · Ovoce · Čaj, mléčný koktejl, voda", "a": [7, 8, 10], "p": [{"l": "Jídlo", "n": "Hovězí guláš znojemský", "a": [10]}, {"l": "Příloha", "n": "Rýže", "a": []}, {"l": "Doplněk", "n": "Ovoce", "a": []}, {"l": "Nápoj", "n": "Čaj, mléčný koktejl, voda", "a": [7, 8]}]},
+          {"c": "obed2", "n": "Zeleninový salát s chia semínky", "d": "Kukuřičný chlebíček · Ovoce · Čaj, mléčný koktejl, voda", "a": [7, 8, 10], "p": [{"l": "Jídlo", "n": "Zeleninový salát s chia semínky", "a": [10]}, {"l": "Příloha", "n": "Kukuřičný chlebíček", "a": [7]}, {"l": "Doplněk", "n": "Ovoce", "a": []}, {"l": "Nápoj", "n": "Čaj, mléčný koktejl, voda", "a": [7, 8]}]}
         ],
       vydej: {
         zs: "11:30–13:45"
