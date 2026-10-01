@@ -2797,41 +2797,35 @@
       },
       {
         "c": "polevka",
-        "n": "Rajčatová polévka (Minestrone)",
+        "n": "Hovězí vývar s masem a nudlemi",
         "d": "",
         "a": [
           1,
           3,
-          6,
           7,
           9
         ]
       },
       {
         "c": "obed",
-        "n": "Španělský rozlítaný ptáček",
-        "d": "Rýže · Čokoládový pudink · Ovocný nápoj, voda, mléko",
+        "n": "Lasagne s masem",
+        "d": "Čokoládový pudink · Ovocný nápoj, voda, mléko",
         "a": [
           1,
           3,
           7,
-          10
+          9
         ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Španělský rozlítaný ptáček",
+            "n": "Lasagne s masem",
             "a": [
               1,
               3,
               7,
-              10
+              9
             ]
-          },
-          {
-            "l": "Příloha",
-            "n": "Rýže",
-            "a": []
           },
           {
             "l": "Doplněk",
@@ -2920,11 +2914,12 @@
       },
       {
         "c": "polevka",
-        "n": "Hovězí vývar s masem a nudlemi",
+        "n": "Rajčatová polévka (Minestrone)",
         "d": "",
         "a": [
           1,
           3,
+          6,
           7,
           9
         ]
@@ -2932,7 +2927,7 @@
       {
         "c": "obed",
         "n": "Pečený rybí filet",
-        "d": "Brambory, domácí dip · Zeleninový bufet · Ovocný nápoj, voda, mléko",
+        "d": "Pečené brambory, domácí dip · Zeleninový bufet · Voda, mléko",
         "a": [
           4,
           7,
@@ -2949,7 +2944,7 @@
           },
           {
             "l": "Příloha",
-            "n": "Brambory, domácí dip",
+            "n": "Pečené brambory, domácí dip",
             "a": [
               7,
               10
@@ -2962,7 +2957,7 @@
           },
           {
             "l": "Nápoj",
-            "n": "Ovocný nápoj, voda, mléko",
+            "n": "Voda, mléko",
             "a": [
               7
             ]
@@ -3042,19 +3037,18 @@
       },
       {
         "c": "polevka",
-        "n": "Zeleninový vývar",
+        "n": "Květáková polévka s krupičkou",
         "d": "",
         "a": [
           1,
           3,
-          7,
-          9
+          7
         ]
       },
       {
         "c": "obed",
-        "n": "Bretaňské fazole, chléb",
-        "d": "Ovoce – ZŠ · Ovocný nápoj, voda, mléko",
+        "n": "Zeleninové kuskusoto sypané sýrem",
+        "d": "Ovoce – ZŠ · Voda, mléko",
         "a": [
           1,
           3,
@@ -3063,7 +3057,7 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Bretaňské fazole, chléb",
+            "n": "Zeleninové kuskusoto sypané sýrem",
             "a": [
               1,
               3,
@@ -3077,7 +3071,7 @@
           },
           {
             "l": "Nápoj",
-            "n": "Ovocný nápoj, voda, mléko",
+            "n": "Voda, mléko",
             "a": [
               7
             ]

@@ -1357,7 +1357,7 @@
     ]
   },
   "2026-09-24": {
-    "vydej": "11:30–12:15",
+    "vydej": "11:00–11:30",
     "chody": [
       {
         "c": "presnidavka",
@@ -1446,7 +1446,7 @@
     ]
   },
   "2026-09-25": {
-    "vydej": "11:30–12:15",
+    "vydej": "11:00–11:30",
     "chody": [
       {
         "c": "presnidavka",
@@ -1532,7 +1532,7 @@
     ]
   },
   "2026-09-28": {
-    "vydej": "11:30–12:15",
+    "vydej": "11:00–11:30",
     "chody": [
       {
         "c": "obed",
@@ -1550,7 +1550,7 @@
     ]
   },
   "2026-09-29": {
-    "vydej": "11:30–12:15",
+    "vydej": "11:00–11:30",
     "chody": [
       {
         "c": "presnidavka",
@@ -1636,7 +1636,7 @@
     ]
   },
   "2026-09-30": {
-    "vydej": "11:30–12:15",
+    "vydej": "11:00–11:30",
     "chody": [
       {
         "c": "presnidavka",
@@ -1716,7 +1716,7 @@
     ]
   },
   "2026-10-01": {
-    "vydej": "11:30–12:15",
+    "vydej": "11:00–11:30",
     "chody": [
       {
         "c": "presnidavka",
@@ -1789,7 +1789,7 @@
     ]
   },
   "2026-10-02": {
-    "vydej": "11:30–12:15",
+    "vydej": "11:00–11:30",
     "chody": [
       {
         "c": "presnidavka",
@@ -1867,7 +1867,7 @@
     ]
   },
   "2026-10-05": {
-    "vydej": "11:30–12:15",
+    "vydej": "11:00–11:30",
     "chody": [
       {
         "c": "presnidavka",
@@ -1953,7 +1953,7 @@
     ]
   },
   "2026-10-06": {
-    "vydej": "11:30–12:15",
+    "vydej": "11:00–11:30",
     "chody": [
       {
         "c": "presnidavka",
@@ -1976,29 +1976,39 @@
       },
       {
         "c": "polevka",
-        "n": "Rajská s rýží",
+        "n": "Drůbeží vývar s hvězdičkami",
         "d": "",
         "a": [
           1,
+          3,
           9
         ]
       },
       {
         "c": "obed",
-        "n": "Květákovo-brokolicový nákyp, vařený brambor",
-        "d": "Džus, voda",
+        "n": "Smažený sýr, vařený brambor, domácí tatarka",
+        "d": "Zelenína na výběr · Džus, voda",
         "a": [
+          1,
           3,
-          7
+          7,
+          10
         ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Květákovo-brokolicový nákyp, vařený brambor",
+            "n": "Smažený sýr, vařený brambor, domácí tatarka",
             "a": [
+              1,
               3,
-              7
+              7,
+              10
             ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zelenína na výběr",
+            "a": []
           },
           {
             "l": "Nápoj",
@@ -2029,7 +2039,7 @@
     ]
   },
   "2026-10-07": {
-    "vydej": "11:30–12:15",
+    "vydej": "11:00–11:30",
     "chody": [
       {
         "c": "presnidavka",
@@ -2064,7 +2074,7 @@
       {
         "c": "obed",
         "n": "Vepřová kapsa s cizrnovou náplní, dušená rýže s čočkou belugou",
-        "d": "Džus, voda",
+        "d": "Ovoce · Džus, voda",
         "a": [
           3
         ],
@@ -2075,6 +2085,11 @@
             "a": [
               3
             ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
           },
           {
             "l": "Nápoj",
@@ -2107,7 +2122,7 @@
     ]
   },
   "2026-10-08": {
-    "vydej": "11:30–12:15",
+    "vydej": "11:00–11:30",
     "chody": [
       {
         "c": "presnidavka",
@@ -2130,11 +2145,10 @@
       },
       {
         "c": "polevka",
-        "n": "Krém z pečené kořenové zeleniny",
+        "n": "Pórková",
         "d": "",
         "a": [
           1,
-          7,
           9
         ]
       },
@@ -2194,7 +2208,7 @@
     ]
   },
   "2026-10-09": {
-    "vydej": "11:30–12:15",
+    "vydej": "11:00–11:30",
     "chody": [
       {
         "c": "presnidavka",
@@ -2232,7 +2246,7 @@
       {
         "c": "obed",
         "n": "Langoše z jogurtového těsta s kečupem a sýrem",
-        "d": "Džus, voda",
+        "d": "Ovoce · Džus, voda",
         "a": [
           1,
           7
@@ -2245,6 +2259,11 @@
               1,
               7
             ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
           },
           {
             "l": "Nápoj",

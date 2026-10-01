@@ -2308,19 +2308,19 @@
       },
       {
         "c": "obed",
-        "n": "Karlovarský guláš, bulgur",
+        "n": "Moravský vrabec, bramborový knedlík, zelí",
         "d": "Čaj, voda s ovocem(ovocným sirupem)džus",
         "a": [
           1,
-          7
+          3
         ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Karlovarský guláš, bulgur",
+            "n": "Moravský vrabec, bramborový knedlík, zelí",
             "a": [
               1,
-              7
+              3
             ]
           },
           {
@@ -2495,20 +2495,19 @@
       },
       {
         "c": "obed",
-        "n": "Moravský vrabec, bramborový knedlík, zelí",
+        "n": "Karlovarský guláš, rýže",
         "d": "Mléko, čaj",
         "a": [
           1,
-          3,
           7
         ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Moravský vrabec, bramborový knedlík, zelí",
+            "n": "Karlovarský guláš, rýže",
             "a": [
               1,
-              3
+              7
             ]
           },
           {
@@ -2536,6 +2535,465 @@
             "a": [
               1,
               3
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Kefír, čaj",
+            "a": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-12": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Rohlík, máslo, džem, směs ovoce",
+        "d": "Kakao, čaj",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Rohlík, máslo, džem, směs ovoce",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Kakao, čaj",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Zeleninový krém s opečenou vekou",
+        "d": "",
+        "a": [
+          1,
+          3,
+          7,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Kuskus se zeleninou a sýrem, červená řepa",
+        "d": "Zš ovoce · Čaj, voda s ovocem(ovocným sirupem)džus",
+        "a": [
+          7,
+          9
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Kuskus se zeleninou a sýrem, červená řepa",
+            "a": [
+              7,
+              9
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zš ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj, voda s ovocem(ovocným sirupem)džus",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Houska, pomazánkové máslo, směs zeleniny",
+        "d": "Mléko, čaj",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Houska, pomazánkové máslo, směs zeleniny",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko, čaj",
+            "a": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-13": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Jogurt, rohlík, směs ovoce",
+        "d": "Mléko, čaj",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Jogurt, rohlík, směs ovoce",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko, čaj",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Francouzská",
+        "d": "",
+        "a": [
+          1,
+          3,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Plněné bramborové knedlíky, zelí",
+        "d": "Čaj, voda s ovocem(ovocným sirupem)džus",
+        "a": [
+          1,
+          3
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Plněné bramborové knedlíky, zelí",
+            "a": [
+              1,
+              3
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj, voda s ovocem(ovocným sirupem)džus",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Chléb, máslo, plátkový sýr, směs zeleniny",
+        "d": "Mléko, čaj",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Chléb, máslo, plátkový sýr, směs zeleniny",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko, čaj",
+            "a": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-14": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Houska, lučina, směs zeleniny",
+        "d": "Mléko, čaj",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Houska, lučina, směs zeleniny",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko, čaj",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Vývar s těstovinami",
+        "d": "",
+        "a": [
+          1,
+          3,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Králík na smetaně, houskový knedlík",
+        "d": "Čaj, voda s ovocem(ovocným sirupem)džus",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Králík na smetaně, houskový knedlík",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj, voda s ovocem(ovocným sirupem)džus",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Cereální kuličky, směs ovoce",
+        "d": "Mléko, čaj",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Cereální kuličky, směs ovoce",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko, čaj",
+            "a": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-15": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Chléb, cizrnová pomazánka, směs zeleniny",
+        "d": "Mléko, čaj",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Chléb, cizrnová pomazánka, směs zeleniny",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko, čaj",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Gulášová",
+        "d": "",
+        "a": [
+          1,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Hrachová kaše, uzená šunka, kyselá okurka",
+        "d": "Čaj, voda s ovocem(ovocným sirupem)džus",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Hrachová kaše, uzená šunka, kyselá okurka",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj, voda s ovocem(ovocným sirupem)džus",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Rohlík, žervé, směs ovoce",
+        "d": "Mléko, čaj",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Rohlík, žervé, směs ovoce",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko, čaj",
+            "a": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-16": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Tousty se šunkou a sýrem, směs zeleniny",
+        "d": "Mléko, čaj",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Tousty se šunkou a sýrem, směs zeleniny",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko, čaj",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Žampionový krém s opečenou vekou",
+        "d": "",
+        "a": [
+          1,
+          3,
+          7
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Vylítaný španělský ptáček, rýže",
+        "d": "Čaj, voda s ovocem(ovocným sirupem)džus",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Vylítaný španělský ptáček, rýže",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj, voda s ovocem(ovocným sirupem)džus",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Křehké řezy, směs ovoce",
+        "d": "Kefír, čaj",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Křehké řezy, směs ovoce",
+            "a": [
+              1,
+              3,
+              7
             ]
           },
           {

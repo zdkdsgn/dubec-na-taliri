@@ -3969,8 +3969,10 @@
       {
         "c": "obed",
         "n": "Kuřecí plátek",
-        "d": "Brambor · Zeleninový salát · Šťáva",
-        "a": [],
+        "d": "Brambor · Zeleninový salát · Šťáva/mléko",
+        "a": [
+          7
+        ],
         "p": [
           {
             "l": "Jídlo",
@@ -3989,8 +3991,10 @@
           },
           {
             "l": "Nápoj",
-            "n": "Šťáva",
-            "a": []
+            "n": "Šťáva/mléko",
+            "a": [
+              7
+            ]
           }
         ]
       },
@@ -5083,6 +5087,124 @@
           {
             "l": "Nápoj",
             "n": "Voda s mátou",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-11-04": {
+    "vydej": "11:40–13:30",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Ovesná kaše",
+        "d": "Hruška · Voda s citrónem",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Ovesná kaše",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Hruška",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Voda s citrónem",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Vločková",
+        "d": "",
+        "a": [
+          1,
+          7,
+          9,
+          10
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Kuřecí maso na smetaně",
+        "d": "Špaldový knedlík · Voda s citrónem",
+        "a": [
+          1,
+          3,
+          7,
+          10
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Kuřecí maso na smetaně",
+            "a": [
+              1,
+              7,
+              10
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Špaldový knedlík",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Voda s citrónem",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Rohlík",
+        "d": "Máslo, tvrdý sýr · Rajče · Voda s citrónem",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Rohlík",
+            "a": [
+              1,
+              3
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Máslo, tvrdý sýr",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Rajče",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Voda s citrónem",
             "a": []
           }
         ]

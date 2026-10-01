@@ -2422,14 +2422,16 @@
         "n": "Plundrovaný šáteček ( puding, malina)",
         "d": "Ovoce · Mléko",
         "a": [
-          1
+          1,
+          7
         ],
         "p": [
           {
             "l": "Jídlo",
             "n": "Plundrovaný šáteček ( puding, malina)",
             "a": [
-              1
+              1,
+              7
             ]
           },
           {
@@ -2440,7 +2442,9 @@
           {
             "l": "Nápoj",
             "n": "Mléko",
-            "a": []
+            "a": [
+              7
+            ]
           }
         ]
       },
@@ -2460,8 +2464,7 @@
         "a": [
           1,
           3,
-          7,
-          8
+          7
         ],
         "p": [
           {
@@ -2470,8 +2473,7 @@
             "a": [
               1,
               3,
-              7,
-              8
+              7
             ]
           },
           {
@@ -2485,6 +2487,37 @@
             "a": []
           }
         ]
+      },
+      {
+        "c": "svacina",
+        "n": "Cibulový chléb, indická sýrová pomazánka",
+        "d": "Zelenina · Voda s pomerančem",
+        "a": [
+          1,
+          6,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Cibulový chléb, indická sýrová pomazánka",
+            "a": [
+              1,
+              6,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zelenina",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Voda s pomerančem",
+            "a": []
+          }
+        ]
       }
     ]
   },
@@ -2492,24 +2525,60 @@
     "vydej": "11:00–14:00",
     "chody": [
       {
+        "c": "presnidavka",
+        "n": "Rohlík, vaječná pomazánka",
+        "d": "Zelenina · Čaj",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Rohlík, vaječná pomazánka",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zelenina",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj",
+            "a": []
+          }
+        ]
+      },
+      {
         "c": "polevka",
         "n": "Mrkvová polévka",
         "d": "",
-        "a": []
+        "a": [
+          7,
+          9
+        ]
       },
       {
         "c": "obed",
         "n": "Rozlítaní ptáčci",
         "d": "Dušená rýže · Voda s cironem a mátou",
         "a": [
-          1
+          1,
+          3
         ],
         "p": [
           {
             "l": "Jídlo",
             "n": "Rozlítaní ptáčci",
             "a": [
-              1
+              1,
+              3
             ]
           },
           {
@@ -2523,6 +2592,37 @@
             "a": []
           }
         ]
+      },
+      {
+        "c": "svacina",
+        "n": "Slunečnicový chléb, bylinková lučina",
+        "d": "Ovoce · Mléko",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Slunečnicový chléb, bylinková lučina",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko",
+            "a": [
+              7
+            ]
+          }
+        ]
       }
     ]
   },
@@ -2530,25 +2630,59 @@
     "vydej": "11:00–14:00",
     "chody": [
       {
+        "c": "presnidavka",
+        "n": "Kukuřičné sluníčko, pomazánka z pečené mrkve",
+        "d": "Zelenina · Čaj",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Kukuřičné sluníčko, pomazánka z pečené mrkve",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zelenina",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj",
+            "a": []
+          }
+        ]
+      },
+      {
         "c": "polevka",
         "n": "Řecká polévka s červenou fazolí",
         "d": "",
         "a": [
           1,
-          6,
           9
         ]
       },
       {
         "c": "obed",
-        "n": "Debrecínská směs",
+        "n": "Kuře na paprice",
         "d": "Těstoviny · Voda s ovocem",
-        "a": [],
+        "a": [
+          1,
+          7
+        ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Debrecínská směs",
-            "a": []
+            "n": "Kuře na paprice",
+            "a": [
+              1,
+              7
+            ]
           },
           {
             "l": "Příloha",
@@ -2566,12 +2700,18 @@
         "c": "svacina",
         "n": "Chléb, jahodové máslo",
         "d": "Ovoce · Melta",
-        "a": [],
+        "a": [
+          1,
+          7
+        ],
         "p": [
           {
             "l": "Jídlo",
             "n": "Chléb, jahodové máslo",
-            "a": []
+            "a": [
+              1,
+              7
+            ]
           },
           {
             "l": "Doplněk",
@@ -2581,7 +2721,9 @@
           {
             "l": "Nápoj",
             "n": "Melta",
-            "a": []
+            "a": [
+              7
+            ]
           }
         ]
       }
@@ -2590,6 +2732,35 @@
   "2026-10-08": {
     "vydej": "11:00–14:00",
     "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Veka, pomazánka tvarohová s ředkvičkami, veka, pomazánka tvarohová s ředkvičkami",
+        "d": "Zelenina · Čaj",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Veka, pomazánka tvarohová s ředkvičkami, veka, pomazánka tvarohová s ředkvičkami",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zelenina",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj",
+            "a": []
+          }
+        ]
+      },
       {
         "c": "polevka",
         "n": "Pohanková polévka se sýrem a žampiony",
@@ -2605,21 +2776,13 @@
         "n": "Krůtí gyros",
         "d": "Bramborové hranolky · Salát tzatziky · Voda s pomerančem",
         "a": [
-          1,
-          7,
-          9,
-          10
+          7
         ],
         "p": [
           {
             "l": "Jídlo",
             "n": "Krůtí gyros",
-            "a": [
-              1,
-              7,
-              9,
-              10
-            ]
+            "a": []
           },
           {
             "l": "Příloha",
@@ -2639,6 +2802,37 @@
             "a": []
           }
         ]
+      },
+      {
+        "c": "svacina",
+        "n": "Žitno – špaldový bochánek, pomazánkové máslo",
+        "d": "Ovoce · Mléko",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Žitno – špaldový bochánek, pomazánkové máslo",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko",
+            "a": [
+              7
+            ]
+          }
+        ]
       }
     ]
   },
@@ -2650,14 +2844,20 @@
         "n": "Bagetka cererální, rybí pomazánka",
         "d": "Zelenina · Voda s citronem",
         "a": [
-          1
+          1,
+          4,
+          7,
+          11
         ],
         "p": [
           {
             "l": "Jídlo",
             "n": "Bagetka cererální, rybí pomazánka",
             "a": [
-              1
+              1,
+              4,
+              7,
+              11
             ]
           },
           {
@@ -2678,6 +2878,8 @@
         "d": "",
         "a": [
           1,
+          3,
+          7,
           9
         ]
       },
@@ -2714,12 +2916,17 @@
         "c": "svacina",
         "n": "Ovocné pyré s piškoty",
         "d": "Ovoce · Mléko",
-        "a": [],
+        "a": [
+          1,
+          7
+        ],
         "p": [
           {
             "l": "Jídlo",
             "n": "Ovocné pyré s piškoty",
-            "a": []
+            "a": [
+              1
+            ]
           },
           {
             "l": "Doplněk",
@@ -2729,7 +2936,9 @@
           {
             "l": "Nápoj",
             "n": "Mléko",
-            "a": []
+            "a": [
+              7
+            ]
           }
         ]
       }

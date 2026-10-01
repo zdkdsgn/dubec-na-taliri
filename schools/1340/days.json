@@ -2680,7 +2680,7 @@
       {
         "c": "obed",
         "n": "Makový závin kynutý",
-        "d": "Ovoce · Mléko",
+        "d": "Mléko",
         "a": [
           1,
           3,
@@ -2695,11 +2695,6 @@
               3,
               7
             ]
-          },
-          {
-            "l": "Doplněk",
-            "n": "Ovoce",
-            "a": []
           },
           {
             "l": "Nápoj",
@@ -2747,6 +2742,37 @@
     "vydej": "11:00–14:00",
     "chody": [
       {
+        "c": "presnidavka",
+        "n": "Chléb, máslo",
+        "d": "Ředkvičky, kedlubny · Ochucené mléko",
+        "a": [
+          1,
+          6,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Chléb, máslo",
+            "a": [
+              1,
+              6,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ředkvičky, kedlubny",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ochucené mléko",
+            "a": []
+          }
+        ]
+      },
+      {
         "c": "polevka",
         "n": "Hovězí vývar s těstovinou a játrovou rýží",
         "d": "",
@@ -2759,7 +2785,7 @@
       {
         "c": "obed",
         "n": "Hovězí pečeně cikánská",
-        "d": "Dušená rýže",
+        "d": "Dušená rýže · Nápoj – ovocný koncentrát ananas a mango",
         "a": [
           1
         ],
@@ -2775,6 +2801,40 @@
             "l": "Příloha",
             "n": "Dušená rýže",
             "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Nápoj – ovocný koncentrát ananas a mango",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Vitální chléb, pomazánka tvarohová s pažitkou",
+        "d": "Ovoce · Ovocný čaj \"jahoda\"",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Vitální chléb, pomazánka tvarohová s pažitkou",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný čaj \"jahoda\"",
+            "a": []
           }
         ]
       }
@@ -2783,6 +2843,35 @@
   "2026-10-09": {
     "vydej": "11:00–14:00",
     "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Chléb, pomazánka z paštiky \"Svačinka\"",
+        "d": "Zeleninový talíř · Ovocný čaj \"zlaté jablko\"",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Chléb, pomazánka z paštiky \"Svačinka\"",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zeleninový talíř",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný čaj \"zlaté jablko\"",
+            "a": []
+          }
+        ]
+      },
       {
         "c": "polevka",
         "n": "Zeleninová s quinoou",
@@ -2794,7 +2883,7 @@
       {
         "c": "obed",
         "n": "Zapečené těstoviny s brokolicí a sýrem",
-        "d": "Ledový salát s cizrnou",
+        "d": "Ledový salát s cizrnou · Voda s citrusy",
         "a": [
           1,
           3,
@@ -2814,6 +2903,45 @@
             "l": "Doplněk",
             "n": "Ledový salát s cizrnou",
             "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Voda s citrusy",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Moučník \"Karkulčin řez\"",
+        "d": "Ovoce · Dětské capuccino",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Moučník \"Karkulčin řez\"",
+            "a": [
+              1,
+              3
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Dětské capuccino",
+            "a": [
+              7
+            ]
           }
         ]
       }

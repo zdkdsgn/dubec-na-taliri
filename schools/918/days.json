@@ -2040,6 +2040,25 @@
     "vydej": "11:00–14:00",
     "chody": [
       {
+        "c": "presnidavka",
+        "n": "Chléb, mrkvová pomazánka, zelenina, mléko",
+        "d": "",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Chléb, mrkvová pomazánka, zelenina, mléko",
+            "a": [
+              1,
+              7
+            ]
+          }
+        ]
+      },
+      {
         "c": "polevka",
         "n": "Rajská s kukuřičnými vločkami",
         "d": "",
@@ -2076,6 +2095,29 @@
             "a": []
           }
         ]
+      },
+      {
+        "c": "svacina",
+        "n": "Chléb, máslo, vejce, kakao",
+        "d": "",
+        "a": [
+          1,
+          3,
+          6,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Chléb, máslo, vejce, kakao",
+            "a": [
+              1,
+              3,
+              6,
+              7
+            ]
+          }
+        ]
       }
     ]
   },
@@ -2083,8 +2125,33 @@
     "vydej": "11:00–14:00",
     "chody": [
       {
+        "c": "presnidavka",
+        "n": "Graham, budapešťská pomazánka, zelenina, čaj",
+        "d": "",
+        "a": [
+          1,
+          6,
+          7,
+          11,
+          13
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Graham, budapešťská pomazánka, zelenina, čaj",
+            "a": [
+              1,
+              6,
+              7,
+              11,
+              13
+            ]
+          }
+        ]
+      },
+      {
         "c": "polevka",
-        "n": "Krupicová s vejcem",
+        "n": "Slepičí s těstovinou",
         "d": "",
         "a": [
           1,
@@ -2122,12 +2189,50 @@
             "a": []
           }
         ]
+      },
+      {
+        "c": "svacina",
+        "n": "Chléb, máslo, šunka, mléko",
+        "d": "",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Chléb, máslo, šunka, mléko",
+            "a": [
+              1,
+              7
+            ]
+          }
+        ]
       }
     ]
   },
   "2026-10-07": {
     "vydej": "11:00–14:00",
     "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Slunečnicová kostka, sýrová pomazánka, zelenina, mléko",
+        "d": "",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Slunečnicová kostka, sýrová pomazánka, zelenina, mléko",
+            "a": [
+              1,
+              7
+            ]
+          }
+        ]
+      },
       {
         "c": "polevka",
         "n": "Dýńová s krutony",
@@ -2174,12 +2279,50 @@
             "a": []
           }
         ]
+      },
+      {
+        "c": "svacina",
+        "n": "Chléb, máslo, rajče, mléko",
+        "d": "",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Chléb, máslo, rajče, mléko",
+            "a": [
+              1,
+              7
+            ]
+          }
+        ]
       }
     ]
   },
   "2026-10-08": {
     "vydej": "11:00–14:00",
     "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Chia chléb, fazolová pomazánka, zelenina, mléko",
+        "d": "",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Chia chléb, fazolová pomazánka, zelenina, mléko",
+            "a": [
+              1,
+              7
+            ]
+          }
+        ]
+      },
       {
         "c": "polevka",
         "n": "Zeleninová s kuskusem",
@@ -2232,12 +2375,56 @@
             "a": []
           }
         ]
+      },
+      {
+        "c": "svacina",
+        "n": "Loupáček, ovoce, čaj",
+        "d": "",
+        "a": [
+          1,
+          3,
+          6,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Loupáček, ovoce, čaj",
+            "a": [
+              1,
+              3,
+              6,
+              7
+            ]
+          }
+        ]
       }
     ]
   },
   "2026-10-09": {
     "vydej": "11:00–14:00",
     "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Chléb, rybí pomazánka, zelenina, mléko",
+        "d": "",
+        "a": [
+          1,
+          4,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Chléb, rybí pomazánka, zelenina, mléko",
+            "a": [
+              1,
+              4,
+              7
+            ]
+          }
+        ]
+      },
       {
         "c": "polevka",
         "n": "Čočková",
@@ -2290,6 +2477,27 @@
             "l": "Nápoj",
             "n": "Čaj",
             "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Rohlík, pomazánkové máslo, mléko",
+        "d": "",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Rohlík, pomazánkové máslo, mléko",
+            "a": [
+              1,
+              3,
+              7
+            ]
           }
         ]
       }

@@ -2024,7 +2024,7 @@
     "chody": [
       {
         "c": "presnidavka",
-        "n": "Pom. cuketová, rohlík, ředkvička",
+        "n": "Pom. mrkvová, rohlík, ředkvička",
         "d": "Mléko, čaj, voda",
         "a": [
           1,
@@ -2033,7 +2033,7 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Pom. cuketová, rohlík, ředkvička",
+            "n": "Pom. mrkvová, rohlík, ředkvička",
             "a": [
               1,
               7
@@ -2048,7 +2048,7 @@
       },
       {
         "c": "polevka",
-        "n": "Brokolicová s jáhly",
+        "n": "Brokolicová s rýžovou těstovinou",
         "d": "",
         "a": [
           1,
@@ -2170,7 +2170,7 @@
       {
         "c": "obed",
         "n": "Domácí plněné buchty s povidly",
-        "d": "Mléko · Čaj, voda",
+        "d": "Jablko · Mléko · Čaj, voda",
         "a": [
           1,
           3,
@@ -2185,6 +2185,11 @@
               3,
               7
             ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Jablko",
+            "a": []
           },
           {
             "l": "Doplněk",
@@ -2272,7 +2277,7 @@
       {
         "c": "obed",
         "n": "Kuřecí přírodní",
-        "d": "Dušená zelenina na másle, rýže · Jablko · Čaj, voda",
+        "d": "Dušená zelenina na másle, rýže · Čaj, voda",
         "a": [
           1,
           7,
@@ -2293,11 +2298,6 @@
             "a": [
               7
             ]
-          },
-          {
-            "l": "Doplněk",
-            "n": "Jablko",
-            "a": []
           },
           {
             "l": "Nápoj",
@@ -2342,7 +2342,7 @@
     "chody": [
       {
         "c": "presnidavka",
-        "n": "Pom. rybí se zeleninou, pohanková raženka, mrkev",
+        "n": "Pom. rybí se zeleninou, lněná raženka, mrkev",
         "d": "Mléko, čaj, voda",
         "a": [
           1,
@@ -2353,7 +2353,7 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Pom. rybí se zeleninou, pohanková raženka, mrkev",
+            "n": "Pom. rybí se zeleninou, lněná raženka, mrkev",
             "a": [
               1,
               4,
@@ -2724,8 +2724,8 @@
       },
       {
         "c": "svacina",
-        "n": "Ovocný jogurt",
-        "d": "Knuspi, kousek jablka · Čaj, voda",
+        "n": "Termix",
+        "d": "Pletýnka, kousek jablka · Čaj, voda",
         "a": [
           1,
           7
@@ -2733,14 +2733,14 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Ovocný jogurt",
+            "n": "Termix",
             "a": [
               7
             ]
           },
           {
             "l": "Doplněk",
-            "n": "Knuspi, kousek jablka",
+            "n": "Pletýnka, kousek jablka",
             "a": [
               1
             ]
@@ -3257,7 +3257,7 @@
       },
       {
         "c": "svacina",
-        "n": "Termix",
+        "n": "Ovocný jogurt",
         "d": "Rohlík, kousek jablka · Čaj, voda",
         "a": [
           1,
@@ -3266,7 +3266,7 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Termix",
+            "n": "Ovocný jogurt",
             "a": [
               7
             ]
