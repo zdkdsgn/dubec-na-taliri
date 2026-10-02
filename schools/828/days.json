@@ -1009,9 +1009,10 @@
       {
         "c": "obed",
         "n": "Pečené rybí filety tilápie na bylinkovém másle",
-        "d": "Brambory m.m. s pažitkou · Míchaný salát z čínského zelí s jogurtovým dresinkem · Sirup, voda",
+        "d": "Brambory m.m. s pažitkou · Míchaný salát z čínského zelí s jogurtem · Sirup, voda",
         "a": [
           4,
+          6,
           7
         ],
         "p": [
@@ -1032,8 +1033,9 @@
           },
           {
             "l": "Doplněk",
-            "n": "Míchaný salát z čínského zelí s jogurtovým dresinkem",
+            "n": "Míchaný salát z čínského zelí s jogurtem",
             "a": [
+              6,
               7
             ]
           },
@@ -1100,40 +1102,27 @@
     "chody": [
       {
         "c": "polevka",
-        "n": "Bramborová venkovská",
+        "n": "Vločková",
         "d": "",
         "a": [
           1,
+          7,
           9
         ]
       },
       {
         "c": "obed",
-        "n": "Lahůdkový párek",
-        "d": "Hrachová kaše, okurek st. · Moučník s ovocným želé · Čaj ovocný, voda",
+        "n": "Boloňské lasagne",
+        "d": "Čaj ovocný, voda",
         "a": [
           1,
           3,
-          7,
-          10
+          7
         ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Lahůdkový párek",
-            "a": []
-          },
-          {
-            "l": "Příloha",
-            "n": "Hrachová kaše, okurek st.",
-            "a": [
-              7,
-              10
-            ]
-          },
-          {
-            "l": "Doplněk",
-            "n": "Moučník s ovocným želé",
+            "n": "Boloňské lasagne",
             "a": [
               1,
               3,
@@ -1154,7 +1143,7 @@
     "chody": [
       {
         "c": "polevka",
-        "n": "Rýžová se zeleninou",
+        "n": "Pohanková",
         "d": "",
         "a": [
           9
@@ -1248,27 +1237,42 @@
     "chody": [
       {
         "c": "polevka",
-        "n": "Vločková",
+        "n": "Bramborová venkovská",
         "d": "",
         "a": [
           1,
-          7,
           9
         ]
       },
       {
         "c": "obed",
-        "n": "Boloňské lasagne",
-        "d": "Džus, voda",
+        "n": "Přírodní krůtí plátek",
+        "d": "Červená čočka s kořenovou zeleninou · Moučník s ovocným želé · Džus, voda",
         "a": [
           1,
           3,
-          7
+          7,
+          9
         ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Boloňské lasagne",
+            "n": "Přírodní krůtí plátek",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Červená čočka s kořenovou zeleninou",
+            "a": [
+              9
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Moučník s ovocným želé",
             "a": [
               1,
               3,

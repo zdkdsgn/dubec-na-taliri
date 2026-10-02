@@ -1945,40 +1945,89 @@
     "chody": [
       {
         "c": "presnidavka",
-        "n": "Přesnídávka",
+        "n": "Slunečnicový chléb, vajíčková pomazánka s ředkvičkou, zelenina, ovocný čaj",
         "d": "",
-        "a": [],
+        "a": [
+          1,
+          3,
+          7
+        ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Přesnídávka",
-            "a": []
+            "n": "Slunečnicový chléb, vajíčková pomazánka s ředkvičkou, zelenina, ovocný čaj",
+            "a": [
+              1,
+              3,
+              7
+            ]
           }
         ]
       },
       {
-        "c": "obed",
-        "n": "Oběd",
+        "c": "polevka",
+        "n": "Drůbeží vývar s drožďovým kapáním",
         "d": "",
-        "a": [],
+        "a": [
+          1,
+          3,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Tilápie pečená na másle",
+        "d": "Bramborová kaše s červenou řepou · Baby mrkev · Ochucená voda, voda",
+        "a": [
+          4,
+          7
+        ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Oběd",
+            "n": "Tilápie pečená na másle",
+            "a": [
+              4,
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Bramborová kaše s červenou řepou",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Baby mrkev",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ochucená voda, voda",
             "a": []
           }
         ]
       },
       {
         "c": "svacina",
-        "n": "Svačina",
+        "n": "Croissant máslový, ovocný talíř, mléko",
         "d": "",
-        "a": [],
+        "a": [
+          1,
+          7
+        ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Svačina",
-            "a": []
+            "n": "Croissant máslový, ovocný talíř, mléko",
+            "a": [
+              1,
+              7
+            ]
           }
         ]
       }
@@ -1989,40 +2038,80 @@
     "chody": [
       {
         "c": "presnidavka",
-        "n": "Přesnídávka",
+        "n": "Maková raženka, hermelínová pomazánka, zeleninový talíř, ovocný čaj",
         "d": "",
-        "a": [],
+        "a": [
+          1,
+          7
+        ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Přesnídávka",
-            "a": []
+            "n": "Maková raženka, hermelínová pomazánka, zeleninový talíř, ovocný čaj",
+            "a": [
+              1,
+              7
+            ]
           }
         ]
       },
       {
-        "c": "obed",
-        "n": "Oběd",
+        "c": "polevka",
+        "n": "Zeleninová s květákem",
         "d": "",
-        "a": [],
+        "a": [
+          1,
+          7,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Vepřová kýta s kousky dýně",
+        "d": "Barevná vřetena · Ochucená voda, voda",
+        "a": [
+          1,
+          7
+        ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Oběd",
+            "n": "Vepřová kýta s kousky dýně",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Barevná vřetena",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ochucená voda, voda",
             "a": []
           }
         ]
       },
       {
         "c": "svacina",
-        "n": "Svačina",
+        "n": "Cereální lupínky s mlékem, jablko",
         "d": "",
-        "a": [],
+        "a": [
+          1,
+          7
+        ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Svačina",
-            "a": []
+            "n": "Cereální lupínky s mlékem, jablko",
+            "a": [
+              1,
+              7
+            ]
           }
         ]
       }
@@ -2033,40 +2122,77 @@
     "chody": [
       {
         "c": "presnidavka",
-        "n": "Přesnídávka",
+        "n": "Smetanový pribináček, banketka, ovocný talíř, zelený čaj",
         "d": "",
-        "a": [],
+        "a": [
+          1,
+          7
+        ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Přesnídávka",
-            "a": []
+            "n": "Smetanový pribináček, banketka, ovocný talíř, zelený čaj",
+            "a": [
+              1,
+              7
+            ]
           }
         ]
       },
       {
-        "c": "obed",
-        "n": "Oběd",
+        "c": "polevka",
+        "n": "Bramboračka se žampióny",
         "d": "",
-        "a": [],
+        "a": [
+          1,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Bulgureto s uzeným tofu a zeleninou",
+        "d": "Okurek · Voda z pomerančů, voda",
+        "a": [
+          1,
+          6
+        ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Oběd",
+            "n": "Bulgureto s uzeným tofu a zeleninou",
+            "a": [
+              1,
+              6
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Okurek",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Voda z pomerančů, voda",
             "a": []
           }
         ]
       },
       {
         "c": "svacina",
-        "n": "Svačina",
+        "n": "Obložená veka se sýrovou pomazánkou a zeleninou, caro",
         "d": "",
-        "a": [],
+        "a": [
+          1,
+          7
+        ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Svačina",
-            "a": []
+            "n": "Obložená veka se sýrovou pomazánkou a zeleninou, caro",
+            "a": [
+              1,
+              7
+            ]
           }
         ]
       }
@@ -2077,40 +2203,87 @@
     "chody": [
       {
         "c": "presnidavka",
-        "n": "Přesnídávka",
+        "n": "Špaldový chléb, skandinávská pomazánka, zelenina, ovocný čaj",
         "d": "",
-        "a": [],
+        "a": [
+          1,
+          4,
+          7
+        ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Přesnídávka",
-            "a": []
+            "n": "Špaldový chléb, skandinávská pomazánka, zelenina, ovocný čaj",
+            "a": [
+              1,
+              4,
+              7
+            ]
           }
         ]
       },
       {
-        "c": "obed",
-        "n": "Oběd",
+        "c": "polevka",
+        "n": "Jáhlová",
         "d": "",
-        "a": [],
+        "a": [
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Kuřecí karbanátek s kapustou",
+        "d": "Vařené brambory · Tzatziki · Ochucená voda, voda",
+        "a": [
+          1,
+          3,
+          7
+        ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Oběd",
+            "n": "Kuřecí karbanátek s kapustou",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Vařené brambory",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Tzatziki",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ochucená voda, voda",
             "a": []
           }
         ]
       },
       {
         "c": "svacina",
-        "n": "Svačina",
+        "n": "Mléčný koktejl z mandarinek, piškoty",
         "d": "",
-        "a": [],
+        "a": [
+          1,
+          7
+        ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Svačina",
-            "a": []
+            "n": "Mléčný koktejl z mandarinek, piškoty",
+            "a": [
+              1,
+              7
+            ]
           }
         ]
       }
@@ -2121,40 +2294,70 @@
     "chody": [
       {
         "c": "presnidavka",
-        "n": "Přesnídávka",
+        "n": "Finský chléb, masová pomazánka, zeleninový talíř, heřmánkový čaj",
         "d": "",
-        "a": [],
+        "a": [
+          1,
+          7
+        ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Přesnídávka",
-            "a": []
+            "n": "Finský chléb, masová pomazánka, zeleninový talíř, heřmánkový čaj",
+            "a": [
+              1,
+              7
+            ]
           }
         ]
       },
       {
-        "c": "obed",
-        "n": "Oběd",
+        "c": "polevka",
+        "n": "Minestrone",
         "d": "",
-        "a": [],
+        "a": [
+          1,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Rýže na sladko s broskví",
+        "d": "Ovocná voda, voda",
+        "a": [
+          7
+        ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Oběd",
+            "n": "Rýže na sladko s broskví",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocná voda, voda",
             "a": []
           }
         ]
       },
       {
         "c": "svacina",
-        "n": "Svačina",
+        "n": "Sójový rohlík, rama, ovocný talíř, dětský čaj",
         "d": "",
-        "a": [],
+        "a": [
+          1,
+          7
+        ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Svačina",
-            "a": []
+            "n": "Sójový rohlík, rama, ovocný talíř, dětský čaj",
+            "a": [
+              1,
+              7
+            ]
           }
         ]
       }

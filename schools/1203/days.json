@@ -2172,46 +2172,89 @@
     "chody": [
       {
         "c": "presnidavka",
-        "n": "Jídelníček bude upřesněn",
-        "d": "",
-        "a": [],
+        "n": "Cerealie s mlékem",
+        "d": "Ovoce",
+        "a": [
+          1,
+          7
+        ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Jídelníček bude upřesněn",
+            "n": "Cerealie s mlékem",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
             "a": []
           }
         ]
       },
       {
         "c": "polevka",
-        "n": "Jídelníček bude upřesněn",
+        "n": "Brokolicová",
         "d": "",
         "a": []
       },
       {
         "c": "obed",
-        "n": "Jídelníček bude upřesněn",
-        "d": "",
-        "a": [],
+        "n": "Kovbojské fazole",
+        "d": "Kváskový chléb · Ovocná šťáva, voda",
+        "a": [
+          1
+        ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Jídelníček bude upřesněn",
+            "n": "Kovbojské fazole",
+            "a": []
+          },
+          {
+            "l": "Příloha",
+            "n": "Kváskový chléb",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocná šťáva, voda",
             "a": []
           }
         ]
       },
       {
         "c": "svacina",
-        "n": "Jídelníček bude upřesněn",
-        "d": "",
-        "a": [],
+        "n": "Houska, philadelphia",
+        "d": "Zelenina · Mléko, voda",
+        "a": [
+          1,
+          7
+        ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Jídelníček bude upřesněn",
+            "n": "Houska, philadelphia",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zelenina",
             "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko, voda",
+            "a": [
+              7
+            ]
           }
         ]
       }
@@ -2222,46 +2265,95 @@
     "chody": [
       {
         "c": "presnidavka",
-        "n": "Jídelníček bude upřesněn",
-        "d": "",
-        "a": [],
+        "n": "Chléb, zeleninová pomazánka",
+        "d": "Zelenina · Mléko, voda",
+        "a": [
+          1,
+          7
+        ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Jídelníček bude upřesněn",
+            "n": "Chléb, zeleninová pomazánka",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zelenina",
             "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko, voda",
+            "a": [
+              7
+            ]
           }
         ]
       },
       {
         "c": "polevka",
-        "n": "Jídelníček bude upřesněn",
+        "n": "Bretaňská s těstovinovou rýží",
         "d": "",
-        "a": []
+        "a": [
+          1
+        ]
       },
       {
         "c": "obed",
-        "n": "Jídelníček bude upřesněn",
-        "d": "",
-        "a": [],
+        "n": "Těstovinový salát s tuňákem",
+        "d": "Voda",
+        "a": [
+          1,
+          4
+        ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Jídelníček bude upřesněn",
+            "n": "Těstovinový salát s tuňákem",
+            "a": [
+              1,
+              4
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Voda",
             "a": []
           }
         ]
       },
       {
         "c": "svacina",
-        "n": "Jídelníček bude upřesněn",
-        "d": "",
-        "a": [],
+        "n": "Toustový chléb, žervé s pažitkou",
+        "d": "Ovoce · Mléko, voda",
+        "a": [
+          1,
+          7
+        ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Jídelníček bude upřesněn",
+            "n": "Toustový chléb, žervé s pažitkou",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
             "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko, voda",
+            "a": [
+              7
+            ]
           }
         ]
       }
@@ -2272,45 +2364,81 @@
     "chody": [
       {
         "c": "presnidavka",
-        "n": "Jídelníček bude upřesněn",
-        "d": "",
-        "a": [],
+        "n": "Tmavý chléb, rybičková pomazánka, zelenina",
+        "d": "Ovocný čaj, voda",
+        "a": [
+          1,
+          4,
+          7
+        ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Jídelníček bude upřesněn",
+            "n": "Tmavý chléb, rybičková pomazánka, zelenina",
+            "a": [
+              1,
+              4,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný čaj, voda",
             "a": []
           }
         ]
       },
       {
         "c": "polevka",
-        "n": "Jídelníček bude upřesněn",
+        "n": "Fazolová",
         "d": "",
         "a": []
       },
       {
         "c": "obed",
-        "n": "Jídelníček bude upřesněn",
-        "d": "",
-        "a": [],
+        "n": "Kuřecí maso se sýrovou omáčkou",
+        "d": "Brambory · Ovocná šťáva, voda",
+        "a": [
+          7
+        ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Jídelníček bude upřesněn",
+            "n": "Kuřecí maso se sýrovou omáčkou",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Brambory",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocná šťáva, voda",
             "a": []
           }
         ]
       },
       {
         "c": "svacina",
-        "n": "Jídelníček bude upřesněn",
-        "d": "",
-        "a": [],
+        "n": "Rohlík, ovocná přesnídávka Kubík, ovoce",
+        "d": "Ovocný čaj, voda",
+        "a": [
+          1
+        ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Jídelníček bude upřesněn",
+            "n": "Rohlík, ovocná přesnídávka Kubík, ovoce",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný čaj, voda",
             "a": []
           }
         ]
@@ -2322,46 +2450,91 @@
     "chody": [
       {
         "c": "presnidavka",
-        "n": "Jídelníček bude upřesněn",
-        "d": "",
-        "a": [],
+        "n": "Tmavá bulka, mozzarelky",
+        "d": "Zelenina · Mléko, voda",
+        "a": [
+          1,
+          7
+        ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Jídelníček bude upřesněn",
+            "n": "Tmavá bulka, mozzarelky",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zelenina",
             "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko, voda",
+            "a": [
+              7
+            ]
           }
         ]
       },
       {
         "c": "polevka",
-        "n": "Jídelníček bude upřesněn",
+        "n": "Zeleninová s rýží",
         "d": "",
         "a": []
       },
       {
         "c": "obed",
-        "n": "Jídelníček bude upřesněn",
-        "d": "",
-        "a": [],
+        "n": "Zeleninový nákyp",
+        "d": "Bram. kaše · Voda",
+        "a": [
+          7
+        ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Jídelníček bude upřesněn",
+            "n": "Zeleninový nákyp",
+            "a": []
+          },
+          {
+            "l": "Příloha",
+            "n": "Bram. kaše",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Voda",
             "a": []
           }
         ]
       },
       {
         "c": "svacina",
-        "n": "Jídelníček bude upřesněn",
-        "d": "",
-        "a": [],
+        "n": "Chléb, bylinková lučina, ovoce",
+        "d": "Mléko, voda",
+        "a": [
+          1,
+          7
+        ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Jídelníček bude upřesněn",
-            "a": []
+            "n": "Chléb, bylinková lučina, ovoce",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko, voda",
+            "a": [
+              7
+            ]
           }
         ]
       }
@@ -2372,45 +2545,88 @@
     "chody": [
       {
         "c": "presnidavka",
-        "n": "Jídelníček bude upřesněn",
-        "d": "",
-        "a": [],
+        "n": "Křehký chléb, plátkový sýr",
+        "d": "Ovoce · Mléko, voda",
+        "a": [
+          1,
+          7
+        ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Jídelníček bude upřesněn",
+            "n": "Křehký chléb, plátkový sýr",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
             "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko, voda",
+            "a": [
+              7
+            ]
           }
         ]
       },
       {
         "c": "polevka",
-        "n": "Jídelníček bude upřesněn",
+        "n": "Špenátová se smaženým hráškem",
         "d": "",
-        "a": []
+        "a": [
+          1
+        ]
       },
       {
         "c": "obed",
-        "n": "Jídelníček bude upřesněn",
-        "d": "",
-        "a": [],
+        "n": "Srbské rizoto, strouhyný sýr, sterilovaná okurka",
+        "d": "Ovocná šťáva, voda",
+        "a": [
+          7
+        ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Jídelníček bude upřesněn",
+            "n": "Srbské rizoto, strouhyný sýr, sterilovaná okurka",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocná šťáva, voda",
             "a": []
           }
         ]
       },
       {
         "c": "svacina",
-        "n": "Jídelníček bude upřesněn",
-        "d": "",
-        "a": [],
+        "n": "Veka, perla",
+        "d": "Ovoce · Ovocný čaj, voda",
+        "a": [
+          1
+        ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Jídelníček bude upřesněn",
+            "n": "Veka, perla",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný čaj, voda",
             "a": []
           }
         ]

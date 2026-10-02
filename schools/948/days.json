@@ -2073,5 +2073,496 @@
         ]
       }
     ]
+  },
+  "2026-10-05": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Bílá káva, chléb, pom.máslo",
+        "d": "Ovoce, čaj, voda",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Bílá káva, chléb, pom.máslo",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce, čaj, voda",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Vločková se zeleninou",
+        "d": "",
+        "a": [
+          1,
+          3
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Koprová omáčka, vejce",
+        "d": "Brambor · Ovoce · Minerálka, voda",
+        "a": [
+          1,
+          3,
+          7,
+          13
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Koprová omáčka, vejce",
+            "a": [
+              1,
+              3,
+              7,
+              13
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Brambor",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Minerálka, voda",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Přesnidávka, piškoty",
+        "d": "Ovoce, čaj, mléko",
+        "a": [
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Přesnidávka, piškoty",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce, čaj, mléko",
+            "a": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-06": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Čaj, rybí pomazánka, ovoce",
+        "d": "Voda",
+        "a": [
+          1,
+          4,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Čaj, rybí pomazánka, ovoce",
+            "a": [
+              1,
+              4,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Voda",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Mléčná s těstovinou",
+        "d": "",
+        "a": [
+          1,
+          7
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Kuřecí čína",
+        "d": "Duš.rýže · Kompot · Sirup, voda",
+        "a": [
+          1
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Kuřecí čína",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Duš.rýže",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Kompot",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Sirup, voda",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Termix, rohlík, ovoce",
+        "d": "Čaj, voda, mléko",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Termix, rohlík, ovoce",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Čaj, voda, mléko",
+            "a": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-07": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Kakao, vánočka, ovoce",
+        "d": "Čaj, voda",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Kakao, vánočka, ovoce",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Čaj, voda",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Hráškový krém (op.chleba)",
+        "d": "",
+        "a": [
+          1,
+          7
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Rybí karbanátek",
+        "d": "Bramborová kaše · Salát z bílého zelí · Džus, voda",
+        "a": [
+          1,
+          3,
+          4,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Rybí karbanátek",
+            "a": [
+              1,
+              3,
+              4,
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Bramborová kaše",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Salát z bílého zelí",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Džus, voda",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Rohlík, Rama, paprika",
+        "d": "Mléko, voda, čaj",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Rohlík, Rama, paprika",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Mléko, voda, čaj",
+            "a": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-08": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Čaj, veka, rama, marmeláda",
+        "d": "Voda, ovoce",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Čaj, veka, rama, marmeláda",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Voda, ovoce",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Pol.zeleninová s bramborem",
+        "d": "",
+        "a": [
+          1
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Hovězí na leču",
+        "d": "Vrtule(těstoviny) · Minerálka, voda",
+        "a": [
+          1
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Hovězí na leču",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Vrtule(těstoviny)",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Minerálka, voda",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Chléb Finský, rama, str.sýr",
+        "d": "Čaj, mléko, voda",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Chléb Finský, rama, str.sýr",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Čaj, mléko, voda",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-09": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Čaj, krupice s kakaem, ovoce",
+        "d": "Mléko, voda",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Čaj, krupice s kakaem, ovoce",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Mléko, voda",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Drožďové noky",
+        "d": "",
+        "a": [
+          1,
+          3,
+          7
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Zapečené těstoviny s uzeninou a vejcem",
+        "d": "Kompot · Jogurt · Voda s citronem, voda",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Zapečené těstoviny s uzeninou a vejcem",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Kompot",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Jogurt",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Voda s citronem, voda",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Sojový rohlík, masová pomazánka",
+        "d": "Ovoce, čaj, mléko, voda",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Sojový rohlík, masová pomazánka",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce, čaj, mléko, voda",
+            "a": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
   }
 }

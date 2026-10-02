@@ -2252,33 +2252,31 @@
       }
     ]
   },
-  "2026-10-06": {
+  "2026-10-05": {
     "vydej": "11:15–12:00",
     "chody": [
       {
         "c": "presnidavka",
-        "n": "Kvasový chléb s tuňákovou pomazánkou",
-        "d": "Kyselá okurka · Bílá káva, Čaj, Voda s citrusy",
+        "n": "Kvasový chléb s vajíčkovou pomazánkou",
+        "d": "Paprika · Bílá káva, Čaj, Voda s citrusy",
         "a": [
           1,
           3,
-          4,
           7
         ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Kvasový chléb s tuňákovou pomazánkou",
+            "n": "Kvasový chléb s vajíčkovou pomazánkou",
             "a": [
               1,
               3,
-              4,
               7
             ]
           },
           {
             "l": "Doplněk",
-            "n": "Kyselá okurka",
+            "n": "Paprika",
             "a": []
           },
           {
@@ -2292,18 +2290,19 @@
       },
       {
         "c": "polevka",
-        "n": "Kuřecí vývar s těstovinou",
+        "n": "Hrachová polévka s krutony",
         "d": "",
         "a": [
           1,
           3,
+          7,
           9
         ]
       },
       {
         "c": "obed",
-        "n": "Špecle s krůtím masem a brokolicí",
-        "d": "Ovocný sirup, Čaj, Voda s citrusy",
+        "n": "Tvarohové nočky",
+        "d": "Borůvkový přeliv · Čaj, Voda s citrusy",
         "a": [
           1,
           3,
@@ -2312,7 +2311,239 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Špecle s krůtím masem a brokolicí",
+            "n": "Tvarohové nočky",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Borůvkový přeliv",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj, Voda s citrusy",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Těstovinový špíz se sýrem",
+        "d": "Okurka · Čaj, Voda s citrusy",
+        "a": [
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Těstovinový špíz se sýrem",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Okurka",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj, Voda s citrusy",
+            "a": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-06": {
+    "vydej": "11:15–12:00",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Kvasový chléb s jarní pomazánkou",
+        "d": "Hroznové víno · Bílá káva, Čaj, Voda s citrusy",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Kvasový chléb s jarní pomazánkou",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Hroznové víno",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Bílá káva, Čaj, Voda s citrusy",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Gulášová",
+        "d": "",
+        "a": [
+          1,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Pečená ryba na másle",
+        "d": "Bramborová kaše · Okurkový salát · Čaj, Voda s citrusy",
+        "a": [
+          1,
+          4,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Pečená ryba na másle",
+            "a": [
+              1,
+              4,
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Bramborová kaše",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Okurkový salát",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj, Voda s citrusy",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Veka se šunkovou pěnou",
+        "d": "Paprika · Čaj, Voda s citrusy",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Veka se šunkovou pěnou",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Paprika",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj, Voda s citrusy",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-07": {
+    "vydej": "11:15–12:00",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Rohlík s lučinou",
+        "d": "Hroznové víno · Kakao, Čaj, Voda s citrusy",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Rohlík s lučinou",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Hroznové víno",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Kakao, Čaj, Voda s citrusy",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Hovězí vývar s pohankou",
+        "d": "",
+        "a": [
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Segedínský guláš",
+        "d": "Houskový knedlík · Ovocný sirup, Čaj, Voda s citrusy",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Segedínský guláš",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Houskový knedlík",
             "a": [
               1,
               3,
@@ -2328,8 +2559,101 @@
       },
       {
         "c": "svacina",
-        "n": "Litý koláč s ovocem",
-        "d": "Mléko, voda s citrusy",
+        "n": "Domácí smetánek",
+        "d": "Banán · Čaj, Voda s citrusy",
+        "a": [
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Domácí smetánek",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Banán",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj, Voda s citrusy",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-08": {
+    "vydej": "11:15–12:00",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Ovesná kaše s banánem, kokosem a chia semínky",
+        "d": "Čaj, Voda s citrusy",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Ovesná kaše s banánem, kokosem a chia semínky",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj, Voda s citrusy",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Bílá s kukuřicí",
+        "d": "",
+        "a": [
+          1,
+          7,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Celozrnný kuskus se zeleninou a krůtím masem",
+        "d": "Salát z čerstvé červené řepy s jablkem · Čaj, Voda s citrusy",
+        "a": [
+          1
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Celozrnný kuskus se zeleninou a krůtím masem",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Salát z čerstvé červené řepy s jablkem",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj, Voda s citrusy",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Šneci z listového těsta",
+        "d": "Čaj, Voda s citrusy",
         "a": [
           1,
           3,
@@ -2338,7 +2662,7 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Litý koláč s ovocem",
+            "n": "Šneci z listového těsta",
             "a": [
               1,
               3,
@@ -2347,32 +2671,32 @@
           },
           {
             "l": "Nápoj",
-            "n": "Mléko, voda s citrusy",
-            "a": [
-              7
-            ]
+            "n": "Čaj, Voda s citrusy",
+            "a": []
           }
         ]
       }
     ]
   },
-  "2026-10-07": {
+  "2026-10-09": {
     "vydej": "11:15–12:00",
     "chody": [
       {
         "c": "presnidavka",
-        "n": "Kvasový chléb s dýňovou pomazánkou",
+        "n": "Kvasový chléb s finskou pomazánkou",
         "d": "Jablko · Bílá káva, Čaj, Voda s citrusy",
         "a": [
           1,
+          3,
           7
         ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Kvasový chléb s dýňovou pomazánkou",
+            "n": "Kvasový chléb s finskou pomazánkou",
             "a": [
               1,
+              3,
               7
             ]
           },
@@ -2392,92 +2716,7 @@
       },
       {
         "c": "polevka",
-        "n": "Jarní polévka",
-        "d": "",
-        "a": [
-          1,
-          9
-        ]
-      },
-      {
-        "c": "obed",
-        "n": "Pečené fazole s rýží",
-        "d": "Čaj, Voda s citrusy",
-        "a": [],
-        "p": [
-          {
-            "l": "Jídlo",
-            "n": "Pečené fazole s rýží",
-            "a": []
-          },
-          {
-            "l": "Nápoj",
-            "n": "Čaj, Voda s citrusy",
-            "a": []
-          }
-        ]
-      },
-      {
-        "c": "svacina",
-        "n": "Plněné taštičky šunkou a sýrem",
-        "d": "Čaj, Voda s citrusy",
-        "a": [
-          1,
-          3,
-          7
-        ],
-        "p": [
-          {
-            "l": "Jídlo",
-            "n": "Plněné taštičky šunkou a sýrem",
-            "a": [
-              1,
-              3,
-              7
-            ]
-          },
-          {
-            "l": "Nápoj",
-            "n": "Čaj, Voda s citrusy",
-            "a": []
-          }
-        ]
-      }
-    ]
-  },
-  "2026-10-08": {
-    "vydej": "11:15–12:00",
-    "chody": [
-      {
-        "c": "presnidavka",
-        "n": "Kvasový chléb s pórkovo jablečnou pomazánkou",
-        "d": "Hroznové víno · Bílá káva, Čaj, Voda s citrusy",
-        "a": [
-          7
-        ],
-        "p": [
-          {
-            "l": "Jídlo",
-            "n": "Kvasový chléb s pórkovo jablečnou pomazánkou",
-            "a": []
-          },
-          {
-            "l": "Doplněk",
-            "n": "Hroznové víno",
-            "a": []
-          },
-          {
-            "l": "Nápoj",
-            "n": "Bílá káva, Čaj, Voda s citrusy",
-            "a": [
-              7
-            ]
-          }
-        ]
-      },
-      {
-        "c": "polevka",
-        "n": "Mrkvová se zázvorem, krutony",
+        "n": "Boršč",
         "d": "",
         "a": [
           1,
@@ -2487,8 +2726,8 @@
       },
       {
         "c": "obed",
-        "n": "Kuřecí stripsy",
-        "d": "Bramborová kaše · Ovocný kompot · Čaj, Voda s citrusy",
+        "n": "Květákové placičky se sýrem",
+        "d": "Vařený brambor · Ovocný kompot · Čaj, Voda s citrusy",
         "a": [
           1,
           3,
@@ -2497,7 +2736,7 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Kuřecí stripsy",
+            "n": "Květákové placičky se sýrem",
             "a": [
               1,
               3,
@@ -2506,7 +2745,7 @@
           },
           {
             "l": "Příloha",
-            "n": "Bramborová kaše",
+            "n": "Vařený brambor",
             "a": [
               7
             ]
@@ -2525,59 +2764,8 @@
       },
       {
         "c": "svacina",
-        "n": "Chia pudink s kokosem a ovocem",
-        "d": "Čaj, Voda s citrusy",
-        "a": [],
-        "p": [
-          {
-            "l": "Jídlo",
-            "n": "Chia pudink s kokosem a ovocem",
-            "a": []
-          },
-          {
-            "l": "Nápoj",
-            "n": "Čaj, Voda s citrusy",
-            "a": []
-          }
-        ]
-      }
-    ]
-  },
-  "2026-10-09": {
-    "vydej": "11:15–12:00",
-    "chody": [
-      {
-        "c": "presnidavka",
-        "n": "Rýžová kaše s jahodovým přelivem",
-        "d": "Čaj, Voda s citrusy",
-        "a": [],
-        "p": [
-          {
-            "l": "Jídlo",
-            "n": "Rýžová kaše s jahodovým přelivem",
-            "a": []
-          },
-          {
-            "l": "Nápoj",
-            "n": "Čaj, Voda s citrusy",
-            "a": []
-          }
-        ]
-      },
-      {
-        "c": "polevka",
-        "n": "Hovězí vývar s nudlemi",
-        "d": "",
-        "a": [
-          1,
-          3,
-          9
-        ]
-      },
-      {
-        "c": "obed",
-        "n": "Hovězí guláš",
-        "d": "Semolinové těstoviny · Čaj, Voda s citrusy",
+        "n": "Jablková bábovka",
+        "d": "Mléko, Čaj, Voda s citrusy",
         "a": [
           1,
           3,
@@ -2586,14 +2774,7 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Hovězí guláš",
-            "a": [
-              1
-            ]
-          },
-          {
-            "l": "Příloha",
-            "n": "Semolinové těstoviny",
+            "n": "Jablková bábovka",
             "a": [
               1,
               3,
@@ -2602,39 +2783,10 @@
           },
           {
             "l": "Nápoj",
-            "n": "Čaj, Voda s citrusy",
-            "a": []
-          }
-        ]
-      },
-      {
-        "c": "svacina",
-        "n": "Veka s lučinou",
-        "d": "Jablko · Čaj, Voda s citrusy",
-        "a": [
-          1,
-          3,
-          7
-        ],
-        "p": [
-          {
-            "l": "Jídlo",
-            "n": "Veka s lučinou",
+            "n": "Mléko, Čaj, Voda s citrusy",
             "a": [
-              1,
-              3,
               7
             ]
-          },
-          {
-            "l": "Doplněk",
-            "n": "Jablko",
-            "a": []
-          },
-          {
-            "l": "Nápoj",
-            "n": "Čaj, Voda s citrusy",
-            "a": []
           }
         ]
       }

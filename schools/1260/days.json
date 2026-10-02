@@ -2495,11 +2495,10 @@
       },
       {
         "c": "polevka",
-        "n": "Vepřový vývar s kropami",
+        "n": "Vepřový vývar s kroupami",
         "d": "",
         "a": [
-          1,
-          9
+          1
         ]
       },
       {
@@ -2564,6 +2563,602 @@
           {
             "l": "Nápoj",
             "n": "Čistá voda, voda s čerstvým ovocem, mléko, kakao bez cukru, ovocný malinový čaj",
+            "a": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-05": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Rohlík, máslová pomazánka",
+        "d": "Míchané krájené ovoce – jablko, švestka, hroznové víno, mandarinka · Čistá voda, voda s citrónem, mléko, ovocný broskvový čaj",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Rohlík, máslová pomazánka",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Míchané krájené ovoce – jablko, švestka, hroznové víno, mandarinka",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čistá voda, voda s citrónem, mléko, ovocný broskvový čaj",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Čočková",
+        "d": "",
+        "a": [
+          1
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Bramborové šišky s mákem, strouhankou, skořicí polévané máslem",
+        "d": "Krájené čerstvé ovoce · Ovocný jogurt · Čistá voda, voda s čerstvým ovocem, mléko, Caro nápoj, ovocný čaj",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Bramborové šišky s mákem, strouhankou, skořicí polévané máslem",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Krájené čerstvé ovoce",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovocný jogurt",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čistá voda, voda s čerstvým ovocem, mléko, Caro nápoj, ovocný čaj",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Chléb Dobrák pšeničnožitný, pomazánka se strouhaným sýrem",
+        "d": "Krájená salátová okurka, cherry rajče, kedluben, mrkvička · Čistá voda, voda s citrónem, mléko, ovocný broskvový čaj",
+        "a": [
+          1,
+          3,
+          7,
+          9
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Chléb Dobrák pšeničnožitný, pomazánka se strouhaným sýrem",
+            "a": [
+              1,
+              3,
+              9
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Krájená salátová okurka, cherry rajče, kedluben, mrkvička",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čistá voda, voda s citrónem, mléko, ovocný broskvový čaj",
+            "a": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-06": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Chléb škvarkový, masová pomazánka",
+        "d": "Míchaná krájená zelenina – mrkev, salátová okurka, cherry rajče, paprika oranžová, červen? · Čistá voda, čistá voda s čerstvým ovocem, mléko, ovocný čaj s bylinkami",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Chléb škvarkový, masová pomazánka",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Míchaná krájená zelenina – mrkev, salátová okurka, cherry rajče, paprika oranžová, červen?",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čistá voda, čistá voda s čerstvým ovocem, mléko, ovocný čaj s bylinkami",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Polévka z pangase s krupicí a vejcem",
+        "d": "",
+        "a": [
+          1,
+          3,
+          4,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Mleté maso po mexicku",
+        "d": "Rýže · Cereální svačinka · Čistá voda, voda s čerstvým ovocem a bylinkami, mléko, černý čaj s citrónem",
+        "a": [
+          1,
+          3,
+          7,
+          9
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Mleté maso po mexicku",
+            "a": [
+              1,
+              3,
+              9
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Rýže",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Cereální svačinka",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čistá voda, voda s čerstvým ovocem a bylinkami, mléko, černý čaj s citrónem",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Luštěninové lupínky, šlehaná smetanovo sýrová pomazánka",
+        "d": "Krájená hruška, jablko, nektarinka · Čistá voda, voda s čerstvým ovocem, mléko, bezový čaj",
+        "a": [
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Luštěninové lupínky, šlehaná smetanovo sýrová pomazánka",
+            "a": [
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Krájená hruška, jablko, nektarinka",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čistá voda, voda s čerstvým ovocem, mléko, bezový čaj",
+            "a": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-07": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Jogurtové kroužky s mlékem",
+        "d": "Míchané krájené ovoce – jablko, banán, mandarinka, pomeranč · Čistá voda, čistá voda s čerstvým ovocem, mléko, ovocný čaj s bylinkami",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Jogurtové kroužky s mlékem",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Míchané krájené ovoce – jablko, banán, mandarinka, pomeranč",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čistá voda, čistá voda s čerstvým ovocem, mléko, ovocný čaj s bylinkami",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Rajská polévka s písmenky",
+        "d": "",
+        "a": [
+          1,
+          3,
+          7
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Kuřecí řízek obalený v trojobalu",
+        "d": "Bramborová kaše · Okurový salát · Čistá voda, voda s čerstvým ovocem, mléko, ovocný jablíčkový čaj se skořicí",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Kuřecí řízek obalený v trojobalu",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Bramborová kaše",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Okurový salát",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čistá voda, voda s čerstvým ovocem, mléko, ovocný jablíčkový čaj se skořicí",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Křehký chlebík, šunka, plátkový sýr",
+        "d": "Krájená paprika, mrikvička, salátová okurka, kedluben · Čistá voda, voda s bylinkami a citrónem, mléko, ovocný čaj s rakytníkem",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Křehký chlebík, šunka, plátkový sýr",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Krájená paprika, mrikvička, salátová okurka, kedluben",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čistá voda, voda s bylinkami a citrónem, mléko, ovocný čaj s rakytníkem",
+            "a": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-08": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Chléb řemeslný, pomazánka s tuňákem",
+        "d": "Míchaná krájená zelenina – mrkev, salátová okurka, cherry rajče, paprika oranžová, červen? · Čistá voda, voda s čerstvým ovocem, mléko, ovocný švestkový čaj",
+        "a": [
+          1,
+          3,
+          4,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Chléb řemeslný, pomazánka s tuňákem",
+            "a": [
+              1,
+              3,
+              4,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Míchaná krájená zelenina – mrkev, salátová okurka, cherry rajče, paprika oranžová, červen?",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čistá voda, voda s čerstvým ovocem, mléko, ovocný švestkový čaj",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Hovězí vývar s kapáním",
+        "d": "",
+        "a": [
+          1,
+          3,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Zapečené šunkafleky",
+        "d": "Červená řepa · Čistá voda, voda s čerstvým ovocem, mléko, ovocný čaj zahradní směs",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Zapečené šunkafleky",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Červená řepa",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čistá voda, voda s čerstvým ovocem, mléko, ovocný čaj zahradní směs",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Rohlík, máslo, džem",
+        "d": "Krájené jablko, banán, hroznové víno, mandarinka · Čistá voda, voda s čerstvým ovocem, Caro nápoj bez cukru, ovocný malinový čaj",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Rohlík, máslo, džem",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Krájené jablko, banán, hroznové víno, mandarinka",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čistá voda, voda s čerstvým ovocem, Caro nápoj bez cukru, ovocný malinový čaj",
+            "a": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-09": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Bageta malá sypaná sezamem, avokádová pomazánka s luštěninou",
+        "d": "Krájená hruška, pomeranč, nektarinka, hroznové víno · Čistá voda, voda s čerstvým ovocem, mléko, ovocný čaj",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Bageta malá sypaná sezamem, avokádová pomazánka s luštěninou",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Krájená hruška, pomeranč, nektarinka, hroznové víno",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čistá voda, voda s čerstvým ovocem, mléko, ovocný čaj",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Kuřecí polévka s bulgurem",
+        "d": "",
+        "a": [
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Svíčková omáčka s hovězím masem",
+        "d": "Domácí houskový knedlík · Banán · Čistá voda, voda s čerstvým ovocem, mléko, černý čaj s citrónem",
+        "a": [
+          1,
+          3,
+          7,
+          9
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Svíčková omáčka s hovězím masem",
+            "a": [
+              1,
+              7,
+              9
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Domácí houskový knedlík",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Banán",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čistá voda, voda s čerstvým ovocem, mléko, černý čaj s citrónem",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Chléb podmáslový, hermelínová pomazánka s česnekem",
+        "d": "Krájená paprika, salátová okurka, ledový salát, cherry rajče, mrkvička · Čistá voda, voda s čerstvým ovocem, mléko, ovocný citrónový čaj",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Chléb podmáslový, hermelínová pomazánka s česnekem",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Krájená paprika, salátová okurka, ledový salát, cherry rajče, mrkvička",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čistá voda, voda s čerstvým ovocem, mléko, ovocný citrónový čaj",
             "a": [
               7
             ]

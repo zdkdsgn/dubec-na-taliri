@@ -5210,5 +5210,125 @@
         ]
       }
     ]
+  },
+  "2026-11-05": {
+    "vydej": "11:40–13:30",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Chléb",
+        "d": "Drožďová pomazánka · Kedluben · Kakao/ šťáva",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Chléb",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Drožďová pomazánka",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Kedluben",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Kakao/ šťáva",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Hovězí vývar s nudlemi",
+        "d": "",
+        "a": [
+          1,
+          3,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Masové koule v rajské omáčce",
+        "d": "Těstoviny – BIO · Šťáva",
+        "a": [
+          1,
+          3,
+          7,
+          9
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Masové koule v rajské omáčce",
+            "a": [
+              1,
+              3,
+              7,
+              9
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Těstoviny – BIO",
+            "a": [
+              1,
+              3
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Šťáva",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Jogurt",
+        "d": "Ovoce · Šťáva",
+        "a": [
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Jogurt",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Šťáva",
+            "a": []
+          }
+        ]
+      }
+    ]
   }
 }

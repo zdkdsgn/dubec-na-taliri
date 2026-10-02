@@ -1453,26 +1453,8 @@
     "vydej": "11:00–14:00",
     "chody": [
       {
-        "c": "obed",
-        "n": "Státní svátek",
-        "d": "",
-        "a": [],
-        "p": [
-          {
-            "l": "Jídlo",
-            "n": "Státní svátek",
-            "a": []
-          }
-        ]
-      }
-    ]
-  },
-  "2026-09-29": {
-    "vydej": "11:00–14:00",
-    "chody": [
-      {
         "c": "presnidavka",
-        "n": "Rohlík, žervé, zelenina, ochucené mléko",
+        "n": "Bulka, pom. máslo, ovoce, granko",
         "d": "",
         "a": [
           1,
@@ -1481,7 +1463,7 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Rohlík, žervé, zelenina, ochucené mléko",
+            "n": "Bulka, pom. máslo, ovoce, granko",
             "a": [
               1,
               7
@@ -1491,25 +1473,32 @@
       },
       {
         "c": "polevka",
-        "n": "Rajská polévka",
+        "n": "Gulášová se sojovým masem",
         "d": "",
-        "a": []
+        "a": [
+          6
+        ]
       },
       {
         "c": "obed",
-        "n": "Kuskusový nákyp s ovocem (švestky)",
-        "d": "Voda se šťávou",
+        "n": "Čočkové ragú",
+        "d": "Rýžové nudle · Voda se šťávou",
         "a": [
           1,
-          7
+          5
         ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Kuskusový nákyp s ovocem (švestky)",
+            "n": "Čočkové ragú",
+            "a": []
+          },
+          {
+            "l": "Příloha",
+            "n": "Rýžové nudle",
             "a": [
               1,
-              7
+              5
             ]
           },
           {
@@ -1521,20 +1510,111 @@
       },
       {
         "c": "svacina",
-        "n": "Rohlík graham, pom. liptovská, ovoce, čaj",
+        "n": "Chléb, pom. kapiová, zelenina, čaj",
         "d": "",
         "a": [
           1,
-          3,
           7
         ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Rohlík graham, pom. liptovská, ovoce, čaj",
+            "n": "Chléb, pom. kapiová, zelenina, čaj",
+            "a": [
+              1,
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-09-29": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Krupicová kaše, ovoce, čaj s citrónem",
+        "d": "",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Krupicová kaše, ovoce, čaj s citrónem",
+            "a": [
+              1,
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Zeleninová s tarhoňou",
+        "d": "",
+        "a": [
+          1,
+          7,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Rybí file v leču se sýrem",
+        "d": "Bramborová kaše · Míchaný salát · Voda s citrónem",
+        "a": [
+          4,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Rybí file v leču se sýrem",
+            "a": [
+              4,
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Bramborová kaše",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Míchaný salát",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Voda s citrónem",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Chléb, pom. špenátová, zelenina, čaj",
+        "d": "",
+        "a": [
+          1,
+          3,
+          6,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Chléb, pom. špenátová, zelenina, čaj",
             "a": [
               1,
               3,
+              6,
               7
             ]
           }
@@ -1547,7 +1627,7 @@
     "chody": [
       {
         "c": "presnidavka",
-        "n": "Rohlík, tavený sýr, ovoce, granko",
+        "n": "Veka zdravá, Žervé, zelenina, ochucené mléko",
         "d": "",
         "a": [
           1,
@@ -1556,7 +1636,7 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Rohlík, tavený sýr, ovoce, granko",
+            "n": "Veka zdravá, Žervé, zelenina, ochucené mléko",
             "a": [
               1,
               7
@@ -1566,53 +1646,55 @@
       },
       {
         "c": "polevka",
-        "n": "Hrachová",
+        "n": "Fazolová s kořenovou zeleninou",
         "d": "",
         "a": [
-          1,
-          7,
           9
         ]
       },
       {
         "c": "obed",
-        "n": "Hovězí maso v mrkvi",
-        "d": "Brambory vařené · Džus",
-        "a": [],
+        "n": "Hovězí znojemská",
+        "d": "Houskové knedlíky · Minerálka",
+        "a": [
+          1,
+          7
+        ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Hovězí maso v mrkvi",
+            "n": "Hovězí znojemská",
             "a": []
           },
           {
             "l": "Příloha",
-            "n": "Brambory vařené",
-            "a": []
+            "n": "Houskové knedlíky",
+            "a": [
+              1,
+              7
+            ]
           },
           {
             "l": "Nápoj",
-            "n": "Džus",
+            "n": "Minerálka",
             "a": []
           }
         ]
       },
       {
         "c": "svacina",
-        "n": "Chleba podmáslový, pom. tvarohová s vejci, zelenina, čaj",
+        "n": "Rohlík špaldový, pom. česneková, ovoce, čaj",
         "d": "",
         "a": [
           1,
-          3,
           7
         ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Chleba podmáslový, pom. tvarohová s vejci, zelenina, čaj",
+            "n": "Rohlík špaldový, pom. česneková, ovoce, čaj",
             "a": [
               1,
-              3,
               7
             ]
           }
@@ -1625,7 +1707,7 @@
     "chody": [
       {
         "c": "presnidavka",
-        "n": "Houska žitná, pom. máslo, zelenina, melta",
+        "n": "Rohlík, pom. ajvarová, zelenina, kakao",
         "d": "",
         "a": [
           1,
@@ -1634,7 +1716,7 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Houska žitná, pom. máslo, zelenina, melta",
+            "n": "Rohlík, pom. ajvarová, zelenina, kakao",
             "a": [
               1,
               7
@@ -1644,50 +1726,53 @@
       },
       {
         "c": "polevka",
-        "n": "Rybí se zeleninou",
+        "n": "Kapustová",
         "d": "",
-        "a": [
-          4,
-          9
-        ]
+        "a": []
       },
       {
         "c": "obed",
-        "n": "Králík na kari",
-        "d": "Dušená rýže · Minerálka",
-        "a": [],
+        "n": "Kuřecí plátek na másle s baby karotkou",
+        "d": "Brambory vařené · Voda s pomerančem",
+        "a": [
+          7
+        ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Králík na kari",
-            "a": []
+            "n": "Kuřecí plátek na másle s baby karotkou",
+            "a": [
+              7
+            ]
           },
           {
             "l": "Příloha",
-            "n": "Dušená rýže",
+            "n": "Brambory vařené",
             "a": []
           },
           {
             "l": "Nápoj",
-            "n": "Minerálka",
+            "n": "Voda s pomerančem",
             "a": []
           }
         ]
       },
       {
         "c": "svacina",
-        "n": "Chléb, pom. drožďová, ovoce, čaj",
+        "n": "Domácí perník, ovoce, mléko",
         "d": "",
         "a": [
           1,
+          3,
           7
         ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Chléb, pom. drožďová, ovoce, čaj",
+            "n": "Domácí perník, ovoce, mléko",
             "a": [
               1,
+              3,
               7
             ]
           }
@@ -1700,61 +1785,7 @@
     "chody": [
       {
         "c": "presnidavka",
-        "n": "Chléb babičin, perla, ovoce, kakao",
-        "d": "",
-        "a": [
-          1,
-          7
-        ],
-        "p": [
-          {
-            "l": "Jídlo",
-            "n": "Chléb babičin, perla, ovoce, kakao",
-            "a": [
-              1,
-              7
-            ]
-          }
-        ]
-      },
-      {
-        "c": "polevka",
-        "n": "Zeleninová s krupicí",
-        "d": "",
-        "a": [
-          9
-        ]
-      },
-      {
-        "c": "obed",
-        "n": "Vepřové maso na smetaně",
-        "d": "Špaldový knedlík · Voda s citrónem",
-        "a": [
-          7
-        ],
-        "p": [
-          {
-            "l": "Jídlo",
-            "n": "Vepřové maso na smetaně",
-            "a": [
-              7
-            ]
-          },
-          {
-            "l": "Příloha",
-            "n": "Špaldový knedlík",
-            "a": []
-          },
-          {
-            "l": "Nápoj",
-            "n": "Voda s citrónem",
-            "a": []
-          }
-        ]
-      },
-      {
-        "c": "svacina",
-        "n": "Chléb toustový, pom. rybičková, zelenina, čaj",
+        "n": "Veka, pom. jemná rybí, ovoce, mléko",
         "d": "",
         "a": [
           1,
@@ -1764,10 +1795,64 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Chléb toustový, pom. rybičková, zelenina, čaj",
+            "n": "Veka, pom. jemná rybí, ovoce, mléko",
             "a": [
               1,
               4,
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Masový vývar s drobením",
+        "d": "",
+        "a": []
+      },
+      {
+        "c": "obed",
+        "n": "Vepřové na paprice",
+        "d": "Těstoviny · Džus",
+        "a": [
+          1,
+          3
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Vepřové na paprice",
+            "a": []
+          },
+          {
+            "l": "Příloha",
+            "n": "Těstoviny",
+            "a": [
+              1,
+              3
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Džus",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Rohlík mama mia, perla, zelenina, čaj",
+        "d": "",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Rohlík mama mia, perla, zelenina, čaj",
+            "a": [
+              1,
               7
             ]
           }

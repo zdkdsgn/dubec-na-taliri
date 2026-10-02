@@ -1929,9 +1929,7 @@
         "c": "polevka",
         "n": "Kapustová s jáhlovou moukou a quinoou",
         "d": "",
-        "a": [
-          1
-        ]
+        "a": []
       },
       {
         "c": "obed",
@@ -2302,6 +2300,538 @@
           {
             "l": "Nápoj",
             "n": "Nesl.šípkový čaj",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-05": {
+    "vydej": "11:45–12:15",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Chléb s rybí pomazánkou",
+        "d": "Zelenina · Mléko",
+        "a": [
+          1,
+          4,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Chléb s rybí pomazánkou",
+            "a": [
+              1,
+              4,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zelenina",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Rýžová",
+        "d": "",
+        "a": [
+          1,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Zeleninové karbanátky se sýrem",
+        "d": "Bramborová kaše · Okurkový salát · Čaj s citronem",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Zeleninové karbanátky se sýrem",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Bramborová kaše",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Okurkový salát",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj s citronem",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Medové kroužky s mlékem",
+        "d": "Ovocná mísa · Čaj s citronem",
+        "a": [
+          1,
+          5,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Medové kroužky s mlékem",
+            "a": [
+              1,
+              5,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovocná mísa",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj s citronem",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-06": {
+    "vydej": "11:45–12:15",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Jablečná buchta",
+        "d": "Ovocná mísa · Nesl.ovocný čaj",
+        "a": [
+          1,
+          3
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Jablečná buchta",
+            "a": [
+              1,
+              3
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovocná mísa",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Nesl.ovocný čaj",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Špenátová s jáhlovou moukou a kuskusem",
+        "d": "",
+        "a": [
+          1
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Králík na smetaně",
+        "d": "Knedlík · Nesl.ovocný čaj",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Králík na smetaně",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Knedlík",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Nesl.ovocný čaj",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Chléb s máslem, vejce",
+        "d": "Zelenina · Mléko",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Chléb s máslem, vejce",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zelenina",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko",
+            "a": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-07": {
+    "vydej": "11:45–12:15",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Žitný chléb s rozhudou",
+        "d": "Zelenina · Ochuc.mléko",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Žitný chléb s rozhudou",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zelenina",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ochuc.mléko",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Luštěninová",
+        "d": "",
+        "a": [
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Kuřecí rizoto se sýrem",
+        "d": "Steril.okurka · Nesl.ovocný čaj",
+        "a": [
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Kuřecí rizoto se sýrem",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Steril.okurka",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Nesl.ovocný čaj",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Dýňová bulka s žervé",
+        "d": "Ovocná mísa · Nesl.ovocný čaj",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Dýňová bulka s žervé",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovocná mísa",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Nesl.ovocný čaj",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-08": {
+    "vydej": "11:45–12:15",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Raženka se sýrovou pomazánkou",
+        "d": "Jablko · Mléko",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Raženka se sýrovou pomazánkou",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Jablko",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Květáková s brokolicí",
+        "d": "",
+        "a": [
+          1,
+          7
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Fazolový guláš",
+        "d": "Chléb · Z mařinky vonné",
+        "a": [
+          1
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Fazolový guláš",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Chléb",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Z mařinky vonné",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Kukuř.plátek s máslem",
+        "d": "Zelenina · Z mařinky vonné",
+        "a": [
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Kukuř.plátek s máslem",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zelenina",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Z mařinky vonné",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-09": {
+    "vydej": "11:45–12:15",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Zapečené tousty se sýrem",
+        "d": "Zelenina · Mléko",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Zapečené tousty se sýrem",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zelenina",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Hov.vývar s kapáním",
+        "d": "",
+        "a": [
+          1,
+          3,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Hov.vařené, rajská omáčka",
+        "d": "Míchané těstoviny · Neslazený lipový čaj",
+        "a": [
+          1,
+          3,
+          9
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Hov.vařené, rajská omáčka",
+            "a": [
+              1,
+              9
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Míchané těstoviny",
+            "a": [
+              1,
+              3
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Neslazený lipový čaj",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Jáhlová kaše s vanilkou",
+        "d": "Jablko · Neslazený lipový čaj",
+        "a": [
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Jáhlová kaše s vanilkou",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Jablko",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Neslazený lipový čaj",
             "a": []
           }
         ]

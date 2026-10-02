@@ -2393,5 +2393,462 @@
         ]
       }
     ]
+  },
+  "2026-10-05": {
+    "vydej": "11:00–13:00",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Minipizza",
+        "d": "Ranní čaj",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Minipizza",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ranní čaj",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Kuřecí vývar",
+        "d": "",
+        "a": [
+          1,
+          3,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Obalovaný květák",
+        "d": "Brambor · Kompot · Voda",
+        "a": [
+          1,
+          3
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Obalovaný květák",
+            "a": [
+              1,
+              3
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Brambor",
+            "a": [
+              3
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Kompot",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Voda",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Croissant sýrový",
+        "d": "Hruška · Mléko",
+        "a": [
+          1,
+          3,
+          7,
+          8
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Croissant sýrový",
+            "a": [
+              1,
+              3,
+              7,
+              8
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Hruška",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko",
+            "a": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-06": {
+    "vydej": "11:00–13:00",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Chléb žitamoc",
+        "d": "Máslo, plátkový sýr, ředkvička · Granko",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Chléb žitamoc",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Máslo, plátkový sýr, ředkvička",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Granko",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Hrachová s pohankou",
+        "d": "",
+        "a": [
+          1,
+          3
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Kuřecí maso na žampionech",
+        "d": "Rýže · Džus",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Kuřecí maso na žampionech",
+            "a": []
+          },
+          {
+            "l": "Příloha",
+            "n": "Rýže",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Džus",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Rohlík",
+        "d": "Džemové máslo, jablko · Mléko",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Rohlík",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Džemové máslo, jablko",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko",
+            "a": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-07": {
+    "vydej": "11:00–13:00",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Chléb dýňový",
+        "d": "Pomazánka z tresčích jater, kedluben · Čaj brusinkový",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Chléb dýňový",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Pomazánka z tresčích jater, kedluben",
+            "a": [
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj brusinkový",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Česneková krémová s krutony",
+        "d": "",
+        "a": [
+          1,
+          7
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Vepřové maso v mrkvi",
+        "d": "Brambor · Sýr a křup · Ovocný nápoj",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Vepřové maso v mrkvi",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Brambor",
+            "a": [
+              3
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Sýr a křup",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný nápoj",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Raženka",
+        "d": "Perla, rajče · Karamelové mléko",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Raženka",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Perla, rajče",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Karamelové mléko",
+            "a": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-08": {
+    "vydej": "11:00–13:00",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Rohlík",
+        "d": "Ovocná svačinka · Bylinkový čaj",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Rohlík",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovocná svačinka",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Bylinkový čaj",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Nevaří se",
+        "d": "",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Nevaří se",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-09": {
+    "vydej": "11:00–13:00",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Toustový chléb tmavý",
+        "d": "Luštěninová pomazánka, cherry rajče · Borůvkový čaj",
+        "a": [
+          1,
+          6
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Toustový chléb tmavý",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Luštěninová pomazánka, cherry rajče",
+            "a": [
+              6
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Borůvkový čaj",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Špenátová",
+        "d": "",
+        "a": []
+      },
+      {
+        "c": "obed",
+        "n": "Těstoviny po lotrinsku",
+        "d": "Mléko · Voda",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Těstoviny po lotrinsku",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Mléko",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Voda",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Banán",
+        "d": "Citronový čaj",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Banán",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Citronový čaj",
+            "a": []
+          }
+        ]
+      }
+    ]
   }
 }
