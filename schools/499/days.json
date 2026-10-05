@@ -1341,16 +1341,87 @@
     "vydej": "10:45–12:30",
     "chody": [
       {
+        "c": "obed",
+        "n": "Státní stvátek",
+        "d": "",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Státní stvátek",
+            "a": []
+          }
+        ]
+      },
+      {
         "c": "polevka",
         "n": "Státní stvátek",
         "d": "",
         "a": []
+      },
+      {
+        "c": "svacina",
+        "n": "Státní stvátek",
+        "d": "",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Státní stvátek",
+            "a": []
+          }
+        ]
       }
     ]
   },
   "2026-09-29": {
     "vydej": "10:45–12:30",
     "chody": [
+      {
+        "c": "obed",
+        "n": "Lučina, kmínový a slunečnicový chléb, zelenina",
+        "d": "Nutelové máslo, housky · Ovoce · Caro, čaj",
+        "a": [
+          1,
+          6,
+          7,
+          8,
+          11
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Lučina, kmínový a slunečnicový chléb, zelenina",
+            "a": [
+              1,
+              6,
+              7,
+              11
+            ]
+          },
+          {
+            "l": "přesnídávka",
+            "n": "Nutelové máslo, housky",
+            "a": [
+              1,
+              8
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          },
+          {
+            "l": "nápoj",
+            "n": "Caro, čaj",
+            "a": [
+              1,
+              7
+            ]
+          }
+        ]
+      },
       {
         "c": "polevka",
         "n": "Kapustová",
@@ -1418,12 +1489,92 @@
             "a": []
           }
         ]
+      },
+      {
+        "c": "svacina",
+        "n": "Kynuté ovocné knedlíky s tvarohem",
+        "d": "Ovocný salát · Mléko · Voda, čaj, ovocný nápoj",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Kynuté ovocné knedlíky s tvarohem",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Svačina",
+            "n": "Ovocný salát",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Mléko",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "nápoj",
+            "n": "Voda, čaj, ovocný nápoj",
+            "a": []
+          }
+        ]
       }
     ]
   },
   "2026-09-30": {
     "vydej": "10:45–12:30",
     "chody": [
+      {
+        "c": "obed",
+        "n": "Česnekové máslo, toustový a kmínový chléb, zelenina",
+        "d": "Tuňáková pomazánka s pomazánkovým máslem, chléb · Zelenina · Horká čokoláda, čaj",
+        "a": [
+          1,
+          3,
+          4,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Česnekové máslo, toustový a kmínový chléb, zelenina",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "přesnídávka",
+            "n": "Tuňáková pomazánka s pomazánkovým máslem, chléb",
+            "a": [
+              1,
+              3,
+              4
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zelenina",
+            "a": []
+          },
+          {
+            "l": "nápoj",
+            "n": "Horká čokoláda, čaj",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
       {
         "c": "polevka",
         "n": "Fazolová s uzeninou",
@@ -1488,6 +1639,51 @@
           {
             "l": "nápoj",
             "n": "Voda, čaj, ovocný nápoj",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Žervé, chléb, Rama, máslo",
+        "d": "Pohankový rohlík, džusík · Ovoce · Voda, ovocný nápoj",
+        "a": [
+          1,
+          3,
+          4,
+          6,
+          7,
+          11
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Žervé, chléb, Rama, máslo",
+            "a": [
+              1,
+              4,
+              7
+            ]
+          },
+          {
+            "l": "Svačina",
+            "n": "Pohankový rohlík, džusík",
+            "a": [
+              1,
+              3,
+              6,
+              7,
+              11
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          },
+          {
+            "l": "nápoj",
+            "n": "Voda, ovocný nápoj",
             "a": []
           }
         ]

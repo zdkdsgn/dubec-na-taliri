@@ -1988,18 +1988,20 @@
     "chody": [
       {
         "c": "presnidavka",
-        "n": "Obložená veka",
-        "d": "Zeleninový talířek · Caro",
+        "n": "Veka, rybičková pomazánka",
+        "d": "Zeleninový talířek · Čaj",
         "a": [
           1,
+          4,
           7
         ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Obložená veka",
+            "n": "Veka, rybičková pomazánka",
             "a": [
               1,
+              4,
               7
             ]
           },
@@ -2010,11 +2012,8 @@
           },
           {
             "l": "Nápoj",
-            "n": "Caro",
-            "a": [
-              1,
-              7
-            ]
+            "n": "Čaj",
+            "a": []
           }
         ]
       },
@@ -2055,7 +2054,7 @@
       {
         "c": "svacina",
         "n": "Chléb, šunková pěna",
-        "d": "Hruška · Čaj",
+        "d": "Hruška, hroznové víno · Čaj",
         "a": [
           1,
           7
@@ -2071,7 +2070,7 @@
           },
           {
             "l": "Doplněk",
-            "n": "Hruška",
+            "n": "Hruška, hroznové víno",
             "a": []
           },
           {
@@ -2088,20 +2087,18 @@
     "chody": [
       {
         "c": "presnidavka",
-        "n": "Chléb, rybičková pomazánka",
-        "d": "Paprika · Čaj",
+        "n": "Obložený chléb",
+        "d": "Paprika · Caro",
         "a": [
           1,
-          4,
           7
         ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Chléb, rybičková pomazánka",
+            "n": "Obložený chléb",
             "a": [
               1,
-              4,
               7
             ]
           },
@@ -2112,8 +2109,11 @@
           },
           {
             "l": "Nápoj",
-            "n": "Čaj",
-            "a": []
+            "n": "Caro",
+            "a": [
+              1,
+              7
+            ]
           }
         ]
       },
@@ -2171,7 +2171,7 @@
       {
         "c": "svacina",
         "n": "Houska, pomazánkové máslo",
-        "d": "Hroznové víno · Mléko",
+        "d": "Broskev · Mléko",
         "a": [
           1,
           7
@@ -2187,7 +2187,7 @@
           },
           {
             "l": "Doplněk",
-            "n": "Hroznové víno",
+            "n": "Broskev",
             "a": []
           },
           {

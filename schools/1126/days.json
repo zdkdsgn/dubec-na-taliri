@@ -2720,37 +2720,6 @@
         ]
       },
       {
-        "c": "obed2",
-        "n": "Makový závin",
-        "d": "Ovoce · Štáva",
-        "a": [
-          1,
-          3,
-          7
-        ],
-        "p": [
-          {
-            "l": "Jídlo",
-            "n": "Makový závin",
-            "a": [
-              1,
-              3,
-              7
-            ]
-          },
-          {
-            "l": "Doplněk",
-            "n": "Ovoce",
-            "a": []
-          },
-          {
-            "l": "Nápoj",
-            "n": "Štáva",
-            "a": []
-          }
-        ]
-      },
-      {
         "c": "svacina",
         "n": "Makový závin",
         "d": "Ovoce · Čaj",
@@ -2833,34 +2802,24 @@
       },
       {
         "c": "obed",
-        "n": "Pečené kuřecí stehno s bramborovou kaší",
-        "d": "Okurkový salát · ( jogurt ZŠ ) · Štáva",
+        "n": "Pečené kuřecí stehno",
+        "d": "Šťouchané brambory, okurkový salát · ( jogurt ZŠ ) · Štáva",
         "a": [
           1,
-          3,
-          6,
-          7,
-          9,
-          10,
-          11
+          7
         ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Pečené kuřecí stehno s bramborovou kaší",
+            "n": "Pečené kuřecí stehno",
             "a": [
               1,
-              3,
-              6,
-              7,
-              9,
-              10,
-              11
+              7
             ]
           },
           {
             "l": "Příloha",
-            "n": "Okurkový salát",
+            "n": "Šťouchané brambory, okurkový salát",
             "a": []
           },
           {
@@ -2958,7 +2917,7 @@
       {
         "c": "obed",
         "n": "Hovězí nudličky Stroganov",
-        "d": "Dušená rýže · Zeleninový salát · Štáva",
+        "d": "Dušená rýže · Štáva",
         "a": [],
         "p": [
           {
@@ -2970,45 +2929,6 @@
             "l": "Příloha",
             "n": "Dušená rýže",
             "a": []
-          },
-          {
-            "l": "Doplněk",
-            "n": "Zeleninový salát",
-            "a": []
-          },
-          {
-            "l": "Nápoj",
-            "n": "Štáva",
-            "a": []
-          }
-        ]
-      },
-      {
-        "c": "obed2",
-        "n": "Dušené vepřové maso, česneková omáčka",
-        "d": "Houskový knedlík · Štáva",
-        "a": [
-          1,
-          3,
-          7
-        ],
-        "p": [
-          {
-            "l": "Jídlo",
-            "n": "Dušené vepřové maso, česneková omáčka",
-            "a": [
-              1,
-              7
-            ]
-          },
-          {
-            "l": "Příloha",
-            "n": "Houskový knedlík",
-            "a": [
-              1,
-              3,
-              7
-            ]
           },
           {
             "l": "Nápoj",
@@ -3247,7 +3167,7 @@
       {
         "c": "obed",
         "n": "Smažené rybí nugety",
-        "d": "Brambory, zeleninový salát · Ovoce · Štáva",
+        "d": "Bramborová kaše, zeleninová přízdoba · Ovoce · Štáva",
         "a": [
           1,
           3,
@@ -3267,8 +3187,10 @@
           },
           {
             "l": "Příloha",
-            "n": "Brambory, zeleninový salát",
-            "a": []
+            "n": "Bramborová kaše, zeleninová přízdoba",
+            "a": [
+              7
+            ]
           },
           {
             "l": "Doplněk",
@@ -5685,6 +5607,119 @@
             "a": [
               1,
               3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zelenina",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-11-06": {
+    "vydej": "11:30–13:45",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Grahamový rohlík s lučinou",
+        "d": "Ovoce, zelenina · Kakao",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Grahamový rohlík s lučinou",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce, zelenina",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Kakao",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Z hlívy ústřičné",
+        "d": "",
+        "a": [
+          1,
+          7,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Masová směs s krůtím a vepřovým masem",
+        "d": "Rýže BASMATI · Zeleninový salát · Šťáva",
+        "a": [
+          1,
+          9
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Masová směs s krůtím a vepřovým masem",
+            "a": [
+              1,
+              9
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Rýže BASMATI",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zeleninový salát",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Šťáva",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Veka s rybičkovou pomazánkou",
+        "d": "Zelenina · Čaj",
+        "a": [
+          1,
+          3,
+          4,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Veka s rybičkovou pomazánkou",
+            "a": [
+              1,
+              3,
+              4,
               7
             ]
           },

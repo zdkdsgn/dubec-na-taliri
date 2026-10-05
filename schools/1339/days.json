@@ -3887,5 +3887,96 @@
         ]
       }
     ]
+  },
+  "2026-11-06": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Pomazánka z ryb v oleji, bageta, kedlubna, mrkev, káva latte",
+        "d": "",
+        "a": [
+          1,
+          3,
+          4,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Pomazánka z ryb v oleji, bageta, kedlubna, mrkev, káva latte",
+            "a": [
+              1,
+              3,
+              4,
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Hovězí s těstovinou",
+        "d": "",
+        "a": [
+          1,
+          3,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Svíčková na smetaně",
+        "d": "Houskový knedlík · Jahodový čaj",
+        "a": [
+          1,
+          3,
+          7,
+          9
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Svíčková na smetaně",
+            "a": [
+              1,
+              7,
+              9
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Houskový knedlík",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Jahodový čaj",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Zeleninový salát se sýrem, rohlík, jahodový čaj",
+        "d": "",
+        "a": [
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Zeleninový salát se sýrem, rohlík, jahodový čaj",
+            "a": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
   }
 }

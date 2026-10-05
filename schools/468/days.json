@@ -2690,6 +2690,37 @@
     "vydej": "12:00–12:30",
     "chody": [
       {
+        "c": "presnidavka",
+        "n": "Rohlík s mrkvovou pomazánkou",
+        "d": "Ovoce, zelenina · Mléko, čaj",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Rohlík s mrkvovou pomazánkou",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce, zelenina",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko, čaj",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
         "c": "polevka",
         "n": "Dýňová s krutonky",
         "d": "",
@@ -2954,6 +2985,37 @@
             "l": "Nápoj",
             "n": "Čaj",
             "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Veka s pažitkovou pomazánkou",
+        "d": "Zelenina · Mléko, čaj",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Veka s pažitkovou pomazánkou",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zelenina",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko, čaj",
+            "a": [
+              7
+            ]
           }
         ]
       }

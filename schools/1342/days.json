@@ -5330,5 +5330,135 @@
         ]
       }
     ]
+  },
+  "2026-11-06": {
+    "vydej": "11:40–13:30",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Pečivo",
+        "d": "Rybí pomazánka · Ředkvičky · Čaj",
+        "a": [
+          1,
+          3,
+          4,
+          7,
+          10
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Pečivo",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Rybí pomazánka",
+            "a": [
+              4,
+              7,
+              10
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ředkvičky",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Zeleninová s kuskusem",
+        "d": "",
+        "a": [
+          1,
+          3,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Zeleninové rizoto s pohankou, pečenou cizrnou a sýrem",
+        "d": "Zelný salát · Čaj",
+        "a": [
+          1,
+          7,
+          9
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Zeleninové rizoto s pohankou, pečenou cizrnou a sýrem",
+            "a": [
+              1,
+              7,
+              9
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zelný salát",
+            "a": [
+              9
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Veka",
+        "d": "Máslo, vařené vejce · Zelenina · Čaj",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Veka",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Máslo, vařené vejce",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zelenina",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj",
+            "a": []
+          }
+        ]
+      }
+    ]
   }
 }

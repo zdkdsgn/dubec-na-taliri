@@ -2201,7 +2201,7 @@
       {
         "c": "obed",
         "n": "Vejce vařené",
-        "d": "Hrachová kaše, kyselá okurka · Moučník · Čaj s citronem, voda, ochucené mléko",
+        "d": "Hrachová kaše, kyselá okurka · Čokoládové brownies · Čaj s citronem, voda, ochucené mléko",
         "a": [
           1,
           3,
@@ -2227,7 +2227,7 @@
           },
           {
             "l": "Doplněk",
-            "n": "Moučník",
+            "n": "Čokoládové brownies",
             "a": [
               1,
               3,
@@ -2249,7 +2249,7 @@
       {
         "c": "obed2",
         "n": "Zelný salát",
-        "d": "Bramboráčky · Moučník · Čaj s citronem, voda, ochucené mléko",
+        "d": "Bramboráčky · Čokoládové brownies · Čaj s citronem, voda, ochucené mléko",
         "a": [
           1,
           3,
@@ -2274,7 +2274,7 @@
           },
           {
             "l": "Doplněk",
-            "n": "Moučník",
+            "n": "Čokoládové brownies",
             "a": [
               1,
               3,
@@ -3312,6 +3312,478 @@
             "l": "Jídlo",
             "n": "Podzimní prázdniny",
             "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-11-02": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Maďarská bramborová",
+        "d": "",
+        "a": [
+          1,
+          7,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Bramborové šišky s opraženou strouhankou a cukrem",
+        "d": "Čaj se sirupem, voda, bílá káva",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Bramborové šišky s opraženou strouhankou a cukrem",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj se sirupem, voda, bílá káva",
+            "a": [
+              1,
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "n": "Vepřové maso na divoko",
+        "d": "Jasmínová rýže · Čaj se sirupem, voda, bílá káva",
+        "a": [
+          1,
+          7,
+          9
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Vepřové maso na divoko",
+            "a": [
+              1,
+              7,
+              9
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Jasmínová rýže",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj se sirupem, voda, bílá káva",
+            "a": [
+              1,
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-11-03": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Drožďová",
+        "d": "",
+        "a": [
+          1,
+          3,
+          7,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Vepřová pečeně",
+        "d": "Cizrna po myslivecku · Moučník · Multivitamin, voda, mléko",
+        "a": [
+          1,
+          3,
+          7,
+          8,
+          9,
+          11,
+          13
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Vepřová pečeně",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Cizrna po myslivecku",
+            "a": [
+              7,
+              9
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Moučník",
+            "a": [
+              1,
+              3,
+              7,
+              8,
+              11,
+              13
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Multivitamin, voda, mléko",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "n": "Starosedlácké špecle se zelím a cibulkou",
+        "d": "Moučník · Multivitamin, voda, mléko",
+        "a": [
+          1,
+          3,
+          7,
+          8,
+          11,
+          13
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Starosedlácké špecle se zelím a cibulkou",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Moučník",
+            "a": [
+              1,
+              3,
+              7,
+              8,
+              11,
+              13
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Multivitamin, voda, mléko",
+            "a": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-11-04": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Hrášková krémová",
+        "d": "",
+        "a": [
+          1,
+          7
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Vepřové maso po milánsku",
+        "d": "Špagety, sýr · Jogurt s müsli · Ovocný nápoj, voda, kapučínek",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Vepřové maso po milánsku",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Špagety, sýr",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Jogurt s müsli",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný nápoj, voda, kapučínek",
+            "a": [
+              1,
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "n": "Žemlovka s jablky a tvarohem",
+        "d": "Jogurt s müsli · Ovocný nápoj, voda, kapučínek",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Žemlovka s jablky a tvarohem",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Jogurt s müsli",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný nápoj, voda, kapučínek",
+            "a": [
+              1,
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-11-05": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Bramborová s paprikami",
+        "d": "",
+        "a": [
+          1,
+          7
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Filet z hejka na másle, citron",
+        "d": "Bramborová kaše · Ovoce · Neslazený bylinný čaj, voda, ochucené mléko",
+        "a": [
+          4,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Filet z hejka na másle, citron",
+            "a": [
+              4,
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Bramborová kaše",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Neslazený bylinný čaj, voda, ochucené mléko",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "n": "Salát z červené řepy s jablky",
+        "d": "Bramborové placky · Ovoce · Neslazený bylinný čaj, voda, mléko",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Salát z červené řepy s jablky",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Bramborové placky",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Neslazený bylinný čaj, voda, mléko",
+            "a": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-11-06": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Se selskými trhánky",
+        "d": "",
+        "a": [
+          1,
+          3,
+          7,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Obalovaný květák",
+        "d": "Brambory, dresink · Mrkvový salát s ananasem · Čaj s citronem, voda, mléko",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Obalovaný květák",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Brambory, dresink",
+            "a": [
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Mrkvový salát s ananasem",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj s citronem, voda, mléko",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "n": "Kuřecí stripsy obalované v cornflakes",
+        "d": "Polentová kaše s cibulkou · Mrkvový salát s ananasem · Čaj s citronem, voda, mléko",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Kuřecí stripsy obalované v cornflakes",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Polentová kaše s cibulkou",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Mrkvový salát s ananasem",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj s citronem, voda, mléko",
+            "a": [
+              7
+            ]
           }
         ]
       }

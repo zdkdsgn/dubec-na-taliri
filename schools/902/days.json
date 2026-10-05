@@ -2447,20 +2447,18 @@
     "chody": [
       {
         "c": "presnidavka",
-        "n": "Čokoládové kuličky s mlékem",
+        "n": "Křehký plátek s pomazánkový máslem",
         "d": "Jablko · Ovocný čaj",
         "a": [
           1,
-          5,
           7
         ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Čokoládové kuličky s mlékem",
+            "n": "Křehký plátek s pomazánkový máslem",
             "a": [
               1,
-              5,
               7
             ]
           },
@@ -2487,19 +2485,21 @@
       },
       {
         "c": "obed",
-        "n": "Čočka na kyselo, vejce",
-        "d": "Chléb pšeničný · Kyselá okurka · Voda",
+        "n": "Domácí kynutý jablečný závin",
+        "d": "Chléb pšeničný · Mléko",
         "a": [
           1,
-          3
+          3,
+          7
         ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Čočka na kyselo, vejce",
+            "n": "Domácí kynutý jablečný závin",
             "a": [
               1,
-              3
+              3,
+              7
             ]
           },
           {
@@ -2510,13 +2510,8 @@
             ]
           },
           {
-            "l": "Doplněk",
-            "n": "Kyselá okurka",
-            "a": []
-          },
-          {
             "l": "Nápoj",
-            "n": "Voda",
+            "n": "Mléko",
             "a": []
           }
         ]
@@ -2924,22 +2919,25 @@
       },
       {
         "c": "obed",
-        "n": "Domácí kynutý jablečný závin",
-        "d": "Banán · Mléko",
+        "n": "Čočka na kyselo, vařené vejce",
+        "d": "Kyselá okurka · Banán · Voda",
         "a": [
           1,
-          3,
-          7
+          3
         ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Domácí kynutý jablečný závin",
+            "n": "Čočka na kyselo, vařené vejce",
             "a": [
               1,
-              3,
-              7
+              3
             ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Kyselá okurka",
+            "a": []
           },
           {
             "l": "Doplněk",
@@ -2948,25 +2946,25 @@
           },
           {
             "l": "Nápoj",
-            "n": "Mléko",
-            "a": [
-              7
-            ]
+            "n": "Voda",
+            "a": []
           }
         ]
       },
       {
         "c": "svacina",
-        "n": "Křehký plátek s pomazánkový máslem",
+        "n": "Čokoládové kuličky s mlékem",
         "d": "Hruška · Voda",
         "a": [
+          1,
           7
         ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Křehký plátek s pomazánkový máslem",
+            "n": "Čokoládové kuličky s mlékem",
             "a": [
+              1,
               7
             ]
           },
