@@ -1171,13 +1171,26 @@
       {
         "c": "obed2",
         "n": "Zeleninové lečo, brambory",
-        "d": "",
-        "a": [],
+        "d": "Pro nizký počet objednaných porcí se pokrm NEVAŘÍ",
+        "a": [
+          1,
+          7,
+          9
+        ],
         "p": [
           {
             "l": "Jídlo",
             "n": "Zeleninové lečo, brambory",
             "a": []
+          },
+          {
+            "l": "Příloha",
+            "n": "Pro nizký počet objednaných porcí se pokrm NEVAŘÍ",
+            "a": [
+              1,
+              7,
+              9
+            ]
           }
         ]
       }
@@ -1235,8 +1248,9 @@
       {
         "c": "obed2",
         "n": "Celerový salát se šunkou, celozrnné pečivo",
-        "d": "",
+        "d": "Pro nizký počet objednaných porcí se pokrm NEVAŘÍ",
         "a": [
+          1,
           7,
           9
         ],
@@ -1245,6 +1259,15 @@
             "l": "Jídlo",
             "n": "Celerový salát se šunkou, celozrnné pečivo",
             "a": [
+              7,
+              9
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Pro nizký počet objednaných porcí se pokrm NEVAŘÍ",
+            "a": [
+              1,
               7,
               9
             ]
@@ -1307,7 +1330,7 @@
       {
         "c": "obed2",
         "n": "Houbové rizoto se sýrem",
-        "d": "Steril.okurka",
+        "d": "",
         "a": [
           7
         ],
@@ -1318,11 +1341,6 @@
             "a": [
               7
             ]
-          },
-          {
-            "l": "Příloha",
-            "n": "Steril.okurka",
-            "a": []
           }
         ]
       }
@@ -1664,6 +1682,325 @@
           {
             "l": "Příloha",
             "n": "Houskové knedlíky",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný nápoj, voda",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-19": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Z hlávkového zelí",
+        "d": "",
+        "a": [
+          1,
+          7
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Kynuté skořicové šišky",
+        "d": "Ovoce · Mléko, čaj",
+        "a": [
+          1,
+          3,
+          4,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Kynuté skořicové šišky",
+            "a": [
+              1,
+              3,
+              4,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko, čaj",
+            "a": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-20": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Drůbeží vývar s drožďovým kapáním a zeleninou",
+        "d": "",
+        "a": [
+          1,
+          3,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Kapustové karbanátky",
+        "d": "Bramborová kaše · Kompot · Ovocný čaj, voda",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Kapustové karbanátky",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Bramborová kaše",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Kompot",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný čaj, voda",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "n": "Kuskus s kuřecím masem a zeleninou",
+        "d": "",
+        "a": [
+          1
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Kuskus s kuřecím masem a zeleninou",
+            "a": [
+              1
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-21": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Bramborová s houbami",
+        "d": "",
+        "a": [
+          1
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Vepřové maso na pepři",
+        "d": "Těstoviny · Čaj, voda",
+        "a": [
+          1,
+          3
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Vepřové maso na pepři",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Těstoviny",
+            "a": [
+              1,
+              3
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj, voda",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "n": "Zeleninové řízky",
+        "d": "Vařené brambory",
+        "a": [
+          1,
+          3,
+          9
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Zeleninové řízky",
+            "a": [
+              1,
+              3,
+              9
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Vařené brambory",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-22": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Rybí sicilská",
+        "d": "",
+        "a": [
+          1,
+          4,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Brokolicová poezie -( brokolice, květák, sýr, smetana, vejce)",
+        "d": "Brambory vařené · Okurkový salát · Mléko, čaj",
+        "a": [
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Brokolicová poezie -( brokolice, květák, sýr, smetana, vejce)",
+            "a": [
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Brambory vařené",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Okurkový salát",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko, čaj",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "n": "Čočkový salát z červené čočky",
+        "d": "Pečivo",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Čočkový salát z červené čočky",
+            "a": [
+              1,
+              3
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Pečivo",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-23": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Hovězí vývar se zeleninou a stouháním",
+        "d": "",
+        "a": [
+          1,
+          3,
+          7,
+          10
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Hovézí maso, koprová omáčka",
+        "d": "Houskový knedlík · Ovocný nápoj, voda",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Hovézí maso, koprová omáčka",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Houskový knedlík",
             "a": [
               1,
               3,

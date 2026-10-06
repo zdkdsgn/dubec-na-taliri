@@ -2603,7 +2603,7 @@
       },
       {
         "c": "polevka",
-        "n": "Kuřecí vývar s bylinkovými nočky",
+        "n": "Kuřecí vývar s těstovinou",
         "d": "",
         "a": [
           1,
@@ -2651,18 +2651,20 @@
       },
       {
         "c": "svacina",
-        "n": "Termix, rohlík",
+        "n": "Jogurtový kostík, rohlík",
         "d": "Švestka, nektarinka · Mléko, čaj, ovocná šťáva",
         "a": [
           1,
+          3,
           7
         ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Termix, rohlík",
+            "n": "Jogurtový kostík, rohlík",
             "a": [
               1,
+              3,
               7
             ]
           },
@@ -2718,13 +2720,12 @@
       },
       {
         "c": "polevka",
-        "n": "Hovězí vývar s nudlemi",
+        "n": "Vývar z kosti, nudle",
         "d": "",
         "a": [
           1,
           3,
-          7,
-          9
+          7
         ]
       },
       {
@@ -2756,7 +2757,7 @@
       },
       {
         "c": "svacina",
-        "n": "Bageta vícezrnná, nadýchaná lučina",
+        "n": "Termix, celozrnná bageta",
         "d": "Borůvky, hroznové víno · Mléko, čaj, ovocná šťáva, voda",
         "a": [
           1,
@@ -2766,7 +2767,7 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Bageta vícezrnná, nadýchaná lučina",
+            "n": "Termix, celozrnná bageta",
             "a": [
               1,
               3,
@@ -2875,7 +2876,7 @@
       },
       {
         "c": "svacina",
-        "n": "Jogurtový kostík, rohlík",
+        "n": "Rohlík s lučinou",
         "d": "Bluma · Mléko, čaj, voda s citronem, ovocná šťáva",
         "a": [
           1,
@@ -2885,7 +2886,7 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Jogurtový kostík, rohlík",
+            "n": "Rohlík s lučinou",
             "a": [
               1,
               3,
@@ -3001,6 +3002,238 @@
           {
             "l": "Nápoj",
             "n": "Mléko, voda s citronem, ovocná šťáva",
+            "a": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-12": {
+    "vydej": "11:00–13:00",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Cereální polštářky s mlékem",
+        "d": "Jablko, hruška · Mléko, čaj, ovocná šťáva",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Cereální polštářky s mlékem",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Jablko, hruška",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko, čaj, ovocná šťáva",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Kmínová s kuskusem",
+        "d": "",
+        "a": [
+          1,
+          7,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Losos na bylinkách",
+        "d": "Vařené brambory · Zeleninová obloha · Voda, čaj, ovocná šťáva",
+        "a": [
+          4,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Losos na bylinkách",
+            "a": [
+              4
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Vařené brambory",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zeleninová obloha",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Voda, čaj, ovocná šťáva",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Chléb Zlaťák, pomazánkové máslo",
+        "d": "Kapie, rajče · Mléko, čaj, ovocná šťáva, voda",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Chléb Zlaťák, pomazánkové máslo",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Kapie, rajče",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko, čaj, ovocná šťáva, voda",
+            "a": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-13": {
+    "vydej": "11:00–13:00",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Chléb podmáslový, vajíčková pomazánka",
+        "d": "Okurka, kapie · Mléko, čaj, ovocná šťáva",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Chléb podmáslový, vajíčková pomazánka",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Okurka, kapie",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko, čaj, ovocná šťáva",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Zeleninová",
+        "d": "",
+        "a": [
+          1,
+          7
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Čočka na kyselo s vejcem",
+        "d": "Chléb · Kyselá okurka · Čaj, voda s citronem",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Čočka na kyselo s vejcem",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Chléb",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Kyselá okurka",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj, voda s citronem",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Grahámek s taveným sýrem",
+        "d": "Jablko, hroznové víno · Mléko, čaj, ovocná šťáva, voda",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Grahámek s taveným sýrem",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Jablko, hroznové víno",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko, čaj, ovocná šťáva, voda",
             "a": [
               7
             ]

@@ -2883,25 +2883,24 @@
       },
       {
         "c": "obed",
-        "n": "Platýs na bylinkách",
-        "d": "Bramborová kaše · Ovocný čaj/voda s citronem-ovocem",
+        "n": "Čočka na kyselo s cibulkou",
+        "d": "Chléb, okurka · Ovocný čaj/voda s citronem-ovocem",
         "a": [
-          4,
-          7
+          1
         ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Platýs na bylinkách",
+            "n": "Čočka na kyselo s cibulkou",
             "a": [
-              4
+              1
             ]
           },
           {
             "l": "Příloha",
-            "n": "Bramborová kaše",
+            "n": "Chléb, okurka",
             "a": [
-              7
+              1
             ]
           },
           {
@@ -2913,7 +2912,7 @@
       },
       {
         "c": "svacina",
-        "n": "Chléb, paštiková pom.",
+        "n": "Bagetka, paštiková pom.",
         "d": "Zelenina · Ovocný čaj/voda s citronem-ovocem",
         "a": [
           1,
@@ -2922,7 +2921,7 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Chléb, paštiková pom.",
+            "n": "Bagetka, paštiková pom.",
             "a": [
               1,
               7
@@ -2976,11 +2975,10 @@
       },
       {
         "c": "polevka",
-        "n": "Pol. brokolicová",
+        "n": "Pol. květáková",
         "d": "",
         "a": [
-          1,
-          9
+          1
         ]
       },
       {
@@ -3194,10 +3192,10 @@
       },
       {
         "c": "polevka",
-        "n": "Pol. bramboračka s houbami",
+        "n": "Pol. kmínová s vejci",
         "d": "",
         "a": [
-          1,
+          3,
           9
         ]
       },
@@ -3264,26 +3262,18 @@
     "chody": [
       {
         "c": "presnidavka",
-        "n": "Loupáček",
-        "d": "Ovoce · Mléko(čaj)voda s citronem",
+        "n": "Jáhlová kaše s lesním ovocem",
+        "d": "Mléko(čaj)voda s citronem",
         "a": [
-          1,
-          3,
           7
         ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Loupáček",
+            "n": "Jáhlová kaše s lesním ovocem",
             "a": [
-              1,
-              3
+              7
             ]
-          },
-          {
-            "l": "Doplněk",
-            "n": "Ovoce",
-            "a": []
           },
           {
             "l": "Nápoj",
@@ -3296,10 +3286,9 @@
       },
       {
         "c": "polevka",
-        "n": "Pol. kmínová s vejci",
+        "n": "Pol. risi-bisi",
         "d": "",
         "a": [
-          3,
           9
         ]
       },

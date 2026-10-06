@@ -3066,10 +3066,11 @@
       },
       {
         "c": "polevka",
-        "n": "Hráškový krém s krutony",
+        "n": "Zeleninový vývar s těstovinou",
         "d": "",
         "a": [
-          7,
+          1,
+          3,
           9
         ]
       },
@@ -3077,12 +3078,18 @@
         "c": "obed",
         "n": "Zeleninový celozrnný kuskus s červenou quinoou",
         "d": "Červená řepa · Čaj, voda",
-        "a": [],
+        "a": [
+          1,
+          9
+        ],
         "p": [
           {
             "l": "Jídlo",
             "n": "Zeleninový celozrnný kuskus s červenou quinoou",
-            "a": []
+            "a": [
+              1,
+              9
+            ]
           },
           {
             "l": "Doplněk",
@@ -3137,7 +3144,7 @@
       {
         "c": "presnidavka",
         "n": "Rohlík, tuňáková pomazánka",
-        "d": "Ovoce · Ovocný koktejl TROPICO, voda",
+        "d": "Ovoce · Mléko, voda, čaj",
         "a": [
           1,
           4,
@@ -3160,8 +3167,10 @@
           },
           {
             "l": "Nápoj",
-            "n": "Ovocný koktejl TROPICO, voda",
-            "a": []
+            "n": "Mléko, voda, čaj",
+            "a": [
+              7
+            ]
           }
         ]
       },
@@ -3245,7 +3254,7 @@
       {
         "c": "presnidavka",
         "n": "Bageta světlá, rozhuda",
-        "d": "",
+        "d": "Ovoce · Mléko, voda, čaj",
         "a": [
           1,
           7
@@ -3258,6 +3267,18 @@
               1,
               7
             ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko, voda, čaj",
+            "a": [
+              7
+            ]
           }
         ]
       },
@@ -3266,6 +3287,7 @@
         "n": "Krůtí vývar s masem a amarantovými nočky",
         "d": "",
         "a": [
+          3,
           9
         ]
       },
@@ -3341,7 +3363,7 @@
       {
         "c": "presnidavka",
         "n": "Chléb žitný, vaječná pomazánka",
-        "d": "",
+        "d": "Zelenina · Mléko, voda, čaj",
         "a": [
           1,
           3,
@@ -3354,6 +3376,18 @@
             "a": [
               1,
               3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zelenina",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko, voda, čaj",
+            "a": [
               7
             ]
           }
@@ -3376,8 +3410,7 @@
           1,
           3,
           7,
-          9,
-          12
+          9
         ],
         "p": [
           {
@@ -3394,8 +3427,7 @@
             "a": [
               1,
               3,
-              7,
-              12
+              7
             ]
           },
           {
@@ -3407,8 +3439,8 @@
       },
       {
         "c": "svacina",
-        "n": "Bageta, máslo, šunka",
-        "d": "",
+        "n": "Bageta, šunková pomazánka",
+        "d": "Zelenina · Mléko, voda, čaj",
         "a": [
           1,
           7
@@ -3416,9 +3448,21 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Bageta, máslo, šunka",
+            "n": "Bageta, šunková pomazánka",
             "a": [
               1,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zelenina",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko, voda, čaj",
+            "a": [
               7
             ]
           }
@@ -3432,7 +3476,7 @@
       {
         "c": "presnidavka",
         "n": "Chléb kmínový, hermelínová pomazánka",
-        "d": "",
+        "d": "Ovoce · Mléko, voda, čaj",
         "a": [
           1,
           7
@@ -3445,17 +3489,26 @@
               1,
               7
             ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko, voda, čaj",
+            "a": [
+              7
+            ]
           }
         ]
       },
       {
         "c": "polevka",
-        "n": "Zeleninový vývar s těstovinou",
+        "n": "Kuřecí vývar s masem a kukuřičným kuskusem",
         "d": "",
         "a": [
-          1,
-          3,
-          6,
           9
         ]
       },
@@ -3473,7 +3526,6 @@
             "l": "Jídlo",
             "n": "Cizrnová kaše s restovanou cibulkou a slaninou",
             "a": [
-              1,
               6,
               9
             ]
@@ -3500,7 +3552,7 @@
       {
         "c": "svacina",
         "n": "Chléb kmínový, Lučina se zeleninou",
-        "d": "",
+        "d": "Zelenina · Čaj, voda",
         "a": [
           1,
           7
@@ -3513,6 +3565,16 @@
               1,
               7
             ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zelenina",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj, voda",
+            "a": []
           }
         ]
       }

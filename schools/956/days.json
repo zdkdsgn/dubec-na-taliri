@@ -1217,6 +1217,7 @@
         "d": "",
         "a": [
           1,
+          3,
           7
         ],
         "p": [
@@ -1225,6 +1226,7 @@
             "n": "Podmáslový chléb, pomazánka z červené řepy a ricotty, česnekové výhonky, zelenina dle výb",
             "a": [
               1,
+              3,
               7
             ]
           }
@@ -1373,6 +1375,7 @@
         "n": "Vývar s rajčaty, kari a jáhly",
         "d": "",
         "a": [
+          3,
           10
         ]
       },
@@ -1381,13 +1384,16 @@
         "n": "Rybí filé na kmíně, bramborová kaše",
         "d": "Zeleninový salátek · Voda, čaj",
         "a": [
+          4,
           10
         ],
         "p": [
           {
             "l": "Jídlo",
             "n": "Rybí filé na kmíně, bramborová kaše",
-            "a": []
+            "a": [
+              4
+            ]
           },
           {
             "l": "Doplněk",
@@ -1500,7 +1506,7 @@
       },
       {
         "c": "obed",
-        "n": "Jáhelník se švestkami",
+        "n": "Jáhelník s jablky ze školní zahrádky",
         "d": "Výběr ovoce · Voda, čaj",
         "a": [
           7
@@ -1508,7 +1514,7 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Jáhelník se švestkami",
+            "n": "Jáhelník s jablky ze školní zahrádky",
             "a": [
               7
             ]
@@ -1697,6 +1703,379 @@
             "n": "Směs listových salátů",
             "a": [
               10
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Bylinková voda, voda, čaj",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-12": {
+    "vydej": "11:30–13:30",
+    "chody": [
+      {
+        "c": "svacina",
+        "n": "Rohlík, vajíčková pomazánka z ricotty, zeleninová obloha, ovoce, čaj",
+        "d": "",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Rohlík, vajíčková pomazánka z ricotty, zeleninová obloha, ovoce, čaj",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Luštěninová se zeleninou",
+        "d": "",
+        "a": [
+          1
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Pečený okouník červený, bramborovo-batátové pyré",
+        "d": "Kukuřice · Voda, voda s ovoce, čaj",
+        "a": [
+          4,
+          7,
+          10
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Pečený okouník červený, bramborovo-batátové pyré",
+            "a": [
+              4,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Kukuřice",
+            "a": [
+              10
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Voda, voda s ovoce, čaj",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-13": {
+    "vydej": "11:30–13:30",
+    "chody": [
+      {
+        "c": "svacina",
+        "n": "Chia bageta, pomazánka s ajvarem, zeleninová obloha, mléko, čaj",
+        "d": "",
+        "a": [
+          1,
+          7,
+          10
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Chia bageta, pomazánka s ajvarem, zeleninová obloha, mléko, čaj",
+            "a": [
+              1,
+              7,
+              10
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Zeleninová s kuskusem",
+        "d": "",
+        "a": [
+          1,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Zapečené těstoviny s krůtím masem, smetanou, sýrem a špenátem",
+        "d": "Salát z červeného zelí · Voda, čaj, voda s ovocem",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Zapečené těstoviny s krůtím masem, smetanou, sýrem a špenátem",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Salát z červeného zelí",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Voda, čaj, voda s ovocem",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-14": {
+    "vydej": "11:30–13:30",
+    "chody": [
+      {
+        "c": "svacina",
+        "n": "Veka, pomazánka z pečené tresky, čaj, zelenina a ovoce dle výběru",
+        "d": "",
+        "a": [
+          1,
+          4,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Veka, pomazánka z pečené tresky, čaj, zelenina a ovoce dle výběru",
+            "a": [
+              1,
+              4,
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Slepičí vývar s nudlemi a zeleninou",
+        "d": "",
+        "a": [
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Vepřová pečeně na švestkách, tarhoňa s cibulkou",
+        "d": "Zeleninový salát · Voda s bylinkami, voda, čaj",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Vepřová pečeně na švestkách, tarhoňa s cibulkou",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zeleninový salát",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Voda s bylinkami, voda, čaj",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-15": {
+    "vydej": "11:30–13:30",
+    "chody": [
+      {
+        "c": "svacina",
+        "n": "Celozrnný rohlík, luštěninová pomazánka s výhonky, zeleninová miska, mléko, čaj",
+        "d": "",
+        "a": [
+          1,
+          7,
+          8
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Celozrnný rohlík, luštěninová pomazánka s výhonky, zeleninová miska, mléko, čaj",
+            "a": [
+              1,
+              7,
+              8
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Cibulová s krutony",
+        "d": "",
+        "a": [
+          1,
+          3,
+          7,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Kuřecí steak přírodní, opékané brambory s bylinkami (česnek, petržel, rozmarýn)",
+        "d": "Tzaziky s okurkou · Bylinková voda, voda, čaj",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Kuřecí steak přírodní, opékané brambory s bylinkami (česnek, petržel, rozmarýn)",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Tzaziky s okurkou",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Bylinková voda, voda, čaj",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-16": {
+    "vydej": "11:30–13:30",
+    "chody": [
+      {
+        "c": "svacina",
+        "n": "Slunečnicový chléb, jemná játrová pomazánka výběr ovoce a zeleniny, čaj",
+        "d": "",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Slunečnicový chléb, jemná játrová pomazánka výběr ovoce a zeleniny, čaj",
+            "a": [
+              1,
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Rajská s těstovinovou rýží",
+        "d": "",
+        "a": [
+          1,
+          9,
+          10
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Podzimní rizoto (dýňové) s pancettou a parmezánem",
+        "d": "Rukola · Voda s citronem, voda, čaj",
+        "a": [
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Podzimní rizoto (dýňové) s pancettou a parmezánem",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Rukola",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Voda s citronem, voda, čaj",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-19": {
+    "vydej": "11:30–13:30",
+    "chody": [
+      {
+        "c": "svacina",
+        "n": "Obložená veka se šunkou a sýrem, zelenina, čaj, kakao",
+        "d": "",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Obložená veka se šunkou a sýrem, zelenina, čaj, kakao",
+            "a": [
+              1,
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Falešná uzená s bulgurem a bramborem",
+        "d": "",
+        "a": [
+          6,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Cizrnovo-hrachové pyré s cibulkou, chléb, vejce",
+        "d": "Bylinková voda, voda, čaj",
+        "a": [
+          1
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Cizrnovo-hrachové pyré s cibulkou, chléb, vejce",
+            "a": [
+              1
             ]
           },
           {

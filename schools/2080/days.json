@@ -2064,7 +2064,7 @@
       },
       {
         "c": "polevka",
-        "n": "REŽIE – oběd ZŠ Bynov – NUTNÉ ODHLÁSIT na strava.cz! Kuřecí vývar s krupicovými noky",
+        "n": "REŽIE – oběd ZŠ Bynov – NUTNÉ ODHLÁSIT na strava.cz! Špenátová s vejci",
         "d": "",
         "a": [
           1,
@@ -2074,14 +2074,20 @@
       },
       {
         "c": "obed",
-        "n": "Hrachová kaše, uzená pečně, pestrý salát",
+        "n": "Plněné bramborové knedlíky, červené zelí",
         "d": "Voda",
-        "a": [],
+        "a": [
+          1,
+          3
+        ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Hrachová kaše, uzená pečně, pestrý salát",
-            "a": []
+            "n": "Plněné bramborové knedlíky, červené zelí",
+            "a": [
+              1,
+              3
+            ]
           },
           {
             "l": "Nápoj",
@@ -2162,21 +2168,23 @@
       },
       {
         "c": "obed",
-        "n": "Hejk v těstíčku, brambory, byl. dip, obloha",
+        "n": "Hejk v těstíčku, bramborová kaše, zelenina na páře",
         "d": "Voda",
         "a": [
           1,
           3,
-          4
+          4,
+          7
         ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Hejk v těstíčku, brambory, byl. dip, obloha",
+            "n": "Hejk v těstíčku, bramborová kaše, zelenina na páře",
             "a": [
               1,
               3,
-              4
+              4,
+              7
             ]
           },
           {
@@ -2341,17 +2349,18 @@
       },
       {
         "c": "polevka",
-        "n": "REŽIE – oběd ZŠ Bynov – NUTNÉ ODHLÁSIT na strava.cz! Špenátová",
+        "n": "REŽIE – oběd ZŠ Bynov – NUTNÉ ODHLÁSIT na strava.cz! Kuřecí vývar s krupicovými noky",
         "d": "",
         "a": [
           1,
           3,
-          7
+          7,
+          9
         ]
       },
       {
         "c": "obed",
-        "n": "Plněné bramborové knedlíky, červené zelí",
+        "n": "Hrachová kaše, uzená pečeně, zelný salát",
         "d": "Voda",
         "a": [
           1,
@@ -2360,7 +2369,7 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Plněné bramborové knedlíky, červené zelí",
+            "n": "Hrachová kaše, uzená pečeně, zelný salát",
             "a": [
               1,
               3
