@@ -2194,6 +2194,36 @@
     "vydej": "11:00–13:00",
     "chody": [
       {
+        "c": "presnidavka",
+        "n": "Lámankový chléb",
+        "d": "Pomazánka humus, paprika · Mátový čaj s citronem",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Lámankový chléb",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Pomazánka humus, paprika",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mátový čaj s citronem",
+            "a": []
+          }
+        ]
+      },
+      {
         "c": "polevka",
         "n": "Hrášková",
         "d": "",
@@ -2227,36 +2257,6 @@
           {
             "l": "Nápoj",
             "n": "Džus",
-            "a": []
-          }
-        ]
-      },
-      {
-        "c": "presnidavka",
-        "n": "Lámankový chléb",
-        "d": "Pomazánka humus, paprika · Mátový čaj s citronem",
-        "a": [
-          1,
-          7
-        ],
-        "p": [
-          {
-            "l": "Jídlo",
-            "n": "Lámankový chléb",
-            "a": [
-              1
-            ]
-          },
-          {
-            "l": "Doplněk",
-            "n": "Pomazánka humus, paprika",
-            "a": [
-              7
-            ]
-          },
-          {
-            "l": "Nápoj",
-            "n": "Mátový čaj s citronem",
             "a": []
           }
         ]
@@ -2298,6 +2298,39 @@
     "vydej": "11:00–13:00",
     "chody": [
       {
+        "c": "presnidavka",
+        "n": "Žitný chléb",
+        "d": "Mrkvová pomazánka, cherry rajče · Bikava",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Žitný chléb",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Mrkvová pomazánka, cherry rajče",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Bikava",
+            "a": [
+              1,
+              7
+            ]
+          }
+        ]
+      },
+      {
         "c": "polevka",
         "n": "Dýňová",
         "d": "",
@@ -2332,39 +2365,6 @@
             "l": "Nápoj",
             "n": "Voda",
             "a": []
-          }
-        ]
-      },
-      {
-        "c": "presnidavka",
-        "n": "Žitný chléb",
-        "d": "Mrkvová pomazánka, cherry rajče · Bikava",
-        "a": [
-          1,
-          7
-        ],
-        "p": [
-          {
-            "l": "Jídlo",
-            "n": "Žitný chléb",
-            "a": [
-              1
-            ]
-          },
-          {
-            "l": "Doplněk",
-            "n": "Mrkvová pomazánka, cherry rajče",
-            "a": [
-              7
-            ]
-          },
-          {
-            "l": "Nápoj",
-            "n": "Bikava",
-            "a": [
-              1,
-              7
-            ]
           }
         ]
       },

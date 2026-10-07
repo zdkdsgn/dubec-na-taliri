@@ -2789,20 +2789,22 @@
       },
       {
         "c": "obed",
-        "n": "Zapečené barevné těstoviny s brokolicí, květákem a paprikou, sýr",
+        "n": "Zapečené barevné těstoviny s brokolicí, květákem a paprikou, sýr, bílé tofu",
         "d": "Ovocný nápoj · Kompot ovocný mix",
         "a": [
           1,
           3,
+          6,
           7
         ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Zapečené barevné těstoviny s brokolicí, květákem a paprikou, sýr",
+            "n": "Zapečené barevné těstoviny s brokolicí, květákem a paprikou, sýr, bílé tofu",
             "a": [
               1,
               3,
+              6,
               7
             ]
           },
@@ -2967,6 +2969,560 @@
           {
             "l": "Doplněk",
             "n": "Jablko, rajče",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-12": {
+    "vydej": "11:20–12:00",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Jogurt bílý s džemem malina, sezámek",
+        "d": "Ovocný bio čaj · Nektarinka",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Jogurt bílý s džemem malina, sezámek",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný bio čaj",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Nektarinka",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Brokolicový krém se smetanou",
+        "d": "",
+        "a": [
+          1,
+          7
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Filé na másle",
+        "d": "Kuskus se zeleninou · Ovocný nápoj · Kompot ananas",
+        "a": [
+          1,
+          4,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Filé na másle",
+            "a": [
+              4,
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Kuskus se zeleninou",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný nápoj",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Kompot ananas",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Fazolová pomazánka, chléb",
+        "d": "Mléko – čaj · Kedlubna, rajče",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Fazolová pomazánka, chléb",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko – čaj",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Kedlubna, rajče",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-13": {
+    "vydej": "11:20–12:00",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Vaječná pomazánka, vícezrnná bageta",
+        "d": "Ochucené mléko malinové – čaj · Salátová okurka, švestky",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Vaječná pomazánka, vícezrnná bageta",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ochucené mléko malinové – čaj",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Salátová okurka, švestky",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Zeleninová s kuskusem",
+        "d": "",
+        "a": [
+          1,
+          7,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Zapečené těstoviny se zelím a vepřovým masem",
+        "d": "Ovocný čaj · Kyselá okurka",
+        "a": [
+          1,
+          3
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Zapečené těstoviny se zelím a vepřovým masem",
+            "a": [
+              1,
+              3
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný čaj",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Kyselá okurka",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Sýrová pomazánka s česnekem, chlebíčková veka",
+        "d": "Mléko – čaj · Paprika, hroznové víno",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Sýrová pomazánka s česnekem, chlebíčková veka",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko – čaj",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Paprika, hroznové víno",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-14": {
+    "vydej": "11:20–12:00",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Jablečno – mrkvová přesnídávka, rohlík",
+        "d": "Ovocný bio čaj · Hruška",
+        "a": [
+          1,
+          3
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Jablečno – mrkvová přesnídávka, rohlík",
+            "a": [
+              1,
+              3
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný bio čaj",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Hruška",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Hovězí vývar s domácím drobením",
+        "d": "",
+        "a": [
+          1,
+          3,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Svíčková hovězí pečeně",
+        "d": "Vícezrnný knedlík · Ovocný nápoj",
+        "a": [
+          1,
+          3,
+          7,
+          9
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Svíčková hovězí pečeně",
+            "a": [
+              1,
+              7,
+              9
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Vícezrnný knedlík",
+            "a": [
+              1,
+              3
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný nápoj",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Krémové žervé s červenou řepou, chléb",
+        "d": "Mléko – čaj · Rajče, mrkev",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Krémové žervé s červenou řepou, chléb",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko – čaj",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Rajče, mrkev",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-15": {
+    "vydej": "11:20–12:00",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Tmavý toustový chléb, perla máslová, strouhaný sýr",
+        "d": "Mléko – čaj · Banán",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Tmavý toustový chléb, perla máslová, strouhaný sýr",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko – čaj",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Banán",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Česneková s krupkami a vejcem, chlebové krutonky",
+        "d": "",
+        "a": [
+          1,
+          3,
+          7
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Kuřecí nudličky na zelenině",
+        "d": "Dušená jasmínová rýže · Ovocný nápoj",
+        "a": [
+          1
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Kuřecí nudličky na zelenině",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Dušená jasmínová rýže",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný nápoj",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Tvarohová pomazánka se šnitlíkem, chléb",
+        "d": "Mléko – čaj · Paprika, švestky",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Tvarohová pomazánka se šnitlíkem, chléb",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko – čaj",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Paprika, švestky",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-16": {
+    "vydej": "11:20–12:00",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Ošatkový žitný chléb, smetanová lučina s ředkvičkou",
+        "d": "Mléko – čaj · Salátová okurka, jablko",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Ošatkový žitný chléb, smetanová lučina s ředkvičkou",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko – čaj",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Salátová okurka, jablko",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Celerový krém se smetanou a krutonky",
+        "d": "",
+        "a": [
+          1,
+          7,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Rýžový nákyp se švestkami a broskvemi",
+        "d": "Ovocný nápoj",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Rýžový nákyp se švestkami a broskvemi",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný nápoj",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Houska s máslem",
+        "d": "Mléko – čaj · Rajče, jablko",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Houska s máslem",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko – čaj",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Rajče, jablko",
             "a": []
           }
         ]

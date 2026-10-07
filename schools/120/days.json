@@ -1487,7 +1487,7 @@
       {
         "c": "obed",
         "n": "Hovězí nudličky po mexicku",
-        "d": "Dušená rýže · Čaj, voda s citrónem",
+        "d": "Dušená rýže · Ovoce · Čaj, voda s citrónem",
         "a": [
           1
         ],
@@ -1502,6 +1502,11 @@
           {
             "l": "Příloha",
             "n": "Dušená rýže",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
             "a": []
           },
           {
@@ -2039,6 +2044,327 @@
           {
             "l": "Nápoj",
             "n": "Čaj, voda s citrónem",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "n": "------------",
+        "d": "",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "------------",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-19": {
+    "vydej": "12:00–14:30",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Fazolková",
+        "d": "",
+        "a": [
+          1
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Zeleninové rizoto, sýr, kyselá okurka",
+        "d": "Čaj, voda s citrónem",
+        "a": [
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Zeleninové rizoto, sýr, kyselá okurka",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj, voda s citrónem",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "n": "Těstovinový salát s brokolicí a pestem",
+        "d": "",
+        "a": [
+          1,
+          3
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Těstovinový salát s brokolicí a pestem",
+            "a": [
+              1,
+              3
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-20": {
+    "vydej": "12:00–14:30",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Vývar s vločkami",
+        "d": "",
+        "a": [
+          1,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Špagety se sušenými rajčaty, pestem a parmezánem",
+        "d": "Ovoce · Džus, voda s citrónem",
+        "a": [
+          1,
+          7,
+          8
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Špagety se sušenými rajčaty, pestem a parmezánem",
+            "a": [
+              1,
+              7,
+              8
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Džus, voda s citrónem",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "n": "Kachní stehno sous-vide, červené zelí",
+        "d": "Houskový knedlík",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Kachní stehno sous-vide, červené zelí",
+            "a": []
+          },
+          {
+            "l": "Příloha",
+            "n": "Houskový knedlík",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-21": {
+    "vydej": "12:00–14:30",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Vývar s bylinkovými noky",
+        "d": "",
+        "a": [
+          1,
+          3,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Kung pao",
+        "d": "Jasmínová rýže · Džus, voda s citrónem",
+        "a": [
+          6,
+          8,
+          12
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Kung pao",
+            "a": [
+              6,
+              8,
+              12
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Jasmínová rýže",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Džus, voda s citrónem",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "n": "Halušky se špenátem a parmezánem",
+        "d": "",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Halušky se špenátem a parmezánem",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-22": {
+    "vydej": "12:00–14:30",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Vývar s masem a vejci",
+        "d": "",
+        "a": [
+          3,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Zbojnická hovězí pečeně",
+        "d": "Bramborový knedlík · Čaj, voda s citrónem",
+        "a": [
+          1,
+          3
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Zbojnická hovězí pečeně",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Bramborový knedlík",
+            "a": [
+              1,
+              3
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj, voda s citrónem",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "n": "Zeleninový šoulet",
+        "d": "Chléb",
+        "a": [
+          1
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Zeleninový šoulet",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Chléb",
+            "a": [
+              1
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-23": {
+    "vydej": "12:00–14:30",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Cizrnová",
+        "d": "",
+        "a": [
+          1
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Cordon bleu",
+        "d": "Brambory · Mrkvový salát · Ovocínek, voda s citrónem",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Cordon bleu",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Brambory",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Mrkvový salát",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocínek, voda s citrónem",
             "a": []
           }
         ]

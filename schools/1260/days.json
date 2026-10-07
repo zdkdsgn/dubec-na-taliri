@@ -2278,13 +2278,16 @@
         "n": "Obalená treska plněná sýrem",
         "d": "Brambor s petrželkou ze zahrádky · Bylinkový tvarohový dip, zeleninová obloha · Čistá voda, čistá voda s čerstvým ovocem, mléko, ovocný pomerančový čaj",
         "a": [
+          4,
           7
         ],
         "p": [
           {
             "l": "Jídlo",
             "n": "Obalená treska plněná sýrem",
-            "a": []
+            "a": [
+              4
+            ]
           },
           {
             "l": "Příloha",
@@ -2981,8 +2984,8 @@
       },
       {
         "c": "obed",
-        "n": "Zapečené šunkafleky",
-        "d": "Červená řepa · Čistá voda, voda s čerstvým ovocem, mléko, ovocný čaj zahradní směs",
+        "n": "Svíčková omáčka s hovězím masem",
+        "d": "Domácí houskový knedlík · Banán · Čistá voda, voda s čerstvým ovocem, mléko, ovocný čaj zahradní směs",
         "a": [
           1,
           3,
@@ -2991,20 +2994,22 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Zapečené šunkafleky",
-            "a": [
-              1,
-              7
-            ]
+            "n": "Svíčková omáčka s hovězím masem",
+            "a": []
           },
           {
             "l": "Příloha",
-            "n": "Červená řepa",
+            "n": "Domácí houskový knedlík",
             "a": [
               1,
               3,
               7
             ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Banán",
+            "a": []
           },
           {
             "l": "Nápoj",

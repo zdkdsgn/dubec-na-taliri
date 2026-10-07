@@ -2859,24 +2859,18 @@
     "chody": [
       {
         "c": "obed",
-        "n": "Kuřecí přírodní plátek se šunkou a sýrem",
-        "d": "Vařené brambory",
-        "a": [
-          1,
-          7
-        ],
+        "n": "Kuřecí čína",
+        "d": "Dušená rýže",
+        "a": [],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Kuřecí přírodní plátek se šunkou a sýrem",
-            "a": [
-              1,
-              7
-            ]
+            "n": "Kuřecí čína",
+            "a": []
           },
           {
             "l": "Příloha",
-            "n": "Vařené brambory",
+            "n": "Dušená rýže",
             "a": []
           }
         ]
@@ -2888,13 +2882,26 @@
     "chody": [
       {
         "c": "obed",
-        "n": "Bulgur se zeleninou",
-        "d": "",
-        "a": [],
+        "n": "Rybí karbenátek se sýrem",
+        "d": "Bramborová kaše",
+        "a": [
+          1,
+          4,
+          7
+        ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Bulgur se zeleninou",
+            "n": "Rybí karbenátek se sýrem",
+            "a": [
+              1,
+              4,
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Bramborová kaše",
             "a": []
           }
         ]
