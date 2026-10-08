@@ -2201,7 +2201,7 @@
       {
         "c": "obed",
         "n": "Vejce vařené",
-        "d": "Hrachová kaše, kyselá okurka · Čokoládové brownies · Čaj s citronem, voda, ochucené mléko",
+        "d": "Hrachová kaše, kyselá okurka · Vanilkové řezy s čokoládovou polevou · Čaj s citronem, voda, ochucené mléko",
         "a": [
           1,
           3,
@@ -2227,7 +2227,7 @@
           },
           {
             "l": "Doplněk",
-            "n": "Čokoládové brownies",
+            "n": "Vanilkové řezy s čokoládovou polevou",
             "a": [
               1,
               3,
@@ -2249,7 +2249,7 @@
       {
         "c": "obed2",
         "n": "Zelný salát",
-        "d": "Bramboráčky · Čokoládové brownies · Čaj s citronem, voda, ochucené mléko",
+        "d": "Bramboráčky · Vanilkové řezy s čokoládovou polevou · Čaj s citronem, voda, ochucené mléko",
         "a": [
           1,
           3,
@@ -2274,7 +2274,7 @@
           },
           {
             "l": "Doplněk",
-            "n": "Čokoládové brownies",
+            "n": "Vanilkové řezy s čokoládovou polevou",
             "a": [
               1,
               3,
@@ -2377,7 +2377,7 @@
     "chody": [
       {
         "c": "polevka",
-        "n": "Hrachová",
+        "n": "Hrachová s bezlepkovými polévkovými kuličkami",
         "d": "",
         "a": [
           7,
@@ -2740,7 +2740,7 @@
     "chody": [
       {
         "c": "polevka",
-        "n": "Fazolová",
+        "n": "Fazolová s bezlepkovými polévkovými kuličkami",
         "d": "",
         "a": [
           7,
@@ -3069,7 +3069,7 @@
     "chody": [
       {
         "c": "polevka",
-        "n": "Dýňová se slunečnicovými semínky",
+        "n": "Dýňová se slunečnicovými semínky a polévkovými kuličkami",
         "d": "",
         "a": [
           1,
@@ -3936,6 +3936,89 @@
           {
             "l": "Nápoj",
             "n": "Multivitamin, voda, mléko",
+            "a": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-11-11": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Zeleninová s nudlemi",
+        "d": "",
+        "a": [
+          1,
+          3,
+          7,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Masové kuličky v rajské omáčce",
+        "d": "Houskové knedlíky · Sirup, voda, mléko",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Masové kuličky v rajské omáčce",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Houskové knedlíky",
+            "a": [
+              1,
+              3
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Sirup, voda, mléko",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "n": "Květákové kari",
+        "d": "Divoká rýže · Sirup, voda, mléko",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Květákové kari",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Divoká rýže",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Sirup, voda, mléko",
             "a": [
               7
             ]

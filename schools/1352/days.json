@@ -2400,5 +2400,436 @@
         ]
       }
     ]
+  },
+  "2026-10-12": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Kukuřičný klas, budapešťská pomazánka, kápie, mléko",
+        "d": "",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Kukuřičný klas, budapešťská pomazánka, kápie, mléko",
+            "a": [
+              1,
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Drožďová s vejcem",
+        "d": "",
+        "a": [
+          1,
+          3,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Kuřecí prsa na zelenině",
+        "d": "Kuskus · Malinový čaj, voda s pomerančem a skořicí",
+        "a": [
+          1,
+          7,
+          9
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Kuřecí prsa na zelenině",
+            "a": [
+              1,
+              7,
+              9
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Kuskus",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Malinový čaj, voda s pomerančem a skořicí",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Müsli v mléce, banán",
+        "d": "",
+        "a": [
+          1,
+          6,
+          7,
+          8
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Müsli v mléce, banán",
+            "a": [
+              1,
+              6,
+              7,
+              8
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-13": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Makovka, mléko",
+        "d": "",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Makovka, mléko",
+            "a": [
+              1,
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Zeleninový vývar",
+        "d": "",
+        "a": [
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Bramborový guláš",
+        "d": "Kmínový chléb · Hruška · Jahodový čaj, voda s citronem a mátou",
+        "a": [
+          1,
+          9
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Bramborový guláš",
+            "a": [
+              1,
+              9
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Kmínový chléb",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Hruška",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Jahodový čaj, voda s citronem a mátou",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Veka, máslo, meruňkové kefírové mléko",
+        "d": "",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Veka, máslo, meruňkové kefírové mléko",
+            "a": [
+              1,
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-14": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Chia chléb, rybí pomazánka, kápie, lipový čaj",
+        "d": "",
+        "a": [
+          1,
+          4,
+          7,
+          10
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Chia chléb, rybí pomazánka, kápie, lipový čaj",
+            "a": [
+              1,
+              4,
+              7,
+              10
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Hovězí vávar s játrovými knedlíčky a písmenky",
+        "d": "",
+        "a": [
+          1,
+          3,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Vepřová pečeně na slanině",
+        "d": "Dušená rýže · Červená řepa · Citronový čaj, voda s podzimním ovocem",
+        "a": [
+          1
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Vepřová pečeně na slanině",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Dušená rýže",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Červená řepa",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Citronový čaj, voda s podzimním ovocem",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Ovocný talíř, piškoty, rakytníkový čaj",
+        "d": "",
+        "a": [
+          1
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Ovocný talíř, piškoty, rakytníkový čaj",
+            "a": [
+              1
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-15": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Špaldový rohlík, tavený sýr se zeleninou, ředkvička, čaj lesní ovoce",
+        "d": "",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Špaldový rohlík, tavený sýr se zeleninou, ředkvička, čaj lesní ovoce",
+            "a": [
+              1,
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Celerový krém s krutony",
+        "d": "",
+        "a": [
+          1,
+          7,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Pečený králík",
+        "d": "Vařený brambor · Dýňový kompot · Ostružinový čaj, voda s hroznovým vínem a citronem",
+        "a": [
+          1
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Pečený králík",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Vařený brambor",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Dýňový kompot",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ostružinový čaj, voda s hroznovým vínem a citronem",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Knäckebrot, lučina, rajče, mléko",
+        "d": "",
+        "a": [
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Knäckebrot, lučina, rajče, mléko",
+            "a": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-16": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Raženka, masová pomazánka, kápie, čaj s citronem",
+        "d": "",
+        "a": [
+          1,
+          7,
+          10
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Raženka, masová pomazánka, kápie, čaj s citronem",
+            "a": [
+              1,
+              7,
+              10
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Bílá s bramborem",
+        "d": "",
+        "a": [
+          1,
+          7
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Čočka na kyselo, vařené vejce",
+        "d": "Kmínový chléb · Steril. okurek · Šípkový čaj, voda s citronem a mátou",
+        "a": [
+          1
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Čočka na kyselo, vařené vejce",
+            "a": []
+          },
+          {
+            "l": "Příloha",
+            "n": "Kmínový chléb",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Steril. okurek",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Šípkový čaj, voda s citronem a mátou",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Toastový chléb, máslo, strouhaná eidam, kedluben, bílá káva",
+        "d": "",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Toastový chléb, máslo, strouhaná eidam, kedluben, bílá káva",
+            "a": [
+              1,
+              7
+            ]
+          }
+        ]
+      }
+    ]
   }
 }

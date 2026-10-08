@@ -2502,5 +2502,467 @@
         ]
       }
     ]
+  },
+  "2026-10-12": {
+    "vydej": "11:30–12:30",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Actipan chléb, patifu pomazánka, zelenina",
+        "d": "Kakao",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Actipan chléb, patifu pomazánka, zelenina",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Kakao",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "REŽIE – oběd ZŠ Bynov – NUTNÉ ODHLÁSIT na strava.cz! Dýňová s červenou čočkou",
+        "d": "",
+        "a": [
+          1,
+          7
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Vepřové maso v kapustě, brambory",
+        "d": "Voda",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Vepřové maso v kapustě, brambory",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Voda",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Tvarohový závin, ovoce",
+        "d": "Čaj",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Tvarohový závin, ovoce",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-13": {
+    "vydej": "11:30–12:30",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Krupicová kaše, kakao/skořice",
+        "d": "Čaj",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Krupicová kaše, kakao/skořice",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "REŽIE – oběd ZŠ Bynov – NUTNÉ ODHLÁSIT na strava.cz! Hovězí s krupicovými noky",
+        "d": "",
+        "a": [
+          1,
+          3,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Bulgur se zeleninou, sýrem a kuřecím masem, obloha",
+        "d": "Voda",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Bulgur se zeleninou, sýrem a kuřecím masem, obloha",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Voda",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Křehký plátek, kiri, zelenina",
+        "d": "Džus",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Křehký plátek, kiri, zelenina",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Džus",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-14": {
+    "vydej": "11:30–12:30",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Rybičková pomazánka, houska, zelenina",
+        "d": "Čaj",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Rybičková pomazánka, houska, zelenina",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "REŽIE – oběd ZŠ Bynov – NUTNÉ ODHLÁSIT na strava.cz! Kuřecí s těstovinami",
+        "d": "",
+        "a": [
+          1,
+          3,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Sekaná pečeně, bramborová kaše, kyselá okurka",
+        "d": "Voda",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Sekaná pečeně, bramborová kaše, kyselá okurka",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Voda",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Musli, mléko",
+        "d": "Voda",
+        "a": [
+          1,
+          3,
+          7,
+          8
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Musli, mléko",
+            "a": [
+              1,
+              3,
+              7,
+              8
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Voda",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-15": {
+    "vydej": "11:30–12:30",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Avokádová pomazánka, moskevský chléb, zelenina",
+        "d": "Čaj",
+        "a": [
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Avokádová pomazánka, moskevský chléb, zelenina",
+            "a": [
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "REŽIE – oběd ZŠ Bynov – NUTNÉ ODHLÁSIT na strava.cz! Fazolová",
+        "d": "",
+        "a": [
+          1,
+          7,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Krůtí maso na pórku, rýže",
+        "d": "Voda",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Krůtí maso na pórku, rýže",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Voda",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Vánočka",
+        "d": "Kefírové mléko",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Vánočka",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Kefírové mléko",
+            "a": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-16": {
+    "vydej": "11:30–12:30",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Pomazánka z červené čočky, lupikorn, zelenina",
+        "d": "Čaj",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Pomazánka z červené čočky, lupikorn, zelenina",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "REŽIE – oběd ZŠ Bynov – NUTNÉ ODHLÁSIT na strava.cz! Zeleninová",
+        "d": "",
+        "a": [
+          1,
+          7,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Svíčková na smetaně, karlovarský knedlík, brusinky",
+        "d": "Voda",
+        "a": [
+          1,
+          3,
+          7,
+          9
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Svíčková na smetaně, karlovarský knedlík, brusinky",
+            "a": [
+              1,
+              3,
+              7,
+              9
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Voda",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Musli tyčinka, ovoce",
+        "d": "Čaj",
+        "a": [
+          1,
+          3,
+          7,
+          8,
+          11
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Musli tyčinka, ovoce",
+            "a": [
+              1,
+              3,
+              7,
+              8,
+              11
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj",
+            "a": []
+          }
+        ]
+      }
+    ]
   }
 }

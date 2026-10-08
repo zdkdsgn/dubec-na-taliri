@@ -2602,7 +2602,7 @@
       {
         "c": "obed",
         "n": "Kuřecí perkelt",
-        "d": "Tarhoňa · Okurkový salát · Čaj se sirupem, voda",
+        "d": "Tarhoňa · Okurkový salát · Čaj, voda",
         "a": [
           1
         ],
@@ -2628,7 +2628,7 @@
           },
           {
             "l": "Nápoj",
-            "n": "Čaj se sirupem, voda",
+            "n": "Čaj, voda",
             "a": []
           }
         ]
@@ -2708,7 +2708,7 @@
       {
         "c": "obed",
         "n": "Teplý těstovinový salát se zeleninou a hovězím masem",
-        "d": "Hruška · Čaj, voda",
+        "d": "Hruška · Čaj se sirupem, voda",
         "a": [
           1
         ],
@@ -2727,7 +2727,7 @@
           },
           {
             "l": "Nápoj",
-            "n": "Čaj, voda",
+            "n": "Čaj se sirupem, voda",
             "a": []
           }
         ]
@@ -2883,6 +2883,7 @@
         "d": "Mléko, čaj, voda",
         "a": [
           1,
+          6,
           7
         ],
         "p": [
@@ -2891,6 +2892,7 @@
             "n": "Pom. fazolová, chléb, kedlubna",
             "a": [
               1,
+              6,
               7
             ]
           },
@@ -2987,7 +2989,7 @@
     "chody": [
       {
         "c": "presnidavka",
-        "n": "Pom. vajíčková, rajčátko, bageta",
+        "n": "Pom. vajíčková, rajčátko, vícezrnný rohlík",
         "d": "Mléko, čaj, voda",
         "a": [
           1,
@@ -2997,7 +2999,7 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Pom. vajíčková, rajčátko, bageta",
+            "n": "Pom. vajíčková, rajčátko, vícezrnný rohlík",
             "a": [
               1,
               3,
@@ -3059,7 +3061,7 @@
       {
         "c": "svacina",
         "n": "Kukuřičné lupínky",
-        "d": "Mléko, kousek hrušky · Čaj, voda",
+        "d": "Mléko, kousek banánu · Čaj, voda",
         "a": [
           7
         ],
@@ -3071,7 +3073,7 @@
           },
           {
             "l": "Doplněk",
-            "n": "Mléko, kousek hrušky",
+            "n": "Mléko, kousek banánu",
             "a": [
               7
             ]
@@ -3095,6 +3097,7 @@
         "a": [
           1,
           4,
+          6,
           7,
           10
         ],
@@ -3105,6 +3108,7 @@
             "a": [
               1,
               4,
+              6,
               10
             ]
           },
@@ -3203,6 +3207,7 @@
         "d": "Mléko, čaj, voda",
         "a": [
           1,
+          6,
           7
         ],
         "p": [
@@ -3211,6 +3216,7 @@
             "n": "Pom. kapiová s tvarohem, chléb, salátový okurek",
             "a": [
               1,
+              6,
               7
             ]
           },
@@ -3306,6 +3312,7 @@
         "d": "Mléko, čaj, voda",
         "a": [
           1,
+          3,
           7
         ],
         "p": [
@@ -3314,6 +3321,7 @@
             "n": "Mš loupák (výlov rybníka) zš žervé sýr, rohlík, zeleninová miska",
             "a": [
               1,
+              3,
               7
             ]
           },
@@ -3875,7 +3883,7 @@
       {
         "c": "obed",
         "n": "Moravský vrabec",
-        "d": "Dušené zelí bílé · Bramborový knedlík · Čaj, voda",
+        "d": "Dušené zelí bílé · Bramborový knedlík, jablko · Čaj, voda",
         "a": [
           1
         ],
@@ -3894,7 +3902,7 @@
           },
           {
             "l": "Doplněk",
-            "n": "Bramborový knedlík",
+            "n": "Bramborový knedlík, jablko",
             "a": [
               1
             ]
