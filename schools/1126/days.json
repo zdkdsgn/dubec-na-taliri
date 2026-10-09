@@ -3421,24 +3421,6 @@
         ]
       },
       {
-        "c": "obed2",
-        "n": "NEVAŘÍ SE",
-        "d": "Lakrumáček (ZŠ)",
-        "a": [],
-        "p": [
-          {
-            "l": "Jídlo",
-            "n": "NEVAŘÍ SE",
-            "a": []
-          },
-          {
-            "l": "Doplněk",
-            "n": "Lakrumáček (ZŠ)",
-            "a": []
-          }
-        ]
-      },
-      {
         "c": "svacina",
         "n": "Chléb s pomazánkou Tuti fruti",
         "d": "Zelenina · Čaj",
@@ -3539,19 +3521,6 @@
           {
             "l": "Nápoj",
             "n": "Štáva",
-            "a": []
-          }
-        ]
-      },
-      {
-        "c": "obed2",
-        "n": "NEVAŘÍ SE",
-        "d": "",
-        "a": [],
-        "p": [
-          {
-            "l": "Jídlo",
-            "n": "NEVAŘÍ SE",
             "a": []
           }
         ]
@@ -6192,6 +6161,140 @@
           {
             "l": "Doplněk",
             "n": "Zelenina",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-11-12": {
+    "vydej": "11:30–13:45",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Celozrnná veka s pomazánkou z uzenéh tofu",
+        "d": "Ovoce, zelenina · Cappuccino",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Celozrnná veka s pomazánkou z uzenéh tofu",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce, zelenina",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Cappuccino",
+            "a": [
+              1,
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Celorový krém s krutony",
+        "d": "",
+        "a": [
+          1,
+          3,
+          7,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Hovězí maso Stroganov",
+        "d": "Rýže · Šťáva",
+        "a": [
+          1,
+          7,
+          10
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Hovězí maso Stroganov",
+            "a": [
+              1,
+              7,
+              10
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Rýže",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Šťáva",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "n": "Vepřové maso na kmíně, bulgur",
+        "d": "Šťáva",
+        "a": [
+          1
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Vepřové maso na kmíně, bulgur",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Šťáva",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Slunečnicový chléb s pomazánkou slonní papáníčko",
+        "d": "Zelenina, ovoce · Čaj",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Slunečnicový chléb s pomazánkou slonní papáníčko",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zelenina, ovoce",
             "a": []
           },
           {

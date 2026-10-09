@@ -5205,5 +5205,111 @@
         ]
       }
     ]
+  },
+  "2026-11-12": {
+    "vydej": "11:00–13:30",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Sýrová houska s máslem",
+        "d": "Ovoce · Melta",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Sýrová houska s máslem",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Melta",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Zelná s bramborem",
+        "d": "",
+        "a": [
+          1,
+          7
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Zapečené těstoviny s uzeným masem",
+        "d": "Rajče · Džus – voda",
+        "a": [
+          1,
+          3,
+          6,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Zapečené těstoviny s uzeným masem",
+            "a": [
+              1,
+              3,
+              6,
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Rajče",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Džus – voda",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Bageta, kuřecí pěna",
+        "d": "Čaj",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Bageta, kuřecí pěna",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj",
+            "a": []
+          }
+        ]
+      }
+    ]
   }
 }

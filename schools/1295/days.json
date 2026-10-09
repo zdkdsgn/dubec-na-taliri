@@ -2659,14 +2659,20 @@
         ]
       },
       {
+        "c": "polevka",
+        "n": "Kmínová s vejci",
+        "d": "",
+        "a": []
+      },
+      {
         "c": "obed",
-        "n": "Oběd Rubena",
+        "n": "Vepřový guláš speciál, špagety(kapie, kečup)",
         "d": "",
         "a": [],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Oběd Rubena",
+            "n": "Vepřový guláš speciál, špagety(kapie, kečup)",
             "a": []
           }
         ]
@@ -2723,14 +2729,20 @@
         ]
       },
       {
+        "c": "polevka",
+        "n": "Hovězí s těstovinou",
+        "d": "",
+        "a": []
+      },
+      {
         "c": "obed",
-        "n": "Oběd Rubena",
+        "n": "Kuřecí rolka, rýže",
         "d": "",
         "a": [],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Oběd Rubena",
+            "n": "Kuřecí rolka, rýže",
             "a": []
           }
         ]
@@ -2787,14 +2799,20 @@
         ]
       },
       {
+        "c": "polevka",
+        "n": "Krkonošské kyselo",
+        "d": "",
+        "a": []
+      },
+      {
         "c": "obed",
-        "n": "Oběd Rubena",
+        "n": "Přírodní karbanátek se šunkou a sýrem, brambor, tatarka",
         "d": "",
         "a": [],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Oběd Rubena",
+            "n": "Přírodní karbanátek se šunkou a sýrem, brambor, tatarka",
             "a": []
           }
         ]
@@ -2851,14 +2869,20 @@
         ]
       },
       {
+        "c": "polevka",
+        "n": "Kuřecí se strouháním",
+        "d": "",
+        "a": []
+      },
+      {
         "c": "obed",
-        "n": "Oběd Rubena",
+        "n": "Zapečené těstoviny s kuřecím masem, zeleninou a sýrem",
         "d": "",
         "a": [],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Oběd Rubena",
+            "n": "Zapečené těstoviny s kuřecím masem, zeleninou a sýrem",
             "a": []
           }
         ]
@@ -2915,14 +2939,20 @@
         ]
       },
       {
+        "c": "polevka",
+        "n": "Frankfurtská s bramborem",
+        "d": "",
+        "a": []
+      },
+      {
         "c": "obed",
-        "n": "Oběd Rubena",
+        "n": "Smažený kuřecí řízek voňavý, brambor, okurka(česnek, kari)",
         "d": "",
         "a": [],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Oběd Rubena",
+            "n": "Smažený kuřecí řízek voňavý, brambor, okurka(česnek, kari)",
             "a": []
           }
         ]
@@ -3698,6 +3728,70 @@
     ]
   },
   "2026-11-11": {
+    "vydej": "12:00–13:00",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Dopolední svačina",
+        "d": "Mléko, voda · Zelenina",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Dopolední svačina",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko, voda",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zelenina",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Odpolední svačina",
+        "d": "Mléko, voda · Ovoce",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Odpolední svačina",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko, voda",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Oběd Rubena",
+        "d": "",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Oběd Rubena",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-11-12": {
     "vydej": "12:00–13:00",
     "chody": [
       {

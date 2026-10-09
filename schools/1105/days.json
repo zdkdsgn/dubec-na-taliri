@@ -1975,7 +1975,7 @@
     ]
   },
   "2026-10-07": {
-    "vydej": "11:00–14:00",
+    "vydej": "11:30–12:30",
     "chody": [
       {
         "c": "presnidavka",
@@ -2062,7 +2062,7 @@
     ]
   },
   "2026-10-08": {
-    "vydej": "11:00–14:00",
+    "vydej": "11:30–12:30",
     "chody": [
       {
         "c": "presnidavka",
@@ -2140,7 +2140,7 @@
     ]
   },
   "2026-10-09": {
-    "vydej": "11:00–14:00",
+    "vydej": "11:30–12:30",
     "chody": [
       {
         "c": "presnidavka",
@@ -3663,6 +3663,551 @@
               3,
               7
             ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-11-02": {
+    "vydej": "11:30–12:30",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Vločková kaše s jablky a skořicí",
+        "d": "Čaj",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Vločková kaše s jablky a skořicí",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Zeleninová s mušličkami",
+        "d": "",
+        "a": [
+          1,
+          3,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Hrachová kaše (+ uzené)",
+        "d": "Chléb · Kyselý okurek · Ochucená voda",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Hrachová kaše (+ uzené)",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Chléb",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Kyselý okurek",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ochucená voda",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Termix",
+        "d": "Makový rohlík · Čaj",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Termix",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Makový rohlík",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-11-03": {
+    "vydej": "11:30–12:30",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Rohlík s máslem, vařené vejce",
+        "d": "Mléko",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Rohlík s máslem, vařené vejce",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Špenátová",
+        "d": "",
+        "a": [
+          1,
+          3,
+          7
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Kuřecí maso na pórku",
+        "d": "Těstoviny · Ochucená voda",
+        "a": [
+          1,
+          3
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Kuřecí maso na pórku",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Těstoviny",
+            "a": [
+              1,
+              3
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ochucená voda",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Chléb s tuňákovou pěnou",
+        "d": "Rajče · Čaj",
+        "a": [
+          1,
+          3,
+          4,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Chléb s tuňákovou pěnou",
+            "a": [
+              1,
+              3,
+              4,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Rajče",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-11-04": {
+    "vydej": "11:30–12:30",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Veka s tvarohovým čokokrémem",
+        "d": "Ovoce · Mléko",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Veka s tvarohovým čokokrémem",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Mrkvová s kus kusem",
+        "d": "",
+        "a": [
+          1
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Hovězí roštěná na cibulce",
+        "d": "Rýže · Salát · Ochucená voda",
+        "a": [
+          1
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Hovězí roštěná na cibulce",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Rýže",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Salát",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ochucená voda",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Bílý jogurt s banánem",
+        "d": "Piškoty · Čaj",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Bílý jogurt s banánem",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Piškoty",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-11-05": {
+    "vydej": "11:30–12:30",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Chléb s pomazánkovým máslem a šunkou",
+        "d": "Bílá káva",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Chléb s pomazánkovým máslem a šunkou",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Bílá káva",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Čočková se zeleninou",
+        "d": "",
+        "a": [
+          1,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Zapékané bramborové noky se sýrem a mletým masem",
+        "d": "Listový špenát dušný s česnekema smetanou · Ochucená voda",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Zapékané bramborové noky se sýrem a mletým masem",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Listový špenát dušný s česnekema smetanou",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ochucená voda",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Kefírové mléko ovocné",
+        "d": "Piškoty",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Kefírové mléko ovocné",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Piškoty",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-11-06": {
+    "vydej": "11:30–12:30",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Croissant",
+        "d": "Ovoce · Kakao",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Croissant",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Kakao",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Pórková s krutonky",
+        "d": "",
+        "a": [
+          1,
+          3,
+          7
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Pečená treska",
+        "d": "Bramborová kaše · Dušená mrkev · Ochucená voda",
+        "a": [
+          1,
+          4,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Pečená treska",
+            "a": [
+              1,
+              4
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Bramborová kaše",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Dušená mrkev",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ochucená voda",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Chléb s luštěninovou pomazánkou",
+        "d": "Zelenina · Čaj",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Chléb s luštěninovou pomazánkou",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zelenina",
+            "a": []
           },
           {
             "l": "Nápoj",
