@@ -3326,12 +3326,92 @@
             ]
           }
         ]
+      },
+      {
+        "c": "svacina",
+        "n": "Pom.z červeného zelí",
+        "d": "Chléb kmínový · Zelenina · Mléko",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Pom.z červeného zelí",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Pečivo",
+            "n": "Chléb kmínový",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zelenina",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko",
+            "a": [
+              7
+            ]
+          }
+        ]
       }
     ]
   },
   "2026-10-13": {
     "vydej": "11:00–14:00",
     "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Pom.hermelínová",
+        "d": "Chléb mrkvový · Zelenina · Mléko",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Pom.hermelínová",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Pečivo",
+            "n": "Chléb mrkvový",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zelenina",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
       {
         "c": "polevka",
         "n": "Kmínová s vejci",
@@ -3373,12 +3453,92 @@
             ]
           }
         ]
+      },
+      {
+        "c": "svacina",
+        "n": "Pom.humrová",
+        "d": "Chléb slunečnicový · Ovoce · Čaj",
+        "a": [
+          1,
+          3,
+          7,
+          9
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Pom.humrová",
+            "a": [
+              7,
+              9
+            ]
+          },
+          {
+            "l": "Pečivo",
+            "n": "Chléb slunečnicový",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj",
+            "a": []
+          }
+        ]
       }
     ]
   },
   "2026-10-14": {
     "vydej": "11:00–14:00",
     "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Pom.budapešťská",
+        "d": "Chléb žitný · Ovoce · Mléko",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Pom.budapešťská",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Pečivo",
+            "n": "Chléb žitný",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
       {
         "c": "polevka",
         "n": "Hrstková",
@@ -3413,6 +3573,47 @@
           {
             "l": "Nápoj",
             "n": "Nápoj(voda, mléko)",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Nutela",
+        "d": "Rohlík · Ovoce · Mléko",
+        "a": [
+          1,
+          3,
+          7,
+          8
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Nutela",
+            "a": [
+              8
+            ]
+          },
+          {
+            "l": "Pečivo",
+            "n": "Rohlík",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko",
             "a": [
               7
             ]
@@ -3499,6 +3700,45 @@
             ]
           }
         ]
+      },
+      {
+        "c": "svacina",
+        "n": "Pom.vajíčková",
+        "d": "Chléb podmáslový · Ovoce · Čaj",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Pom.vajíčková",
+            "a": [
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Pečivo",
+            "n": "Chléb podmáslový",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj",
+            "a": []
+          }
+        ]
       }
     ]
   },
@@ -3578,6 +3818,44 @@
             "a": [
               7
             ]
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Pom.máslo",
+        "d": "Dýňová kostka · Zelenina · Čaj",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Pom.máslo",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Pečivo",
+            "n": "Dýňová kostka",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zelenina",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj",
+            "a": []
           }
         ]
       }

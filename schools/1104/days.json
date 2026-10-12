@@ -2719,7 +2719,7 @@
     "chody": [
       {
         "c": "presnidavka",
-        "n": "Námořnická pomazánka, sojový rohlík, okurek, čaj",
+        "n": "Námořnická pomazánka, špaldový chléb, zelenina, čaj",
         "d": "",
         "a": [
           1,
@@ -2730,7 +2730,7 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Námořnická pomazánka, sojový rohlík, okurek, čaj",
+            "n": "Námořnická pomazánka, špaldový chléb, zelenina, čaj",
             "a": [
               1,
               4,
@@ -2752,18 +2752,20 @@
       },
       {
         "c": "obed",
-        "n": "Krůtí steak, cizrnový přeliv, fazolová rýže",
+        "n": "Krůtí nudličky, omáčka ze žluté čočky, gnocchi",
         "d": "Džus, voda",
         "a": [
           1,
+          3,
           7
         ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Krůtí steak, cizrnový přeliv, fazolová rýže",
+            "n": "Krůtí nudličky, omáčka ze žluté čočky, gnocchi",
             "a": [
               1,
+              3,
               7
             ]
           },
@@ -2802,7 +2804,7 @@
     "chody": [
       {
         "c": "presnidavka",
-        "n": "Masová pomazánka, moravský bochánek, zelenina, čaj",
+        "n": "Pomazánka z krůtího masa, moravský bochánek, zelenina, čaj",
         "d": "",
         "a": [
           1,
@@ -2812,7 +2814,7 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Masová pomazánka, moravský bochánek, zelenina, čaj",
+            "n": "Pomazánka z krůtího masa, moravský bochánek, zelenina, čaj",
             "a": [
               1,
               6,
@@ -2831,23 +2833,17 @@
       },
       {
         "c": "obed",
-        "n": "Smažený sýr, vařený brambor, domácí tatarka",
+        "n": "Houbové krémové rizoto sypané sýrem, šopský salát",
         "d": "Džus, voda",
         "a": [
-          1,
-          3,
-          7,
-          10
+          7
         ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Smažený sýr, vařený brambor, domácí tatarka",
+            "n": "Houbové krémové rizoto sypané sýrem, šopský salát",
             "a": [
-              1,
-              3,
-              7,
-              10
+              7
             ]
           },
           {
@@ -2963,7 +2959,7 @@
     "chody": [
       {
         "c": "presnidavka",
-        "n": "Luštěninová pomazánka, chléb, zelenina, mléko",
+        "n": "Luštěninová pomazánka, chléb, ovoce, mléko",
         "d": "",
         "a": [
           1,
@@ -2972,7 +2968,7 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Luštěninová pomazánka, chléb, zelenina, mléko",
+            "n": "Luštěninová pomazánka, chléb, ovoce, mléko",
             "a": [
               1,
               7
@@ -3015,17 +3011,27 @@
       },
       {
         "c": "svacina",
-        "n": "Rohlík s krůtí šunkou, zelenina, čaj",
+        "n": "Cottage pomazánka s rybičkami, cereální toust, okurek, čaj",
         "d": "",
         "a": [
-          1
+          1,
+          3,
+          4,
+          6,
+          7,
+          10
         ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Rohlík s krůtí šunkou, zelenina, čaj",
+            "n": "Cottage pomazánka s rybičkami, cereální toust, okurek, čaj",
             "a": [
-              1
+              1,
+              3,
+              4,
+              6,
+              7,
+              10
             ]
           }
         ]
@@ -3095,16 +3101,18 @@
       },
       {
         "c": "svacina",
-        "n": "Jogurtové raciolky, ovocná miska, čaj",
+        "n": "Luční pomazánka, slunečnicový chléb, ovoce, mléko",
         "d": "",
         "a": [
+          1,
           7
         ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Jogurtové raciolky, ovocná miska, čaj",
+            "n": "Luční pomazánka, slunečnicový chléb, ovoce, mléko",
             "a": [
+              1,
               7
             ]
           }
@@ -3117,21 +3125,25 @@
     "chody": [
       {
         "c": "presnidavka",
-        "n": "Sýrová pomazánka s ředkvičkou, cereální toust, malcao",
+        "n": "Cizrnová pomazánka s tuňákem, chia chléb, zelenina, čaj",
         "d": "",
         "a": [
           1,
+          4,
           6,
-          7
+          7,
+          11
         ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Sýrová pomazánka s ředkvičkou, cereální toust, malcao",
+            "n": "Cizrnová pomazánka s tuňákem, chia chléb, zelenina, čaj",
             "a": [
               1,
+              4,
               6,
-              7
+              7,
+              11
             ]
           }
         ]
@@ -3148,7 +3160,7 @@
       {
         "c": "obed",
         "n": "Bramborový guláš s krůtí šunkou, celozrnné pečivo",
-        "d": "Džus, voda",
+        "d": "Zelenina na výběr · Džus, voda",
         "a": [
           1,
           6,
@@ -3163,6 +3175,11 @@
               6,
               9
             ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zelenina na výběr",
+            "a": []
           },
           {
             "l": "Nápoj",
@@ -3191,7 +3208,7 @@
     "chody": [
       {
         "c": "presnidavka",
-        "n": "Budapešťský krém s kápií, chléb, čaj",
+        "n": "Budapešťský krém s kápií, chléb, ovoce, čaj",
         "d": "",
         "a": [
           1,
@@ -3200,7 +3217,7 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Budapešťský krém s kápií, chléb, čaj",
+            "n": "Budapešťský krém s kápií, chléb, ovoce, čaj",
             "a": [
               1,
               7
@@ -3220,7 +3237,7 @@
       {
         "c": "obed",
         "n": "Krupicová kaše s kakaem a cukrem",
-        "d": "Mléko, voda",
+        "d": "Ovoce na výběr · Džus, voda",
         "a": [
           1,
           7
@@ -3235,8 +3252,13 @@
             ]
           },
           {
+            "l": "Doplněk",
+            "n": "Ovoce na výběr",
+            "a": []
+          },
+          {
             "l": "Nápoj",
-            "n": "Mléko, voda",
+            "n": "Džus, voda",
             "a": [
               7
             ]
@@ -3245,7 +3267,7 @@
       },
       {
         "c": "svacina",
-        "n": "Vaječná pomazánka, grahamová veka, zelenina, čaj",
+        "n": "Vaječná pomazánka, francouzská bagetka, zelenina, čaj",
         "d": "",
         "a": [
           1,
@@ -3255,7 +3277,7 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Vaječná pomazánka, grahamová veka, zelenina, čaj",
+            "n": "Vaječná pomazánka, francouzská bagetka, zelenina, čaj",
             "a": [
               1,
               3,
@@ -3717,7 +3739,7 @@
       },
       {
         "c": "svacina",
-        "n": "Skořicové polštářky s mlékem, ovoce, čaj",
+        "n": "Falešná humří pomazánka, graham.veka, ovoce, mléko",
         "d": "",
         "a": [
           1,
@@ -3728,7 +3750,7 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Skořicové polštářky s mlékem, ovoce, čaj",
+            "n": "Falešná humří pomazánka, graham.veka, ovoce, mléko",
             "a": [
               1,
               6,
@@ -3950,17 +3972,21 @@
       },
       {
         "c": "svacina",
-        "n": "Rohlík s krůtí šunkou, zelenina, čaj",
+        "n": "Rajčatová pomazánka s vejci, bageta, bikáva",
         "d": "",
         "a": [
-          1
+          1,
+          3,
+          7
         ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Rohlík s krůtí šunkou, zelenina, čaj",
+            "n": "Rajčatová pomazánka s vejci, bageta, bikáva",
             "a": [
-              1
+              1,
+              3,
+              7
             ]
           }
         ]
@@ -4044,6 +4070,88 @@
             "a": [
               1,
               6,
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-11-13": {
+    "vydej": "11:35–13:25",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Tvarohová pomazánka s goudou, chléb, zelenina, čaj",
+        "d": "",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Tvarohová pomazánka s goudou, chléb, zelenina, čaj",
+            "a": [
+              1,
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Kuřecí vývar s krupkami",
+        "d": "",
+        "a": [
+          1,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Kuřecí stripsy obalované v cornflakes, bramborová kaše",
+        "d": "Džus, voda",
+        "a": [
+          1,
+          3,
+          7,
+          10
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Kuřecí stripsy obalované v cornflakes, bramborová kaše",
+            "a": [
+              1,
+              3,
+              7,
+              10
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Džus, voda",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Palačinka z ovesných vloček s tvarohem, ovoce, mléko",
+        "d": "",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Palačinka z ovesných vloček s tvarohem, ovoce, mléko",
+            "a": [
+              1,
+              3,
               7
             ]
           }

@@ -5311,5 +5311,113 @@
         ]
       }
     ]
+  },
+  "2026-11-13": {
+    "vydej": "11:00–13:30",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Margotková buchta",
+        "d": "Ovoce · Mléko",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Margotková buchta",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Z jarní zeleniny",
+        "d": "",
+        "a": [
+          1,
+          3,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Mexické fazole",
+        "d": "Chléb · Neslazený čaj – voda",
+        "a": [
+          1,
+          3,
+          12
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Mexické fazole",
+            "a": [
+              12
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Chléb",
+            "a": [
+              1,
+              3
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Neslazený čaj – voda",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Rohlík, pomazánka z pečené zeleniny",
+        "d": "Šťáva",
+        "a": [
+          1,
+          3,
+          7,
+          9
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Rohlík, pomazánka z pečené zeleniny",
+            "a": [
+              1,
+              3,
+              7,
+              9
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Šťáva",
+            "a": []
+          }
+        ]
+      }
+    ]
   }
 }

@@ -4142,5 +4142,94 @@
         ]
       }
     ]
+  },
+  "2026-11-13": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Se sýrovým svítkem",
+        "d": "",
+        "a": [
+          1,
+          3,
+          7,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Zapečené těstoviny s uzeným masem, kyselá okurka",
+        "d": "Kompot · Čaj se sirupem, voda, horká čokoláda",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Zapečené těstoviny s uzeným masem, kyselá okurka",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Kompot",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj se sirupem, voda, horká čokoláda",
+            "a": [
+              1,
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "n": "Perkelt z tofu",
+        "d": "Těstoviny · Kompot · Čaj se sirupem, voda, horká čokoláda",
+        "a": [
+          1,
+          6,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Perkelt z tofu",
+            "a": [
+              1,
+              6,
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Těstoviny",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Kompot",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj se sirupem, voda, horká čokoláda",
+            "a": [
+              1,
+              7
+            ]
+          }
+        ]
+      }
+    ]
   }
 }

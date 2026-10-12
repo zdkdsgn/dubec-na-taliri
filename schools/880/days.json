@@ -2685,7 +2685,7 @@
       {
         "c": "obed",
         "n": "Obalovaná treska",
-        "d": "Šťouchané brambory · Okurka, paprika · Ochucená voda, voda, mléko",
+        "d": "Šťouchané brambory · Okurka, paprika · Voda s pomerančem, mléko",
         "a": [
           1,
           4,
@@ -2715,7 +2715,7 @@
           },
           {
             "l": "Nápoj",
-            "n": "Ochucená voda, voda, mléko",
+            "n": "Voda s pomerančem, mléko",
             "a": [
               7
             ]
@@ -2803,7 +2803,7 @@
       {
         "c": "obed",
         "n": "Vepřové na houbách",
-        "d": "Rýže · Kompot · Ochucená voda, voda, mléko",
+        "d": "Rýže · Kompot · Voda, mléko",
         "a": [
           1,
           7
@@ -2828,7 +2828,7 @@
           },
           {
             "l": "Nápoj",
-            "n": "Ochucená voda, voda, mléko",
+            "n": "Voda, mléko",
             "a": [
               7
             ]
@@ -2837,7 +2837,7 @@
       },
       {
         "c": "svacina",
-        "n": "Ovocná přesnídávka",
+        "n": "Smetanový krém",
         "d": "Piškoty · Mléko, čaj",
         "a": [
           1,
@@ -2847,8 +2847,10 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Ovocná přesnídávka",
-            "a": []
+            "n": "Smetanový krém",
+            "a": [
+              7
+            ]
           },
           {
             "l": "Doplněk",
@@ -2918,7 +2920,7 @@
       {
         "c": "obed",
         "n": "Holandský řízek",
-        "d": "Bramborová kaše · Rajčatový salát, kapie · Šťáva, voda, mléko",
+        "d": "Bramborová kaše · Rajčatový salát · Šťáva, voda, mléko",
         "a": [
           1,
           3,
@@ -2943,7 +2945,7 @@
           },
           {
             "l": "Doplněk",
-            "n": "Rajčatový salát, kapie",
+            "n": "Rajčatový salát",
             "a": []
           },
           {
@@ -3040,7 +3042,7 @@
       {
         "c": "obed",
         "n": "Znojemská pečeně",
-        "d": "Houskový knedlík · Hroznové víno · Šťáva, voda, mléko",
+        "d": "Houskový knedlík · Hroznové víno · Voda s pomerančem, mléko",
         "a": [
           1,
           3,
@@ -3069,7 +3071,7 @@
           },
           {
             "l": "Nápoj",
-            "n": "Šťáva, voda, mléko",
+            "n": "Voda s pomerančem, mléko",
             "a": [
               7
             ]
@@ -3160,7 +3162,7 @@
       {
         "c": "obed",
         "n": "Bramborové knedlíky plněné šunkou a se smaženou cibulkou",
-        "d": "Zelný salát · Džus, voda, mléko",
+        "d": "Zelný salát · Ovocný čaj neslazený, voda, mléko",
         "a": [
           1,
           7
@@ -3180,7 +3182,7 @@
           },
           {
             "l": "Nápoj",
-            "n": "Džus, voda, mléko",
+            "n": "Ovocný čaj neslazený, voda, mléko",
             "a": [
               7
             ]
@@ -3273,7 +3275,7 @@
       {
         "c": "obed",
         "n": "Těstoviny s krůtím masem a omáčkou z nivy",
-        "d": "Kapie · Ovocný čaj, voda, mléko",
+        "d": "Kapie · Voda s citronem, mléko",
         "a": [
           1,
           3,
@@ -3296,7 +3298,7 @@
           },
           {
             "l": "Nápoj",
-            "n": "Ovocný čaj, voda, mléko",
+            "n": "Voda s citronem, mléko",
             "a": [
               7
             ]
@@ -3385,7 +3387,7 @@
       {
         "c": "obed",
         "n": "Hovězí maso s hráškem",
-        "d": "Rýže · Mandarinka · Voda s citronem, voda, mléko",
+        "d": "Rýže · Mandarinka · Ovocný čaj neslazený, voda, mléko",
         "a": [
           1,
           7
@@ -3410,7 +3412,7 @@
           },
           {
             "l": "Nápoj",
-            "n": "Voda s citronem, voda, mléko",
+            "n": "Ovocný čaj neslazený, voda, mléko",
             "a": [
               7
             ]
@@ -3492,7 +3494,7 @@
       {
         "c": "obed",
         "n": "Vepřová kotleta se sýrem a broskví",
-        "d": "Šťouchané brambory se smetanou · Mléčný řez · Šťáva, voda, mléko",
+        "d": "Šťouchané brambory se smetanou · Mléčný řez · Voda s pomerančem, mléko",
         "a": [
           1,
           7
@@ -3522,7 +3524,7 @@
           },
           {
             "l": "Nápoj",
-            "n": "Šťáva, voda, mléko",
+            "n": "Voda s pomerančem, mléko",
             "a": [
               7
             ]
@@ -3608,7 +3610,7 @@
       {
         "c": "obed",
         "n": "Čočka na kyselo, vejce",
-        "d": "Kyselá okurka · Voda s mátou, voda, mléko",
+        "d": "Kyselá okurka · Voda s mátou, mléko",
         "a": [
           1,
           3,
@@ -3630,7 +3632,7 @@
           },
           {
             "l": "Nápoj",
-            "n": "Voda s mátou, voda, mléko",
+            "n": "Voda s mátou, mléko",
             "a": [
               7
             ]
@@ -3722,7 +3724,7 @@
       {
         "c": "obed",
         "n": "Nudle s mákem a cukrem",
-        "d": "Jablko · Kakao, čaj, voda",
+        "d": "Jablko · Kakao, voda, mléko",
         "a": [
           1,
           3,
@@ -3745,7 +3747,7 @@
           },
           {
             "l": "Nápoj",
-            "n": "Kakao, čaj, voda",
+            "n": "Kakao, voda, mléko",
             "a": [
               7
             ]
@@ -3833,7 +3835,7 @@
       {
         "c": "obed",
         "n": "Rybí sekaná",
-        "d": "Šťouchané brambory · Mrkvový salát · Ochucená voda, voda, mléko",
+        "d": "Šťouchané brambory · Mrkvový salát · Ovocný čaj neslazený, voda, kakao",
         "a": [
           1,
           3,
@@ -3863,7 +3865,7 @@
           },
           {
             "l": "Nápoj",
-            "n": "Ochucená voda, voda, mléko",
+            "n": "Ovocný čaj neslazený, voda, kakao",
             "a": [
               7
             ]
@@ -4065,7 +4067,7 @@
       {
         "c": "obed",
         "n": "Pečená kuřecí stehna",
-        "d": "Šťouchané brambory · Okurkový salát · Džus, voda, mléko",
+        "d": "Šťouchané brambory · Okurkový salát · Voda s kiwi, mléko",
         "a": [
           7
         ],
@@ -4089,7 +4091,7 @@
           },
           {
             "l": "Nápoj",
-            "n": "Džus, voda, mléko",
+            "n": "Voda s kiwi, mléko",
             "a": [
               7
             ]
@@ -4176,7 +4178,7 @@
       {
         "c": "obed",
         "n": "Těstoviny po Lotrinsku",
-        "d": "Kompot · Šťáva, voda, mléko",
+        "d": "Kompot · Ovocný čaj neslazený, voda, mléko",
         "a": [
           1,
           3,
@@ -4199,7 +4201,7 @@
           },
           {
             "l": "Nápoj",
-            "n": "Šťáva, voda, mléko",
+            "n": "Ovocný čaj neslazený, voda, mléko",
             "a": [
               7
             ]
@@ -4287,7 +4289,7 @@
       {
         "c": "obed",
         "n": "Kuřecí roláda se šunkou a sýrem",
-        "d": "Bramborová kaše · Okurka, paprika · Voda s jahodami, voda, mléko",
+        "d": "Bramborová kaše · Okurka, paprika · Voda s jahodami, mléko",
         "a": [
           1,
           7
@@ -4315,8 +4317,10 @@
           },
           {
             "l": "Nápoj",
-            "n": "Voda s jahodami, voda, mléko",
-            "a": []
+            "n": "Voda s jahodami, mléko",
+            "a": [
+              7
+            ]
           }
         ]
       },
@@ -4404,7 +4408,7 @@
       {
         "c": "obed",
         "n": "Vepřové maso na česneku",
-        "d": "Bramborový knedlík, špenát · Ochucená voda, voda, mléko",
+        "d": "Bramborový knedlík, špenát · Ovocný čaj neslazený, voda, mléko",
         "a": [
           1,
           3,
@@ -4428,7 +4432,7 @@
           },
           {
             "l": "Nápoj",
-            "n": "Ochucená voda, voda, mléko",
+            "n": "Ovocný čaj neslazený, voda, mléko",
             "a": [
               7
             ]
@@ -4514,7 +4518,7 @@
       {
         "c": "obed",
         "n": "Hovězí guláš",
-        "d": "Těstoviny · Hroznové víno · Voda s citronem, voda, mléko",
+        "d": "Těstoviny · Hroznové víno · Voda s pomerančem, mléko",
         "a": [
           1,
           3,
@@ -4543,7 +4547,7 @@
           },
           {
             "l": "Nápoj",
-            "n": "Voda s citronem, voda, mléko",
+            "n": "Voda s pomerančem, mléko",
             "a": [
               7
             ]
@@ -4635,7 +4639,7 @@
       {
         "c": "obed",
         "n": "Fazole po Bretaňsku",
-        "d": "Chléb · Šťáva, voda, mléko",
+        "d": "Chléb · Ovocný čaj neslazený, voda, mléko",
         "a": [
           1,
           7
@@ -4657,7 +4661,7 @@
           },
           {
             "l": "Nápoj",
-            "n": "Šťáva, voda, mléko",
+            "n": "Ovocný čaj neslazený, voda, mléko",
             "a": [
               7
             ]

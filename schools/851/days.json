@@ -1815,7 +1815,7 @@
     "chody": [
       {
         "c": "polevka",
-        "n": "KEDLUBNOVÁ",
+        "n": "KVĚTÁKOVÁ",
         "d": "",
         "a": [
           1,
@@ -2241,7 +2241,7 @@
       {
         "c": "obed",
         "n": "PŘÍRODNÍ KOTLETA",
-        "d": "RÝŽE · SALÁT LEDOVÝ SE ZÁLIVKOU",
+        "d": "ČAJ, OCHUCENÉ MLÉKO, VODA · RÝŽE · SALÁT LEDOVÝ SE ZÁLIVKOU",
         "a": [
           1,
           7,
@@ -2255,6 +2255,13 @@
               1,
               7,
               9
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "ČAJ, OCHUCENÉ MLÉKO, VODA",
+            "a": [
+              7
             ]
           },
           {
@@ -2288,7 +2295,7 @@
       {
         "c": "obed",
         "n": "BRATISLAVSKÁ KÝTA",
-        "d": "HOUSKOVÉ KNEDLÍKY · OVOCE",
+        "d": "ČAJ, DŽUS, VODA S CITRONEM · HOUSKOVÉ KNEDLÍKY · OVOCE",
         "a": [
           1,
           3,
@@ -2306,6 +2313,11 @@
               9,
               10
             ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "ČAJ, DŽUS, VODA S CITRONEM",
+            "a": []
           },
           {
             "l": "Příloha",
@@ -2326,7 +2338,7 @@
       {
         "c": "obed2",
         "n": "ZAPEČENÉ TĚSTOVINY S KUŘECÍM MASEM, RAJČATY A BEŠAMELEM",
-        "d": "OVOCE",
+        "d": "ČAJ, VODA S CITRONEM · OVOCE",
         "a": [
           1,
           3,
@@ -2341,6 +2353,11 @@
               3,
               7
             ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "ČAJ, VODA S CITRONEM",
+            "a": []
           },
           {
             "l": "Doplněk",
@@ -2368,7 +2385,7 @@
       {
         "c": "obed",
         "n": "VEPŘOVÉ NA PÓRKU",
-        "d": "BRAMBOR · ZELNÝ SALÁT S MRKVÍ",
+        "d": "ČAJ, OCHUCENÉ MLÉKO, VODA · BRAMBOR · ZELNÝ SALÁT S MRKVÍ",
         "a": [
           1,
           7,
@@ -2381,6 +2398,13 @@
             "a": [
               1,
               9
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "ČAJ, OCHUCENÉ MLÉKO, VODA",
+            "a": [
+              7
             ]
           },
           {
@@ -2400,7 +2424,7 @@
       {
         "c": "obed2",
         "n": "BROKOLICOVÝ NÁKYP SE SMETANOU A SÝREM (BEZMASÉ)",
-        "d": "BRAMBOR · ZELNÝ SALÁT S MRKVÍ",
+        "d": "ČAJ, OCHUCENÉ MLÉKO, VODA · BRAMBOR · ZELNÝ SALÁT S MRKVÍ",
         "a": [
           1,
           3,
@@ -2416,6 +2440,13 @@
               3,
               7,
               9
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "ČAJ, OCHUCENÉ MLÉKO, VODA",
+            "a": [
+              7
             ]
           },
           {
@@ -2450,7 +2481,7 @@
       {
         "c": "obed",
         "n": "FALEŠNÝ ŠPANĚLSKÝ PTÁČEK",
-        "d": "RÝŽE · OVOCE",
+        "d": "ČAJ, VODA S CITRONEM · RÝŽE · OVOCE",
         "a": [
           1,
           3,
@@ -2469,6 +2500,11 @@
             ]
           },
           {
+            "l": "Nápoj",
+            "n": "ČAJ, VODA S CITRONEM",
+            "a": []
+          },
+          {
             "l": "Příloha",
             "n": "RÝŽE",
             "a": []
@@ -2483,7 +2519,7 @@
       {
         "c": "obed2",
         "n": "GURMÁNSKÁ ČOČKA S GRILOVANOU ZELENINOU",
-        "d": "VAŘENÉ VEJCE, CHLÉB · OVOCE",
+        "d": "ČAJ, DŽUS, VODA S CITRONEM · VAŘENÉ VEJCE, CHLÉB · OVOCE",
         "a": [
           1,
           3,
@@ -2498,6 +2534,11 @@
               7,
               9
             ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "ČAJ, DŽUS, VODA S CITRONEM",
+            "a": []
           },
           {
             "l": "Příloha",
@@ -2534,10 +2575,11 @@
       {
         "c": "obed",
         "n": "PEČENÉ KUŘE JAKO KACHNA, ČERVENÉ ZELÍ",
-        "d": "BRAMBOROVÉ ŠPALÍČKY · OVOCE",
+        "d": "ČAJ, KAKAO, VODA · BRAMBOROVÉ ŠPALÍČKY",
         "a": [
           1,
           3,
+          7,
           9,
           12
         ],
@@ -2552,17 +2594,19 @@
             ]
           },
           {
+            "l": "Nápoj",
+            "n": "ČAJ, KAKAO, VODA",
+            "a": [
+              7
+            ]
+          },
+          {
             "l": "Příloha",
             "n": "BRAMBOROVÉ ŠPALÍČKY",
             "a": [
               1,
               3
             ]
-          },
-          {
-            "l": "Doplněk",
-            "n": "OVOCE",
-            "a": []
           }
         ]
       }
