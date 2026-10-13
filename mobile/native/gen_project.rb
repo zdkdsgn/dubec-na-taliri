@@ -28,6 +28,7 @@ ios.build_configurations.each do |c|
   s['INFOPLIST_KEY_UILaunchScreen_Generation'] = 'YES'
   s['INFOPLIST_KEY_UIApplicationSceneManifest_Generation'] = 'YES'
   s['INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone'] = 'UIInterfaceOrientationPortrait'
+  s['INFOPLIST_KEY_ITSAppUsesNonExemptEncryption'] = 'NO'
   s['INFOPLIST_KEY_LSApplicationCategoryType'] = 'public.app-category.education'
   s['ASSETCATALOG_COMPILER_APPICON_NAME'] = 'AppIcon'
   s['ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME'] = 'AccentColor'
@@ -37,6 +38,7 @@ ios.build_configurations.each do |c|
   s['MARKETING_VERSION'] = '1.0'
   s['CURRENT_PROJECT_VERSION'] = '1'
   s['CODE_SIGN_STYLE'] = 'Automatic'
+  s['DEVELOPMENT_TEAM'] = 'WV966K9T8M'
   s['ENABLE_PREVIEWS'] = 'YES'
 end
 
@@ -71,6 +73,7 @@ watch.build_configurations.each do |c|
   s['MARKETING_VERSION'] = '1.0'
   s['CURRENT_PROJECT_VERSION'] = '1'
   s['CODE_SIGN_STYLE'] = 'Automatic'
+  s['DEVELOPMENT_TEAM'] = 'WV966K9T8M'
   s['ENABLE_PREVIEWS'] = 'YES'
 end
 
