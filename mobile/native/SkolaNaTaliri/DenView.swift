@@ -8,6 +8,7 @@ struct DenView: View {
     @State private var swiping = false
     @State private var showSearch = false
     @Namespace private var thumb
+    @Namespace private var favThumb
 
     var body: some View {
         let date = state.selectedDate
@@ -73,17 +74,28 @@ struct DenView: View {
         Button { showSchools = true } label: {
             HStack(spacing: 10) {
                 Circle().fill(T.accent).frame(width: 8, height: 8)
-                Text(state.schoolTitle).font(.system(size: 20, weight: .bold)).tracking(-0.4).foregroundStyle(T.ink)
-                    .multilineTextAlignment(.leading)
-                Image(systemName: "chevron.down").font(.system(size: 11, weight: .bold)).foregroundStyle(T.ink3)
+                (Text(state.schoolTitle + " ").font(.system(size: 20, weight: .bold)).foregroundColor(T.ink)
+                    + Text(Image(systemName: "chevron.down")).font(.system(size: 11, weight: .bold)).foregroundColor(T.ink3))
+                    .tracking(-0.4).multilineTextAlignment(.leading).lineLimit(2).padding(.trailing, 96)
                 Spacer()
             }
             .padding(.top, 14).padding(.bottom, 4)
         }.buttonStyle(.plain)
         .overlay(alignment: .trailing) {
-            Button { showSearch = true } label: {
-                Image(systemName: "magnifyingglass").font(.system(size: 15, weight: .medium)).foregroundStyle(T.ink2)
-                    .frame(width: 38, height: 38).glassEffect(.regular.interactive(), in: Circle())
+            HStack(spacing: 8) {
+                Button {
+                    UIImpactFeedbackGenerator(style: .medium).impactOccurred()
+                    withAnimation(.spring(response: 0.35, dampingFraction: 0.7)) { state.toggleFavorite(state.active) }
+                } label: {
+                    Image(systemName: state.activeIsFavorite ? "star.fill" : "star").font(.system(size: 15, weight: .medium))
+                        .foregroundStyle(state.activeIsFavorite ? T.amber : T.ink2)
+                        .frame(width: 38, height: 38).glassEffect(.regular.interactive(), in: Circle())
+                        .pop(state.activeIsFavorite)
+                }
+                Button { showSearch = true } label: {
+                    Image(systemName: "magnifyingglass").font(.system(size: 15, weight: .medium)).foregroundStyle(T.ink2)
+                        .frame(width: 38, height: 38).glassEffect(.regular.interactive(), in: Circle())
+                }
             }.padding(.top, 10)
         }
     }
@@ -112,7 +124,7 @@ struct DenView: View {
 
     @ViewBuilder private var favSwitcher: some View {
         let favs = state.favoriteSchools
-        if favs.count >= 2 {
+        if favs.count >= 2 || (favs.count == 1 && favs[0].id != state.active.id) {
             ScrollView(.horizontal, showsIndicators: false) {
                 HStack(spacing: 8) {
                     ForEach(favs) { s in
@@ -121,12 +133,20 @@ struct DenView: View {
                             UIImpactFeedbackGenerator(style: .light).impactOccurred()
                             Task { withAnimation(.spring(response: 0.4, dampingFraction: 0.85)) {}; await state.choose(s) }
                         } label: {
-                            Text(s.jmeno).font(.system(size: 14, weight: .semibold))
+                            Text(s.jmeno).font(.system(size: 14, weight: .semibold)).lineLimit(1)
+                                .frame(maxWidth: 190)
                                 .foregroundStyle(on ? T.onAccent : T.ink2)
                                 .padding(.horizontal, 14).padding(.vertical, 8)
-                                .background(on ? T.accent : T.track, in: Capsule())
+                                .background {
+                                    if on { Capsule().fill(T.accent).matchedGeometryEffect(id: "favthumb", in: favThumb) }
+                                    else { Capsule().fill(T.track) }
+                                }
                         }.buttonStyle(.plain)
                     }
+                    Button { showSchools = true } label: {
+                        Image(systemName: "plus").font(.system(size: 13, weight: .bold)).foregroundStyle(T.ink2)
+                            .frame(width: 34, height: 34).background(T.track, in: Circle())
+                    }.buttonStyle(.plain)
                 }
             }
             .animation(.spring(response: 0.4, dampingFraction: 0.85), value: state.active.id)

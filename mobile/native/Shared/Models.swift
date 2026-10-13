@@ -70,7 +70,27 @@ struct SkolaPolozka: Codable, Identifiable, Hashable {
     var skutecna_data: Bool?
     var web: String?
 
-    var jmeno: String { kratky ?? nazev }
+    var jmeno: String {
+        if let kratky { return kratky }
+        // bez zkrácené varianty: první část názvu (+ město, když je moc obecná)
+        let first = nazev.components(separatedBy: ",").first?.trimmingCharacters(in: .whitespaces) ?? nazev
+        let city = mesto
+        if first.count <= 24, city != "Ostatní", !first.localizedCaseInsensitiveContains(city) { return "\(first) (\(city))" }
+        return first
+    }
+
+    var mesto: String {
+        for part in nazev.components(separatedBy: ",").dropFirst().map({ $0.trimmingCharacters(in: .whitespaces) }) {
+            let bez = part.replacingOccurrences(of: "^okres\\s+", with: "", options: [.regularExpression, .caseInsensitive])
+            if bez.range(of: "^Praha\\b", options: [.regularExpression, .caseInsensitive]) != nil { return "Praha" }
+            let lower = bez.lowercased()
+            if bez.rangeOfCharacter(from: .decimalDigits) == nil, bez.count > 2, bez.count <= 30,
+               !lower.contains("organizace"), !lower.contains("s.r.o."), !lower.contains("p.o.") {
+                return bez.replacingOccurrences(of: "\\s*-\\s*", with: "-", options: .regularExpression)
+            }
+        }
+        return "Ostatní"
+    }
 
     static let vychozi = SkolaPolozka(
         id: "47", nazev: "Základní škola, Starodubečská 413, Praha 10 - Dubeč",

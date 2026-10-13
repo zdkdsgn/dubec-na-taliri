@@ -44,6 +44,10 @@ final class AppState: ObservableObject {
     @Published var favorites: Set<String> = Set(Store.get("favorites", [String]())) {
         didSet { Store.set("favorites", Array(favorites)) }
     }
+    /// Údaje oblíbených škol, ať jdou jejich jména ukázat i bez načteného seznamu (offline start).
+    @Published var favoriteInfo: [String: SkolaPolozka] = Store.get("favoriteInfo", [String: SkolaPolozka]()) {
+        didSet { Store.set("favoriteInfo", favoriteInfo) }
+    }
     @Published var theme: ThemeChoice = ThemeChoice(rawValue: Store.get("theme", "auto")) ?? .auto {
         didSet { Store.set("theme", theme.rawValue) }
     }
@@ -177,7 +181,7 @@ final class AppState: ObservableObject {
     var favoriteSchools: [SkolaPolozka] {
         var known = Dictionary(uniqueKeysWithValues: schools.map { ($0.id, $0) })
         known[active.id] = active
-        return favorites.compactMap { known[$0] }.sorted { $0.jmeno.localizedCompare($1.jmeno) == .orderedAscending }
+        return favorites.compactMap { known[$0] ?? favoriteInfo[$0] }.sorted { $0.jmeno.localizedCompare($1.jmeno) == .orderedAscending }
     }
 
     struct Skore: Identifiable { let nazev: String; var plus = 0, stred = 0, minus = 0; var id: String { nazev } }
@@ -207,8 +211,10 @@ final class AppState: ObservableObject {
     }
     func isDisliked(_ m: Chod) -> Bool { dislikes.contains(MenuLogic.normalize(m.n)) }
     func toggleFavorite(_ s: SkolaPolozka) {
-        if favorites.contains(s.id) { favorites.remove(s.id) } else { favorites.insert(s.id) }
+        if favorites.contains(s.id) { favorites.remove(s.id); favoriteInfo[s.id] = nil }
+        else { favorites.insert(s.id); favoriteInfo[s.id] = s }
     }
+    var activeIsFavorite: Bool { favorites.contains(active.id) }
     func toggleAllergen(_ id: Int) {
         if allergenFilter.contains(id) { allergenFilter.remove(id) } else { allergenFilter.insert(id) }
     }
