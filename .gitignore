@@ -3,3 +3,6 @@
 dubec-na-taliri.html
 cloudflare/*/node_modules/
 cloudflare/*/.wrangler/
+
+# soukromé klíče (APNs) – nikdy do repa
+*.p8
