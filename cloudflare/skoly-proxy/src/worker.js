@@ -198,7 +198,7 @@ async function apnsUnsubscribe(request, env, origin) {
   return json({ ok: true }, 200, origin);
 }
 
-// Vrací "ok" | "smazat" (token už neplatí) | "chyba" (dočasné, necháme)
+// Vrací {stav: "ok" | "smazat" (token už neplatí) | "chyba" (necháme), duvod?}
 async function poslatApns(env, odber, id, title, text) {
   const host = odber.env === "sandbox" ? "api.sandbox.push.apple.com" : "api.push.apple.com";
   const res = await fetch(`https://${host}/3/device/${odber.token}`, {
@@ -215,13 +215,11 @@ async function poslatApns(env, odber, id, title, text) {
       schoolId: id,
     }),
   });
-  if (res.status === 200) return "ok";
-  if (res.status === 410) return "smazat";
-  if (res.status === 400) {
-    const { reason } = await res.json().catch(() => ({}));
-    if (reason === "BadDeviceToken" || reason === "DeviceTokenNotForTopic") return "smazat";
-  }
-  return "chyba";
+  if (res.status === 200) return { stav: "ok" };
+  if (res.status === 410) return { stav: "smazat" };
+  const { reason } = await res.json().catch(() => ({}));
+  if (res.status === 400 && (reason === "BadDeviceToken" || reason === "DeviceTokenNotForTopic")) return { stav: "smazat" };
+  return { stav: "chyba", duvod: `${res.status}:${reason || "?"}` };
 }
 
 async function poslatNotifikace(request, env, origin) {
@@ -237,6 +235,7 @@ async function poslatNotifikace(request, env, origin) {
   webpush.setVapidDetails("mailto:zdeko.design@gmail.com", env.VAPID_PUBLIC_KEY, env.VAPID_PRIVATE_KEY);
 
   let posláno = 0, smazáno = 0;
+  const chyby = new Set();
   for (const { id, nazev, title, body: vlastniText } of schools) {
     const prefix = `sub:${id}:`;
     let cursor, seznam;
@@ -278,14 +277,15 @@ async function poslatNotifikace(request, env, origin) {
           if (!syrove) continue;
           try {
             const vysledek = await poslatApns(env, JSON.parse(syrove), id, apnsTitle, apnsText);
-            if (vysledek === "ok") posláno++;
-            else if (vysledek === "smazat") { await env.PUSH_SUBS.delete(name); smazáno++; }
-          } catch { /* dočasný výpadek – odběr zůstává */ }
+            if (vysledek.stav === "ok") posláno++;
+            else if (vysledek.stav === "smazat") { await env.PUSH_SUBS.delete(name); smazáno++; }
+            else chyby.add(vysledek.duvod);
+          } catch (e) { chyby.add(`vyjimka:${e.message}`); /* odběr zůstává */ }
         }
       } while (!apnsSeznam.list_complete);
     }
   }
-  return json({ ok: true, posláno, smazáno }, 200, origin);
+  return json({ ok: true, posláno, smazáno, ...(chyby.size ? { apnsChyby: [...chyby] } : {}) }, 200, origin);
 }
 
 export default {
