@@ -1483,12 +1483,17 @@
       {
         "c": "obed2",
         "n": "Kuskus s restovanou zeleninou a slaninou",
-        "d": "",
+        "d": "Pro nízky počet objednaných porcí se pokrm č. 2 NEVAŘÍ",
         "a": [],
         "p": [
           {
             "l": "Jídlo",
             "n": "Kuskus s restovanou zeleninou a slaninou",
+            "a": []
+          },
+          {
+            "l": "Příloha",
+            "n": "Pro nízky počet objednaných porcí se pokrm č. 2 NEVAŘÍ",
             "a": []
           }
         ]
@@ -1541,8 +1546,8 @@
       },
       {
         "c": "obed2",
-        "n": "Květákový mozeček",
-        "d": "Vařené brambory · Rajský salát",
+        "n": "Květákový mozeček, vařené brambory",
+        "d": "Pro nízky počet objednaných porcí se pokrm č. 2 NEVAŘÍ · Rajský salát",
         "a": [
           3,
           7
@@ -1550,14 +1555,14 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Květákový mozeček",
+            "n": "Květákový mozeček, vařené brambory",
             "a": [
               3
             ]
           },
           {
             "l": "Příloha",
-            "n": "Vařené brambory",
+            "n": "Pro nízky počet objednaných porcí se pokrm č. 2 NEVAŘÍ",
             "a": []
           },
           {

@@ -2575,7 +2575,7 @@
       {
         "c": "obed",
         "n": "PEČENÉ KUŘE JAKO KACHNA, ČERVENÉ ZELÍ",
-        "d": "ČAJ, KAKAO, VODA · BRAMBOROVÉ ŠPALÍČKY",
+        "d": "ČAJ, KAKAO, VODA · BRAMBOROVÉ ŠPALÍČKY · OVOCE",
         "a": [
           1,
           3,
@@ -2607,6 +2607,378 @@
               1,
               3
             ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "OVOCE",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-19": {
+    "vydej": "11:00–13:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "HRSTKOVÁ",
+        "d": "",
+        "a": [
+          1,
+          6,
+          7,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "ZAPEČENÉ TĚSTOVINY S UZENÝM MASEM",
+        "d": "ČERVENÁ ŘEPA",
+        "a": [
+          1,
+          3,
+          7,
+          9
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "ZAPEČENÉ TĚSTOVINY S UZENÝM MASEM",
+            "a": [
+              1,
+              3,
+              7,
+              9
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "ČERVENÁ ŘEPA",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-20": {
+    "vydej": "11:00–13:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "FRANKFURTSKÁ",
+        "d": "",
+        "a": [
+          1,
+          7,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "HOVĚZÍ AZU PO TATARSKU (HOV.NUDLIČKY, STER.OKURKY, RAJČAT.PROTLAK)",
+        "d": "BRAMBOR · OVOCE",
+        "a": [
+          1,
+          7,
+          9
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "HOVĚZÍ AZU PO TATARSKU (HOV.NUDLIČKY, STER.OKURKY, RAJČAT.PROTLAK)",
+            "a": [
+              1,
+              9
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "BRAMBOR",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "OVOCE",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "n": "KRUPICOVÁ KAŠE SYPANÁ CUKREM A KAKAEM",
+        "d": "OVOCE",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "KRUPICOVÁ KAŠE SYPANÁ CUKREM A KAKAEM",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "OVOCE",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-21": {
+    "vydej": "11:00–13:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "POHANKOVÁ SE ZELENINOU",
+        "d": "",
+        "a": [
+          6,
+          7,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "KÝTA NA SMETANĚ",
+        "d": "HOUSKOVÉ KNEDLÍKY · OVOCE",
+        "a": [
+          1,
+          3,
+          7,
+          9,
+          10
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "KÝTA NA SMETANĚ",
+            "a": [
+              1,
+              7,
+              9,
+              10
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "HOUSKOVÉ KNEDLÍKY",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "OVOCE",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "n": "FAZOLOVÝ GULÁŠ S VEPŘOVÝM MASEM A BRAMBOREM",
+        "d": "CHLÉB · OVOCE",
+        "a": [
+          1,
+          7,
+          9
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "FAZOLOVÝ GULÁŠ S VEPŘOVÝM MASEM A BRAMBOREM",
+            "a": [
+              9
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "CHLÉB",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "OVOCE",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-22": {
+    "vydej": "11:00–13:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Z HLÁVKOVÉHO ZELÍ",
+        "d": "",
+        "a": [
+          1,
+          6,
+          7,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "PEČENÉ KUŘE",
+        "d": "RÝŽE · JOGURT",
+        "a": [
+          1,
+          7,
+          9
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "PEČENÉ KUŘE",
+            "a": [
+              1,
+              7,
+              9
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "RÝŽE",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "JOGURT",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "n": "LASAGNE PO ITALSKU S MLETÝM MASEM A SÝREM",
+        "d": "JOGURT",
+        "a": [
+          1,
+          3,
+          7,
+          9
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "LASAGNE PO ITALSKU S MLETÝM MASEM A SÝREM",
+            "a": [
+              1,
+              3,
+              7,
+              9
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "JOGURT",
+            "a": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-23": {
+    "vydej": "11:00–13:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "KRÉMOVÁ ŽAMPIONOVÁ",
+        "d": "",
+        "a": [
+          1,
+          6,
+          7,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "SMAŽENÉ RYBÍ FILÉ",
+        "d": "BRAMBOROVÁ KAŠE · SALÁT RAJČATOVÝ S PÓRKEM A KUKUŘICÍ",
+        "a": [
+          1,
+          3,
+          4,
+          7,
+          9
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "SMAŽENÉ RYBÍ FILÉ",
+            "a": [
+              1,
+              3,
+              4,
+              7,
+              9
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "BRAMBOROVÁ KAŠE",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "SALÁT RAJČATOVÝ S PÓRKEM A KUKUŘICÍ",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "n": "SMAŽENÝ VEPŘOVÝ ŘÍZEK",
+        "d": "BRAMBOR · SALÁT RAJČATOVÝ S PÓRKEM A KUKUŘICÍ",
+        "a": [
+          1,
+          3,
+          7,
+          9
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "SMAŽENÝ VEPŘOVÝ ŘÍZEK",
+            "a": [
+              1,
+              3,
+              7,
+              9
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "BRAMBOR",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "SALÁT RAJČATOVÝ S PÓRKEM A KUKUŘICÍ",
+            "a": []
           }
         ]
       }

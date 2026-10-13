@@ -3252,7 +3252,7 @@
       {
         "c": "obed",
         "n": "Italské těstoviny se žampiony",
-        "d": "Zeleninový salát · Džus / voda",
+        "d": "Ovocný salát · Džus / voda",
         "a": [
           1
         ],
@@ -3266,7 +3266,7 @@
           },
           {
             "l": "Doplněk",
-            "n": "Zeleninový salát",
+            "n": "Ovocný salát",
             "a": []
           },
           {
@@ -3353,7 +3353,7 @@
       {
         "c": "obed",
         "n": "Kuřecí pečené stehno",
-        "d": "Brambor · Kompot",
+        "d": "Brambor · Zeleninová příloha",
         "a": [],
         "p": [
           {
@@ -3368,7 +3368,7 @@
           },
           {
             "l": "Nápoj",
-            "n": "Kompot",
+            "n": "Zeleninová příloha",
             "a": []
           }
         ]
@@ -3896,6 +3896,470 @@
           {
             "l": "Jídlo",
             "n": "Veka, bylinkové máslo",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zeleninová obloha",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mošt / voda",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-26": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Zapečené tousty se sýrem",
+        "d": "Ovoce · Čaj / voda",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Zapečené tousty se sýrem",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj / voda",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Bramborová",
+        "d": "",
+        "a": [
+          1,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Čočka po srbsku",
+        "d": "Vařené vejce · Pečivo · Čaj / voda",
+        "a": [
+          1,
+          3,
+          9
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Čočka po srbsku",
+            "a": [
+              9
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Vařené vejce",
+            "a": [
+              3
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Pečivo",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj / voda",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Obložená veka",
+        "d": "Mléko / voda",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Obložená veka",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko / voda",
+            "a": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-27": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Rytířský chléb, pomazánka liptovská",
+        "d": "Zeleninová obloha · Bílá káva / voda",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Rytířský chléb, pomazánka liptovská",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zeleninová obloha",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Bílá káva / voda",
+            "a": [
+              1,
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Zeleninová s játrovou rýží",
+        "d": "",
+        "a": [
+          1,
+          3,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Špagety s toskánskou omáčkou",
+        "d": "Zeleninový salát · Ochucená voda",
+        "a": [
+          1,
+          7,
+          9
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Špagety s toskánskou omáčkou",
+            "a": [
+              1,
+              7,
+              9
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zeleninový salát",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ochucená voda",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Pudingová mřížka",
+        "d": "Ovoce · Mléko / voda",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Pudingová mřížka",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko / voda",
+            "a": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-28": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "n": "-",
+        "d": "",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "-",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "-",
+        "d": "",
+        "a": []
+      },
+      {
+        "c": "svacina",
+        "n": "-",
+        "d": "",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "-",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-29": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Kornbageta, pomazánka vaječná",
+        "d": "Zeleninová obloha · Caro / voda",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Kornbageta, pomazánka vaječná",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zeleninová obloha",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Caro / voda",
+            "a": [
+              1,
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Rybí",
+        "d": "",
+        "a": [
+          4,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Hovězí roštěná",
+        "d": "Dušená rýže s pohankou · Kompot",
+        "a": [
+          1
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Hovězí roštěná",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Dušená rýže s pohankou",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Kompot",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Cereální lupínky",
+        "d": "Ovoce · Mléko / voda",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Cereální lupínky",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko / voda",
+            "a": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-30": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Podmáslový chléb, pomazánka z krabích tyčinek",
+        "d": "Ovoce · Mléko / voda",
+        "a": [
+          1,
+          4,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Podmáslový chléb, pomazánka z krabích tyčinek",
+            "a": [
+              1,
+              4,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko / voda",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "S krupicí a vejcem",
+        "d": "",
+        "a": [
+          1,
+          3,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Vepřové maso v mrkvi",
+        "d": "Brambory · Minerální voda",
+        "a": [
+          1,
+          9
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Vepřové maso v mrkvi",
+            "a": [
+              1,
+              9
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Brambory",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Minerální voda",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Dýňový chlebík, pomazánka česneková",
+        "d": "Zeleninová obloha · Mošt / voda",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Dýňový chlebík, pomazánka česneková",
             "a": [
               1,
               7

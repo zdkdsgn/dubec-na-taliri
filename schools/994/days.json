@@ -11093,5 +11093,198 @@
         ]
       }
     }
+  },
+  "2026-11-16": {
+    "skupiny": {
+      "ms": {
+        "vydej": "11:00–14:00",
+        "chody": [
+          {
+            "c": "presnidavka",
+            "n": "Podmáslový chléb, medové máslo",
+            "d": "Kakao",
+            "a": [
+              1,
+              7
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Podmáslový chléb, medové máslo",
+                "a": [
+                  1,
+                  7
+                ]
+              },
+              {
+                "l": "Nápoj",
+                "n": "Kakao",
+                "a": [
+                  7
+                ]
+              }
+            ]
+          },
+          {
+            "c": "polevka",
+            "n": "Polévka zeleninová s drobením",
+            "d": "",
+            "a": [
+              1,
+              3,
+              7,
+              9
+            ]
+          },
+          {
+            "c": "obed",
+            "n": "Kuřecí nudličky na kari",
+            "d": "Dušená rýže · Ovoce · Čaj, vitamínový nápoj",
+            "a": [
+              1,
+              7,
+              9
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Kuřecí nudličky na kari",
+                "a": [
+                  1,
+                  7,
+                  9
+                ]
+              },
+              {
+                "l": "Příloha",
+                "n": "Dušená rýže",
+                "a": [
+                  7
+                ]
+              },
+              {
+                "l": "Doplněk",
+                "n": "Ovoce",
+                "a": []
+              },
+              {
+                "l": "Nápoj",
+                "n": "Čaj, vitamínový nápoj",
+                "a": []
+              }
+            ]
+          },
+          {
+            "c": "svacina",
+            "n": "Grahamové pečivo, máslo, uzený plátkový sýr",
+            "d": "Čínské zelí · Čaj",
+            "a": [
+              1,
+              7
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Grahamové pečivo, máslo, uzený plátkový sýr",
+                "a": [
+                  1,
+                  7
+                ]
+              },
+              {
+                "l": "Doplněk",
+                "n": "Čínské zelí",
+                "a": []
+              },
+              {
+                "l": "Nápoj",
+                "n": "Čaj",
+                "a": []
+              }
+            ]
+          }
+        ]
+      },
+      "zs": {
+        "vydej": "11:00–14:00",
+        "chody": [
+          {
+            "c": "presnidavka",
+            "n": "Podmáslový chléb, medové máslo",
+            "d": "Kakao",
+            "a": [
+              1,
+              7
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Podmáslový chléb, medové máslo",
+                "a": [
+                  1,
+                  7
+                ]
+              },
+              {
+                "l": "Nápoj",
+                "n": "Kakao",
+                "a": [
+                  7
+                ]
+              }
+            ]
+          },
+          {
+            "c": "polevka",
+            "n": "Polévka zeleninová s drobením",
+            "d": "",
+            "a": [
+              1,
+              3,
+              7,
+              9
+            ]
+          },
+          {
+            "c": "obed",
+            "n": "Kuřecí nudličky na kari",
+            "d": "Dušená rýže · Ovoce · Čaj, vitamínový nápoj",
+            "a": [
+              1,
+              7,
+              9
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Kuřecí nudličky na kari",
+                "a": [
+                  1,
+                  7,
+                  9
+                ]
+              },
+              {
+                "l": "Příloha",
+                "n": "Dušená rýže",
+                "a": [
+                  7
+                ]
+              },
+              {
+                "l": "Doplněk",
+                "n": "Ovoce",
+                "a": []
+              },
+              {
+                "l": "Nápoj",
+                "n": "Čaj, vitamínový nápoj",
+                "a": []
+              }
+            ]
+          }
+        ]
+      }
+    }
   }
 }
