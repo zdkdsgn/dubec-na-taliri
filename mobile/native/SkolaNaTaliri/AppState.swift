@@ -129,6 +129,28 @@ final class AppState: ObservableObject {
         return "\(group == "ms" ? "MŠ" : "ZŠ") \(base)"
     }
 
+    // MARK: žebříček a oblíbené
+
+    var favoriteSchools: [SkolaPolozka] {
+        var known = Dictionary(uniqueKeysWithValues: schools.map { ($0.id, $0) })
+        known[active.id] = active
+        return favorites.compactMap { known[$0] }.sorted { $0.jmeno.localizedCompare($1.jmeno) == .orderedAscending }
+    }
+
+    struct Skore: Identifiable { let nazev: String; var plus = 0, stred = 0, minus = 0; var id: String { nazev } }
+    /// Nejlépe hodnocená jídla (jen z dnů, které má aktivní škola ve svých datech).
+    var leaderboard: [Skore] {
+        var out: [String: Skore] = [:]
+        for (key, v) in ratings {
+            let p = key.split(separator: "|").map(String.init)
+            guard p.count == 3, let m = data.days[p[0]]?[p[1]]?.chody.first(where: { $0.c == p[2] }) else { continue }
+            var s = out[m.n] ?? Skore(nazev: m.n)
+            if v > 0 { s.plus += 1 } else if v < 0 { s.minus += 1 } else { s.stred += 1 }
+            out[m.n] = s
+        }
+        return out.values.sorted { ($0.plus - $0.minus, $0.plus + $0.stred + $0.minus) > ($1.plus - $1.minus, $1.plus + $1.stred + $1.minus) }
+    }
+
     // MARK: hodnocení, poznámky, oblíbené
 
     func ratingKey(_ date: String, _ m: Chod) -> String { "\(date)|\(group)|\(m.c)" }

@@ -15,6 +15,7 @@ struct DenView: View {
         ScrollView {
             VStack(alignment: .leading, spacing: 14) {
                 header
+                favSwitcher
                 weekBar
                 dayStrip
                 if state.multiGroup { groupPicker }
@@ -69,6 +70,29 @@ struct DenView: View {
             }
             .padding(.top, 14).padding(.bottom, 4)
         }.buttonStyle(.plain)
+    }
+
+    @ViewBuilder private var favSwitcher: some View {
+        let favs = state.favoriteSchools
+        if favs.count >= 2 {
+            ScrollView(.horizontal, showsIndicators: false) {
+                HStack(spacing: 8) {
+                    ForEach(favs) { s in
+                        let on = s.id == state.active.id
+                        Button {
+                            UIImpactFeedbackGenerator(style: .light).impactOccurred()
+                            Task { withAnimation(.spring(response: 0.4, dampingFraction: 0.85)) {}; await state.choose(s) }
+                        } label: {
+                            Text(s.jmeno).font(.system(size: 14, weight: .semibold))
+                                .foregroundStyle(on ? T.onAccent : T.ink2)
+                                .padding(.horizontal, 14).padding(.vertical, 8)
+                                .background(on ? T.accent : T.track, in: Capsule())
+                        }.buttonStyle(.plain)
+                    }
+                }
+            }
+            .animation(.spring(response: 0.4, dampingFraction: 0.85), value: state.active.id)
+        }
     }
 
     private var weekBar: some View {

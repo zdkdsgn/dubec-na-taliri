@@ -54,6 +54,24 @@ struct InfoView: View {
                     }
                 }
 
+                let top = Array(state.leaderboard.prefix(6))
+                if !top.isEmpty {
+                    VStack(alignment: .leading, spacing: 10) {
+                        Text("Co dětem nejvíc chutnalo").font(.system(size: 16, weight: .bold))
+                        ForEach(top) { z in
+                            HStack {
+                                Text(z.nazev).font(.system(size: 14.5)).lineLimit(2)
+                                Spacer()
+                                HStack(spacing: 8) {
+                                    if z.plus > 0 { Text("👍\(z.plus)") }
+                                    if z.stred > 0 { Text("😐\(z.stred)") }
+                                    if z.minus > 0 { Text("👎\(z.minus)") }
+                                }.font(.system(size: 13, weight: .semibold)).foregroundStyle(T.ink2)
+                            }
+                        }
+                    }.padding(16).frame(maxWidth: .infinity, alignment: .leading).card()
+                }
+
                 VStack(alignment: .leading, spacing: 12) {
                     Text("Vzhled").font(.system(size: 16, weight: .bold))
                     Picker("", selection: $state.theme) { ForEach(ThemeChoice.allCases) { Text($0.label).tag($0) } }

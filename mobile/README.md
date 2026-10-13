@@ -1,4 +1,16 @@
-# Mobilní prototypy
+# Mobilní appky
+
+## `native/` – nativní SwiftUI appka (iPhone + vestavěné Apple Watch)
+
+Hlavní směr: jedna Xcode appka `SkolaNaTaliri` (iOS 26+, Liquid Glass) s vestavěnou
+hodinkovou appkou. Sdílený kód v `Shared/` (modely, načítání dat z GitHub Pages,
+logika výdeje). Otevřít: `mobile/native/SkolaNaTaliri.xcodeproj`. Projekt generuje
+`gen_project.rb` (`LANG=en_US.UTF-8 ruby gen_project.rb`, kvůli diakritice v cestě).
+Pro TestFlight: v Xcode přihlásit placený účet, nastavit Team u obou targetů a
+Product → Archive.
+
+## Starší prototypy
+
 
 Experimentální nativní obaly appky – nejsou součástí nasazené PWA na GitHub Pages,
 žijí tu jen pro budoucí práci.
