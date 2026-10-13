@@ -7,330 +7,315 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00B85C986708E4C0F01EFFC9 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1E3D943F9F5DB34509E414 /* RootView.swift */; };
-		051A2D33CCB40EE3B62537C8 /* SkolaNaTaliriApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7705C01A3369145814F60C44 /* SkolaNaTaliriApp.swift */; };
-		0834C2E0FE6A586AF704FB70 /* Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9BB4219AF1C0D45F1578237 /* Components.swift */; };
-		0DB17B4B044E5E03D2D80464 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6624D8C3580CF16D758F9EA8 /* DataService.swift */; };
-		1965EAAEC22370DE53B26A17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B8EB3545BF764A0D7EF30E3 /* Assets.xcassets */; };
-		19D26F879BC1F950EEFC16AB /* MealSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD74AC590CDDBBE557BA6B04 /* MealSheet.swift */; };
-		2BEB7B159754B4689C97A788 /* PushService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCCDEF52E4AEC3F85C4FFE8 /* PushService.swift */; };
-		2EE92F835E12374D8C640044 /* SkolaWidget.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = DE4C4A6FA0737A7E81C71430 /* SkolaWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		34746781CE84019723A1D528 /* SkolaWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1A94AF1E500BFE846786B4 /* SkolaWidget.swift */; };
-		40046443FD85D806A4F755B7 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E058451F784C12148A19E08 /* InfoView.swift */; };
-		47752CAC51A9FD9091C6F69C /* DenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E500AA44B672408F2B51B058 /* DenView.swift */; };
-		4C82A63968667F96F6A50F49 /* SearchSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0C7E3E6347586685CCE419 /* SearchSheet.swift */; };
-		5857FD44CC6786B90AA14112 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C5BE02F21F51B1165A6892 /* Models.swift */; };
-		5BC723DF6B95155BF478485B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D2802BC177870E98C63D850 /* Foundation.framework */; };
-		5DE5B0F55ADBD48DE5BACF84 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C5BE02F21F51B1165A6892 /* Models.swift */; };
-		5FB6429CCD302B50BB7F9C48 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6624D8C3580CF16D758F9EA8 /* DataService.swift */; };
-		627C30A006325F249F9C7D24 /* AlergenyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 313497D46BB88B405C5E9F93 /* AlergenyView.swift */; };
-		65323023BF64D3E2D374877A /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6624D8C3580CF16D758F9EA8 /* DataService.swift */; };
-		6BBBCC46646B3B7D96A5179D /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6810DF4F982D9906308EAA1 /* SplashView.swift */; };
-		6BD0D04243EC1F5B4A108167 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC545824C98F5D5FE9AC0E60 /* AppState.swift */; };
-		759F8E09935E4C98FCB9B428 /* WatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F4EAD9BD59394815B026A4 /* WatchApp.swift */; };
-		7871C5C1C7AC442D50AC725C /* HorizontalSwipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA1164D9D6E487D651ED293 /* HorizontalSwipe.swift */; };
-		7DEF77C98572406F0D5560B0 /* SharedStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C7CA475BFD6A2FC1750403 /* SharedStore.swift */; };
-		7EA5215B46858FF31EE34B32 /* SharedStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C7CA475BFD6A2FC1750403 /* SharedStore.swift */; };
-		8D14684FDD48010B34912364 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6624D8C3580CF16D758F9EA8 /* DataService.swift */; };
-		9057E99E75D8C141B49C6CF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB9F282726D1D8757981B6F1 /* Assets.xcassets */; };
-		9A11D76A08307B15F997AF75 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B2076A37900121737258063 /* Theme.swift */; };
-		9D6149EA297979F09CB7A631 /* SharedStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C7CA475BFD6A2FC1750403 /* SharedStore.swift */; };
-		9F67508943BE7434C6239F95 /* SchoolPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7D16D50573BB5D86ED0A7A /* SchoolPickerView.swift */; };
-		A119E0661B6720C38B076177 /* SharedStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C7CA475BFD6A2FC1750403 /* SharedStore.swift */; };
-		A47488CB6FDD2B61943BE220 /* WatchContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C192B0B6082A34475E51F0 /* WatchContentView.swift */; };
-		AE1CC289D1B9975C46B35F4B /* SkolaWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1A94AF1E500BFE846786B4 /* SkolaWidget.swift */; };
-		B837F523783B6567D0BDCEDC /* SkolaNaTaliriWatch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = D1530C66E18ACFFC835C8625 /* SkolaNaTaliriWatch.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		B8DAAA2A27BA6F8590A66D75 /* TydenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23BF573271C55ABABC53C7D2 /* TydenView.swift */; };
-		BD648108517E3F9310653C64 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCC94F366A7A2E3623D33068 /* Foundation.framework */; };
-		CEA4B6827E42CE2D9C3E5B15 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C5BE02F21F51B1165A6892 /* Models.swift */; };
-		CFBAA46E1D04884083229D86 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCC94F366A7A2E3623D33068 /* Foundation.framework */; };
-		D26BC1282103F2014178FFBA /* WatchModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0751FB0E628F38D68571B390 /* WatchModel.swift */; };
-		DDE1F242863EB292AE1EA336 /* SkolaWatchWidget.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = F0B9457EA3BB52D4C6D8E7AB /* SkolaWatchWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		E238139CE7E6E4AB11CAD9FE /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C5BE02F21F51B1165A6892 /* Models.swift */; };
-		EC66B4A625BD057E6B6C9166 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D2802BC177870E98C63D850 /* Foundation.framework */; };
+		00156C95C2B1F8A4F0D37893 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22E10755DB6BD80263D25204 /* Foundation.framework */; };
+		0319BD799651FACDADDC4A89 /* WatchContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9907DE56FA704936590BA8F3 /* WatchContentView.swift */; };
+		0470FDB3296DBF55F63D6468 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A1FA7799FB11B705A54C9E /* Theme.swift */; };
+		05B6C4667F127DE8040ED36B /* SearchSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7808C0084D8193AE4EA77285 /* SearchSheet.swift */; };
+		128F8BCA37E0E3143E485ACE /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC85220EFF9DAB98873A5CB8 /* DataService.swift */; };
+		17388D73BE8AF5F4AFF1B0DF /* AlergenyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0653408B02B18F0DB842C4A6 /* AlergenyView.swift */; };
+		196A0C906E1F77ED599017F3 /* SharedStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73179E7EF9EA137E17E7F155 /* SharedStore.swift */; };
+		1E60A7334F03C5797238BA95 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53A36DB8FEF11B3D96666DD5 /* Foundation.framework */; };
+		27AD1EF37E04649F1DAF7BF5 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8308B37EE4820A21818638D9 /* RootView.swift */; };
+		2AA560A96D8549898F1B5F95 /* WatchModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C530E5219A37B2599C897AB3 /* WatchModel.swift */; };
+		3FB1D2CD93D0532982E8A87B /* WatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7557B79307571641BAAED866 /* WatchApp.swift */; };
+		4CD0376171CE8B91B66B96EF /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF499FE41F2EEA245B03941D /* InfoView.swift */; };
+		4ED3E97D02F113CFD00D0E71 /* MealSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD5A17A1F1066D74E7715B4 /* MealSheet.swift */; };
+		4EE9AA9F5F18ED5379E698EA /* HorizontalSwipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4A14CEBBF69FE89F17F567 /* HorizontalSwipe.swift */; };
+		5012F48A6AE3F9AB7BB07B96 /* SharedStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73179E7EF9EA137E17E7F155 /* SharedStore.swift */; };
+		58416F021AC6E82503022DBD /* SkolaWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB28F9071B650C6361BF2E9 /* SkolaWidget.swift */; };
+		61763E7ACE4005852050B178 /* SchoolPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D040976BED8D6817C5A2BD /* SchoolPickerView.swift */; };
+		6BFBFB44347F2A5611EAE551 /* TydenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17159A7D1CC94A37A8DFBAD2 /* TydenView.swift */; };
+		6D1A633BBE32214E28D17C7C /* SharedStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73179E7EF9EA137E17E7F155 /* SharedStore.swift */; };
+		72335EBE2068921F47A155B7 /* PushService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED9F285547F5999CF35410D /* PushService.swift */; };
+		750B4B250FEC075C31839E38 /* SkolaWidget.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 6F95B0A4E198A1D322E7B020 /* SkolaWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		7BD35AC0B20FF744818018B3 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC85220EFF9DAB98873A5CB8 /* DataService.swift */; };
+		816C9BCA9FDDFF52C71035AE /* SharedStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73179E7EF9EA137E17E7F155 /* SharedStore.swift */; };
+		8788642A5F0AA6D114CEBAE7 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF72AD67DF1AC7732A5849F /* SplashView.swift */; };
+		8D0C0F9D0A53E5B90A1C85BD /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD81C2569CF061C49384F2C /* Models.swift */; };
+		9865D646B5D403488C3C54F5 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC85220EFF9DAB98873A5CB8 /* DataService.swift */; };
+		9997A62FBDE525908554EBE7 /* DenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03F296A9AB3AA347933A12C /* DenView.swift */; };
+		9A02CF8F33BB0D7F503607AC /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD81C2569CF061C49384F2C /* Models.swift */; };
+		9AB0440B06CC977FB42D2351 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E92DE262A36FEDD82C21F00 /* AppState.swift */; };
+		9C78AF72522306D84D9F7E4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1646D94FF280F3E809C820AA /* Assets.xcassets */; };
+		9E364B4F67D7292CCF7FBDBA /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD81C2569CF061C49384F2C /* Models.swift */; };
+		AB8D7BD50B8FF0ED0F31C6A8 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC85220EFF9DAB98873A5CB8 /* DataService.swift */; };
+		AEE4F07DA35D0F57603725DE /* SkolaWatchWidget.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 82A532B53C7CEEE35DB49393 /* SkolaWatchWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C864E36D4AA7A497E1B6A147 /* SkolaNaTaliriApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A8A82F00158EAC5E181F12E /* SkolaNaTaliriApp.swift */; };
+		CB7FEBDC93A0B3F39C65883B /* SkolaNaTaliriWatch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = D0605F97E93061AF16351B97 /* SkolaNaTaliriWatch.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		CDC4620B997D355F393FE740 /* SkolaWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB28F9071B650C6361BF2E9 /* SkolaWidget.swift */; };
+		D4B205854370436466535E25 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22E10755DB6BD80263D25204 /* Foundation.framework */; };
+		E00C25FC71A26DBEE9A01323 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD81C2569CF061C49384F2C /* Models.swift */; };
+		ED5356FF9BBA11AB29727FD9 /* Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = B967036DD413237F5D747A14 /* Components.swift */; };
+		F14EFFB181E055D6C9C4469F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE4712DBA5C57B9D38280D16 /* Assets.xcassets */; };
+		FA4D7A20B3BBA46F749581BA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53A36DB8FEF11B3D96666DD5 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		5A7EF3F14E21001952DD1C9A /* PBXContainerItemProxy */ = {
+		016288A4602246EB0FA49EA4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 729F6D7DE80C7D1A307FDF13 /* Project object */;
+			containerPortal = 53E1C071F8D318FB647BBC77 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 63ABF6200CFABA3CC14D99F0;
-			remoteInfo = SkolaWidget;
+			remoteGlobalIDString = E7CDA781EFC7D29ADAD68810;
+			remoteInfo = SkolaNaTaliriWatch;
 		};
-		84354DF3666446DB749FFF33 /* PBXContainerItemProxy */ = {
+		74FB25C807876FC82B5966D1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 729F6D7DE80C7D1A307FDF13 /* Project object */;
+			containerPortal = 53E1C071F8D318FB647BBC77 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B43E041E463EC30C799337FD;
+			remoteGlobalIDString = 920E670CB695EBC73588735C;
 			remoteInfo = SkolaWatchWidget;
 		};
-		8831E75C1E4D7113B0102152 /* PBXContainerItemProxy */ = {
+		E30313E14FC456F252D0CA98 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 729F6D7DE80C7D1A307FDF13 /* Project object */;
+			containerPortal = 53E1C071F8D318FB647BBC77 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 6222564713CD07FEB31C89C7;
-			remoteInfo = SkolaNaTaliriWatch;
+			remoteGlobalIDString = 9AF4797115781C3A34F5E633;
+			remoteInfo = SkolaWidget;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		7B4BAC5500885DE6FB6FC19C /* Embed Foundation Extensions */ = {
+		8F53BD4ADDBB320098964E4A /* Embed Foundation Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				DDE1F242863EB292AE1EA336 /* SkolaWatchWidget.appex in Embed Foundation Extensions */,
+				750B4B250FEC075C31839E38 /* SkolaWidget.appex in Embed Foundation Extensions */,
 			);
 			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A26C3EAB174C0AC5ABC6F62D /* Embed Watch Content */ = {
+		CCFBC087AE798CE039DE3037 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				AEE4F07DA35D0F57603725DE /* SkolaWatchWidget.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D24397956CDEDFBA31149A73 /* Embed Watch Content */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
 			dstSubfolderSpec = 16;
 			files = (
-				B837F523783B6567D0BDCEDC /* SkolaNaTaliriWatch.app in Embed Watch Content */,
+				CB7FEBDC93A0B3F39C65883B /* SkolaNaTaliriWatch.app in Embed Watch Content */,
 			);
 			name = "Embed Watch Content";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F324AD31ABA603B954F14248 /* Embed Foundation Extensions */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 13;
-			files = (
-				2EE92F835E12374D8C640044 /* SkolaWidget.appex in Embed Foundation Extensions */,
-			);
-			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		0751FB0E628F38D68571B390 /* WatchModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WatchModel.swift; sourceTree = "<group>"; };
-		22C192B0B6082A34475E51F0 /* WatchContentView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WatchContentView.swift; sourceTree = "<group>"; };
-		23BF573271C55ABABC53C7D2 /* TydenView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TydenView.swift; sourceTree = "<group>"; };
-		2B2076A37900121737258063 /* Theme.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
-		2D2802BC177870E98C63D850 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		313497D46BB88B405C5E9F93 /* AlergenyView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AlergenyView.swift; sourceTree = "<group>"; };
-		3F1A94AF1E500BFE846786B4 /* SkolaWidget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SkolaWidget.swift; sourceTree = "<group>"; };
-		4E1E3D943F9F5DB34509E414 /* RootView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
-		59C046A7595124540A4A21C3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5BA1164D9D6E487D651ED293 /* HorizontalSwipe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HorizontalSwipe.swift; sourceTree = "<group>"; };
-		5DCCDEF52E4AEC3F85C4FFE8 /* PushService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PushService.swift; sourceTree = "<group>"; };
-		6624D8C3580CF16D758F9EA8 /* DataService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
-		72C5BE02F21F51B1165A6892 /* Models.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
-		7705C01A3369145814F60C44 /* SkolaNaTaliriApp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SkolaNaTaliriApp.swift; sourceTree = "<group>"; };
-		7B7D16D50573BB5D86ED0A7A /* SchoolPickerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SchoolPickerView.swift; sourceTree = "<group>"; };
-		7B8EB3545BF764A0D7EF30E3 /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		7E058451F784C12148A19E08 /* InfoView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
-		84F4EAD9BD59394815B026A4 /* WatchApp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WatchApp.swift; sourceTree = "<group>"; };
-		A4C7CA475BFD6A2FC1750403 /* SharedStore.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SharedStore.swift; sourceTree = "<group>"; };
-		ACB7BCBDE3D442A64A10BF06 /* SkolaNaTaliri.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkolaNaTaliri.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B9BB4219AF1C0D45F1578237 /* Components.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Components.swift; sourceTree = "<group>"; };
-		D1530C66E18ACFFC835C8625 /* SkolaNaTaliriWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkolaNaTaliriWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		DE4C4A6FA0737A7E81C71430 /* SkolaWidget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = SkolaWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
-		E500AA44B672408F2B51B058 /* DenView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DenView.swift; sourceTree = "<group>"; };
-		EA0C7E3E6347586685CCE419 /* SearchSheet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SearchSheet.swift; sourceTree = "<group>"; };
-		EB9F282726D1D8757981B6F1 /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		EC545824C98F5D5FE9AC0E60 /* AppState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
-		F0B9457EA3BB52D4C6D8E7AB /* SkolaWatchWidget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = SkolaWatchWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
-		F6810DF4F982D9906308EAA1 /* SplashView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
-		FCC94F366A7A2E3623D33068 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS26.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		FD74AC590CDDBBE557BA6B04 /* MealSheet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MealSheet.swift; sourceTree = "<group>"; };
+		0653408B02B18F0DB842C4A6 /* AlergenyView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AlergenyView.swift; sourceTree = "<group>"; };
+		1646D94FF280F3E809C820AA /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		17159A7D1CC94A37A8DFBAD2 /* TydenView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TydenView.swift; sourceTree = "<group>"; };
+		22E10755DB6BD80263D25204 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS26.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		46D040976BED8D6817C5A2BD /* SchoolPickerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SchoolPickerView.swift; sourceTree = "<group>"; };
+		478B580A045271EDB06D1AF8 /* SkolaNaTaliri.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkolaNaTaliri.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A8A82F00158EAC5E181F12E /* SkolaNaTaliriApp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SkolaNaTaliriApp.swift; sourceTree = "<group>"; };
+		4DF72AD67DF1AC7732A5849F /* SplashView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		4FD5A17A1F1066D74E7715B4 /* MealSheet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MealSheet.swift; sourceTree = "<group>"; };
+		53A36DB8FEF11B3D96666DD5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5ED9F285547F5999CF35410D /* PushService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PushService.swift; sourceTree = "<group>"; };
+		6E92DE262A36FEDD82C21F00 /* AppState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		6F95B0A4E198A1D322E7B020 /* SkolaWidget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = SkolaWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		73179E7EF9EA137E17E7F155 /* SharedStore.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SharedStore.swift; sourceTree = "<group>"; };
+		7557B79307571641BAAED866 /* WatchApp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WatchApp.swift; sourceTree = "<group>"; };
+		7808C0084D8193AE4EA77285 /* SearchSheet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SearchSheet.swift; sourceTree = "<group>"; };
+		82A532B53C7CEEE35DB49393 /* SkolaWatchWidget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = SkolaWatchWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		8308B37EE4820A21818638D9 /* RootView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		8B5A7D916825CDCD915CF9C2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9907DE56FA704936590BA8F3 /* WatchContentView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WatchContentView.swift; sourceTree = "<group>"; };
+		9E4A14CEBBF69FE89F17F567 /* HorizontalSwipe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HorizontalSwipe.swift; sourceTree = "<group>"; };
+		AC85220EFF9DAB98873A5CB8 /* DataService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		B967036DD413237F5D747A14 /* Components.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Components.swift; sourceTree = "<group>"; };
+		BDD81C2569CF061C49384F2C /* Models.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		C03F296A9AB3AA347933A12C /* DenView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DenView.swift; sourceTree = "<group>"; };
+		C530E5219A37B2599C897AB3 /* WatchModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WatchModel.swift; sourceTree = "<group>"; };
+		D0605F97E93061AF16351B97 /* SkolaNaTaliriWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkolaNaTaliriWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3A1FA7799FB11B705A54C9E /* Theme.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		FE4712DBA5C57B9D38280D16 /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF499FE41F2EEA245B03941D /* InfoView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		FFB28F9071B650C6361BF2E9 /* SkolaWidget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SkolaWidget.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3240FB947631A62344F88951 /* Frameworks */ = {
+		38F98D17335D7F5EF1C93800 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CFBAA46E1D04884083229D86 /* Foundation.framework in Frameworks */,
+				00156C95C2B1F8A4F0D37893 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7F4AF89013AAFE3870BA29DF /* Frameworks */ = {
+		67E07A45411AC31714E89E3E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC66B4A625BD057E6B6C9166 /* Foundation.framework in Frameworks */,
+				1E60A7334F03C5797238BA95 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C6F3FC8F0F9CD4DF7ABBA1EB /* Frameworks */ = {
+		805060F81F986F5BE01ADE2C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BD648108517E3F9310653C64 /* Foundation.framework in Frameworks */,
+				D4B205854370436466535E25 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F13D71640B660A7E5501CB62 /* Frameworks */ = {
+		85C80974D70F026EAAADC466 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5BC723DF6B95155BF478485B /* Foundation.framework in Frameworks */,
+				FA4D7A20B3BBA46F749581BA /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		161C837486A2D80023968724 /* Watch */ = {
+		2050EE9771F248FEFAD4B3A4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				84F4EAD9BD59394815B026A4 /* WatchApp.swift */,
-				22C192B0B6082A34475E51F0 /* WatchContentView.swift */,
-				0751FB0E628F38D68571B390 /* WatchModel.swift */,
-				EB9F282726D1D8757981B6F1 /* Assets.xcassets */,
-			);
-			name = Watch;
-			path = Watch;
-			sourceTree = "<group>";
-		};
-		1AB66E1CB7DB4DB246DB4F68 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				ACB7BCBDE3D442A64A10BF06 /* SkolaNaTaliri.app */,
-				D1530C66E18ACFFC835C8625 /* SkolaNaTaliriWatch.app */,
-				DE4C4A6FA0737A7E81C71430 /* SkolaWidget.appex */,
-				F0B9457EA3BB52D4C6D8E7AB /* SkolaWatchWidget.appex */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		38620B04D4DC7A1C48CCFA63 /* Widget */ = {
-			isa = PBXGroup;
-			children = (
-				3F1A94AF1E500BFE846786B4 /* SkolaWidget.swift */,
-				59C046A7595124540A4A21C3 /* Info.plist */,
-			);
-			name = Widget;
-			path = Widget;
-			sourceTree = "<group>";
-		};
-		6E4AF26CA37D16917EFAC940 = {
-			isa = PBXGroup;
-			children = (
-				1AB66E1CB7DB4DB246DB4F68 /* Products */,
-				AD010669ABE728D04E5EDA29 /* Frameworks */,
-				932B18969EA6F7E24BBA3E15 /* Shared */,
-				C9FD77BE5528D3149AF1AC0D /* SkolaNaTaliri */,
-				161C837486A2D80023968724 /* Watch */,
-				38620B04D4DC7A1C48CCFA63 /* Widget */,
-			);
-			sourceTree = "<group>";
-		};
-		932B18969EA6F7E24BBA3E15 /* Shared */ = {
-			isa = PBXGroup;
-			children = (
-				6624D8C3580CF16D758F9EA8 /* DataService.swift */,
-				72C5BE02F21F51B1165A6892 /* Models.swift */,
-				A4C7CA475BFD6A2FC1750403 /* SharedStore.swift */,
-			);
-			name = Shared;
-			path = Shared;
-			sourceTree = "<group>";
-		};
-		A465DFF48EE1BA7E2E2A7DCF /* watchOS */ = {
-			isa = PBXGroup;
-			children = (
-				FCC94F366A7A2E3623D33068 /* Foundation.framework */,
-			);
-			name = watchOS;
-			sourceTree = "<group>";
-		};
-		AD010669ABE728D04E5EDA29 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				CF97A6986FE0BC26D2A1CE52 /* iOS */,
-				A465DFF48EE1BA7E2E2A7DCF /* watchOS */,
+				77CDC0C8BF35DD80D76BDA02 /* iOS */,
+				EF8151728FC25CB15E0FE004 /* watchOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		C9FD77BE5528D3149AF1AC0D /* SkolaNaTaliri */ = {
+		52246AEE18C736DC5D5C014C = {
 			isa = PBXGroup;
 			children = (
-				313497D46BB88B405C5E9F93 /* AlergenyView.swift */,
-				EC545824C98F5D5FE9AC0E60 /* AppState.swift */,
-				B9BB4219AF1C0D45F1578237 /* Components.swift */,
-				E500AA44B672408F2B51B058 /* DenView.swift */,
-				5BA1164D9D6E487D651ED293 /* HorizontalSwipe.swift */,
-				7E058451F784C12148A19E08 /* InfoView.swift */,
-				FD74AC590CDDBBE557BA6B04 /* MealSheet.swift */,
-				5DCCDEF52E4AEC3F85C4FFE8 /* PushService.swift */,
-				4E1E3D943F9F5DB34509E414 /* RootView.swift */,
-				7B7D16D50573BB5D86ED0A7A /* SchoolPickerView.swift */,
-				EA0C7E3E6347586685CCE419 /* SearchSheet.swift */,
-				7705C01A3369145814F60C44 /* SkolaNaTaliriApp.swift */,
-				F6810DF4F982D9906308EAA1 /* SplashView.swift */,
-				2B2076A37900121737258063 /* Theme.swift */,
-				23BF573271C55ABABC53C7D2 /* TydenView.swift */,
-				7B8EB3545BF764A0D7EF30E3 /* Assets.xcassets */,
+				7F4EDC3335585C9DA79799DC /* Products */,
+				2050EE9771F248FEFAD4B3A4 /* Frameworks */,
+				74667B217DA3A3ABDAAF218F /* Shared */,
+				609BA946BD07DB8587B8ECBB /* SkolaNaTaliri */,
+				AE69A4E4F1B6AF5C8EE62A84 /* Watch */,
+				D747A505B02E42E3EFFD23A1 /* Widget */,
+			);
+			sourceTree = "<group>";
+		};
+		609BA946BD07DB8587B8ECBB /* SkolaNaTaliri */ = {
+			isa = PBXGroup;
+			children = (
+				0653408B02B18F0DB842C4A6 /* AlergenyView.swift */,
+				6E92DE262A36FEDD82C21F00 /* AppState.swift */,
+				B967036DD413237F5D747A14 /* Components.swift */,
+				C03F296A9AB3AA347933A12C /* DenView.swift */,
+				9E4A14CEBBF69FE89F17F567 /* HorizontalSwipe.swift */,
+				FF499FE41F2EEA245B03941D /* InfoView.swift */,
+				4FD5A17A1F1066D74E7715B4 /* MealSheet.swift */,
+				5ED9F285547F5999CF35410D /* PushService.swift */,
+				8308B37EE4820A21818638D9 /* RootView.swift */,
+				46D040976BED8D6817C5A2BD /* SchoolPickerView.swift */,
+				7808C0084D8193AE4EA77285 /* SearchSheet.swift */,
+				4A8A82F00158EAC5E181F12E /* SkolaNaTaliriApp.swift */,
+				4DF72AD67DF1AC7732A5849F /* SplashView.swift */,
+				E3A1FA7799FB11B705A54C9E /* Theme.swift */,
+				17159A7D1CC94A37A8DFBAD2 /* TydenView.swift */,
+				FE4712DBA5C57B9D38280D16 /* Assets.xcassets */,
 			);
 			name = SkolaNaTaliri;
 			path = SkolaNaTaliri;
 			sourceTree = "<group>";
 		};
-		CF97A6986FE0BC26D2A1CE52 /* iOS */ = {
+		74667B217DA3A3ABDAAF218F /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				2D2802BC177870E98C63D850 /* Foundation.framework */,
+				AC85220EFF9DAB98873A5CB8 /* DataService.swift */,
+				BDD81C2569CF061C49384F2C /* Models.swift */,
+				73179E7EF9EA137E17E7F155 /* SharedStore.swift */,
+			);
+			name = Shared;
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		77CDC0C8BF35DD80D76BDA02 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				53A36DB8FEF11B3D96666DD5 /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		7F4EDC3335585C9DA79799DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				478B580A045271EDB06D1AF8 /* SkolaNaTaliri.app */,
+				D0605F97E93061AF16351B97 /* SkolaNaTaliriWatch.app */,
+				6F95B0A4E198A1D322E7B020 /* SkolaWidget.appex */,
+				82A532B53C7CEEE35DB49393 /* SkolaWatchWidget.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE69A4E4F1B6AF5C8EE62A84 /* Watch */ = {
+			isa = PBXGroup;
+			children = (
+				7557B79307571641BAAED866 /* WatchApp.swift */,
+				9907DE56FA704936590BA8F3 /* WatchContentView.swift */,
+				C530E5219A37B2599C897AB3 /* WatchModel.swift */,
+				1646D94FF280F3E809C820AA /* Assets.xcassets */,
+			);
+			name = Watch;
+			path = Watch;
+			sourceTree = "<group>";
+		};
+		D747A505B02E42E3EFFD23A1 /* Widget */ = {
+			isa = PBXGroup;
+			children = (
+				FFB28F9071B650C6361BF2E9 /* SkolaWidget.swift */,
+				8B5A7D916825CDCD915CF9C2 /* Info.plist */,
+			);
+			name = Widget;
+			path = Widget;
+			sourceTree = "<group>";
+		};
+		EF8151728FC25CB15E0FE004 /* watchOS */ = {
+			isa = PBXGroup;
+			children = (
+				22E10755DB6BD80263D25204 /* Foundation.framework */,
+			);
+			name = watchOS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6222564713CD07FEB31C89C7 /* SkolaNaTaliriWatch */ = {
+		4235D986099908F61AE5C4A4 /* SkolaNaTaliri */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 91232309DFEE9001F89D6798 /* Build configuration list for PBXNativeTarget "SkolaNaTaliriWatch" */;
+			buildConfigurationList = 83FAF01055B483ED89985450 /* Build configuration list for PBXNativeTarget "SkolaNaTaliri" */;
 			buildPhases = (
-				BDC0F848B515EFDDD9013E8D /* Sources */,
-				C6F3FC8F0F9CD4DF7ABBA1EB /* Frameworks */,
-				76683114D1CEFA90DDBFE2ED /* Resources */,
-				7B4BAC5500885DE6FB6FC19C /* Embed Foundation Extensions */,
+				CECECD40CE986AFF4FE59F75 /* Sources */,
+				85C80974D70F026EAAADC466 /* Frameworks */,
+				E0C31DDD0158D06CB22622F4 /* Resources */,
+				D24397956CDEDFBA31149A73 /* Embed Watch Content */,
+				8F53BD4ADDBB320098964E4A /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				7BD19D4F92E1A8EA6058FD50 /* PBXTargetDependency */,
+				D6B407CBC161CF38BE31DAA1 /* PBXTargetDependency */,
+				4490D91EB70C367DF847370B /* PBXTargetDependency */,
 			);
-			name = SkolaNaTaliriWatch;
-			productName = SkolaNaTaliriWatch;
-			productReference = D1530C66E18ACFFC835C8625 /* SkolaNaTaliriWatch.app */;
+			name = SkolaNaTaliri;
+			productName = SkolaNaTaliri;
+			productReference = 478B580A045271EDB06D1AF8 /* SkolaNaTaliri.app */;
 			productType = "com.apple.product-type.application";
 		};
-		63ABF6200CFABA3CC14D99F0 /* SkolaWidget */ = {
+		920E670CB695EBC73588735C /* SkolaWatchWidget */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E340A7DBD85FDCC7AF3CAEEC /* Build configuration list for PBXNativeTarget "SkolaWidget" */;
+			buildConfigurationList = 09F41A5B9F33D633946C8D54 /* Build configuration list for PBXNativeTarget "SkolaWatchWidget" */;
 			buildPhases = (
-				EA0493004343DAC8F86E2EF6 /* Sources */,
-				7F4AF89013AAFE3870BA29DF /* Frameworks */,
-				1C1E8C6E40ED29AB3C230288 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = SkolaWidget;
-			productName = SkolaWidget;
-			productReference = DE4C4A6FA0737A7E81C71430 /* SkolaWidget.appex */;
-			productType = "com.apple.product-type.app-extension";
-		};
-		B43E041E463EC30C799337FD /* SkolaWatchWidget */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C2D64B1C9922E3E4E7AE880F /* Build configuration list for PBXNativeTarget "SkolaWatchWidget" */;
-			buildPhases = (
-				C263CC3678B41613C2F96F1C /* Sources */,
-				3240FB947631A62344F88951 /* Frameworks */,
-				E03EF57BD85A8EFC8F5AB3BB /* Resources */,
+				39664E54C8FA464E509C5A0D /* Sources */,
+				38F98D17335D7F5EF1C93800 /* Frameworks */,
+				843311A1F4F2EC1C522B53B9 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -338,40 +323,55 @@
 			);
 			name = SkolaWatchWidget;
 			productName = SkolaWatchWidget;
-			productReference = F0B9457EA3BB52D4C6D8E7AB /* SkolaWatchWidget.appex */;
+			productReference = 82A532B53C7CEEE35DB49393 /* SkolaWatchWidget.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
-		EF0FE2245A8714D4D2E0239F /* SkolaNaTaliri */ = {
+		9AF4797115781C3A34F5E633 /* SkolaWidget */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6A701AF56C64360A6CE9C40F /* Build configuration list for PBXNativeTarget "SkolaNaTaliri" */;
+			buildConfigurationList = 9100160765B327FA29D6B35F /* Build configuration list for PBXNativeTarget "SkolaWidget" */;
 			buildPhases = (
-				629149F1221F32CE02E944E3 /* Sources */,
-				F13D71640B660A7E5501CB62 /* Frameworks */,
-				9AA4C7BBFE4CAD393BC1F2AF /* Resources */,
-				A26C3EAB174C0AC5ABC6F62D /* Embed Watch Content */,
-				F324AD31ABA603B954F14248 /* Embed Foundation Extensions */,
+				31A2C4E1E387DFF663906F8E /* Sources */,
+				67E07A45411AC31714E89E3E /* Frameworks */,
+				B27C450D37020C0B570233FD /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				8BFFF34FE26A46742B13C27D /* PBXTargetDependency */,
-				EBCB2732FAC52E9DBD19F476 /* PBXTargetDependency */,
 			);
-			name = SkolaNaTaliri;
-			productName = SkolaNaTaliri;
-			productReference = ACB7BCBDE3D442A64A10BF06 /* SkolaNaTaliri.app */;
+			name = SkolaWidget;
+			productName = SkolaWidget;
+			productReference = 6F95B0A4E198A1D322E7B020 /* SkolaWidget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		E7CDA781EFC7D29ADAD68810 /* SkolaNaTaliriWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AE3B73BBD60098104F57D66 /* Build configuration list for PBXNativeTarget "SkolaNaTaliriWatch" */;
+			buildPhases = (
+				2C32ADDB0CBFEF0D0FCEE9E1 /* Sources */,
+				805060F81F986F5BE01ADE2C /* Frameworks */,
+				EE311D08B8EB938267C1F8B5 /* Resources */,
+				CCFBC087AE798CE039DE3037 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B1B112045FFF2DA6CDC54A15 /* PBXTargetDependency */,
+			);
+			name = SkolaNaTaliriWatch;
+			productName = SkolaNaTaliriWatch;
+			productReference = D0605F97E93061AF16351B97 /* SkolaNaTaliriWatch.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		729F6D7DE80C7D1A307FDF13 /* Project object */ = {
+		53E1C071F8D318FB647BBC77 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1600;
 				LastUpgradeCheck = 1600;
 			};
-			buildConfigurationList = 4186DDB7BFD3DAC0477BBA75 /* Build configuration list for PBXProject "SkolaNaTaliri" */;
+			buildConfigurationList = DB1FD6C19A1DE23775F6377C /* Build configuration list for PBXProject "SkolaNaTaliri" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -379,169 +379,163 @@
 				en,
 				Base,
 			);
-			mainGroup = 6E4AF26CA37D16917EFAC940;
+			mainGroup = 52246AEE18C736DC5D5C014C;
 			minimizedProjectReferenceProxies = 0;
 			preferredProjectObjectVersion = 100;
-			productRefGroup = 1AB66E1CB7DB4DB246DB4F68 /* Products */;
+			productRefGroup = 7F4EDC3335585C9DA79799DC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EF0FE2245A8714D4D2E0239F /* SkolaNaTaliri */,
-				6222564713CD07FEB31C89C7 /* SkolaNaTaliriWatch */,
-				63ABF6200CFABA3CC14D99F0 /* SkolaWidget */,
-				B43E041E463EC30C799337FD /* SkolaWatchWidget */,
+				4235D986099908F61AE5C4A4 /* SkolaNaTaliri */,
+				E7CDA781EFC7D29ADAD68810 /* SkolaNaTaliriWatch */,
+				9AF4797115781C3A34F5E633 /* SkolaWidget */,
+				920E670CB695EBC73588735C /* SkolaWatchWidget */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1C1E8C6E40ED29AB3C230288 /* Resources */ = {
+		843311A1F4F2EC1C522B53B9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		76683114D1CEFA90DDBFE2ED /* Resources */ = {
+		B27C450D37020C0B570233FD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9057E99E75D8C141B49C6CF3 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9AA4C7BBFE4CAD393BC1F2AF /* Resources */ = {
+		E0C31DDD0158D06CB22622F4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1965EAAEC22370DE53B26A17 /* Assets.xcassets in Resources */,
+				F14EFFB181E055D6C9C4469F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E03EF57BD85A8EFC8F5AB3BB /* Resources */ = {
+		EE311D08B8EB938267C1F8B5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C78AF72522306D84D9F7E4E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		629149F1221F32CE02E944E3 /* Sources */ = {
+		2C32ADDB0CBFEF0D0FCEE9E1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5FB6429CCD302B50BB7F9C48 /* DataService.swift in Sources */,
-				E238139CE7E6E4AB11CAD9FE /* Models.swift in Sources */,
-				9D6149EA297979F09CB7A631 /* SharedStore.swift in Sources */,
-				627C30A006325F249F9C7D24 /* AlergenyView.swift in Sources */,
-				6BD0D04243EC1F5B4A108167 /* AppState.swift in Sources */,
-				0834C2E0FE6A586AF704FB70 /* Components.swift in Sources */,
-				47752CAC51A9FD9091C6F69C /* DenView.swift in Sources */,
-				7871C5C1C7AC442D50AC725C /* HorizontalSwipe.swift in Sources */,
-				40046443FD85D806A4F755B7 /* InfoView.swift in Sources */,
-				19D26F879BC1F950EEFC16AB /* MealSheet.swift in Sources */,
-				2BEB7B159754B4689C97A788 /* PushService.swift in Sources */,
-				00B85C986708E4C0F01EFFC9 /* RootView.swift in Sources */,
-				9F67508943BE7434C6239F95 /* SchoolPickerView.swift in Sources */,
-				4C82A63968667F96F6A50F49 /* SearchSheet.swift in Sources */,
-				051A2D33CCB40EE3B62537C8 /* SkolaNaTaliriApp.swift in Sources */,
-				6BBBCC46646B3B7D96A5179D /* SplashView.swift in Sources */,
-				9A11D76A08307B15F997AF75 /* Theme.swift in Sources */,
-				B8DAAA2A27BA6F8590A66D75 /* TydenView.swift in Sources */,
+				3FB1D2CD93D0532982E8A87B /* WatchApp.swift in Sources */,
+				0319BD799651FACDADDC4A89 /* WatchContentView.swift in Sources */,
+				2AA560A96D8549898F1B5F95 /* WatchModel.swift in Sources */,
+				7BD35AC0B20FF744818018B3 /* DataService.swift in Sources */,
+				8D0C0F9D0A53E5B90A1C85BD /* Models.swift in Sources */,
+				816C9BCA9FDDFF52C71035AE /* SharedStore.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BDC0F848B515EFDDD9013E8D /* Sources */ = {
+		31A2C4E1E387DFF663906F8E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				759F8E09935E4C98FCB9B428 /* WatchApp.swift in Sources */,
-				A47488CB6FDD2B61943BE220 /* WatchContentView.swift in Sources */,
-				D26BC1282103F2014178FFBA /* WatchModel.swift in Sources */,
-				8D14684FDD48010B34912364 /* DataService.swift in Sources */,
-				CEA4B6827E42CE2D9C3E5B15 /* Models.swift in Sources */,
-				A119E0661B6720C38B076177 /* SharedStore.swift in Sources */,
+				CDC4620B997D355F393FE740 /* SkolaWidget.swift in Sources */,
+				9A02CF8F33BB0D7F503607AC /* Models.swift in Sources */,
+				9865D646B5D403488C3C54F5 /* DataService.swift in Sources */,
+				5012F48A6AE3F9AB7BB07B96 /* SharedStore.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C263CC3678B41613C2F96F1C /* Sources */ = {
+		39664E54C8FA464E509C5A0D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				34746781CE84019723A1D528 /* SkolaWidget.swift in Sources */,
-				5857FD44CC6786B90AA14112 /* Models.swift in Sources */,
-				0DB17B4B044E5E03D2D80464 /* DataService.swift in Sources */,
-				7EA5215B46858FF31EE34B32 /* SharedStore.swift in Sources */,
+				58416F021AC6E82503022DBD /* SkolaWidget.swift in Sources */,
+				9E364B4F67D7292CCF7FBDBA /* Models.swift in Sources */,
+				128F8BCA37E0E3143E485ACE /* DataService.swift in Sources */,
+				196A0C906E1F77ED599017F3 /* SharedStore.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EA0493004343DAC8F86E2EF6 /* Sources */ = {
+		CECECD40CE986AFF4FE59F75 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE1CC289D1B9975C46B35F4B /* SkolaWidget.swift in Sources */,
-				5DE5B0F55ADBD48DE5BACF84 /* Models.swift in Sources */,
-				65323023BF64D3E2D374877A /* DataService.swift in Sources */,
-				7DEF77C98572406F0D5560B0 /* SharedStore.swift in Sources */,
+				AB8D7BD50B8FF0ED0F31C6A8 /* DataService.swift in Sources */,
+				E00C25FC71A26DBEE9A01323 /* Models.swift in Sources */,
+				6D1A633BBE32214E28D17C7C /* SharedStore.swift in Sources */,
+				17388D73BE8AF5F4AFF1B0DF /* AlergenyView.swift in Sources */,
+				9AB0440B06CC977FB42D2351 /* AppState.swift in Sources */,
+				ED5356FF9BBA11AB29727FD9 /* Components.swift in Sources */,
+				9997A62FBDE525908554EBE7 /* DenView.swift in Sources */,
+				4EE9AA9F5F18ED5379E698EA /* HorizontalSwipe.swift in Sources */,
+				4CD0376171CE8B91B66B96EF /* InfoView.swift in Sources */,
+				4ED3E97D02F113CFD00D0E71 /* MealSheet.swift in Sources */,
+				72335EBE2068921F47A155B7 /* PushService.swift in Sources */,
+				27AD1EF37E04649F1DAF7BF5 /* RootView.swift in Sources */,
+				61763E7ACE4005852050B178 /* SchoolPickerView.swift in Sources */,
+				05B6C4667F127DE8040ED36B /* SearchSheet.swift in Sources */,
+				C864E36D4AA7A497E1B6A147 /* SkolaNaTaliriApp.swift in Sources */,
+				8788642A5F0AA6D114CEBAE7 /* SplashView.swift in Sources */,
+				0470FDB3296DBF55F63D6468 /* Theme.swift in Sources */,
+				6BFBFB44347F2A5611EAE551 /* TydenView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		7BD19D4F92E1A8EA6058FD50 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SkolaWatchWidget;
-			target = B43E041E463EC30C799337FD /* SkolaWatchWidget */;
-			targetProxy = 84354DF3666446DB749FFF33 /* PBXContainerItemProxy */;
-		};
-		8BFFF34FE26A46742B13C27D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SkolaNaTaliriWatch;
-			target = 6222564713CD07FEB31C89C7 /* SkolaNaTaliriWatch */;
-			targetProxy = 8831E75C1E4D7113B0102152 /* PBXContainerItemProxy */;
-		};
-		EBCB2732FAC52E9DBD19F476 /* PBXTargetDependency */ = {
+		4490D91EB70C367DF847370B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SkolaWidget;
-			target = 63ABF6200CFABA3CC14D99F0 /* SkolaWidget */;
-			targetProxy = 5A7EF3F14E21001952DD1C9A /* PBXContainerItemProxy */;
+			target = 9AF4797115781C3A34F5E633 /* SkolaWidget */;
+			targetProxy = E30313E14FC456F252D0CA98 /* PBXContainerItemProxy */;
+		};
+		B1B112045FFF2DA6CDC54A15 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SkolaWatchWidget;
+			target = 920E670CB695EBC73588735C /* SkolaWatchWidget */;
+			targetProxy = 74FB25C807876FC82B5966D1 /* PBXContainerItemProxy */;
+		};
+		D6B407CBC161CF38BE31DAA1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SkolaNaTaliriWatch;
+			target = E7CDA781EFC7D29ADAD68810 /* SkolaNaTaliriWatch */;
+			targetProxy = 016288A4602246EB0FA49EA4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		210FA2492FCFE3926E7499E1 /* Release */ = {
+		1205EB6B0BA6BE5702A12653 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_ENTITLEMENTS = SkolaNaTaliri/SkolaNaTaliri.entitlements;
+				CODE_SIGN_ENTITLEMENTS = App.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = WV966K9T8M;
-				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Widget/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Škola na talíři";
-				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
-				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = cz.zdkdsgn.skolanatalire;
+				PRODUCT_BUNDLE_IDENTIFIER = cz.zdkdsgn.skolanatalire.widget;
+				PRODUCT_NAME = SkolaWidget;
 				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
-				VALIDATE_PRODUCT = YES;
 			};
-			name = Release;
+			name = Debug;
 		};
-		3AA94647D6FC01CC4915A420 /* Release */ = {
+		2FC61C080D5501F0E5AE6B82 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -595,7 +589,31 @@
 			};
 			name = Release;
 		};
-		3ED0DDB0F2B64DAA524A0B16 /* Debug */ = {
+		44C00D11DADD1F2C8F7943F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = App.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_TEAM = WV966K9T8M;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Widget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Škola na talíři";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cz.zdkdsgn.skolanatalire.watchkitapp.widget;
+				PRODUCT_NAME = SkolaWatchWidget;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "watchsimulator watchos";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		59F22C4E619F2D50CFE4A890 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -603,7 +621,36 @@
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_ENTITLEMENTS = SkolaNaTaliri/SkolaNaTaliri.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_TEAM = WV966K9T8M;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Škola na talíři";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cz.zdkdsgn.skolanatalire;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6003CF2E25A28A30D67DC595 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_ENTITLEMENTS = SkolaNaTaliri/SkolaNaTaliri.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = WV966K9T8M;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -623,65 +670,14 @@
 			};
 			name = Debug;
 		};
-		4A0CD70DB533C6E1A95C7561 /* Debug */ = {
+		65CCEA31ACF068AEDB0A8994 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = App.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
-				DEVELOPMENT_TEAM = WV966K9T8M;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "Škola na talíři";
-				INFOPLIST_KEY_WKApplication = YES;
-				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = cz.zdkdsgn.skolanatalire;
-				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = cz.zdkdsgn.skolanatalire.watchkitapp;
-				PRODUCT_NAME = SkolaNaTaliriWatch;
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SUPPORTED_PLATFORMS = "watchsimulator watchos";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 10.0;
-			};
-			name = Debug;
-		};
-		5B4B1FDF658CD936602AC867 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = App.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
-				DEVELOPMENT_TEAM = WV966K9T8M;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Widget/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "Škola na talíři";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = cz.zdkdsgn.skolanatalire.watchkitapp.widget;
-				PRODUCT_NAME = SkolaWatchWidget;
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SUPPORTED_PLATFORMS = "watchsimulator watchos";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				VALIDATE_PRODUCT = YES;
-				WATCHOS_DEPLOYMENT_TARGET = 10.0;
-			};
-			name = Release;
-		};
-		A7D3A198D2C874403E343064 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = App.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = WV966K9T8M;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -702,31 +698,7 @@
 			};
 			name = Release;
 		};
-		CDBB5D310FE76AC0410EAA93 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_ENTITLEMENTS = App.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
-				DEVELOPMENT_TEAM = WV966K9T8M;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Widget/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "Škola na talíři";
-				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = cz.zdkdsgn.skolanatalire.widget;
-				PRODUCT_NAME = SkolaWidget;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		F77E15EA7E8C1031866516B8 /* Debug */ = {
+		7E81CAFE2CA36CBD20A1DFD9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -787,12 +759,63 @@
 			};
 			name = Debug;
 		};
-		F8A9A468761DDCF0597BD12B /* Debug */ = {
+		857091A594D69F90D3477D04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = App.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_TEAM = WV966K9T8M;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Škola na talíři";
+				INFOPLIST_KEY_WKApplication = YES;
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = cz.zdkdsgn.skolanatalire;
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cz.zdkdsgn.skolanatalire.watchkitapp;
+				PRODUCT_NAME = SkolaNaTaliriWatch;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "watchsimulator watchos";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		F6B696B648C745507D368D12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_ENTITLEMENTS = App.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_TEAM = WV966K9T8M;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Widget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Škola na talíři";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cz.zdkdsgn.skolanatalire.widget;
+				PRODUCT_NAME = SkolaWidget;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC3AC48C00CBE7F6E68B0B6C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = App.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = WV966K9T8M;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Widget/Info.plist;
@@ -810,78 +833,55 @@
 			};
 			name = Debug;
 		};
-		FC6EA45A4A60D46E9B22CA6A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_ENTITLEMENTS = App.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
-				DEVELOPMENT_TEAM = WV966K9T8M;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Widget/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "Škola na talíři";
-				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = cz.zdkdsgn.skolanatalire.widget;
-				PRODUCT_NAME = SkolaWidget;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4186DDB7BFD3DAC0477BBA75 /* Build configuration list for PBXProject "SkolaNaTaliri" */ = {
+		09F41A5B9F33D633946C8D54 /* Build configuration list for PBXNativeTarget "SkolaWatchWidget" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F77E15EA7E8C1031866516B8 /* Debug */,
-				3AA94647D6FC01CC4915A420 /* Release */,
+				44C00D11DADD1F2C8F7943F7 /* Release */,
+				FC3AC48C00CBE7F6E68B0B6C /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6A701AF56C64360A6CE9C40F /* Build configuration list for PBXNativeTarget "SkolaNaTaliri" */ = {
+		83FAF01055B483ED89985450 /* Build configuration list for PBXNativeTarget "SkolaNaTaliri" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				210FA2492FCFE3926E7499E1 /* Release */,
-				3ED0DDB0F2B64DAA524A0B16 /* Debug */,
+				59F22C4E619F2D50CFE4A890 /* Release */,
+				6003CF2E25A28A30D67DC595 /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		91232309DFEE9001F89D6798 /* Build configuration list for PBXNativeTarget "SkolaNaTaliriWatch" */ = {
+		9100160765B327FA29D6B35F /* Build configuration list for PBXNativeTarget "SkolaWidget" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A7D3A198D2C874403E343064 /* Release */,
-				4A0CD70DB533C6E1A95C7561 /* Debug */,
+				F6B696B648C745507D368D12 /* Release */,
+				1205EB6B0BA6BE5702A12653 /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C2D64B1C9922E3E4E7AE880F /* Build configuration list for PBXNativeTarget "SkolaWatchWidget" */ = {
+		9AE3B73BBD60098104F57D66 /* Build configuration list for PBXNativeTarget "SkolaNaTaliriWatch" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5B4B1FDF658CD936602AC867 /* Release */,
-				F8A9A468761DDCF0597BD12B /* Debug */,
+				65CCEA31ACF068AEDB0A8994 /* Release */,
+				857091A594D69F90D3477D04 /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E340A7DBD85FDCC7AF3CAEEC /* Build configuration list for PBXNativeTarget "SkolaWidget" */ = {
+		DB1FD6C19A1DE23775F6377C /* Build configuration list for PBXProject "SkolaNaTaliri" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CDBB5D310FE76AC0410EAA93 /* Release */,
-				FC6EA45A4A60D46E9B22CA6A /* Debug */,
+				7E81CAFE2CA36CBD20A1DFD9 /* Debug */,
+				2FC61C080D5501F0E5AE6B82 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 729F6D7DE80C7D1A307FDF13 /* Project object */;
+	rootObject = 53E1C071F8D318FB647BBC77 /* Project object */;
 }
