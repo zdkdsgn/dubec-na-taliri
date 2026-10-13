@@ -1,4 +1,5 @@
 import SwiftUI
+import WidgetKit
 
 enum ThemeChoice: String, CaseIterable, Identifiable {
     case auto, light, dark
@@ -22,7 +23,7 @@ private enum Store {
 final class AppState: ObservableObject {
     @Published var schools: [SkolaPolozka] = []
     @Published var active: SkolaPolozka = Store.get("activeSchool", SkolaPolozka.vychozi) {
-        didSet { Store.set("activeSchool", active) }
+        didSet { Store.set("activeSchool", active); SharedStore.saveSchool(active); WidgetCenter.shared.reloadAllTimelines() }
     }
     @Published var data = SkolaData.empty
     @Published var loading = false
@@ -53,6 +54,7 @@ final class AppState: ObservableObject {
     // MARK: načítání
 
     func start() async {
+        SharedStore.saveSchool(active)
         async let list: Void = loadSchools()
         await load(active)
         await list
@@ -127,6 +129,47 @@ final class AppState: ObservableObject {
         guard multiGroup else { return active.jmeno }
         let base = active.jmeno.replacingOccurrences(of: "^(ZŠ|MŠ)\\s+", with: "", options: .regularExpression)
         return "\(group == "ms" ? "MŠ" : "ZŠ") \(base)"
+    }
+
+    // MARK: upozornění, hledání, připomínka
+
+    /// Počet dní od posledního stažení, pokud je to ve všední den podezřele dlouho.
+    var staleDays: Int? {
+        guard active.skutecna_data != false, let u = data.updated else { return nil }
+        let wd = Calendar.current.component(.weekday, from: Date())
+        guard wd != 1, wd != 7 else { return nil }
+        let d = Calendar.current.dateComponents([.day], from: u, to: Date()).day ?? 0
+        return d >= 3 ? d : nil
+    }
+
+    func search(_ q: String) -> [(date: String, meal: Chod)] {
+        let needle = MenuLogic.normalize(q.trimmingCharacters(in: .whitespaces))
+        guard needle.count >= 2 else { return [] }
+        var out: [(date: String, meal: Chod)] = []
+        for date in data.days.keys.sorted(by: >) {
+            for m in meals(date) where MenuLogic.normalize(m.n).contains(needle) { out.append((date, m)) }
+            if out.count >= 60 { break }
+        }
+        return out
+    }
+
+    /// .ics s večerní připomínkou den před dalším školním dnem (odhlášení oběda).
+    func reminderFile() -> URL? {
+        let target = nearestSchoolDay(from: Cal.add(Cal.today, days: 1))
+        let d = Cal.date(target)
+        let c = Cal.cal.dateComponents([.year, .month, .day], from: d)
+        let ds = String(format: "%04d%02d%02d", c.year ?? 0, c.month ?? 0, c.day ?? 0)
+        let stamp = ISO8601DateFormatter().string(from: Date()).replacingOccurrences(of: "-", with: "").replacingOccurrences(of: ":", with: "")
+        let ics = [
+            "BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//Skola na taliri//CS", "CALSCALE:GREGORIAN",
+            "BEGIN:VEVENT", "UID:pripominka-obed-\(ds)@skola-na-taliri", "DTSTAMP:\(stamp)",
+            "DTSTART;VALUE=DATE:\(ds)", "SUMMARY:Rozhodnout o obědě – případně odhlásit",
+            "DESCRIPTION:Pokud dítě zítra nepůjde do školy\\, nezapomeňte oběd včas odhlásit na webu jídelny.",
+            "BEGIN:VALARM", "ACTION:DISPLAY", "DESCRIPTION:Odhlásit oběd", "TRIGGER:-P1DT5H", "END:VALARM",
+            "END:VEVENT", "END:VCALENDAR",
+        ].joined(separator: "\r\n")
+        let url = FileManager.default.temporaryDirectory.appendingPathComponent("pripominka-obed.ics")
+        do { try ics.write(to: url, atomically: true, encoding: .utf8); return url } catch { return nil }
     }
 
     // MARK: žebříček a oblíbené

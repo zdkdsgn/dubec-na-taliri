@@ -6,6 +6,7 @@ struct DenView: View {
     @Binding var tab: Int
     @State private var selectedMeal: Chod?
     @State private var swiping = false
+    @State private var showSearch = false
     @Namespace private var thumb
 
     var body: some View {
@@ -20,6 +21,7 @@ struct DenView: View {
                 weekBar
                 dayStrip
                 if state.multiGroup { groupPicker }
+                notes
 
                 VStack(alignment: .leading, spacing: 14) {
                     dayTitle(date)
@@ -56,6 +58,9 @@ struct DenView: View {
         }
         .scrollIndicators(.hidden)
         .refreshable { await state.refresh() }
+        .sheet(isPresented: $showSearch) {
+            SearchSheet { d in state.select(d) }.environmentObject(state)
+        }
         .sheet(item: $selectedMeal) { m in
             MealSheet(meal: m, date: date).environmentObject(state)
         }
@@ -75,6 +80,34 @@ struct DenView: View {
             }
             .padding(.top, 14).padding(.bottom, 4)
         }.buttonStyle(.plain)
+        .overlay(alignment: .trailing) {
+            Button { showSearch = true } label: {
+                Image(systemName: "magnifyingglass").font(.system(size: 15, weight: .medium)).foregroundStyle(T.ink2)
+                    .frame(width: 38, height: 38).glassEffect(.regular.interactive(), in: Circle())
+            }.padding(.top, 10)
+        }
+    }
+
+    @ViewBuilder private var notes: some View {
+        if let days = state.staleDays, let u = state.data.updated {
+            note(icon: "exclamationmark.triangle", tint: T.amber, bg: T.amberBg,
+                 title: "Data možná nejsou aktuální.",
+                 text: "Naposledy staženo \(Cal.day(Cal.iso(u))). \(Cal.month(Cal.iso(u))). (před \(days) dny) – než se podle jídelníčku rozhodnete, ověřte to prosím na webu jídelny.")
+        }
+        if state.active.skutecna_data == false {
+            note(icon: "info.circle", tint: T.ink2, bg: T.track,
+                 title: "Ukázková data.", text: "Tahle jídelna zatím nezveřejnila skutečný jídelníček, takže vidíte jen ukázku.")
+        }
+    }
+
+    private func note(icon: String, tint: Color, bg: Color, title: String, text: String) -> some View {
+        HStack(alignment: .top, spacing: 10) {
+            Image(systemName: icon).foregroundStyle(tint).padding(.top, 2)
+            Text("\(title) ").font(.system(size: 13.5, weight: .bold)).foregroundStyle(T.ink)
+                + Text(text).font(.system(size: 13.5)).foregroundStyle(T.ink2)
+        }
+        .padding(12).frame(maxWidth: .infinity, alignment: .leading)
+        .background(bg, in: RoundedRectangle(cornerRadius: 16, style: .continuous))
     }
 
     @ViewBuilder private var favSwitcher: some View {

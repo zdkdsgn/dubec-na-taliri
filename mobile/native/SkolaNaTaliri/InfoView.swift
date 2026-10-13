@@ -3,6 +3,7 @@ import SwiftUI
 struct InfoView: View {
     @EnvironmentObject var state: AppState
     @Binding var showSchools: Bool
+    @State private var reminder: URL?
 
     var body: some View {
         ScrollView {
@@ -53,6 +54,20 @@ struct InfoView: View {
                         }.padding(14).frame(maxWidth: .infinity).card()
                     }
                 }
+
+                VStack(alignment: .leading, spacing: 8) {
+                    Text("Odhlášení z obědů").font(.system(size: 16, weight: .bold))
+                    Text("Při nemoci nebo dovolené je potřeba oběd včas odhlásit – řeší se přímo na webu jídelny (karta výše).")
+                        .font(.system(size: 14)).foregroundStyle(T.ink2)
+                    if let reminder {
+                        ShareLink(item: reminder) {
+                            Label("Přidat připomínku do kalendáře", systemImage: "calendar.badge.plus")
+                                .font(.system(size: 15, weight: .semibold)).foregroundStyle(T.accent)
+                                .padding(.vertical, 8)
+                        }
+                    }
+                }.padding(16).frame(maxWidth: .infinity, alignment: .leading).card()
+                .onAppear { reminder = state.reminderFile() }
 
                 let top = Array(state.leaderboard.prefix(6))
                 if !top.isEmpty {

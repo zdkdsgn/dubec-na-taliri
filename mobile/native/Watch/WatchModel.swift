@@ -1,4 +1,5 @@
 import SwiftUI
+import WidgetKit
 
 @MainActor
 final class WatchModel: ObservableObject {
@@ -15,6 +16,7 @@ final class WatchModel: ObservableObject {
         } else {
             school = .vychozi
         }
+        SharedStore.saveSchool(school)
     }
 
     var group: String { data.groups.contains("zs") ? "zs" : (data.groups.first ?? "zs") }
@@ -33,6 +35,8 @@ final class WatchModel: ObservableObject {
     func choose(_ s: SkolaPolozka) {
         school = s
         if let raw = try? JSONEncoder().encode(s) { defaults.set(raw, forKey: "school") }
+        SharedStore.saveSchool(s)
+        WidgetCenter.shared.reloadAllTimelines()
         data = .empty
         Task { await load() }
     }
