@@ -6,8 +6,9 @@ Hlavní směr: jedna Xcode appka `SkolaNaTaliri` (iOS 26+, Liquid Glass) s vesta
 hodinkovou appkou. Sdílený kód v `Shared/` (modely, načítání dat z GitHub Pages,
 logika výdeje). Otevřít: `mobile/native/SkolaNaTaliri.xcodeproj`. Projekt generuje
 `gen_project.rb` (`LANG=en_US.UTF-8 ruby gen_project.rb`, kvůli diakritice v cestě).
-Pro TestFlight: v Xcode přihlásit placený účet, nastavit Team u obou targetů a
-Product → Archive.
+Nový build do TestFlightu: `mobile/native/release.sh` (zvýší číslo buildu,
+vytvoří archiv a nahraje ho; `--archive-only` jen otestuje archiv). Vyžaduje
+v Xcode přihlášený placený Apple ID.
 
 ## Starší prototypy
 

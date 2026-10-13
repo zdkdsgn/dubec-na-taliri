@@ -2,6 +2,7 @@ require 'fileutils'
 require 'xcodeproj'
 
 root = File.expand_path(__dir__)
+build_number = (File.read(File.join(root, 'BUILD_NUMBER')).strip rescue '1')
 proj_path = File.join(root, 'SkolaNaTaliri.xcodeproj')
 FileUtils.rm_rf(proj_path)
 project = Xcodeproj::Project.new(proj_path)
@@ -36,7 +37,7 @@ ios.build_configurations.each do |c|
   s['TARGETED_DEVICE_FAMILY'] = '1'
   s['IPHONEOS_DEPLOYMENT_TARGET'] = '26.0'
   s['MARKETING_VERSION'] = '1.0'
-  s['CURRENT_PROJECT_VERSION'] = '1'
+  s['CURRENT_PROJECT_VERSION'] = build_number
   s['CODE_SIGN_STYLE'] = 'Automatic'
   s['DEVELOPMENT_TEAM'] = 'WV966K9T8M'
   s['ENABLE_PREVIEWS'] = 'YES'
@@ -71,7 +72,7 @@ watch.build_configurations.each do |c|
   s['TARGETED_DEVICE_FAMILY'] = '4'
   s['WATCHOS_DEPLOYMENT_TARGET'] = '10.0'
   s['MARKETING_VERSION'] = '1.0'
-  s['CURRENT_PROJECT_VERSION'] = '1'
+  s['CURRENT_PROJECT_VERSION'] = build_number
   s['CODE_SIGN_STYLE'] = 'Automatic'
   s['DEVELOPMENT_TEAM'] = 'WV966K9T8M'
   s['ENABLE_PREVIEWS'] = 'YES'
