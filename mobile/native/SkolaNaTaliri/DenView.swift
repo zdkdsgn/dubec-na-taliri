@@ -5,6 +5,7 @@ struct DenView: View {
     @Binding var showSchools: Bool
     @Binding var tab: Int
     @State private var selectedMeal: Chod?
+    @State private var swiping = false
     @Namespace private var thumb
 
     var body: some View {
@@ -26,7 +27,7 @@ struct DenView: View {
                         emptyState
                     } else {
                         ForEach(Array(list.enumerated()), id: \.element.id) { i, m in
-                            MealCard(meal: m, date: date, ocas: ocas) { selectedMeal = m }
+                            MealCard(meal: m, date: date, ocas: ocas) { if !swiping { selectedMeal = m } }
                                 .staggerIn(i)
                         }
                         if !ocas.isEmpty { OcasCard(items: ocas).staggerIn(list.count) }
@@ -43,11 +44,15 @@ struct DenView: View {
             }
             .padding(.horizontal, 18).padding(.top, 8).padding(.bottom, 24)
             .simultaneousGesture(
-                DragGesture(minimumDistance: 24).onEnded { v in
-                    guard abs(v.translation.width) > 70, abs(v.translation.width) > abs(v.translation.height) * 1.5 else { return }
-                    UIImpactFeedbackGenerator(style: .light).impactOccurred()
-                    state.step(v.translation.width < 0 ? 1 : -1)
-                })
+                DragGesture(minimumDistance: 10)
+                    .onChanged { v in if abs(v.translation.width) > 10 { swiping = true } }
+                    .onEnded { v in
+                        // klepnutí na kartu se po swipu spustí taky – krátce ho ignorujeme
+                        DispatchQueue.main.asyncAfter(deadline: .now() + 0.25) { swiping = false }
+                        guard abs(v.translation.width) > 70, abs(v.translation.width) > abs(v.translation.height) * 1.5 else { return }
+                        UIImpactFeedbackGenerator(style: .light).impactOccurred()
+                        state.step(v.translation.width < 0 ? 1 : -1)
+                    })
         }
         .scrollIndicators(.hidden)
         .refreshable { await state.refresh() }
