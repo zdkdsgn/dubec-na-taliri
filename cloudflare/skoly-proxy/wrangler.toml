@@ -17,3 +17,9 @@ id = "798e4c7079f14cabaa57fb38bb51a51f"
 # tajné a jdou přes `wrangler secret put`, nikdy do tohohle souboru.
 [vars]
 VAPID_PUBLIC_KEY = "BGwZchpHrmyca3Trpo4EU5iqeDgygE-g6WujVszMaRqNEkydpdRE3c1cMSwQqylbLUyCQnRxX71VxXJ7rdPqOS8"
+
+# Apple push (APNs) pro nativní iOS appku. Tyhle dvě hodnoty nejsou tajné.
+# Soukromý klíč (.p8) a jeho ID jsou tajemství: `wrangler secret put APNS_KEY`
+# a `wrangler secret put APNS_KEY_ID`.
+APNS_TEAM_ID = "WV966K9T8M"
+APNS_TOPIC   = "cz.zdkdsgn.skolanatalire"

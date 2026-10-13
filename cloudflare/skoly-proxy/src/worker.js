@@ -8,6 +8,10 @@
  *      POST /push/unsubscribe  {endpoint, schoolId}        – appka: vypnout
  *      POST /push/notify       {schools:[{id,nazev}, …]}   – GitHub Action
  *        (jen s hlavičkou X-Notify-Secret, viz env.NOTIFY_SECRET)
+ *      POST /apns/subscribe    {token, schoolId, env}      – nativní appka (iOS)
+ *      POST /apns/unsubscribe  {token, schoolId}           – nativní appka (iOS)
+ *    /push/notify posílá stejnou zprávu Web Pushem i přes Apple push (APNs);
+ *    APNs se přeskočí, dokud nejsou nastavená tajemství APNS_KEY/APNS_KEY_ID.
  *
  *    Odběry se ukládají do KV pod klíčem "sub:<schoolId>:<hash endpointu>",
  *    ať appka umí při /notify rychle vyjmenovat všechny odběratele jedné
@@ -147,6 +151,79 @@ async function podepsatUnsubscribe(request, env, origin) {
   return json({ ok: true }, 200, origin);
 }
 
+
+// ── Apple push (APNs) pro nativní iOS appku ──────────────────────────
+
+function b64url(bytes) {
+  let bin = "";
+  for (const b of new Uint8Array(bytes)) bin += String.fromCharCode(b);
+  return btoa(bin).replace(/\+/g, "-").replace(/\//g, "_").replace(/=+$/, "");
+}
+
+let apnsJwtCache = { token: null, vyprsi: 0 };
+
+// Token podepsaný ES256 klíčem z developer portálu; Apple ho chce obnovovat
+// nejdřív po 20 a nejpozději po 60 minutách, držíme ho 50.
+async function apnsJwt(env) {
+  const ted = Math.floor(Date.now() / 1000);
+  if (apnsJwtCache.token && apnsJwtCache.vyprsi > ted) return apnsJwtCache.token;
+  const pem = env.APNS_KEY.replace(/-----(BEGIN|END) PRIVATE KEY-----/g, "").replace(/\s+/g, "");
+  const der = Uint8Array.from(atob(pem), c => c.charCodeAt(0));
+  const key = await crypto.subtle.importKey("pkcs8", der, { name: "ECDSA", namedCurve: "P-256" }, false, ["sign"]);
+  const hlava = b64url(new TextEncoder().encode(JSON.stringify({ alg: "ES256", kid: env.APNS_KEY_ID })));
+  const telo = b64url(new TextEncoder().encode(JSON.stringify({ iss: env.APNS_TEAM_ID, iat: ted })));
+  const podpis = await crypto.subtle.sign({ name: "ECDSA", hash: "SHA-256" }, key, new TextEncoder().encode(`${hlava}.${telo}`));
+  apnsJwtCache = { token: `${hlava}.${telo}.${b64url(podpis)}`, vyprsi: ted + 50 * 60 };
+  return apnsJwtCache.token;
+}
+
+const APNS_TOKEN_RE = /^[0-9a-f]{64,200}$/i;
+
+async function apnsSubscribe(request, env, origin) {
+  let body;
+  try { body = await request.json(); } catch { return json({ ok: false, chyba: "špatný JSON" }, 400, origin); }
+  const { token, schoolId, env: prostredi } = body || {};
+  if (!APNS_TOKEN_RE.test(token || "") || !schoolId) return json({ ok: false, chyba: "chybí token nebo schoolId" }, 400, origin);
+  await env.PUSH_SUBS.put(`apns:${schoolId}:${token}`,
+    JSON.stringify({ token, env: prostredi === "sandbox" ? "sandbox" : "production" }));
+  return json({ ok: true }, 200, origin);
+}
+
+async function apnsUnsubscribe(request, env, origin) {
+  let body;
+  try { body = await request.json(); } catch { return json({ ok: false, chyba: "špatný JSON" }, 400, origin); }
+  const { token, schoolId } = body || {};
+  if (!APNS_TOKEN_RE.test(token || "") || !schoolId) return json({ ok: false, chyba: "chybí token nebo schoolId" }, 400, origin);
+  await env.PUSH_SUBS.delete(`apns:${schoolId}:${token}`);
+  return json({ ok: true }, 200, origin);
+}
+
+// Vrací "ok" | "smazat" (token už neplatí) | "chyba" (dočasné, necháme)
+async function poslatApns(env, odber, id, title, text) {
+  const host = odber.env === "sandbox" ? "api.sandbox.push.apple.com" : "api.push.apple.com";
+  const res = await fetch(`https://${host}/3/device/${odber.token}`, {
+    method: "POST",
+    headers: {
+      authorization: `bearer ${await apnsJwt(env)}`,
+      "apns-topic": env.APNS_TOPIC,
+      "apns-push-type": "alert",
+      "apns-priority": "10",
+      "content-type": "application/json",
+    },
+    body: JSON.stringify({
+      aps: { alert: { title, body: text }, sound: "default", "thread-id": `skola-${id}` },
+      schoolId: id,
+    }),
+  });
+  if (res.status === 200) return "ok";
+  if (res.status === 410) return "smazat";
+  if (res.status === 400) {
+    const { reason } = await res.json().catch(() => ({}));
+    if (reason === "BadDeviceToken" || reason === "DeviceTokenNotForTopic") return "smazat";
+  }
+  return "chyba";
+}
+
 async function poslatNotifikace(request, env, origin) {
   const tajemstvi = request.headers.get("X-Notify-Secret") || "";
   if (!env.NOTIFY_SECRET || tajemstvi !== env.NOTIFY_SECRET) {
@@ -188,6 +265,25 @@ async function poslatNotifikace(request, env, origin) {
         }
       }
     } while (!seznam.list_complete);
+
+    if (env.APNS_KEY && env.APNS_KEY_ID && env.APNS_TEAM_ID && env.APNS_TOPIC) {
+      const apnsTitle = title || "Škola na talíři";
+      const apnsText = vlastniText || `Nový jídelníček pro ${nazev} je venku.`;
+      let apnsCursor, apnsSeznam;
+      do {
+        apnsSeznam = await env.PUSH_SUBS.list({ prefix: `apns:${id}:`, cursor: apnsCursor });
+        apnsCursor = apnsSeznam.cursor;
+        for (const { name } of apnsSeznam.keys) {
+          const syrove = await env.PUSH_SUBS.get(name);
+          if (!syrove) continue;
+          try {
+            const vysledek = await poslatApns(env, JSON.parse(syrove), id, apnsTitle, apnsText);
+            if (vysledek === "ok") posláno++;
+            else if (vysledek === "smazat") { await env.PUSH_SUBS.delete(name); smazáno++; }
+          } catch { /* dočasný výpadek – odběr zůstává */ }
+        }
+      } while (!apnsSeznam.list_complete);
+    }
   }
   return json({ ok: true, posláno, smazáno }, 200, origin);
 }
@@ -205,6 +301,10 @@ export default {
       return podepsatSubscribe(request, env, origin);
     if (url.pathname === "/push/unsubscribe" && request.method === "POST")
       return podepsatUnsubscribe(request, env, origin);
+    if (url.pathname === "/apns/subscribe" && request.method === "POST")
+      return apnsSubscribe(request, env, origin);
+    if (url.pathname === "/apns/unsubscribe" && request.method === "POST")
+      return apnsUnsubscribe(request, env, origin);
     if (url.pathname === "/push/notify" && request.method === "POST")
       return poslatNotifikace(request, env, origin);
 

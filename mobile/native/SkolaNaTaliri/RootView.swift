@@ -24,6 +24,11 @@ struct RootView: View {
         .tint(T.accent)
         .sheet(isPresented: $showSchools) { SchoolPickerView().environmentObject(state) }
         .task { await state.start() }
+        .onReceive(NotificationCenter.default.publisher(for: .openSchoolFromPush)) { n in
+            guard let id = n.object as? String else { return }
+            tab = 0
+            Task { await state.openFromPush(id) }
+        }
     }
 
     private func page<C: View>(@ViewBuilder _ content: () -> C) -> some View {

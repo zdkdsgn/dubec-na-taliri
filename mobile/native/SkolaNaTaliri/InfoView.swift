@@ -4,6 +4,8 @@ struct InfoView: View {
     @EnvironmentObject var state: AppState
     @Binding var showSchools: Bool
     @State private var reminder: URL?
+    @State private var pushError: String?
+    @ObservedObject private var push = PushService.shared
 
     var body: some View {
         ScrollView {
@@ -54,6 +56,35 @@ struct InfoView: View {
                         }.padding(14).frame(maxWidth: .infinity).card()
                     }
                 }
+
+                VStack(alignment: .leading, spacing: 10) {
+                    HStack(spacing: 12) {
+                        Image(systemName: "bell").foregroundStyle(T.ink2).frame(width: 40, height: 40)
+                            .background(T.track, in: RoundedRectangle(cornerRadius: 12, style: .continuous))
+                        Text("Upozornění na nový jídelníček").font(.system(size: 16, weight: .bold))
+                    }
+                    Text("Dáme vědět, jakmile appka stáhne nový jídelníček – zvlášť pro každou školu.")
+                        .font(.system(size: 14)).foregroundStyle(T.ink2)
+                    ForEach(state.pushCandidates) { s in
+                        let on = state.pushSchools.contains(s.id)
+                        Button {
+                            UIImpactFeedbackGenerator(style: .light).impactOccurred()
+                            Task { pushError = await state.togglePush(s) }
+                        } label: {
+                            HStack {
+                                Text(s.jmeno).font(.system(size: 15, weight: .semibold)).foregroundStyle(T.ink)
+                                    .multilineTextAlignment(.leading)
+                                Spacer()
+                                Toggle("", isOn: .constant(on)).labelsHidden().tint(T.accent).allowsHitTesting(false)
+                            }
+                            .padding(.horizontal, 14).padding(.vertical, 10)
+                            .background(on ? T.accentSoft : T.track, in: RoundedRectangle(cornerRadius: 14, style: .continuous))
+                        }
+                        .buttonStyle(PressableStyle()).disabled(state.pushBusy)
+                    }
+                    if let pushError { Text(pushError).font(.system(size: 13)).foregroundStyle(T.red) }
+                }.padding(16).frame(maxWidth: .infinity, alignment: .leading).card()
+                .task { await push.refreshAuthorization() }
 
                 VStack(alignment: .leading, spacing: 8) {
                     Text("Odhlášení z obědů").font(.system(size: 16, weight: .bold))

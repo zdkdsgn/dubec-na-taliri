@@ -39,7 +39,7 @@ ios.build_configurations.each do |c|
   s['MARKETING_VERSION'] = '1.0'
   s['CURRENT_PROJECT_VERSION'] = build_number
   s['CODE_SIGN_STYLE'] = 'Automatic'
-  s['CODE_SIGN_ENTITLEMENTS'] = 'App.entitlements'
+  s['CODE_SIGN_ENTITLEMENTS'] = 'SkolaNaTaliri/SkolaNaTaliri.entitlements'
   s['DEVELOPMENT_TEAM'] = 'WV966K9T8M'
   s['ENABLE_PREVIEWS'] = 'YES'
 end

@@ -2,6 +2,7 @@ import SwiftUI
 
 @main
 struct SkolaNaTaliriApp: App {
+    @UIApplicationDelegateAdaptor(AppDelegate.self) private var appDelegate
     @StateObject private var state = AppState()
     @State private var showSplash = true
     @Environment(\.accessibilityReduceMotion) private var reduce

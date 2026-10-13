@@ -48,6 +48,10 @@ final class AppState: ObservableObject {
     @Published var favoriteInfo: [String: SkolaPolozka] = Store.get("favoriteInfo", [String: SkolaPolozka]()) {
         didSet { Store.set("favoriteInfo", favoriteInfo) }
     }
+    @Published var pushSchools: Set<String> = Set(Store.get("pushSchools", [String]())) {
+        didSet { Store.set("pushSchools", Array(pushSchools)) }
+    }
+    @Published var pushBusy = false
     @Published var theme: ThemeChoice = ThemeChoice(rawValue: Store.get("theme", "auto")) ?? .auto {
         didSet { Store.set("theme", theme.rawValue) }
     }
@@ -174,6 +178,42 @@ final class AppState: ObservableObject {
         ].joined(separator: "\r\n")
         let url = FileManager.default.temporaryDirectory.appendingPathComponent("pripominka-obed.ics")
         do { try ics.write(to: url, atomically: true, encoding: .utf8); return url } catch { return nil }
+    }
+
+    // MARK: push notifikace
+
+    /// Oblíbené školy + aktivní škola (i když není oblíbená), ať jde upozornění zapnout bez hvězdičky.
+    var pushCandidates: [SkolaPolozka] {
+        var out = favoriteSchools
+        if !out.contains(where: { $0.id == active.id }) { out.insert(active, at: 0) }
+        return out
+    }
+
+    /// Zapne/vypne upozornění pro jednu školu. Vrací text chyby, nebo nil při úspěchu.
+    func togglePush(_ s: SkolaPolozka) async -> String? {
+        guard !pushBusy else { return nil }
+        pushBusy = true
+        defer { pushBusy = false }
+        let want = !pushSchools.contains(s.id)
+        let ok = await PushService.shared.setSubscribed(want, schoolId: s.id)
+        if !ok {
+            return want ? (PushService.shared.denied
+                ? "Upozornění jsou zablokovaná – povolte je v Nastavení → Oznámení → Škola na talíři."
+                : "Upozornění se nepodařilo zapnout – zkuste to znovu.")
+                : "Upozornění se nepodařilo vypnout – zkuste to znovu."
+        }
+        if want { pushSchools.insert(s.id) } else { pushSchools.remove(s.id) }
+        return nil
+    }
+
+    func openFromPush(_ id: String) async {
+        if id == active.id { return }
+        if let s = schools.first(where: { $0.id == id }) ?? favoriteInfo[id] ?? (id == SkolaPolozka.vychozi.id ? SkolaPolozka.vychozi : nil) {
+            await load(s)
+        } else if let all = try? await DataService.schools(), let s = all.first(where: { $0.id == id }) {
+            schools = all
+            await load(s)
+        }
     }
 
     // MARK: žebříček a oblíbené
