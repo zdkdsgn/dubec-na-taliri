@@ -1,0 +1,161 @@
+import SwiftUI
+
+enum ThemeChoice: String, CaseIterable, Identifiable {
+    case auto, light, dark
+    var id: String { rawValue }
+    var label: String { self == .auto ? "Auto" : self == .light ? "Světlý" : "Tmavý" }
+    var scheme: ColorScheme? { self == .light ? .light : self == .dark ? .dark : nil }
+}
+
+private enum Store {
+    static let d = UserDefaults.standard
+    static func get<V: Decodable>(_ key: String, _ fallback: V) -> V {
+        guard let data = d.data(forKey: "skola." + key), let v = try? JSONDecoder().decode(V.self, from: data) else { return fallback }
+        return v
+    }
+    static func set<V: Encodable>(_ key: String, _ value: V) {
+        if let data = try? JSONEncoder().encode(value) { d.set(data, forKey: "skola." + key) }
+    }
+}
+
+@MainActor
+final class AppState: ObservableObject {
+    @Published var schools: [SkolaPolozka] = []
+    @Published var active: SkolaPolozka = Store.get("activeSchool", SkolaPolozka.vychozi) {
+        didSet { Store.set("activeSchool", active) }
+    }
+    @Published var data = SkolaData.empty
+    @Published var loading = false
+    @Published var loadFailed = false
+    @Published var group = "zs"
+    @Published var selectedDate = Cal.today
+    @Published var forward = true
+
+    @Published var allergenFilter: Set<Int> = Set(Store.get("filter", [Int]())) {
+        didSet { Store.set("filter", Array(allergenFilter)) }
+    }
+    @Published var ratings: [String: Int] = Store.get("ratings", [String: Int]()) {
+        didSet { Store.set("ratings", ratings) }
+    }
+    @Published var dislikes: Set<String> = Set(Store.get("dislikes", [String]())) {
+        didSet { Store.set("dislikes", Array(dislikes)) }
+    }
+    @Published var favorites: Set<String> = Set(Store.get("favorites", [String]())) {
+        didSet { Store.set("favorites", Array(favorites)) }
+    }
+    @Published var theme: ThemeChoice = ThemeChoice(rawValue: Store.get("theme", "auto")) ?? .auto {
+        didSet { Store.set("theme", theme.rawValue) }
+    }
+    @Published var bigText: Bool = Store.get("bigText", false) {
+        didSet { Store.set("bigText", bigText) }
+    }
+
+    // MARK: načítání
+
+    func start() async {
+        async let list: Void = loadSchools()
+        await load(active)
+        await list
+    }
+
+    func loadSchools() async {
+        if let s = try? await DataService.schools() { schools = s }
+    }
+
+    func load(_ school: SkolaPolozka) async {
+        loading = true
+        loadFailed = false
+        defer { loading = false }
+        do {
+            let d = try await DataService.school(school.id)
+            data = d
+            active = school
+            if !d.groups.contains(group) { group = d.groups.contains("zs") ? "zs" : (d.groups.first ?? "zs") }
+            selectedDate = nearestSchoolDay(from: Cal.today)
+        } catch {
+            loadFailed = data.days.isEmpty
+        }
+    }
+
+    func refresh() async {
+        let keep = selectedDate
+        await load(active)
+        if hasDay(keep) { selectedDate = keep }
+    }
+
+    func choose(_ school: SkolaPolozka) async {
+        await load(school)
+    }
+
+    // MARK: data dne
+
+    func skupina(_ date: String) -> Skupina? { data.days[date]?[group] }
+    func meals(_ date: String) -> [Chod] { skupina(date)?.chody ?? [] }
+    func vydej(_ date: String) -> String? { skupina(date)?.vydej }
+    func hasDay(_ date: String) -> Bool { !meals(date).isEmpty }
+    var multiGroup: Bool { data.groups.count > 1 }
+
+    func nearestSchoolDay(from: String) -> String {
+        for i in 0..<14 { let d = Cal.add(from, days: i); if hasDay(d) { return d } }
+        let keys = data.days.keys.sorted()
+        return keys.first(where: { $0 >= from }) ?? keys.last ?? from
+    }
+
+    // MARK: navigace mezi dny
+
+    func select(_ date: String) {
+        guard date != selectedDate else { return }
+        forward = date > selectedDate
+        withAnimation(.spring(response: 0.45, dampingFraction: 0.86)) { selectedDate = date }
+    }
+
+    @discardableResult
+    func step(_ n: Int) -> Bool {
+        var d = selectedDate
+        for _ in 0..<10 { d = Cal.add(d, days: n); if hasDay(d) { select(d); return true } }
+        return false
+    }
+
+    @discardableResult
+    func weekStep(_ n: Int) -> Bool {
+        let cand = Cal.add(Cal.monday(selectedDate), days: n * 7)
+        for i in 0..<5 { let d = Cal.add(cand, days: i); if hasDay(d) { select(d); return true } }
+        return false
+    }
+
+    var schoolTitle: String {
+        guard multiGroup else { return active.jmeno }
+        let base = active.jmeno.replacingOccurrences(of: "^(ZŠ|MŠ)\\s+", with: "", options: .regularExpression)
+        return "\(group == "ms" ? "MŠ" : "ZŠ") \(base)"
+    }
+
+    // MARK: hodnocení, poznámky, oblíbené
+
+    func ratingKey(_ date: String, _ m: Chod) -> String { "\(date)|\(group)|\(m.c)" }
+    func rate(_ date: String, _ m: Chod, _ v: Int) {
+        let k = ratingKey(date, m)
+        if ratings[k] == v { ratings[k] = nil } else { ratings[k] = v }
+    }
+    func toggleDislike(_ m: Chod) {
+        let k = MenuLogic.normalize(m.n)
+        if dislikes.contains(k) { dislikes.remove(k) } else { dislikes.insert(k) }
+    }
+    func isDisliked(_ m: Chod) -> Bool { dislikes.contains(MenuLogic.normalize(m.n)) }
+    func toggleFavorite(_ s: SkolaPolozka) {
+        if favorites.contains(s.id) { favorites.remove(s.id) } else { favorites.insert(s.id) }
+    }
+    func toggleAllergen(_ id: Int) {
+        if allergenFilter.contains(id) { allergenFilter.remove(id) } else { allergenFilter.insert(id) }
+    }
+
+    /// Alergeny z filtru zasažené daným chodem: (v jídle, jen v příloze/nápoji).
+    func hits(_ m: Chod) -> [Int] { m.a.filter { allergenFilter.contains($0) } }
+    func hitsInMain(_ m: Chod) -> Bool { m.hlavni.a.contains { allergenFilter.contains($0) } }
+    func hitPlaces(_ m: Chod) -> [String] {
+        var seen: [String] = []
+        for c in m.casti where c.a.contains(where: { allergenFilter.contains($0) }) {
+            let l = c.l.lowercased(); if !seen.contains(l) { seen.append(l) }
+        }
+        return seen
+    }
+}
