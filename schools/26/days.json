@@ -1518,7 +1518,7 @@
       {
         "c": "obed",
         "n": "Segedínský guláš",
-        "d": "Houskový knedlík · OVOCE · Černý čaj se sirupem / voda",
+        "d": "Houskový knedlík · OVOCE-NEKTARINKA · Černý čaj se sirupem / voda",
         "a": [
           1,
           3,
@@ -1543,7 +1543,7 @@
           },
           {
             "l": "Doplněk",
-            "n": "OVOCE",
+            "n": "OVOCE-NEKTARINKA",
             "a": []
           },
           {
@@ -1594,6 +1594,260 @@
             "l": "Doplněk",
             "n": "Cherry rajčátka",
             "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Fruttanella / voda",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-19": {
+    "vydej": "11:15–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Bramboračka",
+        "d": "",
+        "a": [
+          1,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Těstoviny s mákem",
+        "d": "JABLKO · Fruttanella / mléko",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Těstoviny s mákem",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "JABLKO",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Fruttanella / mléko",
+            "a": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-20": {
+    "vydej": "11:15–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Vývar se zeleninou a cizrnovým kapáním",
+        "d": "",
+        "a": [
+          3,
+          7,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Hovězí cikánská",
+        "d": "Rýže · Ovocný čaj slazený / voda",
+        "a": [
+          1,
+          10
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Hovězí cikánská",
+            "a": [
+              1,
+              10
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Rýže",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný čaj slazený / voda",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-21": {
+    "vydej": "11:15–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Rajská s nudličkami",
+        "d": "",
+        "a": [
+          1,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Sumeček africký – přírodní",
+        "d": "Brambory · Jogurtový domácí dip · Voda s pomerančem / ochucené mléko",
+        "a": [
+          4,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Sumeček africký – přírodní",
+            "a": [
+              4
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Brambory",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Jogurtový domácí dip",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Voda s pomerančem / ochucené mléko",
+            "a": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-22": {
+    "vydej": "11:15–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Vývar se zeleninou a bulgurem",
+        "d": "",
+        "a": [
+          1,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Koprová omáčka, hovězí maso",
+        "d": "Houskový knedlík · OVOCE · Černý čaj se sirupem / voda",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Koprová omáčka, hovězí maso",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Houskový knedlík",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "OVOCE",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Černý čaj se sirupem / voda",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-23": {
+    "vydej": "11:15–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Hrstková",
+        "d": "",
+        "a": [
+          1,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Obalovaný sýr",
+        "d": "Brambory, domácí jogrutová tatarka · Strašidelný pardubický perník na 31.10. :o)) · Fruttanella / voda",
+        "a": [
+          1,
+          3,
+          6,
+          7,
+          10
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Obalovaný sýr",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Brambory, domácí jogrutová tatarka",
+            "a": [
+              7,
+              10
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Strašidelný pardubický perník na 31.10. :o))",
+            "a": [
+              1,
+              3,
+              6,
+              7
+            ]
           },
           {
             "l": "Nápoj",

@@ -1388,7 +1388,7 @@
     "chody": [
       {
         "c": "polevka",
-        "n": "Zahradnická s kapáním",
+        "n": "Zahradnická s vaječnou jíškou",
         "d": "",
         "a": [
           1,
@@ -1399,7 +1399,7 @@
       {
         "c": "obed",
         "n": "Dančí ragú na divoko",
-        "d": "Kolena · Kiwi · Voda",
+        "d": "Kolena · Hruška · Voda",
         "a": [
           1
         ],
@@ -1420,7 +1420,7 @@
           },
           {
             "l": "Doplněk",
-            "n": "Kiwi",
+            "n": "Hruška",
             "a": []
           },
           {
@@ -1534,14 +1534,44 @@
     "vydej": "11:00–14:00",
     "chody": [
       {
-        "c": "obed",
-        "n": "Oběd",
+        "c": "polevka",
+        "n": "Bramborová s kapustou",
         "d": "",
-        "a": [],
+        "a": [
+          1,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Krůtí kousky na pánvi",
+        "d": "Kuskus · Jablko · Ovocný mošt, voda",
+        "a": [
+          1
+        ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Oběd",
+            "n": "Krůtí kousky na pánvi",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Kuskus",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Jablko",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný mošt, voda",
             "a": []
           }
         ]
@@ -1552,14 +1582,41 @@
     "vydej": "11:00–14:00",
     "chody": [
       {
-        "c": "obed",
-        "n": "Oběd",
+        "c": "polevka",
+        "n": "Zeleninová s chřestem",
         "d": "",
-        "a": [],
+        "a": [
+          1,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Neapolské nudle zapečené s vepřovým masem",
+        "d": "Pomeranč · Citrónová voda, voda",
+        "a": [
+          1,
+          7,
+          9
+        ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Oběd",
+            "n": "Neapolské nudle zapečené s vepřovým masem",
+            "a": [
+              1,
+              7,
+              9
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Pomeranč",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Citrónová voda, voda",
             "a": []
           }
         ]
@@ -1570,14 +1627,46 @@
     "vydej": "11:00–14:00",
     "chody": [
       {
-        "c": "obed",
-        "n": "Oběd",
+        "c": "polevka",
+        "n": "Hrachová s krutóny",
         "d": "",
-        "a": [],
+        "a": [
+          1,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Rozlítaný ptáček z hovězího masa",
+        "d": "Dušená rýže · Ledový salát · Ovocný nápoj, voda",
+        "a": [
+          1,
+          3,
+          10
+        ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Oběd",
+            "n": "Rozlítaný ptáček z hovězího masa",
+            "a": [
+              1,
+              3,
+              10
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Dušená rýže",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ledový salát",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný nápoj, voda",
             "a": []
           }
         ]
@@ -1588,14 +1677,51 @@
     "vydej": "11:00–14:00",
     "chody": [
       {
-        "c": "obed",
-        "n": "Oběd",
+        "c": "polevka",
+        "n": "Vývar z kostí s drožďovým kapáním",
         "d": "",
-        "a": [],
+        "a": [
+          1,
+          3,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Platýs limanda filet pečený, baby mrkev",
+        "d": "Bramborová kaše · Smetanová miska se zapékaném musli s ovocem · Voda",
+        "a": [
+          1,
+          4,
+          7
+        ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Oběd",
+            "n": "Platýs limanda filet pečený, baby mrkev",
+            "a": [
+              4,
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Bramborová kaše",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Smetanová miska se zapékaném musli s ovocem",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Voda",
             "a": []
           }
         ]
@@ -1606,15 +1732,41 @@
     "vydej": "11:00–14:00",
     "chody": [
       {
-        "c": "obed",
-        "n": "Oběd",
+        "c": "polevka",
+        "n": "Kulajda",
         "d": "",
-        "a": [],
+        "a": [
+          1,
+          3,
+          7,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Třešňová bublanina",
+        "d": "Ovocné mléko s příchutí kokosu, voda",
+        "a": [
+          1,
+          3,
+          7
+        ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Oběd",
-            "a": []
+            "n": "Třešňová bublanina",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocné mléko s příchutí kokosu, voda",
+            "a": [
+              7
+            ]
           }
         ]
       }

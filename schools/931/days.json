@@ -5162,7 +5162,7 @@
           },
           {
             "c": "polevka",
-            "n": "Hovězí vývar s těstovinou",
+            "n": "Vývar s těstovinou",
             "d": "",
             "a": [
               1,
@@ -5172,7 +5172,7 @@
           {
             "c": "obed",
             "n": "Hovězí pečeně na slanině",
-            "d": "Rýže basmati · Džus bez sladidel, voda ochucená",
+            "d": "Rýže basmati · Zeleninový bar · Džus bez sladidel, voda ochucená",
             "a": [],
             "p": [
               {
@@ -5183,6 +5183,11 @@
               {
                 "l": "Příloha",
                 "n": "Rýže basmati",
+                "a": []
+              },
+              {
+                "l": "Doplněk",
+                "n": "Zeleninový bar",
                 "a": []
               },
               {
@@ -5314,11 +5319,9 @@
           },
           {
             "c": "polevka",
-            "n": "Rybí polévka se smaženým hráškem",
+            "n": "Rybí polévka",
             "d": "",
-            "a": [
-              4
-            ]
+            "a": []
           },
           {
             "c": "obed",
@@ -5476,7 +5479,9 @@
             "c": "polevka",
             "n": "Zeleninová s bulgurem",
             "d": "",
-            "a": []
+            "a": [
+              9
+            ]
           },
           {
             "c": "obed",
@@ -5633,7 +5638,9 @@
             "c": "polevka",
             "n": "Bramborová se sýrem",
             "d": "",
-            "a": []
+            "a": [
+              7
+            ]
           },
           {
             "c": "obed",

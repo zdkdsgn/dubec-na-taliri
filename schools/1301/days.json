@@ -6210,7 +6210,7 @@
           {
             "c": "obed",
             "n": "Pečená treska s pohankou a ředkvičkami",
-            "d": "Brambory · Zeleninová obloha · Ovocný čaj, voda s citrónem, pomerančem a mátou, voda",
+            "d": "Brambory · Ovocný čaj, voda s citrónem, pomerančem a mátou, voda",
             "a": [
               1,
               4,
@@ -6229,11 +6229,6 @@
               {
                 "l": "Příloha",
                 "n": "Brambory",
-                "a": []
-              },
-              {
-                "l": "Doplněk",
-                "n": "Zeleninová obloha",
                 "a": []
               },
               {
@@ -6324,7 +6319,7 @@
           {
             "c": "obed",
             "n": "Pečená treska s pohankou a ředkvičkami",
-            "d": "Brambory · Zeleninová obloha · Ovocný čaj, voda s citrónem, pomerančem a mátou, voda",
+            "d": "Brambory · Ovocný čaj, voda s citrónem, pomerančem a mátou, voda",
             "a": [
               1,
               4,
@@ -6343,11 +6338,6 @@
               {
                 "l": "Příloha",
                 "n": "Brambory",
-                "a": []
-              },
-              {
-                "l": "Doplněk",
-                "n": "Zeleninová obloha",
                 "a": []
               },
               {
@@ -6415,30 +6405,24 @@
           },
           {
             "c": "obed",
-            "n": "Segedínský guláš",
-            "d": "Houskový knedlík s celozrnou moukou · Ovocný čaj, voda s citrónem, pomerančem a mátou, voda",
+            "n": "Kapusta, pečené vepřové maso",
+            "d": "Bramborový knedlík · Ovocný čaj, voda s citrónem, pomerančem a mátou, voda",
             "a": [
-              1,
-              3,
-              7,
-              10
+              1
             ],
             "p": [
               {
                 "l": "Jídlo",
-                "n": "Segedínský guláš",
+                "n": "Kapusta, pečené vepřové maso",
                 "a": [
-                  1,
-                  10
+                  1
                 ]
               },
               {
                 "l": "Příloha",
-                "n": "Houskový knedlík s celozrnou moukou",
+                "n": "Bramborový knedlík",
                 "a": [
-                  1,
-                  3,
-                  7
+                  1
                 ]
               },
               {
@@ -6526,30 +6510,24 @@
           },
           {
             "c": "obed",
-            "n": "Segedínský guláš",
-            "d": "Houskový knedlík s celozrnou moukou · Ovocný čaj, voda s citrónem, pomerančem a mátou, voda",
+            "n": "Kapusta, pečené vepřové maso",
+            "d": "Bramborový knedlík · Ovocný čaj, voda s citrónem, pomerančem a mátou, voda",
             "a": [
-              1,
-              3,
-              7,
-              10
+              1
             ],
             "p": [
               {
                 "l": "Jídlo",
-                "n": "Segedínský guláš",
+                "n": "Kapusta, pečené vepřové maso",
                 "a": [
-                  1,
-                  10
+                  1
                 ]
               },
               {
                 "l": "Příloha",
-                "n": "Houskový knedlík s celozrnou moukou",
+                "n": "Bramborový knedlík",
                 "a": [
-                  1,
-                  3,
-                  7
+                  1
                 ]
               },
               {
@@ -6967,17 +6945,19 @@
         "chody": [
           {
             "c": "presnidavka",
-            "n": "Šunková pěna s lučinou",
+            "n": "Máslo, plátky vajíček",
             "d": "Chléb · Banán · Ovocný čaj – jablko se skořicí, ochucené mlého",
             "a": [
               1,
+              3,
               7
             ],
             "p": [
               {
                 "l": "Jídlo",
-                "n": "Šunková pěna s lučinou",
+                "n": "Máslo, plátky vajíček",
                 "a": [
+                  3,
                   7
                 ]
               },

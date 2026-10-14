@@ -1547,7 +1547,7 @@
       {
         "c": "obed",
         "n": "Zeleninové karbanátky s ovesnými vločkami",
-        "d": "Šťouchané brambory s pažitkou · Ovoce · Mléko, voda",
+        "d": "Šťouchané brambory s pažitkou · Ovoce · MŠ Šťáva, voda, ZŠ mléko, voda",
         "a": [
           1,
           3,
@@ -1576,7 +1576,7 @@
           },
           {
             "l": "Nápoj",
-            "n": "Mléko, voda",
+            "n": "MŠ Šťáva, voda, ZŠ mléko, voda",
             "a": [
               7
             ]
@@ -1586,7 +1586,7 @@
       {
         "c": "obed2",
         "n": "Kuřecí perkelt",
-        "d": "Bramborové mušle · Ovoce · Šťáva, voda",
+        "d": "Bramborové mušle · Ovoce · Mléko, voda",
         "a": [
           1,
           3,
@@ -1616,8 +1616,10 @@
           },
           {
             "l": "Nápoj",
-            "n": "Šťáva, voda",
-            "a": []
+            "n": "Mléko, voda",
+            "a": [
+              7
+            ]
           }
         ]
       }
@@ -1936,10 +1938,11 @@
     "chody": [
       {
         "c": "polevka",
-        "n": "Pohanková",
+        "n": "Cibulová se sýrem a opraženým chlebem",
         "d": "",
         "a": [
-          9
+          1,
+          7
         ]
       },
       {

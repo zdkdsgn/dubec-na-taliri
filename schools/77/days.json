@@ -2656,7 +2656,7 @@
       {
         "c": "obed",
         "n": "Špagety se sýrovou omáčkou a vepřovým masem",
-        "d": "Jablko · Neslazený bylinný čaj, voda, bílá káva",
+        "d": "Jablko · Neslazený bylinný čaj, voda, kapučínek",
         "a": [
           1,
           3,
@@ -2679,7 +2679,7 @@
           },
           {
             "l": "Nápoj",
-            "n": "Neslazený bylinný čaj, voda, bílá káva",
+            "n": "Neslazený bylinný čaj, voda, kapučínek",
             "a": [
               1,
               7
@@ -2690,7 +2690,7 @@
       {
         "c": "obed2",
         "n": "Celerový salát",
-        "d": "Pečivo · Jablko · Neslazený bylinný čaj, voda, bílá káva",
+        "d": "Pečivo · Jablko · Neslazený bylinný čaj, voda, kapučínek",
         "a": [
           1,
           3,
@@ -2725,7 +2725,7 @@
           },
           {
             "l": "Nápoj",
-            "n": "Neslazený bylinný čaj, voda, bílá káva",
+            "n": "Neslazený bylinný čaj, voda, kapučínek",
             "a": [
               1,
               7
@@ -2750,7 +2750,7 @@
       {
         "c": "obed",
         "n": "Obalovaný květák",
-        "d": "Brambory, dresink ze zakysané smetany · Čaj s citronem, voda, horká čokoláda",
+        "d": "Brambory, dresink ze zakysané smetany · Kompot · Čaj s citronem, voda, horká čokoláda",
         "a": [
           1,
           3,
@@ -2774,6 +2774,11 @@
             ]
           },
           {
+            "l": "Doplněk",
+            "n": "Kompot",
+            "a": []
+          },
+          {
             "l": "Nápoj",
             "n": "Čaj s citronem, voda, horká čokoláda",
             "a": [
@@ -2786,7 +2791,7 @@
       {
         "c": "obed2",
         "n": "Masové kuličky v rajské omáčce",
-        "d": "Těstoviny · Čaj s citronem, voda, horká čokoláda",
+        "d": "Těstoviny · Kompot · Čaj s citronem, voda, horká čokoláda",
         "a": [
           1,
           3,
@@ -2810,6 +2815,11 @@
               3,
               7
             ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Kompot",
+            "a": []
           },
           {
             "l": "Nápoj",
@@ -4318,6 +4328,24 @@
             "a": [
               7
             ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-11-17": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "obed",
+        "n": "Státní svátek",
+        "d": "",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Státní svátek",
+            "a": []
           }
         ]
       }

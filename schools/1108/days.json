@@ -2484,22 +2484,14 @@
     "chody": [
       {
         "c": "presnidavka",
-        "n": "Tvarohový koláček, kakao, jablko",
+        "n": "Tvarohový koláček, čaj",
         "d": "",
-        "a": [
-          1,
-          3,
-          7
-        ],
+        "a": [],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Tvarohový koláček, kakao, jablko",
-            "a": [
-              1,
-              3,
-              7
-            ]
+            "n": "Tvarohový koláček, čaj",
+            "a": []
           }
         ]
       },
@@ -2515,8 +2507,9 @@
       {
         "c": "obed",
         "n": "Pečená kuřecí stehýnka",
-        "d": "Brambory · Zeleninový salát · Džus, voda",
+        "d": "Celozrnná rýže · Zeleninový salát · Džus, voda",
         "a": [
+          1,
           7
         ],
         "p": [
@@ -2529,8 +2522,10 @@
           },
           {
             "l": "Příloha",
-            "n": "Brambory",
-            "a": []
+            "n": "Celozrnná rýže",
+            "a": [
+              1
+            ]
           },
           {
             "l": "Doplněk",
@@ -2656,7 +2651,7 @@
     "chody": [
       {
         "c": "presnidavka",
-        "n": "Bageta s tvarohovou pom., paprika, rajče, granko",
+        "n": "Cereální bageta s tvsrohovou pom., rajče, paprika, granko",
         "d": "",
         "a": [
           1,
@@ -2666,7 +2661,7 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Bageta s tvarohovou pom., paprika, rajče, granko",
+            "n": "Cereální bageta s tvsrohovou pom., rajče, paprika, granko",
             "a": [
               1,
               3,
