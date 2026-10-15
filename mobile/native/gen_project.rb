@@ -96,7 +96,7 @@ wdgroup.new_file('Info.plist')
 def add_widget(project, name, bundle, platform, deploy, shared, widget_src, build_number)
   t = project.new_target(:app_extension, name, platform, deploy)
   t.add_file_references([widget_src])
-  %w[Models.swift DataService.swift SharedStore.swift].each do |f|
+  %w[Models.swift DataService.swift SharedStore.swift DaySummary.swift].each do |f|
     ref = shared.files.find { |x| x.path == f }
     t.add_file_references([ref])
   end

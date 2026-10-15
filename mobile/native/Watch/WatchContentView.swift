@@ -45,7 +45,8 @@ private struct DayCard: View {
 
     var body: some View {
         let sk = model.skupina(date)
-        VStack(alignment: .leading, spacing: 4) {
+        let day = DaySummary(sk)
+        VStack(alignment: .leading, spacing: 5) {
             HStack {
                 Text(title.uppercased()).font(.caption2.weight(.semibold)).foregroundStyle(.secondary)
                 Spacer()
@@ -55,10 +56,27 @@ private struct DayCard: View {
                 default: EmptyView()
                 }
             }
-            if let m = model.lunch(date) {
-                Text(m.n).font(.headline).fixedSize(horizontal: false, vertical: true)
-                if !m.d.isEmpty { Text(m.d).font(.caption).foregroundStyle(.secondary) }
-                if let v = sk?.vydej { Text(v).font(.caption2).foregroundStyle(.tertiary) }
+            if let day {
+                if let soup = day.soup {
+                    VStack(alignment: .leading, spacing: 0) {
+                        Text("Polévka").font(.system(size: 10, weight: .semibold)).foregroundStyle(.secondary)
+                        Text(soup).font(.footnote)
+                    }
+                }
+                ForEach(day.mains) { m in
+                    VStack(alignment: .leading, spacing: 1) {
+                        Text("Hlavní chod").font(.system(size: 10, weight: .semibold)).foregroundStyle(.secondary)
+                        Text(m.name).font(.headline).fixedSize(horizontal: false, vertical: true)
+                        if !m.desc.isEmpty { Text(m.desc).font(.caption).foregroundStyle(.secondary) }
+                    }
+                }
+                if let choice = day.choice {
+                    VStack(alignment: .leading, spacing: 0) {
+                        Text("Na výběr").font(.system(size: 10, weight: .semibold)).foregroundStyle(.secondary)
+                        Text(choice).font(.caption).foregroundStyle(.secondary)
+                    }
+                }
+                if let v = day.vydej { Text(v).font(.caption2).foregroundStyle(.tertiary) }
             } else {
                 Text("Bez oběda").font(.subheadline).foregroundStyle(.secondary)
             }
