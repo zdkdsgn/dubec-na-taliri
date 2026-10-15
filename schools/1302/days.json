@@ -1948,7 +1948,7 @@
       {
         "c": "obed",
         "n": "Pečený kuřecí steak",
-        "d": "Rýže basmati · Červená řepa",
+        "d": "Rýže basmati · Rajčatový salát",
         "a": [
           1,
           7
@@ -1969,7 +1969,7 @@
           },
           {
             "l": "Doplněk",
-            "n": "Červená řepa",
+            "n": "Rajčatový salát",
             "a": []
           }
         ]
@@ -2107,6 +2107,168 @@
             "a": []
           }
         ]
+      }
+    ]
+  },
+  "2026-10-26": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Pohanková se zeleninou",
+        "d": "",
+        "a": [
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Krůtí sekaná",
+        "d": "Vařené brambory · Zelný salát s kukuřicí · MŠ čaj, voda, ZŠ mléko, voda",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Krůtí sekaná",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Vařené brambory",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zelný salát s kukuřicí",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "MŠ čaj, voda, ZŠ mléko, voda",
+            "a": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-27": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Kuřecí vývar s nudlemi a játrovým kapáním",
+        "d": "",
+        "a": [
+          1,
+          3,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Kuskus se zeleninou sypaný paprikovým sýrem",
+        "d": "Červená řepa, ovoce · Čaj, voda",
+        "a": [
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Kuskus se zeleninou sypaný paprikovým sýrem",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Červená řepa, ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj, voda",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "n": "Fazolový guláš s vepřovým masem",
+        "d": "Kmínový chléb · Ovoce · Čaj, voda",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Fazolový guláš s vepřovým masem",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Kmínový chléb",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj, voda",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-28": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Státní svátek",
+        "d": "",
+        "a": []
+      }
+    ]
+  },
+  "2026-10-29": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "ZŠ podzimní prázdniny",
+        "d": "",
+        "a": []
+      }
+    ]
+  },
+  "2026-10-30": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "ZŠ podzimní prázdniny",
+        "d": "",
+        "a": []
       }
     ]
   }

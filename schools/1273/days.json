@@ -3900,5 +3900,652 @@
         ]
       }
     }
+  },
+  "2026-10-19": {
+    "skupiny": {
+      "ms": {
+        "vydej": "11:00–13:30",
+        "chody": [
+          {
+            "c": "presnidavka",
+            "n": "Sýrová s nivou, Pečivo",
+            "d": "",
+            "a": [
+              7
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Sýrová s nivou, Pečivo",
+                "a": [
+                  7
+                ]
+              }
+            ]
+          },
+          {
+            "c": "polevka",
+            "n": "Dýňová s opraženými semínky",
+            "d": "",
+            "a": [
+              1,
+              5,
+              7
+            ]
+          },
+          {
+            "c": "obed",
+            "n": "Rýžový nákyp",
+            "d": "",
+            "a": [
+              1,
+              3,
+              7
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Rýžový nákyp",
+                "a": [
+                  1,
+                  3,
+                  7
+                ]
+              }
+            ]
+          },
+          {
+            "c": "svacina",
+            "n": "Kedlubnová pomazánka, Pečivo",
+            "d": "",
+            "a": [],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Kedlubnová pomazánka, Pečivo",
+                "a": []
+              }
+            ]
+          }
+        ]
+      },
+      "zs": {
+        "vydej": "11:30–13:30",
+        "chody": [
+          {
+            "c": "polevka",
+            "n": "Dýňová s opraženými semínky",
+            "d": "",
+            "a": [
+              1,
+              5,
+              7
+            ]
+          },
+          {
+            "c": "obed",
+            "n": "Kuřecí čína",
+            "d": "Dušená rýže",
+            "a": [
+              1
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Kuřecí čína",
+                "a": [
+                  1
+                ]
+              },
+              {
+                "l": "Příloha",
+                "n": "Dušená rýže",
+                "a": []
+              }
+            ]
+          },
+          {
+            "c": "obed2",
+            "n": "Rýžový nákyp",
+            "d": "",
+            "a": [
+              1,
+              3,
+              7
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Rýžový nákyp",
+                "a": [
+                  1,
+                  3,
+                  7
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "2026-10-20": {
+    "skupiny": {
+      "ms": {
+        "vydej": "11:00–13:30",
+        "chody": [
+          {
+            "c": "presnidavka",
+            "n": "Cibulová se sušenými rajčaty, pečivo",
+            "d": "",
+            "a": [],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Cibulová se sušenými rajčaty, pečivo",
+                "a": []
+              }
+            ]
+          },
+          {
+            "c": "polevka",
+            "n": "Kmínová s vejcem",
+            "d": "",
+            "a": [
+              3
+            ]
+          },
+          {
+            "c": "obed",
+            "n": "Obalený květák",
+            "d": "Brambory · Zelný salát",
+            "a": [],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Obalený květák",
+                "a": []
+              },
+              {
+                "l": "Příloha",
+                "n": "Brambory",
+                "a": []
+              },
+              {
+                "l": "Doplněk",
+                "n": "Zelný salát",
+                "a": []
+              }
+            ]
+          },
+          {
+            "c": "svacina",
+            "n": "Pudink s piškoty",
+            "d": "",
+            "a": [
+              1,
+              3,
+              7
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Pudink s piškoty",
+                "a": [
+                  1,
+                  3,
+                  7
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "zs": {
+        "vydej": "11:30–13:30",
+        "chody": [
+          {
+            "c": "polevka",
+            "n": "Kmínová s vejcem",
+            "d": "",
+            "a": [
+              3
+            ]
+          },
+          {
+            "c": "obed",
+            "n": "Karbanátky",
+            "d": "Brambory · Zelný salát",
+            "a": [
+              1,
+              3
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Karbanátky",
+                "a": [
+                  1,
+                  3
+                ]
+              },
+              {
+                "l": "Příloha",
+                "n": "Brambory",
+                "a": []
+              },
+              {
+                "l": "Doplněk",
+                "n": "Zelný salát",
+                "a": []
+              }
+            ]
+          },
+          {
+            "c": "obed2",
+            "n": "Obalený květák",
+            "d": "Brambory · Zelný salát",
+            "a": [],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Obalený květák",
+                "a": []
+              },
+              {
+                "l": "Příloha",
+                "n": "Brambory",
+                "a": []
+              },
+              {
+                "l": "Doplněk",
+                "n": "Zelný salát",
+                "a": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "2026-10-21": {
+    "skupiny": {
+      "ms": {
+        "vydej": "11:00–13:30",
+        "chody": [
+          {
+            "c": "presnidavka",
+            "n": "Lososová pomazánka, pečivo",
+            "d": "",
+            "a": [
+              3,
+              4,
+              7
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Lososová pomazánka, pečivo",
+                "a": [
+                  3,
+                  4,
+                  7
+                ]
+              }
+            ]
+          },
+          {
+            "c": "polevka",
+            "n": "Hrstková",
+            "d": "",
+            "a": [
+              1
+            ]
+          },
+          {
+            "c": "obed",
+            "n": "Šunkofleky",
+            "d": "Červená řepa",
+            "a": [],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Šunkofleky",
+                "a": []
+              },
+              {
+                "l": "Doplněk",
+                "n": "Červená řepa",
+                "a": []
+              }
+            ]
+          },
+          {
+            "c": "svacina",
+            "n": "Pizza",
+            "d": "",
+            "a": [],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Pizza",
+                "a": []
+              }
+            ]
+          }
+        ]
+      },
+      "zs": {
+        "vydej": "11:30–13:30",
+        "chody": [
+          {
+            "c": "polevka",
+            "n": "Hrstková",
+            "d": "",
+            "a": [
+              1
+            ]
+          },
+          {
+            "c": "obed",
+            "n": "Šunkofleky",
+            "d": "Červená řepa",
+            "a": [
+              1,
+              3
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Šunkofleky",
+                "a": [
+                  1,
+                  3
+                ]
+              },
+              {
+                "l": "Doplněk",
+                "n": "Červená řepa",
+                "a": []
+              }
+            ]
+          },
+          {
+            "c": "obed2",
+            "n": "Těstoviny s pestem a parmazánem",
+            "d": "",
+            "a": [
+              1,
+              3
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Těstoviny s pestem a parmazánem",
+                "a": [
+                  1,
+                  3
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "2026-10-22": {
+    "skupiny": {
+      "ms": {
+        "vydej": "11:00–13:30",
+        "chody": [
+          {
+            "c": "presnidavka",
+            "n": "Mrkvová pomazánka, pečivo",
+            "d": "",
+            "a": [
+              7
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Mrkvová pomazánka, pečivo",
+                "a": [
+                  7
+                ]
+              }
+            ]
+          },
+          {
+            "c": "polevka",
+            "n": "Zeleninová s flíčkami",
+            "d": "",
+            "a": []
+          },
+          {
+            "c": "obed",
+            "n": "Segedínský guláš",
+            "d": "Houskový knedlík",
+            "a": [
+              1,
+              7
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Segedínský guláš",
+                "a": [
+                  1,
+                  7
+                ]
+              },
+              {
+                "l": "Příloha",
+                "n": "Houskový knedlík",
+                "a": []
+              }
+            ]
+          },
+          {
+            "c": "svacina",
+            "n": "Cornflakes s mlékem",
+            "d": "",
+            "a": [
+              1,
+              7
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Cornflakes s mlékem",
+                "a": [
+                  1,
+                  7
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "zs": {
+        "vydej": "11:30–13:30",
+        "chody": [
+          {
+            "c": "polevka",
+            "n": "Hovězí s Flíčkami",
+            "d": "",
+            "a": []
+          },
+          {
+            "c": "obed",
+            "n": "Segedínský guláš",
+            "d": "Houskový knedlík",
+            "a": [
+              1,
+              3,
+              7
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Segedínský guláš",
+                "a": [
+                  1,
+                  7
+                ]
+              },
+              {
+                "l": "Příloha",
+                "n": "Houskový knedlík",
+                "a": [
+                  1,
+                  3
+                ]
+              }
+            ]
+          },
+          {
+            "c": "obed2",
+            "n": "Vege segedínský guláš",
+            "d": "Houskový knedlík",
+            "a": [
+              1,
+              3,
+              13
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Vege segedínský guláš",
+                "a": [
+                  13
+                ]
+              },
+              {
+                "l": "Příloha",
+                "n": "Houskový knedlík",
+                "a": [
+                  1,
+                  3
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "2026-10-23": {
+    "skupiny": {
+      "ms": {
+        "vydej": "11:00–13:30",
+        "chody": [
+          {
+            "c": "presnidavka",
+            "n": "Šunková s lněným seminkem, Pečivo",
+            "d": "",
+            "a": [],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Šunková s lněným seminkem, Pečivo",
+                "a": []
+              }
+            ]
+          },
+          {
+            "c": "polevka",
+            "n": "Frankfurtská",
+            "d": "",
+            "a": [
+              1
+            ]
+          },
+          {
+            "c": "obed",
+            "n": "Gnocchi zapečené se špenátem a sýrem",
+            "d": "",
+            "a": [],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Gnocchi zapečené se špenátem a sýrem",
+                "a": []
+              }
+            ]
+          },
+          {
+            "c": "svacina",
+            "n": "Štrůdl",
+            "d": "",
+            "a": [
+              1,
+              3,
+              7
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Štrůdl",
+                "a": [
+                  1,
+                  3,
+                  7
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "zs": {
+        "vydej": "11:30–13:30",
+        "chody": [
+          {
+            "c": "polevka",
+            "n": "Dršťková",
+            "d": "",
+            "a": [
+              1
+            ]
+          },
+          {
+            "c": "obed",
+            "n": "Zbojnická hovězí pečeně, špenát",
+            "d": "Bramborový knedlík",
+            "a": [
+              1,
+              3
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Zbojnická hovězí pečeně, špenát",
+                "a": []
+              },
+              {
+                "l": "Příloha",
+                "n": "Bramborový knedlík",
+                "a": [
+                  1,
+                  3
+                ]
+              }
+            ]
+          },
+          {
+            "c": "obed2",
+            "n": "Gnocchi zapečené se špenátem a sýrem",
+            "d": "",
+            "a": [],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Gnocchi zapečené se špenátem a sýrem",
+                "a": []
+              }
+            ]
+          }
+        ]
+      }
+    }
   }
 }

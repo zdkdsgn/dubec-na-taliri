@@ -2816,12 +2816,16 @@
         "c": "obed",
         "n": "Kuřecí ala china",
         "d": "Rýže · Ovocný čaj",
-        "a": [],
+        "a": [
+          3
+        ],
         "p": [
           {
             "l": "Jídlo",
             "n": "Kuřecí ala china",
-            "a": []
+            "a": [
+              3
+            ]
           },
           {
             "l": "Příloha",
@@ -4685,6 +4689,544 @@
           {
             "l": "Nápoj",
             "n": "Mléko, čaj",
+            "a": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-11-09": {
+    "vydej": "11:30–12:15",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Chléb, pomazánka z patifu s dýní hokkaido",
+        "d": "Zelenina míchaná · Mléko, čaj borůvka rakytník",
+        "a": [
+          1,
+          6,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Chléb, pomazánka z patifu s dýní hokkaido",
+            "a": [
+              1,
+              6,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zelenina míchaná",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko, čaj borůvka rakytník",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Polévka zeleninová s krupic.noky",
+        "d": "",
+        "a": [
+          1,
+          3,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Široké nudle s omáčkou z gervaisu, kuřecího masa a brokolice",
+        "d": "Mošt hruškový",
+        "a": [
+          1,
+          7,
+          12
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Široké nudle s omáčkou z gervaisu, kuřecího masa a brokolice",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mošt hruškový",
+            "a": [
+              12
+            ]
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Chléb, máslo, med",
+        "d": "Jablko, hruška · Čaj, mléko",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Chléb, máslo, med",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Jablko, hruška",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj, mléko",
+            "a": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-11-10": {
+    "vydej": "11:30–12:15",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Pečivo s pomazánkou z tvarohu a čerstvé kapie",
+        "d": "Mandarinka, hruška · Čaj ovocný citrusový, mléko",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Pečivo s pomazánkou z tvarohu a čerstvé kapie",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Mandarinka, hruška",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj ovocný citrusový, mléko",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Polévka cuketová",
+        "d": "",
+        "a": [
+          1
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Srbské vepřové maso",
+        "d": "Těstoviny · Ovocný ochucený čaj",
+        "a": [
+          1
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Srbské vepřové maso",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Těstoviny",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný ochucený čaj",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Moučník s ovocem na plechu",
+        "d": "Ovoce · Mléko, čaj šípkový",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Moučník s ovocem na plechu",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko, čaj šípkový",
+            "a": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-11-11": {
+    "vydej": "11:30–12:15",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Žitný chléb, rama strouhaný sýr",
+        "d": "Salátová okurka, kapie · Čaj se sirupem, mléko",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Žitný chléb, rama strouhaný sýr",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Salátová okurka, kapie",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj se sirupem, mléko",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Polévka hovězí s masem a bulgurem, zeleninou",
+        "d": "",
+        "a": [
+          1,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "File z mečouna s citronovým přelivem",
+        "d": "Brambory šťouchané · Kompot · Čaj divoká třešeň",
+        "a": [
+          4,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "File z mečouna s citronovým přelivem",
+            "a": [
+              4
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Brambory šťouchané",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Kompot",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj divoká třešeň",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Loupák s máslem",
+        "d": "Ovoce míchané · Mléko, čaj",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Loupák s máslem",
+            "a": [
+              1,
+              3
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce míchané",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko, čaj",
+            "a": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-11-12": {
+    "vydej": "11:30–12:15",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Cereálie, mléko",
+        "d": "Ovoce míchané · Čaj malinový",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Cereálie, mléko",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce míchané",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj malinový",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Polévka z dýně hokaido",
+        "d": "",
+        "a": [
+          1,
+          7
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Chilli con carne s hovězím masem",
+        "d": "Dušená basmati rýže · Čaj",
+        "a": [
+          1,
+          11
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Chilli con carne s hovězím masem",
+            "a": [
+              1,
+              11
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Dušená basmati rýže",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Chléb, rama, ochucená lučina",
+        "d": "Zelenina(kedlubna, kapie) · Mléko, ochucené mléko, čaj",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Chléb, rama, ochucená lučina",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zelenina(kedlubna, kapie)",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko, ochucené mléko, čaj",
+            "a": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-11-13": {
+    "vydej": "11:30–12:15",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "n": "CHléb pomazánka z uzeného lososa",
+        "d": "Zeleninový talíř · Mléko, čaj ovocný s ibiškem",
+        "a": [
+          1,
+          4,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "CHléb pomazánka z uzeného lososa",
+            "a": [
+              1,
+              4,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zeleninový talíř",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko, čaj ovocný s ibiškem",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Polévka mrkvová s těstovinou",
+        "d": "",
+        "a": [
+          1,
+          7
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Vepřové maso na kmíně",
+        "d": "Brambory · Čaj citronový",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Vepřové maso na kmíně",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Brambory",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj citronový",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Dětská ovocná přesnídávka",
+        "d": "Rohlík · Čaj, mléko",
+        "a": [
+          1,
+          7,
+          12
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Dětská ovocná přesnídávka",
+            "a": [
+              12
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Rohlík",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj, mléko",
             "a": [
               7
             ]

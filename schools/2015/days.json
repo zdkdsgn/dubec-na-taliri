@@ -3849,7 +3849,7 @@
       {
         "c": "obed",
         "n": "Obalovaný rybí steak",
-        "d": "Brambory, domácí dip · Domácí mléčný koktejl · Ovocný nápoj, voda, mléko",
+        "d": "Petrželkové brambůrky, domácí dip · Domácí mléčný koktejl · Ovocný nápoj, voda, mléko",
         "a": [
           1,
           3,
@@ -3870,7 +3870,7 @@
           },
           {
             "l": "Příloha",
-            "n": "Brambory, domácí dip",
+            "n": "Petrželkové brambůrky, domácí dip",
             "a": [
               7,
               10
@@ -4102,9 +4102,10 @@
       {
         "c": "obed",
         "n": "Trhané pečené maso",
-        "d": "Brambory · Zeleninový bufet · Ovocný nápoj, voda, mléko",
+        "d": "Brambory, domácí dip · Zeleninový bufet · Ovocný nápoj, voda, mléko",
         "a": [
-          7
+          7,
+          10
         ],
         "p": [
           {
@@ -4116,9 +4117,10 @@
           },
           {
             "l": "Příloha",
-            "n": "Brambory",
+            "n": "Brambory, domácí dip",
             "a": [
-              7
+              7,
+              10
             ]
           },
           {
@@ -4365,23 +4367,21 @@
       },
       {
         "c": "svacina",
-        "n": "Jemná sýrová pomazánka, vícezrnný rohlík",
+        "n": "Jemná sýrová pomazánka, houska",
         "d": "Zelenina · Mléko",
         "a": [
           1,
           3,
-          7,
-          11
+          7
         ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Jemná sýrová pomazánka, vícezrnný rohlík",
+            "n": "Jemná sýrová pomazánka, houska",
             "a": [
               1,
               3,
-              7,
-              11
+              7
             ]
           },
           {

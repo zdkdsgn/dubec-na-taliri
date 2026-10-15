@@ -2967,6 +2967,27 @@
     "vydej": "11:00–14:00",
     "chody": [
       {
+        "c": "presnidavka",
+        "n": "Chléb, vaječná pomazánka, zelenina, mléko",
+        "d": "",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Chléb, vaječná pomazánka, zelenina, mléko",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          }
+        ]
+      },
+      {
         "c": "polevka",
         "n": "Jáhelná se zeleninou",
         "d": "",
@@ -3009,6 +3030,25 @@
             "a": []
           }
         ]
+      },
+      {
+        "c": "svacina",
+        "n": "Graham, pomazánkové máslo, čaj",
+        "d": "",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Graham, pomazánkové máslo, čaj",
+            "a": [
+              1,
+              7
+            ]
+          }
+        ]
       }
     ]
   },
@@ -3016,11 +3056,31 @@
     "vydej": "11:00–14:00",
     "chody": [
       {
-        "c": "polevka",
-        "n": "Bramborová",
+        "c": "presnidavka",
+        "n": "Krupicová kaše s kakaem, ovoce, čaj",
         "d": "",
         "a": [
           1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Krupicová kaše s kakaem, ovoce, čaj",
+            "a": [
+              1,
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Květáková",
+        "d": "",
+        "a": [
+          1,
+          7,
           9
         ]
       },
@@ -3054,12 +3114,52 @@
             "a": []
           }
         ]
+      },
+      {
+        "c": "svacina",
+        "n": "Chléb, máslo, šunka, čaj",
+        "d": "",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Chléb, máslo, šunka, čaj",
+            "a": [
+              1,
+              7
+            ]
+          }
+        ]
       }
     ]
   },
   "2026-10-21": {
     "vydej": "11:00–14:00",
     "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Kaiserka, tvarohová pomazánka, zelenina, kakao",
+        "d": "",
+        "a": [
+          1,
+          6,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Kaiserka, tvarohová pomazánka, zelenina, kakao",
+            "a": [
+              1,
+              6,
+              7
+            ]
+          }
+        ]
+      },
       {
         "c": "polevka",
         "n": "Mrkvová s ovesnými vločkami",
@@ -3106,6 +3206,23 @@
             "a": []
           }
         ]
+      },
+      {
+        "c": "svacina",
+        "n": "Banán, mléko",
+        "d": "",
+        "a": [
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Banán, mléko",
+            "a": [
+              7
+            ]
+          }
+        ]
       }
     ]
   },
@@ -3113,34 +3230,62 @@
     "vydej": "11:00–14:00",
     "chody": [
       {
-        "c": "polevka",
-        "n": "Krupicová s vejcem",
+        "c": "presnidavka",
+        "n": "Chléb pomazánka z ryb v tomatě, kapie, čaj",
         "d": "",
         "a": [
           1,
-          3,
+          4,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Chléb pomazánka z ryb v tomatě, kapie, čaj",
+            "a": [
+              1,
+              4,
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Bramborová",
+        "d": "",
+        "a": [
+          1,
           9
         ]
       },
       {
         "c": "obed",
-        "n": "Moravský vrabec",
-        "d": "Hrachová kaše, chléb · Okurek sterilovaný · Čaj",
+        "n": "Čočka na kyselo, vejce",
+        "d": "Chléb · Okurek sterilovaný · Čaj",
         "a": [
           1,
+          3,
+          7,
+          9,
           10
         ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Moravský vrabec",
-            "a": []
+            "n": "Čočka na kyselo, vejce",
+            "a": [
+              1,
+              3,
+              9
+            ]
           },
           {
             "l": "Příloha",
-            "n": "Hrachová kaše, chléb",
+            "n": "Chléb",
             "a": [
-              1
+              1,
+              7
             ]
           },
           {
@@ -3156,12 +3301,56 @@
             "a": []
           }
         ]
+      },
+      {
+        "c": "svacina",
+        "n": "Celozrnný rohlík, máslo, sýr, čaj",
+        "d": "",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Celozrnný rohlík, máslo, sýr, čaj",
+            "a": [
+              1,
+              7
+            ]
+          }
+        ]
       }
     ]
   },
   "2026-10-23": {
     "vydej": "11:00–14:00",
     "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Vánočka, ovoce, mléko",
+        "d": "",
+        "a": [
+          1,
+          3,
+          6,
+          7,
+          8
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Vánočka, ovoce, mléko",
+            "a": [
+              1,
+              3,
+              6,
+              7,
+              8
+            ]
+          }
+        ]
+      },
       {
         "c": "polevka",
         "n": "Zeleninová s kukuřičnými vločkami",
@@ -3199,6 +3388,25 @@
             "l": "Nápoj",
             "n": "Voda s pomerančem",
             "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Chléb, žervé, čaj",
+        "d": "",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Chléb, žervé, čaj",
+            "a": [
+              1,
+              7
+            ]
           }
         ]
       }

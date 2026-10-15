@@ -11286,5 +11286,237 @@
         ]
       }
     }
+  },
+  "2026-11-18": {
+    "skupiny": {
+      "ms": {
+        "vydej": "11:00–14:00",
+        "chody": [
+          {
+            "c": "presnidavka",
+            "n": "Grahamové pečivo, lučinová pomazánka s tvarohem",
+            "d": "Pažitka · Čerstvé mléko",
+            "a": [
+              1,
+              7
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Grahamové pečivo, lučinová pomazánka s tvarohem",
+                "a": [
+                  1,
+                  7
+                ]
+              },
+              {
+                "l": "Doplněk",
+                "n": "Pažitka",
+                "a": []
+              },
+              {
+                "l": "Nápoj",
+                "n": "Čerstvé mléko",
+                "a": [
+                  7
+                ]
+              }
+            ]
+          },
+          {
+            "c": "polevka",
+            "n": "Polévka rajská s rýží",
+            "d": "",
+            "a": [
+              1,
+              9
+            ]
+          },
+          {
+            "c": "obed",
+            "n": "Selská pečeně",
+            "d": "Bramborová kaše · Kompot, ovoce · Čaj, vitamínový nápoj",
+            "a": [
+              1,
+              7
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Selská pečeně",
+                "a": [
+                  1
+                ]
+              },
+              {
+                "l": "Příloha",
+                "n": "Bramborová kaše",
+                "a": [
+                  7
+                ]
+              },
+              {
+                "l": "Doplněk",
+                "n": "Kompot, ovoce",
+                "a": []
+              },
+              {
+                "l": "Nápoj",
+                "n": "Čaj, vitamínový nápoj",
+                "a": []
+              }
+            ]
+          },
+          {
+            "c": "svacina",
+            "n": "Lámankový chléb, máslo, vařené vejce",
+            "d": "Cherry rajče · Čaj",
+            "a": [
+              1,
+              3,
+              7
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Lámankový chléb, máslo, vařené vejce",
+                "a": [
+                  1,
+                  3,
+                  7
+                ]
+              },
+              {
+                "l": "Doplněk",
+                "n": "Cherry rajče",
+                "a": []
+              },
+              {
+                "l": "Nápoj",
+                "n": "Čaj",
+                "a": []
+              }
+            ]
+          }
+        ]
+      },
+      "zs": {
+        "vydej": "11:00–14:00",
+        "chody": [
+          {
+            "c": "presnidavka",
+            "n": "Grahamové pečivo, lučinová pomazánka s tvarohem",
+            "d": "Pažitka · Čerstvé mléko",
+            "a": [
+              1,
+              7
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Grahamové pečivo, lučinová pomazánka s tvarohem",
+                "a": [
+                  1,
+                  7
+                ]
+              },
+              {
+                "l": "Doplněk",
+                "n": "Pažitka",
+                "a": []
+              },
+              {
+                "l": "Nápoj",
+                "n": "Čerstvé mléko",
+                "a": [
+                  7
+                ]
+              }
+            ]
+          },
+          {
+            "c": "polevka",
+            "n": "Polévka rajská s rýží",
+            "d": "",
+            "a": [
+              1,
+              9
+            ]
+          },
+          {
+            "c": "obed",
+            "n": "Selská pečeně",
+            "d": "Bramborová kaše · Kompot, ovoce · Čaj, vitamínový nápoj",
+            "a": [
+              1,
+              7
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Selská pečeně",
+                "a": [
+                  1
+                ]
+              },
+              {
+                "l": "Příloha",
+                "n": "Bramborová kaše",
+                "a": [
+                  7
+                ]
+              },
+              {
+                "l": "Doplněk",
+                "n": "Kompot, ovoce",
+                "a": []
+              },
+              {
+                "l": "Nápoj",
+                "n": "Čaj, vitamínový nápoj",
+                "a": []
+              }
+            ]
+          },
+          {
+            "c": "obed2",
+            "n": "Krakovský fazolový salát",
+            "d": "Pečivo · Ovoce · Čaj, vitamínový nápoj",
+            "a": [
+              1,
+              3,
+              7
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Krakovský fazolový salát",
+                "a": [
+                  3,
+                  7
+                ]
+              },
+              {
+                "l": "Příloha",
+                "n": "Pečivo",
+                "a": [
+                  1
+                ]
+              },
+              {
+                "l": "Doplněk",
+                "n": "Ovoce",
+                "a": []
+              },
+              {
+                "l": "Nápoj",
+                "n": "Čaj, vitamínový nápoj",
+                "a": []
+              }
+            ]
+          }
+        ]
+      }
+    }
   }
 }

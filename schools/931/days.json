@@ -4601,6 +4601,7 @@
             "d": "Mrkev · Mléko",
             "a": [
               1,
+              3,
               7
             ],
             "p": [
@@ -4609,6 +4610,7 @@
                 "n": "Rohlík, pomazánka kapiová",
                 "a": [
                   1,
+                  3,
                   7
                 ]
               },
@@ -4644,13 +4646,16 @@
             "n": "Halibut pečený na bylinkách",
             "d": "Bramborovo-dýňové pyré · Polníček · Ovocný čaj",
             "a": [
+              4,
               7
             ],
             "p": [
               {
                 "l": "Jídlo",
                 "n": "Halibut pečený na bylinkách",
-                "a": []
+                "a": [
+                  4
+                ]
               },
               {
                 "l": "Příloha",
@@ -5477,40 +5482,41 @@
           },
           {
             "c": "polevka",
-            "n": "Zeleninová s bulgurem",
+            "n": "Bramborová se sýrem",
             "d": "",
             "a": [
+              7,
               9
             ]
           },
           {
             "c": "obed",
-            "n": "Zvěřinová sekaná",
-            "d": "Bramborová kaše · Zeleninový bar · Džus bez sladidel, voda ochucená",
+            "n": "Zeleninová čočka",
+            "d": "Slunečnicový chléb · Sterilovaný okurek · Džus bez sladidel, voda ochucená",
             "a": [
               1,
-              3,
-              7
+              6,
+              9
             ],
             "p": [
               {
                 "l": "Jídlo",
-                "n": "Zvěřinová sekaná",
+                "n": "Zeleninová čočka",
                 "a": [
-                  1,
-                  3
+                  9
                 ]
               },
               {
                 "l": "Příloha",
-                "n": "Bramborová kaše",
+                "n": "Slunečnicový chléb",
                 "a": [
-                  7
+                  1,
+                  6
                 ]
               },
               {
                 "l": "Doplněk",
-                "n": "Zeleninový bar",
+                "n": "Sterilovaný okurek",
                 "a": []
               },
               {
@@ -5636,37 +5642,40 @@
           },
           {
             "c": "polevka",
-            "n": "Bramborová se sýrem",
+            "n": "Zeleninová s bulgurem",
             "d": "",
             "a": [
-              7
+              9
             ]
           },
           {
             "c": "obed",
-            "n": "Zeleninová čočka",
-            "d": "Slunečnicový chléb · Sterilovaný okurek · Džus, voda s limetkou",
+            "n": "Zvěřinová sekaná",
+            "d": "Bramborová kaše · Zeleninový bar · Džus, voda s limetkou",
             "a": [
               1,
-              6
+              3,
+              7
             ],
             "p": [
               {
                 "l": "Jídlo",
-                "n": "Zeleninová čočka",
-                "a": []
+                "n": "Zvěřinová sekaná",
+                "a": [
+                  1,
+                  3
+                ]
               },
               {
                 "l": "Příloha",
-                "n": "Slunečnicový chléb",
+                "n": "Bramborová kaše",
                 "a": [
-                  1,
-                  6
+                  7
                 ]
               },
               {
                 "l": "Doplněk",
-                "n": "Sterilovaný okurek",
+                "n": "Zeleninový bar",
                 "a": []
               },
               {

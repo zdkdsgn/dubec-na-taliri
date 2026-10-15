@@ -2295,7 +2295,7 @@
       },
       {
         "c": "obed",
-        "n": "Kuřecí plátek, domácí americké brambory, kečup, obloha",
+        "n": "Drůbeží plátek, domácí americké brambory, kečup",
         "d": "Ovocná šťáva",
         "a": [
           1
@@ -2303,7 +2303,7 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Kuřecí plátek, domácí americké brambory, kečup, obloha",
+            "n": "Drůbeží plátek, domácí americké brambory, kečup",
             "a": [
               1
             ]
@@ -2339,16 +2339,20 @@
     "chody": [
       {
         "c": "presnidavka",
-        "n": "Domácí přibináček, rohlík jablko, čaj",
+        "n": "Chleba s pomazánkovým máslem, mléko, čaj",
         "d": "",
         "a": [
+          1,
+          3,
           7
         ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Domácí přibináček, rohlík jablko, čaj",
+            "n": "Chleba s pomazánkovým máslem, mléko, čaj",
             "a": [
+              1,
+              3,
               7
             ]
           }
@@ -2445,7 +2449,7 @@
       {
         "c": "obed",
         "n": "Pečené kuřecí stehno na rozmarínu a česneku",
-        "d": "Bramborová kaše · Zeleninová obloha · Ovocná šťáva",
+        "d": "Bramborová kaše · Ovocná šťáva",
         "a": [
           1,
           7
@@ -2464,11 +2468,6 @@
             "a": [
               7
             ]
-          },
-          {
-            "l": "Doplněk",
-            "n": "Zeleninová obloha",
-            "a": []
           },
           {
             "l": "Nápoj",

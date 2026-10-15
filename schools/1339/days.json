@@ -4441,5 +4441,80 @@
         ]
       }
     ]
+  },
+  "2026-11-18": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Chléb, pomazánka vitamínová, mrkev, malinový čaj",
+        "d": "",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Chléb, pomazánka vitamínová, mrkev, malinový čaj",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Kuřecí s těstovinou",
+        "d": "",
+        "a": [
+          1,
+          3
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Čočkové ragů",
+        "d": "Chléb, kyselá okurka · Borůvkový čaj",
+        "a": [
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Čočkové ragů",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Chléb, kyselá okurka",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Borůvkový čaj",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Jogurtové kuličky, mléko, hruška",
+        "d": "",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Jogurtové kuličky, mléko, hruška",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          }
+        ]
+      }
+    ]
   }
 }

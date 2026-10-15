@@ -1776,14 +1776,44 @@
     "vydej": "11:00–14:00",
     "chody": [
       {
-        "c": "obed",
-        "n": "Oběd",
+        "c": "polevka",
+        "n": "Zeleninová s pohankou",
         "d": "",
-        "a": [],
+        "a": [
+          1,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Mexický guláš se sýrem",
+        "d": "Dušená rýže s quinoou · Banán · Ovocný nápoj, voda",
+        "a": [
+          1,
+          7
+        ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Oběd",
+            "n": "Mexický guláš se sýrem",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Dušená rýže s quinoou",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Banán",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný nápoj, voda",
             "a": []
           }
         ]
@@ -1794,14 +1824,49 @@
     "vydej": "11:00–14:00",
     "chody": [
       {
-        "c": "obed",
-        "n": "Oběd",
+        "c": "polevka",
+        "n": "Luštěninová s fazolí beluga",
         "d": "",
-        "a": [],
+        "a": [
+          1,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Karbanátek z králičího masa",
+        "d": "Bramborová kaše · Školní salát · Ovocný nápoj, voda",
+        "a": [
+          1,
+          3,
+          7,
+          9
+        ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Oběd",
+            "n": "Karbanátek z králičího masa",
+            "a": [
+              1,
+              3
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Bramborová kaše",
+            "a": [
+              7,
+              9
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Školní salát",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný nápoj, voda",
             "a": []
           }
         ]

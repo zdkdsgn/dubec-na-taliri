@@ -1626,11 +1626,12 @@
       {
         "c": "obed2",
         "n": "CIzrnové kari",
-        "d": "Pečivo",
+        "d": "Pečivo · Pro nizký počet objednaných porcí se pokrm NEVAŘÍ",
         "a": [
           1,
           3,
-          7
+          7,
+          9
         ],
         "p": [
           {
@@ -1647,6 +1648,15 @@
               1,
               3,
               7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Pro nizký počet objednaných porcí se pokrm NEVAŘÍ",
+            "a": [
+              1,
+              7,
+              9
             ]
           }
         ]
@@ -2015,6 +2025,359 @@
           {
             "l": "Nápoj",
             "n": "Ovocný nápoj, voda",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-28": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "obed",
+        "n": "STÁTNÍ SVÁTEK",
+        "d": "",
+        "a": [
+          1,
+          3
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "STÁTNÍ SVÁTEK",
+            "a": [
+              1,
+              3
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-29": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "obed",
+        "n": "PODZIMNÍ PRÁZDNINY",
+        "d": "",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "PODZIMNÍ PRÁZDNINY",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-30": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "obed",
+        "n": "PODZIMNÍ PRÁZDNINY",
+        "d": "",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "PODZIMNÍ PRÁZDNINY",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-11-02": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Gulášová",
+        "d": "",
+        "a": [
+          1
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Těstoviny s mákem, m.m.",
+        "d": "Ovoce · Mléko, čaj",
+        "a": [
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Těstoviny s mákem, m.m.",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko, čaj",
+            "a": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-11-03": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Hráškový krém",
+        "d": "",
+        "a": [
+          1,
+          7
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Obalované rybí filé",
+        "d": "Bramborová kaše · Šopský salát · Voda, ovocný nápoj",
+        "a": [
+          1,
+          3,
+          4,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Obalované rybí filé",
+            "a": [
+              1,
+              3,
+              4
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Bramborová kaše",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Šopský salát",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Voda, ovocný nápoj",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "n": "Zapečené smetanové brambory s brokolicí a šunkou",
+        "d": "",
+        "a": [
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Zapečené smetanové brambory s brokolicí a šunkou",
+            "a": [
+              3,
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-11-04": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Drůbeží vývar se zeleninou a nudlemi",
+        "d": "",
+        "a": [
+          1,
+          3,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Vepřové nudličky po čínsku",
+        "d": "Jasmínová rýže · Ovocný čaj, voda",
+        "a": [
+          6
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Vepřové nudličky po čínsku",
+            "a": [
+              6
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Jasmínová rýže",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný čaj, voda",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "n": "Florentinské těstoviny (špenát, uzený sýr)",
+        "d": "",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Florentinské těstoviny (špenát, uzený sýr)",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-11-05": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Mrkvová s ovesnými vločkami",
+        "d": "",
+        "a": [
+          1
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Holandská sekaná",
+        "d": "Vařené brambory s pažitkou · Mléčný desert s müsli · Ochucené mléko, čaj, voda",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Holandská sekaná",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Vařené brambory s pažitkou",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Mléčný desert s müsli",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ochucené mléko, čaj, voda",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "n": "Cizrnové kari",
+        "d": "",
+        "a": [
+          1
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Cizrnové kari",
+            "a": [
+              1
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-11-06": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Zeleninová s tarhoňou",
+        "d": "",
+        "a": [
+          1,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Burgundská pečeně",
+        "d": "Houskový knedlík · Voda, ovocný čaj",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Burgundská pečeně",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Houskový knedlík",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Voda, ovocný čaj",
             "a": []
           }
         ]
