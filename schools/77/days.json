@@ -2848,7 +2848,7 @@
       {
         "c": "obed",
         "n": "Střapačky se zelím a cibulkou",
-        "d": "Neslazený bylinný čaj, voda, mléko",
+        "d": "Neslazený ovocný čaj citron a limetka, voda, mléko",
         "a": [
           1,
           3,
@@ -2866,7 +2866,7 @@
           },
           {
             "l": "Nápoj",
-            "n": "Neslazený bylinný čaj, voda, mléko",
+            "n": "Neslazený ovocný čaj citron a limetka, voda, mléko",
             "a": [
               7
             ]
@@ -2876,7 +2876,7 @@
       {
         "c": "obed2",
         "n": "Vepřové nudličky na zelenině",
-        "d": "Hranolky · Neslazený bylinný čaj, voda, mléko",
+        "d": "Hranolky · Neslazený ovocný čaj citron a limetka, voda, mléko",
         "a": [
           7,
           9
@@ -2897,7 +2897,7 @@
           },
           {
             "l": "Nápoj",
-            "n": "Neslazený bylinný čaj, voda, mléko",
+            "n": "Neslazený ovocný čaj citron a limetka, voda, mléko",
             "a": [
               7
             ]
@@ -4427,6 +4427,92 @@
             "l": "Nápoj",
             "n": "100% mošt, voda, ochucené mléko",
             "a": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-11-19": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Brokolicová",
+        "d": "",
+        "a": [
+          1,
+          7
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Zeleninové rizoto, sýr",
+        "d": "Kyselá okurka · Ovoce · Ovocný nápoj, voda, horká čokoláda",
+        "a": [
+          1,
+          7,
+          9
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Zeleninové rizoto, sýr",
+            "a": [
+              7,
+              9
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Kyselá okurka",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný nápoj, voda, horká čokoláda",
+            "a": [
+              1,
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "n": "Lasagne s vepřovým masem a rajčaty",
+        "d": "Ovoce · Ovocný nápoj, voda, horká čokoláda",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Lasagne s vepřovým masem a rajčaty",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný nápoj, voda, horká čokoláda",
+            "a": [
+              1,
               7
             ]
           }

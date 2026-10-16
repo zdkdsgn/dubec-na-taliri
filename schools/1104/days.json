@@ -3208,14 +3208,18 @@
       },
       {
         "c": "svacina",
-        "n": "Čokoládový puding s piškotem, ovoce, čaj",
+        "n": "Rýžová kaše s kakaem, ovoce, čaj",
         "d": "",
-        "a": [],
+        "a": [
+          7
+        ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Čokoládový puding s piškotem, ovoce, čaj",
-            "a": []
+            "n": "Rýžová kaše s kakaem, ovoce, čaj",
+            "a": [
+              7
+            ]
           }
         ]
       }
@@ -3328,15 +3332,77 @@
     "vydej": "11:35–13:25",
     "chody": [
       {
-        "c": "obed",
-        "n": "PODZIMNÍ PRÁZDNINY",
+        "c": "presnidavka",
+        "n": "Zapečený sýrový toust, zelenina, čaj",
         "d": "",
-        "a": [],
+        "a": [
+          1,
+          7
+        ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "PODZIMNÍ PRÁZDNINY",
+            "n": "Zapečený sýrový toust, zelenina, čaj",
+            "a": [
+              1,
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Jen MŠ: Masový vývar s hvězdičkami",
+        "d": "",
+        "a": [
+          1,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Jen MŠ: Rajská omáčka, domácí sekaná, kynutý knedlík",
+        "d": "Džus, voda",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Jen MŠ: Rajská omáčka, domácí sekaná, kynutý knedlík",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Džus, voda",
             "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Loupáček, mléko, ovoce",
+        "d": "",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Loupáček, mléko, ovoce",
+            "a": [
+              1,
+              3,
+              7
+            ]
           }
         ]
       }
@@ -3346,15 +3412,62 @@
     "vydej": "11:35–13:25",
     "chody": [
       {
-        "c": "obed",
-        "n": "PODZIMNÍ PRÁZDNINY",
+        "c": "presnidavka",
+        "n": "Pomazánka z červené řepy, chléb, zelenina, čaj",
         "d": "",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Pomazánka z červené řepy, chléb, zelenina, čaj",
+            "a": [
+              1,
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Jen MŠ: Čočková",
+        "d": "",
+        "a": []
+      },
+      {
+        "c": "obed",
+        "n": "Jen MŠ: Gordon blue, vařený brambor, domácí dip",
+        "d": "Džus, voda",
         "a": [],
         "p": [
           {
             "l": "Jídlo",
-            "n": "PODZIMNÍ PRÁZDNINY",
+            "n": "Jen MŠ: Gordon blue, vařený brambor, domácí dip",
             "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Džus, voda",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Ovocný jogurt, ovoce, čaj",
+        "d": "",
+        "a": [
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Ovocný jogurt, ovoce, čaj",
+            "a": [
+              7
+            ]
           }
         ]
       }
@@ -4272,6 +4385,85 @@
               3,
               7,
               8
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-11-19": {
+    "vydej": "11:35–13:25",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Pomazánka z míchaných vajíček, chléb, zelenina, mléko",
+        "d": "",
+        "a": [
+          1,
+          3,
+          6,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Pomazánka z míchaných vajíček, chléb, zelenina, mléko",
+            "a": [
+              1,
+              3,
+              6,
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Zelná s bramborem",
+        "d": "",
+        "a": [
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Čevabčiči s hořčicí a cibulí, brambory",
+        "d": "Džus, voda",
+        "a": [
+          1,
+          3,
+          6
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Čevabčiči s hořčicí a cibulí, brambory",
+            "a": [
+              1,
+              3,
+              6
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Džus, voda",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Vanilkový termix, ovoce, čaj",
+        "d": "",
+        "a": [
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Vanilkový termix, ovoce, čaj",
+            "a": [
+              7
             ]
           }
         ]

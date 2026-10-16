@@ -1866,7 +1866,7 @@
       {
         "c": "obed",
         "n": "Nudle s mákem",
-        "d": "Ovocný kompot · Mléko, voda",
+        "d": "MŠ Ovocný kompot, ZŠ šlehaný tvaroh, ovoce · Mléko, voda",
         "a": [
           1,
           7
@@ -1882,7 +1882,7 @@
           },
           {
             "l": "Doplněk",
-            "n": "Ovocný kompot",
+            "n": "MŠ Ovocný kompot, ZŠ šlehaný tvaroh, ovoce",
             "a": []
           },
           {
@@ -1897,7 +1897,7 @@
       {
         "c": "obed2",
         "n": "Plovdivské vepřové maso",
-        "d": "Těstoviny · Ovoce · Mléko, voda",
+        "d": "Těstoviny · Ovoce, šlehaný tvaroh · Mléko, voda",
         "a": [
           1,
           7
@@ -1919,8 +1919,10 @@
           },
           {
             "l": "Doplněk",
-            "n": "Ovoce",
-            "a": []
+            "n": "Ovoce, šlehaný tvaroh",
+            "a": [
+              7
+            ]
           },
           {
             "l": "Nápoj",
@@ -1938,7 +1940,7 @@
     "chody": [
       {
         "c": "polevka",
-        "n": "Cibulová se sýrem a opraženým chlebem",
+        "n": "Cibulová s bramborem",
         "d": "",
         "a": [
           1,

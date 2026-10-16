@@ -2165,7 +2165,7 @@
     "chody": [
       {
         "c": "presnidavka",
-        "n": "Chléb, škvarková pomazánka",
+        "n": "Celozrnná bageta, hrášková pomazánka",
         "d": "Ovoce · Malcao, čaj",
         "a": [
           1,
@@ -2174,9 +2174,10 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Chléb, škvarková pomazánka",
+            "n": "Celozrnná bageta, hrášková pomazánka",
             "a": [
-              1
+              1,
+              7
             ]
           },
           {
@@ -2239,21 +2240,21 @@
       },
       {
         "c": "svacina",
-        "n": "Banketka s rajčatovým gervais",
+        "n": "Žitný chléb, škvarková pomazánka",
         "d": "Zelenina · Bylinkový čaj",
         "a": [
           1,
-          7,
-          9
+          4,
+          10
         ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Banketka s rajčatovým gervais",
+            "n": "Žitný chléb, škvarková pomazánka",
             "a": [
               1,
-              7,
-              9
+              4,
+              10
             ]
           },
           {
@@ -2422,34 +2423,38 @@
       },
       {
         "c": "polevka",
-        "n": "Hrstková",
+        "n": "Hrachová s krutonky",
         "d": "",
         "a": [
           1,
-          7,
-          9
+          7
         ]
       },
       {
         "c": "obed",
-        "n": "Brambory zapečené s brokolicí a sýrem",
-        "d": "Voda",
+        "n": "Vepřový plátek na žampiónech",
+        "d": "Voda · Rýže",
         "a": [
-          3,
+          1,
           7
         ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Brambory zapečené s brokolicí a sýrem",
+            "n": "Vepřový plátek na žampiónech",
             "a": [
-              3,
+              1,
               7
             ]
           },
           {
             "l": "Nápoj",
             "n": "Voda",
+            "a": []
+          },
+          {
+            "l": "Příloha",
+            "n": "Rýže",
             "a": []
           }
         ]
@@ -2625,38 +2630,34 @@
       },
       {
         "c": "polevka",
-        "n": "Hrachová s krutonky",
+        "n": "Hrstková",
         "d": "",
         "a": [
           1,
-          7
+          7,
+          9
         ]
       },
       {
         "c": "obed",
-        "n": "Vepřový plátek na hlívě ustřičné",
-        "d": "Voda · Rýže",
+        "n": "Brambory zapečené s brokolicí a sýrem",
+        "d": "Voda",
         "a": [
-          1,
+          3,
           7
         ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Vepřový plátek na hlívě ustřičné",
+            "n": "Brambory zapečené s brokolicí a sýrem",
             "a": [
-              1,
+              3,
               7
             ]
           },
           {
             "l": "Nápoj",
             "n": "Voda",
-            "a": []
-          },
-          {
-            "l": "Příloha",
-            "n": "Rýže",
             "a": []
           }
         ]

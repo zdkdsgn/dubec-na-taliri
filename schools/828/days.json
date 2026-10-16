@@ -1535,43 +1535,43 @@
     "chody": [
       {
         "c": "polevka",
-        "n": "Dýňová se zakysanou smetanou",
+        "n": "Rýžová se zeleninou",
         "d": "",
         "a": [
-          7,
           9
         ]
       },
       {
         "c": "obed",
-        "n": "Bavorské vdolečky",
-        "d": "Jabliko · Mléko, voda",
+        "n": "Lahůdkový párek",
+        "d": "Hrachová kaše, okurek st. · Kukuřičné krekry – biosaurus · Čaj ovocný, voda",
         "a": [
-          1,
-          3,
-          7
+          7,
+          10
         ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Bavorské vdolečky",
+            "n": "Lahůdkový párek",
+            "a": []
+          },
+          {
+            "l": "Příloha",
+            "n": "Hrachová kaše, okurek st.",
             "a": [
-              1,
-              3,
-              7
+              7,
+              10
             ]
           },
           {
             "l": "Doplněk",
-            "n": "Jabliko",
+            "n": "Kukuřičné krekry – biosaurus",
             "a": []
           },
           {
             "l": "Nápoj",
-            "n": "Mléko, voda",
-            "a": [
-              7
-            ]
+            "n": "Čaj ovocný, voda",
+            "a": []
           }
         ]
       }
@@ -1626,46 +1626,43 @@
     "chody": [
       {
         "c": "polevka",
-        "n": "Z vaječné jíšky se zeleninou",
+        "n": "Dýňová se zakysanou smetanou",
         "d": "",
         "a": [
-          1,
-          3,
           7,
           9
         ]
       },
       {
         "c": "obed",
-        "n": "Lahůdkový párek",
-        "d": "Hrachová kaše, okurek st. · Kukuřičné krekry – biosaurus · Čaj ovocný, voda",
+        "n": "Bavorské vdolečky",
+        "d": "Jablko · Mléko, voda",
         "a": [
-          7,
-          10
+          1,
+          3,
+          7
         ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Lahůdkový párek",
-            "a": []
-          },
-          {
-            "l": "Příloha",
-            "n": "Hrachová kaše, okurek st.",
+            "n": "Bavorské vdolečky",
             "a": [
-              7,
-              10
+              1,
+              3,
+              7
             ]
           },
           {
             "l": "Doplněk",
-            "n": "Kukuřičné krekry – biosaurus",
+            "n": "Jablko",
             "a": []
           },
           {
             "l": "Nápoj",
-            "n": "Čaj ovocný, voda",
-            "a": []
+            "n": "Mléko, voda",
+            "a": [
+              7
+            ]
           }
         ]
       }

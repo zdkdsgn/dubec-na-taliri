@@ -4301,7 +4301,7 @@
       {
         "c": "obed2",
         "n": "Zapékané špecle s tuňákem",
-        "d": "Okurek · Ovoce · Šťáva",
+        "d": "Okurek · Štáva",
         "a": [
           1,
           3,
@@ -4320,18 +4320,13 @@
             ]
           },
           {
-            "l": "Příloha",
+            "l": "Doplněk",
             "n": "Okurek",
             "a": []
           },
           {
-            "l": "Doplněk",
-            "n": "Ovoce",
-            "a": []
-          },
-          {
             "l": "Nápoj",
-            "n": "Šťáva",
+            "n": "Štáva",
             "a": []
           }
         ]
@@ -6697,6 +6692,150 @@
             "n": "Tmavá banketka s pomazánkovým máslem",
             "a": [
               1,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zelenina",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-11-19": {
+    "vydej": "11:30–13:45",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Slunečnicový chléb s tuňákovou pomazánkou",
+        "d": "Zelenina, ovoce · Špaldový nápoj",
+        "a": [
+          1,
+          3,
+          4,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Slunečnicový chléb s tuňákovou pomazánkou",
+            "a": [
+              1,
+              3,
+              4,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zelenina, ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Špaldový nápoj",
+            "a": [
+              1,
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Čočková",
+        "d": "",
+        "a": [
+          1,
+          7,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Bramborové šlížky s mákem",
+        "d": "Ovoce · Šťáva",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Bramborové šlížky s mákem",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Šťáva",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "n": "Šunkafleky",
+        "d": "Okurek · Šťáva",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Šunkafleky",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Okurek",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Šťáva",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Toastový chléb s pomázánkou z červené řepy a sýrem",
+        "d": "Zelenina · Čaj",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Toastový chléb s pomázánkou z červené řepy a sýrem",
+            "a": [
+              1,
+              3,
               7
             ]
           },

@@ -1722,7 +1722,7 @@
       {
         "c": "obed",
         "n": "Hovězí na celeru",
-        "d": "Brambory · Černý čaj s citrónem, voda, mléko",
+        "d": "Brambory · Hruška · Černý čaj s citrónem, voda, mléko",
         "a": [
           1,
           7,
@@ -1740,6 +1740,11 @@
           {
             "l": "Příloha",
             "n": "Brambory",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Hruška",
             "a": []
           },
           {
@@ -1768,7 +1773,7 @@
       {
         "c": "obed",
         "n": "Vepř.směs na asijský způsob",
-        "d": "Těstoviny · Vitaminový nápoj, voda, mléko",
+        "d": "Těstoviny · Sýr a křup · Vitaminový nápoj, voda, mléko",
         "a": [
           1,
           3,
@@ -1798,6 +1803,14 @@
             ]
           },
           {
+            "l": "Doplněk",
+            "n": "Sýr a křup",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
             "l": "Nápoj",
             "n": "Vitaminový nápoj, voda, mléko",
             "a": [
@@ -1824,7 +1837,7 @@
       {
         "c": "obed",
         "n": "Mexický guláš, sýr",
-        "d": "Dušená hrášková rýže · Ovocný čaj, voda, mléko",
+        "d": "Dušená hrášková rýže · Pomeranč · Ovocný čaj, voda, mléko",
         "a": [
           1,
           7
@@ -1846,11 +1859,160 @@
             ]
           },
           {
+            "l": "Doplněk",
+            "n": "Pomeranč",
+            "a": []
+          },
+          {
             "l": "Nápoj",
             "n": "Ovocný čaj, voda, mléko",
             "a": [
               7
             ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-26": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Zeleninová se sýrem. kapáním",
+        "d": "",
+        "a": [
+          1,
+          3,
+          7,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Přírodní kuřecí plátek, mích.zelenina",
+        "d": "Brambory · Ovocná šťáva, voda, mléko",
+        "a": [
+          1,
+          7,
+          9
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Přírodní kuřecí plátek, mích.zelenina",
+            "a": [
+              1,
+              7,
+              9
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Brambory",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocná šťáva, voda, mléko",
+            "a": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-27": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Hrachová",
+        "d": "",
+        "a": [
+          1
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Těstoviny se špenátem, sýr",
+        "d": "Mošt, voda, mléko",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Těstoviny se špenátem, sýr",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mošt, voda, mléko",
+            "a": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-28": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "obed",
+        "n": "Státní svátek",
+        "d": "",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Státní svátek",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-29": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "obed",
+        "n": "Podzimní prázdniny",
+        "d": "",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Podzimní prázdniny",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-30": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "obed",
+        "n": "Podzimní prázdniny",
+        "d": "",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Podzimní prázdniny",
+            "a": []
           }
         ]
       }

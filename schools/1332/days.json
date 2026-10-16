@@ -2744,36 +2744,163 @@
     ]
   },
   "2026-10-26": {
-    "vydej": "11:00–14:00",
+    "vydej": "15:00–16:00",
     "chody": [
       {
-        "c": "obed",
-        "n": "Ředitelské volno",
+        "c": "svacina",
+        "n": "Cereální čoko polštářky, mléko, ovoce",
         "d": "",
-        "a": [],
+        "a": [
+          1,
+          6,
+          7,
+          8
+        ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Ředitelské volno",
+            "n": "Cereální čoko polštářky, mléko, ovoce",
+            "a": [
+              1,
+              6,
+              7,
+              8
+            ]
+          }
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Zeleninová s těstovinou",
+        "d": "Ovoce · Voda, čaj, mléko",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Zeleninová s těstovinou",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
             "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Voda, čaj, mléko",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Střapatá houska, mléko, ovoce",
+        "d": "",
+        "a": [
+          1,
+          3,
+          6,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Střapatá houska, mléko, ovoce",
+            "a": [
+              1,
+              3,
+              6,
+              7
+            ]
           }
         ]
       }
     ]
   },
   "2026-10-27": {
-    "vydej": "11:00–14:00",
+    "vydej": "15:00–16:00",
     "chody": [
       {
-        "c": "obed",
-        "n": "Ředitelské volno",
+        "c": "svacina",
+        "n": "Ječmínkový chléb, tvarohová pomazánka, zelenina",
         "d": "",
-        "a": [],
+        "a": [
+          1,
+          7
+        ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Ředitelské volno",
+            "n": "Ječmínkový chléb, tvarohová pomazánka, zelenina",
+            "a": [
+              1,
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Kuřecí se strouháním",
+        "d": "",
+        "a": [
+          1,
+          3,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Vepřová plec debrecínská, celozrnný knedlík",
+        "d": "Čaj s medem a citronem, voda",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Vepřová plec debrecínská, celozrnný knedlík",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj s medem a citronem, voda",
             "a": []
+          }
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Chléb celozrnný, čerský sýr, mléko, ovoce",
+        "d": "",
+        "a": [
+          1,
+          6,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Chléb celozrnný, čerský sýr, mléko, ovoce",
+            "a": [
+              1,
+              6,
+              7
+            ]
           }
         ]
       }

@@ -2663,7 +2663,7 @@
     "chody": [
       {
         "c": "presnidavka",
-        "n": "Rohlík s máslem, jablko, hruška, horká čokoláda",
+        "n": "Rohlík s máslem, jablko, banán, horká čokoláda",
         "d": "",
         "a": [
           1,
@@ -2672,7 +2672,7 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Rohlík s máslem, jablko, hruška, horká čokoláda",
+            "n": "Rohlík s máslem, jablko, banán, horká čokoláda",
             "a": [
               1,
               7
@@ -2862,7 +2862,7 @@
       {
         "c": "obed",
         "n": "Fazolový guláš",
-        "d": "Chléb · Borůvkový čaj",
+        "d": "Chléb · Jogurt · Borůvkový čaj",
         "a": [
           1
         ],
@@ -2877,6 +2877,11 @@
           {
             "l": "Příloha",
             "n": "Chléb",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Jogurt",
             "a": []
           },
           {
@@ -3091,7 +3096,7 @@
       },
       {
         "c": "polevka",
-        "n": "Pórková s vejcem",
+        "n": "Pórková s krutony",
         "d": "",
         "a": [
           1,
@@ -3102,12 +3107,17 @@
       {
         "c": "obed",
         "n": "Zapečené brambory s uzeným masem",
-        "d": "Sirup",
+        "d": "Jogurt · Sirup",
         "a": [],
         "p": [
           {
             "l": "Jídlo",
             "n": "Zapečené brambory s uzeným masem",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Jogurt",
             "a": []
           },
           {
@@ -4512,6 +4522,89 @@
               3,
               7
             ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-11-19": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Jáhlová kaše, banán, čaj lesní směs",
+        "d": "",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Jáhlová kaše, banán, čaj lesní směs",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Z míchaných luštěnin s quinoou",
+        "d": "",
+        "a": [
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Kuřecí řízek",
+        "d": "Brambory · Rajčatový salát · Čaj lesní směs, mošt",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Kuřecí řízek",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Brambory",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Rajčatový salát",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj lesní směs, mošt",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Chléb, pomazánka česneková s mrkví, mrkev, čaj lesní směs",
+        "d": "",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Chléb, pomazánka česneková s mrkví, mrkev, čaj lesní směs",
+            "a": []
           }
         ]
       }

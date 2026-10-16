@@ -2614,8 +2614,8 @@
         "d": "Chlaz.voda, džus",
         "a": [
           1,
-          4,
-          7
+          7,
+          12
         ],
         "p": [
           {
@@ -2623,8 +2623,8 @@
             "n": "Moravští krůtí vrabci, zelí, bram. knedlík",
             "a": [
               1,
-              4,
-              7
+              7,
+              12
             ]
           },
           {
@@ -2661,6 +2661,190 @@
             "a": []
           }
         ]
+      }
+    ]
+  },
+  "2026-10-26": {
+    "vydej": "11:30–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Milionová polévka – koř.zelenina, vejce, dět.krupice špaldová",
+        "d": "",
+        "a": [
+          1,
+          3,
+          7,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Kuřecí nudličky po čínsku, rýže",
+        "d": "Ovoce · Chlaz.voda, čaj, mléko",
+        "a": [
+          6,
+          9
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Kuřecí nudličky po čínsku, rýže",
+            "a": [
+              6,
+              9
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Chlaz.voda, čaj, mléko",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "n": "Bramborové šišky, švestkový rozvar, perník strouhaný",
+        "d": "Ovoce · Chlaz.voda, čaj, mléko",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Bramborové šišky, švestkový rozvar, perník strouhaný",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Chlaz.voda, čaj, mléko",
+            "a": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-27": {
+    "vydej": "11:30–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Hovězí s celozrnným kapáním",
+        "d": "",
+        "a": [
+          1,
+          3,
+          7
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Svíčková na smetaně, houskový knedlík",
+        "d": "Chlaz.voda, džus, mléko",
+        "a": [
+          1,
+          3,
+          7,
+          9
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Svíčková na smetaně, houskový knedlík",
+            "a": [
+              1,
+              3,
+              7,
+              9
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Chlaz.voda, džus, mléko",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "n": "Avocado burger, dressing, americké brambory",
+        "d": "Chlaz.voda, džus, mléko",
+        "a": [
+          1,
+          3,
+          6,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Avocado burger, dressing, americké brambory",
+            "a": [
+              1,
+              3,
+              6,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Chlaz.voda, džus, mléko",
+            "a": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-28": {
+    "vydej": "11:30–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Státní svátek",
+        "d": "",
+        "a": []
+      }
+    ]
+  },
+  "2026-10-29": {
+    "vydej": "11:30–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Podzimní prázdniny",
+        "d": "",
+        "a": []
+      }
+    ]
+  },
+  "2026-10-30": {
+    "vydej": "11:30–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Podzimní prázdniny",
+        "d": "",
+        "a": []
       }
     ]
   }

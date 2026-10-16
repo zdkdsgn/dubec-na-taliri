@@ -2792,17 +2792,19 @@
       },
       {
         "c": "svacina",
-        "n": "Obložený chléb",
+        "n": "Žmolenkový rohlík",
         "d": "Pramenitá voda",
         "a": [
-          1
+          1,
+          7
         ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Obložený chléb",
+            "n": "Žmolenkový rohlík",
             "a": [
-              1
+              1,
+              7
             ]
           },
           {
@@ -2819,7 +2821,7 @@
     "chody": [
       {
         "c": "presnidavka",
-        "n": "Žmolenkový rohlík",
+        "n": "Kukuřičný rohlík s lučinou",
         "d": "Mléko",
         "a": [
           1,
@@ -2828,7 +2830,7 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Žmolenkový rohlík",
+            "n": "Kukuřičný rohlík s lučinou",
             "a": [
               1,
               7
@@ -2902,18 +2904,21 @@
     "chody": [
       {
         "c": "presnidavka",
-        "n": "Celozrnný rohlík s celerovou pomazánkou",
+        "n": "Cereální rohlík s celerovou pomazánkou",
         "d": "Mléko, mrkev",
         "a": [
           1,
-          7
+          7,
+          9
         ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Celozrnný rohlík s celerovou pomazánkou",
+            "n": "Cereální rohlík s celerovou pomazánkou",
             "a": [
-              1
+              1,
+              7,
+              9
             ]
           },
           {
@@ -3203,7 +3208,7 @@
       },
       {
         "c": "svacina",
-        "n": "Kukuřičný rohlík",
+        "n": "Obložený královský chléb",
         "d": "Ovocný čaj, ovoce – zelenina",
         "a": [
           1,
@@ -3212,7 +3217,7 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Kukuřičný rohlík",
+            "n": "Obložený královský chléb",
             "a": [
               1,
               7

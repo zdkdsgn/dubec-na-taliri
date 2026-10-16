@@ -2765,18 +2765,20 @@
     "chody": [
       {
         "c": "presnidavka",
-        "n": "Meruňkový kefír, rohlík",
-        "d": "Jablko · Čaj, ev. voda",
+        "n": "Loupáček",
+        "d": "Jablko · Mléko, ev. voda, čaj",
         "a": [
           1,
+          3,
           7
         ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Meruňkový kefír, rohlík",
+            "n": "Loupáček",
             "a": [
               1,
+              3,
               7
             ]
           },
@@ -2787,8 +2789,10 @@
           },
           {
             "l": "nápoj",
-            "n": "Čaj, ev. voda",
-            "a": []
+            "n": "Mléko, ev. voda, čaj",
+            "a": [
+              7
+            ]
           }
         ]
       },
@@ -2842,20 +2846,18 @@
     "chody": [
       {
         "c": "presnidavka",
-        "n": "Domácí máslový croissant",
-        "d": "Bluma · Kakao, ev. voda, čaj",
+        "n": "Meruňkový kefír, rohlík",
+        "d": "Bluma · Čaj, ev. voda",
         "a": [
           1,
-          3,
           7
         ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Domácí máslový croissant",
+            "n": "Meruňkový kefír, rohlík",
             "a": [
               1,
-              3,
               7
             ]
           },
@@ -2866,10 +2868,8 @@
           },
           {
             "l": "nápoj",
-            "n": "Kakao, ev. voda, čaj",
-            "a": [
-              7
-            ]
+            "n": "Čaj, ev. voda",
+            "a": []
           }
         ]
       },
@@ -3242,6 +3242,399 @@
             "a": [
               7
             ]
+          },
+          {
+            "l": "nápoj",
+            "n": "Čaj, ev. voda",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-11-02": {
+    "vydej": "11:45–12:15",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Pom. z fazolí mungo, veka",
+        "d": "Cherry rajče · Mléko, ev. voda, čaj",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Pom. z fazolí mungo, veka",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Cherry rajče",
+            "a": []
+          },
+          {
+            "l": "nápoj",
+            "n": "Mléko, ev. voda, čaj",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Polévka jemná brokolicová se sýrovým kapáýním",
+        "d": "",
+        "a": [
+          1,
+          3,
+          7
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Špagety smíchané s kousky lososa, smetanou a suš. rajčaty",
+        "d": "Jablko · Čaj, ev. voda",
+        "a": [
+          1,
+          4,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Špagety smíchané s kousky lososa, smetanou a suš. rajčaty",
+            "a": [
+              1,
+              4,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Jablko",
+            "a": []
+          },
+          {
+            "l": "nápoj",
+            "n": "Čaj, ev. voda",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-11-03": {
+    "vydej": "11:45–12:15",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Pom. z parenice, máslový toustový chléb",
+        "d": "Hruška · Mléko, ev. voda, čaj",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Pom. z parenice, máslový toustový chléb",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Hruška",
+            "a": []
+          },
+          {
+            "l": "nápoj",
+            "n": "Mléko, ev. voda, čaj",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Polévka z čočky belugy s mrkví, pórkem a slaninou",
+        "d": "",
+        "a": [
+          1
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Hovězí v mrkvi",
+        "d": "Brambory · Čaj, ev. voda",
+        "a": [
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Hovězí v mrkvi",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Brambory",
+            "a": []
+          },
+          {
+            "l": "nápoj",
+            "n": "Čaj, ev. voda",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-11-04": {
+    "vydej": "11:45–12:15",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Pom. z lučiny s alpskými bylinami, řemeslná bulka",
+        "d": "Kaki · Mléko, ev. voda, čaj",
+        "a": [
+          1,
+          7,
+          11
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Pom. z lučiny s alpskými bylinami, řemeslná bulka",
+            "a": [
+              1,
+              11
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Kaki",
+            "a": []
+          },
+          {
+            "l": "nápoj",
+            "n": "Mléko, ev. voda, čaj",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Polévka zeleninová s těstovinovou rýží",
+        "d": "",
+        "a": [
+          1,
+          7,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Vepřová panenka na žampionech",
+        "d": "Duš.jasmínová rýže s quinoou · Kompot · Čaj, ev. voda",
+        "a": [
+          1
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Vepřová panenka na žampionech",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Duš.jasmínová rýže s quinoou",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Kompot",
+            "a": []
+          },
+          {
+            "l": "nápoj",
+            "n": "Čaj, ev. voda",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-11-05": {
+    "vydej": "11:45–12:15",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Pom. čočková se strouhaným sýrem a vejci, vita selský rohlík",
+        "d": "Jablko · Mléko, ev. voda, čaj",
+        "a": [
+          1,
+          3,
+          7,
+          11
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Pom. čočková se strouhaným sýrem a vejci, vita selský rohlík",
+            "a": [
+              1,
+              3,
+              7,
+              11
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Jablko",
+            "a": []
+          },
+          {
+            "l": "nápoj",
+            "n": "Mléko, ev. voda, čaj",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Polévka z rybího file se zeleninou",
+        "d": "",
+        "a": [
+          1,
+          4,
+          7,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Krůtí prsa na ajvaru ve smetanové omáčce",
+        "d": "Těstoviny · Čaj, ev. voda",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Krůtí prsa na ajvaru ve smetanové omáčce",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Těstoviny",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "nápoj",
+            "n": "Čaj, ev. voda",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-11-06": {
+    "vydej": "11:45–12:15",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Smetanový jogurt s jahodami, piškoty",
+        "d": "Jablko · Čaj, ev. voda",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Smetanový jogurt s jahodami, piškoty",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Jablko",
+            "a": []
+          },
+          {
+            "l": "nápoj",
+            "n": "Čaj, ev. voda",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Polévka květáková s vejci",
+        "d": "",
+        "a": [
+          1,
+          3,
+          7
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Holandský řízek",
+        "d": "Bramborová kaše · Salát z polníčku · Čaj, ev. voda",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Holandský řízek",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Bramborová kaše",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Salát z polníčku",
+            "a": []
           },
           {
             "l": "nápoj",

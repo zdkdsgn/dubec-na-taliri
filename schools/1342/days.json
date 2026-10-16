@@ -3745,7 +3745,7 @@
       {
         "c": "obed",
         "n": "Krupicová kaše s kakaem",
-        "d": "Mléko/ jablko · Čaj/voda",
+        "d": "Jablko · Čaj/voda",
         "a": [
           1,
           7
@@ -3761,7 +3761,7 @@
           },
           {
             "l": "Doplněk",
-            "n": "Mléko/ jablko",
+            "n": "Jablko",
             "a": []
           },
           {
@@ -6267,6 +6267,114 @@
           {
             "l": "Nápoj",
             "n": "Voda",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-11-19": {
+    "vydej": "11:40–13:30",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Krupicová kaše s kakaem",
+        "d": "Ovoce · Mléko, voda s citrónem",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Krupicová kaše s kakaem",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko, voda s citrónem",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Puchero",
+        "d": "",
+        "a": [
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Vepřové maso v mrkvi",
+        "d": "Brambory · Voda s citrónem",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Vepřové maso v mrkvi",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Brambory",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Voda s citrónem",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Veka",
+        "d": "Tavený sýr · Zelenina · Voda s citrónem",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Veka",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Tavený sýr",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zelenina",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Voda s citrónem",
             "a": []
           }
         ]
