@@ -2111,7 +2111,7 @@
       },
       {
         "c": "obed2",
-        "n": "Vepřová játra na cibulce, chléb",
+        "n": "Vepřová játra na cibulce, chléb-malý zájem, nevaří se",
         "d": "Zeleninový pult",
         "a": [
           1
@@ -2119,7 +2119,7 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Vepřová játra na cibulce, chléb",
+            "n": "Vepřová játra na cibulce, chléb-malý zájem, nevaří se",
             "a": [
               1
             ]
@@ -3332,6 +3332,64 @@
             "l": "Doplněk",
             "n": "Zeleninový pult",
             "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-11-20": {
+    "vydej": "11:30–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Zeleninová s tarhoňou",
+        "d": "",
+        "a": [
+          1,
+          3,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Hovězí maso na česneku, špenát",
+        "d": "Bramborový knedlíky · Ovoce · Čaj, mléko, voda",
+        "a": [
+          1,
+          3,
+          7,
+          12
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Hovězí maso na česneku, špenát",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Bramborový knedlíky",
+            "a": [
+              1,
+              3,
+              12
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj, mléko, voda",
+            "a": [
+              7
+            ]
           }
         ]
       }

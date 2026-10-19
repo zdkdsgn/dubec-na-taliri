@@ -3422,7 +3422,7 @@
       {
         "c": "svacina",
         "n": "Chléb, pomazánkové máslo s pažitkou",
-        "d": "Mléko, čaj",
+        "d": "Jablko · Mléko, čaj",
         "a": [
           1,
           7
@@ -3435,6 +3435,11 @@
               1,
               7
             ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Jablko",
+            "a": []
           },
           {
             "l": "Nápoj",
@@ -3494,7 +3499,7 @@
       {
         "c": "obed",
         "n": "Vepřová kotleta se sýrem a broskví",
-        "d": "Šťouchané brambory se smetanou · Mléčný řez · Voda s pomerančem, mléko",
+        "d": "Šťouchané brambory se smetanou · Mléčný řez · Voda s mandarinkou, mléko",
         "a": [
           1,
           7
@@ -3524,7 +3529,7 @@
           },
           {
             "l": "Nápoj",
-            "n": "Voda s pomerančem, mléko",
+            "n": "Voda s mandarinkou, mléko",
             "a": [
               7
             ]
@@ -3835,7 +3840,7 @@
       {
         "c": "obed",
         "n": "Rybí sekaná",
-        "d": "Šťouchané brambory · Mrkvový salát · Ovocný čaj neslazený, voda, kakao",
+        "d": "Šťouchané brambory · Mrkvový salát · Ovocný čaj neslazený, voda, mléko",
         "a": [
           1,
           3,
@@ -3865,7 +3870,7 @@
           },
           {
             "l": "Nápoj",
-            "n": "Ovocný čaj neslazený, voda, kakao",
+            "n": "Ovocný čaj neslazený, voda, mléko",
             "a": [
               7
             ]
@@ -6172,6 +6177,123 @@
           {
             "l": "Doplněk",
             "n": "Paprika",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko, čaj",
+            "a": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-11-20": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Slunečnicový chléb, rybí pomazánka",
+        "d": "Paprika · Mléko, čaj",
+        "a": [
+          1,
+          4,
+          7,
+          11
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Slunečnicový chléb, rybí pomazánka",
+            "a": [
+              1,
+              4,
+              7,
+              11
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Paprika",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko, čaj",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Polévka čočková",
+        "d": "",
+        "a": [
+          1
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Vepřová panenka na hříbkách",
+        "d": "Šťouchané brambory · Míchaný zeleninový salát s jogurtem · Voda s mandarinkou, mléko",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Vepřová panenka na hříbkách",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Šťouchané brambory",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Míchaný zeleninový salát s jogurtem",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Voda s mandarinkou, mléko",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Rohlík, paštika",
+        "d": "Kiwi · Mléko, čaj",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Rohlík, paštika",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Kiwi",
             "a": []
           },
           {

@@ -2634,7 +2634,7 @@
       {
         "c": "obed",
         "n": "ZAPEČENÉ TĚSTOVINY S UZENÝM MASEM",
-        "d": "ČERVENÁ ŘEPA",
+        "d": "ČAJ, MELTA, VODA · ČERVENÁ ŘEPA",
         "a": [
           1,
           3,
@@ -2650,6 +2650,14 @@
               3,
               7,
               9
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "ČAJ, MELTA, VODA",
+            "a": [
+              1,
+              7
             ]
           },
           {
@@ -2677,7 +2685,7 @@
       {
         "c": "obed",
         "n": "HOVĚZÍ AZU PO TATARSKU (HOV.NUDLIČKY, STER.OKURKY, RAJČAT.PROTLAK)",
-        "d": "BRAMBOR · OVOCE",
+        "d": "ČAJ, DŽUS, VODA S CITRONEM · BRAMBOR · OVOCE",
         "a": [
           1,
           7,
@@ -2691,6 +2699,11 @@
               1,
               9
             ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "ČAJ, DŽUS, VODA S CITRONEM",
+            "a": []
           },
           {
             "l": "Příloha",
@@ -2709,7 +2722,7 @@
       {
         "c": "obed2",
         "n": "KRUPICOVÁ KAŠE SYPANÁ CUKREM A KAKAEM",
-        "d": "OVOCE",
+        "d": "ČAJ, MOŠT, VODA · OVOCE",
         "a": [
           1,
           7
@@ -2722,6 +2735,11 @@
               1,
               7
             ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "ČAJ, MOŠT, VODA",
+            "a": []
           },
           {
             "l": "Doplněk",
@@ -2748,7 +2766,7 @@
       {
         "c": "obed",
         "n": "KÝTA NA SMETANĚ",
-        "d": "HOUSKOVÉ KNEDLÍKY · OVOCE",
+        "d": "ČAJ, CARO, VODA · HOUSKOVÉ KNEDLÍKY · OVOCE",
         "a": [
           1,
           3,
@@ -2765,6 +2783,13 @@
               7,
               9,
               10
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "ČAJ, CARO, VODA",
+            "a": [
+              7
             ]
           },
           {
@@ -2786,7 +2811,7 @@
       {
         "c": "obed2",
         "n": "FAZOLOVÝ GULÁŠ S VEPŘOVÝM MASEM A BRAMBOREM",
-        "d": "CHLÉB · OVOCE",
+        "d": "ČAJ, CARO, VODA · CHLÉB · OVOCE",
         "a": [
           1,
           7,
@@ -2798,6 +2823,13 @@
             "n": "FAZOLOVÝ GULÁŠ S VEPŘOVÝM MASEM A BRAMBOREM",
             "a": [
               9
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "ČAJ, CARO, VODA",
+            "a": [
+              7
             ]
           },
           {
@@ -2834,7 +2866,7 @@
       {
         "c": "obed",
         "n": "PEČENÉ KUŘE",
-        "d": "RÝŽE · JOGURT",
+        "d": "ČAJ, DŽUS, VODA S CITRONEM · RÝŽE · JOGURT",
         "a": [
           1,
           7,
@@ -2851,6 +2883,11 @@
             ]
           },
           {
+            "l": "Nápoj",
+            "n": "ČAJ, DŽUS, VODA S CITRONEM",
+            "a": []
+          },
+          {
             "l": "Příloha",
             "n": "RÝŽE",
             "a": []
@@ -2858,16 +2895,14 @@
           {
             "l": "Doplněk",
             "n": "JOGURT",
-            "a": [
-              7
-            ]
+            "a": []
           }
         ]
       },
       {
         "c": "obed2",
         "n": "LASAGNE PO ITALSKU S MLETÝM MASEM A SÝREM",
-        "d": "JOGURT",
+        "d": "ČAJ, DŽUS, VODA S CITRONEM · JOGURT",
         "a": [
           1,
           3,
@@ -2884,6 +2919,11 @@
               7,
               9
             ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "ČAJ, DŽUS, VODA S CITRONEM",
+            "a": []
           },
           {
             "l": "Doplněk",
@@ -2913,7 +2953,7 @@
       {
         "c": "obed",
         "n": "SMAŽENÉ RYBÍ FILÉ",
-        "d": "BRAMBOROVÁ KAŠE · SALÁT RAJČATOVÝ S PÓRKEM A KUKUŘICÍ",
+        "d": "ČAJ, BÍLÁ KÁVA, VODA · BRAMBOROVÁ KAŠE · SALÁT RAJČATOVÝ S PÓRKEM A KUKUŘICÍ",
         "a": [
           1,
           3,
@@ -2931,6 +2971,14 @@
               4,
               7,
               9
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "ČAJ, BÍLÁ KÁVA, VODA",
+            "a": [
+              1,
+              7
             ]
           },
           {

@@ -2862,6 +2862,7 @@
         "a": [
           1,
           3,
+          6,
           7
         ],
         "p": [
@@ -2883,6 +2884,7 @@
             "l": "Nápoj",
             "n": "Černý čaj s citrónem, ochucené mléko",
             "a": [
+              6,
               7
             ]
           }
@@ -2895,6 +2897,7 @@
         "a": [
           1,
           3,
+          6,
           7
         ],
         "p": [
@@ -2916,6 +2919,7 @@
             "l": "Nápoj",
             "n": "Černý čaj s citrónem, ochucené mléko",
             "a": [
+              6,
               7
             ]
           }
@@ -3046,6 +3050,805 @@
             "l": "Jídlo",
             "n": "PODZIMNÍ PRÁZDNINY",
             "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-11-02": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Jemný krém z červené řepy",
+        "d": "",
+        "a": [
+          1,
+          7
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "HALLOWEEN: černé rizoto s tofu a zeleninou, sýr",
+        "d": "Sladké překvapení · Ovocný čaj, ochucené mléko",
+        "a": [
+          1,
+          3,
+          6,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "HALLOWEEN: černé rizoto s tofu a zeleninou, sýr",
+            "a": [
+              6,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Sladké překvapení",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný čaj, ochucené mléko",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "n": "HALLOWEEN: strašidelný burger s avokádem",
+        "d": "Sladké překvapení · Ovocný čaj, ochucené mléko",
+        "a": [
+          1,
+          3,
+          7,
+          8
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "HALLOWEEN: strašidelný burger s avokádem",
+            "a": [
+              1,
+              3,
+              7,
+              8
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Sladké překvapení",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný čaj, ochucené mléko",
+            "a": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-11-03": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Zeleninová s drožďovým kapáním",
+        "d": "",
+        "a": [
+          1,
+          3,
+          7,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Vepřové výpečky, hlávkové zelí, bramborový knedlík",
+        "d": "Ovoce · Černý čaj s medem",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Vepřové výpečky, hlávkové zelí, bramborový knedlík",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Černý čaj s medem",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "n": "Pečený losos s italskou čočkou",
+        "d": "Ovoce · Černý čaj s medem",
+        "a": [
+          4,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Pečený losos s italskou čočkou",
+            "a": [
+              4,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Černý čaj s medem",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-11-04": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Boršč",
+        "d": "",
+        "a": [
+          1,
+          7,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Marinovaný kuřecí steak, bramborová kaše",
+        "d": "Zeleninový raut · Čaj se sirupem",
+        "a": [
+          7,
+          10
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Marinovaný kuřecí steak, bramborová kaše",
+            "a": [
+              7,
+              10
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zeleninový raut",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj se sirupem",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "n": "Teplý kuskusový salát s pečenou dýní a feta sýrem",
+        "d": "Zeleninový raut · Čaj se sirupem",
+        "a": [
+          1,
+          5,
+          7,
+          8,
+          10,
+          11
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Teplý kuskusový salát s pečenou dýní a feta sýrem",
+            "a": [
+              1,
+              5,
+              7,
+              8,
+              10,
+              11
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zeleninový raut",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj se sirupem",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-11-05": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Kachní vývar se zeleninou a nudlemi",
+        "d": "",
+        "a": [
+          1,
+          3,
+          7,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Krůtí prsa na paprice, těstoviny",
+        "d": "Ovoce · Čaj s citrónem",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Krůtí prsa na paprice, těstoviny",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj s citrónem",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "n": "Vepřový steak, brambory, dušené kapustičky",
+        "d": "Ovoce · Čaj s citrónem",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Vepřový steak, brambory, dušené kapustičky",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj s citrónem",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-11-06": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Rajská s těstovinovou rýží",
+        "d": "",
+        "a": [
+          1,
+          3,
+          7,
+          12
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Přírodní hovězí kostky, basmati rýže",
+        "d": "Ovoce · Ovocný čaj, čerstvé farmářské mléko",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Přírodní hovězí kostky, basmati rýže",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný čaj, čerstvé farmářské mléko",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "n": "Lasagne s vepřovým masem",
+        "d": "Ovoce · Ovocný čaj, čerstvé farmářské mléko",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Lasagne s vepřovým masem",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný čaj, čerstvé farmářské mléko",
+            "a": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-11-09": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Krémová drůbeží se zeleninou",
+        "d": "",
+        "a": [
+          1,
+          7,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Káhirské špagety (s hov. masem), sýr",
+        "d": "Zeleninový raut · Ovocný čaj, ochucené mléko",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Káhirské špagety (s hov. masem), sýr",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zeleninový raut",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný čaj, ochucené mléko",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "n": "Kuřecí paličky s kari omáčkou, jasmínová rýže",
+        "d": "Zeleninový raut · Ovocný čaj, ochucené mléko",
+        "a": [
+          7,
+          11
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Kuřecí paličky s kari omáčkou, jasmínová rýže",
+            "a": [
+              7,
+              11
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zeleninový raut",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný čaj, ochucené mléko",
+            "a": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-11-10": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Zelňačka s bramborem a klobásou",
+        "d": "",
+        "a": [
+          1,
+          7,
+          12
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Vepřové opečenky s celerem, bramborová kaše",
+        "d": "Zeleninový raut · Čaj se sirupem",
+        "a": [
+          1,
+          3,
+          7,
+          9,
+          10
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Vepřové opečenky s celerem, bramborová kaše",
+            "a": [
+              1,
+              3,
+              7,
+              9,
+              10
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zeleninový raut",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj se sirupem",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "n": "Falešná svíčková, cibulové čatní, americké brambory",
+        "d": "Zeleninový raut · Čaj se sirupem",
+        "a": [
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Falešná svíčková, cibulové čatní, americké brambory",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zeleninový raut",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj se sirupem",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-11-11": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Hovězí se zeleninou a fritát. nudlemi",
+        "d": "",
+        "a": [
+          1,
+          3,
+          6,
+          7,
+          9,
+          10
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Hovězí guláš, houskové knedlíky / těstoviny",
+        "d": "Ovoce · Černý čaj s medem",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Hovězí guláš, houskové knedlíky / těstoviny",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Černý čaj s medem",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "n": "Vepřový záhorácký závitek (zelí, klobása), brambory",
+        "d": "Ovoce · Černý čaj s medem",
+        "a": [
+          1,
+          7,
+          12
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Vepřový záhorácký závitek (zelí, klobása), brambory",
+            "a": [
+              1,
+              7,
+              12
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Černý čaj s medem",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-11-12": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Slepičí se zeleninou a máslovými noky",
+        "d": "",
+        "a": [
+          1,
+          3,
+          7,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Čočka netradičně ( s pórkem, párkem a mrkví )",
+        "d": "Zeleninový raut · Čaj s citrónem",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Čočka netradičně ( s pórkem, párkem a mrkví )",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zeleninový raut",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj s citrónem",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "n": "Křenové fazole se šunkou, kornbageta",
+        "d": "Zeleninový raut · Čaj s citrónem",
+        "a": [
+          1,
+          3,
+          6,
+          7,
+          10,
+          11
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Křenové fazole se šunkou, kornbageta",
+            "a": [
+              1,
+              3,
+              6,
+              7,
+              10,
+              11
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zeleninový raut",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj s citrónem",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-11-13": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Hrachová",
+        "d": "",
+        "a": [
+          1
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Krůtí perkelt, basmati rýže",
+        "d": "Ovoce · Čaj se sirupem, farmářské mléko",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Krůtí perkelt, basmati rýže",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj se sirupem, farmářské mléko",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "n": "Kuřecí stripsy, tortilla, zeleninová obloha, bylinkový dip",
+        "d": "Ovoce · Čaj se sirupem, farmářské mléko",
+        "a": [
+          1,
+          3,
+          7,
+          9
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Kuřecí stripsy, tortilla, zeleninová obloha, bylinkový dip",
+            "a": [
+              1,
+              3,
+              7,
+              9
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj se sirupem, farmářské mléko",
+            "a": [
+              7
+            ]
           }
         ]
       }

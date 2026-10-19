@@ -9,7 +9,7 @@
 window.MENU_DATA = {
   meta: {
     school: "MŠ & ZŠ Dubeč",
-    updated: "2026-10-16T10:58:15+02:00",
+    updated: "2026-10-19T11:49:01+02:00",
     week: "2026-09-01 – 2026-10-23",
     sources: {
       zs: "https://www.jidelna.cz/jidelni-listek/?jidelna=47",
@@ -485,7 +485,7 @@ window.MENU_DATA = {
     },
     "2026-10-20": {
       zs: [
-          {"c": "polevka", "n": "Hrachová", "d": "", "a": [7]},
+          {"c": "polevka", "n": "Čočková", "d": "", "a": [7]},
           {"c": "obed", "n": "Pečené kuře na citronovém másle se zeleninou (brambory, mrkev, batáty)", "d": "Salát coleslaw · Ovocný čaj, mléko, ochucená voda", "a": [3, 7, 9, 10], "p": [{"l": "Jídlo", "n": "Pečené kuře na citronovém másle se zeleninou (brambory, mrkev, batáty)", "a": [7]}, {"l": "Doplněk", "n": "Salát coleslaw", "a": [3, 7, 9, 10]}, {"l": "Nápoj", "n": "Ovocný čaj, mléko, ochucená voda", "a": [7]}]},
           {"c": "obed2", "n": "Zeleninový salát se slunečničovými semínky", "d": "Salát coleslaw · Ovocný čaj, mléko, ochucená voda", "a": [3, 5, 7, 9, 10], "p": [{"l": "Jídlo", "n": "Zeleninový salát se slunečničovými semínky", "a": [5, 10]}, {"l": "Doplněk", "n": "Salát coleslaw", "a": [3, 7, 9, 10]}, {"l": "Nápoj", "n": "Ovocný čaj, mléko, ochucená voda", "a": [7]}]}
         ],

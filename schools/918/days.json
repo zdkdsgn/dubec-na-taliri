@@ -2989,10 +2989,13 @@
       },
       {
         "c": "polevka",
-        "n": "Jáhelná se zeleninou",
+        "n": "Pohanková",
         "d": "",
         "a": [
           1,
+          3,
+          7,
+          8,
           9
         ]
       },
@@ -3409,6 +3412,300 @@
             ]
           }
         ]
+      }
+    ]
+  },
+  "2026-10-26": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Chléb, šunková pěna, zelenina, čaj",
+        "d": "",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Chléb, šunková pěna, zelenina, čaj",
+            "a": [
+              1,
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Zeleninová s červenou čočkou",
+        "d": "",
+        "a": [
+          1,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Kuskus s drůbežím masem",
+        "d": "Zelenina · Čaj",
+        "a": [
+          1,
+          7,
+          9
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Kuskus s drůbežím masem",
+            "a": [
+              1,
+              7,
+              9
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zelenina",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Rohlík, máslo, džem, mléko",
+        "d": "",
+        "a": [
+          1,
+          6,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Rohlík, máslo, džem, mléko",
+            "a": [
+              1,
+              6,
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-27": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Graham, hermelínová pomazánka, zelenina, bílá káva",
+        "d": "",
+        "a": [
+          1,
+          6,
+          7,
+          11,
+          13
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Graham, hermelínová pomazánka, zelenina, bílá káva",
+            "a": [
+              1,
+              6,
+              7,
+              11,
+              13
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Cibulová s krutony",
+        "d": "",
+        "a": [
+          1,
+          7,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Pečené kuřecí stehno",
+        "d": "Vařené brambory · Okurek sterilovaný · Voda",
+        "a": [
+          7,
+          9,
+          10
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Pečené kuřecí stehno",
+            "a": [
+              7,
+              9
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Vařené brambory",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Okurek sterilovaný",
+            "a": [
+              10
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Voda",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Chléb, Lučina, čaj",
+        "d": "",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Chléb, Lučina, čaj",
+            "a": [
+              1,
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-28": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Státní svátek",
+        "d": "",
+        "a": []
+      }
+    ]
+  },
+  "2026-10-29": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Chléb, tuňáková pomazánka, zelenina, čaj",
+        "d": "",
+        "a": [
+          1,
+          4,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Chléb, tuňáková pomazánka, zelenina, čaj",
+            "a": [
+              1,
+              4,
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Gulášová",
+        "d": "",
+        "a": [
+          1,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Bramborové gnocchi, sypané mákem",
+        "d": "Ovoce · Mléko",
+        "a": [
+          1,
+          3,
+          7,
+          8,
+          11
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Bramborové gnocchi, sypané mákem",
+            "a": [
+              1,
+              3,
+              7,
+              8,
+              11
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Chia chléb, máslo, sýr, čaj",
+        "d": "",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Chia chléb, máslo, sýr, čaj",
+            "a": [
+              1,
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-30": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Sanitární",
+        "d": "",
+        "a": []
       }
     ]
   }

@@ -2694,7 +2694,7 @@
       {
         "c": "obed",
         "n": "Špenát, vejce",
-        "d": "Brambory · Müsli tyčinka · Jahodový čaj",
+        "d": "Brambory · Müsli tyčinka-škola.vitaminátor-školka · Jahodový čaj",
         "a": [],
         "p": [
           {
@@ -2709,7 +2709,7 @@
           },
           {
             "l": "Doplněk",
-            "n": "Müsli tyčinka",
+            "n": "Müsli tyčinka-škola.vitaminátor-školka",
             "a": []
           },
           {
@@ -4110,18 +4110,16 @@
       },
       {
         "c": "polevka",
-        "n": "Hrachová s krutonky",
+        "n": "Bramborová",
         "d": "",
         "a": [
-          1,
-          3,
-          7
+          1
         ]
       },
       {
         "c": "obed",
-        "n": "Krůtí maso po čínsku",
-        "d": "Rýže · Citronový čaj",
+        "n": "Nudle s tvarohem",
+        "d": "Sirup, mléko",
         "a": [
           1,
           3,
@@ -4130,7 +4128,7 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Krůtí maso po čínsku",
+            "n": "Nudle s tvarohem",
             "a": [
               1,
               3,
@@ -4138,31 +4136,9 @@
             ]
           },
           {
-            "l": "Příloha",
-            "n": "Rýže",
-            "a": []
-          },
-          {
             "l": "Nápoj",
-            "n": "Citronový čaj",
-            "a": []
-          }
-        ]
-      },
-      {
-        "c": "svacina",
-        "n": "Dalamá, nek s goudou okurka, mléko",
-        "d": "",
-        "a": [
-          1,
-          7
-        ],
-        "p": [
-          {
-            "l": "Jídlo",
-            "n": "Dalamá, nek s goudou okurka, mléko",
+            "n": "Sirup, mléko",
             "a": [
-              1,
               7
             ]
           }
@@ -4188,16 +4164,18 @@
       },
       {
         "c": "polevka",
-        "n": "Bramborová",
+        "n": "Hrachová s krutonky",
         "d": "",
         "a": [
-          1
+          1,
+          3,
+          7
         ]
       },
       {
         "c": "obed",
-        "n": "Nudle s tvarohem",
-        "d": "Nektarinka · Mléko, sirup",
+        "n": "Krůtí maso po čínsku",
+        "d": "Rýže · Nektarinka · Citronový čaj",
         "a": [
           1,
           3,
@@ -4206,12 +4184,17 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Nudle s tvarohem",
+            "n": "Krůtí maso po čínsku",
             "a": [
               1,
               3,
               7
             ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Rýže",
+            "a": []
           },
           {
             "l": "Doplněk",
@@ -4220,7 +4203,7 @@
           },
           {
             "l": "Nápoj",
-            "n": "Mléko, sirup",
+            "n": "Citronový čaj",
             "a": []
           }
         ]
@@ -4605,6 +4588,91 @@
             "l": "Jídlo",
             "n": "Chléb, pomazánka česneková s mrkví, mrkev, čaj lesní směs",
             "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-11-20": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Chléb, pomazánka z ryb v tomatě, mrkev, paprika, káva latte",
+        "d": "",
+        "a": [
+          1,
+          3,
+          4,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Chléb, pomazánka z ryb v tomatě, mrkev, paprika, káva latte",
+            "a": [
+              1,
+              3,
+              4,
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Slepičí s drobením",
+        "d": "",
+        "a": [
+          1,
+          3
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Mexický guláš",
+        "d": "Rýže · Sirup",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Mexický guláš",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Rýže",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Sirup",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Zeleninový salát s quinoou a sýrem, sirup",
+        "d": "",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Zeleninový salát s quinoou a sýrem, sirup",
+            "a": [
+              1,
+              7
+            ]
           }
         ]
       }

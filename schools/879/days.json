@@ -2175,6 +2175,38 @@
     "vydej": "10:01–14:00",
     "chody": [
       {
+        "c": "presnidavka",
+        "n": "Chléb",
+        "d": "Máslo s plátky turisty · Čaj, ovocný džus",
+        "a": [
+          1,
+          6,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Chléb",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Máslo s plátky turisty",
+            "a": [
+              6,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj, ovocný džus",
+            "a": []
+          }
+        ]
+      },
+      {
         "c": "polevka",
         "n": "Gulášová polévka",
         "d": "",
@@ -2210,30 +2242,15 @@
         ]
       },
       {
-        "c": "obed2",
-        "n": "Kuřecí maso se sýrovou omáčkou",
-        "d": "Kuskus · Čaj, ovocný džus",
-        "a": [
-          1,
-          7,
-          9
-        ],
+        "c": "svacina",
+        "n": "Přesnídávka",
+        "d": "Čaj, ovocný džus",
+        "a": [],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Kuřecí maso se sýrovou omáčkou",
-            "a": [
-              1,
-              7,
-              9
-            ]
-          },
-          {
-            "l": "Příloha",
-            "n": "Kuskus",
-            "a": [
-              1
-            ]
+            "n": "Přesnídávka",
+            "a": []
           },
           {
             "l": "Nápoj",
@@ -2247,6 +2264,43 @@
   "2026-10-21": {
     "vydej": "10:01–14:00",
     "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Chléb",
+        "d": "Tuňáková pomazánka · Zelenina · Čaj, ovocný džus",
+        "a": [
+          1,
+          4,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Chléb",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Tuňáková pomazánka",
+            "a": [
+              4,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zelenina",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj, ovocný džus",
+            "a": []
+          }
+        ]
+      },
       {
         "c": "polevka",
         "n": "Ovarová polévka",
@@ -2294,38 +2348,30 @@
         ]
       },
       {
-        "c": "obed2",
-        "n": "Kuřecí plátek přírodní",
-        "d": "Rýže dušená · Okurkový salát · Čaj, ovocný džus",
+        "c": "svacina",
+        "n": "Koblížek",
+        "d": "Kakao",
         "a": [
           1,
-          7,
-          9
+          3,
+          7
         ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Kuřecí plátek přírodní",
+            "n": "Koblížek",
             "a": [
               1,
-              7,
-              9
+              3,
+              7
             ]
           },
           {
-            "l": "Příloha",
-            "n": "Rýže dušená",
-            "a": []
-          },
-          {
-            "l": "Doplněk",
-            "n": "Okurkový salát",
-            "a": []
-          },
-          {
             "l": "Nápoj",
-            "n": "Čaj, ovocný džus",
-            "a": []
+            "n": "Kakao",
+            "a": [
+              7
+            ]
           }
         ]
       }
@@ -2334,6 +2380,30 @@
   "2026-10-22": {
     "vydej": "10:01–14:00",
     "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Čoko kuličky s mlékem",
+        "d": "Čaj, ovocný džus",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Čoko kuličky s mlékem",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj, ovocný džus",
+            "a": []
+          }
+        ]
+      },
       {
         "c": "polevka",
         "n": "Kulajda",
@@ -2381,28 +2451,26 @@
         ]
       },
       {
-        "c": "obed2",
-        "n": "Tortila se šunkou a zeleninou, dresing",
-        "d": "Čaj, ovocný džus",
+        "c": "svacina",
+        "n": "Houska",
+        "d": "Máslo s plátky sýra, zelenina · Čaj, ovocný džus",
         "a": [
           1,
-          3,
-          6,
-          7,
-          9,
-          10
+          7
         ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Tortila se šunkou a zeleninou, dresing",
+            "n": "Houska",
             "a": [
-              1,
-              3,
-              6,
-              7,
-              9,
-              10
+              1
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Máslo s plátky sýra, zelenina",
+            "a": [
+              7
             ]
           },
           {
@@ -2417,6 +2485,38 @@
   "2026-10-23": {
     "vydej": "10:01–14:00",
     "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Chléb",
+        "d": "Hermelínová pomazánka · Čaj, ovocný džus",
+        "a": [
+          1,
+          6,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Chléb",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Hermelínová pomazánka",
+            "a": [
+              6,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj, ovocný džus",
+            "a": []
+          }
+        ]
+      },
       {
         "c": "polevka",
         "n": "Brokolicová",
@@ -2448,6 +2548,39 @@
               7,
               9
             ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj, ovocný džus",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Muffiny čokoládové",
+        "d": "Ovoce · Čaj, ovocný džus",
+        "a": [
+          1,
+          3,
+          7,
+          13
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Muffiny čokoládové",
+            "a": [
+              1,
+              3,
+              7,
+              13
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
           },
           {
             "l": "Nápoj",
