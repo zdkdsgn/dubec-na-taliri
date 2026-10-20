@@ -1894,7 +1894,7 @@
       {
         "c": "obed",
         "n": "ČÍNA – Vepové nudličky se zeleninou ve sladkokyselé omáčce",
-        "d": "Čínské vaječné nudle · Liči · Mléko, ovocný čaj, voda",
+        "d": "Čínské vaječné nudle · Kaki kurma · Mléko, ovocný čaj, voda",
         "a": [
           1,
           3,
@@ -1921,7 +1921,7 @@
           },
           {
             "l": "Doplněk",
-            "n": "Liči",
+            "n": "Kaki kurma",
             "a": []
           },
           {
@@ -1936,7 +1936,7 @@
       {
         "c": "obed2",
         "n": "Špagety AGLIO OLIO, parmazán",
-        "d": "Liči · Mléko, ovocný čaj, voda",
+        "d": "Kaki · Mléko, ovocný čaj, voda",
         "a": [
           1,
           3,
@@ -1954,7 +1954,7 @@
           },
           {
             "l": "Doplněk",
-            "n": "Liči",
+            "n": "Kaki",
             "a": []
           },
           {
@@ -2171,7 +2171,7 @@
       },
       {
         "c": "obed",
-        "n": "Pečená treska s jemnou limetkovo-bylinkovou omáčkou",
+        "n": "JIŽNÍ KOREA Pečená treska s jemnou limetkovo-bylinkovou omáčkou",
         "d": "Batátové pyré · Ovocný mix · Mléko, ovocný čaj, voda",
         "a": [
           4,
@@ -2181,7 +2181,7 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Pečená treska s jemnou limetkovo-bylinkovou omáčkou",
+            "n": "JIŽNÍ KOREA Pečená treska s jemnou limetkovo-bylinkovou omáčkou",
             "a": [
               4,
               6,
@@ -3516,6 +3516,80 @@
             "a": [
               1,
               3,
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-11-23": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Zeleninový vývar s tarhoňou",
+        "d": "",
+        "a": [
+          1,
+          3,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Losos na pomerančích",
+        "d": "Bramborové pyré · Ovocný kompot · Mléko, ovocný čaj, voda",
+        "a": [
+          4,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Losos na pomerančích",
+            "a": [
+              4,
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Bramborové pyré",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovocný kompot",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko, ovocný čaj, voda",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Řemeslný chléb s pomazánkou z tofu a sušenými rajčaty",
+        "d": "",
+        "a": [
+          1,
+          3,
+          6,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Řemeslný chléb s pomazánkou z tofu a sušenými rajčaty",
+            "a": [
+              1,
+              3,
+              6,
               7
             ]
           }

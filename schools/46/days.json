@@ -4302,5 +4302,75 @@
         ]
       }
     ]
+  },
+  "2026-11-23": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Gulášová",
+        "d": "",
+        "a": [
+          1
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Čočka Beluga",
+        "d": "Uzený plátek, st. okurka · Ovoce · Ovocný nápoj, čaj, voda",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Čočka Beluga",
+            "a": []
+          },
+          {
+            "l": "Příloha",
+            "n": "Uzený plátek, st. okurka",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný nápoj, čaj, voda",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "n": "Rýžový nákyp s ovocem",
+        "d": "Ovoce · Ovocný nápoj, čaj, voda",
+        "a": [
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Rýžový nákyp s ovocem",
+            "a": [
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný nápoj, čaj, voda",
+            "a": []
+          }
+        ]
+      }
+    ]
   }
 }

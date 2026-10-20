@@ -2068,16 +2068,19 @@
       },
       {
         "c": "obed",
-        "n": "Srbské vepřové žebírko",
+        "n": "Srbské rizoto",
         "d": "Okurka · Voda, sirup, mléko",
         "a": [
+          3,
           7
         ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Srbské vepřové žebírko",
-            "a": []
+            "n": "Srbské rizoto",
+            "a": [
+              3
+            ]
           },
           {
             "l": "Doplněk",
@@ -2480,6 +2483,49 @@
             "l": "Doplněk",
             "n": "Ovoce – jablko",
             "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Voda, sirup, mléko",
+            "a": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-11-23": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Frankfurtská polévka",
+        "d": "",
+        "a": [
+          1,
+          7,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Lasagne s tvarohem a ovocem",
+        "d": "Voda, sirup, mléko",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Lasagne s tvarohem a ovocem",
+            "a": [
+              1,
+              3,
+              7
+            ]
           },
           {
             "l": "Nápoj",

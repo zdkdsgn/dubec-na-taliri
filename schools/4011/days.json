@@ -2387,7 +2387,7 @@
       {
         "c": "obed",
         "n": "Čočka na kyselo, vejce",
-        "d": "Chléb-chléb žitný · Pribináček s ov.přelivem · Mléko s příchutí",
+        "d": "Chléb-chléb žitný · Pribináček s ov.přelivem · Voda s citronem",
         "a": [
           1,
           3,
@@ -2418,17 +2418,15 @@
           },
           {
             "l": "Nápoj",
-            "n": "Mléko s příchutí",
-            "a": [
-              7
-            ]
+            "n": "Voda s citronem",
+            "a": []
           }
         ]
       },
       {
         "c": "obed2",
         "n": "Kuřecí přírodní plátek",
-        "d": "Zeleninový salát, bagetka · Pribináček s ov.přelivem · Mléko s příchutí",
+        "d": "Zeleninový salát, bagetka · Pribináček s ov.přelivem · Voda s citronem",
         "a": [
           1,
           7
@@ -2455,10 +2453,8 @@
           },
           {
             "l": "Nápoj",
-            "n": "Mléko s příchutí",
-            "a": [
-              7
-            ]
+            "n": "Voda s citronem",
+            "a": []
           }
         ]
       }
@@ -2479,7 +2475,7 @@
       {
         "c": "obed",
         "n": "Vepřová pečeně selská",
-        "d": "Mrkev dušená, brambory · Ovoce · Voda s citronem",
+        "d": "Mrkev dušená, brambory · Ovoce · Mléko s příchutí",
         "a": [
           1,
           7,
@@ -2509,17 +2505,20 @@
           },
           {
             "l": "Nápoj",
-            "n": "Voda s citronem",
-            "a": []
+            "n": "Mléko s příchutí",
+            "a": [
+              7
+            ]
           }
         ]
       },
       {
         "c": "obed2",
         "n": "Jitrnicový prejt",
-        "d": "Kysané zelí, brambor · Ovoce · Voda s citronem",
+        "d": "Kysané zelí, brambor · Ovoce · Mléko s příchutí",
         "a": [
           1,
+          7,
           9
         ],
         "p": [
@@ -2545,8 +2544,10 @@
           },
           {
             "l": "Nápoj",
-            "n": "Voda s citronem",
-            "a": []
+            "n": "Mléko s příchutí",
+            "a": [
+              7
+            ]
           }
         ]
       }

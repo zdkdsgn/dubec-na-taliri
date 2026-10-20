@@ -3431,8 +3431,8 @@
       },
       {
         "c": "svacina",
-        "n": "Houska, rama, marmeláda",
-        "d": "Ovoce · Mléko, ovocný sirup bez cukru, voda s grepem",
+        "n": "Houska, rama",
+        "d": "Šlehaný tvaroh · Ovoce · Mléko, ovocný sirup bez cukru, voda s grepem",
         "a": [
           1,
           7
@@ -3440,11 +3440,16 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Houska, rama, marmeláda",
+            "n": "Houska, rama",
             "a": [
               1,
               7
             ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Šlehaný tvaroh",
+            "a": []
           },
           {
             "l": "Doplněk",
@@ -3864,13 +3869,13 @@
       },
       {
         "c": "svacina",
-        "n": "Bulka řemeslná tmavá, bylinková lučina",
+        "n": "Bramborová bulka, pomazánka pažitková",
         "d": "Zelenina · Ovocný sirup bez cukru, voda",
         "a": [],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Bulka řemeslná tmavá, bylinková lučina",
+            "n": "Bramborová bulka, pomazánka pažitková",
             "a": []
           },
           {

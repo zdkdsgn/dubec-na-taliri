@@ -3089,7 +3089,7 @@
       {
         "c": "obed",
         "n": "Mexický guláš",
-        "d": "Hrášková rýže · Ovoce · Čaj se sirupem, voda, mléko",
+        "d": "Hrášková rýže · Mandarinka · Čaj se sirupem, voda, mléko",
         "a": [
           1,
           7
@@ -3110,7 +3110,7 @@
           },
           {
             "l": "Doplněk",
-            "n": "Ovoce",
+            "n": "Mandarinka",
             "a": []
           },
           {
@@ -3125,7 +3125,7 @@
       {
         "c": "obed2",
         "n": "Vejce vařené, fazolové lusky na smetaně",
-        "d": "Brambory · Ovoce · Čaj se sirupem, voda, mléko",
+        "d": "Brambory · Mandarinka · Čaj se sirupem, voda, mléko",
         "a": [
           1,
           3,
@@ -3148,7 +3148,7 @@
           },
           {
             "l": "Doplněk",
-            "n": "Ovoce",
+            "n": "Mandarinka",
             "a": []
           },
           {
@@ -3178,7 +3178,7 @@
       {
         "c": "obed",
         "n": "Nudle s tvarohem a cukrem",
-        "d": "Sirup, voda, bílá káva",
+        "d": "Ovocná přesnídávka · Sirup, voda, bílá káva",
         "a": [
           1,
           3,
@@ -3195,6 +3195,11 @@
             ]
           },
           {
+            "l": "Doplněk",
+            "n": "Ovocná přesnídávka",
+            "a": []
+          },
+          {
             "l": "Nápoj",
             "n": "Sirup, voda, bílá káva",
             "a": [
@@ -3207,7 +3212,7 @@
       {
         "c": "obed2",
         "n": "Kuřecí ražniči na plechu s ananasem",
-        "d": "Pečené brambory · Sirup, voda, bílá káva",
+        "d": "Pečené brambory · Ovocná přesnídávka · Sirup, voda, bílá káva",
         "a": [
           1,
           7
@@ -3223,6 +3228,11 @@
           {
             "l": "Příloha",
             "n": "Pečené brambory",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovocná přesnídávka",
             "a": []
           },
           {
@@ -3625,7 +3635,7 @@
       {
         "c": "obed",
         "n": "Filet z hejka na másle, citron",
-        "d": "Bramborová kaše · Ovoce · Neslazený bylinný čaj, voda, ochucené mléko",
+        "d": "Bramborová kaše · Jablko · Neslazený bylinný čaj, voda, ochucené mléko",
         "a": [
           4,
           7
@@ -3648,7 +3658,7 @@
           },
           {
             "l": "Doplněk",
-            "n": "Ovoce",
+            "n": "Jablko",
             "a": []
           },
           {
@@ -3663,7 +3673,7 @@
       {
         "c": "obed2",
         "n": "Salát z červené řepy s jablky",
-        "d": "Bramborové placky · Ovoce · Neslazený bylinný čaj, voda, mléko",
+        "d": "Bramborové placky · Jablko · Neslazený bylinný čaj, voda, mléko",
         "a": [
           1,
           3,
@@ -3688,7 +3698,7 @@
           },
           {
             "l": "Doplněk",
-            "n": "Ovoce",
+            "n": "Jablko",
             "a": []
           },
           {
@@ -4591,6 +4601,94 @@
             "l": "Nápoj",
             "n": "Sirup, voda, mléko",
             "a": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-11-23": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "S vaječným svítkem",
+        "d": "",
+        "a": [
+          1,
+          3,
+          7,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Bulgur se zeleninou a sýrem, kyselá okurka",
+        "d": "Čaj s citronem, voda, kapučínek",
+        "a": [
+          1,
+          7,
+          9
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Bulgur se zeleninou a sýrem, kyselá okurka",
+            "a": [
+              1,
+              7,
+              9
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj s citronem, voda, kapučínek",
+            "a": [
+              1,
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "n": "Istrijský tuňákový salát s cizrnou (tuňák, zelenina, zakysaná smetana, cizrna)",
+        "d": "Pečivo · Čaj s citronem, voda, kapučínek",
+        "a": [
+          1,
+          3,
+          4,
+          7,
+          9,
+          10
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Istrijský tuňákový salát s cizrnou (tuňák, zelenina, zakysaná smetana, cizrna)",
+            "a": [
+              3,
+              4,
+              7,
+              9,
+              10
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Pečivo",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj s citronem, voda, kapučínek",
+            "a": [
+              1,
               7
             ]
           }

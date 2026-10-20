@@ -9,8 +9,8 @@
 window.MENU_DATA = {
   meta: {
     school: "MŠ & ZŠ Dubeč",
-    updated: "2026-10-19T11:49:01+02:00",
-    week: "2026-09-01 – 2026-10-23",
+    updated: "2026-10-20T11:22:21+02:00",
+    week: "2026-09-01 – 2026-10-29",
     sources: {
       zs: "https://www.jidelna.cz/jidelni-listek/?jidelna=47",
       ms: "https://www.msdubec.cz/stranka-jidelnicek-45"
@@ -518,6 +518,42 @@ window.MENU_DATA = {
           {"c": "polevka", "n": "Selská s kroupami", "d": "", "a": [1, 7, 9]},
           {"c": "obed", "n": "Filet sumečka", "d": "Bramborová kaše máslem maštěné · Ovoce · Ovocný čaj, mléčný koktejl", "a": [4, 7, 8], "p": [{"l": "Jídlo", "n": "Filet sumečka", "a": [4]}, {"l": "Příloha", "n": "Bramborová kaše máslem maštěné", "a": [7]}, {"l": "Doplněk", "n": "Ovoce", "a": []}, {"l": "Nápoj", "n": "Ovocný čaj, mléčný koktejl", "a": [7, 8]}]},
           {"c": "obed2", "n": "Krupicová kaše s kakaem", "d": "Ovoce · Ovocný čaj, mléčný koktejl", "a": [1, 7, 8], "p": [{"l": "Jídlo", "n": "Krupicová kaše s kakaem", "a": [1, 7]}, {"l": "Doplněk", "n": "Ovoce", "a": []}, {"l": "Nápoj", "n": "Ovocný čaj, mléčný koktejl", "a": [7, 8]}]}
+        ],
+      vydej: {
+        zs: "11:30–13:45"
+      }
+    },
+    "2026-10-26": {
+      zs: [
+          {"c": "polevka", "n": "Slepičí s kapáním", "d": "", "a": [1, 3, 7, 9]},
+          {"c": "obed", "n": "Krůtí nudličky na zelenině (paprika, pórek)", "d": "Rýže · Ovoce · Čaj, mléko, ochucená voda", "a": [1, 6, 7, 10], "p": [{"l": "Jídlo", "n": "Krůtí nudličky na zelenině (paprika, pórek)", "a": [1, 6, 10]}, {"l": "Příloha", "n": "Rýže", "a": []}, {"l": "Doplněk", "n": "Ovoce", "a": []}, {"l": "Nápoj", "n": "Čaj, mléko, ochucená voda", "a": [7]}]},
+          {"c": "obed2", "n": "Perlový kuskus se zeleninou a sýrem", "d": "Ovoce · Čaj, mléko, ochucená voda", "a": [1, 7], "p": [{"l": "Jídlo", "n": "Perlový kuskus se zeleninou a sýrem", "a": [1, 7]}, {"l": "Doplněk", "n": "Ovoce", "a": []}, {"l": "Nápoj", "n": "Čaj, mléko, ochucená voda", "a": [7]}]}
+        ],
+      vydej: {
+        zs: "11:30–13:45"
+      }
+    },
+    "2026-10-27": {
+      zs: [
+          {"c": "polevka", "n": "Mrkvová s dýní", "d": "", "a": [1, 7]},
+          {"c": "obed", "n": "Holandský řízek", "d": "Bramborová kaše máslem maštěné – okurka · Jablečný koláč · Ovocný čaj, mléčný koktejl", "a": [1, 3, 7, 8], "p": [{"l": "Jídlo", "n": "Holandský řízek", "a": []}, {"l": "Příloha", "n": "Bramborová kaše máslem maštěné – okurka", "a": [7]}, {"l": "Doplněk", "n": "Jablečný koláč", "a": [1, 3, 7]}, {"l": "Nápoj", "n": "Ovocný čaj, mléčný koktejl", "a": [7, 8]}]},
+          {"c": "obed2", "n": "Těstovinový salát se šunkou a vejcem", "d": "Jablečný koláč · Ovocný čaj, mléčný koktejl", "a": [1, 3, 7, 8], "p": [{"l": "Jídlo", "n": "Těstovinový salát se šunkou a vejcem", "a": [1, 3, 7]}, {"l": "Doplněk", "n": "Jablečný koláč", "a": [1, 3, 7]}, {"l": "Nápoj", "n": "Ovocný čaj, mléčný koktejl", "a": [7, 8]}]}
+        ],
+      vydej: {
+        zs: "11:30–13:45"
+      }
+    },
+    "2026-10-28": {
+      zs: [
+          {"c": "polevka", "n": "Státní svátek", "d": "", "a": []}
+        ],
+      vydej: {
+        zs: "11:30–13:45"
+      }
+    },
+    "2026-10-29": {
+      zs: [
+          {"c": "polevka", "n": "Podzimní prázdniny", "d": "", "a": []}
         ],
       vydej: {
         zs: "11:30–13:45"
