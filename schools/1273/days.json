@@ -4547,5 +4547,210 @@
         ]
       }
     }
+  },
+  "2026-10-26": {
+    "skupiny": {
+      "ms": {
+        "vydej": "11:00–13:30",
+        "chody": [
+          {
+            "c": "presnidavka",
+            "n": "Ředkvičková pomazánka, pečivo",
+            "d": "",
+            "a": [],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Ředkvičková pomazánka, pečivo",
+                "a": []
+              }
+            ]
+          },
+          {
+            "c": "polevka",
+            "n": "Bramboračka",
+            "d": "",
+            "a": []
+          },
+          {
+            "c": "obed",
+            "n": "Zeleninové rizoto, sýr a okurka",
+            "d": "",
+            "a": [],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Zeleninové rizoto, sýr a okurka",
+                "a": []
+              }
+            ]
+          },
+          {
+            "c": "svacina",
+            "n": "Teplá přesnídávka",
+            "d": "",
+            "a": [],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Teplá přesnídávka",
+                "a": []
+              }
+            ]
+          }
+        ]
+      },
+      "zs": {
+        "vydej": "11:30–13:30",
+        "chody": [
+          {
+            "c": "polevka",
+            "n": "Bramboračka",
+            "d": "",
+            "a": []
+          },
+          {
+            "c": "obed",
+            "n": "Vepřové rizoto, sýr, okurka",
+            "d": "",
+            "a": [
+              7
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Vepřové rizoto, sýr, okurka",
+                "a": [
+                  7
+                ]
+              }
+            ]
+          },
+          {
+            "c": "obed2",
+            "n": "Zeleninové rizoto, sýr a okurka",
+            "d": "",
+            "a": [],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Zeleninové rizoto, sýr a okurka",
+                "a": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "2026-10-27": {
+    "skupiny": {
+      "ms": {
+        "vydej": "11:00–13:30",
+        "chody": [
+          {
+            "c": "presnidavka",
+            "n": "Pomazánka z červené řepy, pečivo",
+            "d": "",
+            "a": [
+              7
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Pomazánka z červené řepy, pečivo",
+                "a": [
+                  7
+                ]
+              }
+            ]
+          },
+          {
+            "c": "polevka",
+            "n": "Rajská se strouháním",
+            "d": "",
+            "a": []
+          },
+          {
+            "c": "obed",
+            "n": "Roštěná na smetaně",
+            "d": "Těstoviny",
+            "a": [],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Roštěná na smetaně",
+                "a": []
+              },
+              {
+                "l": "Příloha",
+                "n": "Těstoviny",
+                "a": []
+              }
+            ]
+          },
+          {
+            "c": "svacina",
+            "n": "Lučina, kneckebrot",
+            "d": "",
+            "a": [],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Lučina, kneckebrot",
+                "a": []
+              }
+            ]
+          }
+        ]
+      },
+      "zs": {
+        "vydej": "11:30–13:30",
+        "chody": [
+          {
+            "c": "polevka",
+            "n": "Rajská se strouháním",
+            "d": "",
+            "a": []
+          },
+          {
+            "c": "obed",
+            "n": "Roštěná na smetaně",
+            "d": "Těstoviny",
+            "a": [],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Roštěná na smetaně",
+                "a": []
+              },
+              {
+                "l": "Příloha",
+                "n": "Těstoviny",
+                "a": []
+              }
+            ]
+          },
+          {
+            "c": "obed2",
+            "n": "Sojové na smetaně",
+            "d": "Těstoviny",
+            "a": [],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Sojové na smetaně",
+                "a": []
+              },
+              {
+                "l": "Příloha",
+                "n": "Těstoviny",
+                "a": []
+              }
+            ]
+          }
+        ]
+      }
+    }
   }
 }

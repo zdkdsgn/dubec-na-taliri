@@ -3520,40 +3520,86 @@
     "chody": [
       {
         "c": "presnidavka",
-        "n": "Bude doplněno",
+        "n": "Chléb, zámecká pomazánka(šunka, sýr, okurek), mandarinka, mléko",
         "d": "",
-        "a": [],
+        "a": [
+          1,
+          7
+        ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Bude doplněno",
-            "a": []
+            "n": "Chléb, zámecká pomazánka(šunka, sýr, okurek), mandarinka, mléko",
+            "a": [
+              1,
+              7
+            ]
           }
         ]
       },
       {
-        "c": "obed",
-        "n": "Bude doplněno",
+        "c": "polevka",
+        "n": "Dýňová s kokosovým mlékem a smaženým hráškem",
         "d": "",
-        "a": [],
+        "a": [
+          7
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Obalované rybí filety z tresky v krustě",
+        "d": "Bramborová kaše · Červená řepa s jablky a křenem · Džus mrkváček",
+        "a": [
+          1,
+          4,
+          7
+        ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Bude doplněno",
+            "n": "Obalované rybí filety z tresky v krustě",
+            "a": [
+              1,
+              4
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Bramborová kaše",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Červená řepa s jablky a křenem",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Džus mrkváček",
             "a": []
           }
         ]
       },
       {
         "c": "svacina",
-        "n": "Bude doplněno",
+        "n": "Raženka, pomazánka tvarohová s vejci, paprika, mléko",
         "d": "",
-        "a": [],
+        "a": [
+          1,
+          3,
+          7
+        ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Bude doplněno",
-            "a": []
+            "n": "Raženka, pomazánka tvarohová s vejci, paprika, mléko",
+            "a": [
+              1,
+              3,
+              7
+            ]
           }
         ]
       }
@@ -3564,40 +3610,82 @@
     "chody": [
       {
         "c": "presnidavka",
-        "n": "Bude doplněno",
+        "n": "Rohlík, apetito, jablko, zelenina, mléko",
         "d": "",
-        "a": [],
+        "a": [
+          1,
+          7
+        ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Bude doplněno",
-            "a": []
+            "n": "Rohlík, apetito, jablko, zelenina, mléko",
+            "a": [
+              1,
+              7
+            ]
           }
         ]
       },
       {
-        "c": "obed",
-        "n": "Bude doplněno",
+        "c": "polevka",
+        "n": "Drožďová s kukuřičnými vločkami",
         "d": "",
-        "a": [],
+        "a": [
+          7,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Zvěřinový guláš",
+        "d": "Houskový knedlík · Sirup mango",
+        "a": [
+          1,
+          3,
+          7
+        ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Bude doplněno",
+            "n": "Zvěřinový guláš",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Houskový knedlík",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Sirup mango",
             "a": []
           }
         ]
       },
       {
         "c": "svacina",
-        "n": "Bude doplněno",
+        "n": "Chlém, pomazánka sýrová s česnekem, zelenina, mléko",
         "d": "",
-        "a": [],
+        "a": [
+          1,
+          7
+        ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Bude doplněno",
-            "a": []
+            "n": "Chlém, pomazánka sýrová s česnekem, zelenina, mléko",
+            "a": [
+              1,
+              7
+            ]
           }
         ]
       }
@@ -3608,40 +3696,84 @@
     "chody": [
       {
         "c": "presnidavka",
-        "n": "Bude doplněno",
+        "n": "Fazolová",
         "d": "",
-        "a": [],
+        "a": [
+          1,
+          7,
+          9
+        ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Bude doplněno",
-            "a": []
+            "n": "Fazolová",
+            "a": [
+              1,
+              7,
+              9
+            ]
           }
         ]
       },
       {
-        "c": "obed",
-        "n": "Bude doplněno",
+        "c": "polevka",
+        "n": "Fazolová",
         "d": "",
-        "a": [],
+        "a": [
+          7,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Kuře ala bažant",
+        "d": "Rýže s hráškem · Ledový salát · Voda s citronem",
+        "a": [
+          1,
+          7
+        ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Bude doplněno",
+            "n": "Kuře ala bažant",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Rýže s hráškem",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ledový salát",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Voda s citronem",
             "a": []
           }
         ]
       },
       {
         "c": "svacina",
-        "n": "Bude doplněno",
+        "n": "Toustový chléb s medovým máslem, mandarinka, mléko",
         "d": "",
-        "a": [],
+        "a": [
+          1,
+          7
+        ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Bude doplněno",
-            "a": []
+            "n": "Toustový chléb s medovým máslem, mandarinka, mléko",
+            "a": [
+              1,
+              7
+            ]
           }
         ]
       }
@@ -3652,40 +3784,75 @@
     "chody": [
       {
         "c": "presnidavka",
-        "n": "Bude doplněno",
+        "n": "Chléb, pomazánka tuňáková, salátová okurka, ananas, čaj",
         "d": "",
-        "a": [],
+        "a": [
+          1,
+          4,
+          7
+        ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Bude doplněno",
-            "a": []
+            "n": "Chléb, pomazánka tuňáková, salátová okurka, ananas, čaj",
+            "a": [
+              1,
+              4,
+              7
+            ]
           }
         ]
       },
       {
-        "c": "obed",
-        "n": "Bude doplněno",
+        "c": "polevka",
+        "n": "Květákovo-brokolicová s kuskusem",
         "d": "",
+        "a": [
+          1,
+          3,
+          7,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Boloňské špagety sypané goudou",
+        "d": "Čerstvá zelenina(okurka, paprika, rajče) · Džus meruňka",
         "a": [],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Bude doplněno",
+            "n": "Boloňské špagety sypané goudou",
+            "a": []
+          },
+          {
+            "l": "Příloha",
+            "n": "Čerstvá zelenina(okurka, paprika, rajče)",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Džus meruňka",
             "a": []
           }
         ]
       },
       {
         "c": "svacina",
-        "n": "Bude doplněno",
+        "n": "Veka, pomazánka ze strouhaného sýra, zelenina, mléko",
         "d": "",
-        "a": [],
+        "a": [
+          1,
+          7
+        ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Bude doplněno",
-            "a": []
+            "n": "Veka, pomazánka ze strouhaného sýra, zelenina, mléko",
+            "a": [
+              1,
+              7
+            ]
           }
         ]
       }
@@ -3696,40 +3863,78 @@
     "chody": [
       {
         "c": "presnidavka",
-        "n": "Bude doplněno",
+        "n": "Celozrnný rohlík, pomazánka vaječná, kiwi, zelenina, kefírové mléko",
         "d": "",
-        "a": [],
+        "a": [
+          1,
+          3,
+          7
+        ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Bude doplněno",
-            "a": []
+            "n": "Celozrnný rohlík, pomazánka vaječná, kiwi, zelenina, kefírové mléko",
+            "a": [
+              1,
+              3,
+              7
+            ]
           }
         ]
       },
       {
-        "c": "obed",
-        "n": "Bude doplněno",
+        "c": "polevka",
+        "n": "Vývar s masem a kroupami",
         "d": "",
-        "a": [],
+        "a": [
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Tvarohové knedlíky s jahodami sypané strouhankou (dle výběru žáků 4. a 2.A třídy)",
+        "d": "Ovocný kompot · Čaj s citronem",
+        "a": [
+          1,
+          7
+        ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Bude doplněno",
+            "n": "Tvarohové knedlíky s jahodami sypané strouhankou (dle výběru žáků 4. a 2.A třídy)",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovocný kompot",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj s citronem",
             "a": []
           }
         ]
       },
       {
         "c": "svacina",
-        "n": "Bude doplněno",
+        "n": "Rohlík, pomazánka pažitková, zelenina, mléko",
         "d": "",
-        "a": [],
+        "a": [
+          1,
+          7
+        ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Bude doplněno",
-            "a": []
+            "n": "Rohlík, pomazánka pažitková, zelenina, mléko",
+            "a": [
+              1,
+              7
+            ]
           }
         ]
       }
@@ -4176,6 +4381,50 @@
     ]
   },
   "2026-11-23": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Bude doplněno",
+        "d": "",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Bude doplněno",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Bude doplněno",
+        "d": "",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Bude doplněno",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Bude doplněno",
+        "d": "",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Bude doplněno",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-11-24": {
     "vydej": "11:00–14:00",
     "chody": [
       {

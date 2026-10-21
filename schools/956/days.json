@@ -1985,6 +1985,7 @@
         "d": "",
         "a": [
           1,
+          3,
           7,
           10
         ],
@@ -1994,6 +1995,7 @@
             "n": "Domácí jablkový závin, výběr ovoce, kakao, čaj",
             "a": [
               1,
+              3,
               7,
               10
             ]
@@ -2075,14 +2077,16 @@
         "n": "Cizrnovo-hrachové pyré s cibulkou, chléb, vejce",
         "d": "Bylinková voda, voda, čaj",
         "a": [
-          1
+          1,
+          3
         ],
         "p": [
           {
             "l": "Jídlo",
             "n": "Cizrnovo-hrachové pyré s cibulkou, chléb, vejce",
             "a": [
-              1
+              1,
+              3
             ]
           },
           {
@@ -2515,19 +2519,21 @@
       },
       {
         "c": "obed",
-        "n": "Bratislavská vepřová plec, těstoviny",
+        "n": "Bratislavská vepřová kýta, těstoviny",
         "d": "",
         "a": [
           1,
-          10
+          3,
+          7
         ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Bratislavská vepřová plec, těstoviny",
+            "n": "Bratislavská vepřová kýta, těstoviny",
             "a": [
               1,
-              10
+              3,
+              7
             ]
           }
         ]
@@ -2574,6 +2580,247 @@
               1,
               7
             ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-11-02": {
+    "vydej": "11:30–13:30",
+    "chody": [
+      {
+        "c": "svacina",
+        "n": "Ovesná kaše s jablky, čaj, mléko, ovoce",
+        "d": "",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Ovesná kaše s jablky, čaj, mléko, ovoce",
+            "a": [
+              1,
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Krémová zeleninová s krutonky",
+        "d": "",
+        "a": [
+          7,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Kuskusoto z celozrnného kuskusu s kuřecím masem a zeleninou, sypané sýrem",
+        "d": "Zeleninový salát · Voda s ovocem, voda, čaj",
+        "a": [
+          7,
+          10
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Kuskusoto z celozrnného kuskusu s kuřecím masem a zeleninou, sypané sýrem",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zeleninový salát",
+            "a": [
+              10
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Voda s ovocem, voda, čaj",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-11-04": {
+    "vydej": "11:30–13:30",
+    "chody": [
+      {
+        "c": "svacina",
+        "n": "Tortilla se šunkou a sýrem, ledový salát, čaj",
+        "d": "",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Tortilla se šunkou a sýrem, ledový salát, čaj",
+            "a": [
+              1,
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Indická čočková s kari",
+        "d": "",
+        "a": [
+          1
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Tvarohové noky s ovocným přelivem",
+        "d": "Čerstvé ovoce/kompot · Voda s ovocem a bylinkami, čaj, voda",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Tvarohové noky s ovocným přelivem",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Čerstvé ovoce/kompot",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Voda s ovocem a bylinkami, čaj, voda",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-11-05": {
+    "vydej": "11:30–13:30",
+    "chody": [
+      {
+        "c": "svacina",
+        "n": "Pletýnka s avokádovou pomazánkou s výhonky",
+        "d": "",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Pletýnka s avokádovou pomazánkou s výhonky",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Hovězí vývar pomalu tažený se zeleninou, nudlemi a droby",
+        "d": "",
+        "a": [
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Marinované krůtí nudličky s přelivem ze žlutého hrachu, semolinové barevné těstoviny",
+        "d": "Zeleninový salát · Voda, voda s ovocem, čaj",
+        "a": [
+          10
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Marinované krůtí nudličky s přelivem ze žlutého hrachu, semolinové barevné těstoviny",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zeleninový salát",
+            "a": [
+              10
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Voda, voda s ovocem, čaj",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-11-06": {
+    "vydej": "11:30–13:30",
+    "chody": [
+      {
+        "c": "svacina",
+        "n": "Chia bageta s tvarohovo-česnekovou pomazánkou s bylinkami Dobrá nálada, čaj, mléko, zelenina",
+        "d": "",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Chia bageta s tvarohovo-česnekovou pomazánkou s bylinkami Dobrá nálada, čaj, mléko, zelenina",
+            "a": [
+              1,
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Pórková s vejcem a zeleninou",
+        "d": "",
+        "a": [
+          3,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Přírodní vepřový řízek, šťouchané brambory",
+        "d": "Zeleninový a ovocný bar · Ovocný čaj, voda, voda s citronem",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Přírodní vepřový řízek, šťouchané brambory",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zeleninový a ovocný bar",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný čaj, voda, voda s citronem",
+            "a": []
           }
         ]
       }

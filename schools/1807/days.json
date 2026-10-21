@@ -1960,7 +1960,7 @@
       },
       {
         "c": "obed",
-        "n": "Hovězí pečeně na česneku",
+        "n": "Hovězí maso na česneku",
         "d": "Bramborový knedlík, špenát · Jablko · Ovocný čaj, mléko",
         "a": [
           1,
@@ -1970,7 +1970,7 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Hovězí pečeně na česneku",
+            "n": "Hovězí maso na česneku",
             "a": [
               1
             ]
@@ -2681,6 +2681,55 @@
           {
             "l": "Nápoj",
             "n": "Mléčný koktejl",
+            "a": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-11-24": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Zeleninový vývar s fridátovými nudlemi",
+        "d": "",
+        "a": [
+          1,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Azu po tatarsku",
+        "d": "Dušená rýže s pohankou · Jablko · Ovocný čaj, mléko",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Azu po tatarsku",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Dušená rýže s pohankou",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Jablko",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný čaj, mléko",
             "a": [
               7
             ]

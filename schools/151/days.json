@@ -2893,7 +2893,7 @@
     "chody": [
       {
         "c": "polevka",
-        "n": "Hovězí vývar s kapáním 1, 3, 7, 9",
+        "n": "Hovězí vývar s masem a nudlemi 1, 9",
         "d": "",
         "a": []
       },
@@ -2916,6 +2916,73 @@
           {
             "l": "Doplněk",
             "n": "Zeleninový bar, luštěninový salát",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný čaj, mléko 7, voda",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-11-24": {
+    "vydej": "11:30–14:15",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Zeleninová s ovesnými vločkami 1, 7, 9",
+        "d": "",
+        "a": []
+      },
+      {
+        "c": "obed",
+        "n": "Hovězí nudličky po provensálsku 1",
+        "d": "Perlový kuskus 1 · Ovoce · Ovocný čaj, mléko 7, voda",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Hovězí nudličky po provensálsku 1",
+            "a": []
+          },
+          {
+            "l": "Příloha",
+            "n": "Perlový kuskus 1",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný čaj, mléko 7, voda",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "n": "Králík na hořčici 1, 10",
+        "d": "Dušená rýže · Ovoce · Ovocný čaj, mléko 7, voda",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Králík na hořčici 1, 10",
+            "a": []
+          },
+          {
+            "l": "Příloha",
+            "n": "Dušená rýže",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
             "a": []
           },
           {

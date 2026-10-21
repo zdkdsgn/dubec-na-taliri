@@ -3000,7 +3000,7 @@
       {
         "c": "obed",
         "n": "Bulgur se zeleninou a vepřovým masem",
-        "d": "Sýr, kyselá okurka · Kompot · 100% mošt, voda, kapučínek",
+        "d": "Sýr, kyselá okurka · Hruškový kompot · 100% mošt, voda, kapučínek",
         "a": [
           1,
           7,
@@ -3025,7 +3025,7 @@
           },
           {
             "l": "Doplněk",
-            "n": "Kompot",
+            "n": "Hruškový kompot",
             "a": []
           },
           {
@@ -3041,7 +3041,7 @@
       {
         "c": "obed2",
         "n": "Alpský povidlový knedlík s krémem, sypaný mákem a cukrem (ALPY)",
-        "d": "Kompot · 100% mošt, voda, kapučínek",
+        "d": "Hruškový kompot · 100% mošt, voda, kapučínek",
         "a": [
           1,
           3,
@@ -3059,7 +3059,7 @@
           },
           {
             "l": "Doplněk",
-            "n": "Kompot",
+            "n": "Hruškový kompot",
             "a": []
           },
           {
@@ -3088,7 +3088,7 @@
       },
       {
         "c": "obed",
-        "n": "Mexický guláš",
+        "n": "Mexický guláš z hovězího masa",
         "d": "Hrášková rýže · Mandarinka · Čaj se sirupem, voda, mléko",
         "a": [
           1,
@@ -3097,7 +3097,7 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Mexický guláš",
+            "n": "Mexický guláš z hovězího masa",
             "a": [
               1,
               7
@@ -4689,6 +4689,85 @@
             "n": "Čaj s citronem, voda, kapučínek",
             "a": [
               1,
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-11-24": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Bramborová s houbami",
+        "d": "",
+        "a": [
+          1,
+          7,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Vejce vařené, fazolové lusky na smetaně",
+        "d": "Brambory · Multivitamin, voda, ochucené mléko",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Vejce vařené, fazolové lusky na smetaně",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Brambory",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Multivitamin, voda, ochucené mléko",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "n": "Kuřecí křídla pečená",
+        "d": "Šťouchané brambory · Multivitamin, voda, ochucené mléko",
+        "a": [
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Kuřecí křídla pečená",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Šťouchané brambory",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Multivitamin, voda, ochucené mléko",
+            "a": [
               7
             ]
           }

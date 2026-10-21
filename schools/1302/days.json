@@ -1864,7 +1864,7 @@
       {
         "c": "obed",
         "n": "Nudle s mákem",
-        "d": "MŠ Ovocný kompot, ZŠ šlehaný tvaroh, ovoce · Mléko, voda",
+        "d": "MŠ Ovocný kompot, ZŠ šlehaný tvaroh, ovoce · MŠ Mléko, voda, ZŠ čaj, voda",
         "a": [
           1,
           7
@@ -1885,7 +1885,7 @@
           },
           {
             "l": "Nápoj",
-            "n": "Mléko, voda",
+            "n": "MŠ Mléko, voda, ZŠ čaj, voda",
             "a": [
               7
             ]
@@ -1895,7 +1895,7 @@
       {
         "c": "obed2",
         "n": "Plovdivské vepřové maso",
-        "d": "Těstoviny · Ovoce, šlehaný tvaroh · Mléko, voda",
+        "d": "Těstoviny · Ovoce, šlehaný tvaroh · Čaj, voda",
         "a": [
           1,
           7
@@ -1924,10 +1924,8 @@
           },
           {
             "l": "Nápoj",
-            "n": "Mléko, voda",
-            "a": [
-              7
-            ]
+            "n": "Čaj, voda",
+            "a": []
           }
         ]
       }
@@ -1948,7 +1946,7 @@
       {
         "c": "obed",
         "n": "Pečený kuřecí steak",
-        "d": "Rýže basmati · Rajčatový salát",
+        "d": "Rýže basmati · Rajčatový salát · Šťáva, voda",
         "a": [
           1,
           7
@@ -1970,6 +1968,11 @@
           {
             "l": "Doplněk",
             "n": "Rajčatový salát",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Šťáva, voda",
             "a": []
           }
         ]
@@ -2124,7 +2127,7 @@
       {
         "c": "obed",
         "n": "Krůtí sekaná",
-        "d": "Vařené brambory · Zelný salát s kukuřicí · MŠ čaj, voda, ZŠ mléko, voda",
+        "d": "Vařené brambory · Zelný salát s kukuřicí · MŠ šťáva, voda, ZŠ mléko, voda",
         "a": [
           1,
           3,
@@ -2152,7 +2155,7 @@
           },
           {
             "l": "Nápoj",
-            "n": "MŠ čaj, voda, ZŠ mléko, voda",
+            "n": "MŠ šťáva, voda, ZŠ mléko, voda",
             "a": [
               7
             ]
@@ -2255,9 +2258,36 @@
     "chody": [
       {
         "c": "polevka",
-        "n": "ZŠ podzimní prázdniny",
+        "n": "MŠ polévka hnědá s praženou krupicí, ZŠ podzimní prázdniny",
         "d": "",
-        "a": []
+        "a": [
+          1,
+          7,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Kuřecí kung-pao s cizrnou",
+        "d": "Rýže · Čaj, voda",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Kuřecí kung-pao s cizrnou",
+            "a": []
+          },
+          {
+            "l": "Příloha",
+            "n": "Rýže",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj, voda",
+            "a": []
+          }
+        ]
       }
     ]
   },
@@ -2266,9 +2296,50 @@
     "chody": [
       {
         "c": "polevka",
-        "n": "ZŠ podzimní prázdniny",
+        "n": "MŠ Polévka ze žabího slizu (špenátová s nočky), ZŠ prázdniny",
         "d": "",
-        "a": []
+        "a": [
+          1,
+          3,
+          7
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Kotlíková omáčka s červíky (plovdivské vepřové maso s těstovinou)",
+        "d": "Těstoviny · Ovoce trhané za úplňku · Šťáva, voda",
+        "a": [
+          1,
+          3
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Kotlíková omáčka s červíky (plovdivské vepřové maso s těstovinou)",
+            "a": [
+              1,
+              3
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Těstoviny",
+            "a": [
+              1,
+              3
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce trhané za úplňku",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Šťáva, voda",
+            "a": []
+          }
+        ]
       }
     ]
   }

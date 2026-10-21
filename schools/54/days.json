@@ -4924,5 +4924,97 @@
         ]
       }
     ]
+  },
+  "2026-11-24": {
+    "vydej": "11:30–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Kuřecí vývar s těstovinou",
+        "d": "",
+        "a": [
+          1,
+          3,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Čočkový eintopf (bezmasý), chleba",
+        "d": "Salátový bar · Čaj, mléko, voda",
+        "a": [
+          1,
+          3,
+          7,
+          9,
+          10
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Čočkový eintopf (bezmasý), chleba",
+            "a": [
+              1,
+              9
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Salátový bar",
+            "a": [
+              3,
+              7,
+              9,
+              10
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj, mléko, voda",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "n": "Srbské žebírko, rýže",
+        "d": "Salátový bar · Čaj, mléko, voda",
+        "a": [
+          1,
+          3,
+          7,
+          9,
+          10
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Srbské žebírko, rýže",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Salátový bar",
+            "a": [
+              3,
+              7,
+              9,
+              10
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj, mléko, voda",
+            "a": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
   }
 }

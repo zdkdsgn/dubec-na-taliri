@@ -3596,5 +3596,101 @@
         ]
       }
     ]
+  },
+  "2026-11-24": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Česneková s bramborem",
+        "d": "",
+        "a": []
+      },
+      {
+        "c": "obed",
+        "n": "Hovězí stroganoff",
+        "d": "Barevná rýže · Mléko, ovocný čaj, voda",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Hovězí stroganoff",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Barevná rýže",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko, ovocný čaj, voda",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "n": "Zeleninové lečo bezmasé",
+        "d": "Brambor · Mléko, ovocný čaj, voda",
+        "a": [
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Zeleninové lečo bezmasé",
+            "a": [
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Brambor",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko, ovocný čaj, voda",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Rýžové chlebíčky Pirates, ovoce",
+        "d": "",
+        "a": [
+          1,
+          6,
+          7,
+          8
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Rýžové chlebíčky Pirates, ovoce",
+            "a": [
+              1,
+              6,
+              7,
+              8
+            ]
+          }
+        ]
+      }
+    ]
   }
 }
