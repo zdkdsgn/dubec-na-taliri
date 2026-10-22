@@ -236,53 +236,61 @@ async function poslatNotifikace(request, env, origin) {
 
   let posláno = 0, smazáno = 0;
   const chyby = new Set();
-  for (const { id, nazev, title, body: vlastniText } of schools) {
-    const prefix = `sub:${id}:`;
+
+  // Odběratele vyčteme z KV jen dvakrát (web push + APNs) a roztřídíme podle
+  // školy v paměti – dřív se pro každou školu volalo list() zvlášť, a když se
+  // měnily stovky škol najednou, trvalo to desítky vteřin a volání vypršelo.
+  const poSkole = async prefix => {
+    const mapa = new Map();
     let cursor, seznam;
     do {
       seznam = await env.PUSH_SUBS.list({ prefix, cursor });
       cursor = seznam.cursor;
       for (const { name } of seznam.keys) {
-        const syrove = await env.PUSH_SUBS.get(name);
-        if (!syrove) continue;
-        const subscription = JSON.parse(syrove);
-        const payload = JSON.stringify({
-          title: title || "Škola na talíři",
-          body: vlastniText || `Nový jídelníček pro ${nazev} je venku.`,
-          schoolId: id,
-        });
-        try {
-          await webpush.sendNotification(subscription, payload);
-          posláno++;
-        } catch (e) {
-          if (e.statusCode === 404 || e.statusCode === 410) {
-            await env.PUSH_SUBS.delete(name);
-            smazáno++;
-          }
-          // ostatní chyby (dočasný výpadek push serveru) necháme být,
-          // odběr zůstává, zkusí se to znovu při dalším /notify
-        }
+        const skolaId = name.split(":")[1];
+        if (!mapa.has(skolaId)) mapa.set(skolaId, []);
+        mapa.get(skolaId).push(name);
       }
     } while (!seznam.list_complete);
+    return mapa;
+  };
+  const maApns = env.APNS_KEY && env.APNS_KEY_ID && env.APNS_TEAM_ID && env.APNS_TOPIC;
+  const webOdberatele = await poSkole("sub:");
+  const apnsOdberatele = maApns ? await poSkole("apns:") : new Map();
 
-    if (env.APNS_KEY && env.APNS_KEY_ID && env.APNS_TEAM_ID && env.APNS_TOPIC) {
-      const apnsTitle = title || "Škola na talíři";
-      const apnsText = vlastniText || `Nový jídelníček pro ${nazev} je venku.`;
-      let apnsCursor, apnsSeznam;
-      do {
-        apnsSeznam = await env.PUSH_SUBS.list({ prefix: `apns:${id}:`, cursor: apnsCursor });
-        apnsCursor = apnsSeznam.cursor;
-        for (const { name } of apnsSeznam.keys) {
-          const syrove = await env.PUSH_SUBS.get(name);
-          if (!syrove) continue;
-          try {
-            const vysledek = await poslatApns(env, JSON.parse(syrove), id, apnsTitle, apnsText);
-            if (vysledek.stav === "ok") posláno++;
-            else if (vysledek.stav === "smazat") { await env.PUSH_SUBS.delete(name); smazáno++; }
-            else chyby.add(vysledek.duvod);
-          } catch (e) { chyby.add(`vyjimka:${e.message}`); /* odběr zůstává */ }
+  for (const { id, nazev, title, body: vlastniText } of schools) {
+    const webKlice = webOdberatele.get(String(id)) || [];
+    const apnsKlice = apnsOdberatele.get(String(id)) || [];
+    if (!webKlice.length && !apnsKlice.length) continue;
+    const nadpis = title || "Škola na talíři";
+    const text = vlastniText || `Nový jídelníček pro ${nazev} je venku.`;
+
+    for (const name of webKlice) {
+      const syrove = await env.PUSH_SUBS.get(name);
+      if (!syrove) continue;
+      const payload = JSON.stringify({ title: nadpis, body: text, schoolId: id });
+      try {
+        await webpush.sendNotification(JSON.parse(syrove), payload);
+        posláno++;
+      } catch (e) {
+        if (e.statusCode === 404 || e.statusCode === 410) {
+          await env.PUSH_SUBS.delete(name);
+          smazáno++;
         }
-      } while (!apnsSeznam.list_complete);
+        // ostatní chyby (dočasný výpadek push serveru) necháme být,
+        // odběr zůstává, zkusí se to znovu při dalším /notify
+      }
+    }
+
+    for (const name of apnsKlice) {
+      const syrove = await env.PUSH_SUBS.get(name);
+      if (!syrove) continue;
+      try {
+        const vysledek = await poslatApns(env, JSON.parse(syrove), id, nadpis, text);
+        if (vysledek.stav === "ok") posláno++;
+        else if (vysledek.stav === "smazat") { await env.PUSH_SUBS.delete(name); smazáno++; }
+        else chyby.add(vysledek.duvod);
+      } catch (e) { chyby.add(`vyjimka:${e.message}`); /* odběr zůstává */ }
     }
   }
   return json({ ok: true, posláno, smazáno, ...(chyby.size ? { apnsChyby: [...chyby] } : {}) }, 200, origin);

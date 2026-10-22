@@ -53,9 +53,9 @@ def main():
         "User-Agent": "dubec-na-taliri-github-action/1.0",
     })
     try:
-        with urlopen(req, timeout=20) as r:
+        with urlopen(req, timeout=60) as r:
             print("notify-push:", r.read().decode("utf-8"))
-    except (URLError, HTTPError) as e:
+    except (URLError, HTTPError, OSError) as e:   # OSError = i holý timeout, který urlopen nezabalí
         # Notifikace nejsou kritická část nasazení – chyba tu appku nemá zastavit.
         print(f"notify-push: worker se nepodařilo zavolat ({e}) – necháno být", file=sys.stderr)
 
