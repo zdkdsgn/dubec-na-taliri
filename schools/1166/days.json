@@ -4493,15 +4493,41 @@
     "vydej": "11:00–14:00",
     "chody": [
       {
-        "c": "obed",
-        "n": "Bude doplněno",
+        "c": "polevka",
+        "n": "Vývar s těstovinou",
         "d": "",
-        "a": [],
+        "a": [
+          1,
+          3,
+          7,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Maďarský guláš",
+        "d": "Chléb",
+        "a": [
+          1,
+          3,
+          7
+        ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Bude doplněno",
-            "a": []
+            "n": "Maďarský guláš",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Chléb",
+            "a": [
+              1,
+              3,
+              7
+            ]
           }
         ]
       }
@@ -4511,15 +4537,37 @@
     "vydej": "11:00–14:00",
     "chody": [
       {
-        "c": "obed",
-        "n": "Bude doplněno",
+        "c": "polevka",
+        "n": "Špenátová",
         "d": "",
-        "a": [],
+        "a": [
+          1,
+          7
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Losos na másle",
+        "d": "Brambory s pažitkou",
+        "a": [
+          4,
+          7
+        ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Bude doplněno",
-            "a": []
+            "n": "Losos na másle",
+            "a": [
+              4,
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Brambory s pažitkou",
+            "a": [
+              7
+            ]
           }
         ]
       }
@@ -4530,13 +4578,13 @@
     "chody": [
       {
         "c": "obed",
-        "n": "Bude doplněno",
+        "n": "Svátek",
         "d": "",
         "a": [],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Bude doplněno",
+            "n": "Svátek",
             "a": []
           }
         ]
@@ -4547,15 +4595,38 @@
     "vydej": "11:00–14:00",
     "chody": [
       {
-        "c": "obed",
-        "n": "Bude doplněno",
+        "c": "polevka",
+        "n": "Krupicová s vejci",
         "d": "",
-        "a": [],
+        "a": [
+          1,
+          3,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Kuřecí plátek",
+        "d": "Dušená rýže",
+        "a": [
+          1,
+          7
+        ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Bude doplněno",
-            "a": []
+            "n": "Kuřecí plátek",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Dušená rýže",
+            "a": [
+              1
+            ]
           }
         ]
       }
@@ -4565,15 +4636,39 @@
     "vydej": "11:00–14:00",
     "chody": [
       {
-        "c": "obed",
-        "n": "Bude doplněno",
+        "c": "polevka",
+        "n": "Česneková s bramborem",
         "d": "",
-        "a": [],
+        "a": [
+          3,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Smažený sýr",
+        "d": "Brambory",
+        "a": [
+          1,
+          3,
+          7
+        ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Bude doplněno",
-            "a": []
+            "n": "Smažený sýr",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Brambory",
+            "a": [
+              7
+            ]
           }
         ]
       }
