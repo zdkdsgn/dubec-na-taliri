@@ -2737,5 +2737,57 @@
         ]
       }
     ]
+  },
+  "2026-11-25": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Hovězí polévka s kapáním",
+        "d": "",
+        "a": [
+          1,
+          3,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Čočka na kyselo",
+        "d": "Chléb, vejce · Steril. okurka · Džus, mléko",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Čočka na kyselo",
+            "a": []
+          },
+          {
+            "l": "Příloha",
+            "n": "Chléb, vejce",
+            "a": [
+              1,
+              3
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Steril. okurka",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Džus, mléko",
+            "a": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
   }
 }

@@ -6531,5 +6531,128 @@
         ]
       }
     ]
+  },
+  "2026-11-25": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Slunečnicový chléb, pomazánka z krabích tyčinek",
+        "d": "Banán · Mléko, čaj",
+        "a": [
+          1,
+          4,
+          7,
+          11
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Slunečnicový chléb, pomazánka z krabích tyčinek",
+            "a": [
+              1,
+              4,
+              7,
+              11
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Banán",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko, čaj",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Polévka česneková s pohankou a sýrem",
+        "d": "",
+        "a": [
+          7
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Sekaná pečeně",
+        "d": "Brambory, hořčice, kečup · Šopský salát · Ovocný čaj neslazený, voda, mléko",
+        "a": [
+          1,
+          3,
+          7,
+          10
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Sekaná pečeně",
+            "a": [
+              1,
+              3
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Brambory, hořčice, kečup",
+            "a": [
+              10
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Šopský salát",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný čaj neslazený, voda, mléko",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Rohlík, pomazánkové máslo",
+        "d": "Kedlubna · Mléko, čaj",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Rohlík, pomazánkové máslo",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Kedlubna",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko, čaj",
+            "a": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
   }
 }

@@ -4243,5 +4243,100 @@
         ]
       }
     ]
+  },
+  "2026-11-25": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Kulajda",
+        "d": "",
+        "a": [
+          1,
+          3,
+          7,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Sumeček po dalmátsku",
+        "d": "Těstoviny · Šlehaný tvaroh · Mléko, sirup, voda s mátou",
+        "a": [
+          1,
+          4,
+          7,
+          9
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Sumeček po dalmátsku",
+            "a": [
+              1,
+              4,
+              9
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Těstoviny",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Šlehaný tvaroh",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko, sirup, voda s mátou",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "n": "Vrstvený salát(salát, celer, šunka, ananas, kukuřice, sýr, dresink)",
+        "d": "Pečivo · Šlehaný tvaroh",
+        "a": [
+          1,
+          3,
+          6,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Vrstvený salát(salát, celer, šunka, ananas, kukuřice, sýr, dresink)",
+            "a": [
+              3,
+              6,
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Pečivo",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Šlehaný tvaroh",
+            "a": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
   }
 }

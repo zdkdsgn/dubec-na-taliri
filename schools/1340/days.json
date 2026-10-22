@@ -4057,6 +4057,28 @@
     "vydej": "11:00–14:00",
     "chody": [
       {
+        "c": "presnidavka",
+        "n": "Ovocná přesnídávka \"jablíčko-mrkev\", rohlík",
+        "d": "Bylinkový čaj",
+        "a": [
+          1
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Ovocná přesnídávka \"jablíčko-mrkev\", rohlík",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Bylinkový čaj",
+            "a": []
+          }
+        ]
+      },
+      {
         "c": "polevka",
         "n": "Zeleninová s tarhoňou",
         "d": "",
@@ -4069,9 +4091,10 @@
       {
         "c": "obed",
         "n": "Vepřové nudličky na slanině",
-        "d": "Dušená rýže s hráškem",
+        "d": "Dušená rýže s hráškem · Mléko, voda",
         "a": [
-          1
+          1,
+          7
         ],
         "p": [
           {
@@ -4085,6 +4108,42 @@
             "l": "Příloha",
             "n": "Dušená rýže s hráškem",
             "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko, voda",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Chléb, sýr Lučina",
+        "d": "Okurek, paprika · Ovocný čaj s citronem",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Chléb, sýr Lučina",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Okurek, paprika",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný čaj s citronem",
+            "a": []
           }
         ]
       }
@@ -4093,6 +4152,37 @@
   "2026-10-27": {
     "vydej": "11:00–14:00",
     "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Chléb, máslo, plátkový sýr",
+        "d": "Ovoce · Kakao",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Chléb, máslo, plátkový sýr",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Kakao",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
       {
         "c": "polevka",
         "n": "Kuřecí vývar s masem a těstovinou",
@@ -4106,7 +4196,7 @@
       {
         "c": "obed",
         "n": "Lišková omáčka s těstovinami",
-        "d": "Ledový salát s paprikou",
+        "d": "Ledový salát s paprikou · Voda s pomerančem",
         "a": [
           1,
           3,
@@ -4126,6 +4216,46 @@
             "l": "Doplněk",
             "n": "Ledový salát s paprikou",
             "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Voda s pomerančem",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Vitální chléb, pomazánka z ryb ve vlastní šťávě",
+        "d": "Kedlubna · Mléko",
+        "a": [
+          1,
+          3,
+          4,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Vitální chléb, pomazánka z ryb ve vlastní šťávě",
+            "a": [
+              1,
+              3,
+              4,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Kedlubna",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko",
+            "a": [
+              7
+            ]
           }
         ]
       }
@@ -4153,6 +4283,41 @@
     "vydej": "11:00–14:00",
     "chody": [
       {
+        "c": "presnidavka",
+        "n": "Veka, lískooříšková pomazánka",
+        "d": "Ovoce · Mléko",
+        "a": [
+          1,
+          6,
+          7,
+          8
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Veka, lískooříšková pomazánka",
+            "a": [
+              1,
+              6,
+              7,
+              8
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
         "c": "polevka",
         "n": "Pórková s kapáním",
         "d": "",
@@ -4164,7 +4329,7 @@
       {
         "c": "obed",
         "n": "Tilapia na Peperonatě (směs barevných paprik)",
-        "d": "Brambory",
+        "d": "Brambory · Ovocný čaj \"jahoda s rakytníkem",
         "a": [
           4
         ],
@@ -4180,6 +4345,42 @@
             "l": "Příloha",
             "n": "Brambory",
             "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný čaj \"jahoda s rakytníkem",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Chléb, pomazánkové tradiční",
+        "d": "Rajče · Ochucené mléko",
+        "a": [
+          1,
+          6,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Chléb, pomazánkové tradiční",
+            "a": [
+              1,
+              6,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Rajče",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ochucené mléko",
+            "a": []
           }
         ]
       }
@@ -4189,6 +4390,39 @@
     "vydej": "11:00–14:00",
     "chody": [
       {
+        "c": "presnidavka",
+        "n": "Sójový rohlík, pomazánka z paštiky Svačinka",
+        "d": "Ovoce · Bílá káva",
+        "a": [
+          1,
+          6,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Sójový rohlík, pomazánka z paštiky Svačinka",
+            "a": [
+              1,
+              6,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Bílá káva",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
         "c": "polevka",
         "n": "Hrášková (ze zeleného hrachu)",
         "d": "",
@@ -4197,7 +4431,7 @@
       {
         "c": "obed",
         "n": "Bramborové gnocci sypané perníkem",
-        "d": "Ovoce",
+        "d": "Našlehaný tvaroh MŠ děti · Mléko",
         "a": [
           1,
           3,
@@ -4215,7 +4449,47 @@
           },
           {
             "l": "Doplněk",
-            "n": "Ovoce",
+            "n": "Našlehaný tvaroh MŠ děti",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Žitný chléb, pomazánka z taveného sýru s pažitkou",
+        "d": "Okurek · Ovocný čaj \"borůvka\"",
+        "a": [
+          1,
+          6,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Žitný chléb, pomazánka z taveného sýru s pažitkou",
+            "a": [
+              1,
+              6,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Okurek",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný čaj \"borůvka\"",
             "a": []
           }
         ]

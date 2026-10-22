@@ -3629,46 +3629,99 @@
     "chody": [
       {
         "c": "presnidavka",
-        "n": "Jídelníček bude upřesněn",
-        "d": "",
-        "a": [],
+        "n": "Tmavá bulka, sýrová tyčinka",
+        "d": "Ovoce · Kakao, voda",
+        "a": [
+          1,
+          7
+        ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Jídelníček bude upřesněn",
+            "n": "Tmavá bulka, sýrová tyčinka",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
             "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Kakao, voda",
+            "a": [
+              7
+            ]
           }
         ]
       },
       {
         "c": "polevka",
-        "n": "Jídelníček bude upřesněn",
+        "n": "Krupicová s vejcem",
         "d": "",
-        "a": []
+        "a": [
+          1,
+          3
+        ]
       },
       {
         "c": "obed",
-        "n": "Jídelníček bude upřesněn",
-        "d": "",
-        "a": [],
+        "n": "Rybí treska v hořčičné omáčce",
+        "d": "Kuskus · Ovocná šťáva, voda",
+        "a": [
+          4
+        ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Jídelníček bude upřesněn",
+            "n": "Rybí treska v hořčičné omáčce",
+            "a": [
+              4
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Kuskus",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocná šťáva, voda",
             "a": []
           }
         ]
       },
       {
         "c": "svacina",
-        "n": "Jídelníček bude upřesněn",
-        "d": "",
-        "a": [],
+        "n": "Chléb, žervé s pažitkou",
+        "d": "Zelenina · Mléko, voda",
+        "a": [
+          1,
+          7
+        ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Jídelníček bude upřesněn",
+            "n": "Chléb, žervé s pažitkou",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zelenina",
             "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko, voda",
+            "a": [
+              7
+            ]
           }
         ]
       }
@@ -3679,45 +3732,90 @@
     "chody": [
       {
         "c": "presnidavka",
-        "n": "Jídelníček bude upřesněn",
-        "d": "",
-        "a": [],
+        "n": "Tmavý chléb, zeleninový tvaroh",
+        "d": "Zelenina · Mléko, voda",
+        "a": [
+          1,
+          7
+        ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Jídelníček bude upřesněn",
+            "n": "Tmavý chléb, zeleninový tvaroh",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zelenina",
             "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko, voda",
+            "a": [
+              7
+            ]
           }
         ]
       },
       {
         "c": "polevka",
-        "n": "Jídelníček bude upřesněn",
+        "n": "Vločková",
         "d": "",
-        "a": []
+        "a": [
+          1
+        ]
       },
       {
         "c": "obed",
-        "n": "Jídelníček bude upřesněn",
-        "d": "",
-        "a": [],
+        "n": "Hrachová kaše, vařené vejce",
+        "d": "Steril. okurka · Voda",
+        "a": [
+          3
+        ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Jídelníček bude upřesněn",
+            "n": "Hrachová kaše, vařené vejce",
+            "a": [
+              3
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Steril. okurka",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Voda",
             "a": []
           }
         ]
       },
       {
         "c": "svacina",
-        "n": "Jídelníček bude upřesněn",
-        "d": "",
-        "a": [],
+        "n": "Jahodové mléko, chlebíček s quinoou",
+        "d": "Voda",
+        "a": [
+          1,
+          7
+        ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Jídelníček bude upřesněn",
+            "n": "Jahodové mléko, chlebíček s quinoou",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Voda",
             "a": []
           }
         ]
@@ -3729,45 +3827,32 @@
     "chody": [
       {
         "c": "presnidavka",
-        "n": "Jídelníček bude upřesněn",
+        "n": "Státní svátek",
         "d": "",
         "a": [],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Jídelníček bude upřesněn",
+            "n": "Státní svátek",
             "a": []
           }
         ]
       },
       {
         "c": "polevka",
-        "n": "Jídelníček bude upřesněn",
+        "n": "Státní svátek",
         "d": "",
         "a": []
       },
       {
-        "c": "obed",
-        "n": "Jídelníček bude upřesněn",
-        "d": "",
-        "a": [],
-        "p": [
-          {
-            "l": "Jídlo",
-            "n": "Jídelníček bude upřesněn",
-            "a": []
-          }
-        ]
-      },
-      {
         "c": "svacina",
-        "n": "Jídelníček bude upřesněn",
+        "n": "Státní svátek",
         "d": "",
         "a": [],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Jídelníček bude upřesněn",
+            "n": "Státní svátek",
             "a": []
           }
         ]
@@ -3779,46 +3864,85 @@
     "chody": [
       {
         "c": "presnidavka",
-        "n": "Jídelníček bude upřesněn",
-        "d": "",
-        "a": [],
+        "n": "Chlupatý chleba, ovoce",
+        "d": "Kakao, voda",
+        "a": [
+          1,
+          7
+        ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Jídelníček bude upřesněn",
-            "a": []
+            "n": "Chlupatý chleba, ovoce",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Kakao, voda",
+            "a": [
+              7
+            ]
           }
         ]
       },
       {
         "c": "polevka",
-        "n": "Jídelníček bude upřesněn",
+        "n": "Polévka pórková se smaženým hráškem",
         "d": "",
-        "a": []
+        "a": [
+          1
+        ]
       },
       {
         "c": "obed",
-        "n": "Jídelníček bude upřesněn",
-        "d": "",
-        "a": [],
+        "n": "Zapečené těstoviny s krůtím masem",
+        "d": "Ovocná šťáva, voda",
+        "a": [
+          1,
+          3
+        ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Jídelníček bude upřesněn",
+            "n": "Zapečené těstoviny s krůtím masem",
+            "a": [
+              1,
+              3
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocná šťáva, voda",
             "a": []
           }
         ]
       },
       {
         "c": "svacina",
-        "n": "Jídelníček bude upřesněn",
-        "d": "",
-        "a": [],
+        "n": "Veka, bylinková lučina, zelenina",
+        "d": "Mléko, voda",
+        "a": [
+          1,
+          7
+        ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Jídelníček bude upřesněn",
-            "a": []
+            "n": "Veka, bylinková lučina, zelenina",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko, voda",
+            "a": [
+              7
+            ]
           }
         ]
       }
@@ -3829,45 +3953,88 @@
     "chody": [
       {
         "c": "presnidavka",
-        "n": "Jídelníček bude upřesněn",
-        "d": "",
-        "a": [],
+        "n": "Tmavý chleba, čočková pomazánka",
+        "d": "Zelenina · Mléko, voda",
+        "a": [
+          1,
+          7
+        ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Jídelníček bude upřesněn",
+            "n": "Tmavý chleba, čočková pomazánka",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zelenina",
             "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko, voda",
+            "a": [
+              7
+            ]
           }
         ]
       },
       {
         "c": "polevka",
-        "n": "Jídelníček bude upřesněn",
+        "n": "Selská polévka",
         "d": "",
         "a": []
       },
       {
         "c": "obed",
-        "n": "Jídelníček bude upřesněn",
-        "d": "",
-        "a": [],
+        "n": "Zelníky, zeleninová příloha",
+        "d": "Melta, voda",
+        "a": [
+          1
+        ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Jídelníček bude upřesněn",
+            "n": "Zelníky, zeleninová příloha",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Melta, voda",
             "a": []
           }
         ]
       },
       {
         "c": "svacina",
-        "n": "Jídelníček bude upřesněn",
-        "d": "",
-        "a": [],
+        "n": "Toustový chléb, tavený sýr",
+        "d": "Ovoce · Ovocný čaj, voda",
+        "a": [
+          1,
+          7
+        ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Jídelníček bude upřesněn",
+            "n": "Toustový chléb, tavený sýr",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný čaj, voda",
             "a": []
           }
         ]

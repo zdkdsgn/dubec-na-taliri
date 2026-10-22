@@ -5016,5 +5016,97 @@
         ]
       }
     ]
+  },
+  "2026-11-25": {
+    "vydej": "11:30–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Hrstková",
+        "d": "",
+        "a": [
+          1
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Zapečené těstoviny s kuřecím masem, sýrem a špenátem",
+        "d": "Salátový bar · Čaj, mléko, voda",
+        "a": [
+          1,
+          3,
+          7,
+          9,
+          10
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Zapečené těstoviny s kuřecím masem, sýrem a špenátem",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Salátový bar",
+            "a": [
+              3,
+              7,
+              9,
+              10
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj, mléko, voda",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "n": "Vepřenky, brambory, hořčice, cibule",
+        "d": "Salátový bar · Čaj, mléko, voda",
+        "a": [
+          1,
+          3,
+          7,
+          9,
+          10
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Vepřenky, brambory, hořčice, cibule",
+            "a": [
+              1,
+              7,
+              10
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Salátový bar",
+            "a": [
+              3,
+              7,
+              9,
+              10
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj, mléko, voda",
+            "a": [
+              3,
+              7
+            ]
+          }
+        ]
+      }
+    ]
   }
 }

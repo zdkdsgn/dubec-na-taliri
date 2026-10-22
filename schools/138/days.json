@@ -4438,38 +4438,22 @@
     "vydej": "12:00–12:30",
     "chody": [
       {
-        "c": "obed",
-        "n": "NEVAŘÍ SE, STÁTNÍ SVÁTEK",
-        "d": "",
-        "a": [],
-        "p": [
-          {
-            "l": "Jídlo",
-            "n": "NEVAŘÍ SE, STÁTNÍ SVÁTEK",
-            "a": []
-          }
-        ]
-      }
-    ]
-  },
-  "2026-10-28": {
-    "vydej": "12:00–12:30",
-    "chody": [
-      {
         "c": "presnidavka",
-        "n": "Chléb, celerová pomazánka",
+        "n": "Chléb, celerová pomazánka s vejci",
         "d": "Ovoce · Ovocný čaj x voda",
         "a": [
           1,
+          3,
           7,
           9
         ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Chléb, celerová pomazánka",
+            "n": "Chléb, celerová pomazánka s vejci",
             "a": [
               1,
+              3,
               7,
               9
             ]
@@ -4498,10 +4482,11 @@
       {
         "c": "obed",
         "n": "Dětský smažený sýr",
-        "d": "Brambory vař. na páře m.m. · Salátek · Džus ředěný x voda",
+        "d": "Brambory vař. na páře · Dětská tatarka · Ředěný džus x voda",
         "a": [
           1,
-          7
+          7,
+          10
         ],
         "p": [
           {
@@ -4514,30 +4499,30 @@
           },
           {
             "l": "Příloha",
-            "n": "Brambory vař. na páře m.m.",
-            "a": [
-              7
-            ]
-          },
-          {
-            "l": "Doplněk",
-            "n": "Salátek",
+            "n": "Brambory vař. na páře",
             "a": []
           },
           {
+            "l": "Doplněk",
+            "n": "Dětská tatarka",
+            "a": [
+              7,
+              10
+            ]
+          },
+          {
             "l": "Nápoj",
-            "n": "Džus ředěný x voda",
+            "n": "Ředěný džus x voda",
             "a": []
           }
         ]
       },
       {
         "c": "svacina",
-        "n": "Dalamánek, pomazánkové máslo",
-        "d": "Čerstvá zelenina · Ovocný čaj x voda x mléko",
+        "n": "Cereální kuličky s mlékem",
+        "d": "Zelenina · Ovocný čaj x voda",
         "a": [
           1,
-          6,
           7,
           11,
           13,
@@ -4546,10 +4531,9 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Dalamánek, pomazánkové máslo",
+            "n": "Cereální kuličky s mlékem",
             "a": [
               1,
-              6,
               7,
               11,
               13,
@@ -4558,15 +4542,31 @@
           },
           {
             "l": "Doplněk",
-            "n": "Čerstvá zelenina",
+            "n": "Zelenina",
             "a": []
           },
           {
             "l": "Nápoj",
-            "n": "Ovocný čaj x voda x mléko",
-            "a": [
-              7
-            ]
+            "n": "Ovocný čaj x voda",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-28": {
+    "vydej": "12:00–12:30",
+    "chody": [
+      {
+        "c": "obed",
+        "n": "S T Á T N Í S V Á T E K",
+        "d": "",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "S T Á T N Í S V Á T E K",
+            "a": []
           }
         ]
       }
@@ -4577,20 +4577,18 @@
     "chody": [
       {
         "c": "presnidavka",
-        "n": "Zahnutý rohlík, sýrová pomazánka",
+        "n": "Chléb, máslo, džem",
         "d": "Ovoce · Ovocný čaj x voda x mléko",
         "a": [
           1,
-          3,
           7
         ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Zahnutý rohlík, sýrová pomazánka",
+            "n": "Chléb, máslo, džem",
             "a": [
               1,
-              3,
               7
             ]
           },
@@ -4610,31 +4608,34 @@
       },
       {
         "c": "polevka",
-        "n": "Hrášková s krutonky",
+        "n": "Hovězí vývar se sýrovými noky",
         "d": "",
         "a": [
           1,
-          7
+          7,
+          9
         ]
       },
       {
         "c": "obed",
-        "n": "Věpřové žebírko po srbsku",
-        "d": "Rýže dušená · Ředěný džus x voda",
+        "n": "Vepřové po srbsku",
+        "d": "Dušená rýže parboiled · Ředěný džus x voda",
         "a": [
-          1
+          1,
+          9
         ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Věpřové žebírko po srbsku",
+            "n": "Vepřové po srbsku",
             "a": [
-              1
+              1,
+              9
             ]
           },
           {
             "l": "Příloha",
-            "n": "Rýže dušená",
+            "n": "Dušená rýže parboiled",
             "a": []
           },
           {
@@ -4688,8 +4689,8 @@
     "chody": [
       {
         "c": "presnidavka",
-        "n": "Chléb, pomazánka rozhuda",
-        "d": "Ovoce · Ovocný čaj x voda x mléko",
+        "n": "Chléb s máslem a ovocný salátek",
+        "d": "Ovoce · Ovocný čaj x voda x bílá káva",
         "a": [
           1,
           7
@@ -4697,7 +4698,7 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Chléb, pomazánka rozhuda",
+            "n": "Chléb s máslem a ovocný salátek",
             "a": [
               1,
               7
@@ -4710,7 +4711,7 @@
           },
           {
             "l": "Nápoj",
-            "n": "Ovocný čaj x voda x mléko",
+            "n": "Ovocný čaj x voda x bílá káva",
             "a": [
               7
             ]
@@ -4719,34 +4720,34 @@
       },
       {
         "c": "polevka",
-        "n": "Hovězí s písmenky",
+        "n": "Hrášková s krutonky",
         "d": "",
         "a": [
           1,
-          3,
-          9
+          7
         ]
       },
       {
         "c": "obed",
-        "n": "Hovězí maso vařené, rajská omáčka",
-        "d": "Těstoviny · Ředěný džus x voda",
+        "n": "Boloňské špagety",
+        "d": "Strouhaný eidam · Ředěný džus x voda",
         "a": [
-          1
+          1,
+          7
         ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Hovězí maso vařené, rajská omáčka",
+            "n": "Boloňské špagety",
             "a": [
               1
             ]
           },
           {
             "l": "Příloha",
-            "n": "Těstoviny",
+            "n": "Strouhaný eidam",
             "a": [
-              1
+              7
             ]
           },
           {
@@ -4758,8 +4759,8 @@
       },
       {
         "c": "svacina",
-        "n": "Sýrový rohlík",
-        "d": "Jablko · Ovocný čaj x voda",
+        "n": "Loupáček",
+        "d": "Zeleninová miska · Ovocný čaj x voda",
         "a": [
           1,
           3,
@@ -4768,7 +4769,7 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Sýrový rohlík",
+            "n": "Loupáček",
             "a": [
               1,
               3,
@@ -4777,7 +4778,7 @@
           },
           {
             "l": "Doplněk",
-            "n": "Jablko",
+            "n": "Zeleninová miska",
             "a": []
           },
           {

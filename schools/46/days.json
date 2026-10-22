@@ -4454,5 +4454,95 @@
         ]
       }
     ]
+  },
+  "2026-11-25": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Drožďová",
+        "d": "",
+        "a": [
+          1,
+          7,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Kuřecí závitky",
+        "d": "Bramborová kaše · Ovoce · Ovocný nápoj, čaj, voda",
+        "a": [
+          1,
+          7,
+          10
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Kuřecí závitky",
+            "a": [
+              1,
+              10
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Bramborová kaše",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný nápoj, čaj, voda",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "n": "Hovězí po španělsku",
+        "d": "Dušená rýže · Ovoce · Ovocný nápoj, čaj, voda",
+        "a": [
+          1,
+          3,
+          7,
+          10
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Hovězí po španělsku",
+            "a": [
+              1,
+              3,
+              7,
+              10
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Dušená rýže",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný nápoj, čaj, voda",
+            "a": []
+          }
+        ]
+      }
+    ]
   }
 }

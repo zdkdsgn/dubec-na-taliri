@@ -5940,5 +5940,119 @@
         ]
       }
     ]
+  },
+  "2026-11-25": {
+    "vydej": "11:30–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Hrstková",
+        "d": "",
+        "a": [
+          1,
+          7,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Zapečené těstoviny s kuřecím masem, špenátem a sýrem",
+        "d": "Zelenino-ovocný bar · Čaj, ovocný nápoj, mléko",
+        "a": [
+          1,
+          2,
+          3,
+          4,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Zapečené těstoviny s kuřecím masem, špenátem a sýrem",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zelenino-ovocný bar",
+            "a": [
+              1,
+              2,
+              3,
+              4,
+              7,
+              8,
+              9,
+              10,
+              11
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj, ovocný nápoj, mléko",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "n": "Vepřenky, brambory, hořčice, cibulka",
+        "d": "Zelenino-ovocný bar · Čaj, ovocný nápoj, mléko",
+        "a": [
+          1,
+          2,
+          3,
+          4,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Vepřenky, brambory, hořčice, cibulka",
+            "a": [
+              1,
+              3,
+              7,
+              10
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zelenino-ovocný bar",
+            "a": [
+              1,
+              2,
+              3,
+              4,
+              7,
+              8,
+              9,
+              10,
+              11
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj, ovocný nápoj, mléko",
+            "a": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
   }
 }

@@ -4307,20 +4307,14 @@
         "n": "Rizoto s vepřovým masem, strouhaný sýr",
         "d": "Míchaný salát · Ovocný džus Tropico, voda",
         "a": [
-          3,
-          6,
-          7,
-          9
+          7
         ],
         "p": [
           {
             "l": "Jídlo",
             "n": "Rizoto s vepřovým masem, strouhaný sýr",
             "a": [
-              3,
-              6,
-              7,
-              9
+              7
             ]
           },
           {
@@ -4341,7 +4335,6 @@
         "d": "Zelenina · Mléko, voda, čaj",
         "a": [
           1,
-          4,
           6,
           7
         ],
@@ -4364,7 +4357,6 @@
             "l": "Nápoj",
             "n": "Mléko, voda, čaj",
             "a": [
-              4,
               7
             ]
           }
@@ -4436,7 +4428,9 @@
         "c": "obed",
         "n": "Vepřová panenka na zelenině",
         "d": "Vařené brambory · Ovocný koktejl TROPICO, voda",
-        "a": [],
+        "a": [
+          7
+        ],
         "p": [
           {
             "l": "Jídlo",
@@ -4451,7 +4445,9 @@
           {
             "l": "Nápoj",
             "n": "Ovocný koktejl TROPICO, voda",
-            "a": []
+            "a": [
+              7
+            ]
           }
         ]
       },
@@ -4565,6 +4561,7 @@
         "d": "Zelenina · Čaj, voda",
         "a": [
           1,
+          7,
           11
         ],
         "p": [
@@ -4573,6 +4570,7 @@
             "n": "Celozrnný chléb, Lučina",
             "a": [
               1,
+              7,
               11
             ]
           },

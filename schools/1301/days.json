@@ -7125,7 +7125,7 @@
           {
             "c": "presnidavka",
             "n": "Pomazánka z tresčích jater a lučiny(flora, lučina, tresčí játra, cibule, st.okurka, sůl)",
-            "d": "Chléb · Jablko · Mléko, ovocný čaj, voda",
+            "d": "Chléb · Mléko, ovocný čaj, voda",
             "a": [
               1,
               4,
@@ -7148,11 +7148,6 @@
                 "a": [
                   1
                 ]
-              },
-              {
-                "l": "Doplněk",
-                "n": "Jablko",
-                "a": []
               },
               {
                 "l": "Nápoj",
@@ -7227,7 +7222,7 @@
           {
             "c": "svacina",
             "n": "Máslo, strouhaný sýr gouda",
-            "d": "Chléb · Baby mrkvička · Mléko, ovocný čaj, voda",
+            "d": "Chléb · Cherry rajčata · Mléko, ovocný čaj, voda",
             "a": [
               1,
               7
@@ -7249,7 +7244,7 @@
               },
               {
                 "l": "Doplněk",
-                "n": "Baby mrkvička",
+                "n": "Cherry rajčata",
                 "a": []
               },
               {
@@ -7769,22 +7764,24 @@
           },
           {
             "c": "svacina",
-            "n": "Pribináček kapsík",
-            "d": "Rohlík · Ovocný čaj -jahoda a šípek, voda",
+            "n": "Celozrná srdíčka s luštěninou kokos/čokoláda, mléko",
+            "d": "Jablko · Ovocný čaj -jahoda a šípek, voda",
             "a": [
+              1,
               7
             ],
             "p": [
               {
                 "l": "Jídlo",
-                "n": "Pribináček kapsík",
+                "n": "Celozrná srdíčka s luštěninou kokos/čokoláda, mléko",
                 "a": [
+                  1,
                   7
                 ]
               },
               {
-                "l": "pečivo",
-                "n": "Rohlík",
+                "l": "Doplněk",
+                "n": "Jablko",
                 "a": []
               },
               {
@@ -9929,6 +9926,121 @@
               {
                 "l": "Doplněk",
                 "n": "Okurkový salát",
+                "a": []
+              },
+              {
+                "l": "Nápoj",
+                "n": "Ovocný čaj, voda s citrónem, pomerančem a mátou, voda",
+                "a": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "2026-11-25": {
+    "skupiny": {
+      "ms": {
+        "vydej": "10:30–14:30",
+        "chody": [
+          {
+            "c": "polevka",
+            "n": "Hrstková polévka",
+            "d": "",
+            "a": [
+              1,
+              9
+            ]
+          },
+          {
+            "c": "obed",
+            "n": "Rajská omáčka, masové kuličky",
+            "d": "Těstovina · Ovocný čaj, voda s citrónem, pomerančem a mátou, voda",
+            "a": [
+              1
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Rajská omáčka, masové kuličky",
+                "a": []
+              },
+              {
+                "l": "Příloha",
+                "n": "Těstovina",
+                "a": [
+                  1
+                ]
+              },
+              {
+                "l": "Nápoj",
+                "n": "Ovocný čaj, voda s citrónem, pomerančem a mátou, voda",
+                "a": []
+              }
+            ]
+          }
+        ]
+      },
+      "zs": {
+        "vydej": "10:30–14:30",
+        "chody": [
+          {
+            "c": "polevka",
+            "n": "Hrstková polévka",
+            "d": "",
+            "a": [
+              1,
+              9
+            ]
+          },
+          {
+            "c": "obed",
+            "n": "Rajská omáčka, masové kuličky",
+            "d": "Těstovina · Ovocný čaj, voda s citrónem, pomerančem a mátou, voda",
+            "a": [
+              1
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Rajská omáčka, masové kuličky",
+                "a": []
+              },
+              {
+                "l": "Příloha",
+                "n": "Těstovina",
+                "a": [
+                  1
+                ]
+              },
+              {
+                "l": "Nápoj",
+                "n": "Ovocný čaj, voda s citrónem, pomerančem a mátou, voda",
+                "a": []
+              }
+            ]
+          },
+          {
+            "c": "obed2",
+            "n": "Krůtí bulgureto se zeleninou, sypané sýrem",
+            "d": "Salát polníček · Ovocný čaj, voda s citrónem, pomerančem a mátou, voda",
+            "a": [
+              1,
+              7
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Krůtí bulgureto se zeleninou, sypané sýrem",
+                "a": [
+                  1,
+                  7
+                ]
+              },
+              {
+                "l": "Doplněk",
+                "n": "Salát polníček",
                 "a": []
               },
               {
