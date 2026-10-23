@@ -9,8 +9,8 @@
 window.MENU_DATA = {
   meta: {
     school: "MŠ & ZŠ Dubeč",
-    updated: "2026-10-22T12:01:20+02:00",
-    week: "2026-09-01 – 2026-10-29",
+    updated: "2026-10-23T11:17:27+02:00",
+    week: "2026-09-01 – 2026-11-06",
     sources: {
       zs: "https://www.jidelna.cz/jidelni-listek/?jidelna=47",
       ms: "https://www.msdubec.cz/stranka-jidelnicek-45"
@@ -554,6 +554,55 @@ window.MENU_DATA = {
     "2026-10-29": {
       zs: [
           {"c": "polevka", "n": "Podzimní prázdniny", "d": "", "a": []}
+        ],
+      vydej: {
+        zs: "11:30–13:45"
+      }
+    },
+    "2026-11-02": {
+      zs: [
+          {"c": "polevka", "n": "Cizrnová s rajčaty", "d": "", "a": [9]},
+          {"c": "obed", "n": "Bulgurové rizoto se zeleninou sypané sýrem", "d": "Červená řepa, míchaný kompot · Čaj, mléčný koktejl", "a": [1, 7, 8], "p": [{"l": "Jídlo", "n": "Bulgurové rizoto se zeleninou sypané sýrem", "a": [1, 7]}, {"l": "Doplněk", "n": "Červená řepa, míchaný kompot", "a": []}, {"l": "Nápoj", "n": "Čaj, mléčný koktejl", "a": [7, 8]}]}
+        ],
+      vydej: {
+        zs: "11:30–13:45"
+      }
+    },
+    "2026-11-03": {
+      zs: [
+          {"c": "polevka", "n": "Hovězí vývar se šunkovým svítkem", "d": "", "a": [1, 3, 7, 9]},
+          {"c": "obed", "n": "Hovězí maso s rajskou omáčkou", "d": "Celozrné těstoviny · Ovoce · Ovocný čaj, mléko, ochucená voda", "a": [1, 7], "p": [{"l": "Jídlo", "n": "Hovězí maso s rajskou omáčkou", "a": [1]}, {"l": "Příloha", "n": "Celozrné těstoviny", "a": [1]}, {"l": "Doplněk", "n": "Ovoce", "a": []}, {"l": "Nápoj", "n": "Ovocný čaj, mléko, ochucená voda", "a": [7]}]},
+          {"c": "obed2", "n": "Zapečené špecle s brokolicí a sýrem", "d": "Ovoce · Ovocný čaj, mléko, ochucená voda", "a": [1, 3, 7], "p": [{"l": "Jídlo", "n": "Zapečené špecle s brokolicí a sýrem", "a": [1, 3, 7]}, {"l": "Doplněk", "n": "Ovoce", "a": []}, {"l": "Nápoj", "n": "Ovocný čaj, mléko, ochucená voda", "a": [7]}]}
+        ],
+      vydej: {
+        zs: "11:30–13:45"
+      }
+    },
+    "2026-11-04": {
+      zs: [
+          {"c": "polevka", "n": "Vločková", "d": "", "a": [1, 7, 9]},
+          {"c": "obed", "n": "Ryba HOKI s citronovo-máslovou omáčkou", "d": "Brambory máslem maštěné, sladká kukuřice · Čaj, bílá káva, ochucená voda", "a": [1, 3, 4, 7], "p": [{"l": "Jídlo", "n": "Ryba HOKI s citronovo-máslovou omáčkou", "a": [1, 3, 4, 7]}, {"l": "Příloha", "n": "Brambory máslem maštěné, sladká kukuřice", "a": [7]}, {"l": "Nápoj", "n": "Čaj, bílá káva, ochucená voda", "a": [1, 7]}]},
+          {"c": "obed2", "n": "Kuskus na sladko", "d": "Čaj, bílá káva, ochucená voda", "a": [1, 3, 7, 8], "p": [{"l": "Jídlo", "n": "Kuskus na sladko", "a": [1, 3, 7, 8]}, {"l": "Nápoj", "n": "Čaj, bílá káva, ochucená voda", "a": [1, 7]}]}
+        ],
+      vydej: {
+        zs: "11:30–13:45"
+      }
+    },
+    "2026-11-05": {
+      zs: [
+          {"c": "polevka", "n": "Cibulová se sýrem", "d": "", "a": [1, 7]},
+          {"c": "obed", "n": "Vepřová panenka se žampiony", "d": "Rýže · Ovoce · Čaj, mléko", "a": [7], "p": [{"l": "Jídlo", "n": "Vepřová panenka se žampiony", "a": [7]}, {"l": "Příloha", "n": "Rýže", "a": []}, {"l": "Doplněk", "n": "Ovoce", "a": []}, {"l": "Nápoj", "n": "Čaj, mléko", "a": [7]}]},
+          {"c": "obed2", "n": "Šopský salát", "d": "Slunečnicový rohlík · Ovoce · Čaj, mléko", "a": [1, 3, 7, 8], "p": [{"l": "Jídlo", "n": "Šopský salát", "a": []}, {"l": "Příloha", "n": "Slunečnicový rohlík", "a": [1, 3, 7, 8]}, {"l": "Doplněk", "n": "Ovoce", "a": []}, {"l": "Nápoj", "n": "Čaj, mléko", "a": [7]}]}
+        ],
+      vydej: {
+        zs: "11:30–13:45"
+      }
+    },
+    "2026-11-06": {
+      zs: [
+          {"c": "polevka", "n": "Kuřecí s masem a nudlemi", "d": "", "a": [1, 7, 9]},
+          {"c": "obed", "n": "Lasagne s mletým masem", "d": "Čaj, kakao, ochucená voda", "a": [1, 3, 7], "p": [{"l": "Jídlo", "n": "Lasagne s mletým masem", "a": [1, 3, 7]}, {"l": "Nápoj", "n": "Čaj, kakao, ochucená voda", "a": [7]}]},
+          {"c": "obed2", "n": "Bulgurový salát se sýrem feta", "d": "Čaj, kakao, ochucená voda", "a": [1, 7], "p": [{"l": "Jídlo", "n": "Bulgurový salát se sýrem feta", "a": [1, 7]}, {"l": "Nápoj", "n": "Čaj, kakao, ochucená voda", "a": [7]}]}
         ],
       vydej: {
         zs: "11:30–13:45"

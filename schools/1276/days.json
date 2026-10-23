@@ -6487,5 +6487,111 @@
         ]
       }
     ]
+  },
+  "2026-11-26": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Chléb s drožďovou pomazánkou, paprika",
+        "d": "Jablko · Čaj, voda s citronem",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Chléb s drožďovou pomazánkou, paprika",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Jablko",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj, voda s citronem",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Houbová horácká",
+        "d": "",
+        "a": [
+          1,
+          6,
+          7,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Zvěřinový guláš",
+        "d": "Houskový knedlík · Džus 100%",
+        "a": [
+          1,
+          3,
+          6,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Zvěřinový guláš",
+            "a": [
+              1,
+              3,
+              6,
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Houskový knedlík",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Džus 100%",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Domácí štrůdl s jablkem",
+        "d": "Mléko, voda s citronem",
+        "a": [
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Domácí štrůdl s jablkem",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko, voda s citronem",
+            "a": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
   }
 }

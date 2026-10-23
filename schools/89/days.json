@@ -4651,7 +4651,7 @@
       {
         "c": "obed2",
         "n": "Hanácký salát",
-        "d": "Vařené vejce, pečivo · Mléko, Ovocný čaj",
+        "d": "Vařené vejce, pečivo · Ovoce · Mléko, Ovocný čaj",
         "a": [
           1,
           3,
@@ -4671,6 +4671,96 @@
             "a": [
               1,
               3
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko, Ovocný čaj",
+            "a": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-11-26": {
+    "vydej": "8:00–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Vločková s bramborem a zeleninou",
+        "d": "",
+        "a": [
+          1,
+          7,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Hrachová kaše, párek, kyselá okurka",
+        "d": "Musli tyčinka · Mléko, Ovocný čaj",
+        "a": [
+          1,
+          7,
+          10
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Hrachová kaše, párek, kyselá okurka",
+            "a": [
+              1,
+              7,
+              10
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Musli tyčinka",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko, Ovocný čaj",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "n": "Dušený špenát, vařené vejce, brambory, rajče",
+        "d": "Musli tyčinka · Mléko, Ovocný čaj",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Dušený špenát, vařené vejce, brambory, rajče",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Musli tyčinka",
+            "a": [
+              1
             ]
           },
           {

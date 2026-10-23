@@ -1777,6 +1777,7 @@
         "a": [
           1,
           3,
+          6,
           7,
           9,
           10,
@@ -1799,7 +1800,8 @@
             "n": "Těstoviny",
             "a": [
               1,
-              3
+              3,
+              6
             ]
           },
           {
@@ -1891,7 +1893,7 @@
       {
         "c": "obed",
         "n": "Přírodní kuřecí plátek, mích.zelenina",
-        "d": "Brambory · Ovocná šťáva, voda, mléko",
+        "d": "Brambory · Bobik mléko · Ovocná šťáva, voda, mléko",
         "a": [
           1,
           7,
@@ -1911,6 +1913,13 @@
             "l": "Příloha",
             "n": "Brambory",
             "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Bobik mléko",
+            "a": [
+              7
+            ]
           },
           {
             "l": "Nápoj",
@@ -1937,10 +1946,11 @@
       {
         "c": "obed",
         "n": "Těstoviny se špenátem, sýr",
-        "d": "Mošt, voda, mléko",
+        "d": "Cereální tyčinka · Mošt, voda, mléko",
         "a": [
           1,
           3,
+          6,
           7
         ],
         "p": [
@@ -1950,6 +1960,15 @@
             "a": [
               1,
               3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Cereální tyčinka",
+            "a": [
+              1,
+              6,
               7
             ]
           },

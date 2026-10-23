@@ -8227,62 +8227,50 @@
   },
   "2026-11-04": {
     "skupiny": {
-      "ms": {
+      "zs": {
         "vydej": "10:30–14:30",
         "chody": [
           {
-            "c": "polevka",
-            "n": "Bramborová polévka s houbami",
-            "d": "",
+            "c": "presnidavka",
+            "n": "Pomazánka rybí tomatová(máslo, sardinky v tomatě, cibule, hořčice, sůl)",
+            "d": "Chléb · Hrozny · Ovocný čaj -jahoda a šípek, voda, mléko",
             "a": [
               1,
-              3,
+              4,
               7,
-              9
-            ]
-          },
-          {
-            "c": "obed",
-            "n": "Sekaná pečeně",
-            "d": "Bramborovo – mrkvové pyré · Sterilovaná červená řepa · Ovocný čaj, voda s citrónem, pomerančem a mátou, voda",
-            "a": [
-              1,
-              3,
-              7
+              10
             ],
             "p": [
               {
                 "l": "Jídlo",
-                "n": "Sekaná pečeně",
+                "n": "Pomazánka rybí tomatová(máslo, sardinky v tomatě, cibule, hořčice, sůl)",
                 "a": [
-                  1,
-                  3
+                  4,
+                  7,
+                  10
                 ]
               },
               {
-                "l": "Příloha",
-                "n": "Bramborovo – mrkvové pyré",
+                "l": "pečivo",
+                "n": "Chléb",
                 "a": [
-                  7
+                  1
                 ]
               },
               {
                 "l": "Doplněk",
-                "n": "Sterilovaná červená řepa",
+                "n": "Hrozny",
                 "a": []
               },
               {
                 "l": "Nápoj",
-                "n": "Ovocný čaj, voda s citrónem, pomerančem a mátou, voda",
-                "a": []
+                "n": "Ovocný čaj -jahoda a šípek, voda, mléko",
+                "a": [
+                  7
+                ]
               }
             ]
-          }
-        ]
-      },
-      "zs": {
-        "vydej": "10:30–14:30",
-        "chody": [
+          },
           {
             "c": "polevka",
             "n": "Bramborová polévka s houbami",
@@ -8353,6 +8341,59 @@
               {
                 "l": "Příloha",
                 "n": "Brambory",
+                "a": []
+              },
+              {
+                "l": "Nápoj",
+                "n": "Ovocný čaj, voda s citrónem, pomerančem a mátou, voda",
+                "a": []
+              }
+            ]
+          }
+        ]
+      },
+      "ms": {
+        "vydej": "10:30–14:30",
+        "chody": [
+          {
+            "c": "polevka",
+            "n": "Bramborová polévka s houbami",
+            "d": "",
+            "a": [
+              1,
+              3,
+              7,
+              9
+            ]
+          },
+          {
+            "c": "obed",
+            "n": "Sekaná pečeně",
+            "d": "Bramborovo – mrkvové pyré · Sterilovaná červená řepa · Ovocný čaj, voda s citrónem, pomerančem a mátou, voda",
+            "a": [
+              1,
+              3,
+              7
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Sekaná pečeně",
+                "a": [
+                  1,
+                  3
+                ]
+              },
+              {
+                "l": "Příloha",
+                "n": "Bramborovo – mrkvové pyré",
+                "a": [
+                  7
+                ]
+              },
+              {
+                "l": "Doplněk",
+                "n": "Sterilovaná červená řepa",
                 "a": []
               },
               {
@@ -10046,6 +10087,128 @@
                 "l": "Doplněk",
                 "n": "Salát polníček",
                 "a": []
+              },
+              {
+                "l": "Nápoj",
+                "n": "Ovocný čaj, voda s citrónem, pomerančem a mátou, voda",
+                "a": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "2026-11-26": {
+    "skupiny": {
+      "ms": {
+        "vydej": "10:30–14:30",
+        "chody": [
+          {
+            "c": "polevka",
+            "n": "Brokolicová polévka se smetanou",
+            "d": "",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "c": "obed",
+            "n": "Hrachová kaše, pečené vepřové maso",
+            "d": "Chléb · Ovocný čaj, voda s citrónem, pomerančem a mátou, voda",
+            "a": [
+              1
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Hrachová kaše, pečené vepřové maso",
+                "a": [
+                  1
+                ]
+              },
+              {
+                "l": "Příloha",
+                "n": "Chléb",
+                "a": [
+                  1
+                ]
+              },
+              {
+                "l": "Nápoj",
+                "n": "Ovocný čaj, voda s citrónem, pomerančem a mátou, voda",
+                "a": []
+              }
+            ]
+          }
+        ]
+      },
+      "zs": {
+        "vydej": "10:30–14:30",
+        "chody": [
+          {
+            "c": "polevka",
+            "n": "Brokolicová polévka se smetanou",
+            "d": "",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "c": "obed",
+            "n": "Hrachová kaše, pečené vepřové maso",
+            "d": "Chléb · Ovocný čaj, voda s citrónem, pomerančem a mátou, voda",
+            "a": [
+              1
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Hrachová kaše, pečené vepřové maso",
+                "a": [
+                  1
+                ]
+              },
+              {
+                "l": "Příloha",
+                "n": "Chléb",
+                "a": [
+                  1
+                ]
+              },
+              {
+                "l": "Nápoj",
+                "n": "Ovocný čaj, voda s citrónem, pomerančem a mátou, voda",
+                "a": []
+              }
+            ]
+          },
+          {
+            "c": "obed2",
+            "n": "Bramborák s uzeninou",
+            "d": "Sterilovaná okurka · Ovocný čaj, voda s citrónem, pomerančem a mátou, voda",
+            "a": [
+              1,
+              3,
+              10
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Bramborák s uzeninou",
+                "a": [
+                  1,
+                  3
+                ]
+              },
+              {
+                "l": "Doplněk",
+                "n": "Sterilovaná okurka",
+                "a": [
+                  10
+                ]
               },
               {
                 "l": "Nápoj",

@@ -3180,7 +3180,6 @@
         "n": "Gulášová",
         "d": "",
         "a": [
-          1,
           9
         ]
       },
@@ -3306,7 +3305,6 @@
         "n": "Květákový mozeček",
         "d": "Brambory · Okurkový salát",
         "a": [
-          1,
           3,
           7
         ],
@@ -3315,7 +3313,6 @@
             "l": "Jídlo",
             "n": "Květákový mozeček",
             "a": [
-              1,
               3,
               7
             ]
@@ -3721,12 +3718,20 @@
         "c": "obed2",
         "n": "Džuveč s krůtím masem a sýrem",
         "d": "Okurkový/mrkvový salát",
-        "a": [],
+        "a": [
+          1,
+          7,
+          9
+        ],
         "p": [
           {
             "l": "Jídlo",
             "n": "Džuveč s krůtím masem a sýrem",
-            "a": []
+            "a": [
+              1,
+              7,
+              9
+            ]
           },
           {
             "l": "Doplněk",
@@ -3868,12 +3873,16 @@
         "c": "obed",
         "n": "Kuřecí maso zapečené se sýrem a smetanou",
         "d": "Brambory · Okurkový salát · Mléko, džus, voda s citr.",
-        "a": [],
+        "a": [
+          7
+        ],
         "p": [
           {
             "l": "Jídlo",
             "n": "Kuřecí maso zapečené se sýrem a smetanou",
-            "a": []
+            "a": [
+              7
+            ]
           },
           {
             "l": "Příloha",
@@ -4334,6 +4343,81 @@
             "a": [
               7
             ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-11-26": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Z hlívy ústřičné",
+        "d": "",
+        "a": [
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Smažený sýr",
+        "d": "Brambory, dresink · Zeleninový salát mix · Mléko, mošt, voda s citronem",
+        "a": [
+          3,
+          7,
+          10
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Smažený sýr",
+            "a": []
+          },
+          {
+            "l": "Příloha",
+            "n": "Brambory, dresink",
+            "a": [
+              3,
+              7,
+              10
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zeleninový salát mix",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko, mošt, voda s citronem",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "n": "Smažené těstoviny s kuřecím masem a zeleninou",
+        "d": "Zeleninový salát mix",
+        "a": [
+          1,
+          9
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Smažené těstoviny s kuřecím masem a zeleninou",
+            "a": [
+              1,
+              9
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zeleninový salát mix",
+            "a": []
           }
         ]
       }

@@ -3308,13 +3308,13 @@
     "chody": [
       {
         "c": "presnidavka",
-        "n": "Dopolední svačina",
+        "n": "Šunka, máslo, pečivo",
         "d": "Voda, Mléko · Zelenina",
         "a": [],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Dopolední svačina",
+            "n": "Šunka, máslo, pečivo",
             "a": []
           },
           {
@@ -3331,13 +3331,13 @@
       },
       {
         "c": "svacina",
-        "n": "Odpolední svačina",
+        "n": "Ovesná kaše",
         "d": "Mléko, voda · Ovoce",
         "a": [],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Odpolední svačina",
+            "n": "Ovesná kaše",
             "a": []
           },
           {
@@ -3353,14 +3353,20 @@
         ]
       },
       {
+        "c": "polevka",
+        "n": "Italská",
+        "d": "",
+        "a": []
+      },
+      {
         "c": "obed",
-        "n": "Oběd Rubena",
+        "n": "Kapustový karbanátek, brambor, okurka",
         "d": "",
         "a": [],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Oběd Rubena",
+            "n": "Kapustový karbanátek, brambor, okurka",
             "a": []
           }
         ]
@@ -3417,14 +3423,20 @@
         ]
       },
       {
+        "c": "polevka",
+        "n": "Slepičí s drobením",
+        "d": "",
+        "a": []
+      },
+      {
         "c": "obed",
-        "n": "Oběd Rubena",
+        "n": "Maso dvou barev, rýže(vepřové, kuřecí, arašídy, zelí, čínská zel., pór, žamp.)",
         "d": "",
         "a": [],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Oběd Rubena",
+            "n": "Maso dvou barev, rýže(vepřové, kuřecí, arašídy, zelí, čínská zel., pór, žamp.)",
             "a": []
           }
         ]
@@ -3481,14 +3493,20 @@
         ]
       },
       {
+        "c": "polevka",
+        "n": "Krémová rybí polévka",
+        "d": "",
+        "a": []
+      },
+      {
         "c": "obed",
-        "n": "Oběd Rubena",
+        "n": "Pečené kuřecí stehno, bramborová kaše, míchaný salát",
         "d": "",
         "a": [],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Oběd Rubena",
+            "n": "Pečené kuřecí stehno, bramborová kaše, míchaný salát",
             "a": []
           }
         ]
@@ -3545,14 +3563,20 @@
         ]
       },
       {
+        "c": "polevka",
+        "n": "Zeleninový vývar s tarhoňou a vejcem",
+        "d": "",
+        "a": []
+      },
+      {
         "c": "obed",
-        "n": "Oběd Rubena",
+        "n": "Smažená treska se sýrem, brambor",
         "d": "",
         "a": [],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Oběd Rubena",
+            "n": "Smažená treska se sýrem, brambor",
             "a": []
           }
         ]
@@ -3609,14 +3633,20 @@
         ]
       },
       {
+        "c": "polevka",
+        "n": "Čočková",
+        "d": "",
+        "a": []
+      },
+      {
         "c": "obed",
-        "n": "Oběd Rubena",
+        "n": "Oběd RubenaMoravský vrabec, domácí knedlík, kysané zelí",
         "d": "",
         "a": [],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Oběd Rubena",
+            "n": "Oběd RubenaMoravský vrabec, domácí knedlík, kysané zelí",
             "a": []
           }
         ]
@@ -4392,6 +4422,70 @@
     ]
   },
   "2026-11-25": {
+    "vydej": "12:00–13:00",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Dopolední svačina",
+        "d": "Mléko, voda · Zelenina",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Dopolední svačina",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko, voda",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zelenina",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Odpolední svačina",
+        "d": "Mléko, voda · Ovoce",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Odpolední svačina",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko, voda",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Oběd Rubena",
+        "d": "",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Oběd Rubena",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-11-26": {
     "vydej": "12:00–13:00",
     "chody": [
       {
