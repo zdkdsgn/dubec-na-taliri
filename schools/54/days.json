@@ -5196,5 +5196,98 @@
         ]
       }
     ]
+  },
+  "2026-11-27": {
+    "vydej": "11:30–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Gulášová z hlívy",
+        "d": "",
+        "a": [
+          1,
+          7
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Filé na másle a bylinkách, bramborová kaše",
+        "d": "Salátový bar · Čaj, mléko, voda",
+        "a": [
+          3,
+          4,
+          7,
+          9,
+          10
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Filé na másle a bylinkách, bramborová kaše",
+            "a": [
+              4,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Salátový bar",
+            "a": [
+              3,
+              7,
+              9,
+              10
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj, mléko, voda",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "n": "Ceasar salát, pečivo",
+        "d": "Salátový bar · Čaj, mléko, voda",
+        "a": [
+          1,
+          3,
+          7,
+          9,
+          10
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Ceasar salát, pečivo",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Salátový bar",
+            "a": [
+              3,
+              7,
+              9,
+              10
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj, mléko, voda",
+            "a": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
   }
 }

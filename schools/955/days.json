@@ -3004,6 +3004,7 @@
         "d": "",
         "a": [
           1,
+          3,
           7
         ],
         "p": [
@@ -3012,6 +3013,7 @@
             "n": "Podmáslový chléb, tvarohová pomazánka s vajíčkem a chia semínky, zeleninová a ovocná miska",
             "a": [
               1,
+              3,
               7
             ]
           }
@@ -3187,7 +3189,7 @@
       },
       {
         "c": "polevka",
-        "n": "Brokolicovo-květáková krémová",
+        "n": "Jemná zeleninová s pohankovými vločkami",
         "d": "",
         "a": [
           1,
@@ -3196,29 +3198,21 @@
       },
       {
         "c": "obed",
-        "n": "Obalovaná ryba, vařené brambory",
-        "d": "Červená řepa · Voda, bylinkový čaj",
+        "n": "Bratislavská vepřová kýta, těstoviny",
+        "d": "Voda, bylinkový čaj",
         "a": [
           1,
-          4,
-          7,
-          10
+          3,
+          7
         ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Obalovaná ryba, vařené brambory",
+            "n": "Bratislavská vepřová kýta, těstoviny",
             "a": [
               1,
-              4,
+              3,
               7
-            ]
-          },
-          {
-            "l": "Doplněk",
-            "n": "Červená řepa",
-            "a": [
-              10
             ]
           },
           {
@@ -3293,30 +3287,33 @@
       },
       {
         "c": "polevka",
-        "n": "Jemná zeleninová s pohankovými vločkami",
+        "n": "Brokolicovo-květáková",
         "d": "",
-        "a": [
-          1,
-          9
-        ]
+        "a": []
       },
       {
         "c": "obed",
-        "n": "Bratislavská vepřová kýta, těstoviny",
-        "d": "Voda, čaj",
+        "n": "Obalovaná ryba, vařené brambory",
+        "d": "Okurkový salát · Voda, čaj",
         "a": [
-          1,
-          3,
-          7
+          4,
+          7,
+          10
         ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Bratislavská vepřová kýta, těstoviny",
+            "n": "Obalovaná ryba, vařené brambory",
             "a": [
-              1,
-              3,
+              4,
               7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Okurkový salát",
+            "a": [
+              10
             ]
           },
           {
@@ -3421,6 +3418,146 @@
               1,
               7
             ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-11-02": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Ovesná kaše s jablky, ovoce, čaj",
+        "d": "",
+        "a": [
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Ovesná kaše s jablky, ovoce, čaj",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Batátová krémová",
+        "d": "",
+        "a": [
+          1,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Kuskusoto (z celozrnného kuskusu s kuřecím masem a zeleninou), sypané sýrem",
+        "d": "Zeleninová obloha · Voda, ovocný čaj",
+        "a": [
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Kuskusoto (z celozrnného kuskusu s kuřecím masem a zeleninou), sypané sýrem",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zeleninová obloha",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Voda, ovocný čaj",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Lámankový chléb s Lučinou a kedlubnou, ovoce, čaj",
+        "d": "",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Lámankový chléb s Lučinou a kedlubnou, ovoce, čaj",
+            "a": [
+              1,
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-11-03": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Veka s rybí pomazánkou, paprika, ovoce, mléko",
+        "d": "",
+        "a": [
+          1,
+          4,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Veka s rybí pomazánkou, paprika, ovoce, mléko",
+            "a": [
+              1,
+              4,
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Polévka z kořenové zeleniny",
+        "d": "",
+        "a": [
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Dančí kýta se šípkovou omáčkou, pečené brambory Grenaille s bylinkami",
+        "d": "Čerstvá zelenina dle výběru · Ovocný čaj, voda",
+        "a": [
+          1,
+          9
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Dančí kýta se šípkovou omáčkou, pečené brambory Grenaille s bylinkami",
+            "a": [
+              1,
+              9
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Čerstvá zelenina dle výběru",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný čaj, voda",
+            "a": []
           }
         ]
       }

@@ -3932,6 +3932,41 @@
             "a": []
           }
         ]
+      },
+      {
+        "c": "svacina",
+        "n": "Sýrový rohlík",
+        "d": "Michana zelenina – okurka, paprika, kedlubna · Mléko, čaj ovocný ostružina",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Sýrový rohlík",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Michana zelenina – okurka, paprika, kedlubna",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko, čaj ovocný ostružina",
+            "a": [
+              7
+            ]
+          }
+        ]
       }
     ]
   },
@@ -6233,6 +6268,112 @@
           {
             "l": "Nápoj",
             "n": "Mléko, čaj ovocný pomeranč",
+            "a": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-11-27": {
+    "vydej": "11:30–12:15",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Cereálie, mléko",
+        "d": "Ovoce sezonní · Ovocný čaj borůvka rakytník",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Cereálie, mléko",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce sezonní",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný čaj borůvka rakytník",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Hráškový krém se zeleninou",
+        "d": "",
+        "a": [
+          1,
+          7,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Jelení maso na divoko",
+        "d": "Těstoviny · Ovocný nápoj",
+        "a": [
+          1
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Jelení maso na divoko",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Těstoviny",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný nápoj",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Mléčný dezert, rohlík",
+        "d": "Ovoce · Čaj, mléko",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Mléčný dezert, rohlík",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj, mléko",
             "a": [
               7
             ]

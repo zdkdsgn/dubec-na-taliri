@@ -3993,21 +3993,17 @@
     "chody": [
       {
         "c": "presnidavka",
-        "n": "Krupicová kaše s kakaem",
-        "d": "Hrozen · Bylinkový čaj, voda, mléko",
+        "n": "Pistáciový croissant",
+        "d": "Hrozen · Mléko, voda, ovocný čaj",
         "a": [
-          1,
-          3,
-          7
+          1
         ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Krupicová kaše s kakaem",
+            "n": "Pistáciový croissant",
             "a": [
-              1,
-              3,
-              7
+              1
             ]
           },
           {
@@ -4017,16 +4013,14 @@
           },
           {
             "l": "Nápoj",
-            "n": "Bylinkový čaj, voda, mléko",
-            "a": [
-              7
-            ]
+            "n": "Mléko, voda, ovocný čaj",
+            "a": []
           }
         ]
       },
       {
         "c": "polevka",
-        "n": "Ragú s quinoou",
+        "n": "Zeleninová",
         "d": "",
         "a": []
       },
@@ -4079,6 +4073,453 @@
           {
             "l": "Doplněk",
             "n": "Kedluben",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko, voda, čaj",
+            "a": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-26": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Jablečná přesnídávka, rohlík",
+        "d": "Ovoce · Meduňkový čaj, mléko, voda",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Jablečná přesnídávka, rohlík",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Meduňkový čaj, mléko, voda",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Selská",
+        "d": "",
+        "a": [
+          1,
+          7,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Kuřecí prsa, zeleninová omáčka na paprice",
+        "d": "Těstoviny · Džus, voda, mléko",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Kuřecí prsa, zeleninová omáčka na paprice",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Těstoviny",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Džus, voda, mléko",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Chléb slunečnicový, pom. vaječná",
+        "d": "Mrkev · Mléko, voda, čaj",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Chléb slunečnicový, pom. vaječná",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Mrkev",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko, voda, čaj",
+            "a": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-27": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Kaiserka sezamová, pom. tvarohová s mrkví",
+        "d": "Kedluben · Mléko",
+        "a": [
+          1,
+          3,
+          7,
+          11
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Kaiserka sezamová, pom. tvarohová s mrkví",
+            "a": [
+              1,
+              3,
+              7,
+              11
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Kedluben",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Špenátová s houskou",
+        "d": "",
+        "a": [
+          1,
+          7
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Tilápie na bylinkách",
+        "d": "Št'ouchané brambory · Máslová zelenina · Voda s lesním ovocem, voda, mléko",
+        "a": [
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Tilápie na bylinkách",
+            "a": [
+              3
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Št'ouchané brambory",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Máslová zelenina",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Voda s lesním ovocem, voda, mléko",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Chléb, pom. cizrnová",
+        "d": "Paprika · Mléko, voda, čaj",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Chléb, pom. cizrnová",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Paprika",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko, voda, čaj",
+            "a": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-28": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "obed",
+        "n": "Státní svátek",
+        "d": "",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Státní svátek",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-29": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Veka zapečená se sýrem",
+        "d": "Salátový okurek · Mléko, voda švestkový čaj",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Veka zapečená se sýrem",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Salátový okurek",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko, voda švestkový čaj",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Hrstková",
+        "d": "",
+        "a": [
+          1,
+          7,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Krůtí po italsku",
+        "d": "Špecle · Salátový okurek · Voda s citrónem, voda",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Krůtí po italsku",
+            "a": []
+          },
+          {
+            "l": "Příloha",
+            "n": "Špecle",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Salátový okurek",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Voda s citrónem, voda",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Bageta zrníčková, pom. chodská sýrová",
+        "d": "Rajče · Mléko, voda, čaj",
+        "a": [
+          1,
+          7,
+          11
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Bageta zrníčková, pom. chodská sýrová",
+            "a": [
+              1,
+              7,
+              11
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Rajče",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko, voda, čaj",
+            "a": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-10-30": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Palačinky z kukuřičné mouky s džemem",
+        "d": "Jablko · Mléko, voda, čaj",
+        "a": [
+          1,
+          3,
+          7,
+          8
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Palačinky z kukuřičné mouky s džemem",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Jablko",
+            "a": [
+              8
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko, voda, čaj",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Batátový krém se smaženým hráškem",
+        "d": "",
+        "a": [
+          1
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Zeleninové rizoto, sypané sýrem",
+        "d": "Džus, voda",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Zeleninové rizoto, sypané sýrem",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Džus, voda",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Cereální rohlík s pomazánkovým máslem",
+        "d": "Paprika · Mléko, voda, čaj",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Cereální rohlík s pomazánkovým máslem",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Paprika",
             "a": []
           },
           {

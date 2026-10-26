@@ -12758,5 +12758,243 @@
         ]
       }
     }
+  },
+  "2026-11-27": {
+    "skupiny": {
+      "ms": {
+        "vydej": "11:00–14:00",
+        "chody": [
+          {
+            "c": "presnidavka",
+            "n": "Lámankový chléb, rybičková pomazánka s taveným sýrem",
+            "d": "Mrkev · Čaj",
+            "a": [
+              1,
+              4,
+              7
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Lámankový chléb, rybičková pomazánka s taveným sýrem",
+                "a": [
+                  1,
+                  4,
+                  7
+                ]
+              },
+              {
+                "l": "Doplněk",
+                "n": "Mrkev",
+                "a": []
+              },
+              {
+                "l": "Nápoj",
+                "n": "Čaj",
+                "a": []
+              }
+            ]
+          },
+          {
+            "c": "polevka",
+            "n": "Polévka frankfurtská s bramborem",
+            "d": "",
+            "a": [
+              1,
+              7,
+              9
+            ]
+          },
+          {
+            "c": "obed",
+            "n": "Smažený holandský řízek",
+            "d": "Vařené brambory · Zeleninový salát, ovoce · Čaj, vitamínový nápoj",
+            "a": [
+              1,
+              3,
+              7
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Smažený holandský řízek",
+                "a": [
+                  1,
+                  3,
+                  7
+                ]
+              },
+              {
+                "l": "Příloha",
+                "n": "Vařené brambory",
+                "a": [
+                  7
+                ]
+              },
+              {
+                "l": "Doplněk",
+                "n": "Zeleninový salát, ovoce",
+                "a": []
+              },
+              {
+                "l": "Nápoj",
+                "n": "Čaj, vitamínový nápoj",
+                "a": []
+              }
+            ]
+          },
+          {
+            "c": "svacina",
+            "n": "Sýrový suk",
+            "d": "Ovoce · Čaj",
+            "a": [
+              1,
+              3,
+              7
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Sýrový suk",
+                "a": [
+                  1,
+                  3,
+                  7
+                ]
+              },
+              {
+                "l": "Doplněk",
+                "n": "Ovoce",
+                "a": []
+              },
+              {
+                "l": "Nápoj",
+                "n": "Čaj",
+                "a": []
+              }
+            ]
+          }
+        ]
+      },
+      "zs": {
+        "vydej": "11:00–14:00",
+        "chody": [
+          {
+            "c": "presnidavka",
+            "n": "Lámankový chléb, rybičková pomazánka s taveným sýrem",
+            "d": "Mrkev · Čaj",
+            "a": [
+              1,
+              4,
+              7
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Lámankový chléb, rybičková pomazánka s taveným sýrem",
+                "a": [
+                  1,
+                  4,
+                  7
+                ]
+              },
+              {
+                "l": "Doplněk",
+                "n": "Mrkev",
+                "a": []
+              },
+              {
+                "l": "Nápoj",
+                "n": "Čaj",
+                "a": []
+              }
+            ]
+          },
+          {
+            "c": "polevka",
+            "n": "Polévka frankfurtská s bramborem",
+            "d": "",
+            "a": [
+              1,
+              7,
+              9
+            ]
+          },
+          {
+            "c": "obed",
+            "n": "Smažený holandský řízek",
+            "d": "Vařené brambory · Zeleninový salát, ovoce · Čaj, vitamínový nápoj",
+            "a": [
+              1,
+              3,
+              7,
+              8
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Smažený holandský řízek",
+                "a": [
+                  1,
+                  3,
+                  7
+                ]
+              },
+              {
+                "l": "Příloha",
+                "n": "Vařené brambory",
+                "a": [
+                  7
+                ]
+              },
+              {
+                "l": "Doplněk",
+                "n": "Zeleninový salát, ovoce",
+                "a": []
+              },
+              {
+                "l": "Nápoj",
+                "n": "Čaj, vitamínový nápoj",
+                "a": [
+                  8
+                ]
+              }
+            ]
+          },
+          {
+            "c": "obed2",
+            "n": "Zeleninové lečo s vejci",
+            "d": "Kmínový chléb · Ovoce",
+            "a": [
+              1,
+              3,
+              9
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Zeleninové lečo s vejci",
+                "a": [
+                  3,
+                  9
+                ]
+              },
+              {
+                "l": "Příloha",
+                "n": "Kmínový chléb",
+                "a": [
+                  1
+                ]
+              },
+              {
+                "l": "Nápoj",
+                "n": "Ovoce",
+                "a": []
+              }
+            ]
+          }
+        ]
+      }
+    }
   }
 }

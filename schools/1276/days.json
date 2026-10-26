@@ -6593,5 +6593,108 @@
         ]
       }
     ]
+  },
+  "2026-11-27": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Rohlík s máslem, jablko s mrkví",
+        "d": "Čaj, voda s citronem",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Rohlík s máslem, jablko s mrkví",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj, voda s citronem",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Ruský boršč",
+        "d": "",
+        "a": [
+          1,
+          6,
+          7,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Znojemská pečeně",
+        "d": "Dušená rýže · Ovoce · Čaj",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Znojemská pečeně",
+            "a": []
+          },
+          {
+            "l": "Příloha",
+            "n": "Dušená rýže",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Koronorohlík s tuňákovou pomazánkou",
+        "d": "Paprika · Čaj, ochucena voda s bylinkami",
+        "a": [
+          1,
+          3,
+          4,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Koronorohlík s tuňákovou pomazánkou",
+            "a": [
+              1,
+              3,
+              4,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Paprika",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj, ochucena voda s bylinkami",
+            "a": []
+          }
+        ]
+      }
+    ]
   }
 }
