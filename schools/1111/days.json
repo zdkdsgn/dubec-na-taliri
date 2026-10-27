@@ -3220,6 +3220,7 @@
         "d": "",
         "a": [
           1,
+          4,
           7
         ],
         "p": [
@@ -3228,6 +3229,7 @@
             "n": "Chléb, tuňáková pomazánka s kapií a cibulkou, mandarinka, čaj s citronem",
             "a": [
               1,
+              4,
               7
             ]
           }
@@ -3825,7 +3827,7 @@
       {
         "c": "obed",
         "n": "Boloňské špagety sypané goudou",
-        "d": "Čerstvá zelenina(okurka, paprika, rajče) · Džus meruňka",
+        "d": "Čerstvá zelenina(okurka, paprika, rajče) dle výběru žáků 1. a 2.B třídy · Džus meruňka",
         "a": [],
         "p": [
           {
@@ -3835,7 +3837,7 @@
           },
           {
             "l": "Příloha",
-            "n": "Čerstvá zelenina(okurka, paprika, rajče)",
+            "n": "Čerstvá zelenina(okurka, paprika, rajče) dle výběru žáků 1. a 2.B třídy",
             "a": []
           },
           {
@@ -3900,8 +3902,8 @@
       },
       {
         "c": "obed",
-        "n": "Tvarohové knedlíky s jahodami sypané strouhankou (dle výběru žáků 4. a 2.A třídy)",
-        "d": "Ovocný kompot · Čaj s citronem",
+        "n": "Tvarohové knedlíky s jahodami sypané strouhankou",
+        "d": "Ovocný kompot, dle výběru žáků 2.A a 4. třídy · Čaj s citronem",
         "a": [
           1,
           7
@@ -3909,7 +3911,7 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Tvarohové knedlíky s jahodami sypané strouhankou (dle výběru žáků 4. a 2.A třídy)",
+            "n": "Tvarohové knedlíky s jahodami sypané strouhankou",
             "a": [
               1,
               7
@@ -3917,7 +3919,7 @@
           },
           {
             "l": "Doplněk",
-            "n": "Ovocný kompot",
+            "n": "Ovocný kompot, dle výběru žáků 2.A a 4. třídy",
             "a": []
           },
           {
@@ -4565,6 +4567,50 @@
     ]
   },
   "2026-11-27": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Bude doplněno",
+        "d": "",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Bude doplněno",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Bude doplněno",
+        "d": "",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Bude doplněno",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Bude doplněno",
+        "d": "",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Bude doplněno",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-11-30": {
     "vydej": "11:00–14:00",
     "chody": [
       {

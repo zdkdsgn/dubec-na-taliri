@@ -3685,8 +3685,9 @@
       {
         "c": "obed",
         "n": "Losos na bylinkách a citronu",
-        "d": "Bramborová kaše, zeleninová obloha · Voda",
+        "d": "Bulgur, zeleninová obloha · Voda s citronem",
         "a": [
+          1,
           4,
           7
         ],
@@ -3701,12 +3702,14 @@
           },
           {
             "l": "Příloha",
-            "n": "Bramborová kaše, zeleninová obloha",
-            "a": []
+            "n": "Bulgur, zeleninová obloha",
+            "a": [
+              1
+            ]
           },
           {
             "l": "Nápoj",
-            "n": "Voda",
+            "n": "Voda s citronem",
             "a": []
           }
         ]
@@ -3767,32 +3770,28 @@
       },
       {
         "c": "polevka",
-        "n": "Z červené čočky",
+        "n": "Kapustová",
         "d": "",
-        "a": [
-          9
-        ]
+        "a": []
       },
       {
         "c": "obed",
-        "n": "Rozlítaný ptáček",
-        "d": "Rýže · Voda s limetkou",
+        "n": "Vepřové maso na mrkvi, bramborová kaše",
+        "d": "Mandarinka · Voda s limetkou",
         "a": [
-          3,
-          10
+          7
         ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Rozlítaný ptáček",
+            "n": "Vepřové maso na mrkvi, bramborová kaše",
             "a": [
-              3,
-              10
+              7
             ]
           },
           {
             "l": "Příloha",
-            "n": "Rýže",
+            "n": "Mandarinka",
             "a": []
           },
           {
@@ -3830,7 +3829,7 @@
     "chody": [
       {
         "c": "presnidavka",
-        "n": "Lučina, dalamánek, pomeranč",
+        "n": "Lučina, dalamánek, mix ovoce",
         "d": "Voda, čaj, mléko",
         "a": [
           1,
@@ -3839,7 +3838,7 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Lučina, dalamánek, pomeranč",
+            "n": "Lučina, dalamánek, mix ovoce",
             "a": [
               1,
               7
@@ -3856,28 +3855,39 @@
       },
       {
         "c": "polevka",
-        "n": "Kapustová",
+        "n": "Rybí vývar se zeleninou",
         "d": "",
         "a": [
-          1,
+          4,
           9
         ]
       },
       {
         "c": "obed",
-        "n": "Vepřové maso na mrkvi, šťouchané brambory s máslem a pažitkou",
-        "d": "Voda",
-        "a": [],
+        "n": "Luštěninové curry s kokosovým mlékem, rýže",
+        "d": "Rajčatový salát · Voda, mléko",
+        "a": [
+          7
+        ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Vepřové maso na mrkvi, šťouchané brambory s máslem a pažitkou",
+            "n": "Luštěninové curry s kokosovým mlékem, rýže",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Rajčatový salát",
             "a": []
           },
           {
             "l": "Nápoj",
-            "n": "Voda",
-            "a": []
+            "n": "Voda, mléko",
+            "a": [
+              7
+            ]
           }
         ]
       },
@@ -3907,7 +3917,7 @@
     "chody": [
       {
         "c": "presnidavka",
-        "n": "Šunková pěna, veka, okurek",
+        "n": "Šunková pěna, rohlík, mix zeleniny",
         "d": "Voda, čaj, mléko",
         "a": [
           1,
@@ -3917,7 +3927,7 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Šunková pěna, veka, okurek",
+            "n": "Šunková pěna, rohlík, mix zeleniny",
             "a": [
               1,
               3,
@@ -3935,36 +3945,38 @@
       },
       {
         "c": "polevka",
-        "n": "Rybí vývar se zeleninou",
+        "n": "Z červené čočky",
         "d": "",
         "a": [
-          4,
           9
         ]
       },
       {
         "c": "obed",
-        "n": "Luštěninové curry s kokosovým mlékem, rýže",
-        "d": "Brambory s máslem a pažitkou · Voda",
+        "n": "Rozlítaný ptáček",
+        "d": "Šťouchané brambory s máslem a pažitkou · Voda s pomerančem",
         "a": [
-          7
+          7,
+          10
         ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Luštěninové curry s kokosovým mlékem, rýže",
+            "n": "Rozlítaný ptáček",
+            "a": [
+              10
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Šťouchané brambory s máslem a pažitkou",
             "a": [
               7
             ]
           },
           {
-            "l": "Příloha",
-            "n": "Brambory s máslem a pažitkou",
-            "a": []
-          },
-          {
             "l": "Nápoj",
-            "n": "Voda",
+            "n": "Voda s pomerančem",
             "a": []
           }
         ]
@@ -4037,7 +4049,7 @@
       {
         "c": "obed",
         "n": "Kuře na paprice",
-        "d": "Těstoviny · Voda",
+        "d": "Těstoviny, jablko · Voda",
         "a": [
           1,
           3,
@@ -4053,7 +4065,7 @@
           },
           {
             "l": "Příloha",
-            "n": "Těstoviny",
+            "n": "Těstoviny, jablko",
             "a": [
               1,
               3

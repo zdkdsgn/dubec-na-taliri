@@ -1931,14 +1931,45 @@
     "vydej": "11:00–14:00",
     "chody": [
       {
-        "c": "obed",
-        "n": "Oběd",
+        "c": "polevka",
+        "n": "Risi-bisi",
         "d": "",
-        "a": [],
+        "a": [
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Koprová omáčka, vejce",
+        "d": "Vařené brambory · Jablka z damborských sadů · Citrónová voda, voda",
+        "a": [
+          1,
+          3,
+          7
+        ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Oběd",
+            "n": "Koprová omáčka, vejce",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Vařené brambory",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Jablka z damborských sadů",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Citrónová voda, voda",
             "a": []
           }
         ]
@@ -1949,14 +1980,43 @@
     "vydej": "11:00–14:00",
     "chody": [
       {
-        "c": "obed",
-        "n": "Oběd",
+        "c": "polevka",
+        "n": "Drůbeží s luštěninový nudlemi",
         "d": "",
-        "a": [],
+        "a": [
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Kuře pečené na bylinkách",
+        "d": "Barevná rýže · Míchaný kompot · Kohoutková voda",
+        "a": [
+          1,
+          7
+        ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Oběd",
+            "n": "Kuře pečené na bylinkách",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Barevná rýže",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Míchaný kompot",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Kohoutková voda",
             "a": []
           }
         ]
@@ -1967,14 +2027,44 @@
     "vydej": "11:00–14:00",
     "chody": [
       {
-        "c": "obed",
-        "n": "Oběd",
+        "c": "polevka",
+        "n": "Uzená s krupkami a bramborem",
         "d": "",
-        "a": [],
+        "a": [
+          1,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Vepřový gombáš",
+        "d": "Celozrnné prstýnky · Ovocná kapsička pyré · Ochucený nápoj, voda",
+        "a": [
+          1
+        ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Oběd",
+            "n": "Vepřový gombáš",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Celozrnné prstýnky",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovocná kapsička pyré",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ochucený nápoj, voda",
             "a": []
           }
         ]
@@ -1985,14 +2075,47 @@
     "vydej": "11:00–14:00",
     "chody": [
       {
-        "c": "obed",
-        "n": "Oběd",
+        "c": "polevka",
+        "n": "Sýrová s nivou",
         "d": "",
-        "a": [],
+        "a": [
+          1,
+          7,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Losos pečený na másle",
+        "d": "Pečené brambory, domáci dip · Zeleninová přízdoba · Ovocný nápoj, voda",
+        "a": [
+          4,
+          7
+        ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Oběd",
+            "n": "Losos pečený na másle",
+            "a": [
+              4,
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Pečené brambory, domáci dip",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zeleninová přízdoba",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný nápoj, voda",
             "a": []
           }
         ]
@@ -2003,14 +2126,46 @@
     "vydej": "11:00–14:00",
     "chody": [
       {
-        "c": "obed",
-        "n": "Oběd",
+        "c": "polevka",
+        "n": "Celerový vývar s hvězdičkami",
         "d": "",
-        "a": [],
+        "a": [
+          1,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Hrachová kaše s uzeným tofu a smaženou cibulkou",
+        "d": "Slovácký chléb · Kiwi · Kohoutková voda",
+        "a": [
+          1,
+          6
+        ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Oběd",
+            "n": "Hrachová kaše s uzeným tofu a smaženou cibulkou",
+            "a": [
+              1,
+              6
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Slovácký chléb",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Kiwi",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Kohoutková voda",
             "a": []
           }
         ]
@@ -2252,6 +2407,24 @@
     ]
   },
   "2026-11-27": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "obed",
+        "n": "Oběd",
+        "d": "",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Oběd",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-11-30": {
     "vydej": "11:00–14:00",
     "chody": [
       {

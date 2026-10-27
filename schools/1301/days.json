@@ -8349,6 +8349,40 @@
                 "a": []
               }
             ]
+          },
+          {
+            "c": "svacina",
+            "n": "Lučina",
+            "d": "Grahamový rohlík · Paprika · Ovocný čaj – lesní směs a rakytník, voda",
+            "a": [
+              7
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Lučina",
+                "a": [
+                  7
+                ]
+              },
+              {
+                "l": "pečivo",
+                "n": "Grahamový rohlík",
+                "a": [
+                  7
+                ]
+              },
+              {
+                "l": "Doplněk",
+                "n": "Paprika",
+                "a": []
+              },
+              {
+                "l": "Nápoj",
+                "n": "Ovocný čaj – lesní směs a rakytník, voda",
+                "a": []
+              }
+            ]
           }
         ]
       },
@@ -8409,23 +8443,13 @@
   },
   "2026-11-05": {
     "skupiny": {
-      "ms": {
+      "zs": {
         "vydej": "10:30–14:30",
         "chody": [
           {
-            "c": "polevka",
-            "n": "Hovězí vývar s nudlemi a játrovou rýží",
-            "d": "",
-            "a": [
-              1,
-              3,
-              9
-            ]
-          },
-          {
-            "c": "obed",
-            "n": "Kuřecí na paprice",
-            "d": "Těstovina · Ovocný čaj, voda s citrónem, pomerančem a mátou, voda",
+            "c": "presnidavka",
+            "n": "Pomazánka řepová/ řepa, tvaroh, smetan.sýr, česnek, sůl",
+            "d": "Chléb · Jablko · Ovocný čaj – šípek s jahodou a mátou, mléko",
             "a": [
               1,
               7
@@ -8433,31 +8457,32 @@
             "p": [
               {
                 "l": "Jídlo",
-                "n": "Kuřecí na paprice",
+                "n": "Pomazánka řepová/ řepa, tvaroh, smetan.sýr, česnek, sůl",
                 "a": [
-                  1,
                   7
                 ]
               },
               {
-                "l": "Příloha",
-                "n": "Těstovina",
+                "l": "pečivo",
+                "n": "Chléb",
                 "a": [
                   1
                 ]
               },
               {
-                "l": "Nápoj",
-                "n": "Ovocný čaj, voda s citrónem, pomerančem a mátou, voda",
+                "l": "Doplněk",
+                "n": "Jablko",
                 "a": []
+              },
+              {
+                "l": "Nápoj",
+                "n": "Ovocný čaj – šípek s jahodou a mátou, mléko",
+                "a": [
+                  7
+                ]
               }
             ]
-          }
-        ]
-      },
-      "zs": {
-        "vydej": "10:30–14:30",
-        "chody": [
+          },
           {
             "c": "polevka",
             "n": "Hovězí vývar s nudlemi a játrovou rýží",
@@ -8524,50 +8549,82 @@
                 "a": []
               }
             ]
+          },
+          {
+            "c": "svacina",
+            "n": "Pomazánka jarní/tvaroh, zak.smetana, vejce, mrkev, celer, jablko, pažitka, sůl",
+            "d": "Rohlík · Cherry rajčata · Mléko, ovocný čaj, voda",
+            "a": [
+              3,
+              7,
+              9
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Pomazánka jarní/tvaroh, zak.smetana, vejce, mrkev, celer, jablko, pažitka, sůl",
+                "a": [
+                  3,
+                  7,
+                  9
+                ]
+              },
+              {
+                "l": "pečivo",
+                "n": "Rohlík",
+                "a": []
+              },
+              {
+                "l": "Doplněk",
+                "n": "Cherry rajčata",
+                "a": []
+              },
+              {
+                "l": "Nápoj",
+                "n": "Mléko, ovocný čaj, voda",
+                "a": [
+                  7
+                ]
+              }
+            ]
           }
         ]
-      }
-    }
-  },
-  "2026-11-06": {
-    "skupiny": {
+      },
       "ms": {
         "vydej": "10:30–14:30",
         "chody": [
           {
             "c": "polevka",
-            "n": "Dýňový krém s krutony",
+            "n": "Hovězí vývar s nudlemi a játrovou rýží",
             "d": "",
             "a": [
               1,
-              7
+              3,
+              9
             ]
           },
           {
             "c": "obed",
-            "n": "Francouzské brambory s mletým masem",
-            "d": "Sterilovaná okurka · Ovocný čaj, voda s citrónem, pomerančem a mátou, voda",
+            "n": "Kuřecí na paprice",
+            "d": "Těstovina · Ovocný čaj, voda s citrónem, pomerančem a mátou, voda",
             "a": [
               1,
-              3,
-              7,
-              10
+              7
             ],
             "p": [
               {
                 "l": "Jídlo",
-                "n": "Francouzské brambory s mletým masem",
+                "n": "Kuřecí na paprice",
                 "a": [
                   1,
-                  3,
                   7
                 ]
               },
               {
-                "l": "Doplněk",
-                "n": "Sterilovaná okurka",
+                "l": "Příloha",
+                "n": "Těstovina",
                 "a": [
-                  10
+                  1
                 ]
               },
               {
@@ -8578,10 +8635,48 @@
             ]
           }
         ]
-      },
+      }
+    }
+  },
+  "2026-11-06": {
+    "skupiny": {
       "zs": {
         "vydej": "10:30–14:30",
         "chody": [
+          {
+            "c": "presnidavka",
+            "n": "Šlehaný tvaroh s banánem",
+            "d": "Rohlík · Banán · Ovocný čaj – šípek s jahodou a mátou, mléko",
+            "a": [
+              7
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Šlehaný tvaroh s banánem",
+                "a": [
+                  7
+                ]
+              },
+              {
+                "l": "pečivo",
+                "n": "Rohlík",
+                "a": []
+              },
+              {
+                "l": "Doplněk",
+                "n": "Banán",
+                "a": []
+              },
+              {
+                "l": "Nápoj",
+                "n": "Ovocný čaj – šípek s jahodou a mátou, mléko",
+                "a": [
+                  7
+                ]
+              }
+            ]
+          },
           {
             "c": "polevka",
             "n": "Dýňový krém s krutony",
@@ -8642,6 +8737,92 @@
                   1,
                   4,
                   7
+                ]
+              },
+              {
+                "l": "Nápoj",
+                "n": "Ovocný čaj, voda s citrónem, pomerančem a mátou, voda",
+                "a": []
+              }
+            ]
+          },
+          {
+            "c": "svacina",
+            "n": "Bylinkové máslo",
+            "d": "Chléb · Kedlubna · Ovocný čaj – jablko se skořicí, ochucené mlého",
+            "a": [
+              1,
+              6,
+              7
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Bylinkové máslo",
+                "a": [
+                  6
+                ]
+              },
+              {
+                "l": "pečivo",
+                "n": "Chléb",
+                "a": [
+                  1
+                ]
+              },
+              {
+                "l": "Doplněk",
+                "n": "Kedlubna",
+                "a": []
+              },
+              {
+                "l": "Nápoj",
+                "n": "Ovocný čaj – jablko se skořicí, ochucené mlého",
+                "a": [
+                  7
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "ms": {
+        "vydej": "10:30–14:30",
+        "chody": [
+          {
+            "c": "polevka",
+            "n": "Dýňový krém s krutony",
+            "d": "",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "c": "obed",
+            "n": "Francouzské brambory s mletým masem",
+            "d": "Sterilovaná okurka · Ovocný čaj, voda s citrónem, pomerančem a mátou, voda",
+            "a": [
+              1,
+              3,
+              7,
+              10
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Francouzské brambory s mletým masem",
+                "a": [
+                  1,
+                  3,
+                  7
+                ]
+              },
+              {
+                "l": "Doplněk",
+                "n": "Sterilovaná okurka",
+                "a": [
+                  10
                 ]
               },
               {
@@ -10352,6 +10533,112 @@
                 "l": "Nápoj",
                 "n": "Ovocný čaj, voda s citrónem, pomerančem a mátou, voda",
                 "a": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "2026-11-30": {
+    "skupiny": {
+      "ms": {
+        "vydej": "10:30–14:30",
+        "chody": [
+          {
+            "c": "polevka",
+            "n": "Hráškový krém s fridátovými nudlemi",
+            "d": "",
+            "a": [
+              1
+            ]
+          },
+          {
+            "c": "obed",
+            "n": "Kuřecí nudličky po čínsku se zeleninou",
+            "d": "Dušená rýže · Ovocný čaj, voda s citrónem, pomerančem a mátou, voda",
+            "a": [],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Kuřecí nudličky po čínsku se zeleninou",
+                "a": []
+              },
+              {
+                "l": "Příloha",
+                "n": "Dušená rýže",
+                "a": []
+              },
+              {
+                "l": "Nápoj",
+                "n": "Ovocný čaj, voda s citrónem, pomerančem a mátou, voda",
+                "a": []
+              }
+            ]
+          }
+        ]
+      },
+      "zs": {
+        "vydej": "10:30–14:30",
+        "chody": [
+          {
+            "c": "polevka",
+            "n": "Hráškový krém s fridátovými nudlemi",
+            "d": "",
+            "a": [
+              1
+            ]
+          },
+          {
+            "c": "obed",
+            "n": "Kuřecí nudličky po čínsku se zeleninou",
+            "d": "Dušená rýže · Ovocný čaj, voda s citrónem, pomerančem a mátou, voda",
+            "a": [],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Kuřecí nudličky po čínsku se zeleninou",
+                "a": []
+              },
+              {
+                "l": "Příloha",
+                "n": "Dušená rýže",
+                "a": []
+              },
+              {
+                "l": "Nápoj",
+                "n": "Ovocný čaj, voda s citrónem, pomerančem a mátou, voda",
+                "a": []
+              }
+            ]
+          },
+          {
+            "c": "obed2",
+            "n": "Žemlovka s jablky",
+            "d": "Mléko, ovocný čaj, voda",
+            "a": [
+              1,
+              3,
+              6,
+              7
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Žemlovka s jablky",
+                "a": [
+                  1,
+                  3,
+                  6,
+                  7
+                ]
+              },
+              {
+                "l": "Nápoj",
+                "n": "Mléko, ovocný čaj, voda",
+                "a": [
+                  7
+                ]
               }
             ]
           }

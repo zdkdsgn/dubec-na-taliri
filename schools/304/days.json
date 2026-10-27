@@ -4256,22 +4256,25 @@
       },
       {
         "c": "svacina",
-        "n": "Kobliha",
-        "d": "Ovocný čaj, mléko, voda",
+        "n": "Pečivo s žervé",
+        "d": "Zelenina · Ovocný čaj, mléko, voda",
         "a": [
           1,
-          3,
           7
         ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Kobliha",
+            "n": "Pečivo s žervé",
             "a": [
               1,
-              3,
               7
             ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zelenina",
+            "a": []
           },
           {
             "l": "Nápoj",

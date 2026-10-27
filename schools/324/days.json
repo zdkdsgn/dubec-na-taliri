@@ -2621,7 +2621,7 @@
       },
       {
         "c": "obed",
-        "n": "A:1 HOVĚZI MASO PO ŘECKU",
+        "n": "A:1 VEPŘOVÉ MASO PO ŘECKU",
         "d": "A: KUSKUS · A: OVOCNÝ BAR · A: NÁPOJ S PŘICH.POMERANČ, VODA",
         "a": [
           1
@@ -2629,7 +2629,7 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "A:1 HOVĚZI MASO PO ŘECKU",
+            "n": "A:1 VEPŘOVÉ MASO PO ŘECKU",
             "a": [
               1
             ]
@@ -2661,6 +2661,540 @@
             "l": "Jídlo",
             "n": "A:1 KUSKUSOTO",
             "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-11-09": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "A:1 PODZIMNÍ ZELENINOVÁ POLÉVKA S CELOZRNÝMI NOKY",
+        "d": "",
+        "a": [
+          1
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "A:1, 3 ŠPENÁT, VEJCE",
+        "d": "A: BRAMBORY · A:1, 3, 6, 8 ŠTRUDLIČKA · A: NAPOJ S PŘICH. CITRON, VODA",
+        "a": [
+          1,
+          3,
+          6,
+          8
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "A:1, 3 ŠPENÁT, VEJCE",
+            "a": [
+              1,
+              3
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "A: BRAMBORY",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "A:1, 3, 6, 8 ŠTRUDLIČKA",
+            "a": [
+              1,
+              3,
+              6,
+              8
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "A: NAPOJ S PŘICH. CITRON, VODA",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-11-10": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "A:1 ČOČKOVÁ POLÉVKA",
+        "d": "",
+        "a": [
+          1
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "A:1, 7 KUŘE NA PAPRICE",
+        "d": "A: TĚSTOVINY · A:7 JOGURT · A: NAPOJ S PŘICH.JAHODA, VODA",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "A:1, 7 KUŘE NA PAPRICE",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "A: TĚSTOVINY",
+            "a": [
+              1,
+              3
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "A:7 JOGURT",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "A: NAPOJ S PŘICH.JAHODA, VODA",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "n": "A:1 TĚSTOVINOVÝ SALÁT S KUŘECÍM MASEM",
+        "d": "",
+        "a": [
+          1
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "A:1 TĚSTOVINOVÝ SALÁT S KUŘECÍM MASEM",
+            "a": [
+              1
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-11-11": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "A:1, 9 HOVĚZÍ POLÉVKA",
+        "d": "",
+        "a": [
+          1,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "A:1, 7 VEPŘOVÉ RIZOTO",
+        "d": "A: OKUREK · A:OVOCE · A: ČERNY ČAJ, VODA",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "A:1, 7 VEPŘOVÉ RIZOTO",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "A: OKUREK",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "A:OVOCE",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "A: ČERNY ČAJ, VODA",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-11-12": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "A:1 GULÁŠOVÁ POLÉVKA",
+        "d": "",
+        "a": [
+          1
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "A:1, 3, 4, 7 RYBÍ KARBENÁTEK",
+        "d": "A:7 BRAMBOROVA KAŠE · A: ZELENINOVÝ BAR · A: NAPOJ S PŘICH.POMERANČ, VODA",
+        "a": [
+          1,
+          3,
+          4,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "A:1, 3, 4, 7 RYBÍ KARBENÁTEK",
+            "a": [
+              1,
+              3,
+              4,
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "A:7 BRAMBOROVA KAŠE",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "A: ZELENINOVÝ BAR",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "A: NAPOJ S PŘICH.POMERANČ, VODA",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "n": "A:1, 3, 4, 7 RYBÍ PRSTY",
+        "d": "",
+        "a": [
+          1,
+          3,
+          4,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "A:1, 3, 4, 7 RYBÍ PRSTY",
+            "a": [
+              1,
+              3,
+              4,
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-11-13": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "A:1 CUKETOVÁ POLÉVKA",
+        "d": "",
+        "a": [
+          1
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "A:1 BOLOŇSKÁ OMÁČKA S MLETÝM MASEM",
+        "d": "A: ŠPAGETY · A: OVOCNÝ BAR · A: OVOCNY ČAJ, VODA",
+        "a": [
+          1
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "A:1 BOLOŇSKÁ OMÁČKA S MLETÝM MASEM",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "A: ŠPAGETY",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "A: OVOCNÝ BAR",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "A: OVOCNY ČAJ, VODA",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "n": "A:1 PENNE S RAJČATY A BAZALKOU",
+        "d": "",
+        "a": [
+          1
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "A:1 PENNE S RAJČATY A BAZALKOU",
+            "a": [
+              1
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-11-16": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "A:1 RAJSKA POLEVKA S TĚSTOVINOU",
+        "d": "",
+        "a": [
+          1
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "A:1, 3 ČOČKA NA HUSTO, VEJCE, SALÁM",
+        "d": "A:1, 3, 7 CHLÉB · A: OVOCE · A: NAPOJ S PŘICH. CITRON, VODA",
+        "a": [
+          1,
+          3
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "A:1, 3 ČOČKA NA HUSTO, VEJCE, SALÁM",
+            "a": [
+              1,
+              3
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "A:1, 3, 7 CHLÉB",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "A: OVOCE",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "A: NAPOJ S PŘICH. CITRON, VODA",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-11-17": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "STÁTNÍ SVÁTEK",
+        "d": "",
+        "a": []
+      }
+    ]
+  },
+  "2026-11-18": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "A:1, 4 RYBÍ POLÉVKA SE ZELENINOU",
+        "d": "",
+        "a": [
+          1,
+          4
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "A:1 VEPŘOVÉ KOSTKY NA AJVARU",
+        "d": "A: RÝŽE · A:7 TVAROH S GRANKEM · A: OVOCNY ČAJ, VODA",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "A:1 VEPŘOVÉ KOSTKY NA AJVARU",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "A: RÝŽE",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "A:7 TVAROH S GRANKEM",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "A: OVOCNY ČAJ, VODA",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-11-19": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "A:1 BRAMBOROVÁ POLÉVKA",
+        "d": "",
+        "a": [
+          1
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "A:1, 3, 7 ŽEMLOVKA S JABLKY",
+        "d": "A: OVOCNÝ BAR · A:7 KAKAO A: VODA",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "A:1, 3, 7 ŽEMLOVKA S JABLKY",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "A: OVOCNÝ BAR",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "A:7 KAKAO A: VODA",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "n": "A: ŠOPSKÝSALÁT",
+        "d": "",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "A: ŠOPSKÝSALÁT",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-11-20": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "A:1, 9 VÝVAR S TĚSTOVINOU",
+        "d": "",
+        "a": [
+          1,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "A:1, 7 KOPROVÁ OMÁČKA, HOV. VAŘENÉ",
+        "d": "A: BRAMBORY · A: ČERNY ČAJ, VODA",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "A:1, 7 KOPROVÁ OMÁČKA, HOV. VAŘENÉ",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "A: BRAMBORY",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "A: ČERNY ČAJ, VODA",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "n": "A:1, 7 KOPROVÁ OMÁČKA, VEJCE",
+        "d": "",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "A:1, 7 KOPROVÁ OMÁČKA, VEJCE",
+            "a": [
+              1,
+              7
+            ]
           }
         ]
       }

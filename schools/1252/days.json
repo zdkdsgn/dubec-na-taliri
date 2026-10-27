@@ -3275,19 +3275,127 @@
       }
     ]
   },
+  "2026-11-09": {
+    "vydej": "11:30–12:00",
+    "chody": [
+      {
+        "c": "obed",
+        "n": "Zapečené těstoviny se zeleninou",
+        "d": "",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Zapečené těstoviny se zeleninou",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-11-10": {
+    "vydej": "11:30–12:00",
+    "chody": [
+      {
+        "c": "obed",
+        "n": "Obalované filé se sýrem",
+        "d": "Bulgur",
+        "a": [
+          1,
+          3,
+          4,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Obalované filé se sýrem",
+            "a": [
+              1,
+              3,
+              4,
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Bulgur",
+            "a": [
+              1
+            ]
+          }
+        ]
+      }
+    ]
+  },
   "2026-11-11": {
     "vydej": "11:30–12:00",
     "chody": [
       {
         "c": "obed",
         "n": "Svatomartinská husa",
-        "d": "",
-        "a": [],
+        "d": "Červené zelí · Voda · Kynutý knedlík",
+        "a": [
+          1,
+          3,
+          7
+        ],
         "p": [
           {
             "l": "Jídlo",
             "n": "Svatomartinská husa",
             "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Červené zelí",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Voda",
+            "a": []
+          },
+          {
+            "l": "Příloha",
+            "n": "Kynutý knedlík",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-11-12": {
+    "vydej": "11:30–12:00",
+    "chody": [
+      {
+        "c": "obed",
+        "n": "Houbové rizoto sypané strouhaným sýrem",
+        "d": "",
+        "a": [
+          7,
+          9
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Houbové rizoto sypané strouhaným sýrem",
+            "a": [
+              7,
+              9
+            ]
           }
         ]
       }

@@ -2454,7 +2454,7 @@
       },
       {
         "c": "obed",
-        "n": "Čočkový eintopf, pečivo",
+        "n": "Čočkový eintopf",
         "d": "Ovocný džus voda",
         "a": [
           1,
@@ -2463,7 +2463,7 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Čočkový eintopf, pečivo",
+            "n": "Čočkový eintopf",
             "a": [
               1,
               9
@@ -2482,7 +2482,8 @@
         "d": "Ovocný džus voda",
         "a": [
           1,
-          7
+          7,
+          8
         ],
         "p": [
           {
@@ -2490,7 +2491,8 @@
             "n": "Salát Caprese, pečivo",
             "a": [
               1,
-              7
+              7,
+              8
             ]
           },
           {
@@ -2520,7 +2522,7 @@
         "n": "Krvavý mozek s leklou rybou (bramborovo-dýňové pyré s květákem, ryba)",
         "d": "Ovoce · Ovocný džus voda",
         "a": [
-          5,
+          4,
           7
         ],
         "p": [
@@ -2528,7 +2530,7 @@
             "l": "Jídlo",
             "n": "Krvavý mozek s leklou rybou (bramborovo-dýňové pyré s květákem, ryba)",
             "a": [
-              5,
+              4,
               7
             ]
           },
@@ -2942,6 +2944,346 @@
           {
             "l": "Jídlo",
             "n": "Listový salát s mozzarellou a sušenými rajčaty, pečivo",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný džus voda",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-11-09": {
+    "vydej": "11:40–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Hrachová",
+        "d": "",
+        "a": [
+          1
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Celozrnné těstoviny s liškovou omáčkou",
+        "d": "Ovocný džus voda",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Celozrnné těstoviny s liškovou omáčkou",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný džus voda",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "n": "Cizrnový salát s tuňákem",
+        "d": "Ovocný džus voda",
+        "a": [
+          4
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Cizrnový salát s tuňákem",
+            "a": [
+              4
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný džus voda",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-11-10": {
+    "vydej": "11:40–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Kuřecí vývar s nudlemi",
+        "d": "",
+        "a": [
+          1,
+          3,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Karbanátek",
+        "d": "Bramborová kaše · Ovoce · Ovcný džus, voda",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Karbanátek",
+            "a": [
+              1,
+              3
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Bramborová kaše",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovcný džus, voda",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "n": "Chilli con carne, chléb",
+        "d": "Ovoce · Ovcný džus, voda",
+        "a": [
+          1
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Chilli con carne, chléb",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovcný džus, voda",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-11-11": {
+    "vydej": "11:40–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Zeleninová s jáhlami",
+        "d": "",
+        "a": [
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Bulgur s grilovanou zeleninou, chedar",
+        "d": "Ovocný džus voda",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Bulgur s grilovanou zeleninou, chedar",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný džus voda",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "n": "Koprová omáčka, hovězí maso",
+        "d": "Brambory · Ovocný džus voda",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Koprová omáčka, hovězí maso",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Brambory",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný džus voda",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-11-12": {
+    "vydej": "11:40–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Květáková",
+        "d": "",
+        "a": [
+          1,
+          3,
+          7
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Vepřová kýta po mexicku",
+        "d": "Rýže · Ovoce · Ovocný džus voda",
+        "a": [
+          1
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Vepřová kýta po mexicku",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Rýže",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný džus voda",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "n": "Bramborový knedlík, pečená kachna, červené zelí",
+        "d": "Ovoce · Ovocný džus voda",
+        "a": [
+          1,
+          3
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Bramborový knedlík, pečená kachna, červené zelí",
+            "a": [
+              1,
+              3
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný džus voda",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-11-13": {
+    "vydej": "11:40–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Pórková",
+        "d": "",
+        "a": [
+          1,
+          7
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Ryba s bramborem, zel obloha",
+        "d": "Ovocný džus voda",
+        "a": [
+          4
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Ryba s bramborem, zel obloha",
+            "a": [
+              4
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný džus voda",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "n": "Šopský salát, pečivo",
+        "d": "Ovocný džus voda",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Šopský salát, pečivo",
             "a": [
               1,
               7

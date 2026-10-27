@@ -3013,7 +3013,7 @@
       {
         "c": "obed",
         "n": "Fazolovocizrnový guláš",
-        "d": "Bagetka",
+        "d": "Bagetka · Voda s citronem, ovocný nápoj",
         "a": [],
         "p": [
           {
@@ -3024,6 +3024,11 @@
           {
             "l": "Příloha",
             "n": "Bagetka",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Voda s citronem, ovocný nápoj",
             "a": []
           }
         ]
@@ -3076,12 +3081,17 @@
       {
         "c": "obed",
         "n": "Tortila s kuřecím masem, zeleninou a dipem",
-        "d": "",
+        "d": "Bylinkový čaj, voda s citronem",
         "a": [],
         "p": [
           {
             "l": "Jídlo",
             "n": "Tortila s kuřecím masem, zeleninou a dipem",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Bylinkový čaj, voda s citronem",
             "a": []
           }
         ]
@@ -3156,12 +3166,17 @@
       {
         "c": "obed",
         "n": "PODZIMNÍ PRÁZDNINY / MŠ Zapečené brambory",
-        "d": "",
+        "d": "Malkao, voda s citronem",
         "a": [],
         "p": [
           {
             "l": "Jídlo",
             "n": "PODZIMNÍ PRÁZDNINY / MŠ Zapečené brambory",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Malkao, voda s citronem",
             "a": []
           }
         ]
@@ -3220,12 +3235,17 @@
       {
         "c": "obed",
         "n": "PODZIMNÍ PRÁZDNINY / MŠ – Játra na cibulce s rýží",
-        "d": "",
+        "d": "Nápoj ochucený, voda",
         "a": [],
         "p": [
           {
             "l": "Jídlo",
             "n": "PODZIMNÍ PRÁZDNINY / MŠ – Játra na cibulce s rýží",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Nápoj ochucený, voda",
             "a": []
           }
         ]
@@ -3255,10 +3275,34 @@
     "vydej": "11:30–13:40",
     "chody": [
       {
-        "c": "polevka",
-        "n": "Luštěninová",
+        "c": "presnidavka",
+        "n": "Bageta, pomazánka rybičková, zelenina, mléko ochucené",
         "d": "",
-        "a": []
+        "a": [
+          1,
+          4,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Bageta, pomazánka rybičková, zelenina, mléko ochucené",
+            "a": [
+              1,
+              4,
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Celerová s vločkami",
+        "d": "",
+        "a": [
+          1,
+          7
+        ]
       },
       {
         "c": "obed",
@@ -3292,6 +3336,25 @@
     "vydej": "11:30–13:40",
     "chody": [
       {
+        "c": "presnidavka",
+        "n": "Rohlík, žervé, rajče, okurek, čaj, mléko ochucené",
+        "d": "",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Rohlík, žervé, rajče, okurek, čaj, mléko ochucené",
+            "a": [
+              1,
+              7
+            ]
+          }
+        ]
+      },
+      {
         "c": "polevka",
         "n": "Luštěninová",
         "d": "",
@@ -3323,6 +3386,31 @@
   "2026-11-04": {
     "vydej": "11:30–13:40",
     "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Chléb s máslem a plátky vejce, zelenina, nápoj mléčný, čaj",
+        "d": "",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Chléb s máslem a plátky vejce, zelenina, nápoj mléčný, čaj",
+            "a": [
+              1,
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Brokolicová",
+        "d": "",
+        "a": []
+      },
       {
         "c": "obed",
         "n": "Bramborový guláš",
@@ -3356,6 +3444,31 @@
   "2026-11-05": {
     "vydej": "11:30–13:40",
     "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Jogurt s lupínky a ovocem, voda, ochucené mléko",
+        "d": "",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Jogurt s lupínky a ovocem, voda, ochucené mléko",
+            "a": [
+              1,
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Zeleninová s mušličkami",
+        "d": "",
+        "a": []
+      },
       {
         "c": "obed",
         "n": "Sekaná pečeně",
@@ -3393,6 +3506,35 @@
   "2026-11-06": {
     "vydej": "11:30–13:40",
     "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Pečivo, pomazánkové máslo, jablíčko, nápoj mléčný",
+        "d": "",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Pečivo, pomazánkové máslo, jablíčko, nápoj mléčný",
+            "a": [
+              1,
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Drožďová",
+        "d": "",
+        "a": [
+          1,
+          3,
+          7
+        ]
+      },
       {
         "c": "obed",
         "n": "Kuřecí ragú na kari",

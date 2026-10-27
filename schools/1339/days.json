@@ -3157,12 +3157,18 @@
         "c": "presnidavka",
         "n": "Pomazánka z tuňáka, chléb, mrkev, okurka, káva latte",
         "d": "",
-        "a": [],
+        "a": [
+          1,
+          4
+        ],
         "p": [
           {
             "l": "Jídlo",
             "n": "Pomazánka z tuňáka, chléb, mrkev, okurka, káva latte",
-            "a": []
+            "a": [
+              1,
+              4
+            ]
           }
         ]
       },
@@ -3261,12 +3267,16 @@
         "c": "obed",
         "n": "Pečený okoun na slanině",
         "d": "Bramborová kaše · Paprika, vitaminátor · Sirup, mošt",
-        "a": [],
+        "a": [
+          4
+        ],
         "p": [
           {
             "l": "Jídlo",
             "n": "Pečený okoun na slanině",
-            "a": []
+            "a": [
+              4
+            ]
           },
           {
             "l": "Příloha",
