@@ -3821,5 +3821,73 @@
         ]
       }
     ]
+  },
+  "2026-12-02": {
+    "vydej": "11:30–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Drůbková s nudlemi",
+        "d": "",
+        "a": [
+          1,
+          3,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Kuřecí čína",
+        "d": "Rýže · Zeleninový pult · Čaj, mléko, voda",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Kuřecí čína",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Rýže",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zeleninový pult",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj, mléko, voda",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "n": "Smažený květák, tatarka",
+        "d": "Brambory",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Smažený květák, tatarka",
+            "a": []
+          },
+          {
+            "l": "Příloha",
+            "n": "Brambory",
+            "a": []
+          }
+        ]
+      }
+    ]
   }
 }

@@ -4930,15 +4930,45 @@
     "vydej": "11:00–14:00",
     "chody": [
       {
-        "c": "obed",
-        "n": "Bude doplněno",
+        "c": "polevka",
+        "n": "Dýňová",
         "d": "",
-        "a": [],
+        "a": [
+          1,
+          7
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Rizoto z bulguru s kuřecím masem a zeleninou",
+        "d": "Strouhaný sýr · Červená řepa · Nápoj(voda, mléko)",
+        "a": [
+          7
+        ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Bude doplněno",
+            "n": "Rizoto z bulguru s kuřecím masem a zeleninou",
             "a": []
+          },
+          {
+            "l": "Příloha",
+            "n": "Strouhaný sýr",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Červená řepa",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Nápoj(voda, mléko)",
+            "a": [
+              7
+            ]
           }
         ]
       }
@@ -4948,15 +4978,42 @@
     "vydej": "11:00–14:00",
     "chody": [
       {
-        "c": "obed",
-        "n": "Bude doplněno",
+        "c": "polevka",
+        "n": "Luštěninová",
         "d": "",
-        "a": [],
+        "a": [
+          1,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Hamburgr-zš",
+        "d": "Hranolky-zš · Nápoj(voda, mléko)",
+        "a": [
+          1,
+          7
+        ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Bude doplněno",
+            "n": "Hamburgr-zš",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Hranolky-zš",
             "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Nápoj(voda, mléko)",
+            "a": [
+              7
+            ]
           }
         ]
       }
@@ -4966,15 +5023,48 @@
     "vydej": "11:00–14:00",
     "chody": [
       {
-        "c": "obed",
-        "n": "Bude doplněno",
+        "c": "polevka",
+        "n": "Hovězí vývar se strouháním",
         "d": "",
-        "a": [],
+        "a": [
+          1,
+          3,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Segedínský guláš",
+        "d": "Houskový/celozrnný knedlík · Nápoj(voda, mléko)",
+        "a": [
+          1,
+          3,
+          7
+        ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Bude doplněno",
-            "a": []
+            "n": "Segedínský guláš",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Houskový/celozrnný knedlík",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Nápoj(voda, mléko)",
+            "a": [
+              7
+            ]
           }
         ]
       }
@@ -4984,15 +5074,44 @@
     "vydej": "11:00–14:00",
     "chody": [
       {
-        "c": "obed",
-        "n": "Bude doplněno",
+        "c": "polevka",
+        "n": "Celerová",
         "d": "",
-        "a": [],
+        "a": [
+          1,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Kynuté buchty s tvarohem",
+        "d": "Ovoce · Nápoj(voda, mléko)",
+        "a": [
+          1,
+          3,
+          7
+        ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Bude doplněno",
+            "n": "Kynuté buchty s tvarohem",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
             "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Nápoj(voda, mléko)",
+            "a": [
+              7
+            ]
           }
         ]
       }
@@ -5002,15 +5121,50 @@
     "vydej": "11:00–14:00",
     "chody": [
       {
-        "c": "obed",
-        "n": "Bude doplněno",
+        "c": "polevka",
+        "n": "Pohanková",
         "d": "",
-        "a": [],
+        "a": [
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Sekaná pečeně",
+        "d": "Bramborová kaše · Okurek · Nápoj(voda, mléko)",
+        "a": [
+          1,
+          3,
+          7
+        ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Bude doplněno",
+            "n": "Sekaná pečeně",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Bramborová kaše",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Okurek",
             "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Nápoj(voda, mléko)",
+            "a": [
+              7
+            ]
           }
         ]
       }

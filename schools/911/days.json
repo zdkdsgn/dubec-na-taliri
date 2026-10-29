@@ -4628,7 +4628,7 @@
       {
         "c": "obed",
         "n": "Pangasius na rozmarýnu",
-        "d": "Bramborová kaše · Ovoce",
+        "d": "Bramborová kaše · Ovoce · Ovocný džus Tropico, voda",
         "a": [
           4,
           6,
@@ -4656,13 +4656,18 @@
             "l": "Doplněk",
             "n": "Ovoce",
             "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný džus Tropico, voda",
+            "a": []
           }
         ]
       },
       {
         "c": "svacina",
         "n": "Rohlík s máslem a Eidamem",
-        "d": "",
+        "d": "Zelenina · Mléko, voda, čaj",
         "a": [
           1,
           7
@@ -4675,6 +4680,18 @@
               1,
               7
             ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zelenina",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko, voda, čaj",
+            "a": [
+              7
+            ]
           }
         ]
       }
@@ -4685,18 +4702,27 @@
     "chody": [
       {
         "c": "presnidavka",
-        "n": "Zapečené toasty se sýrem a kečupem",
-        "d": "",
+        "n": "Celozrnný chléb, pomazánka ze šprotů",
+        "d": "Mléko, voda, čaj",
         "a": [
           1,
+          4,
           7
         ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Zapečené toasty se sýrem a kečupem",
+            "n": "Celozrnný chléb, pomazánka ze šprotů",
             "a": [
               1,
+              4,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko, voda, čaj",
+            "a": [
               7
             ]
           }
@@ -4746,7 +4772,7 @@
       {
         "c": "svacina",
         "n": "Celozrnný chléb, tavený sýr",
-        "d": "",
+        "d": "Zelenina · Mléko, voda, čaj",
         "a": [
           1,
           7,
@@ -4761,6 +4787,18 @@
               7,
               11
             ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zelenina",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko, voda, čaj",
+            "a": [
+              7
+            ]
           }
         ]
       }
@@ -4772,9 +4810,10 @@
       {
         "c": "presnidavka",
         "n": "Toskánská bageta, sýrová pomazánka s ředkvičkami",
-        "d": "Ovoce",
+        "d": "Ovoce · Mléko, voda, čaj",
         "a": [
           1,
+          5,
           6,
           7
         ],
@@ -4792,6 +4831,14 @@
             "l": "Doplněk",
             "n": "Ovoce",
             "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko, voda, čaj",
+            "a": [
+              5,
+              7
+            ]
           }
         ]
       },
@@ -4808,7 +4855,7 @@
       {
         "c": "obed",
         "n": "Daňčí na paprice",
-        "d": "Celozrnné těstoviny",
+        "d": "Celozrnné těstoviny · Čaj, voda",
         "a": [
           1,
           3,
@@ -4832,13 +4879,18 @@
               1,
               3
             ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj, voda",
+            "a": []
           }
         ]
       },
       {
         "c": "svacina",
         "n": "Toskánská bageta, pomazánkové máslo",
-        "d": "",
+        "d": "Zelenina · Mléko, voda, čaj",
         "a": [
           1,
           6,
@@ -4854,6 +4906,18 @@
               6,
               7,
               8
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zelenina",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko, voda, čaj",
+            "a": [
+              7
             ]
           }
         ]
@@ -4904,7 +4968,7 @@
       {
         "c": "obed",
         "n": "Krůtí nudličky, grilovaná zelenina",
-        "d": "Vařené brambory",
+        "d": "Vařené brambory · Ovocný džus Tropico, voda",
         "a": [],
         "p": [
           {
@@ -4916,15 +4980,21 @@
             "l": "Příloha",
             "n": "Vařené brambory",
             "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný džus Tropico, voda",
+            "a": []
           }
         ]
       },
       {
         "c": "svacina",
         "n": "Celozrnný chléb, máslo",
-        "d": "",
+        "d": "Zelenina · Mléko, voda, čaj",
         "a": [
           1,
+          4,
           7,
           11
         ],
@@ -4936,6 +5006,19 @@
               1,
               7,
               11
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zelenina",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko, voda, čaj",
+            "a": [
+              4,
+              7
             ]
           }
         ]
@@ -4988,7 +5071,7 @@
       {
         "c": "obed",
         "n": "Špagety se sušenými rajčaty, Parmezán",
-        "d": "",
+        "d": "Mléko, voda",
         "a": [
           1,
           3,
@@ -5005,13 +5088,20 @@
               7,
               12
             ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko, voda",
+            "a": [
+              7
+            ]
           }
         ]
       },
       {
         "c": "svacina",
         "n": "Chléb kmínový, Fénix",
-        "d": "",
+        "d": "Zelenina · Čaj, voda",
         "a": [
           1,
           7
@@ -5024,6 +5114,16 @@
               1,
               7
             ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zelenina",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj, voda",
+            "a": []
           }
         ]
       }
