@@ -4288,8 +4288,8 @@
     "chody": [
       {
         "c": "presnidavka",
-        "n": "Pomazánka tuňáková s tvarohem",
-        "d": "Vícezrnný toustový chléb, ovoce · Mléko, čaj granátové jablko",
+        "n": "Toustový chléb, flora, plátkový sýr",
+        "d": "Ovoce · Mléko, čaj granátové jablko",
         "a": [
           1,
           4,
@@ -4298,7 +4298,7 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Pomazánka tuňáková s tvarohem",
+            "n": "Toustový chléb, flora, plátkový sýr",
             "a": [
               4,
               7
@@ -4306,7 +4306,7 @@
           },
           {
             "l": "Doplněk",
-            "n": "Vícezrnný toustový chléb, ovoce",
+            "n": "Ovoce",
             "a": [
               1
             ]
@@ -4330,29 +4330,23 @@
       },
       {
         "c": "obed",
-        "n": "Ryba v rajské omáčce",
-        "d": "Těstoviny · Čaj ostružina-borůvka",
+        "n": "Rybí filé pečené na másle",
+        "d": "Brambory · Čaj ostružina-borůvka",
         "a": [
-          1,
-          4,
-          9
+          4
         ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Ryba v rajské omáčce",
+            "n": "Rybí filé pečené na másle",
             "a": [
-              1,
-              4,
-              9
+              4
             ]
           },
           {
             "l": "Příloha",
-            "n": "Těstoviny",
-            "a": [
-              1
-            ]
+            "n": "Brambory",
+            "a": []
           },
           {
             "l": "Nápoj",

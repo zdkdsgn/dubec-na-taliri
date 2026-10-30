@@ -5585,5 +5585,102 @@
         ]
       }
     ]
+  },
+  "2026-12-03": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Mrkvová s kapáním",
+        "d": "",
+        "a": [
+          1,
+          3,
+          7
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Koprová omáčka s vejcem (bezmasé jídlo)",
+        "d": "Brambor · Jogurt · Voda",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Koprová omáčka s vejcem (bezmasé jídlo)",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Brambor",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Jogurt",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Voda",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "presnidavka",
+        "n": "Pomazánka tuňáková s celerem, chléb, mléko, zelenina",
+        "d": "",
+        "a": [
+          1,
+          4,
+          7,
+          9
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Pomazánka tuňáková s celerem, chléb, mléko, zelenina",
+            "a": [
+              1,
+              4,
+              7,
+              9
+            ]
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Pomazánka vitamínová, rohlík, čaj, ovoce",
+        "d": "",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Pomazánka vitamínová, rohlík, čaj, ovoce",
+            "a": [
+              1,
+              7
+            ]
+          }
+        ]
+      }
+    ]
   }
 }
