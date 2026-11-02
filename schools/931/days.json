@@ -6298,6 +6298,7 @@
             "d": "",
             "a": [
               1,
+              3,
               9
             ]
           },
@@ -7094,5 +7095,224 @@
         ]
       }
     }
+  },
+  "2026-11-09": {
+    "vydej": "11:30–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Dýňová se smaženým hráškem",
+        "d": "",
+        "a": [
+          7
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Kuřecí nudličky na indický způsob",
+        "d": "Duš. rýže · Ovocný bar · Ovocný čaj, voda",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Kuřecí nudličky na indický způsob",
+            "a": []
+          },
+          {
+            "l": "Příloha",
+            "n": "Duš. rýže",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovocný bar",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný čaj, voda",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-11-10": {
+    "vydej": "11:30–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Bramborová se sojovými boby",
+        "d": "",
+        "a": [
+          1,
+          6,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Těstovinový salát s tuńákem",
+        "d": "Bageta · Zeleninový bar · Džus bez sladidel, voda ochucená",
+        "a": [
+          1,
+          4
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Těstovinový salát s tuńákem",
+            "a": [
+              1,
+              4
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Bageta",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zeleninový bar",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Džus bez sladidel, voda ochucená",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-11-11": {
+    "vydej": "11:30–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Česneková s bramborem",
+        "d": "",
+        "a": [
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Moravský vrabec, dušené zelí",
+        "d": "Bramborový knedlík · Džus, voda s citrónem",
+        "a": [
+          1,
+          3
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Moravský vrabec, dušené zelí",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Bramborový knedlík",
+            "a": [
+              1,
+              3
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Džus, voda s citrónem",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-11-12": {
+    "vydej": "11:30–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Pórková s kuskusem",
+        "d": "",
+        "a": []
+      },
+      {
+        "c": "obed",
+        "n": "Krůtí maso na lucemburský způsov",
+        "d": "Vař. brambory · Zeleninový bar · Džus bez sladidel, voda ochucená",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Krůtí maso na lucemburský způsov",
+            "a": []
+          },
+          {
+            "l": "Příloha",
+            "n": "Vař. brambory",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zeleninový bar",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Džus bez sladidel, voda ochucená",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-11-13": {
+    "vydej": "11:30–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Z míchaných luštěnin",
+        "d": "",
+        "a": []
+      },
+      {
+        "c": "obed",
+        "n": "Kynuté knedlíky s borůvkami sypané strouhankou",
+        "d": "Ovocný bar · Mléko, voda",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Kynuté knedlíky s borůvkami sypané strouhankou",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovocný bar",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko, voda",
+            "a": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
   }
 }

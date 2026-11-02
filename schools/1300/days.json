@@ -5682,5 +5682,100 @@
         ]
       }
     ]
+  },
+  "2026-12-04": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Hovězí vývar s hráškem a rýží",
+        "d": "",
+        "a": [
+          9,
+          12
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Hrachová kaše, čerstvá zelenina",
+        "d": "Chléb · Perník mikulášský a mandarinka · Mléko",
+        "a": [
+          1,
+          3,
+          7,
+          12
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Hrachová kaše, čerstvá zelenina",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Chléb",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Perník mikulášský a mandarinka",
+            "a": [
+              1,
+              3,
+              7,
+              12
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "presnidavka",
+        "n": "Pomazánka česneková, chléb kukuřičný, mléko, zelenina",
+        "d": "",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Pomazánka česneková, chléb kukuřičný, mléko, zelenina",
+            "a": [
+              1,
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Rohlík s lučinou, čaj, ovoce",
+        "d": "",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Rohlík s lučinou, čaj, ovoce",
+            "a": [
+              1,
+              7
+            ]
+          }
+        ]
+      }
+    ]
   }
 }

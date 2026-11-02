@@ -4218,7 +4218,7 @@
       {
         "c": "presnidavka",
         "n": "Rohlík sojový s paštikou",
-        "d": "Čerstvé ovoce nebo zelenina · Mléko",
+        "d": "Mrkev · Mléko",
         "a": [
           1,
           6,
@@ -4236,7 +4236,7 @@
           },
           {
             "l": "Doplněk",
-            "n": "Čerstvé ovoce nebo zelenina",
+            "n": "Mrkev",
             "a": []
           },
           {
@@ -4260,7 +4260,7 @@
       {
         "c": "obed",
         "n": "Čočka na kyselo, vejce",
-        "d": "Chléb · Čaj dobré ráno, voda",
+        "d": "Chléb · Banán · Čaj dobré ráno, voda",
         "a": [
           1,
           3
@@ -4280,6 +4280,11 @@
             "a": [
               1
             ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Banán",
+            "a": []
           },
           {
             "l": "Nápoj",
@@ -4314,7 +4319,7 @@
       {
         "c": "presnidavka",
         "n": "Rohlík, česneková pomazánka s mrkví",
-        "d": "Čerstvé ovoce nebo zelenina · Bílá káva",
+        "d": "Jablko · Bílá káva",
         "a": [
           1,
           7
@@ -4330,7 +4335,7 @@
           },
           {
             "l": "Doplněk",
-            "n": "Čerstvé ovoce nebo zelenina",
+            "n": "Jablko",
             "a": []
           },
           {
@@ -4353,27 +4358,18 @@
       },
       {
         "c": "obed",
-        "n": "Hovězí štěpánská",
-        "d": "Rýže · Okurek · Čaj bezinkový, voda s citronem",
-        "a": [
-          1
-        ],
+        "n": "Hovězí znojemská",
+        "d": "Rýže · Čaj bezinkový, voda s citronem",
+        "a": [],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Hovězí štěpánská",
-            "a": [
-              1
-            ]
+            "n": "Hovězí znojemská",
+            "a": []
           },
           {
             "l": "Příloha",
             "n": "Rýže",
-            "a": []
-          },
-          {
-            "l": "Doplněk",
-            "n": "Okurek",
             "a": []
           },
           {
@@ -4422,7 +4418,7 @@
       {
         "c": "presnidavka",
         "n": "Tvarohový závin",
-        "d": "Čerstvé ovoce nebo zelenina · Granko",
+        "d": "Hrozen · Granko",
         "a": [
           1,
           3,
@@ -4440,7 +4436,7 @@
           },
           {
             "l": "Doplněk",
-            "n": "Čerstvé ovoce nebo zelenina",
+            "n": "Hrozen",
             "a": []
           },
           {
@@ -4504,7 +4500,7 @@
       {
         "c": "svacina",
         "n": "Sýrový croisant",
-        "d": "Ovoce · Čaj divoká třešeň",
+        "d": "Mandarinka · Čaj divoká třešeň",
         "a": [
           1,
           3,
@@ -4522,7 +4518,7 @@
           },
           {
             "l": "Doplněk",
-            "n": "Ovoce",
+            "n": "Mandarinka",
             "a": []
           },
           {
@@ -4540,7 +4536,7 @@
       {
         "c": "presnidavka",
         "n": "Chléb kváskový, pomazánka z červené čočky",
-        "d": "Čerstvé ovoce nebo zelenina · Mléko",
+        "d": "Paprika · Mléko",
         "a": [
           1,
           7
@@ -4556,7 +4552,7 @@
           },
           {
             "l": "Doplněk",
-            "n": "Čerstvé ovoce nebo zelenina",
+            "n": "Paprika",
             "a": []
           },
           {
@@ -4650,8 +4646,8 @@
     "chody": [
       {
         "c": "presnidavka",
-        "n": "Bageta s pom. z drůbežích jater",
-        "d": "Čerstvé ovoce nebo zelenina · Mléko",
+        "n": "Bageta s pomazánkou špenátovou",
+        "d": "Jablko · Mléko",
         "a": [
           1,
           7
@@ -4659,7 +4655,7 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Bageta s pom. z drůbežích jater",
+            "n": "Bageta s pomazánkou špenátovou",
             "a": [
               1,
               7
@@ -4667,7 +4663,7 @@
           },
           {
             "l": "Doplněk",
-            "n": "Čerstvé ovoce nebo zelenina",
+            "n": "Jablko",
             "a": []
           },
           {
