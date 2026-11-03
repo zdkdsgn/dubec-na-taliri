@@ -3943,14 +3943,22 @@
       },
       {
         "c": "obed",
-        "n": "Zeleninové kari s kokosovým mlékem, rýžové nudle",
+        "n": "Káhirské špagety sypané sýrem",
         "d": "Džus, voda",
-        "a": [],
+        "a": [
+          1,
+          3,
+          7
+        ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Zeleninové kari s kokosovým mlékem, rýžové nudle",
-            "a": []
+            "n": "Káhirské špagety sypané sýrem",
+            "a": [
+              1,
+              3,
+              7
+            ]
           },
           {
             "l": "Nápoj",
@@ -4041,16 +4049,18 @@
       },
       {
         "c": "svacina",
-        "n": "Rýžová kaše s kakem, ovoce, čaj",
+        "n": "Kefírové mléko, bagetka, ovoce, čaj",
         "d": "",
         "a": [
+          1,
           7
         ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Rýžová kaše s kakem, ovoce, čaj",
+            "n": "Kefírové mléko, bagetka, ovoce, čaj",
             "a": [
+              1,
               7
             ]
           }
@@ -4142,22 +4152,18 @@
     "chody": [
       {
         "c": "presnidavka",
-        "n": "Lososová pomazánka, slunečnicový chléb, zelenina, čaj",
+        "n": "Tvarohová pomazánka s goudou, chléb, zelenina, mléko",
         "d": "",
         "a": [
           1,
-          4,
-          6,
           7
         ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Lososová pomazánka, slunečnicový chléb, zelenina, čaj",
+            "n": "Tvarohová pomazánka s goudou, chléb, zelenina, mléko",
             "a": [
               1,
-              4,
-              6,
               7
             ]
           }
@@ -4226,18 +4232,22 @@
     "chody": [
       {
         "c": "presnidavka",
-        "n": "Tvarohová pomazánka s goudou, chléb, zelenina, čaj",
+        "n": "Lososová pomazánka, slunečnicový chléb, zelenina, čaj",
         "d": "",
         "a": [
           1,
+          4,
+          6,
           7
         ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Tvarohová pomazánka s goudou, chléb, zelenina, čaj",
+            "n": "Lososová pomazánka, slunečnicový chléb, zelenina, čaj",
             "a": [
               1,
+              4,
+              6,
               7
             ]
           }
@@ -4303,6 +4313,93 @@
       }
     ]
   },
+  "2026-11-16": {
+    "vydej": "10:45–11:15",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Cottage pomazánka s rybičkami, chléb, zelenina, čaj",
+        "d": "",
+        "a": [
+          1,
+          3,
+          4,
+          6,
+          7,
+          10
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Cottage pomazánka s rybičkami, chléb, zelenina, čaj",
+            "a": [
+              1,
+              3,
+              4,
+              6,
+              7,
+              10
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Kuřecí vývar s bulgurem",
+        "d": "",
+        "a": [
+          1,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Pečené kuřecí stehno, mrkvičková rýže",
+        "d": "Ovoce na výběr · Džus, voda",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Pečené kuřecí stehno, mrkvičková rýže",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce na výběr",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Džus, voda",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Cereální raženka s máslem, toustový sýr, jablko, čaj",
+        "d": "",
+        "a": [
+          1,
+          6,
+          7,
+          11
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Cereální raženka s máslem, toustový sýr, jablko, čaj",
+            "a": [
+              1,
+              6,
+              7,
+              11
+            ]
+          }
+        ]
+      }
+    ]
+  },
   "2026-11-17": {
     "vydej": "10:45–11:15",
     "chody": [
@@ -4326,23 +4423,23 @@
     "chody": [
       {
         "c": "presnidavka",
-        "n": "Cereální raženka s máslem, toustový sýr, zelenina, čaj",
+        "n": "Mozzarellová pomazánka s bazalkou, cereální toust, zelenina, čaj",
         "d": "",
         "a": [
           1,
           6,
           7,
-          11
+          10
         ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Cereální raženka s máslem, toustový sýr, zelenina, čaj",
+            "n": "Mozzarellová pomazánka s bazalkou, cereální toust, zelenina, čaj",
             "a": [
               1,
               6,
               7,
-              11
+              10
             ]
           }
         ]
@@ -4409,7 +4506,7 @@
     "chody": [
       {
         "c": "presnidavka",
-        "n": "Pomazánka z míchaných vajíček, chléb, zelenina, mléko",
+        "n": "Pomazánka z míchaných vajíček, chléb, zelenina, malcao",
         "d": "",
         "a": [
           1,
@@ -4420,7 +4517,7 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Pomazánka z míchaných vajíček, chléb, zelenina, mléko",
+            "n": "Pomazánka z míchaných vajíček, chléb, zelenina, malcao",
             "a": [
               1,
               3,
@@ -4466,17 +4563,23 @@
       },
       {
         "c": "svacina",
-        "n": "Vanilkový termix, ovoce, čaj",
+        "n": "Avokádová pomazánka, žitný rohlík, zelenina, čaj",
         "d": "",
         "a": [
-          7
+          1,
+          3,
+          7,
+          10
         ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Vanilkový termix, ovoce, čaj",
+            "n": "Avokádová pomazánka, žitný rohlík, zelenina, čaj",
             "a": [
-              7
+              1,
+              3,
+              7,
+              10
             ]
           }
         ]
@@ -4488,23 +4591,19 @@
     "chody": [
       {
         "c": "presnidavka",
-        "n": "Avokádová pomazánka, žitný rohlík, zelenina, bikáva",
+        "n": "Dýňový chléb s máslem, krůtí šunka, zelenina, mléko",
         "d": "",
         "a": [
           1,
-          3,
-          7,
-          10
+          7
         ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Avokádová pomazánka, žitný rohlík, zelenina, bikáva",
+            "n": "Dýňový chléb s máslem, krůtí šunka, zelenina, mléko",
             "a": [
               1,
-              3,
-              7,
-              10
+              7
             ]
           }
         ]
@@ -4551,18 +4650,16 @@
       },
       {
         "c": "svacina",
-        "n": "Dýňový chléb s máslem, krůtí šunka, zelenina, čaj",
+        "n": "Vanilkový termix, ovoce, čaj",
         "d": "",
         "a": [
-          1,
           7
         ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Dýňový chléb s máslem, krůtí šunka, zelenina, čaj",
+            "n": "Vanilkový termix, ovoce, čaj",
             "a": [
-              1,
               7
             ]
           }

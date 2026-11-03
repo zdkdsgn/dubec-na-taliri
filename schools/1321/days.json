@@ -4019,40 +4019,6 @@
     "vydej": "11:00–13:00",
     "chody": [
       {
-        "c": "presnidavka",
-        "n": "Himalájský chléb",
-        "d": "Pomazánka rybí, kapie · Čaj malinový",
-        "a": [
-          1,
-          3,
-          4,
-          7
-        ],
-        "p": [
-          {
-            "l": "Jídlo",
-            "n": "Himalájský chléb",
-            "a": [
-              1
-            ]
-          },
-          {
-            "l": "Doplněk",
-            "n": "Pomazánka rybí, kapie",
-            "a": [
-              3,
-              4,
-              7
-            ]
-          },
-          {
-            "l": "Nápoj",
-            "n": "Čaj malinový",
-            "a": []
-          }
-        ]
-      },
-      {
         "c": "polevka",
         "n": "Květáková",
         "d": "",
@@ -4095,6 +4061,40 @@
           {
             "l": "Nápoj",
             "n": "Voda",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "presnidavka",
+        "n": "Himalájský chléb",
+        "d": "Pomazánka rybí, kapie · Čaj malinový",
+        "a": [
+          1,
+          3,
+          4,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Himalájský chléb",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Pomazánka rybí, kapie",
+            "a": [
+              3,
+              4,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj malinový",
             "a": []
           }
         ]
@@ -4153,38 +4153,6 @@
     "vydej": "11:00–13:00",
     "chody": [
       {
-        "c": "presnidavka",
-        "n": "Bramborový chléb",
-        "d": "Máslo, plátkový sýr, zelenina · Mléko",
-        "a": [
-          1,
-          7
-        ],
-        "p": [
-          {
-            "l": "Jídlo",
-            "n": "Bramborový chléb",
-            "a": [
-              1
-            ]
-          },
-          {
-            "l": "Doplněk",
-            "n": "Máslo, plátkový sýr, zelenina",
-            "a": [
-              7
-            ]
-          },
-          {
-            "l": "Nápoj",
-            "n": "Mléko",
-            "a": [
-              7
-            ]
-          }
-        ]
-      },
-      {
         "c": "polevka",
         "n": "Rychlá s vejci",
         "d": "",
@@ -4206,6 +4174,38 @@
             "n": "Nudle s perníkem",
             "a": [
               1,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "presnidavka",
+        "n": "Bramborový chléb",
+        "d": "Máslo, plátkový sýr, zelenina · Mléko",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Bramborový chléb",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Máslo, plátkový sýr, zelenina",
+            "a": [
               7
             ]
           },
@@ -4258,36 +4258,6 @@
     "vydej": "11:00–13:00",
     "chody": [
       {
-        "c": "presnidavka",
-        "n": "Chléb žitamoc",
-        "d": "Bylinkové máslo, kapie · Borůvkový čaj",
-        "a": [
-          1,
-          7
-        ],
-        "p": [
-          {
-            "l": "Jídlo",
-            "n": "Chléb žitamoc",
-            "a": [
-              1
-            ]
-          },
-          {
-            "l": "Doplněk",
-            "n": "Bylinkové máslo, kapie",
-            "a": [
-              7
-            ]
-          },
-          {
-            "l": "Nápoj",
-            "n": "Borůvkový čaj",
-            "a": []
-          }
-        ]
-      },
-      {
         "c": "polevka",
         "n": "Bramborová",
         "d": "",
@@ -4333,6 +4303,36 @@
         ]
       },
       {
+        "c": "presnidavka",
+        "n": "Chléb žitamoc",
+        "d": "Bylinkové máslo, kapie · Borůvkový čaj",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Chléb žitamoc",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Bylinkové máslo, kapie",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Borůvkový čaj",
+            "a": []
+          }
+        ]
+      },
+      {
         "c": "svacina",
         "n": "Banán",
         "d": "Broskvový čaj",
@@ -4355,28 +4355,6 @@
   "2026-11-02": {
     "vydej": "11:00–13:00",
     "chody": [
-      {
-        "c": "presnidavka",
-        "n": "Corn flakes s mlékem",
-        "d": "Borůvkový čaj",
-        "a": [
-          7
-        ],
-        "p": [
-          {
-            "l": "Jídlo",
-            "n": "Corn flakes s mlékem",
-            "a": [
-              7
-            ]
-          },
-          {
-            "l": "Nápoj",
-            "n": "Borůvkový čaj",
-            "a": []
-          }
-        ]
-      },
       {
         "c": "polevka",
         "n": "Polévka z bažantích prsou",
@@ -4424,6 +4402,28 @@
           {
             "l": "Nápoj",
             "n": "Sirup",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "presnidavka",
+        "n": "Corn flakes s mlékem",
+        "d": "Borůvkový čaj",
+        "a": [
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Corn flakes s mlékem",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Borůvkový čaj",
             "a": []
           }
         ]

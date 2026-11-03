@@ -4529,11 +4529,12 @@
       {
         "c": "obed",
         "n": "Rybí rolka se zeleninou na másle s bylinkami",
-        "d": "Brambory · Kyselá okurka, jablko · Čaj, voda s citrónem, mléko MŠ",
+        "d": "Brambory míchané se zeleninou · Mandarinka · Čaj, voda s citrónem, mléko MŠ",
         "a": [
           1,
           4,
-          7
+          7,
+          9
         ],
         "p": [
           {
@@ -4546,12 +4547,14 @@
           },
           {
             "l": "Příloha",
-            "n": "Brambory",
-            "a": []
+            "n": "Brambory míchané se zeleninou",
+            "a": [
+              9
+            ]
           },
           {
             "l": "Doplněk",
-            "n": "Kyselá okurka, jablko",
+            "n": "Mandarinka",
             "a": []
           },
           {
@@ -4635,7 +4638,7 @@
       {
         "c": "obed",
         "n": "Pikantní drůbeží nudličky",
-        "d": "Kuskus · Zeleninová obloha · Čaj, voda s citrónem, mléko MŠ",
+        "d": "Kuskus · Zeleninová obloha · Čaj, mléko MŠ",
         "a": [
           1,
           7,
@@ -4664,7 +4667,7 @@
           },
           {
             "l": "Nápoj",
-            "n": "Čaj, voda s citrónem, mléko MŠ",
+            "n": "Čaj, mléko MŠ",
             "a": [
               7
             ]

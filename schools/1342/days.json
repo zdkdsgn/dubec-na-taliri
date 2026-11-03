@@ -4909,9 +4909,10 @@
       {
         "c": "obed",
         "n": "Cizrna na kari smetaně",
-        "d": "Barevná rýže · Voda s citrónem",
+        "d": "Těstoviny – BIO · Voda s citrónem",
         "a": [
           1,
+          3,
           7,
           10
         ],
@@ -4927,9 +4928,10 @@
           },
           {
             "l": "Příloha",
-            "n": "Barevná rýže",
+            "n": "Těstoviny – BIO",
             "a": [
-              1
+              1,
+              3
             ]
           },
           {
@@ -5036,10 +5038,9 @@
       {
         "c": "obed",
         "n": "Vepřové kostky na žampionech",
-        "d": "Těstoviny – BIO · Šťáva",
+        "d": "Kuskus · Šťáva",
         "a": [
           1,
-          3,
           10
         ],
         "p": [
@@ -5053,11 +5054,8 @@
           },
           {
             "l": "Příloha",
-            "n": "Těstoviny – BIO",
-            "a": [
-              1,
-              3
-            ]
+            "n": "Kuskus",
+            "a": []
           },
           {
             "l": "Nápoj",
@@ -5152,21 +5150,24 @@
       },
       {
         "c": "obed",
-        "n": "Zeleninové rizoto s pohankou, pečenou cizrnou a sýrem",
+        "n": "Zapečené těstoviny s uzeným masem",
         "d": "Zelný salát · Čaj",
         "a": [
           1,
+          3,
           7,
-          9
+          9,
+          10
         ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Zeleninové rizoto s pohankou, pečenou cizrnou a sýrem",
+            "n": "Zapečené těstoviny s uzeným masem",
             "a": [
               1,
+              3,
               7,
-              9
+              10
             ]
           },
           {
@@ -7438,6 +7439,100 @@
             "l": "Nápoj",
             "n": "Jablečný mošt",
             "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-12-07": {
+    "vydej": "11:40–13:30",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Ovesná kaše s jablky",
+        "d": "Čaj",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Ovesná kaše s jablky",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Zeleninová s fazolemi",
+        "d": "",
+        "a": [
+          1,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Králík pečený na slanině",
+        "d": "Brambory · Čaj",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Králík pečený na slanině",
+            "a": []
+          },
+          {
+            "l": "Příloha",
+            "n": "Brambory",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Chléb, budapešťská pomazánka",
+        "d": "Okurek · Čaj/ mléko",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Chléb, budapešťská pomazánka",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Okurek",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj/ mléko",
+            "a": [
+              7
+            ]
           }
         ]
       }

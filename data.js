@@ -9,8 +9,8 @@
 window.MENU_DATA = {
   meta: {
     school: "MŠ & ZŠ Dubeč",
-    updated: "2026-11-02T14:16:02+02:00",
-    week: "2026-09-01 – 2026-11-06",
+    updated: "2026-11-03T13:51:20+02:00",
+    week: "2026-09-01 – 2026-11-13",
     sources: {
       zs: "https://www.jidelna.cz/jidelni-listek/?jidelna=47",
       ms: "https://www.msdubec.cz/stranka-jidelnicek-45"
@@ -603,6 +603,56 @@ window.MENU_DATA = {
           {"c": "polevka", "n": "Kuřecí s masem a nudlemi", "d": "", "a": [1, 7, 9]},
           {"c": "obed", "n": "Lasagne s mletým masem", "d": "Čaj, kakao, ochucená voda", "a": [1, 3, 7], "p": [{"l": "Jídlo", "n": "Lasagne s mletým masem", "a": [1, 3, 7]}, {"l": "Nápoj", "n": "Čaj, kakao, ochucená voda", "a": [7]}]},
           {"c": "obed2", "n": "Bulgurový salát se sýrem feta", "d": "Čaj, kakao, ochucená voda", "a": [1, 7], "p": [{"l": "Jídlo", "n": "Bulgurový salát se sýrem feta", "a": [1, 7]}, {"l": "Nápoj", "n": "Čaj, kakao, ochucená voda", "a": [7]}]}
+        ],
+      vydej: {
+        zs: "11:30–13:45"
+      }
+    },
+    "2026-11-09": {
+      zs: [
+          {"c": "polevka", "n": "Zeleninový vývar s krupicí", "d": "", "a": [1, 7, 9]},
+          {"c": "obed", "n": "Kuřecí prsa tikka masala", "d": "Rýže · Ovoce · Čaj, mléčný koktejl, voda", "a": [1, 7, 8], "p": [{"l": "Jídlo", "n": "Kuřecí prsa tikka masala", "a": [1, 7]}, {"l": "Příloha", "n": "Rýže", "a": []}, {"l": "Doplněk", "n": "Ovoce", "a": []}, {"l": "Nápoj", "n": "Čaj, mléčný koktejl, voda", "a": [7, 8]}]},
+          {"c": "obed2", "n": "Brokolicové placičky s červenou čočkou", "d": "Brambory máslem maštěné, dip · Ovoce · Čaj, mléčný koktejl, voda", "a": [1, 3, 7], "p": [{"l": "Jídlo", "n": "Brokolicové placičky s červenou čočkou", "a": [1, 3]}, {"l": "Příloha", "n": "Brambory máslem maštěné, dip", "a": [7]}, {"l": "Doplněk", "n": "Ovoce", "a": []}, {"l": "Nápoj", "n": "Čaj, mléčný koktejl, voda", "a": [7]}]}
+        ],
+      vydej: {
+        zs: "11:30–13:45"
+      }
+    },
+    "2026-11-10": {
+      zs: [
+          {"c": "polevka", "n": "Zelňačka", "d": "", "a": [1, 7]},
+          {"c": "obed", "n": "Těstoviny se sýrovou omáčkou", "d": "Ovoce · Čaj, kakao, ochucená voda", "a": [1, 7], "p": [{"l": "Jídlo", "n": "Těstoviny se sýrovou omáčkou", "a": [1, 7]}, {"l": "Doplněk", "n": "Ovoce", "a": []}, {"l": "Nápoj", "n": "Čaj, kakao, ochucená voda", "a": [7]}]},
+          {"c": "obed2", "n": "Zeleninový salát s krůtím masem – dresink", "d": "Ovoce · Čaj, kakao, ochucená voda", "a": [1, 3, 7], "p": [{"l": "Jídlo", "n": "Zeleninový salát s krůtím masem – dresink", "a": [1, 3, 7]}, {"l": "Doplněk", "n": "Ovoce", "a": []}, {"l": "Nápoj", "n": "Čaj, kakao, ochucená voda", "a": [7]}]}
+        ],
+      vydej: {
+        zs: "11:30–13:45"
+      }
+    },
+    "2026-11-11": {
+      zs: [
+          {"c": "polevka", "n": "Zeleninová s luštěninovými trhánky", "d": "", "a": [7, 9]},
+          {"c": "obed", "n": "Pečená kachní prsa", "d": "Brambor. knedlík, červené zelí · Ovocný čaj, mléko", "a": [1, 7], "p": [{"l": "Jídlo", "n": "Pečená kachní prsa", "a": []}, {"l": "Příloha", "n": "Brambor. knedlík, červené zelí", "a": [1]}, {"l": "Nápoj", "n": "Ovocný čaj, mléko", "a": [7]}]},
+          {"c": "obed2", "n": "Zapečené brambory s nivou a porkem", "d": "Ovocný čaj, mléko", "a": [3, 7], "p": [{"l": "Jídlo", "n": "Zapečené brambory s nivou a porkem", "a": [3, 7]}, {"l": "Nápoj", "n": "Ovocný čaj, mléko", "a": [7]}]}
+        ],
+      vydej: {
+        zs: "11:30–13:45"
+      }
+    },
+    "2026-11-12": {
+      zs: [
+          {"c": "polevka", "n": "Drůbeží vývar s noky", "d": "", "a": [1, 3, 7, 9]},
+          {"c": "obed", "n": "Fazolový guláš", "d": "Kváskový chléb · Ovoce · Ovocný čaj, bílá káva", "a": [1, 7], "p": [{"l": "Jídlo", "n": "Fazolový guláš", "a": []}, {"l": "Příloha", "n": "Kváskový chléb", "a": [1]}, {"l": "Doplněk", "n": "Ovoce", "a": []}, {"l": "Nápoj", "n": "Ovocný čaj, bílá káva", "a": [1, 7]}]},
+          {"c": "obed2", "n": "Obalovaná treska", "d": "Bramborová kaše máslem maštěné · Ovoce · Ovocný čaj, bílá káva", "a": [1, 3, 4, 7], "p": [{"l": "Jídlo", "n": "Obalovaná treska", "a": [1, 3, 4, 7]}, {"l": "Příloha", "n": "Bramborová kaše máslem maštěné", "a": [7]}, {"l": "Doplněk", "n": "Ovoce", "a": []}, {"l": "Nápoj", "n": "Ovocný čaj, bílá káva", "a": [1, 7]}]}
+        ],
+      vydej: {
+        zs: "11:30–13:45"
+      }
+    },
+    "2026-11-13": {
+      zs: [
+          {"c": "polevka", "n": "Květáková s vejci", "d": "", "a": [1, 3, 7]},
+          {"c": "obed", "n": "Vepřový řízek smažený", "d": "Bramborový salát – brambory · Čaj, mléko", "a": [1, 3, 7, 10], "p": [{"l": "Jídlo", "n": "Vepřový řízek smažený", "a": [1, 3, 7]}, {"l": "Příloha", "n": "Bramborový salát – brambory", "a": [3, 7, 10]}, {"l": "Nápoj", "n": "Čaj, mléko", "a": [7]}]},
+          {"c": "obed2", "n": "Cuketovo -houbové rizoto", "d": "Čaj, mléko", "a": [7], "p": [{"l": "Jídlo", "n": "Cuketovo -houbové rizoto", "a": [7]}, {"l": "Nápoj", "n": "Čaj, mléko", "a": [7]}]}
         ],
       vydej: {
         zs: "11:30–13:45"
