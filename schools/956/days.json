@@ -2980,7 +2980,7 @@
       },
       {
         "c": "polevka",
-        "n": "Zeleninový s ovenými vločkami",
+        "n": "Jemná zeleninová s ovesnými vločkami",
         "d": "",
         "a": [
           9
@@ -3044,7 +3044,7 @@
       },
       {
         "c": "obed",
-        "n": "Pečené kachní prso, zelí, kynutý knedlík se špaldou",
+        "n": "Pečené kachní prso, zelí, bramborový knedlík s cibulkou",
         "d": "Voda, čaj, ochucená voda",
         "a": [
           1,
@@ -3055,7 +3055,7 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Pečené kachní prso, zelí, kynutý knedlík se špaldou",
+            "n": "Pečené kachní prso, zelí, bramborový knedlík s cibulkou",
             "a": [
               1,
               3,
@@ -3186,6 +3186,283 @@
           {
             "l": "Nápoj",
             "n": "Voda s ovocem, voda, čaj",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-11-16": {
+    "vydej": "11:30–13:30",
+    "chody": [
+      {
+        "c": "svacina",
+        "n": "ŘEDITELSKÉ VOLNO",
+        "d": "",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "ŘEDITELSKÉ VOLNO",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "CIZÍ STRÁVNÍCI: Hráškový krém",
+        "d": "",
+        "a": [
+          1,
+          7,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Řízek z vepřové panenky, vařený brambor",
+        "d": "Sterilovaný okurek · Bylinková voda, voda, čaj",
+        "a": [
+          1,
+          3,
+          7,
+          10
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Řízek z vepřové panenky, vařený brambor",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Sterilovaný okurek",
+            "a": [
+              10
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Bylinková voda, voda, čaj",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-11-17": {
+    "vydej": "11:30–13:30",
+    "chody": [
+      {
+        "c": "obed",
+        "n": "STÁTNÍ SVÁTEK",
+        "d": "",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "STÁTNÍ SVÁTEK",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-11-18": {
+    "vydej": "11:30–13:30",
+    "chody": [
+      {
+        "c": "svacina",
+        "n": "Chia bageta, tuňáková pomazánka, zeleninová obloha, ovoce, čaj, mléko",
+        "d": "",
+        "a": [
+          1,
+          4,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Chia bageta, tuňáková pomazánka, zeleninová obloha, ovoce, čaj, mléko",
+            "a": [
+              1,
+              4,
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Drůbeží vývar se zeleninou a těstovinou",
+        "d": "",
+        "a": [
+          1,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Hovězí nudličky na žampionech, dušená rýže",
+        "d": "Zeleninový salát · Voda, ovocná voda, čaj",
+        "a": [
+          1
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Hovězí nudličky na žampionech, dušená rýže",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zeleninový salát",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Voda, ovocná voda, čaj",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-11-19": {
+    "vydej": "11:30–13:30",
+    "chody": [
+      {
+        "c": "svacina",
+        "n": "Polentová kaše se skořicí, čerstvé ovoce, čaj",
+        "d": "",
+        "a": [
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Polentová kaše se skořicí, čerstvé ovoce, čaj",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Zeleninová s kapáním z celozrnné mouky",
+        "d": "",
+        "a": [
+          1,
+          7,
+          8
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Boloňské lasagne s mletým masem",
+        "d": "Celerovo-mrkvový salát s jablkem · Ovocný čaj, voda, voda s citronem",
+        "a": [
+          1,
+          7,
+          9,
+          10
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Boloňské lasagne s mletým masem",
+            "a": [
+              1,
+              7,
+              10
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Celerovo-mrkvový salát s jablkem",
+            "a": [
+              7,
+              9
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný čaj, voda, voda s citronem",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-11-20": {
+    "vydej": "11:30–13:30",
+    "chody": [
+      {
+        "c": "svacina",
+        "n": "Cereální veka, ajvarová pomazánka (pečená paprika), zeleninová obloha, ovoce, mléko",
+        "d": "",
+        "a": [
+          1,
+          7,
+          10
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Cereální veka, ajvarová pomazánka (pečená paprika), zeleninová obloha, ovoce, mléko",
+            "a": [
+              1,
+              7,
+              10
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Česneková s bramborem, zeleninou a opečeným chlebem",
+        "d": "",
+        "a": [
+          3,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Fazole na smetaně, vejce, chléb",
+        "d": "Ovoce · Bylinková voda, voda, čaj",
+        "a": [
+          1,
+          3,
+          7,
+          10
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Fazole na smetaně, vejce, chléb",
+            "a": [
+              1,
+              3,
+              7,
+              10
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Bylinková voda, voda, čaj",
             "a": []
           }
         ]

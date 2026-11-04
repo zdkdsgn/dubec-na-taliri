@@ -14325,5 +14325,250 @@
         ]
       }
     }
+  },
+  "2026-12-08": {
+    "skupiny": {
+      "ms": {
+        "vydej": "11:00–14:00",
+        "chody": [
+          {
+            "c": "presnidavka",
+            "n": "Vánočka, džem",
+            "d": "Ovoce · Kakao",
+            "a": [
+              1,
+              3,
+              7
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Vánočka, džem",
+                "a": [
+                  1,
+                  3,
+                  7
+                ]
+              },
+              {
+                "l": "Doplněk",
+                "n": "Ovoce",
+                "a": []
+              },
+              {
+                "l": "Nápoj",
+                "n": "Kakao",
+                "a": [
+                  7
+                ]
+              }
+            ]
+          },
+          {
+            "c": "polevka",
+            "n": "Cibulová polévka s mletým masem",
+            "d": "",
+            "a": [
+              1,
+              3,
+              7,
+              9
+            ]
+          },
+          {
+            "c": "obed",
+            "n": "Vepřová pečeně, dušený špenát",
+            "d": "Bramborový knedlík · Čaj, vitamínový nápoj · Čaj, vitamínový nápoj",
+            "a": [
+              1,
+              3,
+              7,
+              9
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Vepřová pečeně, dušený špenát",
+                "a": [
+                  1,
+                  3,
+                  7,
+                  9
+                ]
+              },
+              {
+                "l": "Příloha",
+                "n": "Bramborový knedlík",
+                "a": [
+                  1,
+                  3
+                ]
+              },
+              {
+                "l": "Doplněk",
+                "n": "Čaj, vitamínový nápoj",
+                "a": []
+              },
+              {
+                "l": "Nápoj",
+                "n": "Čaj, vitamínový nápoj",
+                "a": []
+              }
+            ]
+          },
+          {
+            "c": "svacina",
+            "n": "Kmínový chléb, máslo, vepřová šunka",
+            "d": "Ledový salát · Čaj, vitamínový nápoj",
+            "a": [
+              1,
+              7
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Kmínový chléb, máslo, vepřová šunka",
+                "a": [
+                  1,
+                  7
+                ]
+              },
+              {
+                "l": "Doplněk",
+                "n": "Ledový salát",
+                "a": []
+              },
+              {
+                "l": "Nápoj",
+                "n": "Čaj, vitamínový nápoj",
+                "a": []
+              }
+            ]
+          }
+        ]
+      },
+      "zs": {
+        "vydej": "11:00–14:00",
+        "chody": [
+          {
+            "c": "presnidavka",
+            "n": "Vánočka, džem",
+            "d": "Ovoce · Kakao",
+            "a": [
+              1,
+              3,
+              7
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Vánočka, džem",
+                "a": [
+                  1,
+                  3,
+                  7
+                ]
+              },
+              {
+                "l": "Doplněk",
+                "n": "Ovoce",
+                "a": []
+              },
+              {
+                "l": "Nápoj",
+                "n": "Kakao",
+                "a": [
+                  7
+                ]
+              }
+            ]
+          },
+          {
+            "c": "polevka",
+            "n": "Cibulová polévka s mletým masem",
+            "d": "",
+            "a": [
+              1,
+              3,
+              7,
+              9
+            ]
+          },
+          {
+            "c": "obed",
+            "n": "Vepřová pečeně, dušený špenát",
+            "d": "Bramborový knedlík · Ovoce · Čaj, vitamínový nápoj",
+            "a": [
+              1,
+              3,
+              7,
+              9
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Vepřová pečeně, dušený špenát",
+                "a": [
+                  1,
+                  3,
+                  7,
+                  9
+                ]
+              },
+              {
+                "l": "Příloha",
+                "n": "Bramborový knedlík",
+                "a": [
+                  1,
+                  3
+                ]
+              },
+              {
+                "l": "Doplněk",
+                "n": "Ovoce",
+                "a": []
+              },
+              {
+                "l": "Nápoj",
+                "n": "Čaj, vitamínový nápoj",
+                "a": []
+              }
+            ]
+          },
+          {
+            "c": "obed2",
+            "n": "Houbové rizoto sypané směsí strouhaných sýrů",
+            "d": "Zeleninový salát · Čaj, vitamínový nápoj",
+            "a": [
+              7,
+              9,
+              10
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Houbové rizoto sypané směsí strouhaných sýrů",
+                "a": [
+                  7,
+                  9
+                ]
+              },
+              {
+                "l": "Doplněk",
+                "n": "Zeleninový salát",
+                "a": [
+                  10
+                ]
+              },
+              {
+                "l": "Nápoj",
+                "n": "Čaj, vitamínový nápoj",
+                "a": []
+              }
+            ]
+          }
+        ]
+      }
+    }
   }
 }

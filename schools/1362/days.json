@@ -2194,14 +2194,16 @@
         "d": "BAR – DLE SEZONNÍ NABÍDKY · VODA, MLÉKO BIO",
         "a": [
           1,
-          7
+          7,
+          10
         ],
         "p": [
           {
             "l": "Jídlo",
             "n": "HOVĚZÍ PEČENĚ ZNOJEMSKÁ, RÝŽE JASMÍNOVÁ",
             "a": [
-              1
+              1,
+              10
             ]
           },
           {
@@ -2291,10 +2293,11 @@
     "chody": [
       {
         "c": "polevka",
-        "n": "MILIONOVÁ (KRUPICE, ZELENINA)",
+        "n": "MILIONOVÁ (KRUPICE, ZELENINA) ZMĚNA!- POLÉVKA RYBÍ",
         "d": "",
         "a": [
           1,
+          4,
           7,
           9
         ]
@@ -2466,7 +2469,7 @@
       },
       {
         "c": "obed2",
-        "n": "BLUGUR SE ZELENINOU, SÝR",
+        "n": "BULGUR SE ZELENINOU, SÝR",
         "d": "",
         "a": [
           1,
@@ -2475,7 +2478,7 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "BLUGUR SE ZELENINOU, SÝR",
+            "n": "BULGUR SE ZELENINOU, SÝR",
             "a": [
               1,
               7
