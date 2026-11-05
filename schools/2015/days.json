@@ -5467,7 +5467,7 @@
       {
         "c": "presnidavka",
         "n": "Tvarohová pomazánka s červenou řepou, houska",
-        "d": "Ovoce – ZŠ · Mléko",
+        "d": "Ovoce · Mléko",
         "a": [
           1,
           3,
@@ -5485,13 +5485,15 @@
           },
           {
             "l": "Doplněk",
-            "n": "Ovoce – ZŠ",
+            "n": "Ovoce",
             "a": []
           },
           {
             "l": "Nápoj",
             "n": "Mléko",
-            "a": []
+            "a": [
+              7
+            ]
           }
         ]
       },
@@ -5507,8 +5509,10 @@
       {
         "c": "obed",
         "n": "Pečený rybí filet s bylinkovým pestem (bez ořechů)",
-        "d": "Šťouchané brambory · Termix – ZŠ · Ovocný nápoj, voda, mléko",
+        "d": "Šťouchané brambory · Domácí kefírová buchta – ZŠ · Ovocný nápoj, voda, mléko",
         "a": [
+          1,
+          3,
           4,
           7,
           10
@@ -5532,8 +5536,10 @@
           },
           {
             "l": "Doplněk",
-            "n": "Termix – ZŠ",
+            "n": "Domácí kefírová buchta – ZŠ",
             "a": [
+              1,
+              3,
               7
             ]
           },
@@ -5631,7 +5637,7 @@
       {
         "c": "obed",
         "n": "Svatomartinská husa (kachna)",
-        "d": "Špaldový knedlík, červené zelí · Ovocný nápoj, voda, mléko",
+        "d": "Špaldový knedlík, červené zelí · Termix – ZŠ · Ovocný nápoj, voda, mléko",
         "a": [
           1,
           3,
@@ -5653,6 +5659,13 @@
             "a": [
               1,
               3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Termix – ZŠ",
+            "a": [
               7
             ]
           },
