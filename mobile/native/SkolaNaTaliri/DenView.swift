@@ -99,6 +99,15 @@ struct DenView: View {
                  title: "Data možná nejsou aktuální.",
                  text: "Naposledy staženo \(Cal.day(Cal.iso(u))). \(Cal.month(Cal.iso(u))). (před \(days) dny) – než se podle jídelníčku rozhodnete, ověřte to prosím na webu jídelny.")
         }
+        if state.active.jeIcanteen {
+            if state.data.days.isEmpty {
+                note(icon: "info.circle", tint: T.ink2, bg: T.track,
+                     title: "Jídelna zatím nezveřejnila jídelníček.", text: "Appka ho ukáže, jakmile se objeví.")
+            } else if let u = state.data.updated {
+                note(icon: "bolt.horizontal.circle", tint: T.accent, bg: T.accentSoft,
+                     title: "iCanteen · načteno živě.", text: "Dnes v \(u.formatted(date: .omitted, time: .shortened)). Potáhnutím dolů obnovíte.")
+            }
+        }
         if state.active.skutecna_data == false {
             note(icon: "info.circle", tint: T.ink2, bg: T.track,
                  title: "Ukázková data.", text: "Tahle jídelna zatím nezveřejnila skutečný jídelníček, takže vidíte jen ukázku.")

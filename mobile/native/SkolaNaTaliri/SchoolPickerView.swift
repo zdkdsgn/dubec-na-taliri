@@ -94,7 +94,8 @@ struct SchoolPickerView: View {
                         .frame(width: 30, height: 30).background(T.accentSoft, in: Circle())
                     VStack(alignment: .leading, spacing: 2) {
                         Text(s.nazev).font(.system(size: 15, weight: .semibold)).foregroundStyle(T.ink).multilineTextAlignment(.leading)
-                        if s.skutecna_data == false { Text("ukázková data").font(.system(size: 12)).foregroundStyle(T.ink3) }
+                        if s.jeIcanteen { Text("iCanteen").font(.system(size: 12, weight: .semibold)).foregroundStyle(T.accent) }
+                        else if s.skutecna_data == false { Text("ukázková data").font(.system(size: 12)).foregroundStyle(T.ink3) }
                     }
                     Spacer()
                     if active { Text("Aktivní").font(.system(size: 11, weight: .bold)).foregroundStyle(T.accent)
@@ -112,13 +113,15 @@ struct SchoolPickerView: View {
     }
 }
 
-/// Přidání jídelny z iCanteen: odkaz z přihlášení do jídelny + vlastní jméno.
+/// Přidání jídelny z iCanteen ve dvou krocích: najít (náhled, ať je jasné, že odkaz sedí), pak pojmenovat.
 struct AddIcanteenView: View {
     @EnvironmentObject var state: AppState
     @Environment(\.dismiss) private var dismiss
     let onDone: () -> Void
     @State private var link = ""
     @State private var name = ""
+    @State private var cislo: String?
+    @State private var preview = ""
     @State private var error: String?
     @State private var busy = false
 
@@ -128,22 +131,34 @@ struct AddIcanteenView: View {
                 Section {
                     TextField("strav.nasejidelna.cz/0341", text: $link)
                         .textInputAutocapitalization(.never).autocorrectionDisabled().keyboardType(.URL)
-                    TextField("Jméno školy (např. ZŠ Novákova)", text: $name)
+                        .onChange(of: link) { _, _ in cislo = nil; error = nil }
                 } footer: {
                     Text("Otevřete přihlášení do školní jídelny (iCanteen) a vložte odkaz. Jídelníček je na něm vidět bez hesla.")
                 }
-                if let error { Section { Text(error).foregroundStyle(.red).font(.footnote) } }
+                if cislo != nil {
+                    Section {
+                        Text(preview).font(.system(size: 14)).foregroundStyle(T.ink)
+                            .listRowBackground(T.accentSoft)
+                        TextField("Jméno školy (např. ZŠ Novákova)", text: $name)
+                    }
+                }
+                if let error { Section { Text(error).foregroundStyle(T.red).font(.footnote) } }
                 Section {
                     Button {
                         busy = true
                         Task {
-                            error = await state.addCustom(link: link, name: name)
+                            if cislo == nil {
+                                let r = await state.previewCustom(link: link)
+                                cislo = r.cislo; preview = r.text; error = r.error
+                            } else if let cislo {
+                                error = await state.addCustom(cislo: cislo, name: name)
+                                if error == nil { onDone() }
+                            }
                             busy = false
-                            if error == nil { onDone() }
                         }
                     } label: {
-                        HStack { Text("Přidat jídelnu"); if busy { Spacer(); ProgressView() } }
-                    }.disabled(busy)
+                        HStack { Text(cislo == nil ? "Najít jídelnu" : "Přidat jídelnu"); if busy { Spacer(); ProgressView() } }
+                    }.disabled(busy || (cislo == nil && link.isEmpty))
                 }
             }
             .navigationTitle("Jídelna z iCanteen")

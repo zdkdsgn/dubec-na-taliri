@@ -56,7 +56,7 @@ const store = {
 function nearestSchoolDay(from){
   for (let i = 0; i < 14; i++) if (D.days[addD(from,i)]) return addD(from,i);
   const keys = Object.keys(D.days).sort();
-  return keys.find(k => k >= from) || keys[keys.length-1];
+  return keys.find(k => k >= from) || keys[keys.length-1] || from;
 }
 const S = {
   school: store.get("school","zs"),
@@ -335,6 +335,16 @@ function prilohyNode(list){
 /* ── Pohled Den ─────────────────────────────────────────────────── */
 function aktualizujHlavicky(){
   const p = popisekSkoly();
+  const zdroj = $("#icZdroj");
+  if (zdroj) {
+    const ic = AKTIVNI && jeIcanteen(AKTIVNI.id);
+    zdroj.hidden = !ic;
+    if (ic) {
+      const cas = new Date(AKTIVNI.nacteno || Date.now()).toLocaleTimeString("cs-CZ", { hour: "2-digit", minute: "2-digit" });
+      zdroj.textContent = prazdnaIcanteen ? "iCanteen · jídelna zatím nezveřejnila jídelníček"
+                                           : `iCanteen · načteno živě v ${cas}`;
+    }
+  }
   ["heroSchool", "heroSchoolTyden", "heroSchoolAlergeny", "heroSchoolInfo"].forEach(id => {
     const el = $("#" + id); if (el) el.textContent = p;
   });
@@ -941,14 +951,17 @@ async function nactiRegistr(){
   return registrSkol;
 }
 
+let prazdnaIcanteen = false;
 async function stahniSkolu(id){
   let dny, base = {};
+  prazdnaIcanteen = false;
   if (jeIcanteen(id)) {
     const r = await fetch(`${SKOLY_PROXY}icanteen?cislo=${id.slice(2)}`);
     const data = await r.json();
     if (!r.ok || !data.ok) throw new Error(data.chyba || `icanteen ${r.status}`);
     dny = data.dny;
     base = { updated: new Date().toISOString() };
+    prazdnaIcanteen = !!data.prazdno;
   } else {
     const rd = await fetch(`schools/${id}/days.json`, { cache: "no-store" });
     if (!rd.ok) throw new Error(`days.json ${rd.status}`);
@@ -997,7 +1010,7 @@ async function prepniNaSkolu(polozka){
               real: Object.fromEntries(skupiny.map(s => [s, !!polozka.skutecna_data])) },
       days: dny,
     };
-    AKTIVNI = { ...polozka, viceSkupin: skupiny.length > 1 };
+    AKTIVNI = { ...polozka, viceSkupin: skupiny.length > 1, nacteno: Date.now() };
     S.school = skupiny.includes("zs") ? "zs" : skupiny[0];
     S.date   = nearestSchoolDay(TODAY);
     store.set("lokace", polozka.id);
@@ -1080,7 +1093,8 @@ function renderPrepinacOblibenych(skoc){
 function skolaKarta(polozka, aktivni){
   const row = document.createElement("div");
   row.className = "skola-radek" + (aktivni ? " aktivni" : "");
-  const popisek = polozka.skutecna_data ? "" : "<small>ukázková data</small>";
+  const popisek = polozka.vlastni ? `<small class="ic-stitek">iCanteen</small>`
+                 : polozka.skutecna_data ? "" : "<small>ukázková data</small>";
   const oblibena = S.oblibene.has(polozka.id);
   row.innerHTML = `
     <button class="skola-radek-vyber" type="button">
@@ -1233,17 +1247,55 @@ $("#icOtevrit").addEventListener("click", () => {
   f.hidden = !f.hidden;
   if (!f.hidden) $("#icOdkaz").focus();
 });
+/* Přidání ve dvou krocích: nejdřív "Najít jídelnu" (ukáže, co jsme v ní
+   přečetli, ať rodič ví, že odkaz sedí), pak pojmenovat a "Přidat". */
+function textNahledu(dny, prazdno){
+  if (prazdno) return "Jídelna zatím nezveřejnila jídelníček – přidat ji můžete i tak, appka ho ukáže, až se objeví.";
+  const den = Object.keys(dny).sort().find(k => k >= TODAY) || Object.keys(dny).sort().pop();
+  const chody = dny[den]?.chody || [];
+  const jidla = n => chody.filter(c => n.includes(c.c)).map(c => c.n);
+  const d = new Date(den + "T12:00:00");
+  const kdy = `${DOW[d.getDay()]} ${d.getDate()}. ${d.getMonth() + 1}.`;
+  return `<b>Nalezeno · ${kdy}</b>${[...jidla(["polevka"]), ...jidla(["obed", "obed2"])].join(" · ")}`;
+}
+
+function icReset(){
+  $("#icNahled").hidden = true; $("#icNazev").hidden = true;
+  $("#icPridat").textContent = "Najít jídelnu";
+  $("#icChyba").textContent = "";
+}
+$("#icOdkaz").addEventListener("input", icReset);
+
 $("#icForm").addEventListener("submit", async e => {
   e.preventDefault();
-  const chyba = $("#icChyba"), tlacitko = $(".ic-pridat", e.target);
+  const chyba = $("#icChyba"), tlacitko = $("#icPridat");
   const cislo = cisloIcanteen($("#icOdkaz").value);
-  const nazev = $("#icNazev").value.trim();
   chyba.textContent = "";
   if (!cislo) { chyba.textContent = "Vložte odkaz ve tvaru strav.nasejidelna.cz/0341 (z přihlášení do jídelny)."; return; }
-  if (!nazev) { chyba.textContent = "Dejte jídelně jméno, ať ji v appce poznáte."; return; }
   const id = "ic" + cislo;
   if (store.get("icanteen", []).some(x => x.id === id)) { chyba.textContent = "Tuhle jídelnu už máte přidanou."; return; }
 
+  /* krok 1: najít a ukázat náhled */
+  if ($("#icNazev").hidden) {
+    tlacitko.disabled = true; tlacitko.textContent = "Hledám…";
+    try {
+      const r = await fetch(`${SKOLY_PROXY}icanteen?cislo=${cislo}`);
+      const data = await r.json();
+      if (!r.ok || !data.ok) throw new Error(data.chyba);
+      $("#icNahled").innerHTML = textNahledu(data.dny, data.prazdno);
+      $("#icNahled").hidden = false; $("#icNazev").hidden = false; $("#icNazev").focus();
+      tlacitko.textContent = "Přidat jídelnu";
+    } catch {
+      tlacitko.textContent = "Najít jídelnu";
+      chyba.textContent = "Tuhle jídelnu se nepodařilo najít – zkontrolujte odkaz (musí být ze strav.nasejidelna.cz).";
+    }
+    tlacitko.disabled = false;
+    return;
+  }
+
+  /* krok 2: pojmenovat a přidat */
+  const nazev = $("#icNazev").value.trim();
+  if (!nazev) { chyba.textContent = "Dejte jídelně jméno, ať ji v appce poznáte."; return; }
   tlacitko.disabled = true;
   const polozka = { id, nazev, kratky: nazev, zdroj: "icanteen", skutecna_data: true, vlastni: true };
   store.set("icanteen", [...store.get("icanteen", []), { id, nazev, kratky: nazev, zdroj: "icanteen" }]);
@@ -1251,15 +1303,15 @@ $("#icForm").addEventListener("submit", async e => {
   tlacitko.disabled = false;
   if (!ok) {
     store.set("icanteen", store.get("icanteen", []).filter(x => x.id !== id));
-    chyba.textContent = "Z téhle jídelny se jídelníček nepodařilo přečíst – je odkaz správně a jídelna ho zveřejňuje?";
+    chyba.textContent = "Jídelnu se nepodařilo načíst – zkuste to prosím znovu.";
     return;
   }
   if (registrSkol) registrSkol.push(polozka);
-  $("#icOdkaz").value = ""; $("#icNazev").value = ""; $("#icForm").hidden = true;
+  $("#icOdkaz").value = ""; $("#icNazev").value = ""; icReset(); $("#icForm").hidden = true;
   $("#skolaAktualni").textContent = AKTIVNI.nazev;
   renderAll();
   zavriSkolaSheet();
-  toast(`Přepnuto na ${AKTIVNI.nazev}`);
+  toast(prazdnaIcanteen ? `${AKTIVNI.nazev}: jídelníček zatím nezveřejněn` : `Přepnuto na ${AKTIVNI.nazev}`);
 });
 
 let hledaniTimer = null;

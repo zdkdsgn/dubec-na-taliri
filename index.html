@@ -39,6 +39,8 @@
       <span id="heroSchool" role="heading" aria-level="1">ZŠ Dubeč</span>
     </div>
 
+    <div class="ic-zdroj" id="icZdroj" hidden></div>
+
     <div class="skola-prepinac" id="skolaPrepinac" role="tablist" aria-label="Oblíbená škola" hidden></div>
 
     <div class="segmented" role="tablist" aria-label="Škola">
@@ -335,9 +337,10 @@
       <form class="ic-form" id="icForm" hidden autocomplete="off">
         <p class="sub">Škola není v seznamu? Otevřete přihlášení do její jídelny (iCanteen) a vložte odkaz. Jídelníček je na něm vidět bez hesla.</p>
         <input id="icOdkaz" type="text" inputmode="url" placeholder="strav.nasejidelna.cz/0341" aria-label="Odkaz na jídelnu v iCanteen">
-        <input id="icNazev" type="text" placeholder="Jak ji pojmenovat (např. ZŠ Novákova)" aria-label="Název školy" maxlength="40">
+        <div class="ic-nahled" id="icNahled" hidden></div>
+        <input id="icNazev" type="text" placeholder="Jak ji pojmenovat (např. ZŠ Novákova)" aria-label="Název školy" maxlength="40" hidden>
         <div class="ic-chyba" id="icChyba" role="alert"></div>
-        <button class="ic-pridat" type="submit">Přidat jídelnu</button>
+        <button class="ic-pridat" id="icPridat" type="submit">Najít jídelnu</button>
       </form>
     </div>
     <div class="skola-dostupne" id="skolaDostupne"></div>

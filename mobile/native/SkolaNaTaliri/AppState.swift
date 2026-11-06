@@ -92,18 +92,29 @@ final class AppState: ObservableObject {
         return nil
     }
 
-    /// Přidá jídelnu z iCanteen a rovnou na ni přepne. Vrací text chyby, nebo nil při úspěchu.
-    func addCustom(link: String, name: String) async -> String? {
+    /// Krok 1 přidání: ověří odkaz a vrátí náhled (co jsme v jídelně přečetli), nebo text chyby.
+    func previewCustom(link: String) async -> (cislo: String?, text: String, error: String?) {
         guard let cislo = Self.icanteenCislo(link) else {
-            return "Vložte odkaz ve tvaru strav.nasejidelna.cz/0341 (z přihlášení do jídelny)."
+            return (nil, "", "Vložte odkaz ve tvaru strav.nasejidelna.cz/0341 (z přihlášení do jídelny).")
         }
+        if customSchools.contains(where: { $0.id == "ic" + cislo }) { return (nil, "", "Tuhle jídelnu už máte přidanou.") }
+        guard let d = try? await DataService.school("ic" + cislo) else {
+            return (nil, "", "Tuhle jídelnu se nepodařilo najít – zkontrolujte odkaz (musí být ze strav.nasejidelna.cz).")
+        }
+        guard let date = d.days.keys.sorted().first(where: { $0 >= Cal.today }) ?? d.days.keys.sorted().last,
+              let sk = d.days[date]?["zs"] ?? d.days[date]?.values.first, let day = DaySummary(sk) else {
+            return (cislo, "Jídelna zatím nezveřejnila jídelníček – přidat ji můžete i tak, appka ho ukáže, až se objeví.", nil)
+        }
+        let jidla = ([day.soup].compactMap { $0 } + day.mains.map(\.name)).joined(separator: " · ")
+        return (cislo, "Nalezeno · \(Cal.dowName(date)) \(Cal.short(date))\n\(jidla)", nil)
+    }
+
+    /// Krok 2: přidá jídelnu z iCanteen pod zadaným jménem a rovnou na ni přepne.
+    func addCustom(cislo: String, name: String) async -> String? {
         let jmeno = name.trimmingCharacters(in: .whitespacesAndNewlines)
         if jmeno.isEmpty { return "Dejte jídelně jméno, ať ji v appce poznáte." }
         let school = SkolaPolozka(id: "ic" + cislo, nazev: jmeno, kratky: jmeno, zdroj: "icanteen", skutecna_data: true, web: nil)
-        if customSchools.contains(where: { $0.id == school.id }) { return "Tuhle jídelnu už máte přidanou." }
-        guard (try? await DataService.school(school.id)) != nil else {
-            return "Z téhle jídelny se jídelníček nepodařilo přečíst – je odkaz správně a jídelna ho zveřejňuje?"
-        }
+        guard (try? await DataService.school(school.id)) != nil else { return "Jídelnu se nepodařilo načíst – zkuste to prosím znovu." }
         customSchools.append(school)
         schools.append(school)
         await load(school)

@@ -11,13 +11,13 @@ struct WatchContentView: View {
                 if model.loading && model.data.days.isEmpty {
                     ProgressView()
                 } else if model.failed {
-                    Text("Nepodařilo se načíst jídelníček.").font(.footnote).foregroundStyle(.secondary)
+                    Text("Nepodařilo se načíst jídelníček.").font(.footnote).foregroundStyle(W.ink2).padding()
                 } else {
                     TabView(selection: $page) {
                         ForEach(model.days, id: \.self) { date in
                             ScrollView {
                                 DayCard(title: title(date), date: date, model: model)
-                                    .padding(.horizontal, 4)
+                                    .padding(.horizontal, 2)
                             }
                             .tag(date)
                         }
@@ -25,10 +25,10 @@ struct WatchContentView: View {
                     .tabViewStyle(.page)
                 }
             }
-            .navigationTitle(model.school.jmeno)
+            .containerBackground(for: .navigation) { WatchAmbient() }
             .toolbar {
                 ToolbarItem(placement: .topBarTrailing) {
-                    Button { picking = true } label: { Image(systemName: "building.2") }
+                    Button { picking = true } label: { Image(systemName: "building.2").foregroundStyle(W.accent) }
                 }
             }
             .sheet(isPresented: $picking) {
@@ -49,7 +49,7 @@ struct WatchContentView: View {
         let today = Cal.today
         if d == today { return "Dnes" }
         if d == Cal.add(today, days: 1) { return "Zítra" }
-        return "\(Cal.dowName(d)) \(Cal.short(d))"
+        return Cal.dowName(d)
     }
 }
 
@@ -61,42 +61,70 @@ private struct DayCard: View {
     var body: some View {
         let sk = model.skupina(date)
         let day = DaySummary(sk)
-        VStack(alignment: .leading, spacing: 5) {
-            HStack {
-                Text(title.uppercased()).font(.caption2.weight(.semibold)).foregroundStyle(.secondary)
-                Spacer()
-                switch MenuLogic.vydejStav(date: date, vydej: sk?.vydej) {
-                case .bezi?: Text("Vydává se").font(.caption2.weight(.semibold)).foregroundStyle(.green)
-                case .po? where date == Cal.today: Text("Vydáno").font(.caption2).foregroundStyle(.secondary)
-                default: EmptyView()
-                }
+        VStack(alignment: .leading, spacing: 8) {
+            // škola je vidět na každé stránce, ať je jasné, čí jídelníček se čte
+            HStack(spacing: 5) {
+                Circle().fill(W.accent).frame(width: 6, height: 6)
+                Text(model.school.jmeno).font(.system(size: 12, weight: .semibold)).foregroundStyle(W.ink2).lineLimit(1)
             }
+            HStack(alignment: .firstTextBaseline) {
+                Text(title).font(.system(size: 22, weight: .bold)).tracking(-0.4).foregroundStyle(W.ink)
+                Text(Cal.short(date)).font(.system(size: 12)).foregroundStyle(W.ink3)
+                Spacer(minLength: 0)
+            }
+            switch MenuLogic.vydejStav(date: date, vydej: sk?.vydej) {
+            case .bezi?: pill("Vydává se", tint: W.accent, bg: W.accentSoft)
+            case .po? where date == Cal.today: pill("Vydáno", tint: W.ink3, bg: W.card)
+            default: EmptyView()
+            }
+
             if let day {
-                if let soup = day.soup {
-                    VStack(alignment: .leading, spacing: 0) {
-                        Text("Polévka").font(.system(size: 10, weight: .semibold)).foregroundStyle(.secondary)
-                        Text(soup).font(.footnote)
-                    }
-                }
-                ForEach(day.mains) { m in
-                    VStack(alignment: .leading, spacing: 1) {
-                        Text("Hlavní chod").font(.system(size: 10, weight: .semibold)).foregroundStyle(.secondary)
-                        Text(m.name).font(.headline).fixedSize(horizontal: false, vertical: true)
-                        if !m.desc.isEmpty { Text(m.desc).font(.caption).foregroundStyle(.secondary) }
-                    }
+                if let soup = day.soup { meal(Course.of("polevka"), name: soup, desc: "") }
+                ForEach(Array(day.mains.enumerated()), id: \.element.id) { i, m in
+                    meal(Course.of(i == 0 ? "obed" : "obed2"), name: m.name, desc: m.desc)
                 }
                 if let choice = day.choice {
-                    VStack(alignment: .leading, spacing: 0) {
-                        Text("Na výběr").font(.system(size: 10, weight: .semibold)).foregroundStyle(.secondary)
-                        Text(choice).font(.caption).foregroundStyle(.secondary)
+                    VStack(alignment: .leading, spacing: 2) {
+                        Text("NA VÝBĚR").font(.system(size: 10, weight: .bold)).tracking(0.8).foregroundStyle(W.ink3)
+                        Text(choice).font(.system(size: 12)).foregroundStyle(W.ink2)
                     }
+                    .padding(10).frame(maxWidth: .infinity, alignment: .leading)
+                    .background(W.card.opacity(0.7), in: RoundedRectangle(cornerRadius: 16, style: .continuous))
                 }
-                if let v = day.vydej { Text(v).font(.caption2).foregroundStyle(.tertiary) }
+                if let v = day.vydej {
+                    Text("Výdej \(v)").font(.system(size: 11)).foregroundStyle(W.ink3).padding(.leading, 4)
+                }
             } else {
-                Text("Bez oběda").font(.subheadline).foregroundStyle(.secondary)
+                Text(model.data.days.isEmpty ? "Jídelna zatím nezveřejnila jídelníček." : "Bez oběda")
+                    .font(.system(size: 14)).foregroundStyle(W.ink2)
+                    .padding(10).frame(maxWidth: .infinity, alignment: .leading)
+                    .background(W.card, in: RoundedRectangle(cornerRadius: 16, style: .continuous))
             }
         }
         .padding(.vertical, 4)
+    }
+
+    private func pill(_ text: String, tint: Color, bg: Color) -> some View {
+        Text(text).font(.system(size: 11, weight: .bold)).foregroundStyle(tint)
+            .padding(.horizontal, 8).padding(.vertical, 3).background(bg, in: Capsule())
+    }
+
+    private func meal(_ course: Course, name: String, desc: String) -> some View {
+        HStack(alignment: .top, spacing: 8) {
+            WatchCourseIcon(course: course)
+            VStack(alignment: .leading, spacing: 2) {
+                Text(course.label.uppercased()).font(.system(size: 9.5, weight: .bold)).tracking(0.8).foregroundStyle(W.ink3)
+                Text(name).font(.system(size: 15, weight: .bold)).tracking(-0.2).foregroundStyle(W.ink)
+                    .fixedSize(horizontal: false, vertical: true)
+                if !desc.isEmpty {
+                    Text(desc).font(.system(size: 12)).foregroundStyle(W.ink2).fixedSize(horizontal: false, vertical: true)
+                }
+            }
+            Spacer(minLength: 0)
+        }
+        .padding(10)
+        .background(W.card, in: RoundedRectangle(cornerRadius: 16, style: .continuous))
+        .overlay(RoundedRectangle(cornerRadius: 16, style: .continuous).strokeBorder(.white.opacity(0.06), lineWidth: 1))
     }
 }
 
@@ -115,7 +143,7 @@ private struct WatchSchoolPicker: View {
             else {
                 List {
                     if query.isEmpty && !favorites.isEmpty {
-                        Section("Oblíbené") { ForEach(favorites) { row($0) } }
+                        Section("★ Oblíbené") { ForEach(favorites) { row($0) } }
                         Section("Všechny školy") { ForEach(list) { row($0) } }
                     } else {
                         ForEach(list) { row($0) }
@@ -131,9 +159,13 @@ private struct WatchSchoolPicker: View {
     private func row(_ s: SkolaPolozka) -> some View {
         Button { pick(s) } label: {
             HStack {
-                Text(s.jmeno).multilineTextAlignment(.leading)
-                if s.id == currentId { Spacer(); Image(systemName: "checkmark").foregroundStyle(.green) }
+                VStack(alignment: .leading, spacing: 1) {
+                    Text(s.jmeno).font(.system(size: 14, weight: .semibold)).foregroundStyle(W.ink).multilineTextAlignment(.leading)
+                    if s.jeIcanteen { Text("iCanteen").font(.system(size: 10, weight: .semibold)).foregroundStyle(W.accent) }
+                }
+                if s.id == currentId { Spacer(); Image(systemName: "checkmark").foregroundStyle(W.accent) }
             }
         }
+        .listRowBackground(RoundedRectangle(cornerRadius: 14, style: .continuous).fill(W.card))
     }
 }

@@ -152,11 +152,12 @@ async function icanteen(request, env, origin, ctx) {
     return json({ ok: false, chyba: "iCanteen nedostupný" }, 502, origin);
   }
 
-  const dny = parsujIcanteen(html);
-  if (!Object.keys(dny).length) {
-    return json({ ok: false, chyba: "jídelna nemá zveřejněný jídelníček" }, 404, origin);
+  if (!html.includes("iCanteen")) {
+    return json({ ok: false, chyba: "jídelna nenalezena" }, 404, origin);
   }
-  const odpoved = json({ ok: true, dny }, 200, origin);
+  // jídelna bez zveřejněného jídelníčku (prázdniny) je v pořádku – appka ukáže prázdný stav
+  const dny = parsujIcanteen(html);
+  const odpoved = json({ ok: true, dny, ...(Object.keys(dny).length ? {} : { prazdno: true }) }, 200, origin);
   ctx.waitUntil(caches.default.put(cacheKey, odpoved.clone()));
   return odpoved;
 }
