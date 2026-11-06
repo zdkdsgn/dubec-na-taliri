@@ -99,6 +99,10 @@ struct DenView: View {
                  title: "Data možná nejsou aktuální.",
                  text: "Naposledy staženo \(Cal.day(Cal.iso(u))). \(Cal.month(Cal.iso(u))). (před \(days) dny) – než se podle jídelníčku rozhodnete, ověřte to prosím na webu jídelny.")
         }
+        if state.active.bez_listku == true && state.data.days.isEmpty {
+            note(icon: "info.circle", tint: T.ink2, bg: T.track,
+                 title: "Škola zatím nezveřejnila jídelníček.", text: "Doplní se, jakmile se objeví.")
+        }
         if state.active.jeIcanteen {
             if state.data.days.isEmpty {
                 note(icon: "info.circle", tint: T.ink2, bg: T.track,

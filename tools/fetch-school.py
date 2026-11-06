@@ -29,8 +29,9 @@ def nacti_registr() -> list[dict]:
     return json.loads((ROOT / "schools" / "index.json").read_text(encoding="utf-8"))
 
 
-def stahni_skolu(skola_id: str) -> bool:
-    """True = úspěch (i beze změny), False = chyba (data se nechala být)."""
+def stahni_skolu(skola_id: str, bez_listku: bool = False) -> bool:
+    """True = úspěch (i beze změny), False = chyba (data se nechala být).
+    bez_listku: škola je v registru bez jídelníčku – prázdný výsledek není chyba."""
     slozka = ROOT / "schools" / skola_id
     dny_soubor = slozka / "days.json"
     dny = json.loads(dny_soubor.read_text(encoding="utf-8")) if dny_soubor.exists() else {}
@@ -45,8 +46,9 @@ def stahni_skolu(skola_id: str) -> bool:
         return False
 
     if not nove:
-        print(f"  [{skola_id}] nic se nepodařilo přečíst – data nechávám beze změny", file=sys.stderr)
-        return False
+        if not bez_listku:
+            print(f"  [{skola_id}] nic se nepodařilo přečíst – data nechávám beze změny", file=sys.stderr)
+        return bez_listku
 
     # Parser počítá s max. 2 "chody" na oběd (polévka + 1–2 hlavní jídla).
     # Některé školy (typicky spojená ZŠ+MŠ na jedné stránce, nebo MŠ
@@ -100,9 +102,20 @@ def main() -> int:
 
     ok = True
     for i, s in enumerate(vybrane):
-        if i:
-            time.sleep(PAUZA_MEZI_SKOLAMI)
-        ok = stahni_skolu(s["id"]) and ok
+        if i:   # školy bez jídelníčku jsou jen rychlá kontrola, stačí kratší pauza
+            time.sleep(0.5 if s.get("bez_listku") else PAUZA_MEZI_SKOLAMI)
+        ok = stahni_skolu(s["id"], bool(s.get("bez_listku"))) and ok
+
+    # škola, které se objevil jídelníček, už není "bez jídelníčku"
+    zmena = False
+    for s in vybrane:
+        if s.get("bez_listku") and json.loads((ROOT / "schools" / s["id"] / "days.json").read_text(encoding="utf-8")):
+            del s["bez_listku"]
+            zmena = True
+            print(f"  [{s['id']}] má nově jídelníček")
+    if zmena:
+        (ROOT / "schools" / "index.json").write_text(
+            json.dumps(registr, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
     return 0 if ok else 1
 

@@ -338,8 +338,11 @@ function aktualizujHlavicky(){
   const zdroj = $("#icZdroj");
   if (zdroj) {
     const ic = AKTIVNI && jeIcanteen(AKTIVNI.id);
-    zdroj.hidden = !ic;
-    if (ic) {
+    const bezListku = AKTIVNI && AKTIVNI.bez_listku && !Object.keys(D.days).length;
+    zdroj.hidden = !(ic || bezListku);
+    if (bezListku) {
+      zdroj.textContent = "Škola zatím nezveřejnila jídelníček – doplní se, jakmile se objeví.";
+    } else if (ic) {
       const cas = new Date(AKTIVNI.nacteno || Date.now()).toLocaleTimeString("cs-CZ", { hour: "2-digit", minute: "2-digit" });
       zdroj.textContent = prazdnaIcanteen ? "iCanteen · jídelna zatím nezveřejnila jídelníček"
                                            : `iCanteen · načteno živě v ${cas}`;
@@ -1093,7 +1096,8 @@ function renderPrepinacOblibenych(skoc){
 function skolaKarta(polozka, aktivni){
   const row = document.createElement("div");
   row.className = "skola-radek" + (aktivni ? " aktivni" : "");
-  const popisek = polozka.vlastni ? `<small class="ic-stitek">iCanteen</small>`
+  const popisek = polozka.bez_listku ? "<small>zatím bez jídelníčku</small>"
+                 : polozka.vlastni ? `<small class="ic-stitek">iCanteen</small>`
                  : polozka.skutecna_data ? "" : "<small>ukázková data</small>";
   const oblibena = S.oblibene.has(polozka.id);
   row.innerHTML = `

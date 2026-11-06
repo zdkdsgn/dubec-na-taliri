@@ -69,6 +69,8 @@ struct SkolaPolozka: Codable, Identifiable, Hashable {
     var zdroj: String?
     var skutecna_data: Bool?
     var web: String?
+    /// Škola je v registru, ale zrovna nemá zveřejněný jídelníček (doplní se sám).
+    var bez_listku: Bool?
 
     var jmeno: String {
         if let kratky { return kratky }

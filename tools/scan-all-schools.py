@@ -17,6 +17,14 @@ Průběh se průběžně zapisuje do menu/sken-prubeh.json, aby šlo sledovat
 odkudkoli a v klidu pokračovat po přerušení – při dalším spuštění stejného
 rozsahu přeskočí ID, která už byla zpracovaná.
 
+Školy s platnou stránkou, ale zrovna bez jídelníčku (prázdniny, nepravidelné
+zveřejňování), se zapíšou do registru s příznakem "bez_listku": true a
+prázdným days.json – appka je pak umí vybrat a jídelníček se doplní, jakmile
+se objeví (viz tools/obnov-skoly.py, spouští ho týdenní workflow).
+
+    python3 tools/scan-all-schools.py 1 4200 --znovu   # znovu projde už hotová ID
+    python3 tools/scan-all-schools.py 4300 4450 --nove # vždy znovu zkusí celý rozsah (týdenní workflow)
+
 Bezohledně neútočí na jidelna.cz: mezi požadavky čeká, viz PAUZA níž.
 robots.txt cestu /jidelni-listek/ nezakazuje.
 """
@@ -48,7 +56,10 @@ def cisty_nazev(html):
     if i < 0 or j < 0:
         return None
     nazev = html[i + 7:j].replace(" - Jídelní lístek", "").strip()
-    return nazev or None
+    # neplatné ID vrací úvodní stránku jidelna.cz s tímhle obecným titulkem
+    if not nazev or nazev.startswith("Jídelní lístky škol a školek"):
+        return None
+    return nazev
 
 
 def max_obedu_v_ramci_skupiny(dny):
@@ -64,23 +75,39 @@ def max_obedu_v_ramci_skupiny(dny):
     return nejvic
 
 
+def zapis_bez_listku(registr, znama_id, progres, sid, nazev):
+    zaznam = {"id": sid, "nazev": nazev, "zdroj": "jidelna.cz", "skutecna_data": True, "bez_listku": True}
+    registr.append(zaznam)
+    znama_id.add(sid)
+    progres.setdefault("bez_listku", []).append(zaznam)
+    slozka = ROOT / "schools" / sid
+    slozka.mkdir(parents=True, exist_ok=True)
+    uloz_json(slozka / "days.json", {})
+    uloz_json(slozka / "base.json", {"updated": datetime.now(timezone(timedelta(hours=2))).isoformat(timespec="seconds")})
+
+
 def main() -> int:
-    if len(sys.argv) != 3:
+    argumenty = [a for a in sys.argv[1:] if not a.startswith("--")]
+    if len(argumenty) != 2:
         print(__doc__)
         return 1
-    od, do = int(sys.argv[1]), int(sys.argv[2])
+    znovu = "--znovu" in sys.argv
+    nove  = "--nove" in sys.argv         # vždy znovu zkusit všechna ID v rozsahu (týdenní objevování)
+    od, do = int(argumenty[0]), int(argumenty[1])
 
     registr = nacti_json(ROOT / "schools" / "index.json", [])
     znama_id = {s["id"] for s in registr}
     progres  = nacti_json(PROGRES, {"hotovo": [], "najdeno": [], "vyrazeno": []})
-    hotovo   = set(progres["hotovo"])
+    klic_hotovo = "znovu_hotovo" if znovu else "hotovo"
+    hotovo   = set() if nove else set(progres.get(klic_hotovo, []))
+    vyrazena_id = {v["id"] for v in progres["vyrazeno"]}
 
     zacatek_obdobi = date.today() - timedelta(days=DNY_ZPET)
     delka = DNY_ZPET + DNY_VPRED
 
     for i in range(od, do + 1):
         sid = str(i)
-        if sid in hotovo or sid in znama_id:
+        if sid in hotovo or sid in znama_id or sid in vyrazena_id:
             continue
         try:
             html = stahni(i, zacatek_obdobi, delka)
@@ -92,8 +119,11 @@ def main() -> int:
         nazev = cisty_nazev(html)
         dny = parsuj(html) if nazev else {}
 
-        if not nazev or not dny:
-            pass  # neplatné ID nebo škola bez aktuálního jídelníčku – přeskočit
+        if not nazev:
+            pass  # neplatné ID
+        elif not dny:
+            zapis_bez_listku(registr, znama_id, progres, sid, nazev)
+            print(f"[{i}] BEZ JÍDELNÍČKU: {nazev}")
         elif max_obedu_v_ramci_skupiny(dny) > MAX_OBEDU:
             progres["vyrazeno"].append({"id": sid, "nazev": nazev, "duvod": f"{MAX_OBEDU + 1}+ obědových položek"})
             print(f"[{i}] VYŘAZENO (moc obědů): {nazev}")
@@ -115,7 +145,7 @@ def main() -> int:
             print(f"[{i}] NALEZENO: {nazev}  ({len(dny)} dní)")
 
         hotovo.add(sid)
-        progres["hotovo"] = sorted(hotovo, key=int)
+        progres[klic_hotovo] = sorted(hotovo, key=int)
         if i % 20 == 0:                      # průběžné ukládání, ne po každém ID
             uloz_json(PROGRES, progres)
             uloz_json(ROOT / "schools" / "index.json", registr)

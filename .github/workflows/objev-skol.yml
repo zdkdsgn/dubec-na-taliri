@@ -1,0 +1,40 @@
+name: Objevování nových škol
+
+# Jednou týdně zkusí ID těsně za nejvyšší známou školou na jidelna.cz –
+# nové jídelny dostávají čísla postupně. Školy bez jídelníčku se přidají
+# s příznakem "bez_listku" (jídelníček se jim doplní v denním workflow).
+on:
+  schedule:
+    - cron: "30 5 * * 0"        # neděle ráno
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: objev-skol
+  cancel-in-progress: false
+
+jobs:
+  objevit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Projít ID za poslední známou školou
+        run: |
+          nejvyssi=$(python3 -c "import json; print(max(int(s['id']) for s in json.load(open('schools/index.json')) if s['zdroj']=='jidelna.cz'))")
+          echo "Nejvyšší známé ID: $nejvyssi"
+          python3 tools/scan-all-schools.py $((nejvyssi+1)) $((nejvyssi+200)) --nove
+
+      - name: Commitnout nové školy
+        run: |
+          if [ -z "$(git status --porcelain)" ]; then
+            echo "Žádné nové školy."
+            exit 0
+          fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add menu/ schools/
+          git commit -m "Nové školy z jidelna.cz – týdenní objevování $(date '+%-d. %-m. %Y')"
+          git push

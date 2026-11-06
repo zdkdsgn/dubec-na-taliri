@@ -94,7 +94,8 @@ struct SchoolPickerView: View {
                         .frame(width: 30, height: 30).background(T.accentSoft, in: Circle())
                     VStack(alignment: .leading, spacing: 2) {
                         Text(s.nazev).font(.system(size: 15, weight: .semibold)).foregroundStyle(T.ink).multilineTextAlignment(.leading)
-                        if s.jeIcanteen { Text("iCanteen").font(.system(size: 12, weight: .semibold)).foregroundStyle(T.accent) }
+                        if s.bez_listku == true { Text("zatím bez jídelníčku").font(.system(size: 12)).foregroundStyle(T.ink3) }
+                        else if s.jeIcanteen { Text("iCanteen").font(.system(size: 12, weight: .semibold)).foregroundStyle(T.accent) }
                         else if s.skutecna_data == false { Text("ukázková data").font(.system(size: 12)).foregroundStyle(T.ink3) }
                     }
                     Spacer()
