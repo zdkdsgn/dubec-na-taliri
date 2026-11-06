@@ -79,7 +79,10 @@ struct SkolaPolozka: Codable, Identifiable, Hashable {
         return first
     }
 
+    var jeIcanteen: Bool { id.hasPrefix("ic") }
+
     var mesto: String {
+        if jeIcanteen { return "Moje jídelny" }
         for part in nazev.components(separatedBy: ",").dropFirst().map({ $0.trimmingCharacters(in: .whitespaces) }) {
             let bez = part.replacingOccurrences(of: "^okres\\s+", with: "", options: [.regularExpression, .caseInsensitive])
             if bez.range(of: "^Praha\\b", options: [.regularExpression, .caseInsensitive]) != nil { return "Praha" }

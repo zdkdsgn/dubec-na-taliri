@@ -51,6 +51,10 @@ final class AppState: ObservableObject {
     @Published var pushSchools: Set<String> = Set(Store.get("pushSchools", [String]())) {
         didSet { Store.set("pushSchools", Array(pushSchools)) }
     }
+    /// Jídelny z iCanteen, které si rodič přidal sám (stránka jídelny nemá název, jen číslo).
+    @Published var customSchools: [SkolaPolozka] = Store.get("icanteen", [SkolaPolozka]()) {
+        didSet { Store.set("icanteen", customSchools) }
+    }
     @Published var pushBusy = false
     @Published var theme: ThemeChoice = ThemeChoice(rawValue: Store.get("theme", "auto")) ?? .auto {
         didSet { Store.set("theme", theme.rawValue) }
@@ -73,7 +77,43 @@ final class AppState: ObservableObject {
     }
 
     func loadSchools() async {
-        if let s = try? await DataService.schools() { schools = s }
+        if let s = try? await DataService.schools() { schools = s + customSchools }
+    }
+
+    /// Číslo jídelny z vloženého odkazu: "…strav.nasejidelna.cz/0341/faces/login.jsp", "…/0341" nebo jen "0341".
+    static func icanteenCislo(_ text: String) -> String? {
+        let t = text.trimmingCharacters(in: .whitespacesAndNewlines)
+        for pattern in ["nasejidelna\\.cz/(\\d{3,4})", "^(\\d{3,4})$"] {
+            if let r = try? NSRegularExpression(pattern: pattern, options: .caseInsensitive),
+               let m = r.firstMatch(in: t, range: NSRange(t.startIndex..., in: t)), let g = Range(m.range(at: 1), in: t) {
+                return String(repeating: "0", count: max(0, 4 - t[g].count)) + t[g]
+            }
+        }
+        return nil
+    }
+
+    /// Přidá jídelnu z iCanteen a rovnou na ni přepne. Vrací text chyby, nebo nil při úspěchu.
+    func addCustom(link: String, name: String) async -> String? {
+        guard let cislo = Self.icanteenCislo(link) else {
+            return "Vložte odkaz ve tvaru strav.nasejidelna.cz/0341 (z přihlášení do jídelny)."
+        }
+        let jmeno = name.trimmingCharacters(in: .whitespacesAndNewlines)
+        if jmeno.isEmpty { return "Dejte jídelně jméno, ať ji v appce poznáte." }
+        let school = SkolaPolozka(id: "ic" + cislo, nazev: jmeno, kratky: jmeno, zdroj: "icanteen", skutecna_data: true, web: nil)
+        if customSchools.contains(where: { $0.id == school.id }) { return "Tuhle jídelnu už máte přidanou." }
+        guard (try? await DataService.school(school.id)) != nil else {
+            return "Z téhle jídelny se jídelníček nepodařilo přečíst – je odkaz správně a jídelna ho zveřejňuje?"
+        }
+        customSchools.append(school)
+        schools.append(school)
+        await load(school)
+        return nil
+    }
+
+    func removeCustom(_ s: SkolaPolozka) {
+        customSchools.removeAll { $0.id == s.id }
+        schools.removeAll { $0.id == s.id }
+        favorites.remove(s.id); favoriteInfo[s.id] = nil
     }
 
     func load(_ school: SkolaPolozka) async {
@@ -188,8 +228,8 @@ final class AppState: ObservableObject {
 
     /// Oblíbené školy + aktivní škola (i když není oblíbená), ať jde upozornění zapnout bez hvězdičky.
     var pushCandidates: [SkolaPolozka] {
-        var out = favoriteSchools
-        if !out.contains(where: { $0.id == active.id }) { out.insert(active, at: 0) }
+        var out = favoriteSchools.filter { !$0.jeIcanteen }
+        if !active.jeIcanteen, !out.contains(where: { $0.id == active.id }) { out.insert(active, at: 0) }
         return out
     }
 

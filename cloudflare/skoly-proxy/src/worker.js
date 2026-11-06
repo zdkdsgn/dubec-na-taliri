@@ -13,12 +13,16 @@
  *    /push/notify posílá stejnou zprávu Web Pushem i přes Apple push (APNs);
  *    APNs se přeskočí, dokud nejsou nastavená tajemství APNS_KEY/APNS_KEY_ID.
  *
+ * 3) iCanteen (GET /icanteen?cislo=0341): přečte veřejný jídelníček jídelny
+ *    ze strav.nasejidelna.cz a vrátí ho ve tvaru schools/<id>/days.json.
+ *
  *    Odběry se ukládají do KV pod klíčem "sub:<schoolId>:<hash endpointu>",
  *    ať appka umí při /notify rychle vyjmenovat všechny odběratele jedné
  *    školy (KV neumí dotaz "najdi podle hodnoty", jen podle klíče/prefixu).
  */
 
 import webpush from "web-push";
+import { parsujIcanteen } from "./icanteen.js";
 
 const JIDELNA_HLEDEJ = "https://www.jidelna.cz/vyhledej/jidelny/?q=";
 
@@ -118,6 +122,42 @@ async function hledejSkolu(request, env, origin, ctx) {
   const { vysledky, stav } = rozparsuj(html);
   const odpoved = json({ ok: true, vysledky, stav }, 200, origin);
   ctx.waitUntil(cache.put(cacheKey, odpoved.clone()));
+  return odpoved;
+}
+
+// ── iCanteen ─────────────────────────────────────────────────────────
+
+async function icanteen(request, env, origin, ctx) {
+  const cislo = (new URL(request.url).searchParams.get("cislo") || "").trim();
+  if (!/^\d{3,4}$/.test(cislo)) {
+    return json({ ok: false, chyba: "číslo jídelny musí mít 3–4 číslice" }, 400, origin);
+  }
+  const cacheKey = new Request(request.url, { method: "GET" });
+  const zCache = await caches.default.match(cacheKey);
+  if (zCache) {
+    const odpoved = new Response(zCache.body, zCache);
+    corsSetAll(odpoved.headers, corsHlavicky(origin));
+    return odpoved;
+  }
+
+  let html;
+  try {
+    const r = await fetch(`https://strav.nasejidelna.cz/${cislo.padStart(4, "0")}/faces/login.jsp`, {
+      headers: { "User-Agent": "skola-na-taliri-proxy/1.0" },
+      cf: { cacheTtl: 900, cacheEverything: true },
+    });
+    if (!r.ok) return json({ ok: false, chyba: "jídelna nenalezena" }, 404, origin);
+    html = await r.text();
+  } catch (e) {
+    return json({ ok: false, chyba: "iCanteen nedostupný" }, 502, origin);
+  }
+
+  const dny = parsujIcanteen(html);
+  if (!Object.keys(dny).length) {
+    return json({ ok: false, chyba: "jídelna nemá zveřejněný jídelníček" }, 404, origin);
+  }
+  const odpoved = json({ ok: true, dny }, 200, origin);
+  ctx.waitUntil(caches.default.put(cacheKey, odpoved.clone()));
   return odpoved;
 }
 
@@ -319,6 +359,7 @@ export default {
     if (request.method !== "GET") {
       return json({ ok: false, chyba: "jen GET" }, 405, origin);
     }
+    if (url.pathname === "/icanteen") return icanteen(request, env, origin, ctx);
     return hledejSkolu(request, env, origin, ctx);
   },
 };

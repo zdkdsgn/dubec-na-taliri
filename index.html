@@ -329,6 +329,17 @@
   </div>
   <div class="sheet-body">
     <div id="skolaVysledky"></div>
+    <div class="ic-blok">
+      <div class="skola-dostupne ic-seznam" id="icSeznam"></div>
+      <button class="ic-otevrit" id="icOtevrit" type="button">+ Přidat jídelnu z iCanteen</button>
+      <form class="ic-form" id="icForm" hidden autocomplete="off">
+        <p class="sub">Škola není v seznamu? Otevřete přihlášení do její jídelny (iCanteen) a vložte odkaz. Jídelníček je na něm vidět bez hesla.</p>
+        <input id="icOdkaz" type="text" inputmode="url" placeholder="strav.nasejidelna.cz/0341" aria-label="Odkaz na jídelnu v iCanteen">
+        <input id="icNazev" type="text" placeholder="Jak ji pojmenovat (např. ZŠ Novákova)" aria-label="Název školy" maxlength="40">
+        <div class="ic-chyba" id="icChyba" role="alert"></div>
+        <button class="ic-pridat" type="submit">Přidat jídelnu</button>
+      </form>
+    </div>
     <div class="skola-dostupne" id="skolaDostupne"></div>
   </div>
 </div>

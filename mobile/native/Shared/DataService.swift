@@ -10,10 +10,16 @@ enum DataService {
         return d
     }
 
+    static let proxy = URL(string: "https://zs-jidelny.zdkdsgn.workers.dev/")!
+
     /// Síť má přednost; při výpadku se použije poslední uložená kopie (offline režim).
     private static func fetch(_ path: String) async throws -> Data {
-        let file = cacheDir.appendingPathComponent(path.replacingOccurrences(of: "/", with: "_"))
-        var req = URLRequest(url: base.appendingPathComponent(path))
+        try await fetch(base.appendingPathComponent(path), cacheName: path)
+    }
+
+    private static func fetch(_ url: URL, cacheName: String) async throws -> Data {
+        let file = cacheDir.appendingPathComponent(cacheName.replacingOccurrences(of: "/", with: "_"))
+        var req = URLRequest(url: url)
         req.cachePolicy = .reloadIgnoringLocalCacheData
         req.timeoutInterval = 15
         do {
@@ -31,8 +37,18 @@ enum DataService {
         try JSONDecoder().decode([SkolaPolozka].self, from: await fetch("schools/index.json"))
     }
 
+    /// Jídelna z iCanteen: jídelníček čte přes náš worker (id je "ic" + číslo jídelny).
+    private struct IcanteenOdpoved: Decodable { let dny: [String: DenZaznam?] }
+
     static func school(_ id: String) async throws -> SkolaData {
-        let raw = try JSONDecoder().decode([String: DenZaznam?].self, from: await fetch("schools/\(id)/days.json"))
+        let raw: [String: DenZaznam?]
+        if id.hasPrefix("ic") {
+            var c = URLComponents(url: proxy.appendingPathComponent("icanteen"), resolvingAgainstBaseURL: false)!
+            c.queryItems = [URLQueryItem(name: "cislo", value: String(id.dropFirst(2)))]
+            raw = try JSONDecoder().decode(IcanteenOdpoved.self, from: await fetch(c.url!, cacheName: "\(id).json")).dny
+        } else {
+            raw = try JSONDecoder().decode([String: DenZaznam?].self, from: await fetch("schools/\(id)/days.json"))
+        }
         var out = SkolaData()
         var groups = Set<String>()
         for (date, zaznam) in raw {
@@ -41,6 +57,7 @@ enum DataService {
             groups.formUnion(zaznam.skupiny.keys)
         }
         out.groups = groups.isEmpty ? ["zs"] : groups.sorted()
+        if id.hasPrefix("ic") { out.updated = Date(); return out }
         if let base = try? await fetch("schools/\(id)/base.json"),
            let obj = try? JSONSerialization.jsonObject(with: base) as? [String: Any],
            let s = obj["updated"] as? String {

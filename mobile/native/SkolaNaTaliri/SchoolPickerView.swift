@@ -18,6 +18,7 @@ struct SchoolPickerView: View {
     @State private var query = ""
     @State private var typ = "vse"
     @State private var expanded: Set<String> = []
+    @State private var adding = false
 
     private let typy = [("vse", "Vše"), ("zs", "ZŠ"), ("ms", "MŠ"), ("ss", "SŠ")]
 
@@ -32,7 +33,8 @@ struct SchoolPickerView: View {
 
     var body: some View {
         NavigationStack {
-            let list = filtered
+            let list = filtered.filter { !$0.jeIcanteen }
+            let mine = filtered.filter(\.jeIcanteen)
             let grouped = Dictionary(grouping: list, by: \.mesto)
             List {
                 Section {
@@ -40,7 +42,15 @@ struct SchoolPickerView: View {
                         .pickerStyle(.segmented)
                 }.listRowBackground(Color.clear).listRowInsets(EdgeInsets())
 
-                let favs = list.filter { state.favorites.contains($0.id) }
+                Section("Moje jídelny (iCanteen)") {
+                    ForEach(mine) { row($0) }
+                        .onDelete { idx in idx.map { mine[$0] }.forEach(state.removeCustom) }
+                    Button { adding = true } label: { Label("Přidat jídelnu z iCanteen", systemImage: "plus.circle") }
+                        .foregroundStyle(T.accent)
+                        .listRowBackground(T.card)
+                }
+
+                let favs = (list + mine).filter { state.favorites.contains($0.id) }
                 if !favs.isEmpty {
                     Section("★ Oblíbené") { ForEach(favs) { row($0) } }
                 }
@@ -65,6 +75,7 @@ struct SchoolPickerView: View {
             .navigationTitle("Vaše škola")
             .navigationBarTitleDisplayMode(.large)
             .toolbar { ToolbarItem(placement: .confirmationAction) { Button("Hotovo") { dismiss() } } }
+            .sheet(isPresented: $adding) { AddIcanteenView(onDone: { adding = false; dismiss() }) }
         }
         .presentationDragIndicator(.visible)
         .presentationCornerRadius(30)
@@ -98,5 +109,46 @@ struct SchoolPickerView: View {
             }.buttonStyle(.borderless)
         }
         .listRowBackground(T.card)
+    }
+}
+
+/// Přidání jídelny z iCanteen: odkaz z přihlášení do jídelny + vlastní jméno.
+struct AddIcanteenView: View {
+    @EnvironmentObject var state: AppState
+    @Environment(\.dismiss) private var dismiss
+    let onDone: () -> Void
+    @State private var link = ""
+    @State private var name = ""
+    @State private var error: String?
+    @State private var busy = false
+
+    var body: some View {
+        NavigationStack {
+            Form {
+                Section {
+                    TextField("strav.nasejidelna.cz/0341", text: $link)
+                        .textInputAutocapitalization(.never).autocorrectionDisabled().keyboardType(.URL)
+                    TextField("Jméno školy (např. ZŠ Novákova)", text: $name)
+                } footer: {
+                    Text("Otevřete přihlášení do školní jídelny (iCanteen) a vložte odkaz. Jídelníček je na něm vidět bez hesla.")
+                }
+                if let error { Section { Text(error).foregroundStyle(.red).font(.footnote) } }
+                Section {
+                    Button {
+                        busy = true
+                        Task {
+                            error = await state.addCustom(link: link, name: name)
+                            busy = false
+                            if error == nil { onDone() }
+                        }
+                    } label: {
+                        HStack { Text("Přidat jídelnu"); if busy { Spacer(); ProgressView() } }
+                    }.disabled(busy)
+                }
+            }
+            .navigationTitle("Jídelna z iCanteen")
+            .navigationBarTitleDisplayMode(.inline)
+            .toolbar { ToolbarItem(placement: .cancellationAction) { Button("Zrušit") { dismiss() } } }
+        }
     }
 }
