@@ -4861,6 +4861,41 @@
     "vydej": "11:00–14:00",
     "chody": [
       {
+        "c": "presnidavka",
+        "n": "Chléb, pomazánka z ryb v tomatě",
+        "d": "Zeleninová obloha · Malcao",
+        "a": [
+          1,
+          4,
+          7,
+          10
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Chléb, pomazánka z ryb v tomatě",
+            "a": [
+              1,
+              4,
+              7,
+              10
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zeleninová obloha",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Malcao",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
         "c": "polevka",
         "n": "Z červené čočky",
         "d": "",
@@ -4902,6 +4937,35 @@
             "a": []
           }
         ]
+      },
+      {
+        "c": "svacina",
+        "n": "Rohlík s máslem, plátkový sýr",
+        "d": "Ovoce · Multivitamín, voda",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Rohlík s máslem, plátkový sýr",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Multivitamín, voda",
+            "a": []
+          }
+        ]
       }
     ]
   },
@@ -4909,12 +4973,41 @@
     "vydej": "11:00–14:00",
     "chody": [
       {
-        "c": "polevka",
-        "n": "Z fazolových lusků",
-        "d": "",
+        "c": "presnidavka",
+        "n": "Ovocný jogurt, rohlík",
+        "d": "Ovoce · Bylinkový čaj, voda",
         "a": [
           1,
           7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Ovocný jogurt, rohlík",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Bylinkový čaj, voda",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Pórková s vejci",
+        "d": "",
+        "a": [
+          1,
+          3
         ]
       },
       {
@@ -4945,12 +5038,76 @@
             "a": []
           }
         ]
+      },
+      {
+        "c": "svacina",
+        "n": "Chléb, liptovská pomazánka",
+        "d": "Zeleninová obloha · Mrkváček, voda",
+        "a": [
+          1,
+          7,
+          10
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Chléb, liptovská pomazánka",
+            "a": [
+              1,
+              7,
+              10
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zeleninová obloha",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mrkváček, voda",
+            "a": []
+          }
+        ]
       }
     ]
   },
   "2026-11-11": {
     "vydej": "11:00–14:00",
     "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Vánočka",
+        "d": "Ovoce · Mléko",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Vánočka",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
       {
         "c": "polevka",
         "n": "Písmenková",
@@ -5001,12 +5158,74 @@
             "a": []
           }
         ]
+      },
+      {
+        "c": "svacina",
+        "n": "Grahamový rohlík s lučinou",
+        "d": "Zeleninová obloha · Hruškový nápoj, voda",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Grahamový rohlík s lučinou",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zeleninová obloha",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Hruškový nápoj, voda",
+            "a": []
+          }
+        ]
       }
     ]
   },
   "2026-11-12": {
     "vydej": "11:00–14:00",
     "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Vločkový toustový chléb, pažitková pomazánka",
+        "d": "Zeleninová obloha · Mléko, voda",
+        "a": [
+          1,
+          7,
+          10
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Vločkový toustový chléb, pažitková pomazánka",
+            "a": [
+              1,
+              7,
+              10
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zeleninová obloha",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko, voda",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
       {
         "c": "polevka",
         "n": "Zeleninová s bulgurem",
@@ -5054,12 +5273,69 @@
             "a": []
           }
         ]
+      },
+      {
+        "c": "svacina",
+        "n": "Ovocná kapsička s piškoty",
+        "d": "Multivitamín, voda",
+        "a": [
+          1,
+          3,
+          12
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Ovocná kapsička s piškoty",
+            "a": [
+              1,
+              3,
+              12
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Multivitamín, voda",
+            "a": []
+          }
+        ]
       }
     ]
   },
   "2026-11-13": {
     "vydej": "11:00–14:00",
     "chody": [
+      {
+        "c": "presnidavka",
+        "n": "Chléb, šunková pěna",
+        "d": "Zeleninová obloha · Bylinkový čaj, voda",
+        "a": [
+          1,
+          7,
+          10
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Chléb, šunková pěna",
+            "a": [
+              1,
+              7,
+              10
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zeleninová obloha",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Bylinkový čaj, voda",
+            "a": []
+          }
+        ]
+      },
       {
         "c": "polevka",
         "n": "Gulášová",
@@ -5090,6 +5366,37 @@
             "a": [
               7
             ]
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "n": "Himalájský chléb, mrkvová pomazánka",
+        "d": "Ovoce · Ovocný čaj, voda",
+        "a": [
+          1,
+          7,
+          10
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Himalájský chléb, mrkvová pomazánka",
+            "a": [
+              1,
+              7,
+              10
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný čaj, voda",
+            "a": []
           }
         ]
       }

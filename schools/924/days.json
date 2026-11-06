@@ -4100,14 +4100,37 @@
     "vydej": "11:00–12:10",
     "chody": [
       {
-        "c": "obed",
-        "n": "Oběd",
+        "c": "polevka",
+        "n": "Krupicová s vejcem",
         "d": "",
-        "a": [],
+        "a": [
+          1,
+          3,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Bavorské vdolečky s jahodovo tvarohovým přelivem",
+        "d": "Ovoce",
+        "a": [
+          1,
+          3,
+          7
+        ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Oběd",
+            "n": "Bavorské vdolečky s jahodovo tvarohovým přelivem",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
             "a": []
           }
         ]
@@ -4118,14 +4141,32 @@
     "vydej": "11:00–12:10",
     "chody": [
       {
-        "c": "obed",
-        "n": "Oběd",
+        "c": "polevka",
+        "n": "Pórková s jáhlovými vločkami",
         "d": "",
+        "a": [
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Sekaná pečeně",
+        "d": "Šťouchané brambory s máslem a pažitkou · Okurka",
         "a": [],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Oběd",
+            "n": "Sekaná pečeně",
+            "a": []
+          },
+          {
+            "l": "Příloha",
+            "n": "Šťouchané brambory s máslem a pažitkou",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Okurka",
             "a": []
           }
         ]
@@ -4136,14 +4177,35 @@
     "vydej": "11:00–12:10",
     "chody": [
       {
-        "c": "obed",
-        "n": "Oběd",
+        "c": "polevka",
+        "n": "Kulajda",
         "d": "",
-        "a": [],
+        "a": [
+          1,
+          7,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Čočka na kyselo, vařené vejce",
+        "d": "Chléb, okurka",
+        "a": [
+          1,
+          3
+        ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Oběd",
+            "n": "Čočka na kyselo, vařené vejce",
+            "a": [
+              1,
+              3
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Chléb, okurka",
             "a": []
           }
         ]
@@ -4154,14 +4216,35 @@
     "vydej": "11:00–12:10",
     "chody": [
       {
-        "c": "obed",
-        "n": "Oběd",
+        "c": "polevka",
+        "n": "Brokolicová s dýňovým kapáním",
         "d": "",
-        "a": [],
+        "a": [
+          1,
+          7,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Kuřecí nudličky s rozmarýnem a zeleninou",
+        "d": "Dušená rýže s quinoou",
+        "a": [
+          1,
+          9
+        ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Oběd",
+            "n": "Kuřecí nudličky s rozmarýnem a zeleninou",
+            "a": [
+              1,
+              9
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Dušená rýže s quinoou",
             "a": []
           }
         ]
@@ -4172,14 +4255,35 @@
     "vydej": "11:00–12:10",
     "chody": [
       {
-        "c": "obed",
-        "n": "Oběd",
+        "c": "polevka",
+        "n": "Vývar s drobením",
         "d": "",
-        "a": [],
+        "a": [
+          1,
+          3,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Vepřová kotleta zapečená v rajčatech se sýrem",
+        "d": "Vařené brambory",
+        "a": [
+          1,
+          7
+        ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Oběd",
+            "n": "Vepřová kotleta zapečená v rajčatech se sýrem",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Vařené brambory",
             "a": []
           }
         ]

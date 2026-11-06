@@ -2176,14 +2176,38 @@
     "vydej": "11:00–14:00",
     "chody": [
       {
-        "c": "obed",
-        "n": "Oběd",
+        "c": "polevka",
+        "n": "Kukuřičná s kokosovým mlékem",
         "d": "",
+        "a": [
+          1,
+          7
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Krůtí country směs",
+        "d": "Jasmínová rýže · Banán · Ovocný nápoj, voda",
         "a": [],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Oběd",
+            "n": "Krůtí country směs",
+            "a": []
+          },
+          {
+            "l": "Příloha",
+            "n": "Jasmínová rýže",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Banán",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný nápoj, voda",
             "a": []
           }
         ]
@@ -2194,14 +2218,48 @@
     "vydej": "11:00–14:00",
     "chody": [
       {
-        "c": "obed",
-        "n": "Oběd",
+        "c": "polevka",
+        "n": "Podzimní zeleninová",
         "d": "",
-        "a": [],
+        "a": [
+          1,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Hovězí guláš",
+        "d": "Kynutý knedlík · Bluma · Citrónová voda, voda",
+        "a": [
+          1,
+          3,
+          7
+        ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Oběd",
+            "n": "Hovězí guláš",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Kynutý knedlík",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Bluma",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Citrónová voda, voda",
             "a": []
           }
         ]
@@ -2212,14 +2270,47 @@
     "vydej": "11:00–14:00",
     "chody": [
       {
-        "c": "obed",
-        "n": "Oběd",
+        "c": "polevka",
+        "n": "Sójová se špaldovým kapáním",
         "d": "",
-        "a": [],
+        "a": [
+          1,
+          3,
+          6,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Poděbradská pečeně",
+        "d": "Bramboro-batátová kaše · Čínské zelí s ananasem · Kohoutková voda",
+        "a": [
+          7,
+          9
+        ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Oběd",
+            "n": "Poděbradská pečeně",
+            "a": [
+              9
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Bramboro-batátová kaše",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Čínské zelí s ananasem",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Kohoutková voda",
             "a": []
           }
         ]
@@ -2230,14 +2321,34 @@
     "vydej": "11:00–14:00",
     "chody": [
       {
-        "c": "obed",
-        "n": "Oběd",
+        "c": "polevka",
+        "n": "Slepičí vývar s písmenky",
         "d": "",
-        "a": [],
+        "a": [
+          1,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Slovenské halušky se zelím",
+        "d": "Ovocný mošt, voda",
+        "a": [
+          1,
+          12
+        ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Oběd",
+            "n": "Slovenské halušky se zelím",
+            "a": [
+              1,
+              12
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný mošt, voda",
             "a": []
           }
         ]
@@ -2248,14 +2359,39 @@
     "vydej": "11:00–14:00",
     "chody": [
       {
-        "c": "obed",
-        "n": "Oběd",
+        "c": "polevka",
+        "n": "Eintopf",
         "d": "",
-        "a": [],
+        "a": [
+          1,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Krupicová kaše s grankem",
+        "d": "Pomeranč · Kohoutková voda",
+        "a": [
+          1,
+          7
+        ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Oběd",
+            "n": "Krupicová kaše s grankem",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Pomeranč",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Kohoutková voda",
             "a": []
           }
         ]

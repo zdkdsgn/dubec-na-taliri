@@ -3665,17 +3665,19 @@
       },
       {
         "c": "svacina",
-        "n": "Termix, kukuřičné křupky, ovoce, čaj",
+        "n": "Jogurt, kukuřičné křupky, ovoce, čaj",
         "d": "",
         "a": [
-          7
+          7,
+          8
         ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Termix, kukuřičné křupky, ovoce, čaj",
+            "n": "Jogurt, kukuřičné křupky, ovoce, čaj",
             "a": [
-              7
+              7,
+              8
             ]
           }
         ]
@@ -3743,7 +3745,7 @@
       },
       {
         "c": "svacina",
-        "n": "Rohlík s máslem, ovoce, čaj",
+        "n": "Rohlík, termix, ovoce, čaj, mléko",
         "d": "",
         "a": [
           1,
@@ -3752,7 +3754,7 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Rohlík s máslem, ovoce, čaj",
+            "n": "Rohlík, termix, ovoce, čaj, mléko",
             "a": [
               1,
               7
@@ -3798,7 +3800,7 @@
       {
         "c": "obed",
         "n": "Krůtí se zeleninou ratatouille",
-        "d": "Brambor · Nápoj",
+        "d": "Brambor · Ovoce · Nápoj",
         "a": [
           1,
           7,
@@ -3820,6 +3822,11 @@
             "a": [
               7
             ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
           },
           {
             "l": "Nápoj",
@@ -4142,16 +4149,18 @@
     "chody": [
       {
         "c": "presnidavka",
-        "n": "Rýžová kaše s medem, ovoce, čaj",
+        "n": "Žitný chléb, fazolová pomazánka s červenou řepou, zelenina, čaj, mléko",
         "d": "",
         "a": [
+          1,
           7
         ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Rýžová kaše s medem, ovoce, čaj",
+            "n": "Žitný chléb, fazolová pomazánka s červenou řepou, zelenina, čaj, mléko",
             "a": [
+              1,
               7
             ]
           }
@@ -4159,17 +4168,18 @@
       },
       {
         "c": "polevka",
-        "n": "Celerová s račaty",
+        "n": "Kulajda",
         "d": "",
         "a": [
           1,
-          9
+          3,
+          7
         ]
       },
       {
         "c": "obed",
-        "n": "Květák s vejci na mozeček",
-        "d": "Brambor s pažitkou · Nápoj",
+        "n": "Žemlovka s tvarohem a jablky",
+        "d": "Nápoj",
         "a": [
           1,
           3,
@@ -4178,17 +4188,10 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Květák s vejci na mozeček",
+            "n": "Žemlovka s tvarohem a jablky",
             "a": [
               1,
               3,
-              7
-            ]
-          },
-          {
-            "l": "Příloha",
-            "n": "Brambor s pažitkou",
-            "a": [
               7
             ]
           },
@@ -4201,19 +4204,29 @@
       },
       {
         "c": "svacina",
-        "n": "Rohlík, žervé, kedlubna, čaj s citrónem",
+        "n": "Bagetka quinoa, philadephia, ovoce, čaj",
         "d": "",
         "a": [
           1,
-          7
+          5,
+          6,
+          7,
+          8,
+          10,
+          11
         ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Rohlík, žervé, kedlubna, čaj s citrónem",
+            "n": "Bagetka quinoa, philadephia, ovoce, čaj",
             "a": [
               1,
-              7
+              5,
+              6,
+              7,
+              8,
+              10,
+              11
             ]
           }
         ]
@@ -4225,7 +4238,7 @@
     "chody": [
       {
         "c": "presnidavka",
-        "n": "Chléb, kapiová pomazánka, zelenina, kakao",
+        "n": "Chléb, kapiová pomazánka s cottage, zelenina, kakao",
         "d": "",
         "a": [
           1,
@@ -4234,7 +4247,7 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Chléb, kapiová pomazánka, zelenina, kakao",
+            "n": "Chléb, kapiová pomazánka s cottage, zelenina, kakao",
             "a": [
               1,
               7
@@ -4254,7 +4267,7 @@
       },
       {
         "c": "obed",
-        "n": "Chilli con carne",
+        "n": "Chilli con carne (krůtí)",
         "d": "Chléb · Ovoce · Nápoj",
         "a": [
           1
@@ -4262,7 +4275,7 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Chilli con carne",
+            "n": "Chilli con carne (krůtí)",
             "a": []
           },
           {
@@ -4286,19 +4299,21 @@
       },
       {
         "c": "svacina",
-        "n": "Grahamový rohlík, pomazánkové máslo, ovoce, čaj",
+        "n": "Croissant, ovoce, mléko",
         "d": "",
         "a": [
           1,
-          7
+          3,
+          6
         ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Grahamový rohlík, pomazánkové máslo, ovoce, čaj",
+            "n": "Croissant, ovoce, mléko",
             "a": [
               1,
-              7
+              3,
+              6
             ]
           }
         ]
@@ -4310,22 +4325,14 @@
     "chody": [
       {
         "c": "presnidavka",
-        "n": "Okurkový sendvič, kakao",
+        "n": "Alternátor- bez přesnídávky",
         "d": "",
-        "a": [
-          1,
-          3,
-          7
-        ],
+        "a": [],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Okurkový sendvič, kakao",
-            "a": [
-              1,
-              3,
-              7
-            ]
+            "n": "Alternátor- bez přesnídávky",
+            "a": []
           }
         ]
       },
@@ -4340,7 +4347,7 @@
       },
       {
         "c": "obed",
-        "n": "Svatomartinské kuře",
+        "n": "Svatomartinské kachní prsa",
         "d": "Kysané zelí, bramborový knedlík · Nápoj",
         "a": [
           1,
@@ -4350,7 +4357,7 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Svatomartinské kuře",
+            "n": "Svatomartinské kachní prsa",
             "a": [
               7
             ]
@@ -4495,18 +4502,16 @@
     "chody": [
       {
         "c": "presnidavka",
-        "n": "Žitný chléb, fazolová pomazánka s červenou řepou, zelenina, čaj, mléko",
+        "n": "Rýžová kaše s medem, ovoce, čaj",
         "d": "",
         "a": [
-          1,
           7
         ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Žitný chléb, fazolová pomazánka s červenou řepou, zelenina, čaj, mléko",
+            "n": "Rýžová kaše s medem, ovoce, čaj",
             "a": [
-              1,
               7
             ]
           }
@@ -4514,18 +4519,17 @@
       },
       {
         "c": "polevka",
-        "n": "Kulajda",
+        "n": "Celerová s račaty",
         "d": "",
         "a": [
           1,
-          3,
-          7
+          9
         ]
       },
       {
         "c": "obed",
-        "n": "Žemlovka s tvarohem a jablky",
-        "d": "Nápoj",
+        "n": "Květák s vejci na mozeček",
+        "d": "Brambor s pažitkou · Nápoj",
         "a": [
           1,
           3,
@@ -4534,10 +4538,17 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Žemlovka s tvarohem a jablky",
+            "n": "Květák s vejci na mozeček",
             "a": [
               1,
               3,
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Brambor s pažitkou",
+            "a": [
               7
             ]
           },

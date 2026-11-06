@@ -4375,7 +4375,7 @@
       },
       {
         "c": "obed",
-        "n": "Rybí file v sýrové peřince",
+        "n": "Rybí file (kostka) z divokého lososa v sýrové peřince",
         "d": "Brambory, kečup · Kompot · 100% mošt, voda, ochucené mléko",
         "a": [
           4,
@@ -4384,7 +4384,7 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Rybí file v sýrové peřince",
+            "n": "Rybí file (kostka) z divokého lososa v sýrové peřince",
             "a": [
               4,
               7
@@ -4833,11 +4833,14 @@
       {
         "c": "obed2",
         "n": "Sýrový karbanátek",
-        "d": "Brambory, cuketa s cibulí · Ovocná přesnídávka · Ovocný nápoj, voda, mléko",
+        "d": "Brambory, cuketa s cibulí, BBQ omáčka · Ovocná přesnídávka · Ovocný nápoj, voda, mléko",
         "a": [
           1,
           3,
-          7
+          6,
+          7,
+          9,
+          10
         ],
         "p": [
           {
@@ -4851,9 +4854,13 @@
           },
           {
             "l": "Příloha",
-            "n": "Brambory, cuketa s cibulí",
+            "n": "Brambory, cuketa s cibulí, BBQ omáčka",
             "a": [
-              7
+              3,
+              6,
+              7,
+              9,
+              10
             ]
           },
           {
@@ -5758,6 +5765,101 @@
           {
             "l": "Nápoj",
             "n": "Ovocný nápoj, voda, ochucené mléko",
+            "a": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-12-10": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Čočková",
+        "d": "",
+        "a": [
+          7,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "n": "Guláš z vepřového masa",
+        "d": "Těstoviny · Ovocná přesnídávka · Sirup, voda, mléko",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Guláš z vepřového masa",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Těstoviny",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovocná přesnídávka",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Sirup, voda, mléko",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "n": "Smažené mozzarellové tyčinky, brambory",
+        "d": "Dresink, brusinky · Ovocná přesnídávka · Sirup, voda, mléko",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Smažené mozzarellové tyčinky, brambory",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Dresink, brusinky",
+            "a": [
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovocná přesnídávka",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Sirup, voda, mléko",
             "a": [
               7
             ]
