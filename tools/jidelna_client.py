@@ -165,7 +165,25 @@ def _zpracuj_menu_bloky(usek_html: str, kurz: str) -> list[dict]:
                 "a": sorted({a for p in vsechny for a in p["a"]}),
                 "p": vsechny,
             })
-    return chody
+    return _ocisti_obedy(chody)
+
+
+def _ocisti_obedy(chody: list[dict]) -> list[dict]:
+    """Větší jídelny (Chodov, Na Líše…) dávají do lístku bezlepkové/dietní
+    varianty pod stejným názvem a čísla chodů jim občas začínají znovu od 1,
+    případně napíšou "NEVAŘÍ SE". Duplicity (stejný název) a nevařící dny
+    zahodíme a hlavní chody přečíslujeme: první = obed, další = obed2."""
+    videno, poradi, ven = set(), 0, []
+    for c in chody:
+        if c["c"] in ("obed", "obed2"):
+            klic = c["n"].strip().lower()
+            if klic in videno or klic.startswith("nevaří se"):
+                continue
+            videno.add(klic)
+            c["c"] = "obed" if poradi == 0 else "obed2"
+            poradi += 1
+        ven.append(c)
+    return ven
 
 
 def parsuj(html: str) -> dict:

@@ -10,7 +10,7 @@ Pro každé ID udělá JEDEN požadavek (stejnou stránku, ze které appka bezta
 Škola se do registru zapíše, jen když:
   – stránka vrátí 200 (ne přesměrování na hlavní stránku = neplatné ID)
   – jde z ní přečíst aspoň jeden den s jídlem
-  – žádný den nemá víc než 2 obědové položky v rámci jedné skupiny
+  – žádný den nemá víc než MAX_OBEDU obědových položek v rámci jedné skupiny
     (jinak jde o typ školy, který parser zatím neumí – viz ARCHITEKTURA.md)
 
 Průběh se průběžně zapisuje do menu/sken-prubeh.json, aby šlo sledovat
@@ -31,6 +31,7 @@ ROOT   = Path(__file__).resolve().parent.parent
 PROGRES = ROOT / "menu" / "sken-prubeh.json"
 PAUZA  = 0.5          # sekund mezi požadavky – slušnost k jidelna.cz
 DNY_ZPET, DNY_VPRED = 7, 21
+MAX_OBEDU = 4         # víc různých obědů v jedné skupině = jiný typ jídelny (catering, dietní řady)
 
 
 def nacti_json(cesta, vychozi):
@@ -93,9 +94,9 @@ def main() -> int:
 
         if not nazev or not dny:
             pass  # neplatné ID nebo škola bez aktuálního jídelníčku – přeskočit
-        elif max_obedu_v_ramci_skupiny(dny) > 2:
-            progres["vyrazeno"].append({"id": sid, "nazev": nazev, "duvod": "3+ obědové položky"})
-            print(f"[{i}] VYŘAZENO (3+ obědů): {nazev}")
+        elif max_obedu_v_ramci_skupiny(dny) > MAX_OBEDU:
+            progres["vyrazeno"].append({"id": sid, "nazev": nazev, "duvod": f"{MAX_OBEDU + 1}+ obědových položek"})
+            print(f"[{i}] VYŘAZENO (moc obědů): {nazev}")
         else:
             zdroj = "manual" if False else "jidelna.cz"
             skutecna = True
