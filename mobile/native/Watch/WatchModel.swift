@@ -7,6 +7,7 @@ final class WatchModel: ObservableObject {
     @Published var school: SkolaPolozka
     @Published var loading = true
     @Published var failed = false
+    @Published var favorites: [SkolaPolozka] = []
 
     private let defaults = UserDefaults.standard
 
@@ -17,6 +18,20 @@ final class WatchModel: ObservableObject {
             school = .vychozi
         }
         SharedStore.saveSchool(school)
+        if let raw = defaults.data(forKey: "favorites"), let l = try? JSONDecoder().decode([SkolaPolozka].self, from: raw) { favorites = l }
+        WatchSync.shared.onFavorites = { [weak self] list in self?.setFavorites(list) }
+    }
+
+    func setFavorites(_ list: [SkolaPolozka]) {
+        favorites = list
+        if let raw = try? JSONEncoder().encode(list) { defaults.set(raw, forKey: "favorites") }
+    }
+
+    /// Dny od dneška, které mají jídelníček (dnešek vždy, ať je vidět i "Bez oběda").
+    var days: [String] {
+        let today = Cal.today
+        let ds = data.days.keys.sorted().filter { $0 > today && skupina($0).flatMap { DaySummary($0) } != nil }
+        return [today] + Array(ds.prefix(9))
     }
 
     var group: String { data.groups.contains("zs") ? "zs" : (data.groups.first ?? "zs") }

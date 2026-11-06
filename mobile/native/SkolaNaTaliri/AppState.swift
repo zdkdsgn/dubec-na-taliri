@@ -42,11 +42,11 @@ final class AppState: ObservableObject {
         didSet { Store.set("dislikes", Array(dislikes)) }
     }
     @Published var favorites: Set<String> = Set(Store.get("favorites", [String]())) {
-        didSet { Store.set("favorites", Array(favorites)) }
+        didSet { Store.set("favorites", Array(favorites)); syncWatch() }
     }
     /// Údaje oblíbených škol, ať jdou jejich jména ukázat i bez načteného seznamu (offline start).
     @Published var favoriteInfo: [String: SkolaPolozka] = Store.get("favoriteInfo", [String: SkolaPolozka]()) {
-        didSet { Store.set("favoriteInfo", favoriteInfo) }
+        didSet { Store.set("favoriteInfo", favoriteInfo); syncWatch() }
     }
     @Published var pushSchools: Set<String> = Set(Store.get("pushSchools", [String]())) {
         didSet { Store.set("pushSchools", Array(pushSchools)) }
@@ -61,8 +61,12 @@ final class AppState: ObservableObject {
 
     // MARK: načítání
 
+    private func syncWatch() { PhoneSync.shared.send(favorites: favoriteSchools) }
+
     func start() async {
         SharedStore.saveSchool(active)
+        PhoneSync.shared.activate()
+        syncWatch()
         async let list: Void = loadSchools()
         await load(active)
         await list

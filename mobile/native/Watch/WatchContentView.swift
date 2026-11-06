@@ -3,23 +3,27 @@ import SwiftUI
 struct WatchContentView: View {
     @StateObject private var model = WatchModel()
     @State private var picking = false
+    @State private var page = Cal.today
 
     var body: some View {
         NavigationStack {
-            ScrollView {
-                VStack(alignment: .leading, spacing: 10) {
-                    if model.loading && model.data.days.isEmpty {
-                        ProgressView().frame(maxWidth: .infinity).padding(.top, 24)
-                    } else if model.failed {
-                        Text("Nepodařilo se načíst jídelníček.").font(.footnote).foregroundStyle(.secondary)
-                    } else {
-                        let today = Cal.today, tomorrow = Cal.add(today, days: 1)
-                        DayCard(title: "Dnes", date: today, model: model)
-                        Divider()
-                        DayCard(title: "Zítra", date: tomorrow, model: model)
+            Group {
+                if model.loading && model.data.days.isEmpty {
+                    ProgressView()
+                } else if model.failed {
+                    Text("Nepodařilo se načíst jídelníček.").font(.footnote).foregroundStyle(.secondary)
+                } else {
+                    TabView(selection: $page) {
+                        ForEach(model.days, id: \.self) { date in
+                            ScrollView {
+                                DayCard(title: title(date), date: date, model: model)
+                                    .padding(.horizontal, 4)
+                            }
+                            .tag(date)
+                        }
                     }
+                    .tabViewStyle(.page)
                 }
-                .padding(.horizontal, 4)
             }
             .navigationTitle(model.school.jmeno)
             .toolbar {
@@ -29,12 +33,23 @@ struct WatchContentView: View {
             }
             .sheet(isPresented: $picking) {
                 NavigationStack {
-                    WatchSchoolPicker(currentId: model.school.id) { s in model.choose(s); picking = false }
+                    WatchSchoolPicker(currentId: model.school.id, favorites: model.favorites) { s in
+                        page = Cal.today
+                        model.choose(s)
+                        picking = false
+                    }
                 }
             }
             .task { await model.load() }
             .refreshable { await model.load() }
         }
+    }
+
+    private func title(_ d: String) -> String {
+        let today = Cal.today
+        if d == today { return "Dnes" }
+        if d == Cal.add(today, days: 1) { return "Zítra" }
+        return "\(Cal.dowName(d)) \(Cal.short(d))"
     }
 }
 
@@ -89,20 +104,21 @@ private struct WatchSchoolPicker: View {
     @StateObject private var schools = WatchSchools()
     @State private var query = ""
     let currentId: String
+    let favorites: [SkolaPolozka]
     let pick: (SkolaPolozka) -> Void
 
     var body: some View {
         let list = query.isEmpty ? schools.list : schools.list.filter { $0.jmeno.localizedCaseInsensitiveContains(query) }
         Group {
-            if schools.list.isEmpty && !schools.failed { ProgressView() }
+            if schools.list.isEmpty && !schools.failed && favorites.isEmpty { ProgressView() }
             else if schools.failed { Text("Seznam škol se nepodařilo načíst.").font(.footnote) }
             else {
-                List(list) { s in
-                    Button { pick(s) } label: {
-                        HStack {
-                            Text(s.jmeno).multilineTextAlignment(.leading)
-                            if s.id == currentId { Spacer(); Image(systemName: "checkmark").foregroundStyle(.green) }
-                        }
+                List {
+                    if query.isEmpty && !favorites.isEmpty {
+                        Section("Oblíbené") { ForEach(favorites) { row($0) } }
+                        Section("Všechny školy") { ForEach(list) { row($0) } }
+                    } else {
+                        ForEach(list) { row($0) }
                     }
                 }
                 .searchable(text: $query, prompt: "Hledat školu")
@@ -110,5 +126,14 @@ private struct WatchSchoolPicker: View {
         }
         .navigationTitle("Vaše škola")
         .task { await schools.load() }
+    }
+
+    private func row(_ s: SkolaPolozka) -> some View {
+        Button { pick(s) } label: {
+            HStack {
+                Text(s.jmeno).multilineTextAlignment(.leading)
+                if s.id == currentId { Spacer(); Image(systemName: "checkmark").foregroundStyle(.green) }
+            }
+        }
     }
 }
