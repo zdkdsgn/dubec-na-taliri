@@ -18,7 +18,6 @@ struct DenView: View {
         ScrollView {
             VStack(alignment: .leading, spacing: 9) {
                 header
-                favSwitcher
                 OrderChildPicker()
                 dayStrip
                 if state.multiGroup { groupPicker }
@@ -65,17 +64,42 @@ struct DenView: View {
 
     // MARK: části
 
+    private var schoolTitle: some View {
+        HStack(spacing: 10) {
+            Circle().fill(T.accent).frame(width: 8, height: 8)
+            (Text(state.schoolTitle + " ").font(.system(size: 20, weight: .bold)).foregroundColor(T.ink)
+                + Text(Image(systemName: "chevron.down")).font(.system(size: 11, weight: .bold)).foregroundColor(T.ink3))
+                .tracking(-0.4).multilineTextAlignment(.leading).lineLimit(2).padding(.trailing, 96)
+            Spacer()
+        }
+        .padding(.top, 14).padding(.bottom, 4)
+        .contentShape(Rectangle())
+    }
+
+    /// Název školy: s oblíbenými je to menu (přepnutí + „Všechny školy…“), bez nich rovnou výběr škol.
+    @ViewBuilder private var schoolSwitch: some View {
+        let favs = state.favoriteSchools
+        if favs.isEmpty || (favs.count == 1 && favs[0].id == state.active.id) {
+            Button { showSchools = true } label: { schoolTitle }.buttonStyle(.plain)
+        } else {
+            Menu {
+                Section("Oblíbené") {
+                    ForEach(favs) { f in
+                        Button {
+                            UIImpactFeedbackGenerator(style: .light).impactOccurred()
+                            Task { await state.choose(f) }
+                        } label: {
+                            if f.id == state.active.id { Label(f.jmeno, systemImage: "checkmark") } else { Text(f.jmeno) }
+                        }
+                    }
+                }
+                Button { showSchools = true } label: { Label("Všechny školy…", systemImage: "building.2") }
+            } label: { schoolTitle }.buttonStyle(.plain)
+        }
+    }
+
     private var header: some View {
-        Button { showSchools = true } label: {
-            HStack(spacing: 10) {
-                Circle().fill(T.accent).frame(width: 8, height: 8)
-                (Text(state.schoolTitle + " ").font(.system(size: 20, weight: .bold)).foregroundColor(T.ink)
-                    + Text(Image(systemName: "chevron.down")).font(.system(size: 11, weight: .bold)).foregroundColor(T.ink3))
-                    .tracking(-0.4).multilineTextAlignment(.leading).lineLimit(2).padding(.trailing, 96)
-                Spacer()
-            }
-            .padding(.top, 14).padding(.bottom, 4)
-        }.buttonStyle(.plain)
+        schoolSwitch
         .overlay(alignment: .trailing) {
             HStack(spacing: 8) {
                 Button {
