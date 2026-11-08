@@ -20,7 +20,6 @@ struct DenView: View {
                 header
                 favSwitcher
                 OrderChildPicker()
-                weekBar
                 dayStrip
                 if state.multiGroup { groupPicker }
                 notes
@@ -202,9 +201,20 @@ struct DenView: View {
         }
     }
 
+    private func weekChevron(_ symbol: String, _ step: Int) -> some View {
+        Button {
+            UIImpactFeedbackGenerator(style: .light).impactOccurred()
+            state.weekStep(step)
+        } label: {
+            Image(systemName: symbol).font(.system(size: 13, weight: .bold)).foregroundStyle(T.ink3)
+                .frame(width: 26).frame(maxHeight: .infinity)
+        }.buttonStyle(.plain)
+    }
+
     private var dayStrip: some View {
         let mon = Cal.monday(state.selectedDate)
         return HStack(spacing: 0) {
+            weekChevron("chevron.left", -1)
             ForEach(0..<5, id: \.self) { i in
                 let d = Cal.add(mon, days: i)
                 let sel = d == state.selectedDate
@@ -229,8 +239,9 @@ struct DenView: View {
                     }
                 }.buttonStyle(.plain)
             }
+            weekChevron("chevron.right", 1)
         }
-        .padding(4)
+        .padding(.vertical, 3).padding(.horizontal, 2)
         .glassEffect(.regular, in: RoundedRectangle(cornerRadius: 22, style: .continuous))
         .animation(.spring(response: 0.5, dampingFraction: 0.82), value: state.selectedDate)
     }
@@ -245,7 +256,19 @@ struct DenView: View {
     private func dayTitle(_ date: String) -> some View {
         HStack(alignment: .top) {
             VStack(alignment: .leading, spacing: 4) {
-                Text(Cal.dowName(date)).font(.system(size: 26, weight: .bold)).tracking(-0.7).foregroundStyle(T.ink)
+                HStack(alignment: .firstTextBaseline, spacing: 8) {
+                    Text(Cal.dowName(date)).font(.system(size: 26, weight: .bold)).tracking(-0.7).foregroundStyle(T.ink)
+                    Text("\(Cal.day(date)). \(Cal.month(date)).").font(.system(size: 16, weight: .semibold)).foregroundStyle(T.ink3).monospacedDigit()
+                    if date != state.nearestSchoolDay(from: Cal.today) {
+                        Button {
+                            UIImpactFeedbackGenerator(style: .light).impactOccurred()
+                            state.select(state.nearestSchoolDay(from: Cal.today))
+                        } label: {
+                            Text("Dnes").font(.system(size: 12, weight: .bold)).foregroundStyle(T.accent)
+                                .padding(.horizontal, 9).padding(.vertical, 3).background(T.accentSoft, in: Capsule())
+                        }.buttonStyle(.plain)
+                    }
+                }
                 HStack(spacing: 8) {
                     if let v = state.vydej(date) { ServeLine(date: date, vydej: v) }
                     if case .menu(let m)? = orders.status(date, schoolId: state.active.id) {
