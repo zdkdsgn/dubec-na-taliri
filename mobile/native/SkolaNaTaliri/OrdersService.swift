@@ -33,6 +33,8 @@ final class OrdersService: NSObject, ObservableObject, WKNavigationDelegate {
     @Published private(set) var snapshot: OrderSnapshot?
     @Published private(set) var loggedIn: Bool
     @Published private(set) var busy = false
+    @Published var child = 0
+    private(set) var demo = false
 
     private var web: WKWebView?
     private var waiting: CheckedContinuation<String?, Never>?
@@ -42,6 +44,35 @@ final class OrdersService: NSObject, ObservableObject, WKNavigationDelegate {
         snapshot = d.data(forKey: "skola.orders").flatMap { try? JSONDecoder().decode(OrderSnapshot.self, from: $0) }
         loggedIn = d.bool(forKey: "skola.ordersLoggedIn")
         super.init()
+        #if DEBUG
+        if ProcessInfo.processInfo.arguments.contains("-demoOrders") { loadDemo() }
+        #endif
+    }
+
+    #if DEBUG
+    /// Ukázková data pro náhled UI (spuštění s argumentem -demoOrders): dvě děti, různé stavy.
+    private func loadDemo() {
+        demo = true; loggedIn = true
+        let j = ["NOVÁKOVÁ ANIČKA", "NOVÁK KVÍDO"]
+        func d(_ iso: String, _ a: (Int?, Bool), _ b: (Int?, Bool)) -> OrderDay {
+            OrderDay(d: iso, jmena: j,
+                     menu: [OrderMenu(c: 1, o: [a.0 == 1, b.0 == 1]), OrderMenu(c: 2, o: [a.0 == 2, b.0 == 2])],
+                     odhl: [a.1, b.1])
+        }
+        snapshot = OrderSnapshot(schoolId: "47", fetched: Date(), dny: [
+            d("2026-11-09", (1, false), (2, false)),
+            d("2026-11-10", (1, false), (nil, false)),
+            d("2026-11-11", (nil, true), (1, false)),
+            d("2026-11-12", (2, false), (1, false)),
+            d("2026-11-13", (1, false), (nil, true)),
+        ])
+    }
+    #endif
+
+    /// Menu přihlášená vybranému dítěti na daný den.
+    func orderedMenus(_ date: String, schoolId: String) -> [Int] {
+        guard loggedIn, let s = snapshot, s.schoolId == schoolId, case .menu(let m)? = s.status(date, child: child) else { return [] }
+        return m
     }
 
     static func pageURL(_ schoolId: String) -> URL? {
@@ -55,7 +86,7 @@ final class OrdersService: NSObject, ObservableObject, WKNavigationDelegate {
 
     /// Načte jídelní lístek v neviditelném okně a přečte objednávky. Když je rodič odhlášený, jen to zaznamená.
     func refresh(schoolId: String) async {
-        guard Self.supports(schoolId), loggedIn, !busy, let url = Self.pageURL(schoolId) else { return }
+        guard !demo, Self.supports(schoolId), loggedIn, !busy, let url = Self.pageURL(schoolId) else { return }
         busy = true
         defer { busy = false }
         let wv = WKWebView(frame: .zero, configuration: WKWebViewConfiguration())

@@ -99,7 +99,24 @@ struct DenView: View {
     @ViewBuilder private func orderBadges(_ date: String) -> some View {
         if let snap = orders.snapshot, snap.schoolId == state.active.id, orders.loggedIn {
             let names = snap.children
-            ForEach(Array((names.isEmpty ? [""] : names).enumerated()), id: \.offset) { i, name in
+            let i = min(orders.child, max(names.count - 1, 0))
+            VStack(alignment: .leading, spacing: 8) {
+                if names.count > 1 {
+                    HStack(spacing: 8) {
+                        ForEach(Array(names.enumerated()), id: \.offset) { k, n in
+                            Button {
+                                UIImpactFeedbackGenerator(style: .light).impactOccurred()
+                                withAnimation(.snappy) { orders.child = k }
+                            } label: {
+                                Text(Self.given(n)).font(.system(size: 14, weight: .semibold))
+                                    .foregroundStyle(k == i ? Color.white : T.ink)
+                                    .padding(.horizontal, 14).padding(.vertical, 7)
+                                    .background(k == i ? T.accent : T.track, in: Capsule())
+                            }.buttonStyle(.plain)
+                        }
+                        Spacer(minLength: 0)
+                    }
+                }
                 if let st = snap.status(date, child: i) {
                     let (icon, text, ok): (String, String, Bool) = {
                         switch st {
@@ -110,7 +127,7 @@ struct DenView: View {
                     }()
                     HStack(spacing: 8) {
                         Image(systemName: icon)
-                        Text(name.isEmpty ? text : text + " · " + name.capitalized).font(.system(size: 13.5, weight: .semibold))
+                        Text(text).font(.system(size: 13.5, weight: .semibold))
                         Spacer(minLength: 0)
                     }
                     .foregroundStyle(ok ? T.accent : T.ink2)
@@ -119,6 +136,11 @@ struct DenView: View {
                 }
             }
         }
+    }
+
+    /// Křestní jméno z „PŘÍJMENÍ JMÉNO“ (jidelna.cz píše příjmení první).
+    static func given(_ full: String) -> String {
+        (full.split(separator: " ").last.map(String.init) ?? full).capitalized
     }
 
     @ViewBuilder private var notes: some View {

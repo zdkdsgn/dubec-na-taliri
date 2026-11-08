@@ -82,6 +82,7 @@ struct MealIcon: View {
 
 struct MealCard: View {
     @EnvironmentObject var state: AppState
+    @EnvironmentObject var orders: OrdersService
     let meal: Chod
     let date: String
     let ocas: [String]
@@ -97,6 +98,8 @@ struct MealCard: View {
         let desc = MenuLogic.vlastniPopis(meal, ocas: ocas)
         let accent: Color = inMain ? T.red : outside ? T.amber : lead ? T.accent : T.ink
         let past = date < Cal.today
+        let menus = orders.orderedMenus(date, schoolId: state.active.id)
+        let ordered = (meal.c == "obed" && menus.contains(1)) || (meal.c == "obed2" && menus.contains(2))
 
         Button(action: onTap) {
             HStack(alignment: .top, spacing: 14) {
@@ -109,6 +112,7 @@ struct MealCard: View {
                         if inMain { Badge(text: "Alergen \(hits.map(String.init).joined(separator: ", "))", kind: .warn) }
                         else if outside { Badge(text: "Alergen \(hits.map(String.init).joined(separator: ", ")) · \(state.hitPlaces(meal).joined(separator: ", "))", kind: .warnSoft) }
                         else if disliked { Badge(text: "Nemá rád", kind: .muted) }
+                        else if ordered { Badge(text: "✓ Přihlášeno", kind: .lead) }
                         else if meal.c == "obed" { Badge(text: "Oběd", kind: .lead) }
                         else if meal.c == "obed2" { Badge(text: "Oběd II", kind: .lead) }
                     }
