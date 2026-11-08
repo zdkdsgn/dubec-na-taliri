@@ -16,7 +16,7 @@ struct DenView: View {
         let ocas = MenuLogic.spolecnyOcas(list)
 
         ScrollView {
-            VStack(alignment: .leading, spacing: 14) {
+            VStack(alignment: .leading, spacing: 9) {
                 header
                 favSwitcher
                 OrderChildPicker()
@@ -25,7 +25,7 @@ struct DenView: View {
                 if state.multiGroup { groupPicker }
                 notes
 
-                VStack(alignment: .leading, spacing: 14) {
+                VStack(alignment: .leading, spacing: 10) {
                     dayTitle(date)
                     orderBadges(date)
                     if list.isEmpty {
@@ -164,10 +164,10 @@ struct DenView: View {
                             UIImpactFeedbackGenerator(style: .light).impactOccurred()
                             Task { withAnimation(.spring(response: 0.4, dampingFraction: 0.85)) {}; await state.choose(s) }
                         } label: {
-                            Text(s.jmeno).font(.system(size: 14, weight: .semibold)).lineLimit(1)
+                            Text(s.jmeno).font(.system(size: 13, weight: .semibold)).lineLimit(1)
                                 .frame(maxWidth: 190)
                                 .foregroundStyle(on ? T.onAccent : T.ink2)
-                                .padding(.horizontal, 14).padding(.vertical, 8)
+                                .padding(.horizontal, 12).padding(.vertical, 6)
                                 .background {
                                     if on { Capsule().fill(T.accent).matchedGeometryEffect(id: "favthumb", in: favThumb) }
                                     else { Capsule().fill(T.track) }
@@ -176,7 +176,7 @@ struct DenView: View {
                     }
                     Button { showSchools = true } label: {
                         Image(systemName: "plus").font(.system(size: 13, weight: .bold)).foregroundStyle(T.ink2)
-                            .frame(width: 34, height: 34).background(T.track, in: Circle())
+                            .frame(width: 29, height: 29).background(T.track, in: Circle())
                     }.buttonStyle(.plain)
                 }
             }
@@ -212,14 +212,14 @@ struct DenView: View {
                     UIImpactFeedbackGenerator(style: .light).impactOccurred()
                     state.select(d)
                 } label: {
-                    VStack(spacing: 2) {
+                    VStack(spacing: 1) {
                         Text(Cal.dowShort(d)).font(.system(size: 11, weight: .bold))
-                        Text("\(Cal.day(d))").font(.system(size: 20, weight: .bold)).monospacedDigit()
+                        Text("\(Cal.day(d))").font(.system(size: 18, weight: .bold)).monospacedDigit()
                         Circle().fill(d == Cal.today ? (sel ? T.onAccent : T.accent) : .clear).frame(width: 4, height: 4)
                         OrderGlyph(date: d, sel: sel)
                     }
                     .foregroundStyle(sel ? T.onAccent : T.ink)
-                    .frame(maxWidth: .infinity).padding(.vertical, 9)
+                    .frame(maxWidth: .infinity).padding(.vertical, 6)
                     .background {
                         if sel {
                             RoundedRectangle(cornerRadius: 16, style: .continuous).fill(T.accent)
@@ -245,11 +245,15 @@ struct DenView: View {
     private func dayTitle(_ date: String) -> some View {
         HStack(alignment: .top) {
             VStack(alignment: .leading, spacing: 4) {
-                Text(Cal.dowName(date)).font(.system(size: 30, weight: .bold)).tracking(-0.8).foregroundStyle(T.ink)
-                if let v = state.vydej(date) { ServeLine(date: date, vydej: v) }
-                if case .menu(let m)? = orders.status(date, schoolId: state.active.id) {
-                    Text("✓ Přihlášeno · menu " + m.map(String.init).joined(separator: "+"))
-                        .font(.system(size: 13, weight: .bold)).foregroundStyle(T.accent)
+                Text(Cal.dowName(date)).font(.system(size: 26, weight: .bold)).tracking(-0.7).foregroundStyle(T.ink)
+                HStack(spacing: 8) {
+                    if let v = state.vydej(date) { ServeLine(date: date, vydej: v) }
+                    if case .menu(let m)? = orders.status(date, schoolId: state.active.id) {
+                        Text("✓ menu " + m.map(String.init).joined(separator: "+"))
+                            .font(.system(size: 13, weight: .bold)).foregroundStyle(T.accent)
+                            .padding(.horizontal, 8).padding(.vertical, 2)
+                            .background(T.accentSoft, in: Capsule()).fixedSize()
+                    }
                 }
             }
             Spacer()

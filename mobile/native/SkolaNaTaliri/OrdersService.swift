@@ -284,10 +284,10 @@ struct OrderChildPicker: View {
                     UIImpactFeedbackGenerator(style: .light).impactOccurred()
                     withAnimation(.snappy) { orders.child = k }
                 } label: {
-                    Text(givenName(n)).font(.system(size: 15, weight: .semibold))
+                    Text(givenName(n)).font(.system(size: 14, weight: .semibold))
                         .foregroundStyle(k == i ? T.onAccent : T.ink)
                         .frame(maxWidth: names.count > 3 ? nil : .infinity)
-                        .padding(.horizontal, 16).padding(.vertical, 9)
+                        .padding(.horizontal, 14).padding(.vertical, 6)
                         .background(k == i ? T.accent : Color.clear, in: Capsule())
                 }.buttonStyle(.plain)
             }
@@ -298,7 +298,7 @@ struct OrderChildPicker: View {
                     HStack(spacing: 4) { items }
                 }
             }
-            .padding(3).background(T.track, in: Capsule())
+            .padding(2).background(T.track, in: Capsule())
         }
     }
 }
