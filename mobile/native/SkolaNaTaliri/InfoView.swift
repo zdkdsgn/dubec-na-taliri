@@ -6,6 +6,7 @@ struct InfoView: View {
     @State private var reminder: URL?
     @State private var pushError: String?
     @EnvironmentObject var orders: OrdersService
+    @EnvironmentObject var reminders: LocalReminders
     @State private var showLogin = false
     @ObservedObject private var push = PushService.shared
 
@@ -47,6 +48,16 @@ struct InfoView: View {
                         Image(systemName: "chevron.right").font(.system(size: 13, weight: .semibold)).foregroundStyle(T.ink3)
                     }.padding(14).frame(maxWidth: .infinity).card()
                 }.buttonStyle(PressableStyle())
+
+                Link(destination: URL(string: "https://zdkdsgn.github.io/dubec-na-taliri/soukromi.html")!) {
+                    HStack(spacing: 14) {
+                        Image(systemName: "hand.raised").foregroundStyle(T.ink2).frame(width: 40, height: 40)
+                            .background(T.track, in: RoundedRectangle(cornerRadius: 12, style: .continuous))
+                        Text("Zásady ochrany soukromí").font(.system(size: 16, weight: .bold)).foregroundStyle(T.ink)
+                        Spacer()
+                        Image(systemName: "arrow.up.right").font(.system(size: 13, weight: .semibold)).foregroundStyle(T.ink3)
+                    }.padding(14).frame(maxWidth: .infinity).card()
+                }
 
                 if let url = URL(string: state.active.web ?? "https://www.jidelna.cz/jidelni-listek/?jidelna=\(state.active.id)") {
                     Link(destination: url) {
@@ -91,6 +102,22 @@ struct InfoView: View {
                     if let pushError { Text(pushError).font(.system(size: 13)).foregroundStyle(T.red) }
                 }.padding(16).frame(maxWidth: .infinity, alignment: .leading).card()
                 .task { await push.refreshAuthorization() }
+
+                VStack(alignment: .leading, spacing: 8) {
+                    Toggle(isOn: Binding(get: { reminders.enabled }, set: { v in Task { await reminders.setEnabled(v) } })) {
+                        HStack(spacing: 12) {
+                            Image(systemName: "moon.stars").foregroundStyle(T.ink2).frame(width: 40, height: 40)
+                                .background(T.track, in: RoundedRectangle(cornerRadius: 12, style: .continuous))
+                            Text("Večerní upozornění").font(.system(size: 16, weight: .bold))
+                        }
+                    }.tint(T.accent)
+                    Text("V 18:00 den předem napíšeme, když jídelníček obsahuje váš alergen, nebo (po přihlášení k jidelna.cz) když není přihlášený oběd.")
+                        .font(.system(size: 14)).foregroundStyle(T.ink2)
+                    if reminders.denied {
+                        Text("Upozornění jsou v Nastavení iPhonu vypnutá. Povolte je pro Školu na talíři.")
+                            .font(.system(size: 13)).foregroundStyle(T.amber)
+                    }
+                }.padding(16).frame(maxWidth: .infinity, alignment: .leading).card()
 
                 VStack(alignment: .leading, spacing: 8) {
                     Text("Odhlášení z obědů").font(.system(size: 16, weight: .bold))
@@ -156,7 +183,7 @@ struct InfoView: View {
                 if !kids.isEmpty {
                     Text("Přihlášeno · " + kids.joined(separator: ", ")).font(.system(size: 15, weight: .semibold)).foregroundStyle(T.accent)
                 }
-                Text(orders.snapshot.map { "Načteno \($0.fetched.formatted(date: .abbreviated, time: .shortened)). V jídelníčku uvidíte, které menu má dítě přihlášené." }
+                Text(orders.snapshot.map { "Načteno \($0.fetched.formatted(.dateTime.day().month().year().hour().minute().locale(Locale(identifier: "cs_CZ")))). V jídelníčku uvidíte, které menu má dítě přihlášené." }
                      ?? "Přihlášeno. Objednávky se načítají…")
                     .font(.system(size: 14)).foregroundStyle(T.ink2)
                 Button { Task { await orders.refresh(schoolId: state.active.id) } } label: {
@@ -169,6 +196,9 @@ struct InfoView: View {
                     Text("Odhlásit od jidelna.cz").font(.system(size: 14, weight: .medium)).foregroundStyle(T.red)
                 }
             } else {
+                if orders.expired {
+                    Text("Přihlášení vypršelo. Přihlaste se prosím znovu.").font(.system(size: 14, weight: .semibold)).foregroundStyle(T.amber)
+                }
                 Text("Přihlaste se k jidelna.cz a v jídelníčku uvidíte, na která jídla má vaše dítě přihlášený oběd. Appka jen čte, nic neobjednává ani neodhlašuje, a heslo nikdy nevidí.")
                     .font(.system(size: 14)).foregroundStyle(T.ink2)
                 Button { showLogin = true } label: {

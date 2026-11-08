@@ -1,0 +1,55 @@
+name: Kontrola dat
+
+# Jednou týdně zkontroluje, jestli se jídelníčky doopravdy aktualizují. Denní stahování má kroky
+# s continue-on-error, takže tichý výpadek jinak nikdo neuvidí. Při problému otevře (nebo doplní)
+# issue „Stav dat“, když je vše v pořádku, zavře ho.
+on:
+  schedule:
+    - cron: "30 5 * * 1"        # pondělí ráno
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  kontrola:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Zkontrolovat stav dat
+        id: stav
+        run: python3 tools/kontrola-dat.py --github
+
+      - name: Uložit stav
+        run: |
+          if [ -n "$(git status --porcelain menu/stav.json)" ]; then
+            git config user.name  "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add menu/stav.json
+            git commit -m "Stav dat $(date '+%-d. %-m. %Y')"
+            git push
+          fi
+
+      - name: Otevřít nebo aktualizovat issue při problému
+        if: steps.stav.outputs.problem == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          cislo=$(gh issue list --state open --label stav-dat --json number --jq '.[0].number')
+          if [ -n "$cislo" ]; then
+            gh issue comment "$cislo" --body-file /tmp/stav.md
+          else
+            gh label create stav-dat --description "Kontrola aktuálnosti dat" --color 1E7A55 2>/dev/null || true
+            gh issue create --title "Stav dat: jídelníčky se možná neaktualizují" --label stav-dat --body-file /tmp/stav.md
+          fi
+
+      - name: Zavřít issue, když je vše v pořádku
+        if: steps.stav.outputs.problem == 'false'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          for c in $(gh issue list --state open --label stav-dat --json number --jq '.[].number'); do
+            gh issue close "$c" --comment "Data jsou zase aktuální."
+          done

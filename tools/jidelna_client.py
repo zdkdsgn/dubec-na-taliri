@@ -160,6 +160,7 @@ def _zpracuj_menu_bloky(usek_html: str, kurz: str) -> list[dict]:
             kod = kurz if kurz != "obed" else ("obed" if cislo == 1 else "obed2")
             chody.append({
                 "c": kod,
+                "m": cislo,                      # původní číslo menu na jidelna.cz (párování s objednávkami)
                 "n": jidlo["n"],
                 "d": " · ".join(p["n"] for p in polozky),
                 "a": sorted({a for p in vsechny for a in p["a"]}),

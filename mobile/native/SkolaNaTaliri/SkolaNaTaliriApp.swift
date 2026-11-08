@@ -5,6 +5,7 @@ struct SkolaNaTaliriApp: App {
     @UIApplicationDelegateAdaptor(AppDelegate.self) private var appDelegate
     @StateObject private var state = AppState()
     @StateObject private var orders = OrdersService()
+    @StateObject private var reminders = LocalReminders()
     @Environment(\.scenePhase) private var phase
     @State private var showSplash = true
     @Environment(\.accessibilityReduceMotion) private var reduce
@@ -12,7 +13,7 @@ struct SkolaNaTaliriApp: App {
     var body: some Scene {
         WindowGroup {
             ZStack {
-                RootView().environmentObject(state).environmentObject(orders)
+                RootView().environmentObject(state).environmentObject(orders).environmentObject(reminders)
                     .environment(\.dynamicTypeSize, state.bigText ? .xLarge : .large)
                 if showSplash {
                     SplashView().transition(.opacity).zIndex(1)
@@ -20,6 +21,9 @@ struct SkolaNaTaliriApp: App {
             }
             .preferredColorScheme(state.theme.scheme)
             .task(id: state.active.id) { await orders.refresh(schoolId: state.active.id) }
+            .task(id: "\(state.active.id)|\(state.data.updated?.timeIntervalSince1970 ?? 0)|\(state.allergenFilter.sorted())|\(orders.snapshot?.fetched.timeIntervalSince1970 ?? 0)|\(orders.child)|\(reminders.enabled)") {
+                await reminders.reschedule(state: state, orders: orders)
+            }
             .onChange(of: phase) { _, p in
                 if p == .active { Task { await orders.refresh(schoolId: state.active.id) } }
             }

@@ -12,9 +12,11 @@ struct Chod: Decodable, Identifiable, Hashable {
     let d: String
     let a: [Int]
     let p: [ChodCast]?
+    /// Číslo menu na jidelna.cz (nil u starších dnů staženého archivu).
+    let m: Int?
     var id: String { c + "|" + n }
 
-    enum CodingKeys: String, CodingKey { case c, n, d, a, p }
+    enum CodingKeys: String, CodingKey { case c, n, d, a, p, m }
     init(from decoder: Decoder) throws {
         let k = try decoder.container(keyedBy: CodingKeys.self)
         c = try k.decode(String.self, forKey: .c)
@@ -22,6 +24,7 @@ struct Chod: Decodable, Identifiable, Hashable {
         d = try k.decodeIfPresent(String.self, forKey: .d) ?? ""
         a = try k.decodeIfPresent([Int].self, forKey: .a) ?? []
         p = try k.decodeIfPresent([ChodCast].self, forKey: .p)
+        m = try k.decodeIfPresent(Int.self, forKey: .m)
     }
 
     var casti: [ChodCast] { p ?? [ChodCast(l: "Jídlo", n: n, a: a)] }

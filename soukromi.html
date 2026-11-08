@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="cs">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Zásady ochrany soukromí – Škola na talíři</title>
+<link rel="icon" href="assets/icon.png" type="image/png">
+<style>
+:root{--bg:#F6FAF7;--ink:#10201A;--ink-2:#4F6359;--accent:#1E7A55;--card:#fff;--line:rgba(16,40,28,.12)}
+@media (prefers-color-scheme:dark){:root{--bg:#0B120E;--ink:#ECF3EE;--ink-2:#A3B6AB;--accent:#4FCB8E;--card:#131C17;--line:rgba(255,255,255,.1)}}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif}
+main{max-width:720px;margin:0 auto;padding:32px 20px 64px}
+h1{font-size:30px;letter-spacing:-.6px;margin:0 0 6px;text-wrap:balance}
+h2{font-size:20px;margin:30px 0 8px;letter-spacing:-.3px}
+p,li{color:var(--ink-2)}
+li{margin:4px 0}
+a{color:var(--accent)}
+.card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:4px 20px 16px}
+small{color:var(--ink-2)}
+</style>
+</head>
+<body>
+<main>
+  <p><a href="./">← Zpět do appky</a></p>
+  <h1>Zásady ochrany soukromí</h1>
+  <small>Škola na talíři · platné od 8. 11. 2026</small>
+
+  <div class="card">
+  <h2>Stručně</h2>
+  <p>Škola na talíři je nezávislý nekomerční projekt, který ukazuje veřejně dostupné jídelníčky škol a školek. Nemá uživatelské účty, žádné reklamy ani analytiku a data o vás neprodává ani nesdílí.</p>
+
+  <h2>Co se ukládá jen ve vašem zařízení</h2>
+  <ul>
+    <li>vybraná škola a oblíbené školy, filtr alergenů a nechtěných jídel, hodnocení jídel, vzhled appky,</li>
+    <li>jídelny z iCanteen, které si přidáte,</li>
+    <li>jídelníčky stažené pro offline zobrazení.</li>
+  </ul>
+  <p>Tyto údaje zůstávají v prohlížeči (web) nebo v appce (iPhone, Apple Watch) a smažete je odinstalováním nebo vymazáním dat webu.</p>
+
+  <h2>Přihlášení k jidelna.cz (iOS, beta)</h2>
+  <p>Chcete-li v jídelníčku vidět, na která jídla má dítě přihlášený oběd, přihlásíte se přímo na webu jidelna.cz v okně uvnitř appky. <b>Appka vaše heslo nevidí ani neukládá</b>; v zařízení zůstane jen přihlašovací cookie vydané jidelna.cz. Z přihlášené stránky appka přečte jména (křestní jména dětí) a objednaná menu, uloží je jen v zařízení a nikam je neodesílá. Appka nic neobjednává ani neodhlašuje. Tlačítko „Odhlásit“ v Infu smaže přihlášení i uložené objednávky.</p>
+
+  <h2>Upozornění</h2>
+  <ul>
+    <li><b>Upozornění na nový jídelníček</b> (volitelné): do našeho serveru se uloží identifikátor vašeho zařízení pro upozornění (web push, nebo token APNs od Apple) spolu s ID škol, které si u upozornění zapnete. Slouží jen k odeslání upozornění; vypnutím u dané školy se záznam smaže.</li>
+    <li><b>Večerní upozornění</b> (volitelné): plánují se přímo v zařízení z už stažených dat, na server se nic neodesílá.</li>
+  </ul>
+
+  <h2>Co jde přes náš server</h2>
+  <p>Jídelníčky stahuje naše automatizace z veřejných stránek (jidelna.cz, vlastní weby některých škol) a ukládá je na GitHub Pages. Pro jídelny z iCanteen se po přidání odešle číslo jídelny na náš server (Cloudflare Workers), který přečte její veřejný jídelníček. Server a hosting (GitHub, Cloudflare) mohou běžně logovat technické údaje požadavků (např. IP adresu) podle svých zásad.</p>
+
+  <h2>Zdroje dat o školách</h2>
+  <p>Jídelníčky, kontakty a doby výdejů pocházejí z veřejných stránek jidelna.cz, z webů jídelen a škol. Údaje o řediteli a e-mail školy u části škol pocházejí z Rejstříku škol a školských zařízení (zdroj: MŠMT, otevřená data). Appka je neoficiální přehled; před rozhodnutím ověřte údaje u školy.</p>
+
+  <h2>Děti a osobní údaje</h2>
+  <p>Appka není určena dětem k samostatnému používání a nesbírá o dětech žádné údaje kromě výše uvedených objednávek zobrazených rodiči a uložených jen v jeho zařízení.</p>
+
+  <h2>Vaše práva a kontakt</h2>
+  <p>Protože o vás nevedeme žádné účty, můžete data smazat sami (odinstalací, vymazáním dat webu, vypnutím upozornění, odhlášením od jidelna.cz). Dotazy a žádosti o výmaz záznamu upozornění pošlete přes <a href="https://github.com/zdkdsgn/dubec-na-taliri/issues">GitHub projektu</a>.</p>
+  </div>
+</main>
+</body>
+</html>

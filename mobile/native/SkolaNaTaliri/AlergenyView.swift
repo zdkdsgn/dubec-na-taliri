@@ -11,6 +11,10 @@ struct AlergenyView: View {
                     Text("Alergeny").font(.system(size: 28, weight: .bold)).tracking(-0.8)
                     Text("Zapněte ty, které hlídáte – jídla s nimi se v jídelníčku zvýrazní.")
                         .font(.system(size: 15)).foregroundStyle(T.ink2)
+                    if !state.profileKey.isEmpty {
+                        Label("Profil dítěte: \(state.profileKey)", systemImage: "person.crop.circle")
+                            .font(.system(size: 14, weight: .semibold)).foregroundStyle(T.accent).padding(.top, 2)
+                    }
                 }
                 .padding(.top, 14)
 

@@ -33,14 +33,32 @@ final class AppState: ObservableObject {
     @Published var selectedDate = Cal.today
     @Published var forward = true
 
+    /// Profil alergenů a nechtěných jídel jednoho dítěte (u víc dětí má každé svůj).
+    struct Profil: Codable { var filter: [Int]; var dislikes: [String] }
+    /// "" = společný profil (jedno dítě / nepřihlášený rodič), jinak křestní jméno dítěte.
+    @Published private(set) var profileKey = ""
+    private var profily: [String: Profil] = Store.get("profily", [String: Profil]())
+    private func ulozProfil() {
+        profily[profileKey] = Profil(filter: allergenFilter.sorted(), dislikes: Array(dislikes))
+        Store.set("profily", profily)
+    }
+    func setProfile(_ key: String) {
+        guard key != profileKey else { return }
+        ulozProfil()
+        let p = profily[key] ?? Profil(filter: allergenFilter.sorted(), dislikes: Array(dislikes))   // nový profil začne kopií
+        profileKey = key
+        allergenFilter = Set(p.filter)
+        dislikes = Set(p.dislikes)
+    }
+
     @Published var allergenFilter: Set<Int> = Set(Store.get("filter", [Int]())) {
-        didSet { Store.set("filter", Array(allergenFilter)) }
+        didSet { if profileKey.isEmpty { Store.set("filter", Array(allergenFilter)) }; ulozProfil() }
     }
     @Published var ratings: [String: Int] = Store.get("ratings", [String: Int]()) {
         didSet { Store.set("ratings", ratings) }
     }
     @Published var dislikes: Set<String> = Set(Store.get("dislikes", [String]())) {
-        didSet { Store.set("dislikes", Array(dislikes)) }
+        didSet { if profileKey.isEmpty { Store.set("dislikes", Array(dislikes)) }; ulozProfil() }
     }
     @Published var favorites: Set<String> = Set(Store.get("favorites", [String]())) {
         didSet { Store.set("favorites", Array(favorites)); syncWatch() }

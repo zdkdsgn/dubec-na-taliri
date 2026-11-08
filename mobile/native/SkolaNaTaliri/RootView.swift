@@ -2,6 +2,7 @@ import SwiftUI
 
 struct RootView: View {
     @EnvironmentObject var state: AppState
+    @EnvironmentObject var orders: OrdersService
     @State private var tab = 0
     @State private var showSchools = false
     @State private var onboarded = UserDefaults.standard.bool(forKey: "skola.onboarded")
@@ -34,12 +35,19 @@ struct RootView: View {
                 }
             }
         }
-        .task { await state.start() }
+        .task { await state.start(); state.setProfile(profileKeyNow) }
+        .onChange(of: profileKeyNow) { _, k in state.setProfile(k) }
         .onReceive(NotificationCenter.default.publisher(for: .openSchoolFromPush)) { n in
             guard let id = n.object as? String else { return }
             tab = 0
             Task { await state.openFromPush(id) }
         }
+    }
+
+    /// Profil podle vybraného dítěte (jen když jsou víc než jedno).
+    private var profileKeyNow: String {
+        let kids = orders.children(schoolId: state.active.id)
+        return kids.count > 1 ? givenName(kids[min(orders.child, kids.count - 1)]) : ""
     }
 
     private func page<C: View>(@ViewBuilder _ content: () -> C) -> some View {

@@ -100,7 +100,7 @@ struct MealCard: View {
         let accent: Color = inMain ? T.red : outside ? T.amber : lead ? T.accent : T.ink
         let past = date < Cal.today
         let menus = orders.orderedMenus(date, schoolId: state.active.id)
-        let ordered = (meal.c == "obed" && menus.contains(1)) || (meal.c == "obed2" && menus.contains(2))
+        let ordered = (meal.c == "obed" || meal.c == "obed2") && menus.contains(meal.m ?? (meal.c == "obed" ? 1 : 2))
         let isMain = meal.c == "obed" || meal.c == "obed2"
         let dimmed = isMain && !ordered && !menus.isEmpty   // dítě je přihlášené na jiné menu
 

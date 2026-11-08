@@ -34,6 +34,8 @@ final class OrdersService: NSObject, ObservableObject, WKNavigationDelegate {
     @Published private(set) var loggedIn: Bool
     @Published private(set) var busy = false
     @Published var child = 0
+    /// Přihlášení k jidelna.cz vypršelo (rodič byl přihlášen a teď už není).
+    @Published private(set) var expired = false
     private(set) var demo = false
 
     private var web: WKWebView?
@@ -141,6 +143,8 @@ final class OrdersService: NSObject, ObservableObject, WKNavigationDelegate {
     @discardableResult
     func ingest(_ json: String, schoolId: String) -> Bool {
         guard let data = json.data(using: .utf8), let r = try? JSONDecoder().decode(Extract.self, from: data) else { return false }
+        if loggedIn && !r.prihlasen { expired = true }
+        if r.prihlasen { expired = false }
         setLoggedIn(r.prihlasen)
         guard r.prihlasen else { return false }
         if !r.dny.isEmpty {
@@ -162,6 +166,7 @@ final class OrdersService: NSObject, ObservableObject, WKNavigationDelegate {
         let records = await store.dataRecords(ofTypes: WKWebsiteDataStore.allWebsiteDataTypes())
         await store.removeData(ofTypes: WKWebsiteDataStore.allWebsiteDataTypes(), for: records.filter { $0.displayName.contains("jidelna.cz") })
         snapshot = nil
+        expired = false
         UserDefaults.standard.removeObject(forKey: "skola.orders")
         setLoggedIn(false)
     }

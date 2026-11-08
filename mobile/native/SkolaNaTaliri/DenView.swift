@@ -142,6 +142,12 @@ struct DenView: View {
     }
 
     @ViewBuilder private var notes: some View {
+        if orders.expired {
+            Button { withAnimation { tab = 3 } } label: {
+                note(icon: "person.crop.circle.badge.exclamationmark", tint: T.amber, bg: T.amberBg,
+                     title: "Přihlášení k jidelna.cz vypršelo.", text: "Klepněte a přihlaste se znovu (Info).")
+            }.buttonStyle(.plain)
+        }
         if let days = state.staleDays, let u = state.data.updated {
             note(icon: "exclamationmark.triangle", tint: T.amber, bg: T.amberBg,
                  title: "Data možná nejsou aktuální.",
@@ -286,6 +292,10 @@ struct DenView: View {
                     .font(.system(size: 13, weight: .bold)).foregroundStyle(T.accent)
                     .padding(.horizontal, 8).padding(.vertical, 2)
                     .background(T.accentSoft, in: Capsule()).fixedSize()
+                if let url = OrdersService.pageURL(state.active.id) {
+                    Link("Odhlásit", destination: url)
+                        .font(.system(size: 13, weight: .semibold)).foregroundStyle(T.ink2).fixedSize()
+                }
             }
             Spacer(minLength: 0)
             if date != state.nearestSchoolDay(from: Cal.today) {
