@@ -254,39 +254,33 @@ struct DenView: View {
     }
 
     private func dayTitle(_ date: String) -> some View {
-        HStack(alignment: .top) {
-            VStack(alignment: .leading, spacing: 4) {
-                HStack(alignment: .firstTextBaseline, spacing: 8) {
-                    Text(Cal.dowName(date)).font(.system(size: 26, weight: .bold)).tracking(-0.7).foregroundStyle(T.ink)
-                    Text("\(Cal.day(date)). \(Cal.month(date)).").font(.system(size: 16, weight: .semibold)).foregroundStyle(T.ink3).monospacedDigit()
-                    if date != state.nearestSchoolDay(from: Cal.today) {
-                        Button {
-                            UIImpactFeedbackGenerator(style: .light).impactOccurred()
-                            state.select(state.nearestSchoolDay(from: Cal.today))
-                        } label: {
-                            Text("Dnes").font(.system(size: 12, weight: .bold)).foregroundStyle(T.accent)
-                                .padding(.horizontal, 9).padding(.vertical, 3).background(T.accentSoft, in: Capsule())
-                        }.buttonStyle(.plain)
-                    }
-                }
-                HStack(spacing: 8) {
-                    if let v = state.vydej(date) { ServeLine(date: date, vydej: v) }
-                    if case .menu(let m)? = orders.status(date, schoolId: state.active.id) {
-                        Text("✓ menu " + m.map(String.init).joined(separator: "+"))
-                            .font(.system(size: 13, weight: .bold)).foregroundStyle(T.accent)
-                            .padding(.horizontal, 8).padding(.vertical, 2)
-                            .background(T.accentSoft, in: Capsule()).fixedSize()
-                    }
+        VStack(alignment: .leading, spacing: 3) {
+            HStack(alignment: .firstTextBaseline, spacing: 8) {
+                Text(Cal.dowName(date)).font(.system(size: 26, weight: .bold)).tracking(-0.7).foregroundStyle(T.ink)
+                Text("\(Cal.day(date)). \(Cal.month(date)).").font(.system(size: 16, weight: .semibold)).foregroundStyle(T.ink3).monospacedDigit()
+                Spacer(minLength: 0)
+                ShareLink(item: shareText(date)) {
+                    Image(systemName: "square.and.arrow.up").font(.system(size: 17, weight: .medium))
+                        .foregroundStyle(T.ink2).frame(width: 34, height: 28)
                 }
             }
-            Spacer()
             HStack(spacing: 8) {
-                ShareLink(item: shareText(date)) {
-                    Image(systemName: "square.and.arrow.up").font(.system(size: 15, weight: .medium))
-                        .foregroundStyle(T.ink2).frame(width: 38, height: 38).glassEffect(.regular.interactive(), in: Circle())
+                if let v = state.vydej(date) { ServeLine(date: date, vydej: v) }
+                if case .menu(let m)? = orders.status(date, schoolId: state.active.id) {
+                    Text("✓ menu " + m.map(String.init).joined(separator: "+"))
+                        .font(.system(size: 13, weight: .bold)).foregroundStyle(T.accent)
+                        .padding(.horizontal, 8).padding(.vertical, 2)
+                        .background(T.accentSoft, in: Capsule()).fixedSize()
                 }
-                Button { withAnimation(.spring(response: 0.4, dampingFraction: 0.85)) { tab = 1 } } label: {
-                    Text("Celý týden ↗").font(.system(size: 14, weight: .bold)).foregroundStyle(T.accent)
+                Spacer(minLength: 0)
+                if date != state.nearestSchoolDay(from: Cal.today) {
+                    Button {
+                        UIImpactFeedbackGenerator(style: .light).impactOccurred()
+                        state.select(state.nearestSchoolDay(from: Cal.today))
+                    } label: {
+                        Label("Dnes", systemImage: "arrow.uturn.backward").font(.system(size: 12, weight: .bold)).foregroundStyle(T.accent)
+                            .padding(.horizontal, 9).padding(.vertical, 3).background(T.accentSoft, in: Capsule())
+                    }.buttonStyle(.plain)
                 }
             }
         }
