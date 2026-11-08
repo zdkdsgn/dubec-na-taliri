@@ -152,17 +152,21 @@ struct InfoView: View {
                     .padding(.horizontal, 6).padding(.vertical, 2).background(T.accentSoft, in: Capsule())
             }
             if orders.loggedIn {
+                let kids = orders.children(schoolId: state.active.id).map(givenName)
+                if !kids.isEmpty {
+                    Text("Přihlášeno · " + kids.joined(separator: ", ")).font(.system(size: 15, weight: .semibold)).foregroundStyle(T.accent)
+                }
                 Text(orders.snapshot.map { "Načteno \($0.fetched.formatted(date: .abbreviated, time: .shortened)). V jídelníčku uvidíte, které menu má dítě přihlášené." }
                      ?? "Přihlášeno. Objednávky se načítají…")
                     .font(.system(size: 14)).foregroundStyle(T.ink2)
-                HStack(spacing: 10) {
-                    Button { Task { await orders.refresh(schoolId: state.active.id) } } label: {
-                        Text(orders.busy ? "Načítám…" : "Obnovit").font(.system(size: 15, weight: .semibold)).foregroundStyle(T.accent)
-                    }.disabled(orders.busy)
-                    Spacer()
-                    Button(role: .destructive) { Task { await orders.logout() } } label: {
-                        Text("Odhlásit").font(.system(size: 15, weight: .semibold))
-                    }
+                Button { Task { await orders.refresh(schoolId: state.active.id) } } label: {
+                    Text(orders.busy ? "Načítám…" : "Obnovit objednávky").font(.system(size: 15, weight: .semibold)).foregroundStyle(T.accent)
+                        .frame(maxWidth: .infinity).padding(.vertical, 11)
+                        .background(T.accentSoft, in: RoundedRectangle(cornerRadius: 12, style: .continuous))
+                }.disabled(orders.busy).buttonStyle(PressableStyle())
+                Divider().padding(.top, 4)
+                Button(role: .destructive) { Task { await orders.logout() } } label: {
+                    Text("Odhlásit od jidelna.cz").font(.system(size: 14, weight: .medium)).foregroundStyle(T.red)
                 }
             } else {
                 Text("Přihlaste se k jidelna.cz a v jídelníčku uvidíte, na která jídla má vaše dítě přihlášený oběd. Appka jen čte, nic neobjednává ani neodhlašuje, a heslo nikdy nevidí.")

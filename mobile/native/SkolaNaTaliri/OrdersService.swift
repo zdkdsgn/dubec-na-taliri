@@ -69,6 +69,18 @@ final class OrdersService: NSObject, ObservableObject, WKNavigationDelegate {
     }
     #endif
 
+    /// Jména dětí pro přepínač (prázdné, když není přihlášení nebo je vybraná jiná škola).
+    func children(schoolId: String) -> [String] {
+        guard loggedIn, let s = snapshot, s.schoolId == schoolId else { return [] }
+        return s.children
+    }
+
+    /// Stav vybraného dítěte v daný den (nil = bez dat nebo nepřihlášeno).
+    func status(_ date: String, schoolId: String) -> OrderStatus? {
+        guard loggedIn, let s = snapshot, s.schoolId == schoolId else { return nil }
+        return s.status(date, child: min(child, max(s.children.count - 1, 0)))
+    }
+
     /// Menu přihlášená vybranému dítěti na daný den.
     func orderedMenus(_ date: String, schoolId: String) -> [Int] {
         guard loggedIn, let s = snapshot, s.schoolId == schoolId, case .menu(let m)? = s.status(date, child: child) else { return [] }
@@ -247,6 +259,65 @@ private struct LoginWeb: UIViewRepresentable {
                     webView.load(URLRequest(url: url))
                 }
             }
+        }
+    }
+}
+
+// MARK: sdílené prvky UI
+
+/// Křestní jméno z „PŘÍJMENÍ JMÉNO“ (jidelna.cz píše příjmení první).
+func givenName(_ full: String) -> String {
+    (full.split(separator: " ").last.map(String.init) ?? full).capitalized
+}
+
+/// Přepínač dětí přes celou šířku (u víc než tří dětí se posouvá).
+struct OrderChildPicker: View {
+    @EnvironmentObject var orders: OrdersService
+    @EnvironmentObject var state: AppState
+
+    var body: some View {
+        let names = orders.children(schoolId: state.active.id)
+        if names.count > 1 {
+            let i = min(orders.child, names.count - 1)
+            let items = ForEach(Array(names.enumerated()), id: \.offset) { k, n in
+                Button {
+                    UIImpactFeedbackGenerator(style: .light).impactOccurred()
+                    withAnimation(.snappy) { orders.child = k }
+                } label: {
+                    Text(givenName(n)).font(.system(size: 15, weight: .semibold))
+                        .foregroundStyle(k == i ? T.onAccent : T.ink)
+                        .frame(maxWidth: names.count > 3 ? nil : .infinity)
+                        .padding(.horizontal, 16).padding(.vertical, 9)
+                        .background(k == i ? T.accent : Color.clear, in: Capsule())
+                }.buttonStyle(.plain)
+            }
+            Group {
+                if names.count > 3 {
+                    ScrollView(.horizontal, showsIndicators: false) { HStack(spacing: 4) { items } }
+                } else {
+                    HStack(spacing: 4) { items }
+                }
+            }
+            .padding(3).background(T.track, in: Capsule())
+        }
+    }
+}
+
+/// Malý stav oběda pod dnem: tečka = přihlášeno, ✕ = odhlášeno, tečkovaný kroužek = nic.
+struct OrderGlyph: View {
+    @EnvironmentObject var orders: OrdersService
+    @EnvironmentObject var state: AppState
+    let date: String
+    var sel = false
+
+    var body: some View {
+        switch orders.status(date, schoolId: state.active.id) {
+        case .menu?: Circle().fill(sel ? T.onAccent : T.accent).frame(width: 6, height: 6).frame(height: 13)
+        case .opted_out?: Image(systemName: "xmark.circle.fill").font(.system(size: 13))
+                .foregroundStyle(sel ? T.onAccent : T.red)
+        case .nothing?: Image(systemName: "circle.dotted").font(.system(size: 12))
+                .foregroundStyle(sel ? T.onAccent.opacity(0.6) : T.ink3.opacity(0.6))
+        case nil: EmptyView()
         }
     }
 }

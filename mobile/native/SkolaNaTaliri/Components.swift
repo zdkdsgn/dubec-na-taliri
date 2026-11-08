@@ -135,9 +135,10 @@ struct MealCard: View {
             .card(fill: inMain ? T.redBg : outside ? T.amberBg : lead ? T.accentSoft : T.card,
                   stroke: inMain ? T.red.opacity(0.35) : outside ? T.amber.opacity(0.35) : lead ? T.accent.opacity(0.25) : T.cardBorder)
             .overlay {
-                if ordered { RoundedRectangle(cornerRadius: 22, style: .continuous).strokeBorder(T.accent, lineWidth: 2.5) }
+                if ordered { RoundedRectangle(cornerRadius: 22, style: .continuous).strokeBorder(T.accent, lineWidth: 2) }
             }
-            .opacity(past ? 0.6 : (disliked ? 0.75 : (dimmed ? 0.55 : 1)))
+            .shadow(color: ordered ? T.accent.opacity(0.22) : .clear, radius: 10, y: 3)
+            .opacity(past ? 0.6 : (disliked ? 0.75 : (dimmed ? 0.75 : 1)))
             .saturation(past ? 0.5 : 1)
         }
         .buttonStyle(PressableStyle())

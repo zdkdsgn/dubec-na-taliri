@@ -2,6 +2,7 @@ import SwiftUI
 
 struct TydenView: View {
     @EnvironmentObject var state: AppState
+    @EnvironmentObject var orders: OrdersService
     @State private var open: Set<String> = [Cal.today]
     @State private var selectedMeal: (Chod, String)?
 
@@ -22,6 +23,8 @@ struct TydenView: View {
                     }
                 }
                 .padding(.top, 14)
+
+                OrderChildPicker()
 
                 ForEach(0..<5, id: \.self) { i in
                     let d = Cal.add(mon, days: i)
@@ -61,6 +64,7 @@ struct TydenView: View {
                         Text(main?.n ?? "Bez jídelníčku").font(.system(size: 14)).foregroundStyle(T.ink2).lineLimit(1)
                     }
                     Spacer()
+                    OrderGlyph(date: d)
                     Image(systemName: "chevron.right").font(.system(size: 13, weight: .semibold)).foregroundStyle(T.ink3)
                         .rotationEffect(.degrees(isOpen ? 90 : 0))
                 }

@@ -19,6 +19,7 @@ struct DenView: View {
             VStack(alignment: .leading, spacing: 14) {
                 header
                 favSwitcher
+                OrderChildPicker()
                 weekBar
                 dayStrip
                 if state.multiGroup { groupPicker }
@@ -95,53 +96,26 @@ struct DenView: View {
         }
     }
 
-    /// Přihlášené obědy z jidelna.cz (jen když je rodič přihlášen v Infu a škola je z jidelna.cz).
+    /// Šedý pruh jen u dnů bez přihlášeného oběda (přihlášený den je vidět na kartě jídla).
     @ViewBuilder private func orderBadges(_ date: String) -> some View {
-        if let snap = orders.snapshot, snap.schoolId == state.active.id, orders.loggedIn {
-            let names = snap.children
-            let i = min(orders.child, max(names.count - 1, 0))
-            VStack(alignment: .leading, spacing: 8) {
-                if names.count > 1 {
-                    HStack(spacing: 8) {
-                        ForEach(Array(names.enumerated()), id: \.offset) { k, n in
-                            Button {
-                                UIImpactFeedbackGenerator(style: .light).impactOccurred()
-                                withAnimation(.snappy) { orders.child = k }
-                            } label: {
-                                Text(Self.given(n)).font(.system(size: 14, weight: .semibold))
-                                    .foregroundStyle(k == i ? Color.white : T.ink)
-                                    .padding(.horizontal, 14).padding(.vertical, 7)
-                                    .background(k == i ? T.accent : T.track, in: Capsule())
-                            }.buttonStyle(.plain)
-                        }
-                        Spacer(minLength: 0)
-                    }
-                }
-                if let st = snap.status(date, child: i) {
-                    let (icon, text, ok): (String, String, Bool) = {
-                        switch st {
-                        case .menu(let m): return ("checkmark.circle.fill", "Přihlášeno: menu " + m.map(String.init).joined(separator: " + "), true)
-                        case .opted_out: return ("xmark.circle.fill", "Odhlášeno z oběda", false)
-                        case .nothing: return ("minus.circle", "Oběd není přihlášený", false)
-                        }
-                    }()
-                    if !ok { HStack(spacing: 10) {
-                        Image(systemName: icon).font(.system(size: 20, weight: .semibold))
-                        Text(text).font(.system(size: 15.5, weight: .bold))
-                        Spacer(minLength: 0)
-                    }
-                    .foregroundStyle(ok ? T.onAccent : T.ink2)
-                    .padding(.horizontal, 14).padding(.vertical, 12)
-                    .background(ok ? T.accent : T.track, in: RoundedRectangle(cornerRadius: 14, style: .continuous))
-                    .shadow(color: ok ? T.accent.opacity(0.3) : .clear, radius: 8, y: 3) }
-                }
+        if let st = orders.status(date, schoolId: state.active.id), st != .menu([]) {
+            switch st {
+            case .menu: EmptyView()
+            case .opted_out: orderNote("xmark.circle.fill", "Odhlášeno z oběda")
+            case .nothing: orderNote("minus.circle", "Oběd není přihlášený")
             }
         }
     }
 
-    /// Křestní jméno z „PŘÍJMENÍ JMÉNO“ (jidelna.cz píše příjmení první).
-    static func given(_ full: String) -> String {
-        (full.split(separator: " ").last.map(String.init) ?? full).capitalized
+    private func orderNote(_ icon: String, _ text: String) -> some View {
+        HStack(spacing: 10) {
+            Image(systemName: icon).font(.system(size: 20, weight: .semibold))
+            Text(text).font(.system(size: 15.5, weight: .bold))
+            Spacer(minLength: 0)
+        }
+        .foregroundStyle(T.ink2)
+        .padding(.horizontal, 14).padding(.vertical, 12)
+        .background(T.track, in: RoundedRectangle(cornerRadius: 14, style: .continuous))
     }
 
     @ViewBuilder private var notes: some View {
@@ -228,18 +202,6 @@ struct DenView: View {
         }
     }
 
-    /// Stav oběda vybraného dítěte pod dnem: ✓ přihlášeno, ✕ odhlášeno, – nic. Jen když je rodič přihlášen.
-    @ViewBuilder private func orderGlyph(iso d: String, sel: Bool) -> some View {
-        if let snap = orders.snapshot, snap.schoolId == state.active.id, orders.loggedIn, !snap.dny.isEmpty {
-            let st = snap.status(d, child: min(orders.child, max(snap.children.count - 1, 0)))
-            switch st {
-            case .menu?: Image(systemName: "checkmark.circle.fill").font(.system(size: 12)).foregroundStyle(sel ? T.onAccent : T.accent)
-            case .opted_out?: Image(systemName: "xmark.circle.fill").font(.system(size: 12)).foregroundStyle(sel ? T.onAccent.opacity(0.8) : T.ink3)
-            default: Image(systemName: "circle.dotted").font(.system(size: 12)).foregroundStyle(sel ? T.onAccent.opacity(0.6) : T.ink3.opacity(0.6))
-            }
-        }
-    }
-
     private var dayStrip: some View {
         let mon = Cal.monday(state.selectedDate)
         return HStack(spacing: 0) {
@@ -254,7 +216,7 @@ struct DenView: View {
                         Text(Cal.dowShort(d)).font(.system(size: 11, weight: .bold))
                         Text("\(Cal.day(d))").font(.system(size: 20, weight: .bold)).monospacedDigit()
                         Circle().fill(d == Cal.today ? (sel ? T.onAccent : T.accent) : .clear).frame(width: 4, height: 4)
-                        orderGlyph(iso: d, sel: sel)
+                        OrderGlyph(date: d, sel: sel)
                     }
                     .foregroundStyle(sel ? T.onAccent : T.ink)
                     .frame(maxWidth: .infinity).padding(.vertical, 9)
@@ -285,6 +247,10 @@ struct DenView: View {
             VStack(alignment: .leading, spacing: 4) {
                 Text(Cal.dowName(date)).font(.system(size: 30, weight: .bold)).tracking(-0.8).foregroundStyle(T.ink)
                 if let v = state.vydej(date) { ServeLine(date: date, vydej: v) }
+                if case .menu(let m)? = orders.status(date, schoolId: state.active.id) {
+                    Text("✓ Přihlášeno · menu " + m.map(String.init).joined(separator: "+"))
+                        .font(.system(size: 13, weight: .bold)).foregroundStyle(T.accent)
+                }
             }
             Spacer()
             HStack(spacing: 8) {
