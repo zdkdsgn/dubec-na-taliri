@@ -195,12 +195,17 @@ struct InfoView: View {
             if let t = i.telefon {
                 linkRow("Telefon", t, URL(string: "tel:" + t.replacingOccurrences(of: " ", with: ""))); divider
             }
-            if let e = i.email { linkRow("E-mail", e, URL(string: "mailto:" + e)); divider }
+            if let e = i.email { linkRow(i.email_zdroj == "rejstrik" ? "E-mail školy" : "E-mail", e, URL(string: "mailto:" + e)); divider }
             if let w = i.web { linkRow("Web", w, i.web_url.flatMap(URL.init(string:))); divider }
             if let x = i.vedouci_jidelny { row("Vedoucí jídelny", x); divider }
             if let x = i.vedouci_kuchyne { row("Vedoucí kuchyně", x); divider }
+            if let x = i.reditel { row("Ředitel/ka", x); divider }
             if let x = i.ico { row("IČO", x); divider }
             if let x = i.ucet { row("Číslo účtu", x) }
+            if i.reditel != nil || i.email_zdroj != nil {
+                Text("Údaje o řediteli a e-mail školy: rejstřík škol a školských zařízení, MŠMT.")
+                    .font(.system(size: 12)).foregroundStyle(T.ink3).padding(.top, 8).padding(.bottom, 10)
+            }
         }.padding(.horizontal, 16).padding(.bottom, 4).frame(maxWidth: .infinity, alignment: .leading).card()
     }
 

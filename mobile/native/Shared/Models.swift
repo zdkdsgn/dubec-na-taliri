@@ -105,7 +105,7 @@ struct SkolaPolozka: Codable, Identifiable, Hashable {
 /// Kontakty a doby výdejů jídelny (schools/<id>/info.json, stahuje tools/fetch-info.py).
 struct SkolaInfo: Codable {
     struct Vydej: Codable, Hashable { let chod: String; let cas: String }
-    var adresa, psc, kraj, ico, telefon, vedouci_jidelny, vedouci_kuchyne, ucet, web, web_url, email: String?
+    var adresa, psc, kraj, ico, telefon, vedouci_jidelny, vedouci_kuchyne, reditel, ucet, web, web_url, email, email_zdroj: String?
     var vydeje: [Vydej]?
     var hasContent: Bool { adresa != nil || telefon != nil || email != nil || web != nil || !(vydeje ?? []).isEmpty }
 }

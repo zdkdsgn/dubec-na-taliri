@@ -72,6 +72,12 @@ def stahni_info(skola_id: str) -> bool:
     if not info:
         return True
     soubor = ROOT / "schools" / skola_id / "info.json"
+    if soubor.exists():                      # údaje z rejstříku MŠMT (tools/merge-rejstrik.py) se nepřepisují
+        stary = json.loads(soubor.read_text(encoding="utf-8"))
+        if stary.get("reditel"):
+            info["reditel"] = stary["reditel"]
+        if not info.get("email") and stary.get("email_zdroj") == "rejstrik":
+            info["email"], info["email_zdroj"] = stary["email"], "rejstrik"
     soubor.parent.mkdir(parents=True, exist_ok=True)
     novy = json.dumps(info, ensure_ascii=False, indent=2) + "\n"
     if not soubor.exists() or soubor.read_text(encoding="utf-8") != novy:
