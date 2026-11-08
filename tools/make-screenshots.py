@@ -27,7 +27,7 @@ SLIDY = [
 
 
 # Jména skutečných lidí (vedoucí jídelny/kuchyně, ředitel) se v reklamních snímcích rozostřují: {snímek: [(x0, y0, x1, y1), …]}
-ROZMAZAT = {"5-info": [(700, 2125, 1260, 2200), (700, 2262, 1260, 2337), (700, 2398, 1260, 2473)]}
+ROZMAZAT = {"5-info": [(560, 2190, 1260, 2270), (560, 2326, 1260, 2406), (560, 2462, 1260, 2540)]}
 
 
 def rozmazat(im, boxy):
@@ -68,6 +68,58 @@ def zaoblit(im, r):
     return out
 
 
+def kov(w, h, r, svetly=(226, 228, 230), tmavy=(128, 132, 135)):
+    """Titanový rám: vodorovný kovový přechod se světlým středem."""
+    g = Image.new("RGBA", (w, h))
+    px = g.load()
+    for x in range(w):
+        t = abs((x / (w - 1)) - 0.5) * 2          # 0 uprostřed, 1 na okrajích
+        c = tuple(int(svetly[i] + (tmavy[i] - svetly[i]) * (t ** 1.6)) for i in range(3))
+        for y in range(h):
+            px[x, y] = c + (255,)
+    m = Image.new("L", (w, h), 0)
+    ImageDraw.Draw(m).rounded_rectangle((0, 0, w, h), r, fill=255)
+    g.putalpha(m)
+    return g
+
+
+def iphone(shot, sw):
+    """Obrázek obrazovky → realistický iPhone (rám, tlačítka, Dynamic Island). Vrací (obrázek, (x, y0))."""
+    sh = round(shot.size[1] * sw / shot.size[0])
+    shot = shot.resize((sw, sh), Image.LANCZOS)
+    obrazovka_r = 112
+    cerny, kovovy = 20, 14
+    ob = cerny + kovovy
+    w, h = sw + 2 * ob, sh + 2 * ob
+    vnejsi_r = obrazovka_r + ob
+    tlacitko = 9
+    pl = Image.new("RGBA", (w + 2 * tlacitko, h), (0, 0, 0, 0))
+    ox = tlacitko
+    # boční tlačítka (vystupují z rámu)
+    d = ImageDraw.Draw(pl)
+    for y, v in ((250, 70), (410, 150), (590, 150)):
+        d.rounded_rectangle((ox - tlacitko, y, ox + 14, y + v), 5, fill=(150, 154, 157, 255))
+    d.rounded_rectangle((ox + w - 14, 470, ox + w + tlacitko, 470 + 230), 5, fill=(150, 154, 157, 255))
+    # kovový rám a černý okraj
+    pl.alpha_composite(kov(w, h, vnejsi_r), (ox, 0))
+    cerna = Image.new("RGBA", (w - 2 * kovovy, h - 2 * kovovy), (0, 0, 0, 0))
+    ImageDraw.Draw(cerna).rounded_rectangle((0, 0, cerna.size[0], cerna.size[1]), vnejsi_r - kovovy, fill=(6, 8, 7, 255))
+    pl.alpha_composite(cerna, (ox + kovovy, kovovy))
+    # obrazovka
+    m = Image.new("L", shot.size, 0)
+    ImageDraw.Draw(m).rounded_rectangle((0, 0, sw, sh), obrazovka_r, fill=255)
+    scr = shot.convert("RGBA"); scr.putalpha(m)
+    pl.alpha_composite(scr, (ox + ob, ob))
+    # Dynamic Island
+    iw, ih = round(290 * sw / 1320 * 0.97), round(107 * sw / 1320 * 0.97)
+    d = ImageDraw.Draw(pl)
+    ix = ox + ob + (sw - iw) // 2
+    iy = ob + round(43 * sw / 1320)
+    d.rounded_rectangle((ix, iy, ix + iw, iy + ih), ih // 2, fill=(0, 0, 0, 255))
+    x = (W - pl.size[0]) // 2
+    return pl, (x, 700)
+
+
 def text_stred(d, y, text, font, fill, mezera):
     for radek in text.split("\n"):
         w = d.textlength(radek, font=font)
@@ -84,22 +136,11 @@ def slide(jmeno, nadpis, podnadpis):
 
     shot = Image.open(RAW / f"{jmeno}.png").convert("RGB")
     shot = rozmazat(shot, ROZMAZAT.get(jmeno, []))
-    sirka = 1010
-    vyska = round(shot.size[1] * sirka / shot.size[0])
-    shot = shot.resize((sirka, vyska), Image.LANCZOS)
-    r_vnitrni = 96
-    telefon = zaoblit(shot, r_vnitrni)
-    ram = 16
-    ram_im = Image.new("RGBA", (sirka + 2 * ram, vyska + 2 * ram), (0, 0, 0, 0))
-    ImageDraw.Draw(ram_im).rounded_rectangle((0, 0, ram_im.size[0], ram_im.size[1]), r_vnitrni + ram, fill=(9, 16, 12, 255))
-    ram_im.alpha_composite(telefon, (ram, ram))
-
-    x = (W - ram_im.size[0]) // 2
-    y0 = 700
+    telefon, (x, y0) = iphone(shot, 940)
     stin = Image.new("RGBA", pl.size, (0, 0, 0, 0))
-    ImageDraw.Draw(stin).rounded_rectangle((x, y0 + 30, x + ram_im.size[0], y0 + 30 + ram_im.size[1]), r_vnitrni + ram, fill=(0, 0, 0, 120))
-    pl = Image.alpha_composite(pl, stin.filter(ImageFilter.GaussianBlur(40)))
-    pl.alpha_composite(ram_im, (x, y0))
+    ImageDraw.Draw(stin).rounded_rectangle((x + 10, y0 + 40, x + telefon.size[0] - 10, y0 + 40 + telefon.size[1]), 150, fill=(0, 0, 0, 150))
+    pl = Image.alpha_composite(pl, stin.filter(ImageFilter.GaussianBlur(46)))
+    pl.alpha_composite(telefon, (x, y0))
     pl.convert("RGB").save(OUT / f"{jmeno}.png", optimize=True)
 
 

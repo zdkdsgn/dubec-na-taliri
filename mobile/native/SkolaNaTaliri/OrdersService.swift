@@ -55,7 +55,7 @@ final class OrdersService: NSObject, ObservableObject, WKNavigationDelegate {
     /// Ukázková data pro náhled UI (spuštění s argumentem -demoOrders): dvě děti, různé stavy.
     private func loadDemo() {
         demo = true; loggedIn = true
-        let j = ["NOVÁKOVÁ ANIČKA", "NOVÁK KVÍDO"]
+        let j = ["SVOBODOVÁ ELIŠKA", "SVOBODA ADAM"]
         func d(_ iso: String, _ a: (Int?, Bool), _ b: (Int?, Bool)) -> OrderDay {
             OrderDay(d: iso, jmena: j,
                      menu: [OrderMenu(c: 1, o: [a.0 == 1, b.0 == 1]), OrderMenu(c: 2, o: [a.0 == 2, b.0 == 2])],
@@ -73,19 +73,19 @@ final class OrdersService: NSObject, ObservableObject, WKNavigationDelegate {
 
     /// Jména dětí pro přepínač (prázdné, když není přihlášení nebo je vybraná jiná škola).
     func children(schoolId: String) -> [String] {
-        guard loggedIn, let s = snapshot, s.schoolId == schoolId else { return [] }
+        guard loggedIn, let s = snapshot, demo || s.schoolId == schoolId else { return [] }
         return s.children
     }
 
     /// Stav vybraného dítěte v daný den (nil = bez dat nebo nepřihlášeno).
     func status(_ date: String, schoolId: String) -> OrderStatus? {
-        guard loggedIn, let s = snapshot, s.schoolId == schoolId else { return nil }
+        guard loggedIn, let s = snapshot, demo || s.schoolId == schoolId else { return nil }
         return s.status(date, child: min(child, max(s.children.count - 1, 0)))
     }
 
     /// Menu přihlášená vybranému dítěti na daný den.
     func orderedMenus(_ date: String, schoolId: String) -> [Int] {
-        guard loggedIn, let s = snapshot, s.schoolId == schoolId, case .menu(let m)? = s.status(date, child: child) else { return [] }
+        guard loggedIn, let s = snapshot, demo || s.schoolId == schoolId, case .menu(let m)? = s.status(date, child: child) else { return [] }
         return m
     }
 
