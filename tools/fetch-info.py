@@ -38,10 +38,16 @@ def _dvojice(blok: str) -> list[tuple[str, str]]:
 
 def parsuj(html: str) -> dict:
     info = {}
-    m = re.search(r"<h4>Kontakty</h4>\s*<dl[^>]*>(.*?)</dl>", html, re.S)
+    # dvě podoby stránky: s nadpisem „Kontakty“ (+ Doby výdejů), nebo jen jeden seznam bez nadpisu
+    m = re.search(r"<h4>Kontakty</h4>\s*<dl[^>]*>(.*?)</dl>", html, re.S) \
+        or re.search(r'<dl class="dl-horizontal">(.*?)</dl>', html, re.S)
     for popisek, hodnota in (_dvojice(m.group(1)) if m else []):
         klic = POLE.get(popisek)
         text = _text(hodnota)
+        if text.lower() in ("nezadáno", "nezadano", "-", "—"):
+            continue
+        if klic == "web" and re.search(r"//(www\.)?jidelna\.cz", hodnota + " " + text):
+            continue                                  # někteří dali jako web samotný portál
         if klic == "telefon" and re.fullmatch(r"\d{9}", text):
             text = f"{text[:3]} {text[3:6]} {text[6:]}"
         if klic and text:
@@ -76,7 +82,11 @@ def stahni_info(skola_id: str) -> bool:
 
 def main():
     args = sys.argv[1:]
-    if args == ["--all"]:
+    if args == ["--chybejici"]:
+        registr = json.loads((ROOT / "schools" / "index.json").read_text(encoding="utf-8"))
+        ids = [s["id"] for s in registr
+               if s.get("zdroj") == "jidelna.cz" and not (ROOT / "schools" / s["id"] / "info.json").exists()]
+    elif args == ["--all"]:
         registr = json.loads((ROOT / "schools" / "index.json").read_text(encoding="utf-8"))
         ids = [s["id"] for s in registr if s.get("zdroj") == "jidelna.cz"]
     else:
