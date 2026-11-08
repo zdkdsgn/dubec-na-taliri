@@ -50,7 +50,8 @@ struct TydenView: View {
         return VStack(spacing: 0) {
             Button {
                 UIImpactFeedbackGenerator(style: .light).impactOccurred()
-                withAnimation(.spring(response: 0.45, dampingFraction: 0.85)) {
+                UIImpactFeedbackGenerator(style: .soft).impactOccurred()
+                withAnimation(.spring(response: 0.5, dampingFraction: 0.86)) {
                     if isOpen { open.remove(d) } else { open.insert(d) }
                 }
             } label: {
@@ -72,17 +73,19 @@ struct TydenView: View {
             }.buttonStyle(.plain)
 
             if isOpen && !list.isEmpty {
-                VStack(spacing: 10) {
-                    ForEach(list) { m in
-                        MealCard(meal: m, date: d, ocas: ocas) { selectedMeal = (m, d) }
+                StaggeredList(count: list.count + (ocas.isEmpty ? 0 : 1)) { i in
+                    if i < list.count {
+                        MealCard(meal: list[i], date: d, ocas: ocas) { selectedMeal = (list[i], d) }
+                    } else {
+                        OcasCard(items: ocas)
                     }
-                    if !ocas.isEmpty { OcasCard(items: ocas) }
                 }
                 .padding(.horizontal, 10).padding(.bottom, 12)
-                .transition(.opacity.combined(with: .move(edge: .top)))
+                .transition(.asymmetric(insertion: .opacity, removal: .opacity.animation(.easeOut(duration: 0.12))))
             }
         }
         .frame(maxWidth: .infinity)
+        .clipShape(RoundedRectangle(cornerRadius: 22, style: .continuous))
         .card()
     }
 
@@ -94,5 +97,25 @@ struct TydenView: View {
             t += "\n\(Cal.dowName(d)) \(Cal.short(d))\n" + list.map { "• \(Course.of($0.c).label): \($0.n)" }.joined(separator: "\n") + "\n"
         }
         return t
+    }
+}
+
+/// Karty, které po rozbalení naskakují jedna po druhé (jemný posun shora + fade).
+private struct StaggeredList<Content: View>: View {
+    let count: Int
+    @ViewBuilder let content: (Int) -> Content
+    @State private var shown = false
+
+    var body: some View {
+        VStack(spacing: 10) {
+            ForEach(0..<count, id: \.self) { i in
+                content(i)
+                    .opacity(shown ? 1 : 0)
+                    .offset(y: shown ? 0 : -14)
+                    .scaleEffect(shown ? 1 : 0.97, anchor: .top)
+                    .animation(.spring(response: 0.5, dampingFraction: 0.84).delay(Double(i) * 0.06 + 0.04), value: shown)
+            }
+        }
+        .onAppear { shown = true }
     }
 }
