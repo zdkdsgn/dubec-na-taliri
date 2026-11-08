@@ -125,11 +125,15 @@ def slide(st, jmeno, eyebrow, nadpis, podnadpis, tmave):
         d = ImageDraw.Draw(pl)
         for ch in eyebrow:
             d.text((x, 170), ch, font=f, fill=st["eyebrow"] + (255,)); x += d.textlength(ch, font=f) + 8
-        y = 270
-    fn = bar.pismo(152, "Semibold")
+        y = 262
+    vel = 172
+    plain = [r.replace("{", "").replace("}", "") for r in nadpis.split("\n")]
+    while max(sirka_radku(r, bar.pismo(vel, "Black"), -5) for r in plain) > W - 140:
+        vel -= 4
+    fn = bar.pismo(vel, "Black")
     for radek in nadpis.split("\n"):
-        pl = kresli_radek(pl, y, radek, fn, st)
-        y += 160
+        pl = kresli_radek(pl, y, radek, fn, st, track=-1)
+        y += round(vel * 1.04)
     d = ImageDraw.Draw(pl)
     fp = bar.pismo(56, "Regular")
     y += 20
