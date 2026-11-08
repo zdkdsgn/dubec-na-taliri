@@ -125,14 +125,15 @@ struct DenView: View {
                         case .nothing: return ("minus.circle", "Oběd není přihlášený", false)
                         }
                     }()
-                    HStack(spacing: 8) {
-                        Image(systemName: icon)
-                        Text(text).font(.system(size: 13.5, weight: .semibold))
+                    HStack(spacing: 10) {
+                        Image(systemName: icon).font(.system(size: 20, weight: .semibold))
+                        Text(text).font(.system(size: 15.5, weight: .bold))
                         Spacer(minLength: 0)
                     }
-                    .foregroundStyle(ok ? T.accent : T.ink2)
-                    .padding(.horizontal, 12).padding(.vertical, 9)
-                    .background(ok ? T.accentSoft : T.track, in: RoundedRectangle(cornerRadius: 12, style: .continuous))
+                    .foregroundStyle(ok ? T.onAccent : T.ink2)
+                    .padding(.horizontal, 14).padding(.vertical, 12)
+                    .background(ok ? T.accent : T.track, in: RoundedRectangle(cornerRadius: 14, style: .continuous))
+                    .shadow(color: ok ? T.accent.opacity(0.3) : .clear, radius: 8, y: 3)
                 }
             }
         }
@@ -227,6 +228,18 @@ struct DenView: View {
         }
     }
 
+    /// Stav oběda vybraného dítěte pod dnem: ✓ přihlášeno, ✕ odhlášeno, – nic. Jen když je rodič přihlášen.
+    @ViewBuilder private func orderGlyph(iso d: String, sel: Bool) -> some View {
+        if let snap = orders.snapshot, snap.schoolId == state.active.id, orders.loggedIn, !snap.dny.isEmpty {
+            let st = snap.status(d, child: min(orders.child, max(snap.children.count - 1, 0)))
+            switch st {
+            case .menu?: Image(systemName: "checkmark.circle.fill").font(.system(size: 12)).foregroundStyle(sel ? T.onAccent : T.accent)
+            case .opted_out?: Image(systemName: "xmark.circle.fill").font(.system(size: 12)).foregroundStyle(sel ? T.onAccent.opacity(0.8) : T.ink3)
+            default: Image(systemName: "circle.dotted").font(.system(size: 12)).foregroundStyle(sel ? T.onAccent.opacity(0.6) : T.ink3.opacity(0.6))
+            }
+        }
+    }
+
     private var dayStrip: some View {
         let mon = Cal.monday(state.selectedDate)
         return HStack(spacing: 0) {
@@ -241,6 +254,7 @@ struct DenView: View {
                         Text(Cal.dowShort(d)).font(.system(size: 11, weight: .bold))
                         Text("\(Cal.day(d))").font(.system(size: 20, weight: .bold)).monospacedDigit()
                         Circle().fill(d == Cal.today ? (sel ? T.onAccent : T.accent) : .clear).frame(width: 4, height: 4)
+                        orderGlyph(iso: d, sel: sel)
                     }
                     .foregroundStyle(sel ? T.onAccent : T.ink)
                     .frame(maxWidth: .infinity).padding(.vertical, 9)

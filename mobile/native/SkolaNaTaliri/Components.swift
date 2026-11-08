@@ -32,7 +32,7 @@ struct Pop: ViewModifier {
 extension View { func pop(_ trigger: Bool) -> some View { modifier(Pop(trigger: trigger)) } }
 
 struct Badge: View {
-    enum Kind { case warn, warnSoft, muted, lead }
+    enum Kind { case warn, warnSoft, muted, lead, solid }
     let text: String
     let kind: Kind
     var body: some View {
@@ -42,6 +42,7 @@ struct Badge: View {
             case .warnSoft: return (T.amber, T.amberBg)
             case .muted: return (T.ink3, T.track)
             case .lead: return (T.accent, T.accentSoft)
+            case .solid: return (T.onAccent, T.accent)
             }
         }()
         Text(text)
@@ -100,6 +101,8 @@ struct MealCard: View {
         let past = date < Cal.today
         let menus = orders.orderedMenus(date, schoolId: state.active.id)
         let ordered = (meal.c == "obed" && menus.contains(1)) || (meal.c == "obed2" && menus.contains(2))
+        let isMain = meal.c == "obed" || meal.c == "obed2"
+        let dimmed = isMain && !ordered && !menus.isEmpty   // dítě je přihlášené na jiné menu
 
         Button(action: onTap) {
             HStack(alignment: .top, spacing: 14) {
@@ -112,7 +115,7 @@ struct MealCard: View {
                         if inMain { Badge(text: "Alergen \(hits.map(String.init).joined(separator: ", "))", kind: .warn) }
                         else if outside { Badge(text: "Alergen \(hits.map(String.init).joined(separator: ", ")) · \(state.hitPlaces(meal).joined(separator: ", "))", kind: .warnSoft) }
                         else if disliked { Badge(text: "Nemá rád", kind: .muted) }
-                        else if ordered { Badge(text: "✓ Přihlášeno", kind: .lead) }
+                        else if ordered { Badge(text: "✓ Přihlášeno", kind: .solid) }
                         else if meal.c == "obed" { Badge(text: "Oběd", kind: .lead) }
                         else if meal.c == "obed2" { Badge(text: "Oběd II", kind: .lead) }
                     }
@@ -131,7 +134,10 @@ struct MealCard: View {
             .frame(maxWidth: .infinity, alignment: .leading)
             .card(fill: inMain ? T.redBg : outside ? T.amberBg : lead ? T.accentSoft : T.card,
                   stroke: inMain ? T.red.opacity(0.35) : outside ? T.amber.opacity(0.35) : lead ? T.accent.opacity(0.25) : T.cardBorder)
-            .opacity(past ? 0.6 : (disliked ? 0.75 : 1))
+            .overlay {
+                if ordered { RoundedRectangle(cornerRadius: 22, style: .continuous).strokeBorder(T.accent, lineWidth: 2.5) }
+            }
+            .opacity(past ? 0.6 : (disliked ? 0.75 : (dimmed ? 0.55 : 1)))
             .saturation(past ? 0.5 : 1)
         }
         .buttonStyle(PressableStyle())
