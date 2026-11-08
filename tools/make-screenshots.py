@@ -55,28 +55,54 @@ def rozmazat(im, boxy):
 
 # ── pozadí ─────────────────────────────────────────────────────────────
 
-def pozadi():
-    """Diagonální přechod + velká záře za telefonem + soustředné kruhy (odkaz na talíř z ikony)."""
+_PANO = None
+
+
+def panorama(n):
+    """Jedno souvislé pozadí přes všechny snímky: přechod, záře, kruhy přecházející z jednoho snímku do dalšího."""
     import numpy as np
-    a, b = np.array((38, 168, 118), float), np.array((9, 58, 40), float)
-    yy, xx = np.mgrid[0:H, 0:W]
-    t = (xx * 0.35 + yy * 0.94) / (W * 0.35 + H * 0.94)          # diagonála shora doleva → dolů
-    t = np.clip(t, 0, 1)[..., None] ** 1.15
-    zakl = Image.fromarray((a + (b - a) * t).astype("uint8"), "RGB").convert("RGBA")
-    vrstva = Image.new("RGBA", (W, H), (0, 0, 0, 0))
-    d = ImageDraw.Draw(vrstva)
-    # záře
-    d.ellipse((60, 880, 1260, 2080), fill=(170, 255, 214, 95))
-    d.ellipse((-420, -260, 700, 760), fill=(120, 235, 180, 60))
-    vrstva = vrstva.filter(ImageFilter.GaussianBlur(190))
-    zakl = Image.alpha_composite(zakl, vrstva)
-    # kruhy
-    kruhy = Image.new("RGBA", (W, H), (0, 0, 0, 0))
-    d = ImageDraw.Draw(kruhy)
-    cx, cy = W // 2, 1750
-    for r, al in ((620, 26), (800, 20), (990, 14), (1190, 9)):
-        d.ellipse((cx - r, cy - r, cx + r, cy + r), outline=(255, 255, 255, al), width=4)
-    return Image.alpha_composite(zakl, kruhy)
+    pw = W * n
+    yy, xx = np.mgrid[0:H, 0:pw].astype("float32")
+    t = np.clip(0.55 * (xx / pw) + 0.45 * (yy / H), 0, 1)
+    stops = [(0.0, (52, 184, 130)), (0.45, (26, 134, 94)), (1.0, (7, 52, 37))]
+    out = np.zeros((H, pw, 3), "float32")
+    for (t0, c0), (t1, c1) in zip(stops, stops[1:]):
+        m = (t >= t0) & (t <= t1)
+        k = ((t - t0) / (t1 - t0))[..., None]
+        seg = np.array(c0, "float32") + (np.array(c1, "float32") - np.array(c0, "float32")) * k
+        out = np.where(m[..., None], seg, out)
+    base = Image.fromarray(out.clip(0, 255).astype("uint8"), "RGB").convert("RGBA")
+    glow = Image.new("RGBA", (pw, H), (0, 0, 0, 0))
+    d = ImageDraw.Draw(glow)
+    for i in range(n):
+        cx = i * W + W // 2
+        d.ellipse((cx - 560, 1180, cx + 560, 2300), fill=(180, 255, 220, 90))      # záře za telefonem
+        d.ellipse((cx - 700, -420, cx + 500, 700), fill=(120, 240, 185, 55))        # záře za nadpisem
+    glow = glow.filter(ImageFilter.GaussianBlur(170))
+    base = Image.alpha_composite(base, glow)
+    ring = Image.new("RGBA", (pw, H), (0, 0, 0, 0))
+    d = ImageDraw.Draw(ring)
+    for i in range(1, n):                       # velké kruhy přes hrany – spojují sousední snímky
+        cx = i * W
+        for r, al, wd in ((520, 34, 5), (760, 24, 4), (1020, 16, 4)):
+            d.ellipse((cx - r, 1650 - r, cx + r, 1650 + r), outline=(255, 255, 255, al), width=wd)
+    for i in range(n):                           # kruhy „talíře“ za každým telefonem
+        cx = i * W + W // 2
+        for r, al in ((640, 24), (840, 16), (1060, 10)):
+            d.ellipse((cx - r, 1800 - r, cx + r, 1800 + r), outline=(255, 255, 255, al), width=4)
+    base = Image.alpha_composite(base, ring)
+    # jemné zrno proti pruhování přechodů
+    rng = np.random.default_rng(7)
+    zrno = rng.normal(0, 2.2, (H, pw, 1)).astype("float32")
+    arr = np.asarray(base.convert("RGB"), "float32") + zrno
+    return Image.fromarray(arr.clip(0, 255).astype("uint8"), "RGB").convert("RGBA")
+
+
+def pozadi(i, n):
+    global _PANO
+    if _PANO is None:
+        _PANO = panorama(n)
+    return _PANO.crop((i * W, 0, (i + 1) * W, H))
 
 
 # ── text ──────────────────────────────────────────────────────────────
@@ -95,7 +121,7 @@ def kresli(d, x, y, txt, f, fill, track=0):
     return x
 
 
-def nadpis_radek(d, y, radek, f):
+def nadpis_radek(d, y, radek, f, stin=False):
     """Řádek s {zvýrazněním}: bílý text + žluté slovo, vystředěno."""
     casti, i = [], 0
     while i < len(radek):
@@ -108,14 +134,13 @@ def nadpis_radek(d, y, radek, f):
     celkem = sum(d.textlength(t, font=f) for t, _ in casti)
     x = (W - celkem) / 2
     for t, c in casti:
-        x = kresli(d, x, y, t, f, c + (255,))
+        x = kresli(d, x, y, t, f, (0, 24, 14, 120) if stin else c + (255,))
 
 
 # ── bubliny ───────────────────────────────────────────────────────────
 
-def ikona(d, kind, cx, cy, r, barva):
-    d.ellipse((cx - r, cy - r, cx + r, cy + r), fill=barva)
-    b = (255, 255, 255, 255)
+def ikona(d, kind, cx, cy, r, kruh, b):
+    d.ellipse((cx - r, cy - r, cx + r, cy + r), fill=kruh)
     lw = max(r // 6, 4)
     if kind == "ok":
         d.line([(cx - r * .42, cy + r * .02), (cx - r * .1, cy + r * .34), (cx + r * .48, cy - r * .34)], fill=b, width=lw, joint="curve")
@@ -144,22 +169,29 @@ def ikona(d, kind, cx, cy, r, barva):
         d.pieslice((cx - r * .5, cy - r * .5, cx + r * .5, cy + r * .5), 20, 200, fill=b)
 
 
-def bublina(text, kind, uhel):
-    f = pismo(50, "Semibold")
+def bublina(text, kind, uhel, pozadi_pod=None):
+    """Bublina z tmavě zeleného mléčného skla; pozadi_pod = výřez obrazu pod ní (rozostří se)."""
+    f = pismo(52, "Semibold")
     dm = ImageDraw.Draw(Image.new("RGBA", (10, 10)))
     tw = dm.textlength(text, font=f)
-    r = 36
-    w, h = int(tw + 2 * 38 + 2 * r + 24), 108
-    pad = 90
+    r = 38
+    w, h = int(tw + 2 * 40 + 2 * r + 22), 116
+    pad = 100
     im = Image.new("RGBA", (w + 2 * pad, h + 2 * pad), (0, 0, 0, 0))
     stin = Image.new("RGBA", im.size, (0, 0, 0, 0))
-    ImageDraw.Draw(stin).rounded_rectangle((pad, pad + 22, pad + w, pad + h + 22), h // 2, fill=(0, 30, 18, 150))
-    im = Image.alpha_composite(im, stin.filter(ImageFilter.GaussianBlur(26)))
+    ImageDraw.Draw(stin).rounded_rectangle((pad, pad + 26, pad + w, pad + h + 26), h // 2, fill=(0, 22, 14, 170))
+    im = Image.alpha_composite(im, stin.filter(ImageFilter.GaussianBlur(30)))
+    maska = Image.new("L", im.size, 0)
+    ImageDraw.Draw(maska).rounded_rectangle((pad, pad, pad + w, pad + h), h // 2, fill=255)
+    if pozadi_pod is not None:
+        rozost = pozadi_pod.filter(ImageFilter.GaussianBlur(30)).convert("RGBA")
+        im.paste(rozost, (0, 0), maska)
+    sklo = Image.new("RGBA", im.size, (9, 84, 58, 222))
+    im.paste(Image.alpha_composite(im, sklo), (0, 0), maska)
     d = ImageDraw.Draw(im)
-    d.rounded_rectangle((pad, pad, pad + w, pad + h), h // 2, fill=(255, 255, 255, 255))
-    barva = (222, 64, 88, 255) if kind == "vykricnik" else (30, 122, 85, 255)
-    ikona(d, kind, pad + 30 + r, pad + h // 2, r, barva)
-    d.text((pad + 30 + 2 * r + 22, pad + h // 2 - 31), text, font=f, fill=(16, 32, 26, 255))
+    d.rounded_rectangle((pad, pad, pad + w, pad + h), h // 2, outline=(255, 255, 255, 120), width=3)
+    ikona(d, kind, pad + 30 + r, pad + h // 2, r, (255, 255, 255, 255), (222, 64, 88, 255) if kind == "vykricnik" else (22, 122, 84, 255))
+    d.text((pad + 34 + 2 * r + 22, pad + h // 2 - 33), text, font=f, fill=(255, 255, 255, 255))
     return im.rotate(uhel, resample=Image.BICUBIC, expand=True)
 
 
@@ -202,6 +234,10 @@ def iphone(shot, sw):
     ImageDraw.Draw(m).rounded_rectangle((0, 0, sw, sh), obrazovka_r, fill=255)
     scr = shot.convert("RGBA"); scr.putalpha(m)
     pl.alpha_composite(scr, (ox + ob, ob))
+    # jemný diagonální odlesk skla
+    og = Image.linear_gradient("L").rotate(55, expand=True).resize((sw, sh)).point(lambda v: int(max(0, 90 - v) * 0.55))
+    odlesk = Image.new("RGBA", (sw, sh), (255, 255, 255, 0)); odlesk.putalpha(ImageChops.multiply(og, m))
+    pl.alpha_composite(odlesk, (ox + ob, ob))
     iw, ih = round(290 * sw / 1320 * 0.97), round(107 * sw / 1320 * 0.97)
     ix, iy = ox + ob + (sw - iw) // 2, ob + round(43 * sw / 1320)
     ImageDraw.Draw(pl).rounded_rectangle((ix, iy, ix + iw, iy + ih), ih // 2, fill=(0, 0, 0, 255))
@@ -225,8 +261,8 @@ def logo_hlavicka(pl):
     d.text((x + 168 + 28, 120 + 168 / 2 - 36), nazev, font=f, fill=(255, 255, 255, 255))
 
 
-def slide(jmeno, eyebrow, nadpis, podnadpis, bubliny):
-    pl = pozadi()
+def slide(idx, n, jmeno, eyebrow, nadpis, podnadpis, bubliny):
+    pl = pozadi(idx, n)
     d = ImageDraw.Draw(pl)
     if jmeno == "1-den":
         logo_hlavicka(pl); y = 360
@@ -240,6 +276,13 @@ def slide(jmeno, eyebrow, nadpis, podnadpis, bubliny):
     while max(d.textlength(r, font=pismo(vel, "Heavy")) for r in plain) > W - 150:
         vel -= 4
     fn = pismo(vel, "Heavy")
+    stin_t = Image.new("RGBA", pl.size, (0, 0, 0, 0))
+    ys = y
+    for radek in nadpis.split("\n"):
+        nadpis_radek(ImageDraw.Draw(stin_t), ys + 8, radek, fn, stin=True)
+        ys += round(vel * 1.05)
+    pl = Image.alpha_composite(pl, stin_t.filter(ImageFilter.GaussianBlur(14)))
+    d = ImageDraw.Draw(pl)
     for radek in nadpis.split("\n"):
         nadpis_radek(d, y, radek, fn)
         y += round(vel * 1.05)
@@ -258,12 +301,18 @@ def slide(jmeno, eyebrow, nadpis, podnadpis, bubliny):
     pl = Image.alpha_composite(pl, stin.filter(ImageFilter.GaussianBlur(56)))
     pl.alpha_composite(tel, (x, y0))
     for txt, kind, bx, by, uhel in bubliny:
-        b = bublina(txt, kind, uhel)
-        px = bx - 90 if bx >= 0 else W + bx + 90 - b.size[0]
-        pl.alpha_composite(b, (px, by - 90))
+        probe = bublina(txt, kind, 0)
+        pw_, ph_ = probe.size
+        px = bx - 100 if bx >= 0 else W + bx + 100 - pw_
+        py = by - 100
+        pod = pl.crop((max(px, 0), py, max(px, 0) + pw_, py + ph_)).convert("RGBA")
+        if pod.size != (pw_, ph_):
+            pod = pod.resize((pw_, ph_))
+        b = bublina(txt, kind, uhel, pod)
+        pl.alpha_composite(b, (px - (b.size[0] - pw_) // 2, py - (b.size[1] - ph_) // 2))
     pl.convert("RGB").save(OUT / f"{jmeno}.png", optimize=True)
 
 
 if __name__ == "__main__":
-    for s in SLIDY:
-        slide(*s); print("hotovo", s[0])
+    for i, sl in enumerate(SLIDY):
+        slide(i, len(SLIDY), *sl); print("hotovo", sl[0])
