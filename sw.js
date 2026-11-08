@@ -1,6 +1,6 @@
 /* Network-first pro vlastní soubory: online rodič vidí vždy čerstvý
    jídelníček, offline se servíruje poslední uložená verze. */
-const CACHE = "dubec-na-taliri-v3";
+const CACHE = "dubec-na-taliri-v4";
 const ASSETS = [
   "./", "./index.html", "./styles.css", "./app.js", "./data.js",
   "./manifest.webmanifest", "./assets/icon.png",
