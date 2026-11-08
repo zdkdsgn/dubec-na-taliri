@@ -24,6 +24,9 @@ Neoficiální přehled. Před rozhodnutím ověřte údaje u školy.
 ## Klíčová slova (100 znaků)
 jídelníček,škola,školka,obědy,jídelna,alergeny,stravování,školní jídelna,oběd
 
+## Poznámka k formulaci
+Veřejný text nesrovnává se jmény konkurentů, říká jen, co appka umí; neslibuje odhlašování ani „všechny školy“. Důvody a podklady: docs/PODKLAD-KONKURENCE.md.
+
 ## Co je nového (příklad)
 Úvod při prvním spuštění, výběr školy bez předvybrané, karta „O jídelně“, přihlášené obědy z jidelna.cz (beta), profil alergenů pro každé dítě, večerní upozornění, nová ikona.
 
