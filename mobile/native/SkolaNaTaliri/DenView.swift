@@ -125,7 +125,7 @@ struct DenView: View {
                         case .nothing: return ("minus.circle", "Oběd není přihlášený", false)
                         }
                     }()
-                    HStack(spacing: 10) {
+                    if !ok { HStack(spacing: 10) {
                         Image(systemName: icon).font(.system(size: 20, weight: .semibold))
                         Text(text).font(.system(size: 15.5, weight: .bold))
                         Spacer(minLength: 0)
@@ -133,7 +133,7 @@ struct DenView: View {
                     .foregroundStyle(ok ? T.onAccent : T.ink2)
                     .padding(.horizontal, 14).padding(.vertical, 12)
                     .background(ok ? T.accent : T.track, in: RoundedRectangle(cornerRadius: 14, style: .continuous))
-                    .shadow(color: ok ? T.accent.opacity(0.3) : .clear, radius: 8, y: 3)
+                    .shadow(color: ok ? T.accent.opacity(0.3) : .clear, radius: 8, y: 3) }
                 }
             }
         }
