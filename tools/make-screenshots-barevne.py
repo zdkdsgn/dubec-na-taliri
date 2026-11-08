@@ -211,7 +211,7 @@ def kov(w, h, r, svetly=(226, 228, 230), tmavy=(128, 132, 135)):
     return g
 
 
-def iphone(shot, sw):
+def iphone_stary(shot, sw):
     sh = round(shot.size[1] * sw / shot.size[0])
     shot = shot.resize((sw, sh), Image.LANCZOS)
     obrazovka_r = round(112 * sw / 940)
@@ -242,6 +242,11 @@ def iphone(shot, sw):
     ix, iy = ox + ob + (sw - iw) // 2, ob + round(43 * sw / 1320)
     ImageDraw.Draw(pl).rounded_rectangle((ix, iy, ix + iw, iy + ih), ih // 2, fill=(0, 0, 0, 255))
     return pl
+
+
+import sys as _sys
+_sys.path.insert(0, str(Path(__file__).resolve().parent))
+from iphone_mockup import iphone  # fotorealistický rám
 
 
 # ── slide ─────────────────────────────────────────────────────────────
