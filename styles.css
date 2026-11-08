@@ -529,7 +529,8 @@ main{max-width:560px;margin:0 auto;
   border-bottom:1px solid var(--line)}
 .info-row:last-child{border:0}
 .info-row span{color:var(--ink-2)}
-.info-row b{font-weight:630}
+.info-row b{font-weight:630;text-align:right}
+.info-link{color:var(--accent,#2f6fed);text-decoration:none;word-break:break-word}
 .notice,.link-card{display:flex;gap:14px;align-items:center}
 .notice{align-items:flex-start}
 .notice-ico{width:42px;height:42px;border-radius:14px;flex:none;display:grid;place-items:center;

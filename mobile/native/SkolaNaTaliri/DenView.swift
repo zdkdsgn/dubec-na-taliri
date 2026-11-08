@@ -2,6 +2,7 @@ import SwiftUI
 
 struct DenView: View {
     @EnvironmentObject var state: AppState
+    @EnvironmentObject var orders: OrdersService
     @Binding var showSchools: Bool
     @Binding var tab: Int
     @State private var selectedMeal: Chod?
@@ -25,6 +26,7 @@ struct DenView: View {
 
                 VStack(alignment: .leading, spacing: 14) {
                     dayTitle(date)
+                    orderBadges(date)
                     if list.isEmpty {
                         emptyState
                     } else {
@@ -90,6 +92,32 @@ struct DenView: View {
                         .frame(width: 38, height: 38).glassEffect(.regular.interactive(), in: Circle())
                 }
             }.padding(.top, 10)
+        }
+    }
+
+    /// Přihlášené obědy z jidelna.cz (jen když je rodič přihlášen v Infu a škola je z jidelna.cz).
+    @ViewBuilder private func orderBadges(_ date: String) -> some View {
+        if let snap = orders.snapshot, snap.schoolId == state.active.id, orders.loggedIn {
+            let names = snap.children
+            ForEach(Array((names.isEmpty ? [""] : names).enumerated()), id: \.offset) { i, name in
+                if let st = snap.status(date, child: i) {
+                    let (icon, text, ok): (String, String, Bool) = {
+                        switch st {
+                        case .menu(let m): return ("checkmark.circle.fill", "Přihlášeno: menu " + m.map(String.init).joined(separator: " + "), true)
+                        case .opted_out: return ("xmark.circle.fill", "Odhlášeno z oběda", false)
+                        case .nothing: return ("minus.circle", "Oběd není přihlášený", false)
+                        }
+                    }()
+                    HStack(spacing: 8) {
+                        Image(systemName: icon)
+                        Text(name.isEmpty ? text : text + " · " + name.capitalized).font(.system(size: 13.5, weight: .semibold))
+                        Spacer(minLength: 0)
+                    }
+                    .foregroundStyle(ok ? T.accent : T.ink2)
+                    .padding(.horizontal, 12).padding(.vertical, 9)
+                    .background(ok ? T.accentSoft : T.track, in: RoundedRectangle(cornerRadius: 12, style: .continuous))
+                }
+            }
         }
     }
 

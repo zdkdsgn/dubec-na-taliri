@@ -634,6 +634,50 @@ function renderInfo(){
   $("#sdiletOblibene").hidden = !S.oblibene.size;
   renderZebricek();
   renderPushCard();
+  renderOJidelne();
+}
+/* ── O jídelně: kontakty a doby výdejů (schools/<id>/info.json) ── */
+const infoCache = new Map();
+async function nactiInfo(id){
+  if (infoCache.has(id)) return infoCache.get(id);
+  let info = null;
+  if (!jeIcanteen(id)) {
+    try {
+      const r = await fetch(`schools/${id}/info.json`, { cache: "no-store" });
+      if (r.ok) info = await r.json();
+    } catch {}
+  }
+  infoCache.set(id, info);
+  return info;
+}
+async function renderOJidelne(){
+  const id = AKTIVNI?.id, karta = $("#cardOJidelne");
+  if (!karta || !id) return;
+  const i = await nactiInfo(id);
+  if (id !== AKTIVNI?.id) return;                    // mezitím přepnutá škola
+  const radky = [];
+  for (const v of i?.vydeje || []) radky.push([`Výdej – ${v.chod.toLowerCase()}`, v.cas]);
+  if (i?.adresa) radky.push(["Adresa", i.adresa, `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent([i.adresa, i.psc].filter(Boolean).join(" "))}`]);
+  if (i?.telefon) radky.push(["Telefon", i.telefon, `tel:${i.telefon.replace(/\s/g, "")}`]);
+  if (i?.email) radky.push(["E-mail", i.email, `mailto:${i.email}`]);
+  if (i?.web) radky.push(["Web", i.web, i.web_url]);
+  if (i?.vedouci_jidelny) radky.push(["Vedoucí jídelny", i.vedouci_jidelny]);
+  if (i?.vedouci_kuchyne) radky.push(["Vedoucí kuchyně", i.vedouci_kuchyne]);
+  if (i?.ico) radky.push(["IČO", i.ico]);
+  if (i?.ucet) radky.push(["Číslo účtu", i.ucet]);
+  karta.hidden = !radky.length;
+  const box = $("#oJidelneRows");
+  box.replaceChildren(...radky.map(([k, v, href]) => {
+    const row = document.createElement("div"); row.className = "info-row";
+    const s = document.createElement("span"); s.textContent = k;
+    const b = document.createElement("b");
+    if (href && /^(https?:|tel:|mailto:)/.test(href)) {
+      const a = document.createElement("a"); a.href = href; a.textContent = v; a.className = "info-link";
+      if (href.startsWith("http")) { a.target = "_blank"; a.rel = "noopener"; }
+      b.append(a);
+    } else b.textContent = v;
+    row.append(s, b); return row;
+  }));
 }
 const renderAll = () => { renderDen(); renderTyden(); renderAlergeny(); renderInfo(); };
 

@@ -33,6 +33,12 @@ enum DataService {
         }
     }
 
+    /// Kontakty jídelny; nemá je každá škola (iCanteen, ručně vedené) – pak nil.
+    static func info(_ id: String) async -> SkolaInfo? {
+        guard !id.hasPrefix("ic") else { return nil }
+        return try? JSONDecoder().decode(SkolaInfo.self, from: await fetch("schools/\(id)/info.json"))
+    }
+
     static func schools() async throws -> [SkolaPolozka] {
         try JSONDecoder().decode([SkolaPolozka].self, from: await fetch("schools/index.json"))
     }

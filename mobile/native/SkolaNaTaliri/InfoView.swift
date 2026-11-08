@@ -5,6 +5,8 @@ struct InfoView: View {
     @Binding var showSchools: Bool
     @State private var reminder: URL?
     @State private var pushError: String?
+    @EnvironmentObject var orders: OrdersService
+    @State private var showLogin = false
     @ObservedObject private var push = PushService.shared
 
     var body: some View {
@@ -28,6 +30,10 @@ struct InfoView: View {
                     divider
                     row("Zdroj dat", state.active.skutecna_data == false ? "Ukázková data" : "Oficiální jídelníček")
                 }.padding(.horizontal, 16).card()
+
+                if let i = state.info, i.hasContent { aboutCard(i) }
+
+                if OrdersService.supports(state.active.id) { ordersCard }
 
                 Button { showSchools = true } label: {
                     HStack(spacing: 14) {
@@ -136,9 +142,78 @@ struct InfoView: View {
         .scrollIndicators(.hidden)
     }
 
+    private var ordersCard: some View {
+        VStack(alignment: .leading, spacing: 10) {
+            HStack(spacing: 12) {
+                Image(systemName: "checkmark.circle").foregroundStyle(T.ink2).frame(width: 40, height: 40)
+                    .background(T.track, in: RoundedRectangle(cornerRadius: 12, style: .continuous))
+                Text("Přihlášené obědy").font(.system(size: 16, weight: .bold))
+                Text("BETA").font(.system(size: 10, weight: .heavy)).foregroundStyle(T.accent)
+                    .padding(.horizontal, 6).padding(.vertical, 2).background(T.accentSoft, in: Capsule())
+            }
+            if orders.loggedIn {
+                Text(orders.snapshot.map { "Načteno \($0.fetched.formatted(date: .abbreviated, time: .shortened)). V jídelníčku uvidíte, které menu má dítě přihlášené." }
+                     ?? "Přihlášeno. Objednávky se načítají…")
+                    .font(.system(size: 14)).foregroundStyle(T.ink2)
+                HStack(spacing: 10) {
+                    Button { Task { await orders.refresh(schoolId: state.active.id) } } label: {
+                        Text(orders.busy ? "Načítám…" : "Obnovit").font(.system(size: 15, weight: .semibold)).foregroundStyle(T.accent)
+                    }.disabled(orders.busy)
+                    Spacer()
+                    Button(role: .destructive) { Task { await orders.logout() } } label: {
+                        Text("Odhlásit").font(.system(size: 15, weight: .semibold))
+                    }
+                }
+            } else {
+                Text("Přihlaste se k jidelna.cz a v jídelníčku uvidíte, na která jídla má vaše dítě přihlášený oběd. Appka jen čte, nic neobjednává ani neodhlašuje, a heslo nikdy nevidí.")
+                    .font(.system(size: 14)).foregroundStyle(T.ink2)
+                Button { showLogin = true } label: {
+                    Text("Přihlásit se").font(.system(size: 15, weight: .semibold)).foregroundStyle(T.accent)
+                }
+            }
+        }.padding(16).frame(maxWidth: .infinity, alignment: .leading).card()
+        .sheet(isPresented: $showLogin) {
+            OrdersLoginView(schoolId: state.active.id).environmentObject(orders)
+        }
+    }
+
+    @ViewBuilder private func aboutCard(_ i: SkolaInfo) -> some View {
+        VStack(alignment: .leading, spacing: 0) {
+            Text("O jídelně").font(.system(size: 16, weight: .bold)).padding(.top, 16).padding(.bottom, 4)
+            if let v = i.vydeje, !v.isEmpty {
+                ForEach(v, id: \.self) { x in row("Výdej – \(x.chod.lowercased())", x.cas); divider }
+            }
+            if let a = i.adresa {
+                let q = [a, i.psc].compactMap { $0 }.joined(separator: " ")
+                linkRow("Adresa", a, URL(string: "https://maps.apple.com/?q=" + (q.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed) ?? "")))
+                divider
+            }
+            if let t = i.telefon {
+                linkRow("Telefon", t, URL(string: "tel:" + t.replacingOccurrences(of: " ", with: ""))); divider
+            }
+            if let e = i.email { linkRow("E-mail", e, URL(string: "mailto:" + e)); divider }
+            if let w = i.web { linkRow("Web", w, i.web_url.flatMap(URL.init(string:))); divider }
+            if let x = i.vedouci_jidelny { row("Vedoucí jídelny", x); divider }
+            if let x = i.vedouci_kuchyne { row("Vedoucí kuchyně", x); divider }
+            if let x = i.ico { row("IČO", x); divider }
+            if let x = i.ucet { row("Číslo účtu", x) }
+        }.padding(.horizontal, 16).padding(.bottom, 4).frame(maxWidth: .infinity, alignment: .leading).card()
+    }
+
+    @ViewBuilder private func linkRow(_ k: String, _ v: String, _ url: URL?) -> some View {
+        if let url {
+            Link(destination: url) {
+                HStack(alignment: .top) {
+                    Text(k).foregroundStyle(T.ink2); Spacer(minLength: 16)
+                    Text(v).fontWeight(.semibold).foregroundStyle(T.accent).multilineTextAlignment(.trailing)
+                }.font(.system(size: 15)).padding(.vertical, 13)
+            }
+        } else { row(k, v) }
+    }
+
     private var divider: some View { Rectangle().fill(T.cardBorder).frame(height: 1) }
     private func row(_ k: String, _ v: String) -> some View {
-        HStack { Text(k).foregroundStyle(T.ink2); Spacer(); Text(v).fontWeight(.semibold) }
+        HStack(alignment: .top) { Text(k).foregroundStyle(T.ink2); Spacer(minLength: 16); Text(v).fontWeight(.semibold).multilineTextAlignment(.trailing) }
             .font(.system(size: 15)).padding(.vertical, 13)
     }
 }

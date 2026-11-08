@@ -26,6 +26,7 @@ final class AppState: ObservableObject {
         didSet { Store.set("activeSchool", active); SharedStore.saveSchool(active); WidgetCenter.shared.reloadAllTimelines() }
     }
     @Published var data = SkolaData.empty
+    @Published var info: SkolaInfo?
     @Published var loading = false
     @Published var loadFailed = false
     @Published var group = "zs"
@@ -134,7 +135,9 @@ final class AppState: ObservableObject {
         do {
             let d = try await DataService.school(school.id)
             data = d
+            info = nil
             active = school
+            Task { info = await DataService.info(school.id) }
             if !d.groups.contains(group) { group = d.groups.contains("zs") ? "zs" : (d.groups.first ?? "zs") }
             selectedDate = nearestSchoolDay(from: Cal.today)
         } catch {

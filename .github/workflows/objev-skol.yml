@@ -27,6 +27,9 @@ jobs:
           echo "Nejvyšší známé ID: $nejvyssi"
           python3 tools/scan-all-schools.py $((nejvyssi+1)) $((nejvyssi+200)) --nove
 
+      - name: Obnovit kontakty a doby výdejů (O jídelně)
+        run: python3 tools/fetch-info.py --all
+
       - name: Commitnout nové školy
         run: |
           if [ -z "$(git status --porcelain)" ]; then
@@ -36,5 +39,5 @@ jobs:
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add menu/ schools/
-          git commit -m "Nové školy z jidelna.cz – týdenní objevování $(date '+%-d. %-m. %Y')"
+          git commit -m "Týdenní objevování škol a obnova kontaktů $(date '+%-d. %-m. %Y')"
           git push
