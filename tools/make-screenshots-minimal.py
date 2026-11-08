@@ -143,7 +143,7 @@ def slide(st, jmeno, eyebrow, nadpis, podnadpis, tmave):
         y += 76
 
     shot = bar.rozmazat(Image.open(RAW / f"{jmeno}.png").convert("RGB"), bar.ROZMAZAT.get(jmeno, []))
-    tel = bar.iphone(shot, 960)
+    tel = bar.iphone_stary(shot, 960)      # původní jednodušší rám; fotorealistický je bar.iphone
     x, y0 = (W - tel.size[0]) // 2, (1010 if jmeno == "1-den" else 930)
     stin = Image.new("RGBA", pl.size, (0, 0, 0, 0))
     ImageDraw.Draw(stin).rounded_rectangle((x + 30, y0 + 70, x + tel.size[0] - 30, y0 + tel.size[1]), 160, fill=st["stin"])
