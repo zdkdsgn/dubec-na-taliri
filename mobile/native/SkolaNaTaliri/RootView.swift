@@ -4,6 +4,7 @@ struct RootView: View {
     @EnvironmentObject var state: AppState
     @State private var tab = 0
     @State private var showSchools = false
+    @State private var onboarded = UserDefaults.standard.bool(forKey: "skola.onboarded")
 
     var body: some View {
         TabView(selection: $tab) {
@@ -23,7 +24,16 @@ struct RootView: View {
         .tabBarMinimizeBehavior(.onScrollDown)
         .tint(T.accent)
         .sheet(isPresented: $showSchools) { SchoolPickerView().environmentObject(state) }
-        .fullScreenCover(isPresented: .constant(!state.hasSchool)) { SchoolPickerView(welcome: true).environmentObject(state) }
+        .fullScreenCover(isPresented: .constant(!state.hasSchool)) {
+            if onboarded {
+                SchoolPickerView(welcome: true).environmentObject(state)
+            } else {
+                OnboardingView {
+                    UserDefaults.standard.set(true, forKey: "skola.onboarded")
+                    withAnimation { onboarded = true }
+                }
+            }
+        }
         .task { await state.start() }
         .onReceive(NotificationCenter.default.publisher(for: .openSchoolFromPush)) { n in
             guard let id = n.object as? String else { return }

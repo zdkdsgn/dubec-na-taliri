@@ -1444,6 +1444,35 @@ $("#hledatQuery").addEventListener("input", e => {
 });
 $("#toSkola").addEventListener("click", otevriSkolaSheet);
 $("#bezSkolyTlacitko")?.addEventListener("click", otevriSkolaSheet);
+
+/* ── Úvod při prvním spuštění: tři krátké obrazovky, pak výběr školy ── */
+const UVOD = [
+  { nadpis: "Co je dnes k obědu?", text: "Jídelníček vaší školy nebo školky na jednom místě – bez přihlašování a bez hesel.",
+    mock: `<div class="uvod-radek"><span class="uvod-ico">☕</span><div><small>Polévka</small><b>Zeleninová s drožďovými knedlíčky</b><span class="uvod-chip">1, 3, 7, 9</span></div></div>
+           <div class="uvod-radek zvyrazneny"><span class="uvod-ico">🍴</span><div><small>Hlavní chod</small><b>Svíčková na smetaně</b><span class="uvod-chip">1, 3, 7</span></div></div>` },
+  { nadpis: "Hlídejte alergeny", text: "Nastavte, co dítě nesmí. Appka označí každé jídlo, které to obsahuje.",
+    mock: `<div class="uvod-radek"><span class="uvod-ico">🍴</span><div><small>Hlavní chod</small><b>Kuřecí řízek, brambory</b><span class="uvod-chip">1, 3</span></div></div>
+           <div class="uvod-radek alergen"><span class="uvod-ico">⚠</span><div><small>Hlavní chod II · Alergen 7</small><b>Smažený sýr, tatarka</b></div></div>` },
+  { nadpis: "Vždy po ruce", text: "Upozornění na nový jídelníček, oblíbené školy na jedno klepnutí a jídelníček i bez připojení.",
+    mock: `<div class="uvod-radek"><span class="uvod-ico">🔔</span><div><small>Škola na talíři</small><b>Nový jídelníček na příští týden</b></div></div>
+           <div class="uvod-flat"><div><span>🔔</span>Upozornění</div><div><span>★</span>Oblíbené</div><div><span>⇣</span>Offline</div></div>` },
+];
+function ukazUvod(hotovo){
+  const el = $("#uvod"), slide = $("#uvodSlide"), dots = $("#uvodDots"), next = $("#uvodNext");
+  let i = 0;
+  const vykresli = () => {
+    const u = UVOD[i];
+    slide.style.animation = "none"; void slide.offsetWidth; slide.style.animation = "";
+    slide.innerHTML = `<div class="uvod-mock">${u.mock}</div><div><h2>${u.nadpis}</h2><p>${u.text}</p></div>`;
+    dots.innerHTML = UVOD.map((_, k) => `<i class="${k === i ? "on" : ""}"></i>`).join("");
+    next.textContent = i < UVOD.length - 1 ? "Dál" : "Vybrat školu";
+    $("#uvodSkip").style.visibility = i < UVOD.length - 1 ? "visible" : "hidden";
+  };
+  const konec = () => { try { localStorage.setItem("dubec:uvod", "1"); } catch {} el.hidden = true; hotovo(); };
+  next.onclick = () => { haptic(); if (i < UVOD.length - 1) { i++; vykresli(); } else konec(); };
+  $("#uvodSkip").onclick = konec;
+  el.hidden = false; vykresli();
+}
 $("#skolaScrim").addEventListener("click", zavriSkolaSheet);
 $$(".skola-typ-filtr button").forEach(b => b.addEventListener("click", () => {
   if (b.dataset.typ === filtrTypu) return;
@@ -1939,6 +1968,11 @@ if ("serviceWorker" in navigator && location.protocol.startsWith("http"))
     otevritSkoluAJidelnicek(pushId);
   }
 
-  if (jePrvniSpusteni) setTimeout(otevriSkolaSheet, 150);
+  if (jePrvniSpusteni) {
+    let uvodVidel = false;
+    try { uvodVidel = localStorage.getItem("dubec:uvod") === "1"; } catch {}
+    if (uvodVidel) setTimeout(otevriSkolaSheet, 150);
+    else ukazUvod(() => setTimeout(otevriSkolaSheet, 150));
+  }
 })();
 })();

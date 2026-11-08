@@ -897,3 +897,33 @@ main{max-width:560px;margin:0 auto;
 .bez-skoly-vyzva p{color:var(--ink-2);max-width:32ch;margin:0 auto 20px;line-height:1.45}
 .bez-skoly .bez-skoly-vyzva{display:block}
 .bez-skoly .view,.bez-skoly .tabbar,.bez-skoly .tabbar-fab{display:none!important}
+
+/* Úvod při prvním spuštění */
+.uvod{position:fixed;inset:0;z-index:80;display:flex;flex-direction:column;align-items:center;
+  padding:max(18px,env(safe-area-inset-top)) 24px max(24px,env(safe-area-inset-bottom));background:var(--bg)}
+.uvod[hidden]{display:none}
+.uvod-skip{align-self:flex-end;font-size:15px;font-weight:600;color:var(--ink-2);padding:10px 4px}
+.uvod-slide{flex:1;width:100%;max-width:420px;display:flex;flex-direction:column;justify-content:center;gap:26px;
+  animation:uvodIn .45s cubic-bezier(.2,.8,.2,1)}
+@keyframes uvodIn{from{opacity:0;transform:translateX(18px)}to{opacity:1;transform:none}}
+@media (prefers-reduced-motion:reduce){.uvod-slide{animation:none}}
+.uvod-mock{display:flex;flex-direction:column;gap:12px}
+.uvod-radek{display:flex;gap:14px;align-items:flex-start;padding:16px;border-radius:22px;background:var(--card);
+  border:1px solid var(--line,rgba(127,127,127,.15));box-shadow:0 6px 16px rgba(0,0,0,.06)}
+.uvod-radek.zvyrazneny{background:var(--accent-soft);border-color:color-mix(in srgb,var(--accent) 30%,transparent)}
+.uvod-radek.alergen{background:var(--t-red-bg,#fbebee);border-color:rgba(196,56,79,.35)}
+.uvod-ico{width:46px;height:46px;border-radius:14px;display:grid;place-items:center;background:var(--accent-soft);color:var(--accent);font-size:22px;flex:none}
+.uvod-radek small{display:block;font-size:11px;font-weight:700;letter-spacing:.1em;color:var(--ink-3);text-transform:uppercase;margin-bottom:4px}
+.uvod-radek b{font-size:18px;letter-spacing:-.3px}
+.uvod-radek.zvyrazneny b{color:var(--accent)}
+.uvod-radek.alergen b{color:#c4384f}
+.uvod-chip{display:inline-block;margin-top:6px;padding:3px 9px;border-radius:99px;background:var(--track,rgba(127,127,127,.12));color:var(--ink-2);font-size:12px;font-weight:650}
+.uvod-flat{display:flex;gap:12px}
+.uvod-flat div{flex:1;text-align:center;padding:16px 6px;border-radius:22px;background:var(--card);border:1px solid var(--line,rgba(127,127,127,.15));font-size:13px;font-weight:650}
+.uvod-flat span{display:block;font-size:24px;margin-bottom:6px;color:var(--accent)}
+.uvod-slide h2{font-size:30px;letter-spacing:-.8px;text-align:center;margin:0;text-wrap:balance}
+.uvod-slide p{font-size:17px;color:var(--ink-2);text-align:center;margin:10px 0 0;line-height:1.4;text-wrap:balance}
+.uvod-dots{display:flex;gap:8px;margin:18px 0}
+.uvod-dots i{display:block;height:8px;width:8px;border-radius:99px;background:var(--ink-3);opacity:.35;transition:width .3s,opacity .3s}
+.uvod-dots i.on{width:22px;background:var(--accent);opacity:1}
+.uvod-next{width:100%;max-width:420px;padding:16px 22px;font-size:17px;font-weight:700}
