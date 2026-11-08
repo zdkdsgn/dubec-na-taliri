@@ -8,8 +8,10 @@ enum SharedStore {
     static func saveSchool(_ s: SkolaPolozka) {
         if let raw = try? JSONEncoder().encode(s) { defaults.set(raw, forKey: "school") }
     }
-    static func loadSchool() -> SkolaPolozka {
-        if let raw = defaults.data(forKey: "school"), let s = try? JSONDecoder().decode(SkolaPolozka.self, from: raw) { return s }
-        return .vychozi
+    /// Uložená škola, nebo nil (první spuštění / nic nevybráno).
+    static func storedSchool() -> SkolaPolozka? {
+        guard let raw = defaults.data(forKey: "school"), let s = try? JSONDecoder().decode(SkolaPolozka.self, from: raw), !s.jeZadna else { return nil }
+        return s
     }
+    static func loadSchool() -> SkolaPolozka { storedSchool() ?? .zadna }
 }

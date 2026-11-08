@@ -8,7 +8,13 @@ struct WatchContentView: View {
     var body: some View {
         NavigationStack {
             Group {
-                if model.loading && model.data.days.isEmpty {
+                if model.school.jeZadna {
+                    VStack(spacing: 10) {
+                        Image(systemName: "building.2").font(.title3).foregroundStyle(W.accent)
+                        Text("Vyberte školu").font(.headline).foregroundStyle(W.ink)
+                        Button("Vybrat") { picking = true }.tint(W.accent)
+                    }.padding()
+                } else if model.loading && model.data.days.isEmpty {
                     ProgressView()
                 } else if model.failed {
                     Text("Nepodařilo se načíst jídelníček.").font(.footnote).foregroundStyle(W.ink2).padding()

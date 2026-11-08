@@ -33,10 +33,16 @@
 <main id="scroller">
 
   <!-- ── VIEW: DEN ─────────────────────────────────────────────── -->
+  <section class="bez-skoly-vyzva" id="bezSkolyVyzva">
+    <h2>Vyberte svou školu</h2>
+    <p>Appka ukáže jídelníček školy nebo školky, kterou si vyberete. Najdete ji podle názvu nebo ulice.</p>
+    <button class="ic-pridat" id="bezSkolyTlacitko" type="button">Vybrat školu</button>
+  </section>
+
   <section class="view" id="view-den">
     <div class="skola-hlavicka">
       <span class="dot"></span>
-      <span id="heroSchool" role="heading" aria-level="1">ZŠ Dubeč</span>
+      <span id="heroSchool" role="heading" aria-level="1">Vyberte školu</span>
     </div>
 
     <div class="ic-zdroj" id="icZdroj" hidden></div>
@@ -167,7 +173,7 @@
         <div class="notice-ico tint-blue">
           <svg viewBox="0 0 24 24"><path d="M3 11l9-7 9 7M5 10v9a1 1 0 001 1h4v-6h4v6h4a1 1 0 001-1v-9"/></svg>
         </div>
-        <div><h3>Vaše škola</h3><p id="skolaAktualni">ZŠ Dubeč</p></div>
+        <div><h3>Vaše škola</h3><p id="skolaAktualni">Vyberte školu</p></div>
         <svg class="chev" viewBox="0 0 24 24"><path d="M9 5l7 7-7 7"/></svg>
       </button>
 
@@ -262,7 +268,7 @@
         </div>
       </div>
 
-      <a class="card link-card" id="webJidelny" href="https://www.zsdubec.cz" target="_blank" rel="noopener">
+      <a class="card link-card" id="webJidelny" href="https://www.jidelna.cz" target="_blank" rel="noopener">
         <div class="notice-ico">
           <svg viewBox="0 0 24 24"><path d="M4 21V9l8-5 8 5v12M9 21v-6h6v6"/></svg>
         </div>
@@ -322,7 +328,7 @@
   <div class="skola-lepiva-hlavicka">
     <div class="sheet-grabber"></div>
     <h2>Vaše škola</h2>
-    <p class="sub">Přes 200 škol napříč republikou – další jde najít, ale zatím bez staženého jídelníčku.</p>
+    <p class="sub">Stovky škol a školek z celé republiky – podle názvu nebo ulice. Další jde najít, jídelníček se jim doplní, jakmile ho zveřejní.</p>
     <div class="skola-hledat">
       <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
       <input type="search" id="skolaQuery" aria-label="Hledat školu" placeholder="Název nebo ulice, aspoň 4 znaky" autocomplete="off">

@@ -97,9 +97,9 @@ struct SkolaPolozka: Codable, Identifiable, Hashable {
         return "Ostatní"
     }
 
-    static let vychozi = SkolaPolozka(
-        id: "47", nazev: "Základní škola, Starodubečská 413, Praha 10 - Dubeč",
-        kratky: "ZŠ Dubeč", zdroj: "jidelna.cz", skutecna_data: true, web: nil)
+    /// Zatím nevybraná škola (první spuštění) – appka nemá žádnou předvybranou.
+    static let zadna = SkolaPolozka(id: "", nazev: "Vyberte školu", kratky: "Vyberte školu", zdroj: nil, skutecna_data: false, web: nil)
+    var jeZadna: Bool { id.isEmpty }
 }
 
 /// Kontakty a doby výdejů jídelny (schools/<id>/info.json, stahuje tools/fetch-info.py).

@@ -812,7 +812,7 @@ main{max-width:560px;margin:0 auto;
 .ic-chyba{min-height:0;color:var(--t-red,#c0392b);font-size:13px}
 .ic-chyba:empty{display:none}
 .ic-pridat{
-  padding:12px 14px;border-radius:var(--r-pill);background:var(--accent);color:var(--on-accent);
+  padding:12px 22px;border-radius:var(--r-pill);background:var(--accent);color:var(--on-accent);
   font-size:14.5px;font-weight:650;
 }
 .ic-pridat:disabled{opacity:.6}
@@ -890,3 +890,10 @@ main{max-width:560px;margin:0 auto;
 .skola-sekce-telo > div{overflow:hidden;display:flex;flex-direction:column;gap:6px;padding:0 8px 8px}
 .skola-sekce-telo .skola-radek{border:0;background:color-mix(in srgb,var(--ink) 3%,transparent)}
 .skola-sekce-telo .skola-radek.aktivni{background:var(--t-green-bg)}
+
+/* První spuštění: žádná škola není předvybraná – ukáže se jen výzva k výběru */
+.bez-skoly-vyzva{display:none;padding:96px 24px 24px;text-align:center}
+.bez-skoly-vyzva h2{font-size:26px;letter-spacing:-.5px;margin:0 0 10px}
+.bez-skoly-vyzva p{color:var(--ink-2);max-width:32ch;margin:0 auto 20px;line-height:1.45}
+.bez-skoly .bez-skoly-vyzva{display:block}
+.bez-skoly .view,.bez-skoly .tabbar,.bez-skoly .tabbar-fab{display:none!important}

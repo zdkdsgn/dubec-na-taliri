@@ -19,11 +19,13 @@ struct SchoolPickerView: View {
     @State private var typ = "vse"
     @State private var expanded: Set<String> = []
     @State private var adding = false
+    /// První spuštění: žádná škola není předvybraná, výběr nejde zavřít bez volby.
+    var welcome = false
 
     private let typy = [("vse", "Vše"), ("zs", "ZŠ"), ("ms", "MŠ"), ("ss", "SŠ")]
 
     private var filtered: [SkolaPolozka] {
-        let base = state.schools.isEmpty ? [state.active] : state.schools
+        let base = state.schools.isEmpty ? (state.hasSchool ? [state.active] : []) : state.schools
         return base.filter { s in
             (typ == "vse" || s.typy.contains(typ)) &&
             (query.count < 2 || MenuLogic.normalize(s.nazev).contains(MenuLogic.normalize(query)) ||
@@ -72,13 +74,14 @@ struct SchoolPickerView: View {
             .scrollContentBackground(.hidden)
             .background(T.bg)
             .searchable(text: $query, placement: .navigationBarDrawer(displayMode: .always), prompt: "Název nebo ulice")
-            .navigationTitle("Vaše škola")
+            .navigationTitle(welcome ? "Vyberte svou školu" : "Vaše škola")
             .navigationBarTitleDisplayMode(.large)
-            .toolbar { ToolbarItem(placement: .confirmationAction) { Button("Hotovo") { dismiss() } } }
+            .toolbar { if !welcome { ToolbarItem(placement: .confirmationAction) { Button("Hotovo") { dismiss() } } } }
             .sheet(isPresented: $adding) { AddIcanteenView(onDone: { adding = false; dismiss() }) }
         }
         .presentationDragIndicator(.visible)
         .presentationCornerRadius(30)
+        .interactiveDismissDisabled(welcome)
     }
 
     private func row(_ s: SkolaPolozka) -> some View {

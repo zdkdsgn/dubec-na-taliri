@@ -18,7 +18,7 @@ struct Provider: TimelineProvider {
             Chod.sample("obed", "Svíčková na smetaně", "Houskový knedlík · Čaj, mléko"),
             Chod.sample("obed2", "Zeleninové rizoto", "Strouhaný sýr · Čaj, mléko"),
         ])
-        return LunchEntry(date: .now, school: "ZŠ Dubeč", label: "Dnes", day: DaySummary(sk), live: false,
+        return LunchEntry(date: .now, school: "Vaše škola", label: "Dnes", day: DaySummary(sk), live: false,
                           nextLabel: "Zítra", next: DaySummary(sk))
     }
 
@@ -37,6 +37,7 @@ struct Provider: TimelineProvider {
 
     private func build() async -> LunchEntry {
         let school = SharedStore.loadSchool()
+        if school.jeZadna { return LunchEntry(date: .now, school: "Vyberte školu v appce", label: "Dnes", day: nil, live: false, nextLabel: nil, next: nil) }
         let empty = LunchEntry(date: .now, school: school.jmeno, label: "Dnes", day: nil, live: false, nextLabel: nil, next: nil)
         guard let data = try? await DataService.school(school.id) else { return empty }
         let group = data.groups.contains("zs") ? "zs" : (data.groups.first ?? "zs")

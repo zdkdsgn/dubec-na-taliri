@@ -351,7 +351,7 @@ function aktualizujHlavicky(){
   ["heroSchool", "heroSchoolTyden", "heroSchoolAlergeny", "heroSchoolInfo"].forEach(id => {
     const el = $("#" + id); if (el) el.textContent = p;
   });
-  const nazevAppky = `${p} na talíři`;
+  const nazevAppky = AKTIVNI?.bezVyberu ? "Škola na talíři" : `${p} na talíři`;
   if (document.title !== nazevAppky) document.title = nazevAppky;
   const appleTitle = $('meta[name="apple-mobile-web-app-title"]');
   if (appleTitle) appleTitle.setAttribute("content", nazevAppky);
@@ -875,7 +875,7 @@ async function otevritSkoluAJidelnicek(id){
   if (!id) return;
   if (AKTIVNI && AKTIVNI.id === id) { setView("den"); return; }
   await nactiRegistr();
-  const polozka = id === VYCHOZI_LOKACE ? VYCHOZI_SKOLA : (registrSkol || []).find(s => s.id === id);
+  const polozka = (registrSkol || []).find(s => s.id === id) || { id, nazev: id, kratky: id, skutecna_data: true };
   if (polozka) {
     const ok = await prepniNaSkolu(polozka);
     if (ok) { $("#skolaAktualni").textContent = AKTIVNI.nazev; renderAll(); }
@@ -905,7 +905,7 @@ async function zpracujSdileneNastaveni(){
 
   if (sk) {
     await nactiRegistr();
-    const polozka = sk === VYCHOZI_LOKACE ? VYCHOZI_SKOLA : (registrSkol || []).find(s => s.id === sk);
+    const polozka = (registrSkol || []).find(s => s.id === sk) || { id: sk, nazev: sk, kratky: sk, skutecna_data: true };
     if (polozka) await prepniNaSkolu(polozka);
   }
 }
@@ -962,18 +962,13 @@ const weekStep = n => {
 };
 
 /* ── Výběr školy ──────────────────────────────────────────────────
-   Appka nemá žádnou vestavěnou "domovskou" školu – i ZŠ Dubeč je jen
-   běžná položka registru (id "47"), stahovaná stejně jako kterákoli
-   jiná. Při úplně prvním spuštění (nic v localStorage) appka jen
-   zkusí naběhnout na ni jako na rozumný výchozí tip, ať má hned co
-   ukázat – funkčně se ale nijak neliší od výběru libovolné jiné
-   školy. D.courses/D.allergens zůstávají společné pro všechny školy.
+   Appka nemá žádnou vestavěnou ani předvybranou školu – ZŠ i MŠ Dubeč
+   jsou jen běžné položky registru. Při úplně prvním spuštění (nic
+   v localStorage) appka rovnou nabídne výběr školy a do té doby ukazuje
+   jen výzvu "Vyberte školu". D.courses/D.allergens jsou společné pro
+   všechny školy.
 ──────────────────────────────────────────────────────────────────── */
-const VYCHOZI_LOKACE = "47";   // id ZŠ Dubeč na jidelna.cz – tip pro úplně první spuštění
-const VYCHOZI_SKOLA  = {
-  id: VYCHOZI_LOKACE, nazev: "Základní škola, Starodubečská 413, Praha 10 - Dubeč",
-  kratky: "ZŠ Dubeč", zdroj: "jidelna.cz", skutecna_data: true,
-};
+const BEZ_SKOLY = { id: "", nazev: "Vyberte školu", kratky: "Vyberte školu", skutecna_data: false, bezVyberu: true };
 const SKOLY_PROXY    = "https://zs-jidelny.zdkdsgn.workers.dev/";
 let AKTIVNI = null;   // {id, nazev, skutecna_data, …} aktivně vybraná škola – null jen do dokončení startu
 let registrSkol = null;
@@ -1062,6 +1057,7 @@ async function prepniNaSkolu(polozka){
     S.date   = nearestSchoolDay(TODAY);
     store.set("lokace", polozka.id);
     store.set("lokaceData", polozka);
+    document.body.classList.remove("bez-skoly");
     return true;
   } catch {
     toast("Škola se nepodařilo načíst – zkuste to znovu");
@@ -1447,6 +1443,7 @@ $("#hledatQuery").addEventListener("input", e => {
   hledatTimer = setTimeout(() => vykresliHledani(e.target.value), 250);
 });
 $("#toSkola").addEventListener("click", otevriSkolaSheet);
+$("#bezSkolyTlacitko")?.addEventListener("click", otevriSkolaSheet);
 $("#skolaScrim").addEventListener("click", zavriSkolaSheet);
 $$(".skola-typ-filtr button").forEach(b => b.addEventListener("click", () => {
   if (b.dataset.typ === filtrTypu) return;
@@ -1898,20 +1895,25 @@ if ("serviceWorker" in navigator && location.protocol.startsWith("http"))
   await zpracujSdileneNastaveni();
 
   // Úplně první spuštění appky (v localStorage ještě není žádná volba
-  // školy) – appka si zatím tiše "vybere" ZŠ Dubeč jako rozumný výchozí
-  // tip, ať má hned co ukázat, ale rovnou po vykreslení otevře výběr,
-  // ať si rodič najde tu svou. Kdo si školu už někdy vybral (třeba i
-  // ZŠ Dubeč), se tímhle znovu neobtěžuje. Funkčně se to od výběru
-  // jakékoli jiné školy nijak neliší – žádná "vestavěná" výjimka.
+  // školy) – žádná škola se nepředvybírá: ukáže se výzva a hned se otevře
+  // výběr. Kdo si školu už někdy vybral, naběhne rovnou na ni.
   const jePrvniSpusteni = localStorage.getItem("dubec:lokace") === null;
   if (!AKTIVNI) {
-    const ulozenaData = store.get("lokaceData", null);
-    const ok = await prepniNaSkolu(ulozenaData || VYCHOZI_SKOLA);
+    const lokaceId = store.get("lokace", null);
+    const ulozenaData = store.get("lokaceData", null)
+      || (lokaceId ? { id: lokaceId, nazev: lokaceId, kratky: lokaceId, skutecna_data: true } : null);
+    if (!ulozenaData) {
+      D = window.MENU_DATA;
+      AKTIVNI = BEZ_SKOLY;
+      S.date = nearestSchoolDay(TODAY);
+      document.body.classList.add("bez-skoly");
+    }
+    const ok = ulozenaData ? await prepniNaSkolu(ulozenaData) : true;
     if (!ok) {
       // Offline při úplně prvním spuštění (nic stažené k dispozici) –
       // ukážeme aspoň vestavěná ukázková data, ať appka nezůstane prázdná.
       D = window.MENU_DATA;
-      AKTIVNI = { id: VYCHOZI_LOKACE, nazev: D.meta.school, kratky: D.meta.school, viceSkupin: true };
+      AKTIVNI = { id: store.get("lokace", ""), nazev: D.meta.school, kratky: D.meta.school, viceSkupin: true };
       S.school = store.get("school", "zs") || "zs";
       S.date   = nearestSchoolDay(TODAY);
     }
@@ -1937,6 +1939,6 @@ if ("serviceWorker" in navigator && location.protocol.startsWith("http"))
     otevritSkoluAJidelnicek(pushId);
   }
 
-  if (jePrvniSpusteni) setTimeout(otevriSkolaSheet, 700);
+  if (jePrvniSpusteni) setTimeout(otevriSkolaSheet, 150);
 })();
 })();

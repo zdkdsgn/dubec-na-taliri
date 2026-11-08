@@ -22,7 +22,7 @@ private enum Store {
 @MainActor
 final class AppState: ObservableObject {
     @Published var schools: [SkolaPolozka] = []
-    @Published var active: SkolaPolozka = Store.get("activeSchool", SkolaPolozka.vychozi) {
+    @Published var active: SkolaPolozka = Store.get("activeSchool", SharedStore.storedSchool() ?? SkolaPolozka.zadna) {
         didSet { Store.set("activeSchool", active); SharedStore.saveSchool(active); WidgetCenter.shared.reloadAllTimelines() }
     }
     @Published var data = SkolaData.empty
@@ -68,12 +68,15 @@ final class AppState: ObservableObject {
 
     private func syncWatch() { PhoneSync.shared.send(favorites: favoriteSchools) }
 
+    /// Je vybraná nějaká škola? Při prvním spuštění ne – appka rovnou nabídne výběr.
+    var hasSchool: Bool { !active.jeZadna }
+
     func start() async {
-        SharedStore.saveSchool(active)
+        if hasSchool { SharedStore.saveSchool(active) }
         PhoneSync.shared.activate()
         syncWatch()
         async let list: Void = loadSchools()
-        await load(active)
+        if hasSchool { await load(active) }
         await list
     }
 
@@ -243,7 +246,7 @@ final class AppState: ObservableObject {
     /// Oblíbené školy + aktivní škola (i když není oblíbená), ať jde upozornění zapnout bez hvězdičky.
     var pushCandidates: [SkolaPolozka] {
         var out = favoriteSchools.filter { !$0.jeIcanteen }
-        if !active.jeIcanteen, !out.contains(where: { $0.id == active.id }) { out.insert(active, at: 0) }
+        if hasSchool, !active.jeIcanteen, !out.contains(where: { $0.id == active.id }) { out.insert(active, at: 0) }
         return out
     }
 
@@ -266,7 +269,7 @@ final class AppState: ObservableObject {
 
     func openFromPush(_ id: String) async {
         if id == active.id { return }
-        if let s = schools.first(where: { $0.id == id }) ?? favoriteInfo[id] ?? (id == SkolaPolozka.vychozi.id ? SkolaPolozka.vychozi : nil) {
+        if let s = schools.first(where: { $0.id == id }) ?? favoriteInfo[id] {
             await load(s)
         } else if let all = try? await DataService.schools(), let s = all.first(where: { $0.id == id }) {
             schools = all

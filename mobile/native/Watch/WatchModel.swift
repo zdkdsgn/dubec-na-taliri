@@ -15,9 +15,9 @@ final class WatchModel: ObservableObject {
         if let raw = defaults.data(forKey: "school"), let s = try? JSONDecoder().decode(SkolaPolozka.self, from: raw) {
             school = s
         } else {
-            school = .vychozi
+            school = .zadna
         }
-        SharedStore.saveSchool(school)
+        if !school.jeZadna { SharedStore.saveSchool(school) }
         if let raw = defaults.data(forKey: "favorites"), let l = try? JSONDecoder().decode([SkolaPolozka].self, from: raw) { favorites = l }
         WatchSync.shared.onFavorites = { [weak self] list in self?.setFavorites(list) }
     }
@@ -42,6 +42,7 @@ final class WatchModel: ObservableObject {
     }
 
     func load() async {
+        if school.jeZadna { loading = false; return }
         loading = true; failed = false
         do { data = try await DataService.school(school.id) } catch { failed = data.days.isEmpty }
         loading = false

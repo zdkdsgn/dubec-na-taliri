@@ -23,6 +23,7 @@ struct RootView: View {
         .tabBarMinimizeBehavior(.onScrollDown)
         .tint(T.accent)
         .sheet(isPresented: $showSchools) { SchoolPickerView().environmentObject(state) }
+        .fullScreenCover(isPresented: .constant(!state.hasSchool)) { SchoolPickerView(welcome: true).environmentObject(state) }
         .task { await state.start() }
         .onReceive(NotificationCenter.default.publisher(for: .openSchoolFromPush)) { n in
             guard let id = n.object as? String else { return }
