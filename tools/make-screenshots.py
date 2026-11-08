@@ -1,40 +1,44 @@
 #!/usr/bin/env python3
-"""Složí App Store screenshoty (1320×2868, 6,9") z reálných snímků simulátoru + nadpisů.
+"""Složí App Store screenshoty (1320×2868, 6,9") z reálných snímků simulátoru.
 
     python3 tools/make-screenshots.py
 
 Vstup:  docs/app-store-screenshots/raw/<n>-<název>.png (snímky iPhone 18 Pro Max, světlý režim, 9:41)
 Výstup: docs/app-store-screenshots/<n>-<název>.png
-Písmo: SF Pro (systémové, macOS). Barvy z palety appky.
+Grafika: zelený přechod z palety appky, kruhy „talíře“ v pozadí, nadpis písmem SF Pro (Heavy) se
+zvýrazněným slovem, realistický rám iPhonu a plovoucí „bubliny“ s výhodami. Jména osob se rozostřují.
 """
+import math
 from pathlib import Path
-from PIL import Image, ImageDraw, ImageFilter, ImageFont
+from PIL import Image, ImageChops, ImageDraw, ImageFilter, ImageFont
 
 ROOT = Path(__file__).resolve().parent.parent
 RAW = ROOT / "docs" / "app-store-screenshots" / "raw"
 OUT = ROOT / "docs" / "app-store-screenshots"
 W, H = 1320, 2868
 SF = "/System/Library/Fonts/SFNS.ttf"
+ZVYRAZNENI = (255, 214, 92)          # teplá žlutá – kontrast k zelené
+MINT = (190, 245, 218)
+TMAVA_ZELENA = (14, 84, 58)
 
-SLIDY = [
-    ("1-den", "Co je dnes\nk obědu?", "Jídelníček vaší školy nebo školky\nna jednom místě"),
-    ("2-tyden", "Celý týden\npřehledně", "Rozbalte den a uvidíte\nvšechna jídla"),
-    ("3-obedy", "Vidíte, co má dítě\npřihlášené", "Objednané obědy z jidelna.cz\nu každého dítěte"),
-    ("4-alergeny", "Hlídejte\nalergeny", "Jídla s vaším alergenem\nse hned zvýrazní"),
-    ("5-info", "Vše o jídelně\nna dosah", "Kontakty, doby výdeje,\nředitel i číslo účtu"),
-    ("6-alergeny-nastaveni", "Nastavte,\nco dítě nesmí", "Vlastní alergeny pro každé dítě,\nvšechny na jednom místě"),
-]
-
-
-# Jména skutečných lidí (vedoucí jídelny/kuchyně, ředitel) se v reklamních snímcích rozostřují: {snímek: [(x0, y0, x1, y1), …]}
+# Jména skutečných lidí (vedoucí jídelny/kuchyně, ředitel) se rozostřují: {snímek: [(x0, y0, x1, y1), …]}
 ROZMAZAT = {"5-info": [(560, 2190, 1260, 2270), (560, 2326, 1260, 2406), (560, 2462, 1260, 2540)]}
 
-
-def rozmazat(im, boxy):
-    for b in boxy:
-        oblast = im.crop(b).filter(ImageFilter.GaussianBlur(16))
-        im.paste(oblast, b[:2])
-    return im
+# (soubor, eyebrow, nadpis se {zvýrazněním}, podnadpis, bubliny [(text, ikona, x, y, úhel)])
+SLIDY = [
+    ("1-den", "", "Co je dnes\nk {obědu}?", "Jídelníček školy nebo školky\nna jednom místě",
+     [("Výdej 11:00–14:00", "hodiny", 40, 2470, -4), ("Alergeny u každého jídla", "list", -40, 2640, 3)]),
+    ("2-tyden", "TÝDEN", "Celý týden\n{přehledně}", "Rozbalte den a uvidíte\nvšechna jídla",
+     [("Po–Pá na jedné obrazovce", "kalendar", 40, 2470, -4), ("Funguje i offline", "ok", -40, 2640, 3)]),
+    ("3-obedy", "OBJEDNÁNO", "Vidíte, co má dítě\n{přihlášené}", "Objednané obědy z jidelna.cz\nu každého dítěte",
+     [("Přihlášeno · menu 1", "ok", 40, 2470, -4), ("Appka jen čte, nic neodhlašuje", "zamek", -40, 2640, 3)]),
+    ("4-alergeny", "ALERGENY", "Hlídejte\n{alergeny}", "Jídla s vaším alergenem\nse hned zvýrazní",
+     [("Alergen 6 · soja", "vykricnik", 40, 2470, -4), ("Pro každé dítě zvlášť", "osoba", -40, 2640, 3)]),
+    ("5-info", "JÍDELNA", "Vše o jídelně\n{na dosah}", "Kontakty, doby výdeje,\nředitel i číslo účtu",
+     [("Doba výdeje", "hodiny", 40, 2470, -4), ("Telefon · e-mail · web", "telefon", -40, 2640, 3)]),
+    ("6-alergeny-nastaveni", "NASTAVENÍ", "Nastavte,\nco dítě {nesmí}", "Vlastní alergeny pro každé dítě,\nvšechny na jednom místě",
+     [("Profil pro každé dítě", "osoba", 40, 2470, -4), ("Upozornění v 18:00", "zvonek", -40, 2640, 3)]),
+]
 
 
 def pismo(vel, vaha):
@@ -43,37 +47,129 @@ def pismo(vel, vaha):
     return f
 
 
+def rozmazat(im, boxy):
+    for b in boxy:
+        im.paste(im.crop(b).filter(ImageFilter.GaussianBlur(16)), b[:2])
+    return im
+
+
+# ── pozadí ─────────────────────────────────────────────────────────────
+
 def pozadi():
-    # svislý přechod z palety appky + dvě rozostřené záře
-    g = Image.new("RGB", (W, H))
-    px = g.load()
-    horni, dolni = (31, 133, 92), (11, 62, 43)
-    for y in range(H):
-        t = y / (H - 1)
-        c = tuple(int(horni[i] + (dolni[i] - horni[i]) * t) for i in range(3))
-        for x in range(W):
-            px[x, y] = c
-    z = Image.new("RGBA", (W, H), (0, 0, 0, 0))
-    d = ImageDraw.Draw(z)
-    d.ellipse((-300, -200, 900, 800), fill=(120, 230, 180, 70))
-    d.ellipse((700, 1500, 1700, 2500), fill=(70, 200, 140, 55))
-    z = z.filter(ImageFilter.GaussianBlur(160))
-    return Image.alpha_composite(g.convert("RGBA"), z)
+    """Diagonální přechod + velká záře za telefonem + soustředné kruhy (odkaz na talíř z ikony)."""
+    import numpy as np
+    a, b = np.array((38, 168, 118), float), np.array((9, 58, 40), float)
+    yy, xx = np.mgrid[0:H, 0:W]
+    t = (xx * 0.35 + yy * 0.94) / (W * 0.35 + H * 0.94)          # diagonála shora doleva → dolů
+    t = np.clip(t, 0, 1)[..., None] ** 1.15
+    zakl = Image.fromarray((a + (b - a) * t).astype("uint8"), "RGB").convert("RGBA")
+    vrstva = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+    d = ImageDraw.Draw(vrstva)
+    # záře
+    d.ellipse((60, 880, 1260, 2080), fill=(170, 255, 214, 95))
+    d.ellipse((-420, -260, 700, 760), fill=(120, 235, 180, 60))
+    vrstva = vrstva.filter(ImageFilter.GaussianBlur(190))
+    zakl = Image.alpha_composite(zakl, vrstva)
+    # kruhy
+    kruhy = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+    d = ImageDraw.Draw(kruhy)
+    cx, cy = W // 2, 1750
+    for r, al in ((620, 26), (800, 20), (990, 14), (1190, 9)):
+        d.ellipse((cx - r, cy - r, cx + r, cy + r), outline=(255, 255, 255, al), width=4)
+    return Image.alpha_composite(zakl, kruhy)
 
 
-def zaoblit(im, r):
-    m = Image.new("L", im.size, 0)
-    ImageDraw.Draw(m).rounded_rectangle((0, 0, im.size[0], im.size[1]), r, fill=255)
-    out = im.convert("RGBA"); out.putalpha(m)
-    return out
+# ── text ──────────────────────────────────────────────────────────────
 
+def sirka(d, txt, f, track=0):
+    return d.textlength(txt, font=f) + track * max(len(txt) - 1, 0)
+
+
+def kresli(d, x, y, txt, f, fill, track=0):
+    if not track:
+        d.text((x, y), txt, font=f, fill=fill)
+        return x + d.textlength(txt, font=f)
+    for ch in txt:
+        d.text((x, y), ch, font=f, fill=fill)
+        x += d.textlength(ch, font=f) + track
+    return x
+
+
+def nadpis_radek(d, y, radek, f):
+    """Řádek s {zvýrazněním}: bílý text + žluté slovo, vystředěno."""
+    casti, i = [], 0
+    while i < len(radek):
+        if radek[i] == "{":
+            j = radek.index("}", i)
+            casti.append((radek[i + 1:j], ZVYRAZNENI)); i = j + 1
+        else:
+            j = radek.find("{", i); j = len(radek) if j < 0 else j
+            casti.append((radek[i:j], (255, 255, 255))); i = j
+    celkem = sum(d.textlength(t, font=f) for t, _ in casti)
+    x = (W - celkem) / 2
+    for t, c in casti:
+        x = kresli(d, x, y, t, f, c + (255,))
+
+
+# ── bubliny ───────────────────────────────────────────────────────────
+
+def ikona(d, kind, cx, cy, r, barva):
+    d.ellipse((cx - r, cy - r, cx + r, cy + r), fill=barva)
+    b = (255, 255, 255, 255)
+    lw = max(r // 6, 4)
+    if kind == "ok":
+        d.line([(cx - r * .42, cy + r * .02), (cx - r * .1, cy + r * .34), (cx + r * .48, cy - r * .34)], fill=b, width=lw, joint="curve")
+    elif kind == "vykricnik":
+        d.line([(cx, cy - r * .5), (cx, cy + r * .12)], fill=b, width=lw)
+        d.ellipse((cx - lw * .7, cy + r * .36, cx + lw * .7, cy + r * .36 + lw * 1.4), fill=b)
+    elif kind == "hodiny":
+        d.ellipse((cx - r * .55, cy - r * .55, cx + r * .55, cy + r * .55), outline=b, width=lw)
+        d.line([(cx, cy), (cx, cy - r * .35)], fill=b, width=lw); d.line([(cx, cy), (cx + r * .28, cy + r * .12)], fill=b, width=lw)
+    elif kind == "kalendar":
+        d.rounded_rectangle((cx - r * .5, cy - r * .42, cx + r * .5, cy + r * .5), r * .12, outline=b, width=lw)
+        d.line([(cx - r * .5, cy - r * .1), (cx + r * .5, cy - r * .1)], fill=b, width=lw)
+    elif kind == "zamek":
+        d.rounded_rectangle((cx - r * .42, cy - r * .05, cx + r * .42, cy + r * .5), r * .1, fill=b)
+        d.arc((cx - r * .28, cy - r * .55, cx + r * .28, cy + r * .12), 180, 360, fill=b, width=lw)
+    elif kind == "osoba":
+        d.ellipse((cx - r * .22, cy - r * .5, cx + r * .22, cy - r * .06), fill=b)
+        d.pieslice((cx - r * .5, cy + r * .02, cx + r * .5, cy + r * .9), 180, 360, fill=b)
+    elif kind == "telefon":
+        d.rounded_rectangle((cx - r * .28, cy - r * .5, cx + r * .28, cy + r * .5), r * .1, outline=b, width=lw)
+    elif kind == "zvonek":
+        d.pieslice((cx - r * .42, cy - r * .5, cx + r * .42, cy + r * .4), 180, 360, fill=b)
+        d.rectangle((cx - r * .42, cy - r * .05, cx + r * .42, cy + r * .32), fill=b)
+        d.ellipse((cx - r * .14, cy + r * .3, cx + r * .14, cy + r * .56), fill=b)
+    elif kind == "list":
+        d.pieslice((cx - r * .5, cy - r * .5, cx + r * .5, cy + r * .5), 20, 200, fill=b)
+
+
+def bublina(text, kind, uhel):
+    f = pismo(50, "Semibold")
+    dm = ImageDraw.Draw(Image.new("RGBA", (10, 10)))
+    tw = dm.textlength(text, font=f)
+    r = 36
+    w, h = int(tw + 2 * 38 + 2 * r + 24), 108
+    pad = 90
+    im = Image.new("RGBA", (w + 2 * pad, h + 2 * pad), (0, 0, 0, 0))
+    stin = Image.new("RGBA", im.size, (0, 0, 0, 0))
+    ImageDraw.Draw(stin).rounded_rectangle((pad, pad + 22, pad + w, pad + h + 22), h // 2, fill=(0, 30, 18, 150))
+    im = Image.alpha_composite(im, stin.filter(ImageFilter.GaussianBlur(26)))
+    d = ImageDraw.Draw(im)
+    d.rounded_rectangle((pad, pad, pad + w, pad + h), h // 2, fill=(255, 255, 255, 255))
+    barva = (222, 64, 88, 255) if kind == "vykricnik" else (30, 122, 85, 255)
+    ikona(d, kind, pad + 30 + r, pad + h // 2, r, barva)
+    d.text((pad + 30 + 2 * r + 22, pad + h // 2 - 31), text, font=f, fill=(16, 32, 26, 255))
+    return im.rotate(uhel, resample=Image.BICUBIC, expand=True)
+
+
+# ── telefon ───────────────────────────────────────────────────────────
 
 def kov(w, h, r, svetly=(226, 228, 230), tmavy=(128, 132, 135)):
-    """Titanový rám: vodorovný kovový přechod se světlým středem."""
     g = Image.new("RGBA", (w, h))
     px = g.load()
     for x in range(w):
-        t = abs((x / (w - 1)) - 0.5) * 2          # 0 uprostřed, 1 na okrajích
+        t = abs((x / (w - 1)) - 0.5) * 2
         c = tuple(int(svetly[i] + (tmavy[i] - svetly[i]) * (t ** 1.6)) for i in range(3))
         for y in range(h):
             px[x, y] = c + (255,)
@@ -84,66 +180,90 @@ def kov(w, h, r, svetly=(226, 228, 230), tmavy=(128, 132, 135)):
 
 
 def iphone(shot, sw):
-    """Obrázek obrazovky → realistický iPhone (rám, tlačítka, Dynamic Island). Vrací (obrázek, (x, y0))."""
     sh = round(shot.size[1] * sw / shot.size[0])
     shot = shot.resize((sw, sh), Image.LANCZOS)
-    obrazovka_r = 112
+    obrazovka_r = round(112 * sw / 940)
     cerny, kovovy = 20, 14
     ob = cerny + kovovy
     w, h = sw + 2 * ob, sh + 2 * ob
     vnejsi_r = obrazovka_r + ob
-    tlacitko = 9
-    pl = Image.new("RGBA", (w + 2 * tlacitko, h), (0, 0, 0, 0))
-    ox = tlacitko
-    # boční tlačítka (vystupují z rámu)
+    tl = 9
+    pl = Image.new("RGBA", (w + 2 * tl, h), (0, 0, 0, 0))
+    ox = tl
     d = ImageDraw.Draw(pl)
     for y, v in ((250, 70), (410, 150), (590, 150)):
-        d.rounded_rectangle((ox - tlacitko, y, ox + 14, y + v), 5, fill=(150, 154, 157, 255))
-    d.rounded_rectangle((ox + w - 14, 470, ox + w + tlacitko, 470 + 230), 5, fill=(150, 154, 157, 255))
-    # kovový rám a černý okraj
+        d.rounded_rectangle((ox - tl, y, ox + 14, y + v), 5, fill=(150, 154, 157, 255))
+    d.rounded_rectangle((ox + w - 14, 470, ox + w + tl, 700), 5, fill=(150, 154, 157, 255))
     pl.alpha_composite(kov(w, h, vnejsi_r), (ox, 0))
     cerna = Image.new("RGBA", (w - 2 * kovovy, h - 2 * kovovy), (0, 0, 0, 0))
     ImageDraw.Draw(cerna).rounded_rectangle((0, 0, cerna.size[0], cerna.size[1]), vnejsi_r - kovovy, fill=(6, 8, 7, 255))
     pl.alpha_composite(cerna, (ox + kovovy, kovovy))
-    # obrazovka
     m = Image.new("L", shot.size, 0)
     ImageDraw.Draw(m).rounded_rectangle((0, 0, sw, sh), obrazovka_r, fill=255)
     scr = shot.convert("RGBA"); scr.putalpha(m)
     pl.alpha_composite(scr, (ox + ob, ob))
-    # Dynamic Island
     iw, ih = round(290 * sw / 1320 * 0.97), round(107 * sw / 1320 * 0.97)
+    ix, iy = ox + ob + (sw - iw) // 2, ob + round(43 * sw / 1320)
+    ImageDraw.Draw(pl).rounded_rectangle((ix, iy, ix + iw, iy + ih), ih // 2, fill=(0, 0, 0, 255))
+    return pl
+
+
+# ── slide ─────────────────────────────────────────────────────────────
+
+def logo_hlavicka(pl):
+    """Slide 1: ikona appky + název místo eyebrow."""
+    ic = Image.open(ROOT / "assets" / "icon-512.png").convert("RGB").resize((168, 168), Image.LANCZOS)
+    m = Image.new("L", ic.size, 0)
+    ImageDraw.Draw(m).rounded_rectangle((0, 0, 168, 168), 40, fill=255)
+    ic = ic.convert("RGBA"); ic.putalpha(m)
     d = ImageDraw.Draw(pl)
-    ix = ox + ob + (sw - iw) // 2
-    iy = ob + round(43 * sw / 1320)
-    d.rounded_rectangle((ix, iy, ix + iw, iy + ih), ih // 2, fill=(0, 0, 0, 255))
-    x = (W - pl.size[0]) // 2
-    return pl, (x, 700)
+    f = pismo(60, "Bold")
+    nazev = "Škola na talíři"
+    tw = d.textlength(nazev, font=f)
+    x = (W - (168 + 28 + tw)) / 2
+    pl.alpha_composite(ic, (int(x), 120))
+    d.text((x + 168 + 28, 120 + 168 / 2 - 36), nazev, font=f, fill=(255, 255, 255, 255))
 
 
-def text_stred(d, y, text, font, fill, mezera):
-    for radek in text.split("\n"):
-        w = d.textlength(radek, font=font)
-        d.text(((W - w) / 2, y), radek, font=font, fill=fill)
-        y += mezera
-    return y
-
-
-def slide(jmeno, nadpis, podnadpis):
+def slide(jmeno, eyebrow, nadpis, podnadpis, bubliny):
     pl = pozadi()
     d = ImageDraw.Draw(pl)
-    y = text_stred(d, 150, nadpis, pismo(136, "Bold"), (255, 255, 255, 255), 150)
-    text_stred(d, y + 26, podnadpis, pismo(58, "Medium"), (226, 245, 236, 235), 76)
+    if jmeno == "1-den":
+        logo_hlavicka(pl); y = 360
+    else:
+        f = pismo(46, "Bold")
+        tw = sirka(d, eyebrow, f, 9)
+        kresli(d, (W - tw) / 2, 150, eyebrow, f, MINT + (255,), track=9)
+        y = 250
+    vel = 160
+    plain = [r.replace("{", "").replace("}", "") for r in nadpis.split("\n")]
+    while max(d.textlength(r, font=pismo(vel, "Heavy")) for r in plain) > W - 150:
+        vel -= 4
+    fn = pismo(vel, "Heavy")
+    for radek in nadpis.split("\n"):
+        nadpis_radek(d, y, radek, fn)
+        y += round(vel * 1.05)
+    fp = pismo(60, "Medium")
+    y += 22
+    for radek in podnadpis.split("\n"):
+        tw = d.textlength(radek, font=fp)
+        d.text(((W - tw) / 2, y), radek, font=fp, fill=(226, 247, 236, 235))
+        y += 78
 
-    shot = Image.open(RAW / f"{jmeno}.png").convert("RGB")
-    shot = rozmazat(shot, ROZMAZAT.get(jmeno, []))
-    telefon, (x, y0) = iphone(shot, 940)
+    shot = rozmazat(Image.open(RAW / f"{jmeno}.png").convert("RGB"), ROZMAZAT.get(jmeno, []))
+    tel = iphone(shot, 1000)
+    x, y0 = (W - tel.size[0]) // 2, (930 if jmeno == "1-den" else 820)
     stin = Image.new("RGBA", pl.size, (0, 0, 0, 0))
-    ImageDraw.Draw(stin).rounded_rectangle((x + 10, y0 + 40, x + telefon.size[0] - 10, y0 + 40 + telefon.size[1]), 150, fill=(0, 0, 0, 150))
-    pl = Image.alpha_composite(pl, stin.filter(ImageFilter.GaussianBlur(46)))
-    pl.alpha_composite(telefon, (x, y0))
+    ImageDraw.Draw(stin).rounded_rectangle((x + 20, y0 + 60, x + tel.size[0] - 20, y0 + tel.size[1]), 160, fill=(0, 20, 12, 170))
+    pl = Image.alpha_composite(pl, stin.filter(ImageFilter.GaussianBlur(56)))
+    pl.alpha_composite(tel, (x, y0))
+    for txt, kind, bx, by, uhel in bubliny:
+        b = bublina(txt, kind, uhel)
+        px = bx - 90 if bx >= 0 else W + bx + 90 - b.size[0]
+        pl.alpha_composite(b, (px, by - 90))
     pl.convert("RGB").save(OUT / f"{jmeno}.png", optimize=True)
 
 
 if __name__ == "__main__":
-    for j, n, p in SLIDY:
-        slide(j, n, p); print("hotovo", j)
+    for s in SLIDY:
+        slide(*s); print("hotovo", s[0])
