@@ -142,6 +142,15 @@ struct MealCard: View {
             .saturation(past ? 0.5 : 1)
         }
         .buttonStyle(PressableStyle())
+        .contextMenu {
+            // podržení hlavního chodu: přihlášení/odhlášení se řeší na webu jídelny (appka jen čte)
+            if isMain, let url = OrdersService.pageURL(state.active.id, from: date) {
+                Link(destination: url) {
+                    Label(ordered ? "Odhlásit na webu jídelny" : "Přihlásit na webu jídelny",
+                          systemImage: "arrow.up.right.square")
+                }
+            }
+        }
     }
 }
 

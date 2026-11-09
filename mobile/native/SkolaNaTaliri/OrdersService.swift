@@ -93,6 +93,11 @@ final class OrdersService: NSObject, ObservableObject, WKNavigationDelegate {
         Int(schoolId) == nil ? nil : URL(string: "https://www.jidelna.cz/jidelni-listek/?jidelna=\(schoolId)")
     }
 
+    /// Lístek školy od daného dne (pro otevření na webu jídelny).
+    static func pageURL(_ schoolId: String, from date: String) -> URL? {
+        Int(schoolId) == nil ? nil : URL(string: "https://www.jidelna.cz/jidelni-listek/?jidelna=\(schoolId)&zacatek=\(date)&delka=P7D")
+    }
+
     /// Orders only exist for numeric jidelna.cz schools.
     static func supports(_ schoolId: String) -> Bool { Int(schoolId) != nil }
 
