@@ -154,7 +154,8 @@ struct MealCard: View {
         .sheet(isPresented: $showOrder) {
             OrderActionSheet(meal: meal, date: date, ordered: ordered, menuNumber: meal.m ?? (meal.c == "obed" ? 1 : 2))
                 .environmentObject(state).environmentObject(orders)
-                .presentationDetents([.height(470)]).presentationDragIndicator(.visible).presentationCornerRadius(30)
+                .presentationDetents([.height(345)]).presentationDragIndicator(.visible).presentationCornerRadius(32)
+                .presentationBackground(T.bg)
         }
     }
 }

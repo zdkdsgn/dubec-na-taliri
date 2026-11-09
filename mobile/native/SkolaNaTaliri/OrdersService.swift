@@ -351,7 +351,7 @@ struct OrderActionSheet: View {
 
     var body: some View {
         let course = Course.of(meal.c)
-        VStack(alignment: .leading, spacing: 18) {
+        VStack(alignment: .leading, spacing: 16) {
             HStack(spacing: 14) {
                 Image(systemName: ordered ? "checkmark.circle.fill" : "fork.knife")
                     .font(.system(size: 22, weight: .semibold))
@@ -379,7 +379,7 @@ struct OrderActionSheet: View {
 
             HStack(alignment: .top, spacing: 10) {
                 Image(systemName: "info.circle").foregroundStyle(T.ink3).padding(.top, 1)
-                Text("Appka objednávky jen čte. Změnu provedete na webu jídelny, kam vás přenese tlačítko níže (lístek od tohoto dne).")
+                Text("Appka objednávky jen čte. Změnu potvrdíte na webu jídelny – tlačítko níže vás tam přenese.")
                     .font(.system(size: 13.5)).foregroundStyle(T.ink2).fixedSize(horizontal: false, vertical: true)
             }
 
@@ -400,10 +400,10 @@ struct OrderActionSheet: View {
                 }.buttonStyle(PressableStyle())
                 Button("Zavřít") { dismiss() }
                     .font(.system(size: 16, weight: .semibold)).foregroundStyle(T.ink2)
-                    .frame(maxWidth: .infinity).padding(.vertical, 6)
+                    .frame(maxWidth: .infinity).padding(.vertical, 4)
             }
         }
-        .padding(.horizontal, 22).padding(.top, 26).padding(.bottom, 10)
-        .background(T.bg.ignoresSafeArea())
+        .padding(.horizontal, 22).padding(.top, 30).padding(.bottom, 14)
+        .frame(maxHeight: .infinity, alignment: .top)
     }
 }
