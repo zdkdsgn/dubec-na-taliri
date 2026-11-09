@@ -331,3 +331,79 @@ struct OrderGlyph: View {
         }
     }
 }
+
+// MARK: okno „Přihlásit / odhlásit“ (otevře web jídelny, appka nic neodesílá)
+
+struct OrderActionSheet: View {
+    @EnvironmentObject var state: AppState
+    @EnvironmentObject var orders: OrdersService
+    @Environment(\.openURL) private var openURL
+    @Environment(\.dismiss) private var dismiss
+    let meal: Chod
+    let date: String
+    let ordered: Bool
+    let menuNumber: Int
+
+    private var child: String? {
+        let kids = orders.children(schoolId: state.active.id)
+        return kids.count > 1 ? givenName(kids[min(orders.child, kids.count - 1)]) : nil
+    }
+
+    var body: some View {
+        let course = Course.of(meal.c)
+        VStack(alignment: .leading, spacing: 18) {
+            HStack(spacing: 14) {
+                Image(systemName: ordered ? "checkmark.circle.fill" : "fork.knife")
+                    .font(.system(size: 22, weight: .semibold))
+                    .foregroundStyle(ordered ? T.onAccent : T.accent)
+                    .frame(width: 52, height: 52)
+                    .background(ordered ? T.accent : T.accentSoft, in: RoundedRectangle(cornerRadius: 16, style: .continuous))
+                VStack(alignment: .leading, spacing: 3) {
+                    Text("\(Cal.dowName(date)) \(Cal.short(date))").font(.system(size: 22, weight: .bold)).tracking(-0.4).foregroundStyle(T.ink)
+                    HStack(spacing: 6) {
+                        Text(ordered ? "Přihlášeno · menu \(menuNumber)" : "Oběd není přihlášený")
+                            .font(.system(size: 14, weight: .semibold)).foregroundStyle(ordered ? T.accent : T.ink2)
+                        if let child { Text("· \(child)").font(.system(size: 14, weight: .semibold)).foregroundStyle(T.ink2) }
+                    }
+                }
+                Spacer(minLength: 0)
+            }
+
+            VStack(alignment: .leading, spacing: 4) {
+                Text(course.label.uppercased()).font(.system(size: 11, weight: .bold)).tracking(1).foregroundStyle(T.ink3)
+                Text(meal.n).font(.system(size: 18, weight: .bold)).tracking(-0.3).foregroundStyle(T.ink)
+                    .multilineTextAlignment(.leading)
+            }
+            .padding(14).frame(maxWidth: .infinity, alignment: .leading)
+            .card(fill: T.track.opacity(0.6), stroke: T.cardBorder)
+
+            HStack(alignment: .top, spacing: 10) {
+                Image(systemName: "info.circle").foregroundStyle(T.ink3).padding(.top, 1)
+                Text("Appka objednávky jen čte. Změnu provedete na webu jídelny, kam vás přenese tlačítko níže (lístek od tohoto dne).")
+                    .font(.system(size: 13.5)).foregroundStyle(T.ink2).fixedSize(horizontal: false, vertical: true)
+            }
+
+            VStack(spacing: 10) {
+                Button {
+                    UIImpactFeedbackGenerator(style: .light).impactOccurred()
+                    if let url = OrdersService.pageURL(state.active.id, from: date) { openURL(url) }
+                    dismiss()
+                } label: {
+                    HStack(spacing: 8) {
+                        Text(ordered ? "Odhlásit na webu jídelny" : "Přihlásit na webu jídelny")
+                        Image(systemName: "arrow.up.right")
+                    }
+                    .font(.system(size: 17, weight: .bold)).foregroundStyle(.white)
+                    .frame(maxWidth: .infinity).padding(.vertical, 15)
+                    .background(ordered ? T.red : T.accent, in: Capsule())
+                    .shadow(color: (ordered ? T.red : T.accent).opacity(0.3), radius: 10, y: 4)
+                }.buttonStyle(PressableStyle())
+                Button("Zavřít") { dismiss() }
+                    .font(.system(size: 16, weight: .semibold)).foregroundStyle(T.ink2)
+                    .frame(maxWidth: .infinity).padding(.vertical, 6)
+            }
+        }
+        .padding(.horizontal, 22).padding(.top, 26).padding(.bottom, 10)
+        .background(T.bg.ignoresSafeArea())
+    }
+}

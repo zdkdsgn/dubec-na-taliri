@@ -88,6 +88,8 @@ struct MealCard: View {
     let date: String
     let ocas: [String]
     let onTap: () -> Void
+    @State private var showOrder = false
+    @State private var held = false     // po dlouhém stisku se následné klepnutí ignoruje
 
     var body: some View {
         let hits = state.hits(meal)
@@ -104,7 +106,7 @@ struct MealCard: View {
         let isMain = meal.c == "obed" || meal.c == "obed2"
         let dimmed = isMain && !ordered && !menus.isEmpty   // dítě je přihlášené na jiné menu
 
-        Button(action: onTap) {
+        Button(action: { if held { held = false } else { onTap() } }) {
             HStack(alignment: .top, spacing: 14) {
                 MealIcon(course: course)
                 VStack(alignment: .leading, spacing: 5) {
@@ -142,14 +144,17 @@ struct MealCard: View {
             .saturation(past ? 0.5 : 1)
         }
         .buttonStyle(PressableStyle())
-        .contextMenu {
-            // podržení hlavního chodu: přihlášení/odhlášení se řeší na webu jídelny (appka jen čte)
-            if isMain, let url = OrdersService.pageURL(state.active.id, from: date) {
-                Link(destination: url) {
-                    Label(ordered ? "Odhlásit na webu jídelny" : "Přihlásit na webu jídelny",
-                          systemImage: "arrow.up.right.square")
-                }
-            }
+        .simultaneousGesture(LongPressGesture(minimumDuration: 0.45).onEnded { _ in
+            guard isMain, OrdersService.supports(state.active.id) else { return }
+            UIImpactFeedbackGenerator(style: .medium).impactOccurred()
+            held = true
+            showOrder = true
+            DispatchQueue.main.asyncAfter(deadline: .now() + 0.6) { held = false }
+        })
+        .sheet(isPresented: $showOrder) {
+            OrderActionSheet(meal: meal, date: date, ordered: ordered, menuNumber: meal.m ?? (meal.c == "obed" ? 1 : 2))
+                .environmentObject(state).environmentObject(orders)
+                .presentationDetents([.height(470)]).presentationDragIndicator(.visible).presentationCornerRadius(30)
         }
     }
 }
