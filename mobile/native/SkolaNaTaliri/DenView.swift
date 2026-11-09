@@ -285,16 +285,18 @@ struct DenView: View {
 
     /// Jediný řádek: výdej, stav oběda vybraného dítěte, návrat na dnešek a sdílení. Den i datum ukazuje pruh dnů výš.
     private func dayTitle(_ date: String) -> some View {
-        HStack(spacing: 8) {
-            if let v = state.vydej(date) { ServeLine(date: date, vydej: v) }
+        HStack(spacing: 6) {
+            if let v = state.vydej(date) { ServeLine(date: date, vydej: v).lineLimit(1).fixedSize() }
             if case .menu(let m)? = orders.status(date, schoolId: state.active.id) {
-                Text("✓ menu " + m.map(String.init).joined(separator: "+"))
+                Text("✓ " + m.map(String.init).joined(separator: "+"))
                     .font(.system(size: 13, weight: .bold)).foregroundStyle(T.accent)
                     .padding(.horizontal, 8).padding(.vertical, 2)
                     .background(T.accentSoft, in: Capsule()).fixedSize()
                 if let url = OrdersService.pageURL(state.active.id) {
-                    Link("Odhlásit", destination: url)
-                        .font(.system(size: 13, weight: .semibold)).foregroundStyle(T.ink2).fixedSize()
+                    Link(destination: url) {
+                        Image(systemName: "arrow.up.right.square").font(.system(size: 15, weight: .medium))
+                            .foregroundStyle(T.ink2).frame(width: 24, height: 28)
+                    }.accessibilityLabel("Odhlásit na webu jídelny")
                 }
             }
             Spacer(minLength: 0)
@@ -303,9 +305,9 @@ struct DenView: View {
                     UIImpactFeedbackGenerator(style: .light).impactOccurred()
                     state.select(state.nearestSchoolDay(from: Cal.today))
                 } label: {
-                    Label("Dnes", systemImage: "arrow.uturn.backward").font(.system(size: 12, weight: .bold)).foregroundStyle(T.accent)
-                        .padding(.horizontal, 9).padding(.vertical, 3).background(T.accentSoft, in: Capsule())
-                }.buttonStyle(.plain)
+                    Image(systemName: "arrow.uturn.backward").font(.system(size: 12, weight: .bold)).foregroundStyle(T.accent)
+                        .frame(width: 28, height: 24).background(T.accentSoft, in: Capsule())
+                }.buttonStyle(.plain).accessibilityLabel("Zpět na dnešek")
             }
             ShareLink(item: shareText(date)) {
                 Image(systemName: "square.and.arrow.up").font(.system(size: 17, weight: .medium))
