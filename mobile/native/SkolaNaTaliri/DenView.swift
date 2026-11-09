@@ -7,6 +7,7 @@ struct DenView: View {
     @Binding var tab: Int
     @State private var selectedMeal: Chod?
     @State private var showSearch = false
+    @State private var showLogin = false
     @Namespace private var thumb
     @Namespace private var favThumb
 
@@ -53,6 +54,9 @@ struct DenView: View {
         }
         .scrollIndicators(.hidden)
         .refreshable { await state.refresh() }
+        .sheet(isPresented: $showLogin) {
+            OrdersLoginView(schoolId: state.active.id).environmentObject(orders)
+        }
         .sheet(isPresented: $showSearch) {
             SearchSheet { d in state.select(d) }.environmentObject(state)
         }
@@ -143,9 +147,9 @@ struct DenView: View {
 
     @ViewBuilder private var notes: some View {
         if orders.expired {
-            Button { withAnimation { tab = 3 } } label: {
+            Button { showLogin = true } label: {
                 note(icon: "person.crop.circle.badge.exclamationmark", tint: T.amber, bg: T.amberBg,
-                     title: "Přihlášení k jidelna.cz vypršelo.", text: "Klepněte a přihlaste se znovu (Info).")
+                     title: "Přihlášení k jidelna.cz vypršelo (platí 24 hodin).", text: "Klepněte a přihlaste se znovu.")
             }.buttonStyle(.plain)
         }
         if let days = state.staleDays, let u = state.data.updated {

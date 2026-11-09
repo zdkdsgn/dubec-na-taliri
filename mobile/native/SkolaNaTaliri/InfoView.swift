@@ -197,7 +197,7 @@ struct InfoView: View {
                 }
             } else {
                 if orders.expired {
-                    Text("Přihlášení vypršelo. Přihlaste se prosím znovu.").font(.system(size: 14, weight: .semibold)).foregroundStyle(T.amber)
+                    Text("Přihlášení vypršelo (jidelna.cz ho drží 24 hodin). Přihlaste se prosím znovu.").font(.system(size: 14, weight: .semibold)).foregroundStyle(T.amber)
                 }
                 Text("Přihlaste se k jidelna.cz a v jídelníčku uvidíte, na která jídla má vaše dítě přihlášený oběd. Appka jen čte, nic neobjednává ani neodhlašuje, a heslo nikdy nevidí.")
                     .font(.system(size: 14)).foregroundStyle(T.ink2)
