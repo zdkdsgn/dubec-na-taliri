@@ -2697,6 +2697,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Vepřové rizoto s cukrovým hráškem, zeleninou a sýrem",
         "d": "Obloha z čínského zelí · Voda, čaj",
         "a": [
@@ -2728,6 +2729,7 @@
       },
       {
         "c": "obed2",
+        "m": 2,
         "n": "Lasagně Quatro Formague – bezmasé jídlo (se čtyřmi druhy sýra)",
         "d": "Červená řepa · Voda, čaj",
         "a": [
@@ -2776,6 +2778,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Halloweenská tortilla s kuřecím masem, zeleninou a barbecue dresinkem",
         "d": "Voda, čaj",
         "a": [
@@ -2804,6 +2807,7 @@
       },
       {
         "c": "obed2",
+        "m": 2,
         "n": "Mušličky s dýňovou omáčkou, hovězím burgrem, sypané parmazánem",
         "d": "Voda, čaj",
         "a": [
@@ -2846,6 +2850,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Kuřecí plátky v omáčce na paprice se smetanou a rýží",
         "d": "Voda, čaj",
         "a": [
@@ -2872,6 +2877,7 @@
       },
       {
         "c": "obed2",
+        "m": 2,
         "n": "Krevety po indicku s pečivem (kari, rajčata, kokosové mléko)",
         "d": "Voda, čaj",
         "a": [
@@ -2915,6 +2921,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Bretaňské fazole se šunkovou opečenou klobásou, brambory",
         "d": "Ovocný jogurt · Mléko",
         "a": [
@@ -2951,8 +2958,9 @@
       },
       {
         "c": "obed2",
+        "m": 2,
         "n": "Maminčino pečené kuře ( kuřecí paličky, široké nudle – fettuccine, jatérka, žampiony)",
-        "d": "Voda, čaj",
+        "d": "Hruška · Voda, čaj",
         "a": [
           1,
           7,
@@ -2967,6 +2975,11 @@
               7,
               9
             ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Hruška",
+            "a": []
           },
           {
             "l": "Nápoj",
@@ -2993,6 +3006,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Segedínský guláš se smetanou, houskové knedlíky",
         "d": "Voda, čaj",
         "a": [
@@ -3039,6 +3053,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Kousky z vepřové kýty na provensálském koření, vřetýnka",
         "d": "Okurkový salát · Voda, čaj",
         "a": [
@@ -3070,6 +3085,7 @@
       },
       {
         "c": "obed2",
+        "m": 2,
         "n": "Cizrnový kotlík s uzeným masem, pečivo",
         "d": "Mléko",
         "a": [
@@ -3116,7 +3132,8 @@
       },
       {
         "c": "obed",
-        "n": "Losos burger na másle, brambory, kečup, zelenina",
+        "m": 1,
+        "n": "Losos burger na másle, brambory, kečup, teplá zelenina",
         "d": "Voda, čaj",
         "a": [
           1,
@@ -3126,7 +3143,7 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Losos burger na másle, brambory, kečup, zelenina",
+            "n": "Losos burger na másle, brambory, kečup, teplá zelenina",
             "a": [
               1,
               4,
@@ -3142,6 +3159,7 @@
       },
       {
         "c": "obed2",
+        "m": 2,
         "n": "Kroupové rizoto se zelenými fazolkami a pečeným kuřetem",
         "d": "Voda, čaj",
         "a": [
@@ -3181,6 +3199,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Kuřecí nudličky Stroganov(kečup, smetana, okurky) dušená rýže",
         "d": "Voda. čaj",
         "a": [
@@ -3209,6 +3228,7 @@
       },
       {
         "c": "obed2",
+        "m": 2,
         "n": "Svatomartinská husí jatérka na cibulce, maškané brambory",
         "d": "Salát z červené řepy · Voda, čaj",
         "a": [
@@ -3252,6 +3272,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Povidlové taštičky se strouhanám tvarohem, cukrem a máslem",
         "d": "Mléčný koktejl",
         "a": [
@@ -3280,6 +3301,7 @@
       },
       {
         "c": "obed2",
+        "m": 2,
         "n": "Španělský ptáček s jasmínovou rýží",
         "d": "Voda, čaj",
         "a": [
@@ -3322,6 +3344,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Moravský vrabec, bramborové knedlíky, zelí",
         "d": "Voda, čaj",
         "a": [
@@ -3357,6 +3380,7 @@
     "chody": [
       {
         "c": "obed",
+        "m": 1,
         "n": "Ředitelské volno",
         "d": "",
         "a": [],
@@ -3375,6 +3399,7 @@
     "chody": [
       {
         "c": "obed",
+        "m": 1,
         "n": "Státní svátek",
         "d": "",
         "a": [],
@@ -3402,6 +3427,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Těstovinová musaka ( vepřové maso, sýr, rajčata)",
         "d": "Salát Coleslaw, zelný salát · Voda, čaj",
         "a": [
@@ -3437,6 +3463,7 @@
       },
       {
         "c": "obed2",
+        "m": 2,
         "n": "Babiččiny škubánky s cukrem, mákem, máslem",
         "d": "Mléko",
         "a": [
@@ -3481,6 +3508,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Čočka na kyselo, šunka od kosti, čalamáda",
         "d": "Mléko",
         "a": [
@@ -3508,6 +3536,7 @@
       },
       {
         "c": "obed2",
+        "m": 2,
         "n": "Bulgur se zeleninou, mletý máslový řízek s přírodním sosem",
         "d": "Voda, čaj",
         "a": [
@@ -3550,6 +3579,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Frankfurtský guláš z vepřového masa ( paprika, párek), houskové knedlíky",
         "d": "Voda, čaj",
         "a": [

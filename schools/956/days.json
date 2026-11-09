@@ -2590,6 +2590,7 @@
     "chody": [
       {
         "c": "svacina",
+        "m": 1,
         "n": "Ovesná kaše s jablky, čaj, mléko, ovoce",
         "d": "",
         "a": [
@@ -2618,6 +2619,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Kuskusoto z celozrnného kuskusu s kuřecím masem a zeleninou, sypané sýrem",
         "d": "Zeleninový salát · Voda s ovocem, voda, čaj",
         "a": [
@@ -2653,6 +2655,7 @@
     "chody": [
       {
         "c": "svacina",
+        "m": 1,
         "n": "MENU PODLE MAGDALENY DOBROMILY RETTIGOVÉ: Žemličky se sardelovým máslem, zelenina, mandlové ml",
         "d": "",
         "a": [
@@ -2682,6 +2685,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Zvěřina zadělávaná, šípková omáčka, zemčata vařená",
         "d": "Dezert: Chléb s máslem podle M.D. Rettigové · Voda s citronem, čaj, voda",
         "a": [
@@ -2718,6 +2722,7 @@
     "chody": [
       {
         "c": "svacina",
+        "m": 1,
         "n": "Tortilla se šunkou a sýrem, ledový salát, čaj",
         "d": "",
         "a": [
@@ -2745,6 +2750,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Tvarohové noky s ovocným přelivem",
         "d": "Čerstvé ovoce/kompot · Voda s ovocem a bylinkami, čaj, voda",
         "a": [
@@ -2779,6 +2785,7 @@
     "chody": [
       {
         "c": "svacina",
+        "m": 1,
         "n": "Pletýnka s avokádovou pomazánkou s výhonky",
         "d": "",
         "a": [
@@ -2808,6 +2815,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Marinované krůtí nudličky s přelivem ze žlutého hrachu, rýže",
         "d": "Zeleninový salát · Voda, voda s ovocem, čaj",
         "a": [
@@ -2843,6 +2851,7 @@
     "chody": [
       {
         "c": "svacina",
+        "m": 1,
         "n": "Chia bageta s tvarohovo-česnekovou pomazánkou s bylinkami Dobrá nálada, čaj, mléko, zelenina",
         "d": "",
         "a": [
@@ -2871,6 +2880,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Přírodní vepřový steak, šťouchané brambory",
         "d": "Zeleninový a ovocný bar · Ovocný čaj, voda, voda s citronem",
         "a": [],
@@ -2899,6 +2909,7 @@
     "chody": [
       {
         "c": "svacina",
+        "m": 1,
         "n": "Sypaná banketka, pomazánka se strouhaným sýrem, zelenina, ovoce, mléko",
         "d": "",
         "a": [
@@ -2927,6 +2938,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Hejk pečený na zelenině, bramborová kaše",
         "d": "Mrkvový salát s jablky · Bylinková voda, voda, čaj",
         "a": [
@@ -2961,6 +2973,7 @@
     "chody": [
       {
         "c": "svacina",
+        "m": 1,
         "n": "Veka, vajíčková pomazánka s výhonky, výběr zeleniny, čaj",
         "d": "",
         "a": [
@@ -2988,6 +3001,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Kuřecí curry s kokosovým mlékem, těstoviny",
         "d": "Kompot · Voda, čaj, voda s citronem",
         "a": [],
@@ -3016,6 +3030,7 @@
     "chody": [
       {
         "c": "svacina",
+        "m": 1,
         "n": "Bageta s domácí játrovou paštikou s brusinkami, zelenina, čaj",
         "d": "",
         "a": [
@@ -3044,6 +3059,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Pečené kachní prso, zelí, bramborový knedlík s cibulkou",
         "d": "Voda, čaj, ochucená voda",
         "a": [
@@ -3077,6 +3093,7 @@
     "chody": [
       {
         "c": "svacina",
+        "m": 1,
         "n": "Bílý jogurt, cornflakes, čerstvé ovoce, čaj",
         "d": "",
         "a": [
@@ -3103,6 +3120,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Srbské rizoto s mletým masem, sypané sýrem",
         "d": "Zeleninový salát · Voda s citronem, voda, čaj",
         "a": [
@@ -3137,7 +3155,8 @@
     "chody": [
       {
         "c": "svacina",
-        "n": "Toast se sýrem, zelenina, ovoce, mléko",
+        "m": 1,
+        "n": "Špaldový chléb, cizrnová pomazánka, zeleninová obloha, ovoce, čaj, mléko",
         "d": "",
         "a": [
           1,
@@ -3146,7 +3165,7 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Toast se sýrem, zelenina, ovoce, mléko",
+            "n": "Špaldový chléb, cizrnová pomazánka, zeleninová obloha, ovoce, čaj, mléko",
             "a": [
               1,
               7
@@ -3165,6 +3184,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Zapečené brambory se zeleninou, smetanou a sýrem",
         "d": "Rajčatový salát · Voda s ovocem, voda, čaj",
         "a": [
@@ -3197,6 +3217,7 @@
     "chody": [
       {
         "c": "svacina",
+        "m": 1,
         "n": "ŘEDITELSKÉ VOLNO",
         "d": "",
         "a": [],
@@ -3220,6 +3241,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Řízek z vepřové panenky, vařený brambor",
         "d": "Sterilovaný okurek · Bylinková voda, voda, čaj",
         "a": [
@@ -3259,6 +3281,7 @@
     "chody": [
       {
         "c": "obed",
+        "m": 1,
         "n": "STÁTNÍ SVÁTEK",
         "d": "",
         "a": [],
@@ -3277,6 +3300,7 @@
     "chody": [
       {
         "c": "svacina",
+        "m": 1,
         "n": "Chia bageta, tuňáková pomazánka, zeleninová obloha, ovoce, čaj, mléko",
         "d": "",
         "a": [
@@ -3307,6 +3331,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Hovězí nudličky na žampionech, dušená rýže",
         "d": "Zeleninový salát · Voda, ovocná voda, čaj",
         "a": [
@@ -3339,6 +3364,7 @@
     "chody": [
       {
         "c": "svacina",
+        "m": 1,
         "n": "Polentová kaše se skořicí, čerstvé ovoce, čaj",
         "d": "",
         "a": [
@@ -3366,6 +3392,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Boloňské lasagne s mletým masem",
         "d": "Celerovo-mrkvový salát s jablkem · Ovocný čaj, voda, voda s citronem",
         "a": [
@@ -3406,6 +3433,7 @@
     "chody": [
       {
         "c": "svacina",
+        "m": 1,
         "n": "Cereální veka, ajvarová pomazánka (pečená paprika), zeleninová obloha, ovoce, mléko",
         "d": "",
         "a": [
@@ -3436,6 +3464,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Fazole na smetaně, vejce, chléb",
         "d": "Ovoce · Bylinková voda, voda, čaj",
         "a": [

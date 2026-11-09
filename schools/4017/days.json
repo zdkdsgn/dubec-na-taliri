@@ -108,6 +108,7 @@
     "chody": [
       {
         "c": "presnidavka",
+        "m": 1,
         "n": "Rama, tavený sýr",
         "d": "Chléb, zelenina · Čaj",
         "a": [
@@ -146,27 +147,24 @@
       },
       {
         "c": "obed",
-        "n": "Zeleninové rizoto se sýrem",
-        "d": "Okurek · Ovocný jogurt · Čaj/voda",
+        "m": 1,
+        "n": "Zeleninové rizoto",
+        "d": "Ovoce · Čaj/voda",
         "a": [
-          7
+          7,
+          9
         ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Zeleninové rizoto se sýrem",
+            "n": "Zeleninové rizoto",
             "a": [
-              7
+              9
             ]
           },
           {
-            "l": "Příloha",
-            "n": "Okurek",
-            "a": []
-          },
-          {
             "l": "Doplněk",
-            "n": "Ovocný jogurt",
+            "n": "Ovoce",
             "a": [
               7
             ]
@@ -180,6 +178,7 @@
       },
       {
         "c": "svacina",
+        "m": 1,
         "n": "Cereálie",
         "d": "Mléko",
         "a": [
@@ -212,6 +211,7 @@
     "chody": [
       {
         "c": "presnidavka",
+        "m": 1,
         "n": "Rama, marmeláda",
         "d": "Chléb, ovoce · Kakao",
         "a": [
@@ -246,11 +246,13 @@
         "d": "",
         "a": [
           1,
-          3
+          3,
+          7
         ]
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Zapečené brambory s kuřecím masem",
         "d": "Okurkový salát · Šťáva/voda",
         "a": [
@@ -278,6 +280,7 @@
       },
       {
         "c": "svacina",
+        "m": 1,
         "n": "Rama, tvrdý sýr",
         "d": "Chléb, zelenina · Čaj",
         "a": [
@@ -313,6 +316,7 @@
     "chody": [
       {
         "c": "presnidavka",
+        "m": 1,
         "n": "Tuňáková pomazánka",
         "d": "Chléb, zelenina · Ochucené mléko",
         "a": [
@@ -357,6 +361,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Čočka na kyselo",
         "d": "Chléb, okurek, vejce · Ovoce · Džus/voda",
         "a": [
@@ -393,6 +398,7 @@
       },
       {
         "c": "svacina",
+        "m": 1,
         "n": "Rama",
         "d": "Chléb, ovoce · Čaj",
         "a": [
@@ -425,6 +431,7 @@
     "chody": [
       {
         "c": "presnidavka",
+        "m": 1,
         "n": "Droždová pomazánka",
         "d": "Chléb, zelenina · Bílá káva",
         "a": [
@@ -461,13 +468,11 @@
         "c": "polevka",
         "n": "Kroupová",
         "d": "",
-        "a": [
-          1,
-          9
-        ]
+        "a": []
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Špenát s uzeným",
         "d": "Bramborový knedlík · Ovoce · Minerálka/voda",
         "a": [
@@ -504,6 +509,7 @@
       },
       {
         "c": "svacina",
+        "m": 1,
         "n": "Rama, tvrdý sýr",
         "d": "Chléb, ovoce · Čaj",
         "a": [
@@ -539,6 +545,7 @@
     "chody": [
       {
         "c": "presnidavka",
+        "m": 1,
         "n": "Vajíčková pomazánka",
         "d": "Chléb, zelenina · Kakao",
         "a": [
@@ -576,11 +583,14 @@
         "n": "Masový krém",
         "d": "",
         "a": [
+          1,
+          7,
           9
         ]
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Rajská omáčka a masové koule",
         "d": "Těstoviny · Ovoce · Ovocný čaj/voda",
         "a": [
@@ -592,6 +602,553 @@
           {
             "l": "Jídlo",
             "n": "Rajská omáčka a masové koule",
+            "a": [
+              1,
+              3
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Těstoviny",
+            "a": [
+              1,
+              3
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný čaj/voda",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "m": 1,
+        "n": "Rama",
+        "d": "Chléb, ovoce · Čaj",
+        "a": [
+          1
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Rama",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Chléb, ovoce",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-11-09": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "m": 1,
+        "n": "Rama, tavený sýr",
+        "d": "Chléb, zelenina · Čaj",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Rama, tavený sýr",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Chléb, zelenina",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Katuv šleh s kuřecím",
+        "d": "Dušená rýže · Ovoce · Čaj/voda",
+        "a": [
+          1
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Katuv šleh s kuřecím",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Dušená rýže",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj/voda",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "m": 1,
+        "n": "Cereálie",
+        "d": "Mléko",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Cereálie",
+            "a": [
+              1,
+              3
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Mléko",
+            "a": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-11-10": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "m": 1,
+        "n": "Rama, marmeláda",
+        "d": "Chléb, ovoce · Kakao",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Rama, marmeláda",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Chléb, ovoce",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Kakao",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Květáková",
+        "d": "",
+        "a": []
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Rybí karbanátky",
+        "d": "Vařený brambor · Kompot · Šťáva/voda",
+        "a": [
+          1,
+          3,
+          4
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Rybí karbanátky",
+            "a": [
+              1,
+              3,
+              4
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Vařený brambor",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Kompot",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Šťáva/voda",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "m": 1,
+        "n": "Rama, tvrdý sýr",
+        "d": "Chléb, zelenina · Čaj",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Rama, tvrdý sýr",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Chléb, zelenina",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-11-11": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "m": 1,
+        "n": "Tuňáková pomazánka",
+        "d": "Chléb, zelenina · Ochucené mléko",
+        "a": [
+          1,
+          4,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Tuňáková pomazánka",
+            "a": [
+              4,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Chléb, zelenina",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ochucené mléko",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Zeleninová",
+        "d": "",
+        "a": [
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Špagety se sýrovou omáčkou",
+        "d": "Ovoce · Džus/voda",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Špagety se sýrovou omáčkou",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Džus/voda",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "m": 1,
+        "n": "Rama",
+        "d": "Chléb, ovoce · Čaj",
+        "a": [
+          1
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Rama",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Chléb, ovoce",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-11-12": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "m": 1,
+        "n": "Droždová pomazánka",
+        "d": "Chléb, zelenina · Bílá káva",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Droždová pomazánka",
+            "a": [
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Chléb, zelenina",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Bílá káva",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Fazolová",
+        "d": "",
+        "a": [
+          1
+        ]
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Kynutý knedlík s tvarohem",
+        "d": "Ovoce · Ochucené mléko/voda",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Kynutý knedlík s tvarohem",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ochucené mléko/voda",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "m": 1,
+        "n": "Rama, tvrdý sýr",
+        "d": "Chléb, ovoce · Čaj",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Rama, tvrdý sýr",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Chléb, ovoce",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-11-13": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "m": 1,
+        "n": "Vajíčková pomazánka",
+        "d": "Chléb, zelenina · Kakao",
+        "a": [
+          1,
+          4,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Vajíčková pomazánka",
+            "a": [
+              4,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Chléb, zelenina",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Kakao",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Špenátová s houskou",
+        "d": "",
+        "a": [
+          1,
+          3,
+          7
+        ]
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Italský zbruf/ vepřový guláš",
+        "d": "Těstoviny · Ovoce · Ovocný čaj/voda",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Italský zbruf/ vepřový guláš",
             "a": [
               1
             ]
@@ -620,6 +1177,7 @@
       },
       {
         "c": "svacina",
+        "m": 1,
         "n": "Rama",
         "d": "Chléb, ovoce · Čaj",
         "a": [

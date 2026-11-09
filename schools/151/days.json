@@ -2128,6 +2128,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Mexický guláš 1",
         "d": "Chléb 1, pečivo 1 · Mandarinka, jablko · Ovocný čaj, mléko 7, voda",
         "a": [],
@@ -2167,6 +2168,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Rybí filé smažené 1, 3, 4, 7 (aljašská treska)",
         "d": "Brambory · Zeleninový bar · Ovocný čaj, mléko 7, voda",
         "a": [],
@@ -2195,6 +2197,7 @@
       },
       {
         "c": "obed2",
+        "m": 2,
         "n": "Masové kuličky v zeleninové omáčce ratatouille s cizrnou 1, 3",
         "d": "Basmati rýže · Zeleninový bar · Ovocný čaj, mléko 7, voda",
         "a": [],
@@ -2234,6 +2237,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Dukátové buchtičky s vanilkovým krémem 1, 3, 7",
         "d": "Banán · Ovocný čaj, mléko 7, voda",
         "a": [],
@@ -2257,6 +2261,7 @@
       },
       {
         "c": "obed2",
+        "m": 2,
         "n": "Drůbeží játra na cibulce 1",
         "d": "Brambory · Banán · Ovocný čaj, mléko 7, voda",
         "a": [],
@@ -2296,6 +2301,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Krůtí prsa na slanině a cibuli 1",
         "d": "Šťouchané brambory · Zeleninový bar · Ovocný čaj, mléko 7, voda",
         "a": [],
@@ -2324,6 +2330,7 @@
       },
       {
         "c": "obed2",
+        "m": 2,
         "n": "Čočkový salát s pečenou dýní, česnekový dip 7",
         "d": "Pečivo 1 · Zeleninový bar · Ovocný čaj, mléko 7, voda",
         "a": [],
@@ -2363,6 +2370,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Vepřová kýta na smetaně s houbami 1, 7",
         "d": "Houskové knedlíky 1, 3, 7 · Hroznové víno, jablko, hruška · Ovocný čaj, voda",
         "a": [],
@@ -2402,6 +2410,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Boloňské špagety s vepřovým masem a sýrem 1, 7, 9",
         "d": "Perníkové řezy s jablky 1, 3, 7 · Ovocný čaj, mléko 7, voda",
         "a": [],
@@ -2436,6 +2445,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Čočka na kyselo 1",
         "d": "Vařené vejce 3, okurka · Ovoce, zeleninový salát · Ovocný čaj, mléko 7, voda",
         "a": [],
@@ -2464,6 +2474,7 @@
       },
       {
         "c": "obed2",
+        "m": 2,
         "n": "Francouzské zapečené brambory 1, 3, 7",
         "d": "Ovoce, zeleninový salát · Ovocný čaj, mléko 7, voda",
         "a": [],
@@ -2498,6 +2509,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Záhorácký závitek 1",
         "d": "Bramborové knedlíky 1, 3 · Ovoce · Ovocný čaj, mléko 7, voda",
         "a": [],
@@ -2526,6 +2538,7 @@
       },
       {
         "c": "obed2",
+        "m": 2,
         "n": "Tortilly plněné sýrem a zeleninou 1, 7 česnekový dip 7",
         "d": "Ovoce · Ovocný čaj, mléko 7, voda",
         "a": [],
@@ -2560,6 +2573,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Pečené kuře barbecue 1",
         "d": "Brambory · Zeleninový bar, luštěninový salát · Ovocný čaj, mléko 7, voda",
         "a": [],
@@ -2588,6 +2602,7 @@
       },
       {
         "c": "obed2",
+        "m": 2,
         "n": "Pečený losos s rajčaty a smetanou 4, 7",
         "d": "Kuskus 1 · Zeleninový bar, luštěninový salát · Ovocný čaj, mléko 7, voda",
         "a": [],
@@ -2627,6 +2642,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Hovězí pečeně Esterházy 1, 7, 9, 10",
         "d": "Dušená rýže · Ovoce · Ovocný čaj, mléko 7, voda",
         "a": [],
@@ -2660,6 +2676,7 @@
     "chody": [
       {
         "c": "obed",
+        "m": 1,
         "n": "VOLNO ŘEDITELKY ŠKOLY",
         "d": "",
         "a": [],
@@ -2678,19 +2695,7 @@
     "chody": [
       {
         "c": "obed",
-        "n": "STÁTNÍ SVÁTEK",
-        "d": "",
-        "a": [],
-        "p": [
-          {
-            "l": "Jídlo",
-            "n": "STÁTNÍ SVÁTEK",
-            "a": []
-          }
-        ]
-      },
-      {
-        "c": "obed2",
+        "m": 1,
         "n": "STÁTNÍ SVÁTEK",
         "d": "",
         "a": [],
@@ -2715,6 +2720,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Smažený sýr, tatarská omáčka 1, 3, 7, 10",
         "d": "Brambory · Zeleninový bar · Ovocný čaj, mléko 7, voda",
         "a": [],
@@ -2743,6 +2749,7 @@
       },
       {
         "c": "obed2",
+        "m": 2,
         "n": "Těstoviny s pečenými cherry rajčaty a brokolicí sypané sýrem 1, 3, 7",
         "d": "Zeleninový bar · Ovocný čaj, mléko 7, voda",
         "a": [],
@@ -2777,6 +2784,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Krůtí soté na kari 1, 7",
         "d": "Těstoviny 1 · Ovoce · Ovocný čaj, mléko 7, voda",
         "a": [],
@@ -2805,6 +2813,7 @@
       },
       {
         "c": "obed2",
+        "m": 2,
         "n": "Rýžový nákyp s meruňkami 1, 3, 7",
         "d": "Ovoce · Ovocný čaj, mléko 7, voda",
         "a": [],
@@ -2839,6 +2848,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Telecí kýta na másle 1, 7",
         "d": "Bramborová kaše 7 · Zeleninový bar · Ovocný čaj, voda",
         "a": [],
@@ -2878,6 +2888,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Rybí filé pečené na zelenině 4, 7",
         "d": "Brambory · Zeleninový bar, luštěninový salát · Ovocný čaj, mléko 7, voda",
         "a": [],
@@ -2917,8 +2928,9 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Hovězí nudličky po provensálsku 1",
-        "d": "Perlový kuskus 1 · Ovoce · Ovocný čaj, mléko 7, voda",
+        "d": "Barevná tarhoňa 1 · Ovoce · Ovocný čaj, mléko 7, voda",
         "a": [],
         "p": [
           {
@@ -2928,7 +2940,7 @@
           },
           {
             "l": "Příloha",
-            "n": "Perlový kuskus 1",
+            "n": "Barevná tarhoňa 1",
             "a": []
           },
           {
@@ -2945,6 +2957,7 @@
       },
       {
         "c": "obed2",
+        "m": 2,
         "n": "Králík na hořčici 1, 10",
         "d": "Dušená rýže · Ovoce · Ovocný čaj, mléko 7, voda",
         "a": [],
@@ -2984,6 +2997,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Pečený masový karbanátek se zeleninou 1, 3, 7, 9, bylinkový dip 1, 7",
         "d": "Brambory · Zeleninový bar, ovoce · Ovocný čaj, mléko 7, voda",
         "a": [],
@@ -3012,6 +3026,7 @@
       },
       {
         "c": "obed2",
+        "m": 2,
         "n": "Těstoviny s krémovou omáčkou s dýní, sypané parmezánem 1, 7",
         "d": "Zeleninový bar, ovoce · Ovocný čaj, mléko 7, voda",
         "a": [],
@@ -3046,6 +3061,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Zeleninové rizoto s vepřovým masem, sypané sýrem, okurka 7",
         "d": "Tvarohový dezert s kakaem 7 · Ovocný čaj, mléko 7, voda",
         "a": [],
@@ -3069,6 +3085,7 @@
       },
       {
         "c": "obed2",
+        "m": 2,
         "n": "Dušený květák s vejci 3, 7",
         "d": "Brambory, zeleninová obloha · Tvarohový dezert s kakaem 7 · Ovocný čaj, mléko 7, voda",
         "a": [],
@@ -3108,6 +3125,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Kachna pečená, (kachní prsa)",
         "d": "Bramborové knedlíky s houskou 1, 3, hlávkové červené zelí · Ovocný čaj, voda",
         "a": [],
@@ -3142,6 +3160,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Vepřová pečeně 1, růžičková kapusta 1",
         "d": "Brambory · Ovocný bar 7 · Ovocný čaj, mléko 7, voda",
         "a": [],
@@ -3181,6 +3200,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Hrachová kaše 1, 7",
         "d": "Dušená šunka 1, kysané zelí · Ovoce · Ovocný čaj, mléko 7, voda",
         "a": [],
@@ -3209,6 +3229,7 @@
       },
       {
         "c": "obed2",
+        "m": 2,
         "n": "Pečený sumeček africký 4, 7",
         "d": "Brambory, grilovaná zelenina · Ovoce · Ovocný čaj, mléko 7, voda",
         "a": [],
@@ -3248,6 +3269,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Krůtí prsa na smetaně 1, 7, 9",
         "d": "Houskové knedlíky 1, 3, 7 · Ovoce · Ovocný nápoj, mléko 7, voda",
         "a": [],
@@ -3276,6 +3298,7 @@
       },
       {
         "c": "obed2",
+        "m": 2,
         "n": "Lasagne s listovým špenátem a ricottou 1, 7",
         "d": "Ovoce · Ovocný čaj, mléko 7, voda",
         "a": [],
@@ -3310,6 +3333,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Ražniči na plechu 1",
         "d": "Hranolky, kečup 1 · Zeleninový bar 7 · Ovocný čaj, mléko 7, voda",
         "a": [],
@@ -3338,18 +3362,14 @@
       },
       {
         "c": "obed2",
-        "n": "Opečená bílá klobása 1, 3, 7",
-        "d": "Nastavovaná kaše (s krupkami) 1, 7 · Zeleninový bar 7 · Ovocný nápoj, mléko 7, voda",
+        "m": 2,
+        "n": "Rýžové nudle s kuřecím masem, žampiony a zeleninou",
+        "d": "Zeleninový bar 7 · Ovocný nápoj, mléko 7, voda",
         "a": [],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Opečená bílá klobása 1, 3, 7",
-            "a": []
-          },
-          {
-            "l": "Příloha",
-            "n": "Nastavovaná kaše (s krupkami) 1, 7",
+            "n": "Rýžové nudle s kuřecím masem, žampiony a zeleninou",
             "a": []
           },
           {
@@ -3377,6 +3397,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Plněné papriky 1, 3, 7, nebo masové kuličky, rajská omáčka 1, 7",
         "d": "Dušená rýže · Ovoce · Ovocný čaj, voda",
         "a": [],

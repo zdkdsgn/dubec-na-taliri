@@ -3544,6 +3544,7 @@
     "chody": [
       {
         "c": "presnidavka",
+        "m": 1,
         "n": "Chléb, námořnická pomazánka z rybiček, zelenina, ovocný čaj",
         "d": "",
         "a": [
@@ -3573,6 +3574,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Zapečené vlnky se špenátem a goudou",
         "d": "Okurek · Ochucená voda, voda",
         "a": [
@@ -3604,6 +3606,7 @@
       },
       {
         "c": "svacina",
+        "m": 1,
         "n": "Žitný rohlík, rama, ovoce, mléko",
         "d": "",
         "a": [
@@ -3628,6 +3631,7 @@
     "chody": [
       {
         "c": "presnidavka",
+        "m": 1,
         "n": "Dobrozrnná bageta, vaječná pomazánka, zelenina, mléko",
         "d": "",
         "a": [
@@ -3658,6 +3662,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Čevabčiči s cizrnou a ajvarem, hořčice, cibulka",
         "d": "Brambory · Ovocný voda, voda",
         "a": [
@@ -3691,6 +3696,7 @@
       },
       {
         "c": "svacina",
+        "m": 1,
         "n": "Čokoládový koktejl, piškoty, ovoce",
         "d": "",
         "a": [
@@ -3715,6 +3721,7 @@
     "chody": [
       {
         "c": "presnidavka",
+        "m": 1,
         "n": "Špaldový chléb, pomazánka z červené řepy, ovoce, granko",
         "d": "",
         "a": [
@@ -3744,6 +3751,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Krůtí plátek v krémové omáčce",
         "d": "Barevná rýže · Míchaný kompot · Ochucená voda, voda",
         "a": [
@@ -3778,6 +3786,7 @@
       },
       {
         "c": "svacina",
+        "m": 1,
         "n": "Řecký jogurt s pečenými musli a borůvkami, dětský čaj, ovoce",
         "d": "",
         "a": [
@@ -3802,6 +3811,7 @@
     "chody": [
       {
         "c": "presnidavka",
+        "m": 1,
         "n": "Domácí makovec, mléko, ovoce",
         "d": "",
         "a": [
@@ -3833,6 +3843,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Pečená tilápie na bylinkách",
         "d": "Bramboro-batátová kaše · Zeleninová přízdoba · Ochucená voda, voda",
         "a": [
@@ -3869,6 +3880,7 @@
       },
       {
         "c": "svacina",
+        "m": 1,
         "n": "Slunečnicový chléb, mrkvová pomazánka, zelenina, ovocný čaj",
         "d": "",
         "a": [
@@ -3893,6 +3905,7 @@
     "chody": [
       {
         "c": "presnidavka",
+        "m": 1,
         "n": "Rohlík, masová pomazánka, zeleninový talíř, ovocný čaj",
         "d": "",
         "a": [
@@ -3921,6 +3934,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Dětská krupicová kaše s grankem",
         "d": "Ovocná voda, voda",
         "a": [
@@ -3945,6 +3959,7 @@
       },
       {
         "c": "svacina",
+        "m": 1,
         "n": "Toustový plátek se sýrem a zeleninou, ovocný čaj",
         "d": "",
         "a": [
@@ -3969,6 +3984,7 @@
     "chody": [
       {
         "c": "presnidavka",
+        "m": 1,
         "n": "Chléb, pomazánka z tresčích jater, zelenina, čaj",
         "d": "",
         "a": [
@@ -3999,6 +4015,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Zeleninové placičky s kukuřičnou moukou",
         "d": "Vařené brambory · Domácí dip, okurka salátová · Ochucená voda, voda",
         "a": [
@@ -4035,6 +4052,7 @@
       },
       {
         "c": "svacina",
+        "m": 1,
         "n": "Máslový croissant, mléko, ovoce",
         "d": "",
         "a": [
@@ -4059,7 +4077,8 @@
     "chody": [
       {
         "c": "presnidavka",
-        "n": "Bageta, vídeňská pomazánka s kápií, zeleninový talíř, čaj",
+        "m": 1,
+        "n": "Sýrový rohlík, zeleninový mix, čaj ovocný",
         "d": "",
         "a": [
           1,
@@ -4068,7 +4087,7 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Bageta, vídeňská pomazánka s kápií, zeleninový talíř, čaj",
+            "n": "Sýrový rohlík, zeleninový mix, čaj ovocný",
             "a": [
               1,
               7
@@ -4089,8 +4108,9 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Kuřecí plátek",
-        "d": "Bazalkové penne těstoviny · Polníček · Citrónová voda, voda",
+        "d": "Bazalkové penne těstoviny · Polníček · Kohoutková voda",
         "a": [
           1,
           7
@@ -4117,13 +4137,14 @@
           },
           {
             "l": "Nápoj",
-            "n": "Citrónová voda, voda",
+            "n": "Kohoutková voda",
             "a": []
           }
         ]
       },
       {
         "c": "svacina",
+        "m": 1,
         "n": "Cereálie s mlékem, ovoce",
         "d": "",
         "a": [
@@ -4148,6 +4169,7 @@
     "chody": [
       {
         "c": "presnidavka",
+        "m": 1,
         "n": "Šlehaný tvaroh s ovoce, banketka, šípkový čaj",
         "d": "",
         "a": [
@@ -4177,6 +4199,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Mexický guláš s hráškem",
         "d": "Dušená rýže · Strouhaný sýr · Ochucená voda, voda",
         "a": [
@@ -4209,6 +4232,7 @@
       },
       {
         "c": "svacina",
+        "m": 1,
         "n": "Finský chléb, špenátová pomazánka, zeleninový talíř, mléko",
         "d": "",
         "a": [
@@ -4235,6 +4259,7 @@
     "chody": [
       {
         "c": "presnidavka",
+        "m": 1,
         "n": "Raženka, sýrová pomazánka s ředkvičkou, zelenina, šípkový čaj",
         "d": "",
         "a": [
@@ -4263,6 +4288,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Plněné bramborové knedlíky se zelím a uzeným masem",
         "d": "Kohoutková voda",
         "a": [
@@ -4287,6 +4313,7 @@
       },
       {
         "c": "svacina",
+        "m": 1,
         "n": "Jahodový mléčný nápoj, rýžový plátek",
         "d": "",
         "a": [
@@ -4309,6 +4336,7 @@
     "chody": [
       {
         "c": "presnidavka",
+        "m": 1,
         "n": "Plněný šáteček, ovocný talíř, bílá káva",
         "d": "",
         "a": [
@@ -4338,6 +4366,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Čočka na smetaně, vekce",
         "d": "Slovácký chléb · St.okurek · Ovocná voda, voda",
         "a": [
@@ -4376,6 +4405,7 @@
       },
       {
         "c": "svacina",
+        "m": 1,
         "n": "Rohlík, rama, zeleninový talíř, ovocný čaj",
         "d": "",
         "a": [
@@ -4400,6 +4430,7 @@
     "chody": [
       {
         "c": "presnidavka",
+        "m": 1,
         "n": "Přesnídávka",
         "d": "",
         "a": [],
@@ -4413,6 +4444,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Oběd",
         "d": "",
         "a": [],
@@ -4426,6 +4458,7 @@
       },
       {
         "c": "svacina",
+        "m": 1,
         "n": "Svačina",
         "d": "",
         "a": [],
@@ -4444,6 +4477,7 @@
     "chody": [
       {
         "c": "presnidavka",
+        "m": 1,
         "n": "Přesnídávka",
         "d": "",
         "a": [],
@@ -4457,6 +4491,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Oběd",
         "d": "",
         "a": [],
@@ -4470,6 +4505,7 @@
       },
       {
         "c": "svacina",
+        "m": 1,
         "n": "Svačina",
         "d": "",
         "a": [],
@@ -4488,6 +4524,7 @@
     "chody": [
       {
         "c": "presnidavka",
+        "m": 1,
         "n": "Přesnídávka",
         "d": "",
         "a": [],
@@ -4501,6 +4538,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Oběd",
         "d": "",
         "a": [],
@@ -4514,6 +4552,7 @@
       },
       {
         "c": "svacina",
+        "m": 1,
         "n": "Svačina",
         "d": "",
         "a": [],
@@ -4532,6 +4571,7 @@
     "chody": [
       {
         "c": "presnidavka",
+        "m": 1,
         "n": "Přesnídávka",
         "d": "",
         "a": [],
@@ -4545,6 +4585,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Oběd",
         "d": "",
         "a": [],
@@ -4558,6 +4599,7 @@
       },
       {
         "c": "svacina",
+        "m": 1,
         "n": "Svačina",
         "d": "",
         "a": [],
@@ -4576,6 +4618,7 @@
     "chody": [
       {
         "c": "presnidavka",
+        "m": 1,
         "n": "Přesnídávka",
         "d": "",
         "a": [],
@@ -4589,6 +4632,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Oběd",
         "d": "",
         "a": [],
@@ -4602,6 +4646,7 @@
       },
       {
         "c": "svacina",
+        "m": 1,
         "n": "Svačina",
         "d": "",
         "a": [],
@@ -4620,6 +4665,7 @@
     "chody": [
       {
         "c": "presnidavka",
+        "m": 1,
         "n": "Přesnídávka",
         "d": "",
         "a": [],
@@ -4633,6 +4679,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Oběd",
         "d": "",
         "a": [],
@@ -4646,6 +4693,7 @@
       },
       {
         "c": "svacina",
+        "m": 1,
         "n": "Svačina",
         "d": "",
         "a": [],
@@ -4664,6 +4712,7 @@
     "chody": [
       {
         "c": "presnidavka",
+        "m": 1,
         "n": "Přesnídávka",
         "d": "",
         "a": [],
@@ -4677,6 +4726,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Oběd",
         "d": "",
         "a": [],
@@ -4690,6 +4740,7 @@
       },
       {
         "c": "svacina",
+        "m": 1,
         "n": "Svačina",
         "d": "",
         "a": [],
@@ -4708,6 +4759,7 @@
     "chody": [
       {
         "c": "presnidavka",
+        "m": 1,
         "n": "Přesnídávka",
         "d": "",
         "a": [],
@@ -4721,6 +4773,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Oběd",
         "d": "",
         "a": [],
@@ -4734,6 +4787,7 @@
       },
       {
         "c": "svacina",
+        "m": 1,
         "n": "Svačina",
         "d": "",
         "a": [],
@@ -4752,6 +4806,7 @@
     "chody": [
       {
         "c": "presnidavka",
+        "m": 1,
         "n": "Přesnídávka",
         "d": "",
         "a": [],
@@ -4765,6 +4820,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Oběd",
         "d": "",
         "a": [],
@@ -4778,6 +4834,7 @@
       },
       {
         "c": "svacina",
+        "m": 1,
         "n": "Svačina",
         "d": "",
         "a": [],
@@ -4796,6 +4853,7 @@
     "chody": [
       {
         "c": "presnidavka",
+        "m": 1,
         "n": "Přesnídávka",
         "d": "",
         "a": [],
@@ -4809,6 +4867,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Oběd",
         "d": "",
         "a": [],
@@ -4822,6 +4881,7 @@
       },
       {
         "c": "svacina",
+        "m": 1,
         "n": "Svačina",
         "d": "",
         "a": [],

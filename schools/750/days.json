@@ -3000,6 +3000,7 @@
     "chody": [
       {
         "c": "presnidavka",
+        "m": 1,
         "n": "Bagetka s ramou, mléko, čaj, jablko",
         "d": "",
         "a": [
@@ -3028,6 +3029,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Kuře na paprice, těstoviny",
         "d": "Ovocná šťáva",
         "a": [
@@ -3052,6 +3054,7 @@
       },
       {
         "c": "svacina",
+        "m": 1,
         "n": "Chléb, medové máslo, mléko",
         "d": "",
         "a": [
@@ -3076,6 +3079,7 @@
     "chody": [
       {
         "c": "presnidavka",
+        "m": 1,
         "n": "Rohlík s kuskusovou pomaz, mléko, rajče, čaj",
         "d": "",
         "a": [
@@ -3106,6 +3110,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Čočka na kyselo, vařené vejce, steril. okurka",
         "d": "Voda",
         "a": [
@@ -3130,6 +3135,7 @@
       },
       {
         "c": "svacina",
+        "m": 1,
         "n": "Domácí makovec, mléko, ovocný čaj, jablko",
         "d": "",
         "a": [
@@ -3156,6 +3162,7 @@
     "chody": [
       {
         "c": "presnidavka",
+        "m": 1,
         "n": "Obložený toust (vařené vejce), mléko, čaj, okurka",
         "d": "",
         "a": [
@@ -3186,6 +3193,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Čevabčiči, obloha, brambor, horčice",
         "d": "Voda",
         "a": [
@@ -3212,6 +3220,7 @@
       },
       {
         "c": "svacina",
+        "m": 1,
         "n": "Racio plátek, žervé, džus",
         "d": "",
         "a": [
@@ -3236,6 +3245,7 @@
     "chody": [
       {
         "c": "presnidavka",
+        "m": 1,
         "n": "Chléb se šunkou, banánový shake, čaj",
         "d": "",
         "a": [
@@ -3264,6 +3274,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Rýžový nákyp s mangem",
         "d": "Voda",
         "a": [
@@ -3288,6 +3299,7 @@
       },
       {
         "c": "svacina",
+        "m": 1,
         "n": "Toustový chleba s ramou, rajče",
         "d": "",
         "a": [
@@ -3312,6 +3324,7 @@
     "chody": [
       {
         "c": "presnidavka",
+        "m": 1,
         "n": "Vícezrnná houska, brokolic., pom, . caro, čaj",
         "d": "",
         "a": [
@@ -3339,10 +3352,12 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Smažená ryba, bramborovo-celerová kaše",
         "d": "Voda",
         "a": [
           1,
+          4,
           7,
           9
         ],
@@ -3352,6 +3367,7 @@
             "n": "Smažená ryba, bramborovo-celerová kaše",
             "a": [
               1,
+              4,
               7,
               9
             ]
@@ -3365,6 +3381,7 @@
       },
       {
         "c": "svacina",
+        "m": 1,
         "n": "Ovocná přesnídávka, čaj",
         "d": "",
         "a": [],
@@ -3383,6 +3400,7 @@
     "chody": [
       {
         "c": "presnidavka",
+        "m": 1,
         "n": "Bagetkay pomazánkové máslo, okurka, mléko, čaj",
         "d": "",
         "a": [
@@ -3410,6 +3428,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Těstovinový salát s jogurtem, zeleninou, balkánský sýr",
         "d": "Voda a mátou",
         "a": [
@@ -3438,6 +3457,7 @@
       },
       {
         "c": "svacina",
+        "m": 1,
         "n": "Pečivo s marmeládou, mléko, jablko",
         "d": "",
         "a": [
@@ -3462,6 +3482,7 @@
     "chody": [
       {
         "c": "presnidavka",
+        "m": 1,
         "n": "Toust, pom, . z míchaných vajec, jahodový shake, čaj",
         "d": "",
         "a": [
@@ -3490,6 +3511,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Kuřecí čína, rýže",
         "d": "Voda",
         "a": [
@@ -3514,6 +3536,7 @@
       },
       {
         "c": "svacina",
+        "m": 1,
         "n": "Vícezrnná houska s ramou, čaj",
         "d": "",
         "a": [
@@ -3536,6 +3559,7 @@
     "chody": [
       {
         "c": "presnidavka",
+        "m": 1,
         "n": "Játrová pom., pečivo, čaj, mléko, mrkev",
         "d": "",
         "a": [
@@ -3565,6 +3589,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Bramborové šišky s cibulkou, červené zelí",
         "d": "Voda",
         "a": [
@@ -3587,6 +3612,7 @@
       },
       {
         "c": "svacina",
+        "m": 1,
         "n": "Chléb s plátkovým sýrem, mléko, mandarinka",
         "d": "",
         "a": [
@@ -3611,6 +3637,7 @@
     "chody": [
       {
         "c": "presnidavka",
+        "m": 1,
         "n": "Kynuté rohlíčky s povidly, mléko, čaj",
         "d": "",
         "a": [
@@ -3641,6 +3668,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Vepřové na houbách",
         "d": "Celozrnný knedlík · Voda",
         "a": [
@@ -3670,6 +3698,7 @@
       },
       {
         "c": "svacina",
+        "m": 1,
         "n": "Chléb, žervé, okurka, mléko",
         "d": "",
         "a": [
@@ -3694,6 +3723,7 @@
     "chody": [
       {
         "c": "presnidavka",
+        "m": 1,
         "n": "Vícezrnná houska s tuňákovou pom, . mléko, čaj, jablko",
         "d": "",
         "a": [
@@ -3725,6 +3755,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Bulgurové rizzoto s kuřecím masem, červená řepa, sýr",
         "d": "Voda",
         "a": [
@@ -3749,6 +3780,7 @@
       },
       {
         "c": "svacina",
+        "m": 1,
         "n": "Piškoty s mlékem",
         "d": "",
         "a": [
@@ -3773,6 +3805,7 @@
     "chody": [
       {
         "c": "presnidavka",
+        "m": 1,
         "n": "Bagetka s ramou, kakao, hruška, čaj",
         "d": "",
         "a": [
@@ -3801,6 +3834,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Kuřecí řízek, brambor s máslem",
         "d": "ZŠ – Ředitelské volno · Voda",
         "a": [
@@ -3830,6 +3864,7 @@
       },
       {
         "c": "svacina",
+        "m": 1,
         "n": "Piškoty s mlékem, čaj",
         "d": "",
         "a": [
@@ -3856,6 +3891,7 @@
     "chody": [
       {
         "c": "obed",
+        "m": 1,
         "n": "STÁTNÍ SVÁTEK",
         "d": "",
         "a": [],
@@ -3874,6 +3910,7 @@
     "chody": [
       {
         "c": "presnidavka",
+        "m": 1,
         "n": "Vícezrnná houska s pom., z červené řepy, mléko, bylinkový čaj, jablko",
         "d": "",
         "a": [
@@ -3904,6 +3941,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Pangas po mlynářsku, opečené brambory",
         "d": "Voda",
         "a": [
@@ -3926,6 +3964,7 @@
       },
       {
         "c": "svacina",
+        "m": 1,
         "n": "Ovocná přesnídávka, čaj",
         "d": "",
         "a": [],
@@ -3944,6 +3983,7 @@
     "chody": [
       {
         "c": "presnidavka",
+        "m": 1,
         "n": "Cereálie s mlékem, čaj",
         "d": "",
         "a": [
@@ -3971,6 +4011,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Vepřová pečeně, brambor, . knedlík, špenát",
         "d": "ZŠ a MŠ – jablko · Voda",
         "a": [
@@ -3998,6 +4039,7 @@
       },
       {
         "c": "svacina",
+        "m": 1,
         "n": "Pečivo s bylinkovým máslem, mléko",
         "d": "",
         "a": [
@@ -4022,6 +4064,7 @@
     "chody": [
       {
         "c": "presnidavka",
+        "m": 1,
         "n": "Chléb s pom, . z míchaných vajec, mléko, čaj",
         "d": "",
         "a": [
@@ -4051,6 +4094,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Dukátové buchtičky se šodó",
         "d": "",
         "a": [
@@ -4072,6 +4116,7 @@
       },
       {
         "c": "svacina",
+        "m": 1,
         "n": "Ovocný salát, čaj",
         "d": "",
         "a": [],
@@ -4090,6 +4135,7 @@
     "chody": [
       {
         "c": "presnidavka",
+        "m": 1,
         "n": "Pečivo s ramou, jahodový shake, okurka, čaj",
         "d": "",
         "a": [
@@ -4118,6 +4164,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Kuře po zahradnicku, rýže",
         "d": "Voda",
         "a": [
@@ -4140,6 +4187,7 @@
       },
       {
         "c": "svacina",
+        "m": 1,
         "n": "Rýžový chlebíček s jogurt.polevou, čaj",
         "d": "",
         "a": [
@@ -4164,6 +4212,7 @@
     "chody": [
       {
         "c": "presnidavka",
+        "m": 1,
         "n": "Chléb se šunkou a sýrem, banánový shake, čaj",
         "d": "",
         "a": [
@@ -4191,6 +4240,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Luštěninové placičky, zelný salát",
         "d": "Voda",
         "a": [
@@ -4213,6 +4263,7 @@
       },
       {
         "c": "svacina",
+        "m": 1,
         "n": "Ovocná přesnídávka, čaj",
         "d": "",
         "a": [],
@@ -4231,6 +4282,7 @@
     "chody": [
       {
         "c": "presnidavka",
+        "m": 1,
         "n": "Bagetka s lučinou, ov.čaj, banán",
         "d": "",
         "a": [
@@ -4261,6 +4313,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Segedínský guláš, houskový knedlík",
         "d": "Voda",
         "a": [
@@ -4287,6 +4340,7 @@
       },
       {
         "c": "svacina",
+        "m": 1,
         "n": "Pečivo s uzeným sýrem, mléko, čaj",
         "d": "",
         "a": [
@@ -4311,6 +4365,7 @@
     "chody": [
       {
         "c": "presnidavka",
+        "m": 1,
         "n": "Kukuřičné lupínky s mlékem, čaj",
         "d": "",
         "a": [
@@ -4336,6 +4391,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Zapečený květák s brokolicí vejcem, sýr",
         "d": "Brambor · Voda",
         "a": [
@@ -4367,6 +4423,7 @@
       },
       {
         "c": "svacina",
+        "m": 1,
         "n": "Toustový s ramou, kakao, okurka",
         "d": "",
         "a": [
@@ -4389,6 +4446,7 @@
     "chody": [
       {
         "c": "presnidavka",
+        "m": 1,
         "n": "Chleba ve vajíčku s kečupem, obloha, caro",
         "d": "",
         "a": [
@@ -4420,6 +4478,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Uhlířské špagety",
         "d": "Ovocný džus · Voda",
         "a": [
@@ -4449,6 +4508,7 @@
       },
       {
         "c": "svacina",
+        "m": 1,
         "n": "Ovocná přesnídávka",
         "d": "",
         "a": [],
@@ -4467,6 +4527,7 @@
     "chody": [
       {
         "c": "presnidavka",
+        "m": 1,
         "n": "Jáhlová kaše s grankem a máslem, čaj",
         "d": "",
         "a": [
@@ -4492,6 +4553,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Zapečené brambory s listovým špenátem, žampiony a smetanou",
         "d": "Voda",
         "a": [
@@ -4516,6 +4578,7 @@
       },
       {
         "c": "svacina",
+        "m": 1,
         "n": "Piškoty s mlékem, čaj",
         "d": "",
         "a": [

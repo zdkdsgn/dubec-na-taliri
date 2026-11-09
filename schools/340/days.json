@@ -2156,6 +2156,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Srbské rizoto",
         "d": "Sýr, červená řepa · Ovoce · Voda, mléko",
         "a": [
@@ -2210,6 +2211,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Kovbojské fazole",
         "d": "Chléb · Mléčný výrobek · Voda, mléko",
         "a": [
@@ -2270,6 +2272,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Vepřový guláš",
         "d": "Těstoviny · Ovoce · Voda, mléko",
         "a": [
@@ -2328,6 +2331,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Dukátové buchtičky s krémem",
         "d": "Voda, mléko",
         "a": [
@@ -2367,6 +2371,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Pečené kuře",
         "d": "Brambory · Zelenina · Voda, mléko",
         "a": [
@@ -2419,6 +2424,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Zapékané těstoviny se zeleninou",
         "d": "Mléčný výrobek · Voda, mléko",
         "a": [
@@ -2472,6 +2478,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Hovězí na slanině",
         "d": "Dušená rýže · Ovoce · Voda, mléko",
         "a": [
@@ -2518,6 +2525,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Čevapčiči s cibulí a hořčicí",
         "d": "Brambory · Voda, mléko",
         "a": [
@@ -2571,6 +2579,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Bratislavské vepřové plecko",
         "d": "Houskový knedlík · Ovoce · Voda, mléko",
         "a": [
@@ -2628,6 +2637,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Treska na másle",
         "d": "Bramborová kaše · Zelenina · Voda, mléko",
         "a": [
@@ -2658,6 +2668,218 @@
             "l": "Nápoj",
             "n": "Voda, mléko",
             "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-11-16": {
+    "vydej": "11:20–13:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Vločková",
+        "d": "",
+        "a": [
+          1,
+          3,
+          6,
+          7,
+          9,
+          10
+        ]
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Sweet live omáčka z červené čočky a zeleniny",
+        "d": "Těstoviny penne · Voda, mléko",
+        "a": [
+          1,
+          3,
+          7,
+          9
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Sweet live omáčka z červené čočky a zeleniny",
+            "a": [
+              9
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Těstoviny penne",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Voda, mléko",
+            "a": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-11-18": {
+    "vydej": "11:20–13:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Rychlá hovězí s vejci",
+        "d": "",
+        "a": [
+          1,
+          3,
+          6,
+          7,
+          9,
+          10
+        ]
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Brambor. knedlíky plněné masem",
+        "d": "Dušené zelí · Mléčný výrobek · Voda, mléko",
+        "a": [
+          1,
+          7,
+          10
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Brambor. knedlíky plněné masem",
+            "a": []
+          },
+          {
+            "l": "Příloha",
+            "n": "Dušené zelí",
+            "a": [
+              1,
+              10
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Mléčný výrobek",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Voda, mléko",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-11-19": {
+    "vydej": "11:20–13:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Slepičí s těstovinou",
+        "d": "",
+        "a": [
+          1,
+          3,
+          6,
+          7,
+          9,
+          10
+        ]
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Hovězí na houbách",
+        "d": "Dušená rýže · Ovoce · Voda, mléko",
+        "a": [
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Hovězí na houbách",
+            "a": []
+          },
+          {
+            "l": "Příloha",
+            "n": "Dušená rýže",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Voda, mléko",
+            "a": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-11-20": {
+    "vydej": "11:20–13:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Čočková",
+        "d": "",
+        "a": []
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Sekaná pečeně",
+        "d": "Brambory · Okurka kyselá · Voda, mléko",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Sekaná pečeně",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Brambory",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Okurka kyselá",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Voda, mléko",
+            "a": [
+              7
+            ]
           }
         ]
       }

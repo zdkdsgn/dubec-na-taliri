@@ -1730,6 +1730,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Stroganoff nudličky z vepřové panenky",
         "d": "Rýže",
         "a": [],
@@ -1759,6 +1760,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Zabíjačkový guláš",
         "d": "Houskový knedlík",
         "a": [],
@@ -1788,6 +1790,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Kuřecí stehno ala bažant",
         "d": "Hokaido pyré",
         "a": [],
@@ -1817,6 +1820,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Králičí soté s olivami, hořčicí a tymiánem",
         "d": "Tagliatelle",
         "a": [],
@@ -1846,6 +1850,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Ovocné knedlíky s cukrem a strouhankou",
         "d": "",
         "a": [],
@@ -1870,6 +1875,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Pečené kuře",
         "d": "Rýže",
         "a": [],
@@ -1899,6 +1905,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Grilovaná krkovička",
         "d": "Americké brambory",
         "a": [],
@@ -1928,6 +1935,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Vepřové kostky v mrkvi",
         "d": "Brambory",
         "a": [],
@@ -1957,6 +1965,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Lasagne",
         "d": "",
         "a": [],
@@ -1981,6 +1990,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Svatomartinská pečínka",
         "d": "Červené zelí · Tymiánové šlejšky",
         "a": [],
@@ -2015,6 +2025,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Španělský ptáček",
         "d": "Rýže",
         "a": [],
@@ -2044,6 +2055,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Obalované filé se sýrem",
         "d": "Brambory",
         "a": [],
@@ -2056,6 +2068,220 @@
           {
             "l": "Příloha",
             "n": "Brambory",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-11-16": {
+    "vydej": "12:15–13:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Vývar s celestýnskými nudlemi",
+        "d": "",
+        "a": []
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Zadělávané kuřecí žaludky",
+        "d": "Houskový knedlík",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Zadělávané kuřecí žaludky",
+            "a": []
+          },
+          {
+            "l": "Příloha",
+            "n": "Houskový knedlík",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-11-17": {
+    "vydej": "12:15–13:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Vývar",
+        "d": "",
+        "a": []
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Kuřecí roláda",
+        "d": "Americké brambory",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Kuřecí roláda",
+            "a": []
+          },
+          {
+            "l": "Příloha",
+            "n": "Americké brambory",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-11-18": {
+    "vydej": "12:15–13:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Zeleninová",
+        "d": "",
+        "a": []
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Mletý řízek",
+        "d": "Bramborová kaše",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Mletý řízek",
+            "a": []
+          },
+          {
+            "l": "Příloha",
+            "n": "Bramborová kaše",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-11-19": {
+    "vydej": "12:15–13:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Vývar s kuskusem",
+        "d": "",
+        "a": []
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Králičí výpečky",
+        "d": "Špenát · Bramborový knedlík",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Králičí výpečky",
+            "a": []
+          },
+          {
+            "l": "Příloha",
+            "n": "Špenát",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Bramborový knedlík",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-11-20": {
+    "vydej": "12:15–13:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Z červené řepy",
+        "d": "",
+        "a": []
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Smažený sýr",
+        "d": "Brambory · Tatarka",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Smažený sýr",
+            "a": []
+          },
+          {
+            "l": "Příloha",
+            "n": "Brambory",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Tatarka",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-11-21": {
+    "vydej": "12:15–13:00",
+    "chody": [
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Kuřecí soté",
+        "d": "Rýže",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Kuřecí soté",
+            "a": []
+          },
+          {
+            "l": "Příloha",
+            "n": "Rýže",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-11-22": {
+    "vydej": "12:15–13:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Vývar s nudlemi",
+        "d": "",
+        "a": []
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Grilovaná krkovička",
+        "d": "Americké brambory",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Grilovaná krkovička",
+            "a": []
+          },
+          {
+            "l": "Příloha",
+            "n": "Americké brambory",
             "a": []
           }
         ]

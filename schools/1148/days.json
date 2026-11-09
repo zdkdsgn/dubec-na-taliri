@@ -3652,6 +3652,7 @@
     "chody": [
       {
         "c": "presnidavka",
+        "m": 1,
         "n": "Jogurt s piškoty",
         "d": "Voda, čaj",
         "a": [
@@ -3686,6 +3687,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Losos na bylinkách a citronu",
         "d": "Bulgur, zeleninová obloha · Voda s citronem",
         "a": [
@@ -3718,6 +3720,7 @@
       },
       {
         "c": "svacina",
+        "m": 1,
         "n": "Žervé s bazalkou, veka, paprika, voda",
         "d": "",
         "a": [
@@ -3744,6 +3747,7 @@
     "chody": [
       {
         "c": "presnidavka",
+        "m": 1,
         "n": "Croissant se šunkou a sýrem, mix zeleniny",
         "d": "Voda, čaj, kakao",
         "a": [
@@ -3780,6 +3784,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Vepřové maso na mrkvi, bramborová kaše",
         "d": "Mandarinka · Voda s limetkou",
         "a": [
@@ -3807,6 +3812,7 @@
       },
       {
         "c": "svacina",
+        "m": 1,
         "n": "Pomazánka sýrová, rohlík, jablko, voda",
         "d": "",
         "a": [
@@ -3833,6 +3839,7 @@
     "chody": [
       {
         "c": "presnidavka",
+        "m": 1,
         "n": "Lučina, dalamánek, mix ovoce",
         "d": "Voda, čaj, mléko",
         "a": [
@@ -3868,6 +3875,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Luštěninové curry s kokosovým mlékem, rýže",
         "d": "Rajčatový salát · Voda, mléko",
         "a": [
@@ -3897,6 +3905,7 @@
       },
       {
         "c": "svacina",
+        "m": 1,
         "n": "Pomazánka tvarohová s paprikou, chléb, voda, čaj",
         "d": "",
         "a": [
@@ -3921,6 +3930,7 @@
     "chody": [
       {
         "c": "presnidavka",
+        "m": 1,
         "n": "Šunková pěna, rohlík, mix zeleniny",
         "d": "Voda, čaj, mléko",
         "a": [
@@ -3957,6 +3967,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Rozlítaný ptáček",
         "d": "Šťouchané brambory s máslem a pažitkou · Voda s pomerančem",
         "a": [
@@ -3989,6 +4000,7 @@
       },
       {
         "c": "svacina",
+        "m": 1,
         "n": "Máslo, vejce, podmáslový chléb, mrkev, voda",
         "d": "",
         "a": [
@@ -4015,6 +4027,7 @@
     "chody": [
       {
         "c": "presnidavka",
+        "m": 1,
         "n": "Pomazánka pestrá, rohlík graham, mix zeleniny",
         "d": "Voda, čaj, mléko",
         "a": [
@@ -4054,6 +4067,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Kuře na paprice",
         "d": "Těstoviny, jablko · Voda",
         "a": [
@@ -4086,6 +4100,7 @@
       },
       {
         "c": "svacina",
+        "m": 1,
         "n": "Bublanina s ovocem, voda, čaj",
         "d": "",
         "a": [
@@ -4112,10 +4127,12 @@
     "chody": [
       {
         "c": "presnidavka",
+        "m": 1,
         "n": "Šlehaná lučina, dýňová kostka, mix zeleniny",
         "d": "Voda, čaj, mléko",
         "a": [
           1,
+          3,
           7
         ],
         "p": [
@@ -4124,6 +4141,7 @@
             "n": "Šlehaná lučina, dýňová kostka, mix zeleniny",
             "a": [
               1,
+              3,
               7
             ]
           },
@@ -4140,10 +4158,13 @@
         "c": "polevka",
         "n": "Hrstková",
         "d": "",
-        "a": []
+        "a": [
+          9
+        ]
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Ovocné knedlíky, perník, banán",
         "d": "Voda, mléko",
         "a": [
@@ -4172,6 +4193,7 @@
       },
       {
         "c": "svacina",
+        "m": 1,
         "n": "Obložená veka, mix zeleniny, voda, čaj",
         "d": "",
         "a": [
@@ -4198,6 +4220,7 @@
     "chody": [
       {
         "c": "presnidavka",
+        "m": 1,
         "n": "Jogurt s borůvkami",
         "d": "Voda, čaj",
         "a": [
@@ -4230,6 +4253,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Vepřové výpečky",
         "d": "Dušené zelí, kynutý knedlík · Voda",
         "a": [
@@ -4261,6 +4285,7 @@
       },
       {
         "c": "svacina",
+        "m": 1,
         "n": "Pomazánka česneková se sýrem, kmínový chléb, paprika, voda",
         "d": "",
         "a": [
@@ -4287,6 +4312,7 @@
     "chody": [
       {
         "c": "presnidavka",
+        "m": 1,
         "n": "Pomazánka cizrnová s pečenými rajčaty a česnekem, dýňová kostka, mix zeleniny",
         "d": "Voda, čaj, mléko",
         "a": [
@@ -4319,11 +4345,13 @@
         "d": "",
         "a": [
           1,
+          3,
           9
         ]
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Čočka na kyselo, vejce, chléb, mandarinka",
         "d": "Voda s citronem",
         "a": [
@@ -4350,6 +4378,7 @@
       },
       {
         "c": "svacina",
+        "m": 1,
         "n": "Pomazánkové máslo s pažitkou, kaiserka, mrkev, voda, čaj",
         "d": "",
         "a": [
@@ -4374,6 +4403,7 @@
     "chody": [
       {
         "c": "presnidavka",
+        "m": 1,
         "n": "Pomazánka luštěninová, podmáslový chléb, mix zeleniny",
         "d": "Voda, čaj, mléko",
         "a": [
@@ -4410,6 +4440,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Kotleta",
         "d": "Vařené brambory, dušená zelenina s máslem · Voda",
         "a": [
@@ -4437,6 +4468,7 @@
       },
       {
         "c": "svacina",
+        "m": 1,
         "n": "Pomazánka tvarohová se šunkou, veka, hrozny, voda, čaj",
         "d": "",
         "a": [
@@ -4463,6 +4495,7 @@
     "chody": [
       {
         "c": "presnidavka",
+        "m": 1,
         "n": "Pomazánka brokolicová, rohlík, mix ovoce a zeleniny",
         "d": "Voda, čaj, ochucené mléko",
         "a": [
@@ -4498,6 +4531,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Kuřecí kousky, špenátovo – sýrová omáčka, penne",
         "d": "Voda s okurkou",
         "a": [
@@ -4524,6 +4558,7 @@
       },
       {
         "c": "svacina",
+        "m": 1,
         "n": "Cereálie s mlékem, voda",
         "d": "",
         "a": [
@@ -4536,6 +4571,390 @@
             "n": "Cereálie s mlékem, voda",
             "a": [
               1,
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-11-16": {
+    "vydej": "11:40–12:10",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "m": 1,
+        "n": "Jogurt, strouhané jablko se skořicí",
+        "d": "Voda",
+        "a": [
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Jogurt, strouhané jablko se skořicí",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Voda",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Zeleninová s kuskusem",
+        "d": "",
+        "a": [
+          1,
+          3,
+          7
+        ]
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Těstovinový salát s tuňákem",
+        "d": "Voda s citronem",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Těstovinový salát s tuňákem",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Voda s citronem",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "m": 1,
+        "n": "Pomazánka z červené čočky, rohlík, paprika, voda, čaj",
+        "d": "",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Pomazánka z červené čočky, rohlík, paprika, voda, čaj",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-11-17": {
+    "vydej": "11:40–12:10",
+    "chody": [
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Státní svátek",
+        "d": "",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Státní svátek",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-11-18": {
+    "vydej": "11:40–12:10",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "m": 1,
+        "n": "Ovesné placičky, kečup, mix zeleniny",
+        "d": "Voda, čaj, mléko",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Ovesné placičky, kečup, mix zeleniny",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Voda, čaj, mléko",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Brokolicový krém",
+        "d": "",
+        "a": [
+          7
+        ]
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Kuřecí po italsku",
+        "d": "Rýže, pomeranč · Voda s pomerančem",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Kuřecí po italsku",
+            "a": []
+          },
+          {
+            "l": "Příloha",
+            "n": "Rýže, pomeranč",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Voda s pomerančem",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "m": 1,
+        "n": "Smetanový sýr, chléb, pomeranč, voda",
+        "d": "",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Smetanový sýr, chléb, pomeranč, voda",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-11-19": {
+    "vydej": "11:40–12:10",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "m": 1,
+        "n": "Pomazánka rybí, kmínový chléb, mix zeleniny",
+        "d": "Voda, čaj, mléko",
+        "a": [
+          1,
+          3,
+          4,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Pomazánka rybí, kmínový chléb, mix zeleniny",
+            "a": [
+              1,
+              3,
+              4,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Voda, čaj, mléko",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Česneková s brambory, vejci a krutony",
+        "d": "",
+        "a": [
+          1,
+          3,
+          7
+        ]
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Sekaná pečeně, bramborová kaše, okurek",
+        "d": "Voda, mléko",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Sekaná pečeně, bramborová kaše, okurek",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Voda, mléko",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "m": 1,
+        "n": "Pomazánkové máslo s bylinkami, rohlík, jablko, voda, čaj",
+        "d": "",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Pomazánkové máslo s bylinkami, rohlík, jablko, voda, čaj",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-11-20": {
+    "vydej": "11:40–12:10",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "m": 1,
+        "n": "Zapečený toust, mix zeleniny",
+        "d": "Voda, čaj, mléko",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Zapečený toust, mix zeleniny",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Voda, čaj, mléko",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Slepičí vývar s nudlemi",
+        "d": "",
+        "a": [
+          1,
+          3,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Zapékané těstoviny",
+        "d": "Voda",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Zapékané těstoviny",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Voda",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "m": 1,
+        "n": "Řezy rafaelo, voda",
+        "d": "",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Řezy rafaelo, voda",
+            "a": [
+              1,
+              3,
               7
             ]
           }

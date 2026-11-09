@@ -4760,6 +4760,7 @@
         "chody": [
           {
             "c": "presnidavka",
+            "m": 1,
             "n": "Plátkový sýr, pečivo",
             "d": "",
             "a": [],
@@ -4782,6 +4783,7 @@
           },
           {
             "c": "obed",
+            "m": 1,
             "n": "Sladké knedlíky s meruňkami, tvaroh",
             "d": "",
             "a": [],
@@ -4795,6 +4797,7 @@
           },
           {
             "c": "svacina",
+            "m": 1,
             "n": "Toasty",
             "d": "",
             "a": [],
@@ -4822,19 +4825,7 @@
           },
           {
             "c": "obed",
-            "n": "Sladké knedlíky s meruňkami, tvaroh",
-            "d": "",
-            "a": [],
-            "p": [
-              {
-                "l": "Jídlo",
-                "n": "Sladké knedlíky s meruňkami, tvaroh",
-                "a": []
-              }
-            ]
-          },
-          {
-            "c": "obed2",
+            "m": 1,
             "n": "Sladké knedlíky s meruňkami, tvaroh",
             "d": "",
             "a": [],
@@ -4857,6 +4848,7 @@
         "chody": [
           {
             "c": "presnidavka",
+            "m": 1,
             "n": "Rybí pomazánka, pečivo",
             "d": "",
             "a": [
@@ -4882,6 +4874,7 @@
           },
           {
             "c": "obed",
+            "m": 1,
             "n": "Kapustové karbanátky",
             "d": "Štouchané brambory · Salát",
             "a": [],
@@ -4905,6 +4898,7 @@
           },
           {
             "c": "svacina",
+            "m": 1,
             "n": "Rýžová kaše",
             "d": "",
             "a": [],
@@ -4929,6 +4923,7 @@
           },
           {
             "c": "obed",
+            "m": 1,
             "n": "Čivabčiči",
             "d": "Štouchané brambory · Salát",
             "a": [],
@@ -4952,6 +4947,7 @@
           },
           {
             "c": "obed2",
+            "m": 2,
             "n": "Kapustové karbanátky",
             "d": "Štouchané brambory · Salát",
             "a": [],
@@ -4984,6 +4980,7 @@
         "chody": [
           {
             "c": "presnidavka",
+            "m": 1,
             "n": "Tofu pomazánka, pečivo",
             "d": "",
             "a": [],
@@ -5005,6 +5002,7 @@
           },
           {
             "c": "obed",
+            "m": 1,
             "n": "Znojemská omáčka",
             "d": "Dušená rýže",
             "a": [
@@ -5027,6 +5025,7 @@
           },
           {
             "c": "svacina",
+            "m": 1,
             "n": "Kapiová pomazánka, pečivo",
             "d": "",
             "a": [
@@ -5059,6 +5058,7 @@
           },
           {
             "c": "obed",
+            "m": 1,
             "n": "Znojemská omáčka",
             "d": "Dušená rýže",
             "a": [
@@ -5081,6 +5081,7 @@
           },
           {
             "c": "obed2",
+            "m": 2,
             "n": "Vege znojemská",
             "d": "Dušená rýže",
             "a": [],
@@ -5108,6 +5109,7 @@
         "chody": [
           {
             "c": "presnidavka",
+            "m": 1,
             "n": "Droždová pomazánka, pečivo",
             "d": "",
             "a": [],
@@ -5127,6 +5129,7 @@
           },
           {
             "c": "obed",
+            "m": 1,
             "n": "Plněné bramborové knedlíky s uzeným masem",
             "d": "Červené zelí",
             "a": [],
@@ -5145,6 +5148,7 @@
           },
           {
             "c": "svacina",
+            "m": 1,
             "n": "Medové máslo, pečivo",
             "d": "",
             "a": [],
@@ -5169,6 +5173,7 @@
           },
           {
             "c": "obed",
+            "m": 1,
             "n": "Plněné bramborové knedlíky s uzeným masem",
             "d": "Červené zelí",
             "a": [],
@@ -5187,6 +5192,7 @@
           },
           {
             "c": "obed2",
+            "m": 2,
             "n": "Plněné bramborové knedlíky s tempehem",
             "d": "Červené zelí",
             "a": [],
@@ -5214,6 +5220,7 @@
         "chody": [
           {
             "c": "presnidavka",
+            "m": 1,
             "n": "Šunka, pečivo",
             "d": "",
             "a": [
@@ -5241,6 +5248,7 @@
           },
           {
             "c": "obed",
+            "m": 1,
             "n": "Cizrna na paprice",
             "d": "Těstoviny",
             "a": [
@@ -5265,6 +5273,7 @@
           },
           {
             "c": "svacina",
+            "m": 1,
             "n": "Domácí müsli tyčinky",
             "d": "",
             "a": [],
@@ -5289,6 +5298,7 @@
           },
           {
             "c": "obed",
+            "m": 1,
             "n": "Kuře na paprice",
             "d": "Těstoviny",
             "a": [
@@ -5313,6 +5323,7 @@
           },
           {
             "c": "obed2",
+            "m": 2,
             "n": "Cizrna na paprice",
             "d": "Těstoviny",
             "a": [
@@ -5346,6 +5357,7 @@
         "chody": [
           {
             "c": "presnidavka",
+            "m": 1,
             "n": "Tvarohová pomazánka, pečivo",
             "d": "",
             "a": [],
@@ -5367,6 +5379,7 @@
           },
           {
             "c": "obed",
+            "m": 1,
             "n": "Čočka na kyselo, vejce, kyselá okurka",
             "d": "",
             "a": [],
@@ -5380,6 +5393,7 @@
           },
           {
             "c": "svacina",
+            "m": 1,
             "n": "Perník",
             "d": "",
             "a": [
@@ -5412,6 +5426,7 @@
           },
           {
             "c": "obed",
+            "m": 1,
             "n": "Čočka na kyselo s párkem, kyselá okurka",
             "d": "",
             "a": [
@@ -5429,6 +5444,7 @@
           },
           {
             "c": "obed2",
+            "m": 2,
             "n": "Čočka na kyselo, vejce, kyselá okurka",
             "d": "",
             "a": [],
@@ -5451,6 +5467,7 @@
         "chody": [
           {
             "c": "presnidavka",
+            "m": 1,
             "n": "Avokádová pomazánka, pečivo",
             "d": "",
             "a": [
@@ -5476,6 +5493,7 @@
           },
           {
             "c": "obed",
+            "m": 1,
             "n": "Kuřecí řízek",
             "d": "Bramborovo-dýnová kaše · Salát Coleslaw",
             "a": [],
@@ -5499,6 +5517,7 @@
           },
           {
             "c": "svacina",
+            "m": 1,
             "n": "Cizrnová pomazánka, pečivo",
             "d": "",
             "a": [],
@@ -5525,6 +5544,7 @@
           },
           {
             "c": "obed",
+            "m": 1,
             "n": "Kuřecí řízek",
             "d": "Bramborovo-dýnová kaše · Salát Coleslaw",
             "a": [],
@@ -5548,6 +5568,7 @@
           },
           {
             "c": "obed2",
+            "m": 2,
             "n": "Brokolicovo-květákový nákyp",
             "d": "Bramborovo-dýnová kaše · Salát Coleslaw",
             "a": [],
@@ -5580,6 +5601,7 @@
         "chody": [
           {
             "c": "presnidavka",
+            "m": 1,
             "n": "Pažitková pomazánka, Pečivo",
             "d": "",
             "a": [
@@ -5605,6 +5627,7 @@
           },
           {
             "c": "obed",
+            "m": 1,
             "n": "Špagety s rajčatovou omáčkou, sýr",
             "d": "",
             "a": [
@@ -5624,6 +5647,7 @@
           },
           {
             "c": "svacina",
+            "m": 1,
             "n": "Pribináček+ piškoty",
             "d": "",
             "a": [],
@@ -5648,6 +5672,7 @@
           },
           {
             "c": "obed",
+            "m": 1,
             "n": "Špagety s boloňskou omáčkou, sýr",
             "d": "",
             "a": [],
@@ -5661,6 +5686,7 @@
           },
           {
             "c": "obed2",
+            "m": 2,
             "n": "Špagety s rajčatovou omáčkou, sýr",
             "d": "",
             "a": [
@@ -5689,6 +5715,7 @@
         "chody": [
           {
             "c": "presnidavka",
+            "m": 1,
             "n": "Pomazánka z pečených paprik, pečivo",
             "d": "",
             "a": [
@@ -5712,6 +5739,7 @@
           },
           {
             "c": "obed",
+            "m": 1,
             "n": "Kuskus se zeleninou",
             "d": "Kompot",
             "a": [
@@ -5739,6 +5767,7 @@
           },
           {
             "c": "svacina",
+            "m": 1,
             "n": "Krupicová kaše",
             "d": "",
             "a": [
@@ -5769,6 +5798,7 @@
           },
           {
             "c": "obed",
+            "m": 1,
             "n": "Pečené kachní stehno(zš kuřecí stehno)",
             "d": "Bramborový knedlík · Zelí",
             "a": [
@@ -5798,6 +5828,7 @@
           },
           {
             "c": "obed2",
+            "m": 2,
             "n": "Kuskus se zeleninou",
             "d": "Kompot",
             "a": [
@@ -5829,6 +5860,7 @@
         "chody": [
           {
             "c": "presnidavka",
+            "m": 1,
             "n": "Tuňáková pomazánka, pečivo",
             "d": "",
             "a": [],
@@ -5848,6 +5880,7 @@
           },
           {
             "c": "obed",
+            "m": 1,
             "n": "Hovězí cikánská pečeně",
             "d": "Dušená rýže",
             "a": [],
@@ -5866,6 +5899,7 @@
           },
           {
             "c": "svacina",
+            "m": 1,
             "n": "Chleba ve vajíčku",
             "d": "",
             "a": [],
@@ -5890,6 +5924,7 @@
           },
           {
             "c": "obed",
+            "m": 1,
             "n": "Hovězí cikánská pečeně",
             "d": "Dušená rýže",
             "a": [],
@@ -5908,6 +5943,7 @@
           },
           {
             "c": "obed2",
+            "m": 2,
             "n": "Houbová omáčka",
             "d": "Dušená rýže",
             "a": [],

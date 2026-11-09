@@ -4609,6 +4609,7 @@
     "chody": [
       {
         "c": "presnidavka",
+        "m": 1,
         "n": "Jablečná kapsa, mléko",
         "d": "Borůvky, hroznové víno · Mléko, čaj, ovocná šťáva, voda",
         "a": [
@@ -4652,6 +4653,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Obalované filé se sýrem",
         "d": "Vařené brambory · Čaj, voda s citronem, sirup",
         "a": [
@@ -4687,6 +4689,7 @@
       },
       {
         "c": "svacina",
+        "m": 1,
         "n": "Žitný dalamánek, žervé",
         "d": "Kapie, rajče · Mléko, čaj, voda s citronem, ovocná štˇáva",
         "a": [
@@ -4723,6 +4726,7 @@
     "chody": [
       {
         "c": "presnidavka",
+        "m": 1,
         "n": "Mrkvová pomazánka, podmáslový chléb",
         "d": "Ledový salát, kedlubna-školáci+školka · Mléko, čaj, ovocná šťáva, voda",
         "a": [
@@ -4765,6 +4769,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Hrachová kaše, uzenina, chléb",
         "d": "Kyselá okurka · Čaj, voda, ovocná šťáva",
         "a": [
@@ -4794,6 +4799,7 @@
       },
       {
         "c": "svacina",
+        "m": 1,
         "n": "Jogurtový kostík, rohlík Vita",
         "d": "Mango · Čaj, mléko, ovocná šťáva, voda",
         "a": [
@@ -4832,6 +4838,7 @@
     "chody": [
       {
         "c": "presnidavka",
+        "m": 1,
         "n": "Opečený toustový chléb, tvarohová pomazánka",
         "d": "Kapie, rajče · Mléko, čaj, ovocná šťáva, voda",
         "a": [
@@ -4875,6 +4882,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Kuřecí čína",
         "d": "Dušená rýže · Čaj, voda se sirupem",
         "a": [
@@ -4904,6 +4912,7 @@
       },
       {
         "c": "svacina",
+        "m": 1,
         "n": "Sezámek s máslem, vařené vejce",
         "d": "Hruška, hroznové víno · Mléko, čaj, ovocná šťáva, voda",
         "a": [
@@ -4942,6 +4951,7 @@
     "chody": [
       {
         "c": "presnidavka",
+        "m": 1,
         "n": "Celozrnná bageta s lučinou",
         "d": "Okurka · Mléko, čaj, ovocná šťáva, voda",
         "a": [
@@ -4984,6 +4994,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Bratislavská vepřová plec",
         "d": "Houskový knedlík · Čaj, voda s citronem, sirup",
         "a": [
@@ -5018,6 +5029,7 @@
       },
       {
         "c": "svacina",
+        "m": 1,
         "n": "Jahodové smoothie, rohlík",
         "d": "Banán, hroznové víno · Mléko, čaj, ovocná šťáva, voda",
         "a": [
@@ -5053,6 +5065,7 @@
     "chody": [
       {
         "c": "presnidavka",
+        "m": 1,
         "n": "Celozrnný rohlík Vita s pomazánkovým máslem",
         "d": "Rajče, školáci -jablko, banán · Mléko, čaj, ovocná šťáva",
         "a": [
@@ -5097,6 +5110,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Zeleninové rizoto s kuřecím a krůtím masem",
         "d": "Kyselá okurka · Čaj, ovocná šťáva",
         "a": [
@@ -5126,6 +5140,7 @@
       },
       {
         "c": "svacina",
+        "m": 1,
         "n": "Celožitný ošatkový chléb s taveným sýrem",
         "d": "Bluma, hruška · Mléko, čaj, ovocná šťáva",
         "a": [
@@ -5164,6 +5179,7 @@
     "chody": [
       {
         "c": "presnidavka",
+        "m": 1,
         "n": "Žitánek s taveným sýrem",
         "d": "Ledový salát, rajče · Mléko, čaj, ovocná šťáva, voda",
         "a": [
@@ -5207,8 +5223,9 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Kuřecí závitek",
-        "d": "Vařené brambory · Zeleninová obloha · Čaj, ovocná šťáva, voda s citronem",
+        "d": "Vařené brambory · Zeleninová obloha, školáci jogurt · Čaj, ovocná šťáva, voda s citronem",
         "a": [
           1,
           7
@@ -5231,8 +5248,10 @@
           },
           {
             "l": "Doplněk",
-            "n": "Zeleninová obloha",
-            "a": []
+            "n": "Zeleninová obloha, školáci jogurt",
+            "a": [
+              7
+            ]
           },
           {
             "l": "Nápoj",
@@ -5243,6 +5262,7 @@
       },
       {
         "c": "svacina",
+        "m": 1,
         "n": "Vita rohlík, žervé",
         "d": "Mandarinka · Mléko, čaj, ovocná šťáva, voda",
         "a": [
@@ -5281,6 +5301,7 @@
     "chody": [
       {
         "c": "presnidavka",
+        "m": 1,
         "n": "Chléb Fit, vajíčková pomazánka",
         "d": "Kedlubna, kapie · Mléko, čaj, ovocná šťáva, voda",
         "a": [
@@ -5323,7 +5344,8 @@
       },
       {
         "c": "obed",
-        "n": "Kynutý koláč s ovocem",
+        "m": 1,
+        "n": "Kynutý koláč s ovocem, tvarohem a povidly",
         "d": "Jablko · Čaj, ovocná šťáva, voda s citronem",
         "a": [
           1,
@@ -5333,7 +5355,7 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Kynutý koláč s ovocem",
+            "n": "Kynutý koláč s ovocem, tvarohem a povidly",
             "a": [
               1,
               3,
@@ -5354,6 +5376,7 @@
       },
       {
         "c": "svacina",
+        "m": 1,
         "n": "Sýrová houska s máslem",
         "d": "Hroznové víno · Mléko, čaj, ovocná šťáva",
         "a": [
@@ -5392,6 +5415,7 @@
     "chody": [
       {
         "c": "presnidavka",
+        "m": 1,
         "n": "Chléb Zlaťák s máslem, plátkový sýr",
         "d": "Rajče · Mléko, čaj, ovocná šťáva",
         "a": [
@@ -5436,6 +5460,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Pečená kachní prsa",
         "d": "Bramborový knedlík, zelí · Čaj, ovocná šťáva, voda s citronem",
         "a": [
@@ -5465,6 +5490,7 @@
       },
       {
         "c": "svacina",
+        "m": 1,
         "n": "Skořicový uzel, mléko",
         "d": "Hroznové víno · Mléko, čaj, ovocná šťáva, voda",
         "a": [
@@ -5503,6 +5529,7 @@
     "chody": [
       {
         "c": "presnidavka",
+        "m": 1,
         "n": "Tvarohová pomazánka z pečených paprik, ošatkový chléb",
         "d": "Kapie · Mléko, čaj, ovocná šťáva",
         "a": [
@@ -5546,6 +5573,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Hovězí nudličky po zahradnicku",
         "d": "Dušená rýže · Čaj, ovocná šťáva, voda s citronem",
         "a": [
@@ -5579,6 +5607,7 @@
       },
       {
         "c": "svacina",
+        "m": 1,
         "n": "Houska Panini s pomazánkovým máslem",
         "d": "Borůvky · Mléko, čaj, ovocná šťáva",
         "a": [
@@ -5617,6 +5646,7 @@
     "chody": [
       {
         "c": "presnidavka",
+        "m": 1,
         "n": "Celozrnné medové kroužky s mlékem",
         "d": "Banán · Mléko, čaj, ovocná šťáva, voda",
         "a": [
@@ -5656,6 +5686,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Boloňské špagety s mletým masem",
         "d": "Čaj, ovocná šťáva, voda",
         "a": [
@@ -5684,6 +5715,7 @@
       },
       {
         "c": "svacina",
+        "m": 1,
         "n": "Žitánek s lučinou",
         "d": "Okurka · Mléko, čaj, ovocná šťáva",
         "a": [
@@ -5722,6 +5754,7 @@
     "chody": [
       {
         "c": "presnidavka",
+        "m": 1,
         "n": "Ovocný jogurt, rohlík",
         "d": "Hroznové víno, školáci jablko, ovocný jogurt · Mléko, čaj, ovocná šťáva, voda",
         "a": [
@@ -5763,6 +5796,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Bulgur s kuřecím masem a zeleninou",
         "d": "Zeleninový salát · Čaj, ovocná šťáva, voda",
         "a": [
@@ -5792,6 +5826,7 @@
       },
       {
         "c": "svacina",
+        "m": 1,
         "n": "Podmáslový chléb s pomazánkovým máslem",
         "d": "Ledový salát · Mléko, čaj, ovocná šťáva",
         "a": [
@@ -5828,6 +5863,7 @@
     "chody": [
       {
         "c": "obed",
+        "m": 1,
         "n": "STÁTNÍ SVÁTEK, NEVAŘÍ SE!",
         "d": "",
         "a": [],
@@ -5846,6 +5882,7 @@
     "chody": [
       {
         "c": "presnidavka",
+        "m": 1,
         "n": "Anglický rohlík",
         "d": "Kapie · Mléko, čaj, ovocná šťáva",
         "a": [
@@ -5889,6 +5926,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Kovbojské fazole, s uzeninou",
         "d": "Chléb · Čaj, ovocná šťáva, voda",
         "a": [
@@ -5920,6 +5958,7 @@
       },
       {
         "c": "svacina",
+        "m": 1,
         "n": "Žitánek s taveným sýrem",
         "d": "Hruška, mandarinka · Mléko, čaj, ovocná šťáva",
         "a": [
@@ -5956,6 +5995,7 @@
     "chody": [
       {
         "c": "presnidavka",
+        "m": 1,
         "n": "Chléb Zlaťák, šunková pomazánka",
         "d": "Rajče · Mléko, čaj, ovocná šťáva",
         "a": [
@@ -5995,6 +6035,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Hovězí guláš",
         "d": "Celozrnné těstoviny · Čaj, ovocná šťáva",
         "a": [
@@ -6026,6 +6067,7 @@
       },
       {
         "c": "svacina",
+        "m": 1,
         "n": "Sezámek s máslem, plátkový sýr",
         "d": "Mango, hruška · Mléko, čaj, ovocná šťáva",
         "a": [
@@ -6064,6 +6106,7 @@
     "chody": [
       {
         "c": "presnidavka",
+        "m": 1,
         "n": "Koblížek s marmeládou",
         "d": "Borůvky · Mléko, čaj, ovocná šťáva",
         "a": [
@@ -6107,6 +6150,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Gnocchi s kuřecím masem, špenátem a sýrem",
         "d": "Čaj, ovocná šťáva, voda",
         "a": [
@@ -6135,6 +6179,7 @@
       },
       {
         "c": "svacina",
+        "m": 1,
         "n": "Ošatkový chléb s lučinou",
         "d": "Rajče · Mléko, čaj, ovocná šťáva",
         "a": [

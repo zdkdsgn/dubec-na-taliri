@@ -3260,6 +3260,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Bulgurové rizoto se zeleninou sypané sýrem",
         "d": "Červená řepa, míchaný kompot · Čaj, mléčný koktejl",
         "a": [
@@ -3309,6 +3310,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Hovězí maso s rajskou omáčkou",
         "d": "Celozrné těstoviny · Ovoce · Ovocný čaj, mléko, ochucená voda",
         "a": [
@@ -3346,6 +3348,7 @@
       },
       {
         "c": "obed2",
+        "m": 2,
         "n": "Zapečené špecle s brokolicí a sýrem",
         "d": "Ovoce · Ovocný čaj, mléko, ochucená voda",
         "a": [
@@ -3394,6 +3397,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Ryba HOKI s citronovo-máslovou omáčkou",
         "d": "Brambory máslem maštěné, sladká kukuřice · Čaj, bílá káva, ochucená voda",
         "a": [
@@ -3432,6 +3436,7 @@
       },
       {
         "c": "obed2",
+        "m": 2,
         "n": "Kuskus na sladko",
         "d": "Čaj, bílá káva, ochucená voda",
         "a": [
@@ -3477,6 +3482,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Vepřová panenka se žampiony",
         "d": "Rýže · Ovoce · Čaj, mléko",
         "a": [
@@ -3511,6 +3517,7 @@
       },
       {
         "c": "obed2",
+        "m": 2,
         "n": "Šopský salát",
         "d": "Slunečnicový rohlík · Ovoce · Čaj, mléko",
         "a": [
@@ -3566,6 +3573,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Lasagne s mletým masem",
         "d": "Čaj, kakao, ochucená voda",
         "a": [
@@ -3594,6 +3602,7 @@
       },
       {
         "c": "obed2",
+        "m": 2,
         "n": "Bulgurový salát se sýrem feta",
         "d": "Čaj, kakao, ochucená voda",
         "a": [
@@ -3635,6 +3644,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Kuřecí prsa tikka masala",
         "d": "Rýže · Ovoce · Čaj, mléčný koktejl, voda",
         "a": [
@@ -3673,6 +3683,7 @@
       },
       {
         "c": "obed2",
+        "m": 2,
         "n": "Brokolicové placičky s červenou čočkou",
         "d": "Brambory máslem maštěné, dip · Ovoce · Čaj, mléčný koktejl, voda",
         "a": [
@@ -3726,6 +3737,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Těstoviny se sýrovou omáčkou",
         "d": "Ovoce · Čaj, kakao, ochucená voda",
         "a": [
@@ -3757,6 +3769,7 @@
       },
       {
         "c": "obed2",
+        "m": 2,
         "n": "Zeleninový salát s krůtím masem – dresink",
         "d": "Ovoce · Čaj, kakao, ochucená voda",
         "a": [
@@ -3804,6 +3817,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Pečená kachní prsa",
         "d": "Brambor. knedlík, červené zelí · Ovocný čaj, mléko",
         "a": [
@@ -3834,6 +3848,7 @@
       },
       {
         "c": "obed2",
+        "m": 2,
         "n": "Zapečené brambory s nivou a porkem",
         "d": "Ovocný čaj, mléko",
         "a": [
@@ -3876,6 +3891,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Fazolový guláš",
         "d": "Kváskový chléb · Ovoce · Ovocný čaj, bílá káva",
         "a": [
@@ -3912,6 +3928,7 @@
       },
       {
         "c": "obed2",
+        "m": 2,
         "n": "Obalovaná treska",
         "d": "Bramborová kaše máslem maštěné · Ovoce · Ovocný čaj, bílá káva",
         "a": [
@@ -3970,6 +3987,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Vepřový řízek smažený",
         "d": "Bramborový salát – brambory · Čaj, mléko",
         "a": [
@@ -4008,6 +4026,7 @@
       },
       {
         "c": "obed2",
+        "m": 2,
         "n": "Cuketovo -houbové rizoto",
         "d": "Čaj, mléko",
         "a": [
@@ -4024,6 +4043,221 @@
           {
             "l": "Nápoj",
             "n": "Čaj, mléko",
+            "a": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-11-18": {
+    "vydej": "11:30–13:45",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Zeleninová se sýrem, svítkem",
+        "d": "",
+        "a": [
+          1,
+          3,
+          7,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Čočka na kyselo párek, kyselá okurka",
+        "d": "Čaj, mléčný koktejl, voda",
+        "a": [
+          1,
+          7,
+          8,
+          9
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Čočka na kyselo párek, kyselá okurka",
+            "a": [
+              1,
+              9
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj, mléčný koktejl, voda",
+            "a": [
+              7,
+              8
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-11-19": {
+    "vydej": "11:30–13:45",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Česneková s bramborem",
+        "d": "",
+        "a": [
+          7
+        ]
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Vepřové ragu na kořenové zelenině a pórku",
+        "d": "Barevné těstoviny · Ovoce · Ovocný čaj, bílá káva",
+        "a": [
+          1,
+          7,
+          9
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Vepřové ragu na kořenové zelenině a pórku",
+            "a": [
+              1,
+              9
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Barevné těstoviny",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný čaj, bílá káva",
+            "a": [
+              1,
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "m": 2,
+        "n": "Bramborové noky s rajčatovou omáčkou",
+        "d": "Ovoce · Ovocný čaj, bílá káva",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Bramborové noky s rajčatovou omáčkou",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný čaj, bílá káva",
+            "a": [
+              1,
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-11-20": {
+    "vydej": "11:30–13:45",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Rybí",
+        "d": "",
+        "a": [
+          1,
+          4,
+          7,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Trhané vepřové maso",
+        "d": "Štouchané brambory, ledový salátek · Čaj, kakao, ochucená voda",
+        "a": [
+          1,
+          6,
+          7,
+          9,
+          10
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Trhané vepřové maso",
+            "a": [
+              1,
+              6,
+              9,
+              10
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Štouchané brambory, ledový salátek",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj, kakao, ochucená voda",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "m": 2,
+        "n": "Špecle se zeleninou a houbami",
+        "d": "Čaj, kakao, ochucená voda",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Špecle se zeleninou a houbami",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj, kakao, ochucená voda",
             "a": [
               7
             ]

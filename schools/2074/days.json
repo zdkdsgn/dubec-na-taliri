@@ -4217,6 +4217,7 @@
     "chody": [
       {
         "c": "presnidavka",
+        "m": 1,
         "n": "Rohlík sojový s paštikou",
         "d": "Mrkev · Mléko",
         "a": [
@@ -4259,6 +4260,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Čočka na kyselo, vejce",
         "d": "Chléb · Banán · Čaj dobré ráno, voda",
         "a": [
@@ -4295,6 +4297,7 @@
       },
       {
         "c": "svacina",
+        "m": 1,
         "n": "Ovocná přesnídávka",
         "d": "Čaj dobré ráno",
         "a": [],
@@ -4318,6 +4321,7 @@
     "chody": [
       {
         "c": "presnidavka",
+        "m": 1,
         "n": "Rohlík, česneková pomazánka s mrkví",
         "d": "Jablko · Bílá káva",
         "a": [
@@ -4358,6 +4362,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Hovězí znojemská",
         "d": "Rýže · Čaj bezinkový, voda s citronem",
         "a": [],
@@ -4381,6 +4386,7 @@
       },
       {
         "c": "svacina",
+        "m": 1,
         "n": "Chléb, pom. švédská",
         "d": "Okurek salátový · Čaj bezinkový",
         "a": [
@@ -4417,6 +4423,7 @@
     "chody": [
       {
         "c": "presnidavka",
+        "m": 1,
         "n": "Tvarohový závin",
         "d": "Hrozen · Granko",
         "a": [
@@ -4459,6 +4466,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Rybí nugetky z aljašské tresky",
         "d": "Brambory s máslem · Salát z červené řepy · Džus",
         "a": [
@@ -4499,6 +4507,7 @@
       },
       {
         "c": "svacina",
+        "m": 1,
         "n": "Sýrový croisant",
         "d": "Mandarinka · Čaj divoká třešeň",
         "a": [
@@ -4535,6 +4544,7 @@
     "chody": [
       {
         "c": "presnidavka",
+        "m": 1,
         "n": "Chléb kváskový, pomazánka z červené čočky",
         "d": "Paprika · Mléko",
         "a": [
@@ -4576,6 +4586,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Domažlické vepřové ragu",
         "d": "Kolínka · Čaj malinový, voda s mátou",
         "a": [
@@ -4610,6 +4621,7 @@
       },
       {
         "c": "svacina",
+        "m": 1,
         "n": "Bulka s máslem a plátkem sýra",
         "d": "Čaj",
         "a": [
@@ -4641,6 +4653,7 @@
     "chody": [
       {
         "c": "presnidavka",
+        "m": 1,
         "n": "Bageta s pomazánkou špenátovou",
         "d": "Jablko · Mléko",
         "a": [
@@ -4682,6 +4695,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Halušky se zelím a slaninou",
         "d": "Čaj multivitamín, voda",
         "a": [
@@ -4706,6 +4720,7 @@
       },
       {
         "c": "svacina",
+        "m": 1,
         "n": "Míšánek",
         "d": "Čaj multivitamín",
         "a": [
@@ -4733,6 +4748,7 @@
     "chody": [
       {
         "c": "presnidavka",
+        "m": 1,
         "n": "Bageta s pomazánkou z tofu",
         "d": "Čerstvé ovoce nebo zelenina · Mléko",
         "a": [
@@ -4777,6 +4793,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Dančí guláš",
         "d": "Chléb · Čaj dobré ráno, voda",
         "a": [
@@ -4806,8 +4823,9 @@
       },
       {
         "c": "svacina",
+        "m": 1,
         "n": "Rohlík s taveným sýrem",
-        "d": "Barevná paprika · Čaj dobré ráno",
+        "d": "Paprika · Čaj dobré ráno",
         "a": [
           1,
           7
@@ -4823,7 +4841,7 @@
           },
           {
             "l": "Doplněk",
-            "n": "Barevná paprika",
+            "n": "Paprika",
             "a": []
           },
           {
@@ -4840,6 +4858,7 @@
     "chody": [
       {
         "c": "presnidavka",
+        "m": 1,
         "n": "Bramborová bulka, vídeňský krém",
         "d": "Čerstvé ovoce nebo zelenina · Čokoplus",
         "a": [
@@ -4879,6 +4898,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Marry me chicken",
         "d": "Celozrnné těstoviny · Ovocná šťáva",
         "a": [
@@ -4912,7 +4932,8 @@
       },
       {
         "c": "svacina",
-        "n": "Chléb kmínový s máslem a rajčetem",
+        "m": 1,
+        "n": "Chléb kmínový s máslem",
         "d": "Čaj borůvkový",
         "a": [
           1,
@@ -4921,7 +4942,7 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Chléb kmínový s máslem a rajčetem",
+            "n": "Chléb kmínový s máslem",
             "a": [
               1,
               7
@@ -4941,6 +4962,7 @@
     "chody": [
       {
         "c": "presnidavka",
+        "m": 1,
         "n": "Chléb, pomazánka drožďová",
         "d": "Čerstvé ovoce nebo zelenina · Mléko",
         "a": [
@@ -4984,6 +5006,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Zeleninový karbanátek s masem",
         "d": "Brambory s máslem · Rajče · Čaj malinový, voda",
         "a": [
@@ -5023,6 +5046,7 @@
       },
       {
         "c": "svacina",
+        "m": 1,
         "n": "Bebe snack",
         "d": "Ovoce · Čaj malinový",
         "a": [
@@ -5057,6 +5081,7 @@
     "chody": [
       {
         "c": "presnidavka",
+        "m": 1,
         "n": "Veka s barevnou zeleninovou pomazánkou",
         "d": "Čerstvé ovoce nebo zelenina · Bílá káva",
         "a": [
@@ -5102,6 +5127,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Šumajstr s kachním masem",
         "d": "Okurek · Čaj mátový, voda s citronem",
         "a": [],
@@ -5125,11 +5151,13 @@
       },
       {
         "c": "svacina",
+        "m": 1,
         "n": "Babiččiny slané rohlíčky",
-        "d": "Čaj mátový",
+        "d": "Kravík mléčný drink · Čaj mátový",
         "a": [
           1,
-          3
+          3,
+          7
         ],
         "p": [
           {
@@ -5138,6 +5166,13 @@
             "a": [
               1,
               3
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Kravík mléčný drink",
+            "a": [
+              7
             ]
           },
           {
@@ -5154,6 +5189,7 @@
     "chody": [
       {
         "c": "presnidavka",
+        "m": 1,
         "n": "Rohlík, pomazánka z ryb v tomatě",
         "d": "Čerstvé ovoce nebo zelenina · Mléko",
         "a": [
@@ -5196,6 +5232,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Tvarohové koláče",
         "d": "Čaj brusinkový, voda",
         "a": [
@@ -5222,6 +5259,7 @@
       },
       {
         "c": "svacina",
+        "m": 1,
         "n": "Jogurt",
         "d": "Čaj brusinkový",
         "a": [

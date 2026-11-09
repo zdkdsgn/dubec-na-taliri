@@ -3308,6 +3308,7 @@
     "chody": [
       {
         "c": "presnidavka",
+        "m": 1,
         "n": "Šunka, máslo, pečivo",
         "d": "Voda, Mléko · Zelenina",
         "a": [],
@@ -3331,6 +3332,7 @@
       },
       {
         "c": "svacina",
+        "m": 1,
         "n": "Ovesná kaše",
         "d": "Mléko, voda · Ovoce",
         "a": [],
@@ -3360,6 +3362,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Kapustový karbanátek, brambor, okurka",
         "d": "",
         "a": [],
@@ -3378,6 +3381,7 @@
     "chody": [
       {
         "c": "presnidavka",
+        "m": 1,
         "n": "Tavený sýr, pečivo",
         "d": "Mléko, voda · Zelenina",
         "a": [],
@@ -3401,6 +3405,7 @@
       },
       {
         "c": "svacina",
+        "m": 1,
         "n": "Jogur bílý, kukuřičný chlebíček",
         "d": "Mléko, voda · Ovoce",
         "a": [],
@@ -3430,6 +3435,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Maso dvou barev, rýže(vepřové, kuřecí, arašídy, zelí, čínská zel., pór, žamp.)",
         "d": "",
         "a": [],
@@ -3448,6 +3454,7 @@
     "chody": [
       {
         "c": "presnidavka",
+        "m": 1,
         "n": "Rybičková pomazánka, pečivo",
         "d": "Mléko, voda · Zelenina",
         "a": [],
@@ -3471,6 +3478,7 @@
       },
       {
         "c": "svacina",
+        "m": 1,
         "n": "Müsli pečené, mléko",
         "d": "Mléko, voda · Ovoce",
         "a": [],
@@ -3500,6 +3508,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Pečené kuřecí stehno, bramborová kaše, míchaný salát",
         "d": "",
         "a": [],
@@ -3518,6 +3527,7 @@
     "chody": [
       {
         "c": "presnidavka",
+        "m": 1,
         "n": "Pomazánka z červené čočky, pečivo",
         "d": "Mléko, voda · Zelenina",
         "a": [],
@@ -3541,6 +3551,7 @@
       },
       {
         "c": "svacina",
+        "m": 1,
         "n": "Sladký tvaroh – pribinák",
         "d": "Mléko, voda · Ovoce",
         "a": [],
@@ -3570,6 +3581,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Smažená treska se sýrem, brambor",
         "d": "",
         "a": [],
@@ -3588,6 +3600,7 @@
     "chody": [
       {
         "c": "presnidavka",
+        "m": 1,
         "n": "Vajíčko vařené, máslo, pečivo",
         "d": "Mléko, voda · Zelenina",
         "a": [],
@@ -3611,6 +3624,7 @@
       },
       {
         "c": "svacina",
+        "m": 1,
         "n": "Přesnídávka čerstvá, kukuřičný chlebíček",
         "d": "Mléko, voda · Ovoce",
         "a": [],
@@ -3640,6 +3654,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Moravský vrabec, domácí knedlík, kysané zelí",
         "d": "",
         "a": [],
@@ -3658,13 +3673,14 @@
     "chody": [
       {
         "c": "presnidavka",
-        "n": "Dopolední svačina",
+        "m": 1,
+        "n": "Sýr plátkový, máslo, pečivo",
         "d": "Voda, Mléko · Zelenina",
         "a": [],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Dopolední svačina",
+            "n": "Sýr plátkový, máslo, pečivo",
             "a": []
           },
           {
@@ -3681,13 +3697,14 @@
       },
       {
         "c": "svacina",
-        "n": "Odpolední svačina",
+        "m": 1,
+        "n": "Lučina, pečivo",
         "d": "Mléko, voda · Ovoce",
         "a": [],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Odpolední svačina",
+            "n": "Lučina, pečivo",
             "a": []
           },
           {
@@ -3703,14 +3720,21 @@
         ]
       },
       {
+        "c": "polevka",
+        "n": "Květáková",
+        "d": "",
+        "a": []
+      },
+      {
         "c": "obed",
-        "n": "Oběd Rubena",
+        "m": 1,
+        "n": "Vepř.kotleta ve smetanovo-houbové omáčce, těstoviny",
         "d": "",
         "a": [],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Oběd Rubena",
+            "n": "Vepř.kotleta ve smetanovo-houbové omáčce, těstoviny",
             "a": []
           }
         ]
@@ -3722,13 +3746,14 @@
     "chody": [
       {
         "c": "presnidavka",
-        "n": "Dopolední svačina",
+        "m": 1,
+        "n": "Pomazánka z pečené červené řepy a kešu oříšků, pečivo",
         "d": "Mléko, voda · Zelenina",
         "a": [],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Dopolední svačina",
+            "n": "Pomazánka z pečené červené řepy a kešu oříšků, pečivo",
             "a": []
           },
           {
@@ -3745,13 +3770,14 @@
       },
       {
         "c": "svacina",
-        "n": "Odpolední svačina",
+        "m": 1,
+        "n": "Jogur bílý, kukuřičný chlebíček",
         "d": "Mléko, voda · Ovoce",
         "a": [],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Odpolední svačina",
+            "n": "Jogur bílý, kukuřičný chlebíček",
             "a": []
           },
           {
@@ -3767,14 +3793,21 @@
         ]
       },
       {
+        "c": "polevka",
+        "n": "Hovězí vývar s tarhoňou",
+        "d": "",
+        "a": []
+      },
+      {
         "c": "obed",
-        "n": "Oběd Rubena",
+        "m": 1,
+        "n": "Dušená kýta, baby karotka, brambor",
         "d": "",
         "a": [],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Oběd Rubena",
+            "n": "Dušená kýta, baby karotka, brambor",
             "a": []
           }
         ]
@@ -3786,13 +3819,14 @@
     "chody": [
       {
         "c": "presnidavka",
-        "n": "Dopolední svačina",
+        "m": 1,
+        "n": "Makrelová pomazánka, pečivo",
         "d": "Mléko, voda · Zelenina",
         "a": [],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Dopolední svačina",
+            "n": "Makrelová pomazánka, pečivo",
             "a": []
           },
           {
@@ -3809,13 +3843,14 @@
       },
       {
         "c": "svacina",
-        "n": "Odpolední svačina",
+        "m": 1,
+        "n": "Paštika z Farmářky, pečivo",
         "d": "Mléko, voda · Ovoce",
         "a": [],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Odpolední svačina",
+            "n": "Paštika z Farmářky, pečivo",
             "a": []
           },
           {
@@ -3832,13 +3867,14 @@
       },
       {
         "c": "obed",
-        "n": "Oběd Rubena",
+        "m": 1,
+        "n": "Čína z kuřecího masa, rýže(arašídy, sójová, čínská zel., papriky, houby)",
         "d": "",
         "a": [],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Oběd Rubena",
+            "n": "Čína z kuřecího masa, rýže(arašídy, sójová, čínská zel., papriky, houby)",
             "a": []
           }
         ]
@@ -3850,13 +3886,14 @@
     "chody": [
       {
         "c": "presnidavka",
-        "n": "Dopolední svačina",
+        "m": 1,
+        "n": "Paštika z Farmářky, pečivo",
         "d": "Mléko, voda · Zelenina",
         "a": [],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Dopolední svačina",
+            "n": "Paštika z Farmářky, pečivo",
             "a": []
           },
           {
@@ -3873,13 +3910,14 @@
       },
       {
         "c": "svacina",
-        "n": "Odpolední svačina",
+        "m": 1,
+        "n": "Sladký tvaroh – čokoládový pribinák",
         "d": "Mléko, voda · Ovoce",
         "a": [],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Odpolední svačina",
+            "n": "Sladký tvaroh – čokoládový pribinák",
             "a": []
           },
           {
@@ -3895,14 +3933,21 @@
         ]
       },
       {
+        "c": "polevka",
+        "n": "Slepičí vývar s písmenky",
+        "d": "",
+        "a": []
+      },
+      {
         "c": "obed",
-        "n": "Oběd Rubena",
+        "m": 1,
+        "n": "Krkovička báby kořenářky, šťouchaný brambor",
         "d": "",
         "a": [],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Oběd Rubena",
+            "n": "Krkovička báby kořenářky, šťouchaný brambor",
             "a": []
           }
         ]
@@ -3914,13 +3959,14 @@
     "chody": [
       {
         "c": "presnidavka",
-        "n": "Dopolední svačina",
+        "m": 1,
+        "n": "Cizrnová pomazánka (humus), pečivo",
         "d": "Mléko, voda · Zelenina",
         "a": [],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Dopolední svačina",
+            "n": "Cizrnová pomazánka (humus), pečivo",
             "a": []
           },
           {
@@ -3937,13 +3983,14 @@
       },
       {
         "c": "svacina",
-        "n": "Odpolední svačina",
+        "m": 1,
+        "n": "Jogurt, pečené müsli",
         "d": "Mléko, voda · Ovoce",
         "a": [],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Odpolední svačina",
+            "n": "Jogurt, pečené müsli",
             "a": []
           },
           {
@@ -3959,14 +4006,21 @@
         ]
       },
       {
+        "c": "polevka",
+        "n": "Dršťková",
+        "d": "",
+        "a": []
+      },
+      {
         "c": "obed",
-        "n": "Oběd Rubena",
+        "m": 1,
+        "n": "Parmské špagety, sýr(vepřové, kuřecí játra, kečup, kapie)",
         "d": "",
         "a": [],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Oběd Rubena",
+            "n": "Parmské špagety, sýr(vepřové, kuřecí játra, kečup, kapie)",
             "a": []
           }
         ]
@@ -3978,6 +4032,7 @@
     "chody": [
       {
         "c": "presnidavka",
+        "m": 1,
         "n": "Dopolední svačina",
         "d": "Voda, Mléko · Zelenina",
         "a": [],
@@ -4001,6 +4056,7 @@
       },
       {
         "c": "svacina",
+        "m": 1,
         "n": "Odpolední svačina",
         "d": "Mléko, voda · Ovoce",
         "a": [],
@@ -4024,6 +4080,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Oběd Rubena",
         "d": "",
         "a": [],
@@ -4042,6 +4099,7 @@
     "chody": [
       {
         "c": "presnidavka",
+        "m": 1,
         "n": "Dopolední svačina",
         "d": "Mléko, voda · Zelenina",
         "a": [],
@@ -4065,6 +4123,7 @@
       },
       {
         "c": "svacina",
+        "m": 1,
         "n": "Odpolední svačina",
         "d": "Mléko, voda · Ovoce",
         "a": [],
@@ -4088,6 +4147,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Oběd Rubena",
         "d": "",
         "a": [],
@@ -4106,6 +4166,7 @@
     "chody": [
       {
         "c": "presnidavka",
+        "m": 1,
         "n": "Dopolední svačina",
         "d": "Mléko, voda · Zelenina",
         "a": [],
@@ -4129,6 +4190,7 @@
       },
       {
         "c": "svacina",
+        "m": 1,
         "n": "Odpolední svačina",
         "d": "Mléko, voda · Ovoce",
         "a": [],
@@ -4151,14 +4213,21 @@
         ]
       },
       {
+        "c": "polevka",
+        "n": "Bramboračka",
+        "d": "",
+        "a": []
+      },
+      {
         "c": "obed",
-        "n": "Oběd Rubena",
+        "m": 1,
+        "n": "Kuřecí nudličky po Indicku, těstoviny(pór, smetana, kari, jablka)",
         "d": "",
         "a": [],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Oběd Rubena",
+            "n": "Kuřecí nudličky po Indicku, těstoviny(pór, smetana, kari, jablka)",
             "a": []
           }
         ]
@@ -4170,6 +4239,7 @@
     "chody": [
       {
         "c": "presnidavka",
+        "m": 1,
         "n": "Dopolední svačina",
         "d": "Mléko, voda · Zelenina",
         "a": [],
@@ -4193,6 +4263,7 @@
       },
       {
         "c": "svacina",
+        "m": 1,
         "n": "Odpolední svačina",
         "d": "Mléko, voda · Ovoce",
         "a": [],
@@ -4215,14 +4286,21 @@
         ]
       },
       {
+        "c": "polevka",
+        "n": "Hovězí vývar s játrovou rýží a nudlemi",
+        "d": "",
+        "a": []
+      },
+      {
         "c": "obed",
-        "n": "Oběd Rubena",
+        "m": 1,
+        "n": "Smažený květák, brambor, tatarská omáčka",
         "d": "",
         "a": [],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Oběd Rubena",
+            "n": "Smažený květák, brambor, tatarská omáčka",
             "a": []
           }
         ]
@@ -4234,6 +4312,7 @@
     "chody": [
       {
         "c": "presnidavka",
+        "m": 1,
         "n": "Dopolední svačina",
         "d": "Mléko, voda · Zelenina",
         "a": [],
@@ -4257,6 +4336,7 @@
       },
       {
         "c": "svacina",
+        "m": 1,
         "n": "Odpolední svačina",
         "d": "Mléko, voda · Ovoce",
         "a": [],
@@ -4279,14 +4359,21 @@
         ]
       },
       {
+        "c": "polevka",
+        "n": "Gulášová",
+        "d": "",
+        "a": []
+      },
+      {
         "c": "obed",
-        "n": "Oběd Rubena",
+        "m": 1,
+        "n": "Maso tří barev, rýže(vepřové, kuřecí, játra, arašídy, zelí, čínská zel., žamp., pór)",
         "d": "",
         "a": [],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Oběd Rubena",
+            "n": "Maso tří barev, rýže(vepřové, kuřecí, játra, arašídy, zelí, čínská zel., žamp., pór)",
             "a": []
           }
         ]
@@ -4298,6 +4385,7 @@
     "chody": [
       {
         "c": "presnidavka",
+        "m": 1,
         "n": "Dopolední svačina",
         "d": "Voda, Mléko · Zelenina",
         "a": [],
@@ -4321,6 +4409,7 @@
       },
       {
         "c": "svacina",
+        "m": 1,
         "n": "Odpolední svačina",
         "d": "Mléko, voda · Ovoce",
         "a": [],
@@ -4344,6 +4433,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Oběd Rubena",
         "d": "",
         "a": [],
@@ -4362,6 +4452,7 @@
     "chody": [
       {
         "c": "presnidavka",
+        "m": 1,
         "n": "Dopolední svačina",
         "d": "Mléko, voda · Zelenina",
         "a": [],
@@ -4385,6 +4476,7 @@
       },
       {
         "c": "svacina",
+        "m": 1,
         "n": "Odpolední svačina",
         "d": "Mléko, voda · Ovoce",
         "a": [],
@@ -4408,6 +4500,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Oběd Rubena",
         "d": "",
         "a": [],
@@ -4426,6 +4519,7 @@
     "chody": [
       {
         "c": "presnidavka",
+        "m": 1,
         "n": "Dopolední svačina",
         "d": "Mléko, voda · Zelenina",
         "a": [],
@@ -4449,6 +4543,7 @@
       },
       {
         "c": "svacina",
+        "m": 1,
         "n": "Odpolední svačina",
         "d": "Mléko, voda · Ovoce",
         "a": [],
@@ -4472,6 +4567,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Oběd Rubena",
         "d": "",
         "a": [],
@@ -4490,6 +4586,7 @@
     "chody": [
       {
         "c": "presnidavka",
+        "m": 1,
         "n": "Dopolední svačina",
         "d": "Mléko, voda · Zelenina",
         "a": [],
@@ -4513,6 +4610,7 @@
       },
       {
         "c": "svacina",
+        "m": 1,
         "n": "Odpolední svačina",
         "d": "Mléko, voda · Ovoce",
         "a": [],
@@ -4536,6 +4634,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Oběd Rubena",
         "d": "",
         "a": [],
@@ -4554,6 +4653,7 @@
     "chody": [
       {
         "c": "presnidavka",
+        "m": 1,
         "n": "Dopolední svačina",
         "d": "Mléko, voda · Zelenina",
         "a": [],
@@ -4577,6 +4677,7 @@
       },
       {
         "c": "svacina",
+        "m": 1,
         "n": "Odpolední svačina",
         "d": "Mléko, voda · Ovoce",
         "a": [],
@@ -4600,6 +4701,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Oběd Rubena",
         "d": "",
         "a": [],
@@ -4618,6 +4720,7 @@
     "chody": [
       {
         "c": "presnidavka",
+        "m": 1,
         "n": "Dopolední svačina",
         "d": "Voda, Mléko · Zelenina",
         "a": [],
@@ -4641,6 +4744,7 @@
       },
       {
         "c": "svacina",
+        "m": 1,
         "n": "Odpolední svačina",
         "d": "Mléko, voda · Ovoce",
         "a": [],
@@ -4664,6 +4768,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Oběd Rubena",
         "d": "",
         "a": [],
@@ -4682,6 +4787,7 @@
     "chody": [
       {
         "c": "presnidavka",
+        "m": 1,
         "n": "Dopolední svačina",
         "d": "Mléko, voda · Zelenina",
         "a": [],
@@ -4705,6 +4811,7 @@
       },
       {
         "c": "svacina",
+        "m": 1,
         "n": "Odpolední svačina",
         "d": "Mléko, voda · Ovoce",
         "a": [],
@@ -4728,6 +4835,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Oběd Rubena",
         "d": "",
         "a": [],
@@ -4746,6 +4854,7 @@
     "chody": [
       {
         "c": "presnidavka",
+        "m": 1,
         "n": "Dopolední svačina",
         "d": "Mléko, voda · Zelenina",
         "a": [],
@@ -4769,6 +4878,7 @@
       },
       {
         "c": "svacina",
+        "m": 1,
         "n": "Odpolední svačina",
         "d": "Mléko, voda · Ovoce",
         "a": [],
@@ -4792,6 +4902,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Oběd Rubena",
         "d": "",
         "a": [],
@@ -4810,6 +4921,7 @@
     "chody": [
       {
         "c": "presnidavka",
+        "m": 1,
         "n": "Dopolední svačina",
         "d": "Mléko, voda · Zelenina",
         "a": [],
@@ -4833,6 +4945,7 @@
       },
       {
         "c": "svacina",
+        "m": 1,
         "n": "Odpolední svačina",
         "d": "Mléko, voda · Ovoce",
         "a": [],
@@ -4856,6 +4969,7 @@
       },
       {
         "c": "obed",
+        "m": 1,
         "n": "Oběd Rubena",
         "d": "",
         "a": [],
@@ -4874,6 +4988,7 @@
     "chody": [
       {
         "c": "presnidavka",
+        "m": 1,
         "n": "Dopolední svačina",
         "d": "Mléko, voda · Zelenina",
         "a": [],
@@ -4897,6 +5012,7 @@
       },
       {
         "c": "svacina",
+        "m": 1,
         "n": "Odpolední svačina",
         "d": "Mléko, voda · Ovoce",
         "a": [],
@@ -4920,6 +5036,342 @@
       },
       {
         "c": "obed",
+        "m": 1,
+        "n": "Oběd Rubena",
+        "d": "",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Oběd Rubena",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-12-07": {
+    "vydej": "12:00–13:00",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "m": 1,
+        "n": "Dopolední svačina",
+        "d": "Voda, Mléko · Zelenina",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Dopolední svačina",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Voda, Mléko",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zelenina",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "m": 1,
+        "n": "Odpolední svačina",
+        "d": "Mléko, voda · Ovoce",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Odpolední svačina",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko, voda",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Oběd Rubena",
+        "d": "",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Oběd Rubena",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-12-08": {
+    "vydej": "12:00–13:00",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "m": 1,
+        "n": "Dopolední svačina",
+        "d": "Mléko, voda · Zelenina",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Dopolední svačina",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko, voda",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zelenina",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "m": 1,
+        "n": "Odpolední svačina",
+        "d": "Mléko, voda · Ovoce",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Odpolední svačina",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko, voda",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Oběd Rubena",
+        "d": "",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Oběd Rubena",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-12-09": {
+    "vydej": "12:00–13:00",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "m": 1,
+        "n": "Dopolední svačina",
+        "d": "Mléko, voda · Zelenina",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Dopolední svačina",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko, voda",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zelenina",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "m": 1,
+        "n": "Odpolední svačina",
+        "d": "Mléko, voda · Ovoce",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Odpolední svačina",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko, voda",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Oběd Rubena",
+        "d": "",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Oběd Rubena",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-12-10": {
+    "vydej": "12:00–13:00",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "m": 1,
+        "n": "Dopolední svačina",
+        "d": "Mléko, voda · Zelenina",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Dopolední svačina",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko, voda",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zelenina",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "m": 1,
+        "n": "Odpolední svačina",
+        "d": "Mléko, voda · Ovoce",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Odpolední svačina",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko, voda",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Oběd Rubena",
+        "d": "",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Oběd Rubena",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-12-11": {
+    "vydej": "12:00–13:00",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "m": 1,
+        "n": "Dopolední svačina",
+        "d": "Mléko, voda · Zelenina",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Dopolední svačina",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko, voda",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zelenina",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "m": 1,
+        "n": "Odpolední svačina",
+        "d": "Mléko, voda · Ovoce",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Odpolední svačina",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko, voda",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "obed",
+        "m": 1,
         "n": "Oběd Rubena",
         "d": "",
         "a": [],
