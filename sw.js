@@ -1,10 +1,10 @@
 /* Network-first pro vlastní soubory: online rodič vidí vždy čerstvý
    jídelníček, offline se servíruje poslední uložená verze. */
-const CACHE = "dubec-na-taliri-v4";
+const CACHE = "dubec-na-taliri-v5";
 const ASSETS = [
   "./", "./index.html", "./styles.css", "./app.js", "./data.js",
   "./manifest.webmanifest", "./assets/icon.png",
-  "./assets/icon-180.png", "./assets/icon-192.png", "./assets/icon-512.png"
+  "./assets/icon-180.png", "./assets/icon-192.png", "./assets/icon-512.png", "./assets/badge-96.png"
 ];
 
 self.addEventListener("install", e => {
@@ -26,8 +26,8 @@ self.addEventListener("push", e => {
   try { if (e.data) data = { ...data, ...e.data.json() }; } catch {}
   e.waitUntil(self.registration.showNotification(data.title, {
     body: data.body,
-    icon: "./assets/icon-192.png",
-    badge: "./assets/icon-192.png",
+    icon: "./assets/icon-192.png?v=5",      // ?v: vynutí novou (zelenou) ikonu místo staré z cache
+    badge: "./assets/badge-96.png?v=5",     // malá stavová ikona musí být jednobarevná
     /* Tag podle školy (ne napevno) – jinak by si notifikace pro různé
        školy tiše přepisovaly jedna druhou. renotify ať i tak vždy
        upozorní, kdyby náhodou stejná škola dostala dvě zprávy rychle
