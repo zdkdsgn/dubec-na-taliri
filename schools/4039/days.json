@@ -1042,7 +1042,7 @@
         "c": "obed",
         "m": 1,
         "n": "Segedínksý guláš",
-        "d": "Kynutý knedlík · Mix – zeleninová miska · Ovoce dle nabídky · Čaj, čirá voda, ochucené nápoje, mléčné nápoje",
+        "d": "Kynutý knedlík · Tvarohový dezert s ovocem · Ovoce dle nabídky · Čaj, čirá voda, ochucené nápoje, mléčné nápoje",
         "a": [
           1,
           3,
@@ -1065,8 +1065,11 @@
           },
           {
             "l": "Příloha2",
-            "n": "Mix – zeleninová miska",
-            "a": []
+            "n": "Tvarohový dezert s ovocem",
+            "a": [
+              1,
+              7
+            ]
           },
           {
             "l": "Doplněk",
@@ -1429,16 +1432,13 @@
         "c": "polevka",
         "n": "Bramborová klasika",
         "d": "",
-        "a": [
-          1,
-          9
-        ]
+        "a": []
       },
       {
         "c": "obed",
         "m": 1,
         "n": "Vařené hovězí, koprová omáčka",
-        "d": "Kynutý knedlík · Zakysaná smetana s ovocem · Ovoce dle nabídky · Čaj, čirá voda, ochucené nápoje, mléčné nápoje",
+        "d": "Kynutý knedlík · Zakysaná smetana s černou guinoou · Ovoce dle nabídky · Čaj, čirá voda, ochucené nápoje, mléčné nápoje",
         "a": [
           1,
           3,
@@ -1461,7 +1461,7 @@
           },
           {
             "l": "Příloha2",
-            "n": "Zakysaná smetana s ovocem",
+            "n": "Zakysaná smetana s černou guinoou",
             "a": [
               1,
               7
@@ -1485,7 +1485,7 @@
         "c": "obed2",
         "m": 1,
         "n": "Vařené hovězí, koprová omáčka (BZL mouka)",
-        "d": "Kynuté knedlíky (BZL) · Zakysaná smetana s ovocem · Ovoce dle nabídky · Čaj, čirá voda, ochucené nápoje, mléčné nápoje",
+        "d": "Kynuté knedlíky (BZL) · Zakysaná smetana s černou guinoou · Ovoce dle nabídky · Čaj, čirá voda, ochucené nápoje, mléčné nápoje",
         "a": [
           1,
           3,
@@ -1506,7 +1506,7 @@
           },
           {
             "l": "Příloha2",
-            "n": "Zakysaná smetana s ovocem",
+            "n": "Zakysaná smetana s černou guinoou",
             "a": [
               1,
               7
@@ -1713,10 +1713,9 @@
       },
       {
         "c": "polevka",
-        "n": "Drůbeží s masem a těstovinou (BZL)",
+        "n": "Hovězí vývar s masem a kapáním",
         "d": "",
         "a": [
-          1,
           3,
           9
         ]
@@ -1794,11 +1793,10 @@
       },
       {
         "c": "polevka",
-        "n": "Zeleninová",
+        "n": "Gulášová polévka",
         "d": "",
         "a": [
-          1,
-          9
+          1
         ]
       },
       {
@@ -1852,10 +1850,10 @@
     ]
   },
   "2026-12-01": {
-    "vydej": "9:00–10:00",
+    "vydej": "11:30–14:00",
     "chody": [
       {
-        "c": "obed",
+        "c": "svacina",
         "m": 1,
         "n": "1x chléb se suchým salámem, 1x džusík",
         "d": "",
@@ -1873,12 +1871,90 @@
             ]
           }
         ]
+      },
+      {
+        "c": "polevka",
+        "n": "Zeleninová s cizrnovými těstovinami",
+        "d": "",
+        "a": [
+          1,
+          3,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Pečená kachní prsa",
+        "d": "Kedlubnové zelí · Kynutý knedlík · Mix – zeleninová miska · Čaj, čirá voda, ochucené nápoje, mléčné nápoje",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Pečená kachní prsa",
+            "a": []
+          },
+          {
+            "l": "Příloha1",
+            "n": "Kedlubnové zelí",
+            "a": []
+          },
+          {
+            "l": "Příloha2",
+            "n": "Kynutý knedlík",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Mix – zeleninová miska",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj, čirá voda, ochucené nápoje, mléčné nápoje",
+            "a": [
+              7
+            ]
+          }
+        ]
       }
     ]
   },
   "2026-12-02": {
     "vydej": "11:30–14:00",
     "chody": [
+      {
+        "c": "svacina",
+        "m": 1,
+        "n": "2 x celozrnný rohlík s vajíčkovou pomazánkou",
+        "d": "",
+        "a": [
+          1,
+          3,
+          7,
+          10
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "2 x celozrnný rohlík s vajíčkovou pomazánkou",
+            "a": [
+              1,
+              3,
+              7,
+              10
+            ]
+          }
+        ]
+      },
       {
         "c": "polevka",
         "n": "Hovězí vývar s hráškem a rýží",
@@ -1889,7 +1965,7 @@
         "c": "obed",
         "m": 1,
         "n": "Květákový mozeček",
-        "d": "Brambory vařené · Ovocný kompot · Ovoce dle nabídky · Čaj, čirá voda, ochucené nápoje, mléčné nápoje",
+        "d": "Brambory vařené · Zeleninový salát · Ovoce dle nabídky · Čaj, čirá voda, ochucené nápoje, mléčné nápoje",
         "a": [
           7
         ],
@@ -1908,7 +1984,7 @@
           },
           {
             "l": "Příloha2",
-            "n": "Ovocný kompot",
+            "n": "Zeleninový salát",
             "a": []
           },
           {
@@ -1931,19 +2007,10 @@
     "vydej": "11:30–14:00",
     "chody": [
       {
-        "c": "polevka",
-        "n": "Zeleninová s vejcem",
-        "d": "",
-        "a": [
-          3,
-          9
-        ]
-      },
-      {
-        "c": "obed",
+        "c": "svacina",
         "m": 1,
-        "n": "Vepřové na paprice (BZL mouka)",
-        "d": "Vařené těstoviny (BZL) · Přesnídávka · Ovoce dle nabídky · Čaj, čirá voda, ochucené nápoje, mléčné nápoje",
+        "n": "2x houska s mozzarellou",
+        "d": "",
         "a": [
           1,
           7
@@ -1951,20 +2018,41 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Vepřové na paprice (BZL mouka)",
+            "n": "2x houska s mozzarellou",
+            "a": [
+              1,
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Kuřecí vývar s bulgurem",
+        "d": "",
+        "a": []
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Škubánky s tvarohem, máslem a cukrem",
+        "d": "Mix – ovocná miska · Ovoce dle nabídky · Čaj, čirá voda, ochucené nápoje, mléčné nápoje",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Škubánky s tvarohem, máslem a cukrem",
             "a": [
               1,
               7
             ]
           },
           {
-            "l": "Příloha1",
-            "n": "Vařené těstoviny (BZL)",
-            "a": []
-          },
-          {
             "l": "Příloha2",
-            "n": "Přesnídávka",
+            "n": "Mix – ovocná miska",
             "a": []
           },
           {
@@ -1987,30 +2075,572 @@
     "vydej": "11:30–14:00",
     "chody": [
       {
-        "c": "polevka",
-        "n": "Kuřecí vývar s masem a BZL těstovinou",
+        "c": "svacina",
+        "m": 1,
+        "n": "2x plněný toastový chléb (salám, sýr, kečup)",
         "d": "",
         "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "2x plněný toastový chléb (salám, sýr, kečup)",
+            "a": [
+              1,
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Kuřecí vývar s bulgurem",
+        "d": "",
+        "a": [
+          1,
           9
         ]
       },
       {
         "c": "obed",
         "m": 1,
-        "n": "Palačinky (BZL) s jahodovým rozvarem",
-        "d": "Mix – zeleninová miska · Ovoce dle nabídky · Čaj, čirá voda, ochucené nápoje, mléčné nápoje",
+        "n": "Vepřové na paprice",
+        "d": "Vařené těstoviny · Mikulášské překvapení · Ovoce dle nabídky · Čaj, čirá voda, ochucené nápoje, mléčné nápoje",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Vepřové na paprice",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Příloha1",
+            "n": "Vařené těstoviny",
+            "a": [
+              1,
+              3
+            ]
+          },
+          {
+            "l": "Příloha2",
+            "n": "Mikulášské překvapení",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce dle nabídky",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj, čirá voda, ochucené nápoje, mléčné nápoje",
+            "a": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-12-07": {
+    "vydej": "11:30–14:00",
+    "chody": [
+      {
+        "c": "svacina",
+        "m": 1,
+        "n": "2x houska se sýrovou pomazánkou",
+        "d": "",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "2x houska se sýrovou pomazánkou",
+            "a": [
+              1,
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Italská čočková",
+        "d": "",
+        "a": []
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Vepřová pečeně",
+        "d": "Dušený špenát · Bramborové knedlíky · Pudink s ovocem nebo piškotami · Čaj, čirá voda, ochucené nápoje, mléčné nápoje",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Vepřová pečeně",
+            "a": []
+          },
+          {
+            "l": "Příloha1",
+            "n": "Dušený špenát",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Příloha2",
+            "n": "Bramborové knedlíky",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Pudink s ovocem nebo piškotami",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj, čirá voda, ochucené nápoje, mléčné nápoje",
+            "a": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-12-08": {
+    "vydej": "11:30–14:00",
+    "chody": [
+      {
+        "c": "svacina",
+        "m": 1,
+        "n": "1x toastový chléb s pažitkovým máslem, 1x mléko 0, 25l",
+        "d": "",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "1x toastový chléb s pažitkovým máslem, 1x mléko 0, 25l",
+            "a": [
+              1,
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Hráškový krém",
+        "d": "",
+        "a": [
+          1,
+          7,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Bavorská sekaná",
+        "d": "Bramborová kaše · Zakysaná smetana s ovocem · Ovoce dle nabídky · Čaj, čirá voda, ochucené nápoje, mléčné nápoje",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Bavorská sekaná",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Příloha1",
+            "n": "Bramborová kaše",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Příloha2",
+            "n": "Zakysaná smetana s ovocem",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce dle nabídky",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj, čirá voda, ochucené nápoje, mléčné nápoje",
+            "a": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-12-09": {
+    "vydej": "11:30–14:00",
+    "chody": [
+      {
+        "c": "svacina",
+        "m": 1,
+        "n": "2x houska s rybí pomazánkou",
+        "d": "",
+        "a": [
+          1,
+          4,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "2x houska s rybí pomazánkou",
+            "a": [
+              1,
+              4,
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Frankfurtská",
+        "d": "",
+        "a": [
+          1,
+          6,
+          7
+        ]
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Čočka na kyselo, smažená cibulka",
+        "d": "Vařené vejce · Kyselá okurka · Domácí moučník se žmolenkou · Čaj, čirá voda, ochucené nápoje, mléčné nápoje",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Čočka na kyselo, smažená cibulka",
+            "a": []
+          },
+          {
+            "l": "Příloha1",
+            "n": "Vařené vejce",
+            "a": []
+          },
+          {
+            "l": "Příloha2",
+            "n": "Kyselá okurka",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Domácí moučník se žmolenkou",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj, čirá voda, ochucené nápoje, mléčné nápoje",
+            "a": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-12-10": {
+    "vydej": "11:30–14:00",
+    "chody": [
+      {
+        "c": "svacina",
+        "m": 1,
+        "n": "1x Hot-dog (drůbeží párek)",
+        "d": "",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "1x Hot-dog (drůbeží párek)",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Zeleninová s tmavou treskou",
+        "d": "",
+        "a": [
+          4,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Hovězí pečeně na slanině",
+        "d": "Vařené těstoviny · Vanilkový tvaroh · Ovoce dle nabídky · Čaj, čirá voda, ochucené nápoje, mléčné nápoje",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Hovězí pečeně na slanině",
+            "a": []
+          },
+          {
+            "l": "Příloha1",
+            "n": "Vařené těstoviny",
+            "a": [
+              1,
+              3
+            ]
+          },
+          {
+            "l": "Příloha2",
+            "n": "Vanilkový tvaroh",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce dle nabídky",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj, čirá voda, ochucené nápoje, mléčné nápoje",
+            "a": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-12-11": {
+    "vydej": "11:30–14:00",
+    "chody": [
+      {
+        "c": "svacina",
+        "m": 1,
+        "n": "Sladké pečivo",
+        "d": "",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Sladké pečivo",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Bramborová klasika",
+        "d": "",
+        "a": [
+          1,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Kuřecí rizoto, strouhaný sýr",
+        "d": "Zeleninový salát · Ovoce dle nabídky · Čaj, čirá voda, ochucené nápoje, mléčné nápoje",
+        "a": [
+          7,
+          9
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Kuřecí rizoto, strouhaný sýr",
+            "a": [
+              7,
+              9
+            ]
+          },
+          {
+            "l": "Příloha1",
+            "n": "Zeleninový salát",
+            "a": []
+          },
+          {
+            "l": "Příloha2",
+            "n": "Ovoce dle nabídky",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj, čirá voda, ochucené nápoje, mléčné nápoje",
+            "a": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-12-14": {
+    "vydej": "11:30–14:00",
+    "chody": [
+      {
+        "c": "svacina",
+        "m": 1,
+        "n": "2 x celozrnný rohlík s měkkým salámem",
+        "d": "",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "2 x celozrnný rohlík s měkkým salámem",
+            "a": [
+              1,
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Z vaječné jíšky",
+        "d": "",
+        "a": [
+          1,
+          3,
+          7,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Slovenské halušky se slaninou",
+        "d": "Dušené bílé zelí · Krupicová kaše s kakaem · Ovoce dle nabídky · Čaj, čirá voda, ochucené nápoje, mléčné nápoje",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Slovenské halušky se slaninou",
+            "a": []
+          },
+          {
+            "l": "Příloha1",
+            "n": "Dušené bílé zelí",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Příloha2",
+            "n": "Krupicová kaše s kakaem",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce dle nabídky",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj, čirá voda, ochucené nápoje, mléčné nápoje",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "m": 1,
+        "n": "Slovenské halušky se slaninou (BZL těsto)",
+        "d": "Dušené bílé zelí (BZL) · Rýžová kaše s kakaem · Ovoce dle nabídky · Čaj, čirá voda, ochucené nápoje, mléčné nápoje",
         "a": [
           7
         ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Palačinky (BZL) s jahodovým rozvarem",
+            "n": "Slovenské halušky se slaninou (BZL těsto)",
+            "a": []
+          },
+          {
+            "l": "Příloha1",
+            "n": "Dušené bílé zelí (BZL)",
             "a": []
           },
           {
             "l": "Příloha2",
-            "n": "Mix – zeleninová miska",
+            "n": "Rýžová kaše s kakaem",
             "a": []
           },
           {

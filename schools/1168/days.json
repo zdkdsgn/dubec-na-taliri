@@ -3988,16 +3988,17 @@
       {
         "c": "obed",
         "m": 1,
-        "n": "Koprová omáčka, plátek masa",
-        "d": "Brambor · Zeleninový bar · Čaj, ovocný nápoj",
+        "n": "Koprová omáčka",
+        "d": "Brambor, vejce · Zeleninový bar · Čaj, ovocný nápoj",
         "a": [
           1,
+          3,
           7
         ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Koprová omáčka, plátek masa",
+            "n": "Koprová omáčka",
             "a": [
               1,
               7
@@ -4005,8 +4006,10 @@
           },
           {
             "l": "Příloha",
-            "n": "Brambor",
-            "a": []
+            "n": "Brambor, vejce",
+            "a": [
+              3
+            ]
           },
           {
             "l": "Doplněk",
@@ -4123,13 +4126,34 @@
     "vydej": "11:30–13:40",
     "chody": [
       {
+        "c": "presnidavka",
+        "m": 1,
+        "n": "Chléb, vaječná pomazánka s pažitkou, okurková kolečka, mléko",
+        "d": "",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Chléb, vaječná pomazánka s pažitkou, okurková kolečka, mléko",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          }
+        ]
+      },
+      {
         "c": "obed",
         "m": 1,
         "n": "Čočka na kyselo",
-        "d": "Chléb, vejce",
+        "d": "Chléb, párek · Kompot",
         "a": [
-          1,
-          3
+          1
         ],
         "p": [
           {
@@ -4141,10 +4165,32 @@
           },
           {
             "l": "Příloha",
-            "n": "Chléb, vejce",
+            "n": "Chléb, párek",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Kompot",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "m": 1,
+        "n": "Dalamánek, pomazánkové máslo, ovoce, čaj",
+        "d": "",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Dalamánek, pomazánkové máslo, ovoce, čaj",
             "a": [
               1,
-              3
+              7
             ]
           }
         ]
@@ -4174,10 +4220,28 @@
     "vydej": "11:30–13:40",
     "chody": [
       {
+        "c": "presnidavka",
+        "m": 1,
+        "n": "Pečivo, pomazánka z luštěniny, ovoce, nápoj mléčný",
+        "d": "",
+        "a": [
+          1
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Pečivo, pomazánka z luštěniny, ovoce, nápoj mléčný",
+            "a": [
+              1
+            ]
+          }
+        ]
+      },
+      {
         "c": "obed",
         "m": 1,
         "n": "Těstovinový salát se zeleninou a rybím masem",
-        "d": "",
+        "d": "Hruška / jablko",
         "a": [
           1,
           7
@@ -4186,6 +4250,31 @@
           {
             "l": "Jídlo",
             "n": "Těstovinový salát se zeleninou a rybím masem",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Hruška / jablko",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "m": 1,
+        "n": "Bageta pomazánka budapešťská, zelenina, čaj",
+        "d": "",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Bageta pomazánka budapešťská, zelenina, čaj",
             "a": [
               1,
               7
@@ -4199,10 +4288,32 @@
     "vydej": "11:30–13:40",
     "chody": [
       {
+        "c": "presnidavka",
+        "m": 1,
+        "n": "Houska, pomazánka celerová s lučinou, okurek, mléko",
+        "d": "",
+        "a": [
+          1,
+          7,
+          9
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Houska, pomazánka celerová s lučinou, okurek, mléko",
+            "a": [
+              1,
+              7,
+              9
+            ]
+          }
+        ]
+      },
+      {
         "c": "obed",
         "m": 1,
         "n": "Krůtí na leču",
-        "d": "Brambor",
+        "d": "Brambor · Hruška",
         "a": [
           9
         ],
@@ -4218,6 +4329,25 @@
             "l": "Příloha",
             "n": "Brambor",
             "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Hruška",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "m": 1,
+        "n": "Bageta se smetanovým sýrem, ovoce, čaj, mléko",
+        "d": "",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Bageta se smetanovým sýrem, ovoce, čaj, mléko",
+            "a": []
           }
         ]
       }
@@ -4226,6 +4356,24 @@
   "2026-11-20": {
     "vydej": "11:30–13:40",
     "chody": [
+      {
+        "c": "presnidavka",
+        "m": 1,
+        "n": "Jogurtový mls, ovoce, cereální vločky, mléko",
+        "d": "",
+        "a": [
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Jogurtový mls, ovoce, cereální vločky, mléko",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
       {
         "c": "obed",
         "m": 1,
@@ -4250,6 +4398,26 @@
             "l": "Příloha",
             "n": "Dušená rýže",
             "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "m": 1,
+        "n": "Pečivo, pomazánka zeleninová s lučinou, jablko, nápoj",
+        "d": "",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Pečivo, pomazánka zeleninová s lučinou, jablko, nápoj",
+            "a": [
+              1,
+              7
+            ]
           }
         ]
       }

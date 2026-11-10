@@ -4474,7 +4474,7 @@
     "chody": [
       {
         "c": "polevka",
-        "n": "Brokolicová",
+        "n": "Brokolicová s bezlepkovými kuličkami",
         "d": "",
         "a": [
           1,
@@ -6001,6 +6001,79 @@
             "l": "Nápoj",
             "n": "Neslazený ovocný čaj, voda, ochucené mléko",
             "a": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-12-14": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Hrstková",
+        "d": "",
+        "a": [
+          1,
+          7,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Škubánky s mákem a cukrem",
+        "d": "100% mošt, voda, bílá káva",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Škubánky s mákem a cukrem",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "100% mošt, voda, bílá káva",
+            "a": [
+              1,
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "m": 2,
+        "n": "Mac and Cheese (zapečené těstoviny se sýrovou omáčkou a slaninou) (USA)",
+        "d": "100% mošt, voda, bílá káva",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Mac and Cheese (zapečené těstoviny se sýrovou omáčkou a slaninou) (USA)",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "100% mošt, voda, bílá káva",
+            "a": [
+              1,
               7
             ]
           }

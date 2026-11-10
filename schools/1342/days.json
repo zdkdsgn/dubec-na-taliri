@@ -5288,7 +5288,7 @@
         "c": "obed",
         "m": 1,
         "n": "Losos pečený na bylinkách",
-        "d": "Brambory s petrželkou · Čaj",
+        "d": "Brambory s petrželkou · Ovocná kapsička – zš · Čaj",
         "a": [
           4,
           7
@@ -5305,6 +5305,11 @@
           {
             "l": "Příloha",
             "n": "Brambory s petrželkou",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovocná kapsička – zš",
             "a": []
           },
           {
@@ -5872,7 +5877,7 @@
       {
         "c": "obed",
         "m": 1,
-        "n": "Krůtí maso s hermelínem",
+        "n": "Krůtí plátek se sýrem",
         "d": "Brambory se smaženou cibulkou a máslem · Kompot · Voda se skořicí",
         "a": [
           7,
@@ -5881,7 +5886,7 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Krůtí maso s hermelínem",
+            "n": "Krůtí plátek se sýrem",
             "a": [
               7,
               10
@@ -6731,7 +6736,7 @@
       },
       {
         "c": "polevka",
-        "n": "Hovězí vývar s játrovými knedlíčky a těstovinou",
+        "n": "Hovězí vývar s těstovinou",
         "d": "",
         "a": [
           1,
@@ -8096,6 +8101,121 @@
           {
             "l": "Nápoj",
             "n": "Šťáva",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-12-14": {
+    "vydej": "11:40–13:30",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "m": 1,
+        "n": "Pohanková kaše",
+        "d": "Banán · Voda s mátou a pomerančem",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Pohanková kaše",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Banán",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Voda s mátou a pomerančem",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Bramboračka s lesními houbami a kořenovou zeleninou",
+        "d": "",
+        "a": [
+          1,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Vepřové výpečky, dušený špenát",
+        "d": "Bramborový knedlík · Voda s mátou a pomerančem",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Vepřové výpečky, dušený špenát",
+            "a": []
+          },
+          {
+            "l": "Příloha",
+            "n": "Bramborový knedlík",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Voda s mátou a pomerančem",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "m": 1,
+        "n": "Chléb",
+        "d": "Sýrová pomazánka · Kápie · Voda s mátou a pomerančem",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Chléb",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Sýrová pomazánka",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Kápie",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Voda s mátou a pomerančem",
             "a": []
           }
         ]

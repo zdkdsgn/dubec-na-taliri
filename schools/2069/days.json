@@ -1158,6 +1158,64 @@
     "chody": [
       {
         "c": "polevka",
+        "n": "Brokolicový krém",
+        "d": "",
+        "a": [
+          1,
+          3,
+          7,
+          9,
+          10
+        ]
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Bretaňské fazole",
+        "d": "Čaj ovocný, Voda",
+        "a": [
+          1
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Bretaňské fazole",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj ovocný, Voda",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "m": 2,
+        "n": "Rýžová kaše s ovocem (hruška)",
+        "d": "Čaj ovocný, Voda",
+        "a": [
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Rýžová kaše s ovocem (hruška)",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj ovocný, Voda",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "polevka",
         "n": "Polévka z ovesných vloček s bylinkami [1, 1a, 1b, 1c, 1d, 1e, 3, 7, 9, 10]",
         "d": "",
         "a": []
@@ -1181,6 +1239,66 @@
   "2026-11-24": {
     "vydej": "12:30–13:00",
     "chody": [
+      {
+        "c": "polevka",
+        "n": "Čočková",
+        "d": "",
+        "a": []
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Kuřecí nudličky na kari, celozrnný kuskus",
+        "d": "Voda s ovocným sirupem, Voda",
+        "a": [
+          1,
+          7,
+          10
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Kuřecí nudličky na kari, celozrnný kuskus",
+            "a": [
+              1,
+              7,
+              10
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Voda s ovocným sirupem, Voda",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "m": 2,
+        "n": "Bramborové špecle s houbami(žampióny)",
+        "d": "Voda s ovocným sirupem, Voda",
+        "a": [
+          1,
+          7,
+          12
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Bramborové špecle s houbami(žampióny)",
+            "a": [
+              1,
+              7,
+              12
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Voda s ovocným sirupem, Voda",
+            "a": []
+          }
+        ]
+      },
       {
         "c": "polevka",
         "n": "Hovězí vývar se smaženým hráškem [1, 1a, 3, 7, 9, 10]",
@@ -1208,6 +1326,68 @@
     "chody": [
       {
         "c": "polevka",
+        "n": "Uzená s bulgurem",
+        "d": "",
+        "a": [
+          1,
+          3,
+          7
+        ]
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Treska v rýžovém těstíčku, bramborová kaše",
+        "d": "Čaj s citrónem, Voda, Ovoce",
+        "a": [
+          4,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Treska v rýžovém těstíčku, bramborová kaše",
+            "a": [
+              4,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj s citrónem, Voda, Ovoce",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "m": 2,
+        "n": "Freekeh(zelená pšenice)se zeleninou a fazolemi(salát)",
+        "d": "Čaj s citrónem, Voda, Ovoce",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Freekeh(zelená pšenice)se zeleninou a fazolemi(salát)",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj s citrónem, Voda, Ovoce",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "polevka",
         "n": "Polévka s bramborami a masem [3, 7, 9, 10]",
         "d": "",
         "a": []
@@ -1231,6 +1411,63 @@
   "2026-11-26": {
     "vydej": "12:30–13:00",
     "chody": [
+      {
+        "c": "polevka",
+        "n": "Mrkvová",
+        "d": "",
+        "a": [
+          1,
+          7
+        ]
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Boloňské špagety se sýrem",
+        "d": "Čaj ovocný, Voda",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Boloňské špagety se sýrem",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj ovocný, Voda",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "m": 2,
+        "n": "Šoulet luštěninový se sterilovanou okurkou",
+        "d": "Čaj ovocný, Voda",
+        "a": [
+          1
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Šoulet luštěninový se sterilovanou okurkou",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj ovocný, Voda",
+            "a": []
+          }
+        ]
+      },
       {
         "c": "polevka",
         "n": "Slepičí vývar s masem a nudlemi [1, 1a, 3, 7, 9, 10]",
@@ -1257,7 +1494,42 @@
     "vydej": "12:30–13:00",
     "chody": [
       {
+        "c": "polevka",
+        "n": "Drožďová s krutóny",
+        "d": "",
+        "a": [
+          1,
+          3,
+          7
+        ]
+      },
+      {
         "c": "obed",
+        "m": 1,
+        "n": "Segedínský guláš, Houskové knedlíky",
+        "d": "Voda s ovocným sirupem, Voda",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Segedínský guláš, Houskové knedlíky",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Voda s ovocným sirupem, Voda",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "obed2",
         "m": 2,
         "n": "DRUHÁ VARIANTA SE DNES NEVAŘÍ",
         "d": "",

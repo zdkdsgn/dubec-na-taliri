@@ -2447,7 +2447,7 @@
         "c": "obed",
         "m": 1,
         "n": "Čočka na kyselo 1",
-        "d": "Vařené vejce 3, okurka · Ovoce, zeleninový salát · Ovocný čaj, mléko 7, voda",
+        "d": "Vařené vejce 3, okurka · Mandarinka · Ovocný čaj, mléko 7, voda",
         "a": [],
         "p": [
           {
@@ -2462,7 +2462,7 @@
           },
           {
             "l": "Doplněk",
-            "n": "Ovoce, zeleninový salát",
+            "n": "Mandarinka",
             "a": []
           },
           {
@@ -2476,7 +2476,7 @@
         "c": "obed2",
         "m": 2,
         "n": "Francouzské zapečené brambory 1, 3, 7",
-        "d": "Ovoce, zeleninový salát · Ovocný čaj, mléko 7, voda",
+        "d": "Okurkový salát s paprikami · Ovocný čaj, mléko 7, voda",
         "a": [],
         "p": [
           {
@@ -2486,7 +2486,7 @@
           },
           {
             "l": "Doplněk",
-            "n": "Ovoce, zeleninový salát",
+            "n": "Okurkový salát s paprikami",
             "a": []
           },
           {
@@ -3420,6 +3420,323 @@
           {
             "l": "Nápoj",
             "n": "Ovocný čaj, voda",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-12-07": {
+    "vydej": "11:30–14:15",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Fazolová 1, 6, 7, 9",
+        "d": "",
+        "a": []
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Vepřový řízek smažený 1, 3, 7",
+        "d": "Brambory · Zeleninový bar · Ovocný nápoj, mléko 7, voda",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Vepřový řízek smažený 1, 3, 7",
+            "a": []
+          },
+          {
+            "l": "Příloha",
+            "n": "Brambory",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zeleninový bar",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný nápoj, mléko 7, voda",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-12-08": {
+    "vydej": "11:30–14:15",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Zeleninová s kuskusem 1, 7, 9",
+        "d": "",
+        "a": []
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Krůtí závitek plněný sušenými rajčaty a mozzarellou 1, 7",
+        "d": "Dušená rýže · Zeleninový bar · Ovocný nápoj, mléko 7, voda",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Krůtí závitek plněný sušenými rajčaty a mozzarellou 1, 7",
+            "a": []
+          },
+          {
+            "l": "Příloha",
+            "n": "Dušená rýže",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zeleninový bar",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný nápoj, mléko 7, voda",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "m": 2,
+        "n": "Staročeský kroupový kuba s houbami a slaninou 1",
+        "d": "Zeleninový bar · Ovocný nápoj, mléko 7, voda",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Staročeský kroupový kuba s houbami a slaninou 1",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zeleninový bar",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný nápoj, mléko 7, voda",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-12-09": {
+    "vydej": "11:30–14:15",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Brokolicová krémová 1, 7",
+        "d": "",
+        "a": []
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Treska pečená na bylinkovém másle 4, 7",
+        "d": "Bramborová kaše 7 · Zeleninový bar, luštěninový salát · Ovocný nápoj, mléko 7, voda",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Treska pečená na bylinkovém másle 4, 7",
+            "a": []
+          },
+          {
+            "l": "Příloha",
+            "n": "Bramborová kaše 7",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zeleninový bar, luštěninový salát",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný nápoj, mléko 7, voda",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "m": 2,
+        "n": "Vepřová plec na kmíně 1",
+        "d": "Brambory · Zeleninový bar, luštěninový salát · Ovocný nápoj, mléko 7, voda",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Vepřová plec na kmíně 1",
+            "a": []
+          },
+          {
+            "l": "Příloha",
+            "n": "Brambory",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zeleninový bar, luštěninový salát",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný nápoj, mléko 7, voda",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-12-10": {
+    "vydej": "11:30–14:15",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Zeleninová se sýrovými noky 1, 3, 7",
+        "d": "",
+        "a": []
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Telecí perkelt 1, 7",
+        "d": "Těstoviny 1 · Ovoce · Ovocný nápoj, mléko 7, voda",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Telecí perkelt 1, 7",
+            "a": []
+          },
+          {
+            "l": "Příloha",
+            "n": "Těstoviny 1",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný nápoj, mléko 7, voda",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "m": 2,
+        "n": "Králík na zelenině 1, 9",
+        "d": "Dušená rýže · Ovoce · Ovocný nápoj, mléko 7, voda",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Králík na zelenině 1, 9",
+            "a": []
+          },
+          {
+            "l": "Příloha",
+            "n": "Dušená rýže",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný nápoj, mléko 7, voda",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-12-11": {
+    "vydej": "11:30–14:15",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Drůbková se zeleninou a rýží 7, 9",
+        "d": "",
+        "a": []
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Kuře na zelí 7",
+        "d": "Bramborové knedlíky 1, 3 · Ovoce · Ovocný nápoj, voda",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Kuře na zelí 7",
+            "a": []
+          },
+          {
+            "l": "Příloha",
+            "n": "Bramborové knedlíky 1, 3",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný nápoj, voda",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-12-14": {
+    "vydej": "11:30–14:15",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Z vaječné jíšky 1, 3, 7, 9",
+        "d": "",
+        "a": []
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Milánské špagety s vepřovým masem a sýrem 1, 3, 6, 7",
+        "d": "Moučník 1, 3, 7, 8, 11 · Ovocný nápoj, mléko 7, voda",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Milánské špagety s vepřovým masem a sýrem 1, 3, 6, 7",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Moučník 1, 3, 7, 8, 11",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný nápoj, mléko 7, voda",
             "a": []
           }
         ]

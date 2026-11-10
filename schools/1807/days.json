@@ -2280,7 +2280,7 @@
       {
         "c": "obed",
         "m": 1,
-        "n": "Domácí buchty plněné povidly",
+        "n": "Buchty s povidly",
         "d": "Jablko · Mléčný koktejl",
         "a": [
           1,
@@ -2290,7 +2290,7 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Domácí buchty plněné povidly",
+            "n": "Buchty s povidly",
             "a": [
               1,
               3,
@@ -2329,7 +2329,7 @@
       {
         "c": "obed",
         "m": 1,
-        "n": "Kuře alá husa",
+        "n": "Kuře pečené",
         "d": "Bramborové šišky, červené zelí · Jablko · Ovocný čaj, mléko",
         "a": [
           1,
@@ -2338,8 +2338,11 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Kuře alá husa",
-            "a": []
+            "n": "Kuře pečené",
+            "a": [
+              1,
+              7
+            ]
           },
           {
             "l": "Příloha",

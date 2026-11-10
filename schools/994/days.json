@@ -15385,5 +15385,199 @@
         ]
       }
     }
+  },
+  "2026-12-14": {
+    "skupiny": {
+      "ms": {
+        "vydej": "11:00–14:00",
+        "chody": [
+          {
+            "c": "presnidavka",
+            "m": 1,
+            "n": "Kmínový chléb, liptovská pomazánka",
+            "d": "Čerstvé mléko",
+            "a": [
+              1,
+              7
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Kmínový chléb, liptovská pomazánka",
+                "a": [
+                  1,
+                  7
+                ]
+              },
+              {
+                "l": "Nápoj",
+                "n": "Čerstvé mléko",
+                "a": [
+                  7
+                ]
+              }
+            ]
+          },
+          {
+            "c": "polevka",
+            "n": "Polévka masový krém",
+            "d": "",
+            "a": [
+              1,
+              7,
+              9
+            ]
+          },
+          {
+            "c": "obed",
+            "m": 1,
+            "n": "Krůtí maso na česneku",
+            "d": "Dušená rýže · Červená řepa · Čaj, vitamínový nápoj",
+            "a": [
+              1,
+              7,
+              9
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Krůtí maso na česneku",
+                "a": [
+                  1,
+                  9
+                ]
+              },
+              {
+                "l": "Příloha",
+                "n": "Dušená rýže",
+                "a": [
+                  7
+                ]
+              },
+              {
+                "l": "Doplněk",
+                "n": "Červená řepa",
+                "a": []
+              },
+              {
+                "l": "Nápoj",
+                "n": "Čaj, vitamínový nápoj",
+                "a": []
+              }
+            ]
+          },
+          {
+            "c": "svacina",
+            "m": 1,
+            "n": "Veka, fazolová pomazánka",
+            "d": "Ovoce · Čaj",
+            "a": [
+              1,
+              7
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Veka, fazolová pomazánka",
+                "a": [
+                  1,
+                  7
+                ]
+              },
+              {
+                "l": "Doplněk",
+                "n": "Ovoce",
+                "a": []
+              },
+              {
+                "l": "Nápoj",
+                "n": "Čaj",
+                "a": []
+              }
+            ]
+          }
+        ]
+      },
+      "zs": {
+        "vydej": "11:00–14:00",
+        "chody": [
+          {
+            "c": "presnidavka",
+            "m": 1,
+            "n": "Kmínový chléb, liptovská pomazánka",
+            "d": "Čerstvé mléko",
+            "a": [
+              1,
+              7
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Kmínový chléb, liptovská pomazánka",
+                "a": [
+                  1,
+                  7
+                ]
+              },
+              {
+                "l": "Nápoj",
+                "n": "Čerstvé mléko",
+                "a": [
+                  7
+                ]
+              }
+            ]
+          },
+          {
+            "c": "polevka",
+            "n": "Polévka masový krém",
+            "d": "",
+            "a": [
+              1,
+              7,
+              9
+            ]
+          },
+          {
+            "c": "obed",
+            "m": 1,
+            "n": "Krůtí maso na česneku",
+            "d": "Dušená rýže · Červená řepa · Čaj, vitamínový nápoj",
+            "a": [
+              1,
+              7,
+              9
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Krůtí maso na česneku",
+                "a": [
+                  1,
+                  9
+                ]
+              },
+              {
+                "l": "Příloha",
+                "n": "Dušená rýže",
+                "a": [
+                  7
+                ]
+              },
+              {
+                "l": "Doplněk",
+                "n": "Červená řepa",
+                "a": []
+              },
+              {
+                "l": "Nápoj",
+                "n": "Čaj, vitamínový nápoj",
+                "a": []
+              }
+            ]
+          }
+        ]
+      }
+    }
   }
 }
