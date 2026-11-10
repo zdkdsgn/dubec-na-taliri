@@ -1,0 +1,3099 @@
+{
+ "vzorek": 500,
+ "s_webem": 320,
+ "odpovedelo": 301,
+ "podily": {
+  "nenalezeno": 103,
+  "jidelna.cz": 22,
+  "iCanteen": 16,
+  "strava.cz": 71,
+  "vlastní web (jídelníček na webu školy)": 96,
+  "eStrava/Ulrich": 7,
+  "jiný systém (dobrajidelna, e-jidelna…)": 4
+ },
+ "skoly": [
+  {
+   "ico": "72744782",
+   "nazev": "Mateřská škola",
+   "web": "mszitenice.cz",
+   "kraj": "Ústecký kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "48161144",
+   "nazev": "ZŠ Pardubice-Svítkov, Školní 748",
+   "web": "zssvitkov.cz",
+   "kraj": "Pardubický kraj",
+   "stav": "ok",
+   "systemy": [
+    "jidelna.cz",
+    "iCanteen"
+   ],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "48342998",
+   "nazev": "Vých.ústav, DD se školou, ZŠ, SŠ a ŠJ",
+   "web": "vudds-hostoun.cz",
+   "kraj": "Plzeňský kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "71341455",
+   "nazev": "Safari Baby Club - mateřská škola",
+   "web": "safariclub.cz",
+   "kraj": "Královéhradecký kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "75022281",
+   "nazev": "Mateřská škola",
+   "web": "zelec.cz",
+   "kraj": "Olomoucký kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "61381861",
+   "nazev": "Základní škola",
+   "web": "litvinovska500.cz",
+   "kraj": "Hlavní město Praha",
+   "stav": "ok",
+   "systemy": [
+    "strava.cz"
+   ],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "62695177",
+   "nazev": "Základní škola",
+   "web": "zshorakhk..cz",
+   "kraj": "Královéhradecký kraj",
+   "stav": "web_nedostupny",
+   "systemy": []
+  },
+  {
+   "ico": "63831449",
+   "nazev": "Základní škola a mateřská škola Jarov",
+   "web": "zsjarov.cz",
+   "kraj": "Hlavní město Praha",
+   "stav": "ok",
+   "systemy": [
+    "jidelna.cz"
+   ],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "21606005",
+   "nazev": "Základní škola Erazim 8",
+   "web": "erazim.cz",
+   "kraj": "Zlínský kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "70995516",
+   "nazev": "Mateřská škola",
+   "web": "mscejkovice.cz",
+   "kraj": "Jihomoravský kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": true
+  },
+  {
+   "ico": "70284831",
+   "nazev": "Základní škola a praktická škola",
+   "web": "zspshodonin.cz",
+   "kraj": "Jihomoravský kraj",
+   "stav": "web_nedostupny",
+   "systemy": []
+  },
+  {
+   "ico": "62032259",
+   "nazev": "Základní škola",
+   "web": "zsbrezova.cz",
+   "kraj": "Pardubický kraj",
+   "stav": "ok",
+   "systemy": [
+    "jidelna.cz",
+    "iCanteen"
+   ],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "70284440",
+   "nazev": "Základní škola a Mateřská škola",
+   "web": "zsvalec.cz",
+   "kraj": "Kraj Vysočina",
+   "stav": "ok",
+   "systemy": [
+    "strava.cz"
+   ],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "64201171",
+   "nazev": "Základní škola",
+   "web": "zsnachtu.cz",
+   "kraj": "Královéhradecký kraj",
+   "stav": "ok",
+   "systemy": [
+    "strava.cz"
+   ],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "24242594",
+   "nazev": "Mateřská škola Paleček o.p.s.",
+   "web": "rcpalecek.cz",
+   "kraj": "Hlavní město Praha",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "75022672",
+   "nazev": "Základní škola a Mateřská škola",
+   "web": "zsvlcnov.cz",
+   "kraj": "Zlínský kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "75032848",
+   "nazev": "Základní škola a Mateřská škola",
+   "web": "zsklobuky.cz",
+   "kraj": "Středočeský kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": true
+  },
+  {
+   "ico": "47259132",
+   "nazev": "Základní škola T. G. Masaryka",
+   "web": "zstgmvimperk.cz",
+   "kraj": "Jihočeský kraj",
+   "stav": "ok",
+   "systemy": [
+    "strava.cz"
+   ],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "75027500",
+   "nazev": "Základní škola a Mateřská škola",
+   "web": "mosnov.cz",
+   "kraj": "Moravskoslezský kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "75026678",
+   "nazev": "Základní škola",
+   "web": "zsjarniorlova.cz",
+   "kraj": "Moravskoslezský kraj",
+   "stav": "ok",
+   "systemy": [
+    "eStrava/Ulrich"
+   ],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "71011285",
+   "nazev": "Základní škola a Mateřská škola",
+   "web": "zstrosky.cz",
+   "kraj": "Jihomoravský kraj",
+   "stav": "web_nedostupny",
+   "systemy": []
+  },
+  {
+   "ico": "61384771",
+   "nazev": "Krčská mateřská škola",
+   "web": "mstajovskeho.cz",
+   "kraj": "Hlavní město Praha",
+   "stav": "web_nedostupny",
+   "systemy": []
+  },
+  {
+   "ico": "49438000",
+   "nazev": "Základní škola",
+   "web": "zsmiroslav.cz",
+   "kraj": "Jihomoravský kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": true
+  },
+  {
+   "ico": "62690001",
+   "nazev": "Dětský diagnostický ústav, SVP, ZŠ a ŠJ",
+   "web": "ddu-hk.cz",
+   "kraj": "Královéhradecký kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "70986584",
+   "nazev": "Základní škola a Mateřská škola",
+   "web": "cizova.cz",
+   "kraj": "Jihočeský kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "00843598",
+   "nazev": "MŠ, ZŠ a SŠ pro sluchově postižené",
+   "web": "val-mez.cz",
+   "kraj": "Zlínský kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "75021901",
+   "nazev": "Mateřská škola",
+   "web": "topolna.cz",
+   "kraj": "Zlínský kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "04101383",
+   "nazev": "AVIDA - gymnázium, střední škola a základní škola ",
+   "web": "skolyavida.cz",
+   "kraj": "Hlavní město Praha",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "48665916",
+   "nazev": "Základní škola",
+   "web": "zs-zasmuky.cz",
+   "kraj": "Středočeský kraj",
+   "stav": "ok",
+   "systemy": [
+    "strava.cz"
+   ],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "49516256",
+   "nazev": "ZŠ Ing. M. Plesingera - Božinova",
+   "web": "zs-mpb.cz",
+   "kraj": "Středočeský kraj",
+   "stav": "ok",
+   "systemy": [
+    "strava.cz"
+   ],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "62860666",
+   "nazev": "Základní škola a mateřská škola",
+   "web": "zsbedihost.cz",
+   "kraj": "Olomoucký kraj",
+   "stav": "ok",
+   "systemy": [
+    "strava.cz"
+   ],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "46271007",
+   "nazev": "Základní škola",
+   "web": "nadrazni5.cz",
+   "kraj": "Jihomoravský kraj",
+   "stav": "ok",
+   "systemy": [
+    "strava.cz"
+   ],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "72742682",
+   "nazev": "Základní škola a Mateřská škola",
+   "web": "zsjosefuvdul.cz",
+   "kraj": "Liberecký kraj",
+   "stav": "ok",
+   "systemy": [
+    "strava.cz"
+   ],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "70984701",
+   "nazev": "Základní škola a Mateřská škola",
+   "web": "uhedu.cz",
+   "kraj": "Zlínský kraj",
+   "stav": "web_nedostupny",
+   "systemy": []
+  },
+  {
+   "ico": "75029405",
+   "nazev": "Základní škola a Mateřská škola",
+   "web": "skolahrabova.cz",
+   "kraj": "Olomoucký kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": true
+  },
+  {
+   "ico": "71008756",
+   "nazev": "Základní škola a mateřská škola",
+   "web": "hlubokemasuvky.cz",
+   "kraj": "Jihomoravský kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "70993581",
+   "nazev": "Základní škola a Mateřská škola",
+   "web": "zsmshabrovany.cz",
+   "kraj": "Jihomoravský kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": true
+  },
+  {
+   "ico": "42730686",
+   "nazev": "Základní škola pod Svatou Horou",
+   "web": "1zs-pb.cz",
+   "kraj": "Středočeský kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "75017610",
+   "nazev": "Mateřská škola",
+   "web": "msstrojaru.cz",
+   "kraj": "Pardubický kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": true
+  },
+  {
+   "ico": "63109727",
+   "nazev": "MŠ Větrníček v Praze 12",
+   "web": "msvetrnicek.cz",
+   "kraj": "Hlavní město Praha",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": true
+  },
+  {
+   "ico": "70436070",
+   "nazev": "Základní škola UNESCO",
+   "web": "zsunesco.cz",
+   "kraj": "Zlínský kraj",
+   "stav": "ok",
+   "systemy": [
+    "strava.cz"
+   ],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "75029715",
+   "nazev": "Základní škola a Mateřská škola",
+   "web": "zsostravice.cz",
+   "kraj": "Moravskoslezský kraj",
+   "stav": "ok",
+   "systemy": [
+    "eStrava/Ulrich"
+   ],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "00583651",
+   "nazev": "Základní škola a Mateřská škola",
+   "web": "zsmalonty.cz",
+   "kraj": "Jihočeský kraj",
+   "stav": "ok",
+   "systemy": [
+    "jiný systém (dobrajidelna, e-jidelna…)"
+   ],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "70943923",
+   "nazev": "Základní škola",
+   "web": "zschropyne.cz",
+   "kraj": "Zlínský kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "70695911",
+   "nazev": "Základní škola a Mateřská škola",
+   "web": "zshejnice.cz",
+   "kraj": "Liberecký kraj",
+   "stav": "ok",
+   "systemy": [
+    "strava.cz",
+    "jiný systém (dobrajidelna, e-jidelna…)"
+   ],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "49466615",
+   "nazev": "Základní škola",
+   "web": "zsjanouskova.cz",
+   "kraj": "Jihomoravský kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": true
+  },
+  {
+   "ico": "19740204",
+   "nazev": "Základní škola KoKoŠka, s.r.o.",
+   "web": "kokoska.eu",
+   "kraj": "Hlavní město Praha",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "70939454",
+   "nazev": "Základní škola Nová Role",
+   "web": "zsnovarole.cz",
+   "kraj": "Karlovarský kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "47005254",
+   "nazev": "Základní škola",
+   "web": "zsrevnice.cz",
+   "kraj": "Středočeský kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": true
+  },
+  {
+   "ico": "70984255",
+   "nazev": "Mateřská škola",
+   "web": "mszlatehory.cz",
+   "kraj": "Olomoucký kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "67798543",
+   "nazev": "Základní škola a Mateřská škola",
+   "web": "zs-ns2.cz",
+   "kraj": "Hlavní město Praha",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": true
+  },
+  {
+   "ico": "46270876",
+   "nazev": "Základní škola",
+   "web": "zs.ivanovicenahane.cz",
+   "kraj": "Jihomoravský kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "70987866",
+   "nazev": "Mateřská škola",
+   "web": "msosicko.cz",
+   "kraj": "Zlínský kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "60610263",
+   "nazev": "Základní škola a Mateřská škola",
+   "web": "zihobce.eu",
+   "kraj": "Plzeňský kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "60046074",
+   "nazev": "Mateřská škola Beruška",
+   "web": "msberuska.cz",
+   "kraj": "Moravskoslezský kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "49418831",
+   "nazev": "Základní škola",
+   "web": "zsdomkyhod.cz",
+   "kraj": "Jihomoravský kraj",
+   "stav": "ok",
+   "systemy": [
+    "jidelna.cz",
+    "iCanteen"
+   ],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "70880646",
+   "nazev": "Základní škola a Mateřská škola",
+   "web": "skolaboretice.cz",
+   "kraj": "Jihomoravský kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": true
+  },
+  {
+   "ico": "60371668",
+   "nazev": "Základní škola a Mateřská škola",
+   "web": "zsmsuh.cz",
+   "kraj": "Zlínský kraj",
+   "stav": "ok",
+   "systemy": [
+    "strava.cz"
+   ],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "70978387",
+   "nazev": "Základní škola",
+   "web": "zschrjukinova.cz",
+   "kraj": "Moravskoslezský kraj",
+   "stav": "ok",
+   "systemy": [
+    "strava.cz"
+   ],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "70974152",
+   "nazev": "Mateřská škola Socháňova",
+   "web": "ms-sochanova.cz",
+   "kraj": "Hlavní město Praha",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": true
+  },
+  {
+   "ico": "70989923",
+   "nazev": "Mateřská škola",
+   "web": "uhedu.cz",
+   "kraj": "Zlínský kraj",
+   "stav": "web_nedostupny",
+   "systemy": []
+  },
+  {
+   "ico": "70987394",
+   "nazev": "Mateřská škola J. A. Komenského",
+   "web": "ceskaskalice.cz",
+   "kraj": "Královéhradecký kraj",
+   "stav": "ok",
+   "systemy": [
+    "strava.cz"
+   ],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "06090664",
+   "nazev": "Základní škola Formanská",
+   "web": "zsformanska.cz",
+   "kraj": "Hlavní město Praha",
+   "stav": "ok",
+   "systemy": [
+    "strava.cz"
+   ],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "71341391",
+   "nazev": "Mateřská škola MONTESSORI",
+   "web": "montessori-podebrady.cz",
+   "kraj": "Středočeský kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "70695261",
+   "nazev": "Základní škola",
+   "web": "zscdub.cz",
+   "kraj": "Liberecký kraj",
+   "stav": "ok",
+   "systemy": [
+    "strava.cz"
+   ],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "72744812",
+   "nazev": "Mateřská škola",
+   "web": "msedestinove.cz",
+   "kraj": "Ústecký kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": true
+  },
+  {
+   "ico": "70877068",
+   "nazev": "Základní škola a mateřská škola",
+   "web": "zsob.cz",
+   "kraj": "Kraj Vysočina",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": true
+  },
+  {
+   "ico": "61384224",
+   "nazev": "Základní škola",
+   "web": "zs-podoli.cz",
+   "kraj": "Hlavní město Praha",
+   "stav": "ok",
+   "systemy": [
+    "jidelna.cz"
+   ],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "71294139",
+   "nazev": "Základní škola",
+   "web": "zskunice.cz",
+   "kraj": "Středočeský kraj",
+   "stav": "ok",
+   "systemy": [
+    "strava.cz"
+   ],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "63833956",
+   "nazev": "Masarykova ZŠ Praha-Klánovice",
+   "web": "zsklanovice.cz",
+   "kraj": "Hlavní město Praha",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "75024284",
+   "nazev": "Základní škola",
+   "web": "zspopuvky.cz",
+   "kraj": "Jihomoravský kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": true
+  },
+  {
+   "ico": "62348337",
+   "nazev": "Základní škola",
+   "web": "zsbulharska.cz",
+   "kraj": "Moravskoslezský kraj",
+   "stav": "ok",
+   "systemy": [
+    "strava.cz"
+   ],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "48132900",
+   "nazev": "Základní škola",
+   "web": "zsnalise.cz",
+   "kraj": "Hlavní město Praha",
+   "stav": "ok",
+   "systemy": [
+    "jidelna.cz"
+   ],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "63109701",
+   "nazev": "MŠ Jahůdka v Praze 12",
+   "web": "mskrouzova.cz",
+   "kraj": "Hlavní město Praha",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": true
+  },
+  {
+   "ico": "75029758",
+   "nazev": "Základní škola a mateřská škola",
+   "web": "zsmsopatovice.cz",
+   "kraj": "Olomoucký kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": true
+  },
+  {
+   "ico": "70991022",
+   "nazev": "Základní škola a mateřská škola",
+   "web": "zsmsbernartice.cz",
+   "kraj": "Olomoucký kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": true
+  },
+  {
+   "ico": "45238782",
+   "nazev": "Základní škola",
+   "web": "zsjl.cz",
+   "kraj": "Olomoucký kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "70994773",
+   "nazev": "Mateřská škola",
+   "web": "prosimerice.cz",
+   "kraj": "Jihomoravský kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "24136786",
+   "nazev": "Královská MŠ a ZŠ, s.r.o.",
+   "web": "kralovskaskola.cz",
+   "kraj": "Hlavní město Praha",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "75021897",
+   "nazev": "Mateřská škola",
+   "web": "skolkasenetarov.cz",
+   "kraj": "Jihomoravský kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "70695831",
+   "nazev": "Mateřská škola",
+   "web": "msduba.cz",
+   "kraj": "Liberecký kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "70154287",
+   "nazev": "Základní škola",
+   "web": "zsplhov.cz",
+   "kraj": "Královéhradecký kraj",
+   "stav": "ok",
+   "systemy": [
+    "strava.cz"
+   ],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "08849510",
+   "nazev": "Základní škola Montessori Kyjov",
+   "web": "montessorikyjov.cz",
+   "kraj": "Jihomoravský kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "70631751",
+   "nazev": "Základní škola a mateřská škola",
+   "web": "kosare.cz",
+   "kraj": "Moravskoslezský kraj",
+   "stav": "ok",
+   "systemy": [
+    "strava.cz"
+   ],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "60075856",
+   "nazev": "MŠ, ZŠ a Praktická škola",
+   "web": "cmail.cz",
+   "kraj": "Jihočeský kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "70262969",
+   "nazev": "Základní škola",
+   "web": "zsnovomestska.cz",
+   "kraj": "Jihomoravský kraj",
+   "stav": "ok",
+   "systemy": [
+    "strava.cz"
+   ],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "72743395",
+   "nazev": "Základní škola a mateřská škola",
+   "web": "zsrehlovice.cz",
+   "kraj": "Ústecký kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": true
+  },
+  {
+   "ico": "70995991",
+   "nazev": "Mateřská škola a základní škola",
+   "web": "mszsvsestary.cz",
+   "kraj": "Středočeský kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "60043792",
+   "nazev": "Základní škola Vojtěcha Martínka",
+   "web": "zsbrusperk.cz",
+   "kraj": "Moravskoslezský kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": true
+  },
+  {
+   "ico": "75031612",
+   "nazev": "Mateřská škola",
+   "web": "mspchery.cz",
+   "kraj": "Středočeský kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": true
+  },
+  {
+   "ico": "70279055",
+   "nazev": "Základní škola",
+   "web": "wo.cz",
+   "kraj": "Jihomoravský kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "61385026",
+   "nazev": "Mateřská škola Alšovy sady",
+   "web": "alsovysadyms.cz",
+   "kraj": "Hlavní město Praha",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": true
+  },
+  {
+   "ico": "70992568",
+   "nazev": "Základní škola a Mateřská škola",
+   "web": "zsmszdarky.cz",
+   "kraj": "Královéhradecký kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": true
+  },
+  {
+   "ico": "72742089",
+   "nazev": "Základní škola a Mateřská škola",
+   "web": "prysk.cz",
+   "kraj": "Liberecký kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "75000512",
+   "nazev": "Základní škola a Mateřská škola",
+   "web": "o2active.cz",
+   "kraj": "Jihočeský kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "70981043",
+   "nazev": "ZŠ Marie Curie-Sklodowské a MŠ",
+   "web": "zsjachymov.eu",
+   "kraj": "Karlovarský kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "71007253",
+   "nazev": "Základní škola Vápno, okres Pardubice",
+   "web": "zsvapno.cz",
+   "kraj": "Pardubický kraj",
+   "stav": "ok",
+   "systemy": [
+    "jidelna.cz",
+    "iCanteen"
+   ],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "75019256",
+   "nazev": "Mateřská škola",
+   "web": "dolniredice.cz",
+   "kraj": "Pardubický kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "05984220",
+   "nazev": "MŠ Sokoleč, příspěvková organizace",
+   "web": "ms-sokolec.cz",
+   "kraj": "Středočeský kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "70106576",
+   "nazev": "Základní škola Járy Cimrmana",
+   "web": "zs-lysolaje.net",
+   "kraj": "Hlavní město Praha",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": true
+  },
+  {
+   "ico": "60555432",
+   "nazev": "Mateřská škola",
+   "web": "ms-letni.cz",
+   "kraj": "Jihomoravský kraj",
+   "stav": "web_nedostupny",
+   "systemy": []
+  },
+  {
+   "ico": "70157332",
+   "nazev": "Základní škola Gutha-Jarkovského",
+   "web": "eltec.cz",
+   "kraj": "Královéhradecký kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "75023776",
+   "nazev": "Základní škola a Mateřská škola",
+   "web": "jakubov.cz",
+   "kraj": "Kraj Vysočina",
+   "stav": "ok",
+   "systemy": [
+    "strava.cz"
+   ],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "70980896",
+   "nazev": "Základní škola Nové Sedlo, přísp.org.",
+   "web": "zsnovesedlo.cz",
+   "kraj": "Karlovarský kraj",
+   "stav": "ok",
+   "systemy": [
+    "strava.cz"
+   ],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "05738016",
+   "nazev": "ScioŠkola Frýdek-Místek - ZŠ, s.r.o.",
+   "web": "scioskola.cz",
+   "kraj": "Moravskoslezský kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "75032929",
+   "nazev": "Mateřská škola",
+   "web": "ms-napohori.cz",
+   "kraj": "Středočeský kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "72550341",
+   "nazev": "Mateřská škola",
+   "web": "materska-skola.com",
+   "kraj": "Liberecký kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "86652249",
+   "nazev": "Mateřská škola Středokluky",
+   "web": "msstredokluky.cz",
+   "kraj": "Středočeský kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": true
+  },
+  {
+   "ico": "69979073",
+   "nazev": "Základní škola",
+   "web": "1zs-sokolov.cz",
+   "kraj": "Karlovarský kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": true
+  },
+  {
+   "ico": "64628159",
+   "nazev": "Základní škola a Mateřská škola",
+   "web": "specialniskola.cz",
+   "kraj": "Moravskoslezský kraj",
+   "stav": "ok",
+   "systemy": [
+    "strava.cz"
+   ],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "70990964",
+   "nazev": "Základní škola a Mateřská škola",
+   "web": "zshabry.cz",
+   "kraj": "Kraj Vysočina",
+   "stav": "ok",
+   "systemy": [
+    "jiný systém (dobrajidelna, e-jidelna…)"
+   ],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "06373101",
+   "nazev": "Základní škola Inspíria s.r.o.",
+   "web": "skolainspiria.cz",
+   "kraj": "Plzeňský kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": true
+  },
+  {
+   "ico": "75034107",
+   "nazev": "Mateřská škola Pampeliška",
+   "web": "ms-pampeliska.cz",
+   "kraj": "Středočeský kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": true
+  },
+  {
+   "ico": "48133884",
+   "nazev": "Základní škola Jana Wericha",
+   "web": "zs-jana-wericha.cz",
+   "kraj": "Hlavní město Praha",
+   "stav": "ok",
+   "systemy": [
+    "strava.cz"
+   ],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "71008004",
+   "nazev": "Mateřská škola",
+   "web": "ritka.cz",
+   "kraj": "Středočeský kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "70923094",
+   "nazev": "Mateřská škola Ratibořské Hory",
+   "web": "zsratihory.cz",
+   "kraj": "Jihočeský kraj",
+   "stav": "web_nedostupny",
+   "systemy": []
+  },
+  {
+   "ico": "60611472",
+   "nazev": "Mateřská škola",
+   "web": "hostoun.cz",
+   "kraj": "Plzeňský kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "25249355",
+   "nazev": "Svob.cheb.škola, ZŠ a gymnázium s.r.o.",
+   "web": "schs.cz",
+   "kraj": "Karlovarský kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "75023849",
+   "nazev": "Mateřská škola",
+   "web": "orechov-ronov.cz",
+   "kraj": "Kraj Vysočina",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "25331787",
+   "nazev": "MATEŘÍDOUŠKA  s.r.o.",
+   "web": "skolka.cz",
+   "kraj": "Jihomoravský kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": true
+  },
+  {
+   "ico": "73184365",
+   "nazev": "Mateřská škola",
+   "web": "msprazmo.cz",
+   "kraj": "Moravskoslezský kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": true
+  },
+  {
+   "ico": "65642376",
+   "nazev": "Základní škola",
+   "web": "zs5kveten.cz",
+   "kraj": "Liberecký kraj",
+   "stav": "ok",
+   "systemy": [
+    "strava.cz"
+   ],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "70567981",
+   "nazev": "Základní škola a Mateřská škola",
+   "web": "zsnorska.cz",
+   "kraj": "Středočeský kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "70284351",
+   "nazev": "Základní škola a mateřská škola",
+   "web": "zsmilotice.cz",
+   "kraj": "Jihomoravský kraj",
+   "stav": "ok",
+   "systemy": [
+    "strava.cz"
+   ],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "61955612",
+   "nazev": "Základní škola Dany a Emila Zátopkových",
+   "web": "zszatopkovych.eu",
+   "kraj": "Moravskoslezský kraj",
+   "stav": "ok",
+   "systemy": [
+    "strava.cz",
+    "eStrava/Ulrich"
+   ],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "70984565",
+   "nazev": "Základní škola a mateřská škola",
+   "web": "zsstepankovice.cz",
+   "kraj": "Moravskoslezský kraj",
+   "stav": "ok",
+   "systemy": [
+    "strava.cz"
+   ],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "45180083",
+   "nazev": "ZŠ J. A. Komenského ",
+   "web": "zsjakprerov.cz",
+   "kraj": "Olomoucký kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": true
+  },
+  {
+   "ico": "70985979",
+   "nazev": "Základní škola a Mateřská škola",
+   "web": "skolahnevotin.cz",
+   "kraj": "Olomoucký kraj",
+   "stav": "ok",
+   "systemy": [
+    "strava.cz"
+   ],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "70890943",
+   "nazev": "Mateřská škola",
+   "web": "msslovenska.cz",
+   "kraj": "Hlavní město Praha",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": true
+  },
+  {
+   "ico": "14405016",
+   "nazev": "Základní škola Vážka",
+   "web": "zsvazka.cz",
+   "kraj": "Kraj Vysočina",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "05975999",
+   "nazev": "MŠ Všestudy, příspěvková organizace",
+   "web": "vsestudy.cz",
+   "kraj": "Středočeský kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "75121841",
+   "nazev": "Mateřská škola",
+   "web": "msborsov.cz",
+   "kraj": "Jihočeský kraj",
+   "stav": "ok",
+   "systemy": [
+    "strava.cz"
+   ],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "06379796",
+   "nazev": "Lesní mateřská škola",
+   "web": "skolkavazka.cz",
+   "kraj": "Ústecký kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": true
+  },
+  {
+   "ico": "60801085",
+   "nazev": "Mateřská škola",
+   "web": "sumperkmsslunicko.cz",
+   "kraj": "Olomoucký kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "00836397",
+   "nazev": "Základní škola a Základní umělecká škola",
+   "web": "zsdolninemci.cz",
+   "kraj": "Zlínský kraj",
+   "stav": "ok",
+   "systemy": [
+    "strava.cz"
+   ],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "70941921",
+   "nazev": "Mateřská škola Stonožka",
+   "web": "msodboraru.cz",
+   "kraj": "Pardubický kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": true
+  },
+  {
+   "ico": "46496921",
+   "nazev": "Základní škola Pardubice, Josefa Ressla 2258",
+   "web": "zsjres.cz",
+   "kraj": "Pardubický kraj",
+   "stav": "ok",
+   "systemy": [
+    "strava.cz"
+   ],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "65265734",
+   "nazev": "Základní škola a mateřská škola",
+   "web": "skolanosislav.cz",
+   "kraj": "Jihomoravský kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": true
+  },
+  {
+   "ico": "70980772",
+   "nazev": "Základní škola a mateřská škola",
+   "web": "zsbartosovice.cz",
+   "kraj": "Moravskoslezský kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "70990841",
+   "nazev": "Základní škola a Mateřská škola",
+   "web": "zsamsvesin.cz",
+   "kraj": "Středočeský kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": true
+  },
+  {
+   "ico": "61384755",
+   "nazev": "Základní škola",
+   "web": "zspolackova.cz",
+   "kraj": "Hlavní město Praha",
+   "stav": "ok",
+   "systemy": [
+    "jidelna.cz"
+   ],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "70926298",
+   "nazev": "Základní škola a Mateřská škola",
+   "web": "zs-raf.cz",
+   "kraj": "Středočeský kraj",
+   "stav": "ok",
+   "systemy": [
+    "strava.cz"
+   ],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "75034239",
+   "nazev": "Mateřská škola",
+   "web": "mssvinare.cz",
+   "kraj": "Středočeský kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": true
+  },
+  {
+   "ico": "60780550",
+   "nazev": "Mateřská škola",
+   "web": "msurybnika.cz",
+   "kraj": "Moravskoslezský kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": true
+  },
+  {
+   "ico": "70108811",
+   "nazev": "MŠ Revoluční",
+   "web": "msrevolucni.cz",
+   "kraj": "Hlavní město Praha",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": true
+  },
+  {
+   "ico": "70888825",
+   "nazev": "Základní škola",
+   "web": "zsdubec.cz",
+   "kraj": "Hlavní město Praha",
+   "stav": "ok",
+   "systemy": [
+    "jidelna.cz"
+   ],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "71011650",
+   "nazev": "Mateřská škola",
+   "web": "msmouchnice.cz",
+   "kraj": "Jihomoravský kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "47611332",
+   "nazev": "Základní škola",
+   "web": "zshostivar.cz",
+   "kraj": "Hlavní město Praha",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": true
+  },
+  {
+   "ico": "49778200",
+   "nazev": "ZŠ a MŠ pro zrak.postižené a vady řeči",
+   "web": "zrakpm.cz",
+   "kraj": "Plzeňský kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": true
+  },
+  {
+   "ico": "00583723",
+   "nazev": "Základní škola",
+   "web": "zsvelesin.cz",
+   "kraj": "Jihočeský kraj",
+   "stav": "ok",
+   "systemy": [
+    "strava.cz"
+   ],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "68334265",
+   "nazev": "Základní škola",
+   "web": "zsjablunkov.cz",
+   "kraj": "Moravskoslezský kraj",
+   "stav": "ok",
+   "systemy": [
+    "eStrava/Ulrich"
+   ],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "71003517",
+   "nazev": "Základní škola a mateřská škola",
+   "web": "skolauzice.info",
+   "kraj": "Středočeský kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "00848301",
+   "nazev": "ZŠ a MŠ T. G. Masaryka",
+   "web": "tgmbilovec.cz",
+   "kraj": "Moravskoslezský kraj",
+   "stav": "ok",
+   "systemy": [
+    "eStrava/Ulrich"
+   ],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "70874409",
+   "nazev": "Masarykova základní škola",
+   "web": "maszskt.cz",
+   "kraj": "Plzeňský kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": true
+  },
+  {
+   "ico": "46069771",
+   "nazev": "Základní škola",
+   "web": "zsprosetice.cz",
+   "kraj": "Ústecký kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": true
+  },
+  {
+   "ico": "70499870",
+   "nazev": "Základní škola a Mateřská škola",
+   "web": "skolavpraci.cz",
+   "kraj": "Jihomoravský kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": true
+  },
+  {
+   "ico": "43776761",
+   "nazev": "Základní škola",
+   "web": "zshajeslany.cz",
+   "kraj": "Středočeský kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": true
+  },
+  {
+   "ico": "47559217",
+   "nazev": "Základní škola",
+   "web": "zs.lodenice.cz",
+   "kraj": "Středočeský kraj",
+   "stav": "ok",
+   "systemy": [
+    "strava.cz"
+   ],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "03739937",
+   "nazev": "Základní škola Nika s.r.o.",
+   "web": "skolanika.cz",
+   "kraj": "Hlavní město Praha",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "70979626",
+   "nazev": "Základní škola",
+   "web": "zskrepice.cz",
+   "kraj": "Jihomoravský kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": true
+  },
+  {
+   "ico": "49465091",
+   "nazev": "Masarykova základní škola a MŠ",
+   "web": "maskola.cz",
+   "kraj": "Jihomoravský kraj",
+   "stav": "ok",
+   "systemy": [
+    "strava.cz"
+   ],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "70982970",
+   "nazev": "Základní škola",
+   "web": "skolavb.cz",
+   "kraj": "Jihomoravský kraj",
+   "stav": "ok",
+   "systemy": [
+    "jidelna.cz",
+    "iCanteen"
+   ],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "70919691",
+   "nazev": "Mateřská škola",
+   "web": "mspoznanska.cz",
+   "kraj": "Hlavní město Praha",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "47011351",
+   "nazev": "Základní škola Mělník - Pšovka",
+   "web": "zspsovka.cz",
+   "kraj": "Středočeský kraj",
+   "stav": "ok",
+   "systemy": [
+    "jidelna.cz"
+   ],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "70885451",
+   "nazev": "Základní škola Štěrboholy",
+   "web": "zssterboholy.cz",
+   "kraj": "Hlavní město Praha",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "60610484",
+   "nazev": "Masarykova základní škola a MŠ",
+   "web": "zsklenci.cz",
+   "kraj": "Plzeňský kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": true
+  },
+  {
+   "ico": "70988013",
+   "nazev": "Základní škola a Mateřská škola",
+   "web": "zspilnikov.cz",
+   "kraj": "Královéhradecký kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": true
+  },
+  {
+   "ico": "70979049",
+   "nazev": "Základní škola a Mateřská škola",
+   "web": "zsostrovacice.cz",
+   "kraj": "Jihomoravský kraj",
+   "stav": "ok",
+   "systemy": [
+    "jidelna.cz",
+    "iCanteen"
+   ],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "29445191",
+   "nazev": "Soukromá ZŠ PIANETA, s.r.o.",
+   "web": "zspianeta.cz",
+   "kraj": "Moravskoslezský kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "00851761",
+   "nazev": "Základní škola",
+   "web": "zssafarikova.cz",
+   "kraj": "Zlínský kraj",
+   "stav": "ok",
+   "systemy": [
+    "jidelna.cz",
+    "iCanteen"
+   ],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "61631973",
+   "nazev": "Základní škola a mateřská škola",
+   "web": "zs-loucen.cz",
+   "kraj": "Středočeský kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": true
+  },
+  {
+   "ico": "70938482",
+   "nazev": "Základní škola a Mateřská škola",
+   "web": "zssvatoborice-mistrin.cz",
+   "kraj": "Jihomoravský kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": true
+  },
+  {
+   "ico": "00583782",
+   "nazev": "Základní škola",
+   "web": "zsomlenicka.cz",
+   "kraj": "Jihočeský kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": true
+  },
+  {
+   "ico": "70995621",
+   "nazev": "Mateřská škola",
+   "web": "ms-kromeriz.cz",
+   "kraj": "Zlínský kraj",
+   "stav": "web_nedostupny",
+   "systemy": []
+  },
+  {
+   "ico": "75015072",
+   "nazev": "Základní škola a Mateřská škola",
+   "web": "obecsobinov.cz",
+   "kraj": "Kraj Vysočina",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": true
+  },
+  {
+   "ico": "75033861",
+   "nazev": "Základní škola a mateřská škola",
+   "web": "zsvsetaty.cz",
+   "kraj": "Středočeský kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "70918333",
+   "nazev": "Mateřská škola",
+   "web": "msruzdka.cz",
+   "kraj": "Zlínský kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": true
+  },
+  {
+   "ico": "65081811",
+   "nazev": "Speciální ZŠ, MŠ a PŠ",
+   "web": "specvdf.cz",
+   "kraj": "Ústecký kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "70988897",
+   "nazev": "Základní škola a Mateřská škola",
+   "web": "zssmidary.cz",
+   "kraj": "Královéhradecký kraj",
+   "stav": "ok",
+   "systemy": [
+    "strava.cz"
+   ],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "70984018",
+   "nazev": "Mateřská škola",
+   "web": "mskorycany.cz",
+   "kraj": "Zlínský kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": true
+  },
+  {
+   "ico": "70695288",
+   "nazev": "Základní škola",
+   "web": "zsdp.cz",
+   "kraj": "Ústecký kraj",
+   "stav": "ok",
+   "systemy": [
+    "strava.cz"
+   ],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "61989665",
+   "nazev": "Základní škola a Mateřská škola",
+   "web": "zsdemlova.cz",
+   "kraj": "Olomoucký kraj",
+   "stav": "ok",
+   "systemy": [
+    "strava.cz"
+   ],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "28259564",
+   "nazev": "Mateřská škola Monty School Praha s.r.o.",
+   "web": "monty-skolka.cz",
+   "kraj": "Hlavní město Praha",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "70983798",
+   "nazev": "Základní škola a Mateřská škola",
+   "web": "zsleskovec.cz",
+   "kraj": "Zlínský kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": true
+  },
+  {
+   "ico": "03305821",
+   "nazev": "Mateřská škola Bušanovice",
+   "web": "busanovice.cz",
+   "kraj": "Jihočeský kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "66362504",
+   "nazev": "34. základní škola",
+   "web": "zs34.plzen-edu.cz",
+   "kraj": "Plzeňský kraj",
+   "stav": "web_nedostupny",
+   "systemy": []
+  },
+  {
+   "ico": "71000348",
+   "nazev": "Mateřská škola Telč",
+   "web": "ji.cz",
+   "kraj": "Kraj Vysočina",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "19997086",
+   "nazev": "Lesní mateřská škola Včelka, z. s.",
+   "web": "lmsostrava.cz",
+   "kraj": "Moravskoslezský kraj",
+   "stav": "ok",
+   "systemy": [
+    "strava.cz"
+   ],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "70986428",
+   "nazev": "Mateřská škola",
+   "web": "msmukarov.cz",
+   "kraj": "Středočeský kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": true
+  },
+  {
+   "ico": "44553196",
+   "nazev": "Základní škola",
+   "web": "zsstribrnicka.cz",
+   "kraj": "Ústecký kraj",
+   "stav": "ok",
+   "systemy": [
+    "strava.cz"
+   ],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "47258721",
+   "nazev": "Základní škola profesora Josefa Brože",
+   "web": "zs-vlachovobrezi.net",
+   "kraj": "Jihočeský kraj",
+   "stav": "ok",
+   "systemy": [
+    "strava.cz"
+   ],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "70876649",
+   "nazev": "Základní škola Oskol",
+   "web": "zsoskol.cz",
+   "kraj": "Zlínský kraj",
+   "stav": "ok",
+   "systemy": [
+    "jidelna.cz",
+    "strava.cz",
+    "iCanteen"
+   ],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "62858939",
+   "nazev": "Základní škola a mateřská škola",
+   "web": "skolakostelec.cz",
+   "kraj": "Olomoucký kraj",
+   "stav": "ok",
+   "systemy": [
+    "strava.cz"
+   ],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "75026902",
+   "nazev": "Základní škola a Mateřská škola",
+   "web": "velkealbrechtice.cz",
+   "kraj": "Moravskoslezský kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "00583391",
+   "nazev": "Základní škola Volary, příspěvková org.",
+   "web": "zsvolary.cz",
+   "kraj": "Jihočeský kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "70991499",
+   "nazev": "Základní škola a mateřská škola",
+   "web": "zspstruzi.eu",
+   "kraj": "Moravskoslezský kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "72081619",
+   "nazev": "MŠ Strakonice, Šumavská 264",
+   "web": "ms-sumavska.strakonice.eu",
+   "kraj": "Jihočeský kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": true
+  },
+  {
+   "ico": "70987955",
+   "nazev": "Základní škola a mateřská škola",
+   "web": "pnl.cz",
+   "kraj": "Královéhradecký kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "70946060",
+   "nazev": "Základní škola a Mateřská škola",
+   "web": "zskolesovice.cz",
+   "kraj": "Středočeský kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "71008799",
+   "nazev": "Mateřská škola",
+   "web": "schekonom.cz",
+   "kraj": "Karlovarský kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "70188874",
+   "nazev": "Základní škola a mateřská škola",
+   "web": "zs-castolovice.cz",
+   "kraj": "Královéhradecký kraj",
+   "stav": "ok",
+   "systemy": [
+    "strava.cz"
+   ],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "47255838",
+   "nazev": "Základní škola",
+   "web": "dukelska.strakonice.cz",
+   "kraj": "Jihočeský kraj",
+   "stav": "ok",
+   "systemy": [
+    "strava.cz"
+   ],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "71000151",
+   "nazev": "Mateřská škola",
+   "web": "msstarehodejovice.cz",
+   "kraj": "Jihočeský kraj",
+   "stav": "web_nedostupny",
+   "systemy": []
+  },
+  {
+   "ico": "68729928",
+   "nazev": "Základní škola a Mateřská škola",
+   "web": "skolavranovice.cz",
+   "kraj": "Jihomoravský kraj",
+   "stav": "ok",
+   "systemy": [
+    "jidelna.cz",
+    "iCanteen"
+   ],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "44555482",
+   "nazev": "Základní škola a Mateřská škola",
+   "web": "zsnova.cz",
+   "kraj": "Ústecký kraj",
+   "stav": "ok",
+   "systemy": [
+    "strava.cz"
+   ],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "61515761",
+   "nazev": "Základní škola speciální",
+   "web": "zsbilina.cz",
+   "kraj": "Ústecký kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "46773282",
+   "nazev": "Spec.ZŠ, příspěvková organizace",
+   "web": "specka-steti.cz",
+   "kraj": "Ústecký kraj",
+   "stav": "ok",
+   "systemy": [
+    "jidelna.cz",
+    "iCanteen"
+   ],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "71010076",
+   "nazev": "Mateřská škola",
+   "web": "msfrantisek.cz",
+   "kraj": "Královéhradecký kraj",
+   "stav": "ok",
+   "systemy": [
+    "strava.cz"
+   ],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "69972141",
+   "nazev": "25. základní škola",
+   "web": "zs25.plzen-edu.cz",
+   "kraj": "Plzeňský kraj",
+   "stav": "ok",
+   "systemy": [
+    "strava.cz"
+   ],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "71002022",
+   "nazev": "Mateřská škola",
+   "web": "ms.lany,cz",
+   "kraj": "Středočeský kraj",
+   "stav": "web_nedostupny",
+   "systemy": []
+  },
+  {
+   "ico": "45211353",
+   "nazev": "Základní škola",
+   "web": "zszerotinova.cz",
+   "kraj": "Zlínský kraj",
+   "stav": "ok",
+   "systemy": [
+    "jidelna.cz",
+    "iCanteen"
+   ],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "64328511",
+   "nazev": "Mateřská škola SKŘIVÁNEK",
+   "web": "skolka-skrivanek.cz",
+   "kraj": "Jihomoravský kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "28725611",
+   "nazev": "Mateřská škola U Bílého králíka",
+   "web": "ubilehokralika.cz",
+   "kraj": "Liberecký kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "70188955",
+   "nazev": "Základní škola, Nasavrky, okres Chrudim",
+   "web": "zsnasavrky.cz",
+   "kraj": "Pardubický kraj",
+   "stav": "ok",
+   "systemy": [
+    "strava.cz"
+   ],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "70201021",
+   "nazev": "Mateřská škola Písnička",
+   "web": "mspisnicka.cz",
+   "kraj": "Ústecký kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": true
+  },
+  {
+   "ico": "70943150",
+   "nazev": "Základní škola T. G. Masaryka a MŠ",
+   "web": "tgmpisek.cz",
+   "kraj": "Jihočeský kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "70926921",
+   "nazev": "Základní škola",
+   "web": "zskolovraty.cz",
+   "kraj": "Hlavní město Praha",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": true
+  },
+  {
+   "ico": "47255862",
+   "nazev": "Základní škola",
+   "web": "podstr.cz",
+   "kraj": "Jihočeský kraj",
+   "stav": "web_nedostupny",
+   "systemy": []
+  },
+  {
+   "ico": "47013532",
+   "nazev": "Základní škola a Mateřská škola",
+   "web": "zslubna.eu",
+   "kraj": "Středočeský kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": true
+  },
+  {
+   "ico": "00830984",
+   "nazev": "Základní škola",
+   "web": "11zsmost.cz",
+   "kraj": "Ústecký kraj",
+   "stav": "ok",
+   "systemy": [
+    "strava.cz"
+   ],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "70922616",
+   "nazev": "Mateřská škola Kaplice, 1. máje 771",
+   "web": "mskaplice.cz",
+   "kraj": "Jihočeský kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "71000984",
+   "nazev": "Základní škola a Mateřská škola",
+   "web": "zschotebuz.cz",
+   "kraj": "Moravskoslezský kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "11964944",
+   "nazev": "Mateřská škola Letovice",
+   "web": "ms-tyrsova.cz",
+   "kraj": "Jihomoravský kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": true
+  },
+  {
+   "ico": "02640007",
+   "nazev": "ZŠ a SŠ JEDNA RADOST",
+   "web": "skola1radost.cz",
+   "kraj": "Středočeský kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "49458876",
+   "nazev": "Základní škola",
+   "web": "zs.mokra.cz",
+   "kraj": "Jihomoravský kraj",
+   "stav": "web_nedostupny",
+   "systemy": []
+  },
+  {
+   "ico": "21521514",
+   "nazev": "Církevní mateřská škola Německého řádu",
+   "web": "konzervator.cz",
+   "kraj": "Moravskoslezský kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "63788225",
+   "nazev": "Mateřská škola",
+   "web": "mssukova.cz",
+   "kraj": "Ústecký kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "45238685",
+   "nazev": "Základní škola a Mateřská škola",
+   "web": "zsnamest.cz",
+   "kraj": "Olomoucký kraj",
+   "stav": "ok",
+   "systemy": [
+    "strava.cz"
+   ],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "68402112",
+   "nazev": "Mateřská škola",
+   "web": "msbojasova.cz",
+   "kraj": "Hlavní město Praha",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "28975979",
+   "nazev": "Mateřská škola MAMA s.r.o.",
+   "web": "msmama.cz",
+   "kraj": "Hlavní město Praha",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": true
+  },
+  {
+   "ico": "60610859",
+   "nazev": "Základní škola a mateřská škola",
+   "web": "predslav.cz",
+   "kraj": "Plzeňský kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "62537717",
+   "nazev": "Mateřská škola",
+   "web": "msprazskacb.cz",
+   "kraj": "Jihočeský kraj",
+   "stav": "ok",
+   "systemy": [
+    "strava.cz"
+   ],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "71010980",
+   "nazev": "Základní škola",
+   "web": "zsmoravanyubrna.cz",
+   "kraj": "Jihomoravský kraj",
+   "stav": "ok",
+   "systemy": [
+    "jidelna.cz",
+    "iCanteen"
+   ],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "09117598",
+   "nazev": "Mateřská škola Květnice",
+   "web": "mskvetnice.cz",
+   "kraj": "Středočeský kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": true
+  },
+  {
+   "ico": "70107017",
+   "nazev": "ZŠ A ZUŠ",
+   "web": "jesenickaskola.cz",
+   "kraj": "Středočeský kraj",
+   "stav": "ok",
+   "systemy": [
+    "jiný systém (dobrajidelna, e-jidelna…)"
+   ],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "71011901",
+   "nazev": "Základní škola",
+   "web": "zszamrsk.cz",
+   "kraj": "Pardubický kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": true
+  },
+  {
+   "ico": "60609214",
+   "nazev": "ZŠ Františka kardinála Tomáška",
+   "web": "zstgm-studenka.cz",
+   "kraj": "Moravskoslezský kraj",
+   "stav": "ok",
+   "systemy": [
+    "strava.cz"
+   ],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "72741961",
+   "nazev": "Základní škola",
+   "web": "zsms-novesedlo.cz",
+   "kraj": "Ústecký kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": true
+  },
+  {
+   "ico": "68402104",
+   "nazev": "Mateřská škola",
+   "web": "msusluncove.cz",
+   "kraj": "Hlavní město Praha",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": true
+  },
+  {
+   "ico": "27161102",
+   "nazev": "Magic Hill mateřská škola s.r.o.",
+   "web": "magic-hill.cz",
+   "kraj": "Středočeský kraj",
+   "stav": "ok",
+   "systemy": [
+    "strava.cz"
+   ],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "60157941",
+   "nazev": "ZŠ Horní Jelení, příspěvková organizace",
+   "web": "zshj.cz",
+   "kraj": "Pardubický kraj",
+   "stav": "ok",
+   "systemy": [
+    "strava.cz"
+   ],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "48512630",
+   "nazev": "Základní škola a mateřská škola",
+   "web": "zskridlovicka.cz",
+   "kraj": "Jihomoravský kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "75018616",
+   "nazev": "Základní škola Františka Kupky",
+   "web": "zsdobruska.cz",
+   "kraj": "Královéhradecký kraj",
+   "stav": "ok",
+   "systemy": [
+    "strava.cz"
+   ],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "70919585",
+   "nazev": "Mateřská škola",
+   "web": "chabarovicka.cz",
+   "kraj": "Hlavní město Praha",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": true
+  },
+  {
+   "ico": "70157308",
+   "nazev": "Základní škola a mateřská škola",
+   "web": "zsmsprosetin.cz",
+   "kraj": "Pardubický kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": true
+  },
+  {
+   "ico": "46748059",
+   "nazev": "Základní škola a mateřská škola logoped.",
+   "web": "ssplbc.cz",
+   "kraj": "Liberecký kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "70867917",
+   "nazev": "Základní škola",
+   "web": "zstuhackova.cz",
+   "kraj": "Jihomoravský kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "75027127",
+   "nazev": "Základní škola dr. Miroslava Tyrše",
+   "web": "zsmt.cz",
+   "kraj": "Moravskoslezský kraj",
+   "stav": "ok",
+   "systemy": [
+    "strava.cz"
+   ],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "75028948",
+   "nazev": "Základní škola",
+   "web": "zsceladna.cz",
+   "kraj": "Moravskoslezský kraj",
+   "stav": "ok",
+   "systemy": [
+    "eStrava/Ulrich"
+   ],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "70282226",
+   "nazev": "Základní škola",
+   "web": "zs-oslavickavm.cz",
+   "kraj": "Kraj Vysočina",
+   "stav": "ok",
+   "systemy": [
+    "strava.cz"
+   ],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "70995141",
+   "nazev": "Základní škola a Mateřská škola",
+   "web": "zsradostice.cz",
+   "kraj": "Jihomoravský kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": true
+  },
+  {
+   "ico": "75027259",
+   "nazev": "Základní škola a Mateřská škola",
+   "web": "zs-ms-kyjovice.cz",
+   "kraj": "Moravskoslezský kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": true
+  },
+  {
+   "ico": "70225940",
+   "nazev": "Mateřská škola Skřivánek",
+   "web": "msskrivanek.cz",
+   "kraj": "Ústecký kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": true
+  },
+  {
+   "ico": "75030322",
+   "nazev": "Základní škola a Mateřská škola",
+   "web": "skolajivina.cz",
+   "kraj": "Středočeský kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": true
+  },
+  {
+   "ico": "49535021",
+   "nazev": "ZŠ T. G. Masaryka a MŠ",
+   "web": "zsporicany.cz",
+   "kraj": "Středočeský kraj",
+   "stav": "ok",
+   "systemy": [
+    "iCanteen"
+   ],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "44159960",
+   "nazev": "Reálné gymnázium a ZŠ Otto Wichterleho",
+   "web": "rg.prostejov.cz",
+   "kraj": "Olomoucký kraj",
+   "stav": "ok",
+   "systemy": [
+    "strava.cz"
+   ],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "75135540",
+   "nazev": "Základní škola",
+   "web": "zsunhost.cz",
+   "kraj": "Středočeský kraj",
+   "stav": "ok",
+   "systemy": [
+    "strava.cz"
+   ],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "70983313",
+   "nazev": "Základní škola a Mateřská škola",
+   "web": "zsmsdolnistudenky.cz",
+   "kraj": "Olomoucký kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": true
+  },
+  {
+   "ico": "70984352",
+   "nazev": "Mateřská škola",
+   "web": "mshradec.eu",
+   "kraj": "Moravskoslezský kraj",
+   "stav": "ok",
+   "systemy": [
+    "jidelna.cz",
+    "iCanteen"
+   ],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "75033003",
+   "nazev": "Mateřská škola Berušky",
+   "web": "msberusky.cz",
+   "kraj": "Středočeský kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": true
+  },
+  {
+   "ico": "60611341",
+   "nazev": "Základní škola a Mateřská škola",
+   "web": "zshermanovahut.cz",
+   "kraj": "Plzeňský kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": true
+  },
+  {
+   "ico": "70989052",
+   "nazev": "Základní škola a Mateřská škola",
+   "web": "zsndvory.cz",
+   "kraj": "Středočeský kraj",
+   "stav": "ok",
+   "systemy": [
+    "strava.cz"
+   ],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "75017725",
+   "nazev": "Základní škola",
+   "web": "obeczachlumi.cz",
+   "kraj": "Pardubický kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "05011540",
+   "nazev": "CHINCEN - mateřská škola, s.r.o.",
+   "web": "chincen.cz",
+   "kraj": "Hlavní město Praha",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "47014318",
+   "nazev": "Základní škola a Mateřská škola",
+   "web": "zssenomaty.cz\t",
+   "kraj": "Středočeský kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": true
+  },
+  {
+   "ico": "72564750",
+   "nazev": "Mateřská škola Svémyslice",
+   "web": "svemyslice.eu",
+   "kraj": "Středočeský kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "06072283",
+   "nazev": "Mateřská škola Beranov",
+   "web": "ms-beranov.cz",
+   "kraj": "Hlavní město Praha",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": true
+  },
+  {
+   "ico": "70988331",
+   "nazev": "Základní škola a Mateřská škola Český Rudolec",
+   "web": "zsceskyrudolec.cz",
+   "kraj": "Jihočeský kraj",
+   "stav": "ok",
+   "systemy": [
+    "strava.cz"
+   ],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "70839824",
+   "nazev": "Základní škola praktická",
+   "web": "zsprce.cz",
+   "kraj": "Ústecký kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": true
+  },
+  {
+   "ico": "70998990",
+   "nazev": "Mateřská škola",
+   "web": "ms-kojcice.cz",
+   "kraj": "Kraj Vysočina",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": true
+  },
+  {
+   "ico": "71008110",
+   "nazev": "Základní škola",
+   "web": "zsmalenovice.cz",
+   "kraj": "Zlínský kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "25994581",
+   "nazev": "ZŠ Bodláka a Pampelišky, o.p.s.",
+   "web": "zsbp.cz",
+   "kraj": "Královéhradecký kraj",
+   "stav": "web_nedostupny",
+   "systemy": []
+  },
+  {
+   "ico": "72745134",
+   "nazev": "Základní škola a mateřská škola",
+   "web": "seznam",
+   "kraj": "Ústecký kraj",
+   "stav": "web_nedostupny",
+   "systemy": []
+  },
+  {
+   "ico": "49777505",
+   "nazev": "7. základní škola a mateřská škola",
+   "web": "zs7.plzen-edu.cz",
+   "kraj": "Plzeňský kraj",
+   "stav": "web_nedostupny",
+   "systemy": []
+  },
+  {
+   "ico": "27529410",
+   "nazev": "ABLE MŠ a znalecká a realitní a.s.",
+   "web": "ablems.cz",
+   "kraj": "Královéhradecký kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "63109719",
+   "nazev": "MŠ Tyršovka v Praze 12",
+   "web": "tyrsovka.cz",
+   "kraj": "Hlavní město Praha",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": true
+  },
+  {
+   "ico": "21621047",
+   "nazev": "Základní škola Žlutý trpaslík",
+   "web": "slunce.info",
+   "kraj": "Středočeský kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "70944105",
+   "nazev": "Základní škola",
+   "web": "zschaba.cz",
+   "kraj": "Ústecký kraj",
+   "stav": "ok",
+   "systemy": [
+    "strava.cz"
+   ],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "11845775",
+   "nazev": "Mateřská škola",
+   "web": "prestavlky-rce.cz",
+   "kraj": "Ústecký kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "70285730",
+   "nazev": "Mateřská škola",
+   "web": "vsetickova-brno.cz",
+   "kraj": "Jihomoravský kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": true
+  },
+  {
+   "ico": "28660790",
+   "nazev": "GALILEO SCHOOL - MŠ a ZŠ, s. r. o.",
+   "web": "galileoschool.cz",
+   "kraj": "Moravskoslezský kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "21551359",
+   "nazev": "Mateřská škola Cvrček",
+   "web": "strazkovice.cz",
+   "kraj": "Jihočeský kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "06000061",
+   "nazev": "Mateřská škola Němčice",
+   "web": "ms-nemcice.cz",
+   "kraj": "Pardubický kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": true
+  },
+  {
+   "ico": "75020211",
+   "nazev": "Základní škola Trávníky",
+   "web": "zsotrtrav.cz",
+   "kraj": "Zlínský kraj",
+   "stav": "ok",
+   "systemy": [
+    "strava.cz"
+   ],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "48664421",
+   "nazev": "Mateřská škola",
+   "web": "mybox.cz",
+   "kraj": "Středočeský kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "47935391",
+   "nazev": "Základní škola",
+   "web": "zskorycany.cz",
+   "kraj": "Zlínský kraj",
+   "stav": "ok",
+   "systemy": [
+    "strava.cz"
+   ],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "75034620",
+   "nazev": "Základní škola a mateřská škola",
+   "web": "zsklaster.cz",
+   "kraj": "Středočeský kraj",
+   "stav": "ok",
+   "systemy": [
+    "jidelna.cz",
+    "iCanteen"
+   ],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "70995541",
+   "nazev": "Mateřská škola",
+   "web": "ms-kromeriz.cz",
+   "kraj": "Zlínský kraj",
+   "stav": "web_nedostupny",
+   "systemy": []
+  },
+  {
+   "ico": "48847721",
+   "nazev": "Základní škola J. A. Komenského",
+   "web": "zskyjov.cz",
+   "kraj": "Jihomoravský kraj",
+   "stav": "ok",
+   "systemy": [
+    "strava.cz"
+   ],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "75021480",
+   "nazev": "Mateřská škola",
+   "web": "mssuchy.cz",
+   "kraj": "Jihomoravský kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": true
+  },
+  {
+   "ico": "75030381",
+   "nazev": "Mateřská škola",
+   "web": "mspodebrady.cz",
+   "kraj": "Středočeský kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "70992436",
+   "nazev": "Mateřská škola",
+   "web": "mslaz.cz",
+   "kraj": "Středočeský kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": true
+  },
+  {
+   "ico": "75029103",
+   "nazev": "Mateřská škola",
+   "web": "msfrycovice.cz",
+   "kraj": "Moravskoslezský kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": true
+  },
+  {
+   "ico": "25338790",
+   "nazev": "MŠ a ZŠ Sluníčko, s.r.o.",
+   "web": "slunicko-montessori.cz",
+   "kraj": "Jihomoravský kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "71340858",
+   "nazev": "Soukromá MŠ a ZŠ Petrklíč",
+   "web": "petrklic.net",
+   "kraj": "Hlavní město Praha",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "75084481",
+   "nazev": "Mateřská škola",
+   "web": "msstarabela.cz",
+   "kraj": "Moravskoslezský kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "75031281",
+   "nazev": "Základní škola Vítězslava Hálka",
+   "web": "zsodolenavoda.cz",
+   "kraj": "Středočeský kraj",
+   "stav": "ok",
+   "systemy": [
+    "jidelna.cz"
+   ],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "70996601",
+   "nazev": "Mateřská škola",
+   "web": "msnovaves.cz",
+   "kraj": "Středočeský kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "75022630",
+   "nazev": "Základní škola a Mateřská škola",
+   "web": "zsholasice.cz",
+   "kraj": "Jihomoravský kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": true
+  },
+  {
+   "ico": "61963691",
+   "nazev": "Základní škola",
+   "web": "zsmasaryk.cz",
+   "kraj": "Moravskoslezský kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": true
+  },
+  {
+   "ico": "70989494",
+   "nazev": "Mateřská škola",
+   "web": "mshrdliv.cz",
+   "kraj": "Středočeský kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "75022206",
+   "nazev": "Mateřská škola",
+   "web": "msstrani.cz",
+   "kraj": "Zlínský kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": true
+  },
+  {
+   "ico": "47611600",
+   "nazev": "Mateřská škola",
+   "web": "mssulanskeho.cz",
+   "kraj": "Hlavní město Praha",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": true
+  },
+  {
+   "ico": "75023164",
+   "nazev": "Mateřská škola",
+   "web": "zkedu.cz",
+   "kraj": "Zlínský kraj",
+   "stav": "web_nedostupny",
+   "systemy": []
+  },
+  {
+   "ico": "49137131",
+   "nazev": "Mateřská škola",
+   "web": "mspostorna.cz",
+   "kraj": "Jihomoravský kraj",
+   "stav": "ok",
+   "systemy": [
+    "jidelna.cz",
+    "iCanteen"
+   ],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "07485018",
+   "nazev": "ZŠ a MŠ Gaudi, s.r.o.",
+   "web": "skolagaudi.cz",
+   "kraj": "Moravskoslezský kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "65993179",
+   "nazev": "Mateřská škola U Veverek",
+   "web": "msuveverek.cz",
+   "kraj": "Hlavní město Praha",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": true
+  },
+  {
+   "ico": "48954381",
+   "nazev": "Základní škola a Mateřská škola",
+   "web": "zsmsnovyknin.cz",
+   "kraj": "Středočeský kraj",
+   "stav": "ok",
+   "systemy": [
+    "strava.cz"
+   ],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "71196234",
+   "nazev": "Základní škola",
+   "web": "1zdar.cz",
+   "kraj": "Kraj Vysočina",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": true
+  },
+  {
+   "ico": "70924198",
+   "nazev": "Mateřská škola",
+   "web": "e-msbenesovska.cz",
+   "kraj": "Hlavní město Praha",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": true
+  },
+  {
+   "ico": "71002570",
+   "nazev": "Mateřská škola",
+   "web": "msjanosikova.cz",
+   "kraj": "Jihomoravský kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": true
+  },
+  {
+   "ico": "64328431",
+   "nazev": "Mateřská škola",
+   "web": "msvidenska.cz",
+   "kraj": "Jihomoravský kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "70299749",
+   "nazev": "Základní škola a Mateřská škola",
+   "web": "zszlechov.cz",
+   "kraj": "Zlínský kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": true
+  },
+  {
+   "ico": "75001241",
+   "nazev": "Základní škola a Mateřská škola",
+   "web": "dac.cz",
+   "kraj": "Jihočeský kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "10884076",
+   "nazev": "Mateřská škola Lísteček Spešov",
+   "web": "msspesov.cz",
+   "kraj": "Jihomoravský kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": true
+  },
+  {
+   "ico": "19761562",
+   "nazev": "Základní škola Sen s.r.o.",
+   "web": "skolasen.cz",
+   "kraj": "Plzeňský kraj",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "63832313",
+   "nazev": "MŠ Pastelka v Praze 12",
+   "web": "pastelkams.cz",
+   "kraj": "Hlavní město Praha",
+   "stav": "ok",
+   "systemy": [],
+   "vlastni_jidelnicek": true
+  },
+  {
+   "ico": "49463276",
+   "nazev": "Základní škola T.G.M.",
+   "web": "zstgm.cz",
+   "kraj": "Jihomoravský kraj",
+   "stav": "ok",
+   "systemy": [
+    "strava.cz"
+   ],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "68157797",
+   "nazev": "Základní škola",
+   "web": "5zsfm.cz",
+   "kraj": "Moravskoslezský kraj",
+   "stav": "ok",
+   "systemy": [
+    "eStrava/Ulrich"
+   ],
+   "vlastni_jidelnicek": false
+  },
+  {
+   "ico": "75026236",
+   "nazev": "Základní škola a Mateřská škola",
+   "web": "zsamslichnov.cz",
+   "kraj": "Moravskoslezský kraj",
+   "stav": "ok",
+   "systemy": [
+    "strava.cz"
+   ],
+   "vlastni_jidelnicek": false
+  }
+ ]
+}
