@@ -1195,6 +1195,7 @@ function odhadniTyp(polozka){
 }
 
 let filtrTypu = "vse";
+let jenSMenu = store.get("jenSMenu", true);   // schová školy, které zatím nezveřejnily jídelník
 
 function vykresliDostupneSkoly(){
   const wrap = $("#skolaDostupne");
@@ -1212,7 +1213,12 @@ function vykresliDostupneSkoly(){
   const vsechny = (registrSkol || (AKTIVNI ? [AKTIVNI] : [])).filter(s => !s.vlastni);
   const aktivniId = AKTIVNI?.id ?? null;
   vykresliVlastniJidelny(aktivniId);
-  const filtrovane = filtrTypu === "vse" ? vsechny : vsechny.filter(s => odhadniTyp(s).includes(filtrTypu));
+  const bezMenu = vsechny.filter(s => s.bez_listku && s.id !== aktivniId).length;
+  const filtrovane = vsechny
+    .filter(s => filtrTypu === "vse" || odhadniTyp(s).includes(filtrTypu))
+    .filter(s => !jenSMenu || !s.bez_listku || s.id === aktivniId);
+  const popis = $("#skolaJenMenu")?.parentElement;
+  if (popis) popis.lastChild.textContent = ` Jen školy s jídelníčkem${bezMenu ? ` (skrývá ${bezMenu})` : ""}`;
 
   if (S.oblibene.size){
     const oblibene = filtrovane.filter(s => S.oblibene.has(s.id))
@@ -1241,7 +1247,7 @@ function vykresliDostupneSkoly(){
 
   Object.keys(podleMesta).sort((a, b) => a.localeCompare(b, "cs")).forEach(mesto => {
     const polozky = podleMesta[mesto].sort((a, b) =>
-      (a.kratky || a.nazev).localeCompare(b.kratky || b.nazev, "cs"));
+      (!!a.bez_listku - !!b.bez_listku) || (a.kratky || a.nazev).localeCompare(b.kratky || b.nazev, "cs"));   // bez jídelníčku nakonec
     const maAktivni = polozky.some(s => s.id === aktivniId);
 
     const sekce = document.createElement("div");
@@ -1486,6 +1492,8 @@ $$(".skola-typ-filtr button").forEach(b => b.addEventListener("click", () => {
   });
   vykresliDostupneSkoly();
 }));
+$("#skolaJenMenu").checked = jenSMenu;
+$("#skolaJenMenu").addEventListener("change", e => { jenSMenu = e.target.checked; store.set("jenSMenu", jenSMenu); haptic(); vykresliDostupneSkoly(); });
 $("#skolaQuery").addEventListener("input", e => {
   clearTimeout(hledaniTimer);
   hledaniTimer = setTimeout(() => hledejSkolu(e.target.value), 400);

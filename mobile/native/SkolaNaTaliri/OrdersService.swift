@@ -300,6 +300,7 @@ struct OrderChildPicker: View {
                         .padding(.horizontal, 14).padding(.vertical, 6)
                         .background(k == i ? T.accent : Color.clear, in: Capsule())
                 }.buttonStyle(.plain)
+                .accessibilityLabel("Dítě \(givenName(n))").accessibilityAddTraits(k == i ? .isSelected : [])
             }
             Group {
                 if names.count > 3 {
@@ -323,9 +324,10 @@ struct OrderGlyph: View {
     var body: some View {
         switch orders.status(date, schoolId: state.active.id) {
         case .menu?: Circle().fill(sel ? T.onAccent : T.accent).frame(width: 6, height: 6).frame(height: 13)
-        case .opted_out?: Image(systemName: "xmark.circle.fill").font(.system(size: 13))
+                .accessibilityLabel("Oběd přihlášen")
+        case .opted_out?: Image(systemName: "xmark.circle.fill").font(.system(size: 13)).accessibilityLabel("Odhlášeno z oběda")
                 .foregroundStyle(sel ? T.onAccent : T.red)
-        case .nothing?: Image(systemName: "circle.dotted").font(.system(size: 12))
+        case .nothing?: Image(systemName: "circle.dotted").font(.system(size: 12)).accessibilityLabel("Oběd není přihlášen")
                 .foregroundStyle(sel ? T.onAccent.opacity(0.6) : T.ink3.opacity(0.6))
         case nil: EmptyView()
         }

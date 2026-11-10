@@ -49,6 +49,19 @@ struct InfoView: View {
                     }.padding(14).frame(maxWidth: .infinity).card()
                 }.buttonStyle(PressableStyle())
 
+                Link(destination: Self.reportURL(school: state.active)) {
+                    HStack(spacing: 14) {
+                        Image(systemName: "exclamationmark.bubble").foregroundStyle(T.ink2).frame(width: 40, height: 40)
+                            .background(T.track, in: RoundedRectangle(cornerRadius: 12, style: .continuous))
+                        VStack(alignment: .leading, spacing: 2) {
+                            Text("Nahlásit chybu").font(.system(size: 16, weight: .bold)).foregroundStyle(T.ink)
+                            Text("Špatný jídelníček nebo údaje školy.").font(.system(size: 13)).foregroundStyle(T.ink2)
+                        }
+                        Spacer()
+                        Image(systemName: "arrow.up.right").font(.system(size: 13, weight: .semibold)).foregroundStyle(T.ink3)
+                    }.padding(14).frame(maxWidth: .infinity).card()
+                }
+
                 Link(destination: URL(string: "https://zdkdsgn.github.io/dubec-na-taliri/soukromi.html")!) {
                     HStack(spacing: 14) {
                         Image(systemName: "hand.raised").foregroundStyle(T.ink2).frame(width: 40, height: 40)
@@ -248,6 +261,16 @@ struct InfoView: View {
                 }.font(.system(size: 15)).padding(.vertical, 13)
             }
         } else { row(k, v) }
+    }
+
+    /// Předvyplněné hlášení na GitHubu: škola, její ID a verze appky.
+    static func reportURL(school: SkolaPolozka) -> URL {
+        let v = Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String ?? "?"
+        let b = Bundle.main.infoDictionary?["CFBundleVersion"] as? String ?? "?"
+        let body = "Škola: \(school.nazev)\nID: \(school.id)\nVerze appky: \(v) (\(b))\n\nCo je špatně:\n"
+        var c = URLComponents(string: "https://github.com/zdkdsgn/dubec-na-taliri/issues/new")!
+        c.queryItems = [URLQueryItem(name: "title", value: "Chyba u školy: \(school.jmeno)"), URLQueryItem(name: "body", value: body)]
+        return c.url!
     }
 
     private var divider: some View { Rectangle().fill(T.cardBorder).frame(height: 1) }

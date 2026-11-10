@@ -144,6 +144,9 @@ struct MealCard: View {
             .saturation(past ? 0.5 : 1)
         }
         .buttonStyle(PressableStyle())
+        .accessibilityAction(named: Text(ordered ? "Odhlásit na webu jídelny" : "Přihlásit na webu jídelny")) {
+            if isMain, OrdersService.supports(state.active.id) { showOrder = true }
+        }
         .simultaneousGesture(LongPressGesture(minimumDuration: 0.45).onEnded { _ in
             guard isMain, OrdersService.supports(state.active.id) else { return }
             UIImpactFeedbackGenerator(style: .medium).impactOccurred()

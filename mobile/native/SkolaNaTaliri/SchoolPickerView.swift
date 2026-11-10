@@ -19,6 +19,7 @@ struct SchoolPickerView: View {
     @State private var typ = "vse"
     @State private var expanded: Set<String> = []
     @State private var adding = false
+    @AppStorage("skola.jenSMenu") private var onlyMenu = true
     /// První spuštění: žádná škola není předvybraná, výběr nejde zavřít bez volby.
     var welcome = false
 
@@ -28,6 +29,7 @@ struct SchoolPickerView: View {
         let base = state.schools.isEmpty ? (state.hasSchool ? [state.active] : []) : state.schools
         return base.filter { s in
             (typ == "vse" || s.typy.contains(typ)) &&
+            (!onlyMenu || s.bez_listku != true || s.id == state.active.id) &&
             (query.count < 2 || MenuLogic.normalize(s.nazev).contains(MenuLogic.normalize(query)) ||
              MenuLogic.normalize(s.jmeno).contains(MenuLogic.normalize(query)))
         }
@@ -42,6 +44,11 @@ struct SchoolPickerView: View {
                 Section {
                     Picker("", selection: $typ) { ForEach(typy, id: \.0) { Text($0.1).tag($0.0) } }
                         .pickerStyle(.segmented)
+                    let hidden = state.schools.filter { $0.bez_listku == true && $0.id != state.active.id }.count
+                    Toggle(isOn: $onlyMenu) {
+                        Text("Jen školy s jídelníčkem" + (hidden > 0 && onlyMenu ? " (skrývá \(hidden))" : ""))
+                            .font(.system(size: 14, weight: .semibold)).foregroundStyle(T.ink2)
+                    }.tint(T.accent).padding(.top, 6)
                 }.listRowBackground(Color.clear).listRowInsets(EdgeInsets())
 
                 Section("Moje jídelny (iCanteen)") {
@@ -60,7 +67,7 @@ struct SchoolPickerView: View {
                     Section("Výsledky") { ForEach(list) { row($0) } }
                 } else {
                     ForEach(grouped.keys.sorted { $0.localizedCompare($1) == .orderedAscending }, id: \.self) { mesto in
-                        let items = (grouped[mesto] ?? []).sorted { $0.jmeno.localizedCompare($1.jmeno) == .orderedAscending }
+                        let items = (grouped[mesto] ?? []).sorted { ($0.bez_listku == true ? 1 : 0, $0.jmeno) < ($1.bez_listku == true ? 1 : 0, $1.jmeno) }
                         DisclosureGroup(isExpanded: Binding(
                             get: { expanded.contains(mesto) || items.contains { $0.id == state.active.id } },
                             set: { if $0 { expanded.insert(mesto) } else { expanded.remove(mesto) } })) {
