@@ -4117,7 +4117,7 @@
       {
         "c": "presnidavka",
         "m": 1,
-        "n": "Rohlík s lučinou, okurka, rajče, mléko",
+        "n": "Rohlík s žerve, okurka, rajče, mléko",
         "d": "",
         "a": [
           1,
@@ -4127,7 +4127,7 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Rohlík s lučinou, okurka, rajče, mléko",
+            "n": "Rohlík s žerve, okurka, rajče, mléko",
             "a": [
               1,
               3,
@@ -4211,7 +4211,7 @@
         "c": "obed",
         "m": 1,
         "n": "Krůtí maso po čínsku",
-        "d": "Rýže · Nektarinka · Citronový čaj",
+        "d": "Rýže · Bluma · Citronový čaj",
         "a": [
           1,
           3,
@@ -4234,7 +4234,7 @@
           },
           {
             "l": "Doplněk",
-            "n": "Nektarinka",
+            "n": "Bluma",
             "a": []
           },
           {
@@ -4247,13 +4247,18 @@
       {
         "c": "svacina",
         "m": 1,
-        "n": "Rohlík, mrkvová pomazánka, mrkev, sirup",
-        "d": "",
+        "n": "Rohlík, mrkvová pomazánka, mrkev",
+        "d": "Citronový čaj",
         "a": [],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Rohlík, mrkvová pomazánka, mrkev, sirup",
+            "n": "Rohlík, mrkvová pomazánka, mrkev",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Citronový čaj",
             "a": []
           }
         ]
@@ -4299,7 +4304,7 @@
         "c": "obed",
         "m": 1,
         "n": "Čevabčiči",
-        "d": "Brambory · Jogurtový dip, okurkový salát · Čaj lesní směs",
+        "d": "Brambory · Jogurtový dip, okurkový salát · Čaj lesní směs, mošt",
         "a": [
           1,
           3,
@@ -4327,7 +4332,7 @@
           },
           {
             "l": "Nápoj",
-            "n": "Čaj lesní směs",
+            "n": "Čaj lesní směs, mošt",
             "a": []
           }
         ]
@@ -4392,7 +4397,7 @@
         "c": "obed",
         "m": 1,
         "n": "Kuře na paprice",
-        "d": "Těstoviny · Jahodový čaj",
+        "d": "Těstoviny · Be-be brumík · Jahodový čaj",
         "a": [
           1,
           7
@@ -4409,6 +4414,11 @@
           {
             "l": "Příloha",
             "n": "Těstoviny",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Be-be brumík",
             "a": []
           },
           {
@@ -4689,7 +4699,7 @@
         "c": "obed",
         "m": 1,
         "n": "Mexický guláš",
-        "d": "Rýže · Sirup",
+        "d": "Rýže · Ovocný snejk · Sirup",
         "a": [
           1,
           7
@@ -4706,6 +4716,11 @@
           {
             "l": "Příloha",
             "n": "Rýže",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovocný snejk",
             "a": []
           },
           {
@@ -5045,13 +5060,13 @@
       {
         "c": "svacina",
         "m": 1,
-        "n": "Chléb s máslem a uzeným sýrem, mléko",
+        "n": "Chléb s máslem a uzeným sýrem, paprika, mléko",
         "d": "",
         "a": [],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Chléb s máslem a uzeným sýrem, mléko",
+            "n": "Chléb s máslem a uzeným sýrem, paprika, mléko",
             "a": []
           }
         ]
@@ -5265,12 +5280,12 @@
       },
       {
         "c": "polevka",
-        "n": "Kmínová s vejci a pohankou",
+        "n": "Zeleninová s pohankou",
         "d": "",
         "a": [
           1,
-          3,
-          7
+          7,
+          9
         ]
       },
       {

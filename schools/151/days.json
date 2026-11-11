@@ -2511,7 +2511,7 @@
         "c": "obed",
         "m": 1,
         "n": "Záhorácký závitek 1",
-        "d": "Bramborové knedlíky 1, 3 · Ovoce · Ovocný čaj, mléko 7, voda",
+        "d": "Bramborové knedlíky 1, 3 · Hruška, pomeranč, jablko · Ovocný čaj, mléko 7, voda",
         "a": [],
         "p": [
           {
@@ -2526,7 +2526,7 @@
           },
           {
             "l": "Doplněk",
-            "n": "Ovoce",
+            "n": "Hruška, pomeranč, jablko",
             "a": []
           },
           {
@@ -2540,7 +2540,7 @@
         "c": "obed2",
         "m": 2,
         "n": "Tortilly plněné sýrem a zeleninou 1, 7 česnekový dip 7",
-        "d": "Ovoce · Ovocný čaj, mléko 7, voda",
+        "d": "Hruška, pomeranč, jablko · Ovocný čaj, mléko 7, voda",
         "a": [],
         "p": [
           {
@@ -2550,7 +2550,7 @@
           },
           {
             "l": "Doplněk",
-            "n": "Ovoce",
+            "n": "Hruška, pomeranč, jablko",
             "a": []
           },
           {
@@ -3732,6 +3732,70 @@
           {
             "l": "Doplněk",
             "n": "Moučník 1, 3, 7, 8, 11",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný nápoj, mléko 7, voda",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-12-15": {
+    "vydej": "11:30–14:15",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Slepičí se zeleninou a nudlemi 1, 3, 7, 9",
+        "d": "",
+        "a": []
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Pečený rybí karbanátek 1, 3, 4, 7",
+        "d": "Bramborová kaše 7 · Zeleninový bar · Ovocný nápoj, mléko 7, voda",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Pečený rybí karbanátek 1, 3, 4, 7",
+            "a": []
+          },
+          {
+            "l": "Příloha",
+            "n": "Bramborová kaše 7",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zeleninový bar",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný nápoj, mléko 7, voda",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "m": 2,
+        "n": "Bramborové gnocchi s krůtím masem v sýrové omáčce s čedarem 1, 3, 7",
+        "d": "Zeleninový bar · Ovocný nápoj, mléko 7, voda",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Bramborové gnocchi s krůtím masem v sýrové omáčce s čedarem 1, 3, 7",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zeleninový bar",
             "a": []
           },
           {

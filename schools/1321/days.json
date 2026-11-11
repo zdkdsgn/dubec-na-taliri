@@ -4580,6 +4580,37 @@
     "vydej": "11:00–13:00",
     "chody": [
       {
+        "c": "presnidavka",
+        "m": 1,
+        "n": "Plundrovník",
+        "d": "Hrozny · Mléko",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Plundrovník",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Hrozny",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
         "c": "polevka",
         "n": "Kvasnicová",
         "d": "",
@@ -4610,37 +4641,6 @@
             "l": "Nápoj",
             "n": "Čaj ovocný neslazený",
             "a": []
-          }
-        ]
-      },
-      {
-        "c": "presnidavka",
-        "m": 1,
-        "n": "Plundrovník",
-        "d": "Hrozny · Mléko",
-        "a": [
-          1,
-          7
-        ],
-        "p": [
-          {
-            "l": "Jídlo",
-            "n": "Plundrovník",
-            "a": [
-              1
-            ]
-          },
-          {
-            "l": "Doplněk",
-            "n": "Hrozny",
-            "a": []
-          },
-          {
-            "l": "Nápoj",
-            "n": "Mléko",
-            "a": [
-              7
-            ]
           }
         ]
       },
@@ -4680,6 +4680,37 @@
   "2026-11-05": {
     "vydej": "11:00–13:00",
     "chody": [
+      {
+        "c": "presnidavka",
+        "m": 1,
+        "n": "Grahamová veka",
+        "d": "Budapešťská pomazánka, kedlubna · Granko",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Grahamová veka",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Budapešťská pomazánka, kedlubna",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Granko",
+            "a": []
+          }
+        ]
+      },
       {
         "c": "polevka",
         "n": "Italská cizrnová polévka",
@@ -4723,37 +4754,6 @@
         ]
       },
       {
-        "c": "presnidavka",
-        "m": 1,
-        "n": "Grahamová veka",
-        "d": "Budapešťská pomazánka, kedlubna · Granko",
-        "a": [
-          1,
-          7
-        ],
-        "p": [
-          {
-            "l": "Jídlo",
-            "n": "Grahamová veka",
-            "a": [
-              1
-            ]
-          },
-          {
-            "l": "Doplněk",
-            "n": "Budapešťská pomazánka, kedlubna",
-            "a": [
-              7
-            ]
-          },
-          {
-            "l": "Nápoj",
-            "n": "Granko",
-            "a": []
-          }
-        ]
-      },
-      {
         "c": "svacina",
         "m": 1,
         "n": "Bageta",
@@ -4787,29 +4787,6 @@
     "vydej": "11:00–13:00",
     "chody": [
       {
-        "c": "presnidavka",
-        "m": 1,
-        "n": "Ovesná kaše se skořicí a banánem",
-        "d": "Ranní čaj",
-        "a": [
-          7
-        ],
-        "p": [
-          {
-            "l": "Jídlo",
-            "n": "Ovesná kaše se skořicí a banánem",
-            "a": [
-              7
-            ]
-          },
-          {
-            "l": "Nápoj",
-            "n": "Ranní čaj",
-            "a": []
-          }
-        ]
-      },
-      {
         "c": "polevka",
         "n": "Frankfurtská s bramborem",
         "d": "",
@@ -4835,6 +4812,29 @@
           {
             "l": "Nápoj",
             "n": "Sirup",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "presnidavka",
+        "m": 1,
+        "n": "Ovesná kaše se skořicí a banánem",
+        "d": "Ranní čaj",
+        "a": [
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Ovesná kaše se skořicí a banánem",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ranní čaj",
             "a": []
           }
         ]

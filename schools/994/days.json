@@ -15579,5 +15579,246 @@
         ]
       }
     }
+  },
+  "2026-12-15": {
+    "skupiny": {
+      "ms": {
+        "vydej": "11:00–14:00",
+        "chody": [
+          {
+            "c": "presnidavka",
+            "m": 1,
+            "n": "Lámankový chléb, máslová rama",
+            "d": "Kedluben · Čerstvé mléko",
+            "a": [
+              1,
+              7
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Lámankový chléb, máslová rama",
+                "a": [
+                  1,
+                  7
+                ]
+              },
+              {
+                "l": "Doplněk",
+                "n": "Kedluben",
+                "a": []
+              },
+              {
+                "l": "Nápoj",
+                "n": "Čerstvé mléko",
+                "a": [
+                  7
+                ]
+              }
+            ]
+          },
+          {
+            "c": "polevka",
+            "n": "Polévka zeleninová s cizrnou",
+            "d": "",
+            "a": [
+              1,
+              9
+            ]
+          },
+          {
+            "c": "obed",
+            "m": 1,
+            "n": "Těstoviny al pomodoro s mozzarellou a bazalkou",
+            "d": "Ovoce · Čaj, vitamínový nápoj",
+            "a": [
+              1,
+              3,
+              7,
+              9
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Těstoviny al pomodoro s mozzarellou a bazalkou",
+                "a": [
+                  1,
+                  3,
+                  7,
+                  9
+                ]
+              },
+              {
+                "l": "Doplněk",
+                "n": "Ovoce",
+                "a": []
+              },
+              {
+                "l": "Nápoj",
+                "n": "Čaj, vitamínový nápoj",
+                "a": []
+              }
+            ]
+          },
+          {
+            "c": "svacina",
+            "m": 1,
+            "n": "Grahamové pečivo, krevetová pěna",
+            "d": "Cherry rajče · Čaj",
+            "a": [
+              1,
+              2,
+              4,
+              7
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Grahamové pečivo, krevetová pěna",
+                "a": [
+                  1,
+                  2,
+                  4,
+                  7
+                ]
+              },
+              {
+                "l": "Doplněk",
+                "n": "Cherry rajče",
+                "a": []
+              },
+              {
+                "l": "Nápoj",
+                "n": "Čaj",
+                "a": []
+              }
+            ]
+          }
+        ]
+      },
+      "zs": {
+        "vydej": "11:00–14:00",
+        "chody": [
+          {
+            "c": "presnidavka",
+            "m": 1,
+            "n": "Lámankový chléb, máslová rama",
+            "d": "Kedluben · Čerstvé mléko",
+            "a": [
+              1,
+              7
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Lámankový chléb, máslová rama",
+                "a": [
+                  1,
+                  7
+                ]
+              },
+              {
+                "l": "Doplněk",
+                "n": "Kedluben",
+                "a": []
+              },
+              {
+                "l": "Nápoj",
+                "n": "Čerstvé mléko",
+                "a": [
+                  7
+                ]
+              }
+            ]
+          },
+          {
+            "c": "polevka",
+            "n": "Polévka zeleninová s cizrnou",
+            "d": "",
+            "a": [
+              1,
+              9
+            ]
+          },
+          {
+            "c": "obed",
+            "m": 1,
+            "n": "Těstoviny al pomodoro s mozzarellou a bazalkou",
+            "d": "Ovoce · Čaj, vitamínový nápoj",
+            "a": [
+              1,
+              3,
+              7,
+              9
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Těstoviny al pomodoro s mozzarellou a bazalkou",
+                "a": [
+                  1,
+                  3,
+                  7,
+                  9
+                ]
+              },
+              {
+                "l": "Doplněk",
+                "n": "Ovoce",
+                "a": []
+              },
+              {
+                "l": "Nápoj",
+                "n": "Čaj, vitamínový nápoj",
+                "a": []
+              }
+            ]
+          },
+          {
+            "c": "obed2",
+            "m": 2,
+            "n": "Znojemská hovězí pečeně",
+            "d": "Kynutý knedlík · Ovoce · Čaj, vitamínový nápoj",
+            "a": [
+              1,
+              3,
+              7,
+              9,
+              10
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Znojemská hovězí pečeně",
+                "a": [
+                  1,
+                  9,
+                  10
+                ]
+              },
+              {
+                "l": "Příloha",
+                "n": "Kynutý knedlík",
+                "a": [
+                  1,
+                  3,
+                  7
+                ]
+              },
+              {
+                "l": "Doplněk",
+                "n": "Ovoce",
+                "a": []
+              },
+              {
+                "l": "Nápoj",
+                "n": "Čaj, vitamínový nápoj",
+                "a": []
+              }
+            ]
+          }
+        ]
+      }
+    }
   }
 }
