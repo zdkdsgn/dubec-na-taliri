@@ -7751,5 +7751,109 @@
         ]
       }
     ]
+  },
+  "2026-12-16": {
+    "vydej": "11:00–13:30",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "m": 1,
+        "n": "Domácí muffiny",
+        "d": "Ovoce · Mléko",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Domácí muffiny",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Hovězí vývar + barevné hvězdičky",
+        "d": "",
+        "a": [
+          1,
+          3,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Vepřové maso na houbách",
+        "d": "Dušená rýže · Šťáva – voda",
+        "a": [
+          1
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Vepřové maso na houbách",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Dušená rýže",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Šťáva – voda",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "m": 1,
+        "n": "Slunečnicový chléb, pomazánka z červené čočky",
+        "d": "Džus",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Slunečnicový chléb, pomazánka z červené čočky",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Džus",
+            "a": []
+          }
+        ]
+      }
+    ]
   }
 }

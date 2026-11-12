@@ -8153,5 +8153,562 @@
         ]
       }
     }
+  },
+  "2026-11-16": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Špenátová polévka",
+        "d": "",
+        "a": [
+          7
+        ]
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Kuřecí stehno na přírodní šťávě",
+        "d": "Rýže",
+        "a": [
+          1
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Kuřecí stehno na přírodní šťávě",
+            "a": []
+          },
+          {
+            "l": "Příloha",
+            "n": "Rýže",
+            "a": [
+              1
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-11-17": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "STÁTNÍ SVÁTEK",
+        "d": "",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "STÁTNÍ SVÁTEK",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-11-18": {
+    "skupiny": {
+      "zs": {
+        "vydej": "11:00–14:00",
+        "chody": [
+          {
+            "c": "presnidavka",
+            "m": 1,
+            "n": "Marmeládové máslo",
+            "d": "Houska",
+            "a": [
+              1,
+              3,
+              7
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Marmeládové máslo",
+                "a": [
+                  1,
+                  7
+                ]
+              },
+              {
+                "l": "Doplněk",
+                "n": "Houska",
+                "a": [
+                  1,
+                  3,
+                  7
+                ]
+              }
+            ]
+          },
+          {
+            "c": "polevka",
+            "n": "Frankfurtská polévka",
+            "d": "",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "c": "obed",
+            "m": 1,
+            "n": "Bramborový buřtguláš",
+            "d": "Chléb",
+            "a": [
+              1,
+              3,
+              7
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Bramborový buřtguláš",
+                "a": []
+              },
+              {
+                "l": "Příloha",
+                "n": "Chléb",
+                "a": [
+                  1,
+                  3,
+                  7
+                ]
+              }
+            ]
+          },
+          {
+            "c": "obed2",
+            "m": 2,
+            "n": "Vepřové na česneku s povidlovou šťávou",
+            "d": "Knedlík bramborový",
+            "a": [
+              1,
+              7
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Vepřové na česneku s povidlovou šťávou",
+                "a": []
+              },
+              {
+                "l": "Příloha",
+                "n": "Knedlík bramborový",
+                "a": [
+                  1,
+                  7
+                ]
+              }
+            ]
+          },
+          {
+            "c": "svacina",
+            "m": 1,
+            "n": "Budapešťská pomazánka",
+            "d": "Cereální pečivo",
+            "a": [
+              1,
+              3,
+              7
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Budapešťská pomazánka",
+                "a": [
+                  7
+                ]
+              },
+              {
+                "l": "Doplněk",
+                "n": "Cereální pečivo",
+                "a": [
+                  1,
+                  3,
+                  7
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "ms": {
+        "vydej": "11:00–14:00",
+        "chody": [
+          {
+            "c": "polevka",
+            "n": "Frankfurtská polévka",
+            "d": "",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "c": "obed",
+            "m": 1,
+            "n": "Bramborový buřtguláš",
+            "d": "Chléb",
+            "a": [
+              1,
+              3,
+              7
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Bramborový buřtguláš",
+                "a": []
+              },
+              {
+                "l": "Příloha",
+                "n": "Chléb",
+                "a": [
+                  1,
+                  3,
+                  7
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "2026-11-19": {
+    "skupiny": {
+      "zs": {
+        "vydej": "11:00–14:00",
+        "chody": [
+          {
+            "c": "presnidavka",
+            "m": 1,
+            "n": "Cereálie",
+            "d": "Mléko",
+            "a": [
+              1,
+              3,
+              7
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Cereálie",
+                "a": [
+                  1,
+                  3
+                ]
+              },
+              {
+                "l": "Doplněk",
+                "n": "Mléko",
+                "a": [
+                  7
+                ]
+              }
+            ]
+          },
+          {
+            "c": "polevka",
+            "n": "Kuřecí vývar",
+            "d": "",
+            "a": [
+              9
+            ]
+          },
+          {
+            "c": "obed",
+            "m": 1,
+            "n": "Hovězí štěpánská",
+            "d": "Rýže",
+            "a": [
+              1,
+              3
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Hovězí štěpánská",
+                "a": [
+                  1,
+                  3
+                ]
+              },
+              {
+                "l": "Příloha",
+                "n": "Rýže",
+                "a": [
+                  1
+                ]
+              }
+            ]
+          },
+          {
+            "c": "obed2",
+            "m": 2,
+            "n": "Brynzová směs a slanina",
+            "d": "Halušky",
+            "a": [
+              1,
+              3,
+              7
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Brynzová směs a slanina",
+                "a": [
+                  7
+                ]
+              },
+              {
+                "l": "Příloha",
+                "n": "Halušky",
+                "a": [
+                  1,
+                  3,
+                  7
+                ]
+              }
+            ]
+          },
+          {
+            "c": "svacina",
+            "m": 1,
+            "n": "Drožďová pomazánka",
+            "d": "Celozrnný chléb",
+            "a": [
+              1,
+              3,
+              7
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Drožďová pomazánka",
+                "a": [
+                  3,
+                  7
+                ]
+              },
+              {
+                "l": "Příloha",
+                "n": "Celozrnný chléb",
+                "a": [
+                  1,
+                  3,
+                  7
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "ms": {
+        "vydej": "11:00–14:00",
+        "chody": [
+          {
+            "c": "polevka",
+            "n": "Kuřecí vývar",
+            "d": "",
+            "a": [
+              9
+            ]
+          },
+          {
+            "c": "obed",
+            "m": 1,
+            "n": "Hovězí štěpánská",
+            "d": "Rýže",
+            "a": [
+              1,
+              3
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Hovězí štěpánská",
+                "a": [
+                  1,
+                  3
+                ]
+              },
+              {
+                "l": "Příloha",
+                "n": "Rýže",
+                "a": [
+                  1
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "2026-11-20": {
+    "skupiny": {
+      "zs": {
+        "vydej": "11:00–14:00",
+        "chody": [
+          {
+            "c": "presnidavka",
+            "m": 1,
+            "n": "Šunková pěna",
+            "d": "Pečivo",
+            "a": [
+              1,
+              3,
+              7
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Šunková pěna",
+                "a": [
+                  7
+                ]
+              },
+              {
+                "l": "Doplněk",
+                "n": "Pečivo",
+                "a": [
+                  1,
+                  3,
+                  7
+                ]
+              }
+            ]
+          },
+          {
+            "c": "polevka",
+            "n": "Luštěninová polévka",
+            "d": "",
+            "a": [
+              1,
+              9
+            ]
+          },
+          {
+            "c": "obed",
+            "m": 1,
+            "n": "Pečená sekaná se zeleninou",
+            "d": "Šťouchané brambory",
+            "a": [
+              3,
+              7
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Pečená sekaná se zeleninou",
+                "a": [
+                  3,
+                  7
+                ]
+              },
+              {
+                "l": "Příloha",
+                "n": "Šťouchané brambory",
+                "a": [
+                  7
+                ]
+              }
+            ]
+          },
+          {
+            "c": "obed2",
+            "m": 2,
+            "n": "Houbový kuba",
+            "d": "",
+            "a": [
+              1,
+              7
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Houbový kuba",
+                "a": [
+                  1,
+                  7
+                ]
+              }
+            ]
+          },
+          {
+            "c": "svacina",
+            "m": 1,
+            "n": "Jogurt",
+            "d": "Rýžový chlebíček",
+            "a": [
+              1,
+              7
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Jogurt",
+                "a": [
+                  7
+                ]
+              },
+              {
+                "l": "Příloha",
+                "n": "Rýžový chlebíček",
+                "a": [
+                  1
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "ms": {
+        "vydej": "11:00–14:00",
+        "chody": [
+          {
+            "c": "polevka",
+            "n": "Luštěninová polévka",
+            "d": "",
+            "a": [
+              1,
+              9
+            ]
+          },
+          {
+            "c": "obed",
+            "m": 1,
+            "n": "Pečená sekaná se zeleninou",
+            "d": "Šťouchané brambory",
+            "a": [
+              3,
+              7
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Pečená sekaná se zeleninou",
+                "a": [
+                  3,
+                  7
+                ]
+              },
+              {
+                "l": "Příloha",
+                "n": "Šťouchané brambory",
+                "a": [
+                  7
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
   }
 }

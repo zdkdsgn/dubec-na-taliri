@@ -4331,7 +4331,7 @@
       {
         "c": "presnidavka",
         "m": 1,
-        "n": "Královský chléb s pórkovou pomazánkou",
+        "n": "Královský chléb s máslem a marmeládou",
         "d": "Mléko, jablko",
         "a": [
           1,
@@ -4340,7 +4340,7 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Královský chléb s pórkovou pomazánkou",
+            "n": "Královský chléb s máslem a marmeládou",
             "a": [
               1,
               7
@@ -4438,19 +4438,19 @@
       {
         "c": "presnidavka",
         "m": 1,
-        "n": "Jablečná přesnídávka s piškoty",
+        "n": "Královský chléb se sleďovou pomazánkou",
         "d": "Ovocný čaj, mrkev",
         "a": [
           1,
-          3
+          7
         ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Jablečná přesnídávka s piškoty",
+            "n": "Královský chléb se sleďovou pomazánkou",
             "a": [
               1,
-              3
+              7
             ]
           },
           {
@@ -4469,13 +4469,13 @@
       {
         "c": "obed",
         "m": 1,
-        "n": "Králík na tymiánu, bramborová kaše, červená řepa",
+        "n": "Králík na tymiánu, šťouchané brambory, červená řepa",
         "d": "Ovocný čaj",
         "a": [],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Králík na tymiánu, bramborová kaše, červená řepa",
+            "n": "Králík na tymiánu, šťouchané brambory, červená řepa",
             "a": []
           },
           {
@@ -4488,17 +4488,19 @@
       {
         "c": "svacina",
         "m": 1,
-        "n": "Chléb se špenátovou pomaz.",
+        "n": "Křehké plátky se sýrem, paprika",
         "d": "Pramenitá voda",
         "a": [
-          1
+          1,
+          7
         ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Chléb se špenátovou pomaz.",
+            "n": "Křehké plátky se sýrem, paprika",
             "a": [
-              1
+              1,
+              7
             ]
           },
           {
@@ -4545,14 +4547,18 @@
       {
         "c": "obed",
         "m": 1,
-        "n": "Kuřecí kousky, smetanový špenát, bramborové noky",
+        "n": "Kuřecí kousky, smetanový špenát, těstoviny",
         "d": "100% džus",
-        "a": [],
+        "a": [
+          7
+        ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Kuřecí kousky, smetanový špenát, bramborové noky",
-            "a": []
+            "n": "Kuřecí kousky, smetanový špenát, těstoviny",
+            "a": [
+              7
+            ]
           },
           {
             "l": "Nápoj",
@@ -4564,18 +4570,23 @@
       {
         "c": "svacina",
         "m": 1,
-        "n": "Chléb se sýrem. pom. 1, 7",
+        "n": "Chléb s vajíčkovou pomazánkou",
         "d": "Mléko",
         "a": [
           1,
+          3,
+          6,
           7
         ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Chléb se sýrem. pom. 1, 7",
+            "n": "Chléb s vajíčkovou pomazánkou",
             "a": [
-              1
+              1,
+              3,
+              6,
+              7
             ]
           },
           {
@@ -4595,14 +4606,20 @@
       {
         "c": "presnidavka",
         "m": 1,
-        "n": "Rohlík s pomazánkou cottage",
+        "n": "Cereální rohlík s cottage pomazánkou",
         "d": "Ovocný čaj, kedlubna",
-        "a": [],
+        "a": [
+          1,
+          7
+        ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Rohlík s pomazánkou cottage",
-            "a": []
+            "n": "Cereální rohlík s cottage pomazánkou",
+            "a": [
+              1,
+              7
+            ]
           },
           {
             "l": "Nápoj",
@@ -4613,10 +4630,11 @@
       },
       {
         "c": "polevka",
-        "n": "Pol. dýňová s krutony",
+        "n": "Pol. rybí tajemství s krutony",
         "d": "",
         "a": [
-          1
+          1,
+          4
         ]
       },
       {
@@ -4649,7 +4667,7 @@
       {
         "c": "svacina",
         "m": 1,
-        "n": "Křehký plátek se šunkou a máslem",
+        "n": "Chléb se šunkou a máslem",
         "d": "Pramenitá voda",
         "a": [
           1,
@@ -4658,7 +4676,7 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Křehký plátek se šunkou a máslem",
+            "n": "Chléb se šunkou a máslem",
             "a": [
               1,
               7

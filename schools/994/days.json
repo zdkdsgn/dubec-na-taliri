@@ -15820,5 +15820,243 @@
         ]
       }
     }
+  },
+  "2026-12-16": {
+    "skupiny": {
+      "ms": {
+        "vydej": "11:00–14:00",
+        "chody": [
+          {
+            "c": "presnidavka",
+            "m": 1,
+            "n": "Bílý jogurt, müsli",
+            "d": "Čaj",
+            "a": [
+              1,
+              7,
+              8
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Bílý jogurt, müsli",
+                "a": [
+                  1,
+                  7,
+                  8
+                ]
+              },
+              {
+                "l": "Nápoj",
+                "n": "Čaj",
+                "a": []
+              }
+            ]
+          },
+          {
+            "c": "polevka",
+            "n": "Polévka hrachová s opečenou houskou",
+            "d": "",
+            "a": [
+              1,
+              9
+            ]
+          },
+          {
+            "c": "obed",
+            "m": 1,
+            "n": "Smažený kuřecí řízek",
+            "d": "Vařené brambory · Kompot · Čaj, vitamínový nápoj",
+            "a": [
+              1,
+              3,
+              7
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Smažený kuřecí řízek",
+                "a": [
+                  1,
+                  3,
+                  7
+                ]
+              },
+              {
+                "l": "Příloha",
+                "n": "Vařené brambory",
+                "a": [
+                  7
+                ]
+              },
+              {
+                "l": "Doplněk",
+                "n": "Kompot",
+                "a": []
+              },
+              {
+                "l": "Nápoj",
+                "n": "Čaj, vitamínový nápoj",
+                "a": []
+              }
+            ]
+          },
+          {
+            "c": "svacina",
+            "m": 1,
+            "n": "Slavkovský chléb, škvarková pomazánka s jarní cibulkou",
+            "d": "Salátová okurka · Čaj",
+            "a": [
+              1,
+              7,
+              9,
+              10
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Slavkovský chléb, škvarková pomazánka s jarní cibulkou",
+                "a": [
+                  1,
+                  7,
+                  9,
+                  10
+                ]
+              },
+              {
+                "l": "Doplněk",
+                "n": "Salátová okurka",
+                "a": []
+              },
+              {
+                "l": "Nápoj",
+                "n": "Čaj",
+                "a": []
+              }
+            ]
+          }
+        ]
+      },
+      "zs": {
+        "vydej": "11:00–14:00",
+        "chody": [
+          {
+            "c": "presnidavka",
+            "m": 1,
+            "n": "Bílý jogurt, müsli",
+            "d": "Čaj",
+            "a": [
+              1,
+              7,
+              8
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Bílý jogurt, müsli",
+                "a": [
+                  1,
+                  7,
+                  8
+                ]
+              },
+              {
+                "l": "Nápoj",
+                "n": "Čaj",
+                "a": []
+              }
+            ]
+          },
+          {
+            "c": "polevka",
+            "n": "Polévka hrachová s opečenou houskou",
+            "d": "",
+            "a": [
+              1,
+              9
+            ]
+          },
+          {
+            "c": "obed",
+            "m": 1,
+            "n": "Smažený vepřový řízek",
+            "d": "Vařené brambory · Kompot · Čaj, vitamínový nápoj",
+            "a": [
+              1,
+              3,
+              7
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Smažený vepřový řízek",
+                "a": [
+                  1,
+                  3,
+                  7
+                ]
+              },
+              {
+                "l": "Příloha",
+                "n": "Vařené brambory",
+                "a": [
+                  7
+                ]
+              },
+              {
+                "l": "Doplněk",
+                "n": "Kompot",
+                "a": []
+              },
+              {
+                "l": "Nápoj",
+                "n": "Čaj, vitamínový nápoj",
+                "a": []
+              }
+            ]
+          },
+          {
+            "c": "obed2",
+            "m": 2,
+            "n": "Zeleninový salát s avokádovým burgrem a dresinkem",
+            "d": "Pečivo · Čaj, vitamínový nápoj",
+            "a": [
+              1,
+              3,
+              6,
+              7,
+              9,
+              10
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Zeleninový salát s avokádovým burgrem a dresinkem",
+                "a": [
+                  1,
+                  3,
+                  6,
+                  7,
+                  9,
+                  10
+                ]
+              },
+              {
+                "l": "Příloha",
+                "n": "Pečivo",
+                "a": [
+                  1
+                ]
+              },
+              {
+                "l": "Nápoj",
+                "n": "Čaj, vitamínový nápoj",
+                "a": []
+              }
+            ]
+          }
+        ]
+      }
+    }
   }
 }

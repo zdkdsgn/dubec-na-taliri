@@ -2412,15 +2412,50 @@
     "vydej": "11:00–14:00",
     "chody": [
       {
+        "c": "polevka",
+        "n": "Filetová s opečeným toustem",
+        "d": "",
+        "a": [
+          1,
+          4,
+          9
+        ]
+      },
+      {
         "c": "obed",
         "m": 1,
-        "n": "Oběd",
-        "d": "",
-        "a": [],
+        "n": "Kapustové placičky",
+        "d": "Vařené brambory, kukuřice · Tvarohový bulgur s ovocem · Kohoutková voda",
+        "a": [
+          1,
+          3,
+          7
+        ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Oběd",
+            "n": "Kapustové placičky",
+            "a": [
+              1,
+              3
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Vařené brambory, kukuřice",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Tvarohový bulgur s ovocem",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Kohoutková voda",
             "a": []
           }
         ]
@@ -2431,15 +2466,46 @@
     "vydej": "11:00–14:00",
     "chody": [
       {
+        "c": "polevka",
+        "n": "Pórková s cizrnou",
+        "d": "",
+        "a": [
+          1,
+          9
+        ]
+      },
+      {
         "c": "obed",
         "m": 1,
-        "n": "Oběd",
-        "d": "",
-        "a": [],
+        "n": "Butter Chicken (kuřecí kousky v indické omáčce)",
+        "d": "Gnocchi · Mandarinka · Ovocný nápoj, voda",
+        "a": [
+          1,
+          7
+        ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Oběd",
+            "n": "Butter Chicken (kuřecí kousky v indické omáčce)",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Gnocchi",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Mandarinka",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný nápoj, voda",
             "a": []
           }
         ]
@@ -2450,15 +2516,44 @@
     "vydej": "11:00–14:00",
     "chody": [
       {
+        "c": "polevka",
+        "n": "Vývar z kostí s jáhlami",
+        "d": "",
+        "a": [
+          9
+        ]
+      },
+      {
         "c": "obed",
         "m": 1,
-        "n": "Oběd",
-        "d": "",
-        "a": [],
+        "n": "Masové koule v rajské omáčce",
+        "d": "Těstoviny · Hruška · Kohoutková voda",
+        "a": [
+          1
+        ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Oběd",
+            "n": "Masové koule v rajské omáčce",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Těstoviny",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Hruška",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Kohoutková voda",
             "a": []
           }
         ]
@@ -2469,15 +2564,37 @@
     "vydej": "11:00–14:00",
     "chody": [
       {
+        "c": "polevka",
+        "n": "Gulášová",
+        "d": "",
+        "a": [
+          1
+        ]
+      },
+      {
         "c": "obed",
         "m": 1,
-        "n": "Oběd",
-        "d": "",
-        "a": [],
+        "n": "Zeleninové rizoto sypané sýrem",
+        "d": "St.okurek · Ovocný nápoj, voda",
+        "a": [
+          7
+        ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Oběd",
+            "n": "Zeleninové rizoto sypané sýrem",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "St.okurek",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný nápoj, voda",
             "a": []
           }
         ]
@@ -2580,6 +2697,234 @@
     ]
   },
   "2026-11-30": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Oběd",
+        "d": "",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Oběd",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-12-01": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Oběd",
+        "d": "",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Oběd",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-12-02": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Oběd",
+        "d": "",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Oběd",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-12-03": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Oběd",
+        "d": "",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Oběd",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-12-04": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Oběd",
+        "d": "",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Oběd",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-12-07": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Oběd",
+        "d": "",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Oběd",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-12-08": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Oběd",
+        "d": "",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Oběd",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-12-09": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Oběd",
+        "d": "",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Oběd",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-12-10": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Oběd",
+        "d": "",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Oběd",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-12-11": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Oběd",
+        "d": "",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Oběd",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-12-14": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Oběd",
+        "d": "",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Oběd",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-12-15": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Oběd",
+        "d": "",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Oběd",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-12-16": {
     "vydej": "11:00–14:00",
     "chody": [
       {

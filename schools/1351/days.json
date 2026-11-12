@@ -4139,5 +4139,376 @@
         ]
       }
     ]
+  },
+  "2026-11-16": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "m": 1,
+        "n": "Chléb s máslem, plátkový sýr, rajče, čaj",
+        "d": "",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Chléb s máslem, plátkový sýr, rajče, čaj",
+            "a": [
+              1,
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Z rybího filé",
+        "d": "",
+        "a": [
+          1,
+          4,
+          7
+        ]
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Krupicová kaše",
+        "d": "Ovocný čaj, voda s citronem",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Krupicová kaše",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný čaj, voda s citronem",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "m": 1,
+        "n": "Chléb s máslem, zelenina, čaj",
+        "d": "",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Chléb s máslem, zelenina, čaj",
+            "a": [
+              1,
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-11-17": {
+    "vydej": "9:00–9:30",
+    "chody": [
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Státní svátek :-)",
+        "d": "",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Státní svátek :-)",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-11-18": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "m": 1,
+        "n": "Cereální kuličky s mlékem, ovoce, čaj",
+        "d": "",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Cereální kuličky s mlékem, ovoce, čaj",
+            "a": [
+              1,
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Dýňová",
+        "d": "",
+        "a": [
+          1,
+          7
+        ]
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Pečené kuře",
+        "d": "Brambory vařené · Kompot · Ovocný čaj, voda",
+        "a": [
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Pečené kuře",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Brambory vařené",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Kompot",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný čaj, voda",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "m": 1,
+        "n": "Rohlík s máslem a šunkou, zelenina, čaj",
+        "d": "",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Rohlík s máslem a šunkou, zelenina, čaj",
+            "a": [
+              1,
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-11-19": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "m": 1,
+        "n": "Chléb s vaječnou pomazánkou, zelenina, čaj",
+        "d": "",
+        "a": [
+          1,
+          3,
+          7,
+          10
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Chléb s vaječnou pomazánkou, zelenina, čaj",
+            "a": [
+              1,
+              3,
+              7,
+              10
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Zeleninová s drožďovými noky",
+        "d": "",
+        "a": [
+          1,
+          3,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Hovězí na celeru",
+        "d": "Rýže · Ovocný čaj, voda s citronem",
+        "a": [
+          1,
+          7,
+          9
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Hovězí na celeru",
+            "a": [
+              1,
+              9
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Rýže",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný čaj, voda s citronem",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "m": 1,
+        "n": "Chléb s pomazánkou z kuř.masa, zelenina, čaj",
+        "d": "",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Chléb s pomazánkou z kuř.masa, zelenina, čaj",
+            "a": [
+              1,
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-11-20": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "m": 1,
+        "n": "Rohlík s rybí pomazánkou, zelenina, čaj",
+        "d": "",
+        "a": [
+          1,
+          3,
+          4,
+          7,
+          10
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Rohlík s rybí pomazánkou, zelenina, čaj",
+            "a": [
+              1,
+              3,
+              4,
+              7,
+              10
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Zeleninová s bulgurem",
+        "d": "",
+        "a": [
+          1,
+          7,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Omáčka z vepřového masa",
+        "d": "Špagety · Ovocný čaj, voda",
+        "a": [
+          1
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Omáčka z vepřového masa",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Špagety",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný čaj, voda",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "m": 1,
+        "n": "Chléb se sýrovou pomazánkou, zelenina, čaj",
+        "d": "",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Chléb se sýrovou pomazánkou, zelenina, čaj",
+            "a": [
+              1,
+              7
+            ]
+          }
+        ]
+      }
+    ]
   }
 }

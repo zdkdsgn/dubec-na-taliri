@@ -2114,6 +2114,50 @@
             ]
           }
         ]
+      },
+      {
+        "c": "presnidavka",
+        "m": 1,
+        "n": "Ovocná přesnídávka, piškoty, hruška",
+        "d": "Ovocný čaj",
+        "a": [
+          1,
+          3
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Ovocná přesnídávka, piškoty, hruška",
+            "a": [
+              1,
+              3
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný čaj",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "m": 1,
+        "n": "Chléb s máslem, okurka",
+        "d": "Ovocný čaj",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Chléb s máslem, okurka",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný čaj",
+            "a": []
+          }
+        ]
       }
     ]
   },
@@ -2191,6 +2235,60 @@
             "a": [
               7
             ]
+          }
+        ]
+      },
+      {
+        "c": "presnidavka",
+        "m": 1,
+        "n": "Chléb s tuňákovou pomazánkou, jablka",
+        "d": "Ovocný čaj",
+        "a": [
+          1,
+          4,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Chléb s tuňákovou pomazánkou, jablka",
+            "a": [
+              1,
+              4,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný čaj",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "m": 1,
+        "n": "Rohlík s pomazánkou z červené čočky, okurka",
+        "d": "Ovocný čaj",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Rohlík s pomazánkou z červené čočky, okurka",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný čaj",
+            "a": []
           }
         ]
       }
@@ -2283,6 +2381,52 @@
             ]
           }
         ]
+      },
+      {
+        "c": "presnidavka",
+        "m": 1,
+        "n": "Chléb s budapešťskou pomazánkou, okurka",
+        "d": "Ovocný čaj",
+        "a": [
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Chléb s budapešťskou pomazánkou, okurka",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný čaj",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "m": 1,
+        "n": "Chléb s máslem a šunkou, okurka",
+        "d": "Ovocný čaj",
+        "a": [
+          1
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Chléb s máslem a šunkou, okurka",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný čaj",
+            "a": []
+          }
+        ]
       }
     ]
   },
@@ -2369,6 +2513,52 @@
             ]
           }
         ]
+      },
+      {
+        "c": "presnidavka",
+        "m": 1,
+        "n": "Chléb se sýrovou pomazánkou, paprika",
+        "d": "Ovocný čaj",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Chléb se sýrovou pomazánkou, paprika",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný čaj",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "m": 1,
+        "n": "Chléb máslo a mrkev, jablko",
+        "d": "Ovocný čaj",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Chléb máslo a mrkev, jablko",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný čaj",
+            "a": []
+          }
+        ]
       }
     ]
   },
@@ -2449,6 +2639,58 @@
             "a": [
               7
             ]
+          }
+        ]
+      },
+      {
+        "c": "presnidavka",
+        "m": 1,
+        "n": "Cereální kuličky s mlékem, jablka",
+        "d": "Mléko",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Cereální kuličky s mlékem, jablka",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "m": 1,
+        "n": "Chléb kuřecí pomazánka, paprika",
+        "d": "Ovocný čaj",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Chléb kuřecí pomazánka, paprika",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný čaj",
+            "a": []
           }
         ]
       }
@@ -3480,6 +3722,91 @@
               3,
               7
             ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Salátový bar",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Džus, mléko, ovocný čaj",
+            "a": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-12-16": {
+    "vydej": "9:00–14:30",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Bramborová s majoránkou",
+        "d": "",
+        "a": [
+          1
+        ]
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Pečené kuře \"a la bažant\"",
+        "d": "Bramborová kaše · Salátový bar · Džus, mléko, ovocný čaj",
+        "a": [
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Pečené kuře \"a la bažant\"",
+            "a": []
+          },
+          {
+            "l": "Příloha",
+            "n": "Bramborová kaše",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Salátový bar",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Džus, mléko, ovocný čaj",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "m": 2,
+        "n": "Smažené rybí nugetky",
+        "d": "Šťouchané brambory · Salátový bar · Džus, mléko, ovocný čaj",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Smažené rybí nugetky",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Šťouchané brambory",
+            "a": []
           },
           {
             "l": "Doplněk",

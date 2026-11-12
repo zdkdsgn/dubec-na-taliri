@@ -4559,8 +4559,10 @@
         "c": "obed",
         "m": 1,
         "n": "Aljašská treska zapečená s kápií",
-        "d": "Bramborovo-dýňová kaše · Kompot, ovoce · Voda, čaj",
-        "a": [],
+        "d": "Bramborová kaše · Dýňový kompot · Voda, čaj",
+        "a": [
+          7
+        ],
         "p": [
           {
             "l": "Jídlo",
@@ -4569,12 +4571,14 @@
           },
           {
             "l": "Příloha",
-            "n": "Bramborovo-dýňová kaše",
-            "a": []
+            "n": "Bramborová kaše",
+            "a": [
+              7
+            ]
           },
           {
             "l": "Doplněk",
-            "n": "Kompot, ovoce",
+            "n": "Dýňový kompot",
             "a": []
           },
           {
@@ -4641,7 +4645,7 @@
       {
         "c": "presnidavka",
         "m": 1,
-        "n": "Vícezrnná bageta s tvarohovou pomazánkou se sýrem",
+        "n": "Vícezrnná bageta, tvarohová rozhuda",
         "d": "Zelenina · Čaj s citrónem",
         "a": [
           1,
@@ -4650,7 +4654,7 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Vícezrnná bageta s tvarohovou pomazánkou se sýrem",
+            "n": "Vícezrnná bageta, tvarohová rozhuda",
             "a": [
               1,
               7
@@ -4797,7 +4801,7 @@
       {
         "c": "obed",
         "m": 1,
-        "n": "Kuře na paprice",
+        "n": "Kuřecí nudličky na paprice",
         "d": "Těstoviny · Ovoce · Voda, čaj",
         "a": [
           1,
@@ -4806,7 +4810,7 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Kuře na paprice",
+            "n": "Kuřecí nudličky na paprice",
             "a": []
           },
           {

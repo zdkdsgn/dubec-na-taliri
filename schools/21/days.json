@@ -4071,15 +4071,45 @@
     "vydej": "11:40–13:00",
     "chody": [
       {
+        "c": "polevka",
+        "n": "Domácí francouzská",
+        "d": "",
+        "a": [
+          1,
+          9
+        ]
+      },
+      {
         "c": "obed",
         "m": 1,
-        "n": "Ředitelské volno",
-        "d": "",
-        "a": [],
+        "n": "Debrecínský guláš",
+        "d": "Těstoviny · Ovoce · Ředěný 100% džus",
+        "a": [
+          1
+        ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Ředitelské volno",
+            "n": "Debrecínský guláš",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Těstoviny",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ředěný 100% džus",
             "a": []
           }
         ]

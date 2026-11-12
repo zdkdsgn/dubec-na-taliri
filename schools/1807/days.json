@@ -2393,7 +2393,9 @@
           {
             "l": "Jídlo",
             "n": "Hrachová kaše s cibulkou",
-            "a": []
+            "a": [
+              3
+            ]
           },
           {
             "l": "Příloha",
@@ -2523,7 +2525,6 @@
         "n": "Masový krém",
         "d": "",
         "a": [
-          1,
           9
         ]
       },
@@ -2587,7 +2588,8 @@
             "l": "Jídlo",
             "n": "Boloňské špagety",
             "a": [
-              1
+              1,
+              7
             ]
           },
           {
@@ -2624,7 +2626,7 @@
       {
         "c": "obed",
         "m": 1,
-        "n": "Smažené vdolečky",
+        "n": "Vdolečky smažené",
         "d": "Jablko · Mléčný koktejl",
         "a": [
           1,
@@ -2634,7 +2636,7 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Smažené vdolečky",
+            "n": "Vdolečky smažené",
             "a": [
               1,
               3,
@@ -2886,7 +2888,7 @@
       {
         "c": "obed",
         "m": 1,
-        "n": "Zapečená tarhoňa se zeleninou a sýrem",
+        "n": "Královská zelenina s tarhoňou a kuřecím plátkem",
         "d": "Červená řepa · Džus, mléko",
         "a": [
           1,
@@ -2895,10 +2897,9 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Zapečená tarhoňa se zeleninou a sýrem",
+            "n": "Královská zelenina s tarhoňou a kuřecím plátkem",
             "a": [
-              1,
-              7
+              1
             ]
           },
           {

@@ -384,7 +384,7 @@
         "c": "obed",
         "m": 1,
         "n": "Zapečené těstoviny s uzeným masem, červená řepa",
-        "d": "Okurkový salát · Čaj",
+        "d": "Okurkový salát, rajský · Čaj",
         "a": [
           1,
           3,
@@ -406,7 +406,7 @@
           },
           {
             "l": "Doplněk",
-            "n": "Okurkový salát",
+            "n": "Okurkový salát, rajský",
             "a": []
           },
           {
@@ -420,7 +420,7 @@
         "c": "obed2",
         "m": 2,
         "n": "Sýrové placičky, tatarka",
-        "d": "Brambory · Okurkový salát · Čaj",
+        "d": "Brambory · Okurkový salát, rajský · Čaj",
         "a": [
           1,
           3,
@@ -443,7 +443,7 @@
           },
           {
             "l": "Doplněk",
-            "n": "Okurkový salát",
+            "n": "Okurkový salát, rajský",
             "a": []
           },
           {
@@ -457,7 +457,7 @@
         "c": "obed2",
         "m": 3,
         "n": "Rukolový salát s čerstvým sýrem a bulgurem",
-        "d": "Okurkový salát · Čaj",
+        "d": "Okurkový salát, rajský · Čaj",
         "a": [
           1,
           7,
@@ -475,7 +475,7 @@
           },
           {
             "l": "Doplněk",
-            "n": "Okurkový salát",
+            "n": "Okurkový salát, rajský",
             "a": []
           },
           {
@@ -855,7 +855,7 @@
       {
         "c": "obed2",
         "m": 2,
-        "n": "Bramborové noky se smetanovo-houbovou omáčkou",
+        "n": "Bramborové noky se smetanovo-sýrovou omáčkou",
         "d": "Šopský salát · Čaj",
         "a": [
           1,
@@ -866,7 +866,7 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Bramborové noky se smetanovo-houbovou omáčkou",
+            "n": "Bramborové noky se smetanovo-sýrovou omáčkou",
             "a": [
               1,
               3,
@@ -939,7 +939,7 @@
         "c": "obed",
         "m": 1,
         "n": "Štěpánská vepřová pečeně",
-        "d": "Rýže · Ovoce · Čaj",
+        "d": "Rýže · Ovoce, zakysaná smetana s müsli · Čaj",
         "a": [
           1,
           3,
@@ -968,8 +968,12 @@
           },
           {
             "l": "Doplněk",
-            "n": "Ovoce",
-            "a": []
+            "n": "Ovoce, zakysaná smetana s müsli",
+            "a": [
+              1,
+              3,
+              9
+            ]
           },
           {
             "l": "Nápoj",
@@ -982,9 +986,10 @@
         "c": "obed2",
         "m": 2,
         "n": "Hrachové rizoto sypané parmazánem",
-        "d": "Ovoce · Čaj",
+        "d": "Ovoce, zakysaná smetana s müsli · Čaj",
         "a": [
           1,
+          3,
           7,
           9
         ],
@@ -1000,8 +1005,12 @@
           },
           {
             "l": "Doplněk",
-            "n": "Ovoce",
-            "a": []
+            "n": "Ovoce, zakysaná smetana s müsli",
+            "a": [
+              1,
+              3,
+              9
+            ]
           },
           {
             "l": "Nápoj",
@@ -1014,10 +1023,13 @@
         "c": "obed2",
         "m": 3,
         "n": "Gratinované hrušky s nivou a ořechy",
-        "d": "Ovoce · Čaj",
+        "d": "Ovoce, zakysaná smetana s müsli · Čaj",
         "a": [
+          1,
+          3,
           7,
-          8
+          8,
+          9
         ],
         "p": [
           {
@@ -1030,8 +1042,12 @@
           },
           {
             "l": "Doplněk",
-            "n": "Ovoce",
-            "a": []
+            "n": "Ovoce, zakysaná smetana s müsli",
+            "a": [
+              1,
+              3,
+              9
+            ]
           },
           {
             "l": "Nápoj",
@@ -1059,13 +1075,11 @@
         "c": "obed",
         "m": 1,
         "n": "Rajská omáčka s hovězím masem",
-        "d": "Houskový knedlík · Sušenka · Čaj",
+        "d": "Houskový knedlík · Jogurt · Čaj",
         "a": [
           1,
           3,
-          5,
           7,
-          8,
           9
         ],
         "p": [
@@ -1089,13 +1103,9 @@
           },
           {
             "l": "Doplněk",
-            "n": "Sušenka",
+            "n": "Jogurt",
             "a": [
-              1,
-              3,
-              5,
-              7,
-              8
+              7
             ]
           },
           {
@@ -1109,14 +1119,12 @@
         "c": "obed2",
         "m": 2,
         "n": "Špenátové lasagne s rajčaty a sýrem",
-        "d": "Sušenka · Čaj",
+        "d": "Jogurt · Čaj",
         "a": [
           1,
           3,
-          5,
           6,
-          7,
-          8
+          7
         ],
         "p": [
           {
@@ -1131,13 +1139,9 @@
           },
           {
             "l": "Doplněk",
-            "n": "Sušenka",
+            "n": "Jogurt",
             "a": [
-              1,
-              3,
-              5,
-              7,
-              8
+              7
             ]
           },
           {

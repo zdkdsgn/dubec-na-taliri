@@ -3505,5 +3505,238 @@
         ]
       }
     ]
+  },
+  "2026-11-18": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "svacina",
+        "m": 1,
+        "n": "Obložený chléb (vejce, zelenina)",
+        "d": "Ovocný čaj",
+        "a": [
+          1,
+          3,
+          6,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Obložený chléb (vejce, zelenina)",
+            "a": [
+              1,
+              3,
+              6,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný čaj",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Květáková s pohankovými vločkami",
+        "d": "",
+        "a": [
+          1,
+          7
+        ]
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Kuře na paprice",
+        "d": "Rýžové těstoviny · Ovoce · Voda, voda s citrusy a zázvorem, voda s ovocem",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Kuře na paprice",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Rýžové těstoviny",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Voda, voda s citrusy a zázvorem, voda s ovocem",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-11-19": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "svacina",
+        "m": 1,
+        "n": "Rohlík, pomazánka hermelínová, zelenina",
+        "d": "Ovocný čaj",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Rohlík, pomazánka hermelínová, zelenina",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný čaj",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Kulajda",
+        "d": "",
+        "a": [
+          1,
+          3,
+          7
+        ]
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Přírodní treska s bylinkovým máslem",
+        "d": "Brambor · Ovoce, zelenina · Voda, voda s citrusy a zázvorem, voda s ovocem",
+        "a": [
+          4,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Přírodní treska s bylinkovým máslem",
+            "a": [
+              4,
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Brambor",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce, zelenina",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Voda, voda s citrusy a zázvorem, voda s ovocem",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-11-20": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "svacina",
+        "m": 1,
+        "n": "Chléb, máslo, džem",
+        "d": "Ovocný čaj",
+        "a": [
+          1,
+          6,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Chléb, máslo, džem",
+            "a": [
+              1,
+              6,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný čaj",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Kuřecí s bylinkovým kapáním",
+        "d": "",
+        "a": [
+          1,
+          3,
+          7,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Čínská masová směs",
+        "d": "Rýže · Ovoce, zelenina · Voda, voda s citrusy a zázvorem, voda s ovocem, mléko",
+        "a": [
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Čínská masová směs",
+            "a": []
+          },
+          {
+            "l": "Příloha",
+            "n": "Rýže",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce, zelenina",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Voda, voda s citrusy a zázvorem, voda s ovocem, mléko",
+            "a": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
   }
 }

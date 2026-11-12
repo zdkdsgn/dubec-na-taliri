@@ -5783,5 +5783,94 @@
         ]
       }
     ]
+  },
+  "2026-12-16": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Zeleninová s kapáním",
+        "d": "",
+        "a": [
+          1,
+          3,
+          7,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Vepřová plec na houbách",
+        "d": "Bramborová kaše · Ovoce · Ovocný nápoj, voda, čaj",
+        "a": [
+          1,
+          7,
+          10
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Vepřová plec na houbách",
+            "a": [
+              1,
+              10
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Bramborová kaše",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný nápoj, voda, čaj",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "m": 2,
+        "n": "Hovězí maso, koprová omáčka",
+        "d": "Houskové knedlíky · Ovoce · Ovocný nápoj, voda, čaj",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Hovězí maso, koprová omáčka",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Houskové knedlíky",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný nápoj, voda, čaj",
+            "a": []
+          }
+        ]
+      }
+    ]
   }
 }

@@ -3887,13 +3887,13 @@
       {
         "c": "presnidavka",
         "m": 1,
-        "n": "Paštika z Farmářky, pečivo",
+        "n": "Žervé, pečivo",
         "d": "Mléko, voda · Zelenina",
         "a": [],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Paštika z Farmářky, pečivo",
+            "n": "Žervé, pečivo",
             "a": []
           },
           {
@@ -4033,13 +4033,13 @@
       {
         "c": "presnidavka",
         "m": 1,
-        "n": "Dopolední svačina",
+        "n": "Šunka, máslo, pečivo",
         "d": "Voda, Mléko · Zelenina",
         "a": [],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Dopolední svačina",
+            "n": "Šunka, máslo, pečivo",
             "a": []
           },
           {
@@ -4057,13 +4057,13 @@
       {
         "c": "svacina",
         "m": 1,
-        "n": "Odpolední svačina",
+        "n": "Jogurt, pečené müsli",
         "d": "Mléko, voda · Ovoce",
         "a": [],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Odpolední svačina",
+            "n": "Jogurt, pečené müsli",
             "a": []
           },
           {
@@ -4081,13 +4081,13 @@
       {
         "c": "obed",
         "m": 1,
-        "n": "Oběd Rubena",
+        "n": "Plněné bramborové knedlíky uzeným masem, kyselé zelí",
         "d": "",
         "a": [],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Oběd Rubena",
+            "n": "Plněné bramborové knedlíky uzeným masem, kyselé zelí",
             "a": []
           }
         ]
@@ -4221,13 +4221,13 @@
       {
         "c": "obed",
         "m": 1,
-        "n": "Kuřecí nudličky po Indicku, těstoviny(pór, smetana, kari, jablka)",
+        "n": "Srbské rizoto, sýr, čalamáda(vepřové, lečo, mletá paprika)",
         "d": "",
         "a": [],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Kuřecí nudličky po Indicku, těstoviny(pór, smetana, kari, jablka)",
+            "n": "Srbské rizoto, sýr, čalamáda(vepřové, lečo, mletá paprika)",
             "a": []
           }
         ]
@@ -4294,13 +4294,13 @@
       {
         "c": "obed",
         "m": 1,
-        "n": "Smažený květák, brambor, tatarská omáčka",
+        "n": "Zapečené neapolské nudle, okurka(vepř., uzené, celer, česnek, kečup, div.koř.)",
         "d": "",
         "a": [],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Smažený květák, brambor, tatarská omáčka",
+            "n": "Zapečené neapolské nudle, okurka(vepř., uzené, celer, česnek, kečup, div.koř.)",
             "a": []
           }
         ]
@@ -4367,13 +4367,13 @@
       {
         "c": "obed",
         "m": 1,
-        "n": "Maso tří barev, rýže(vepřové, kuřecí, játra, arašídy, zelí, čínská zel., žamp., pór)",
+        "n": "Přírodní kuřecí plátek, bramborová kaše, míchaný salát",
         "d": "",
         "a": [],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Maso tří barev, rýže(vepřové, kuřecí, játra, arašídy, zelí, čínská zel., žamp., pór)",
+            "n": "Přírodní kuřecí plátek, bramborová kaše, míchaný salát",
             "a": []
           }
         ]
@@ -4432,15 +4432,21 @@
         ]
       },
       {
+        "c": "polevka",
+        "n": "Rajská",
+        "d": "",
+        "a": []
+      },
+      {
         "c": "obed",
         "m": 1,
-        "n": "Oběd Rubena",
+        "n": "Sekaná pečeně, bramborová kaše, okurka",
         "d": "",
         "a": [],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Oběd Rubena",
+            "n": "Sekaná pečeně, bramborová kaše, okurka",
             "a": []
           }
         ]
@@ -4499,15 +4505,21 @@
         ]
       },
       {
+        "c": "polevka",
+        "n": "Hovězí vývar s rýží",
+        "d": "",
+        "a": []
+      },
+      {
         "c": "obed",
         "m": 1,
-        "n": "Oběd Rubena",
+        "n": "Špagety po Milánsku, sýr(ml.uzené, slanina, ster.rajče, protlak, kečup, cibule)",
         "d": "",
         "a": [],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Oběd Rubena",
+            "n": "Špagety po Milánsku, sýr(ml.uzené, slanina, ster.rajče, protlak, kečup, cibule)",
             "a": []
           }
         ]
@@ -4566,15 +4578,21 @@
         ]
       },
       {
+        "c": "polevka",
+        "n": "Ze zelených fazolek",
+        "d": "",
+        "a": []
+      },
+      {
         "c": "obed",
         "m": 1,
-        "n": "Oběd Rubena",
+        "n": "Kuřecí plátek na zelenině a červeném víně, rýže",
         "d": "",
         "a": [],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Oběd Rubena",
+            "n": "Kuřecí plátek na zelenině a červeném víně, rýže",
             "a": []
           }
         ]
@@ -4633,15 +4651,21 @@
         ]
       },
       {
+        "c": "polevka",
+        "n": "Kuřecí vývar s hvězdičkami",
+        "d": "",
+        "a": []
+      },
+      {
         "c": "obed",
         "m": 1,
-        "n": "Oběd Rubena",
+        "n": "Kuře na paprice, těstoviny",
         "d": "",
         "a": [],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Oběd Rubena",
+            "n": "Kuře na paprice, těstoviny",
             "a": []
           }
         ]
@@ -4700,15 +4724,21 @@
         ]
       },
       {
+        "c": "polevka",
+        "n": "Gulášová s těstovinou",
+        "d": "",
+        "a": []
+      },
+      {
         "c": "obed",
         "m": 1,
-        "n": "Oběd Rubena",
+        "n": "Smažený kuřecí řízek v těstíčku, brambor, okurka",
         "d": "",
         "a": [],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Oběd Rubena",
+            "n": "Smažený kuřecí řízek v těstíčku, brambor, okurka",
             "a": []
           }
         ]
@@ -5453,6 +5483,73 @@
     ]
   },
   "2026-12-15": {
+    "vydej": "12:00–13:00",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "m": 1,
+        "n": "Dopolední svačina",
+        "d": "Mléko, voda · Zelenina",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Dopolední svačina",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko, voda",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zelenina",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "m": 1,
+        "n": "Odpolední svačina",
+        "d": "Mléko, voda · Ovoce",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Odpolední svačina",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko, voda",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Oběd Rubena",
+        "d": "",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Oběd Rubena",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-12-16": {
     "vydej": "12:00–13:00",
     "chody": [
       {

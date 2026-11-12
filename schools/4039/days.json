@@ -1093,7 +1093,7 @@
       {
         "c": "svacina",
         "m": 1,
-        "n": "1x toastový chléb s pažitkovým máslem, 1x mléko 0, 25l",
+        "n": "1x toastový chléb a pomazánka z pečených paprik, 1x mléko",
         "d": "",
         "a": [
           1,
@@ -1102,7 +1102,7 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "1x toastový chléb s pažitkovým máslem, 1x mléko 0, 25l",
+            "n": "1x toastový chléb a pomazánka z pečených paprik, 1x mléko",
             "a": [
               1,
               7
@@ -2717,6 +2717,117 @@
             "l": "Příloha2",
             "n": "Zeleninový salát",
             "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce dle nabídky",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj, čirá voda, ochucené nápoje, mléčné nápoje",
+            "a": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-12-16": {
+    "vydej": "11:30–14:00",
+    "chody": [
+      {
+        "c": "svacina",
+        "m": 1,
+        "n": "2x houska s mozzarellou",
+        "d": "",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "2x houska s mozzarellou",
+            "a": [
+              1,
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Hovězí vývar se zeleninou a nudlemi",
+        "d": "",
+        "a": []
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Špagety Carbonara",
+        "d": "Strouhaný parmazán · Vanilkový tvaroh · Ovoce dle nabídky · Čaj, čirá voda, ochucené nápoje, mléčné nápoje",
+        "a": [
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Špagety Carbonara",
+            "a": []
+          },
+          {
+            "l": "Příloha1",
+            "n": "Strouhaný parmazán",
+            "a": []
+          },
+          {
+            "l": "Příloha2",
+            "n": "Vanilkový tvaroh",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce dle nabídky",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj, čirá voda, ochucené nápoje, mléčné nápoje",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "m": 1,
+        "n": "Špagety Carbonara (BZL těstoviny)",
+        "d": "Strouhaný parmazán · Vanilkový tvaroh · Ovoce dle nabídky · Čaj, čirá voda, ochucené nápoje, mléčné nápoje",
+        "a": [
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Špagety Carbonara (BZL těstoviny)",
+            "a": []
+          },
+          {
+            "l": "Příloha1",
+            "n": "Strouhaný parmazán",
+            "a": []
+          },
+          {
+            "l": "Příloha2",
+            "n": "Vanilkový tvaroh",
+            "a": [
+              7
+            ]
           },
           {
             "l": "Doplněk",
