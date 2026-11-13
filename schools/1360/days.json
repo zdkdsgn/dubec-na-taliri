@@ -3827,12 +3827,11 @@
     ]
   },
   "2026-11-09": {
-    "vydej": "11:00–14:00",
     "chody": [
       {
         "c": "presnidavka",
         "m": 1,
-        "n": "Chléb toustový, perla, plátkový sýr, zelenina, kakao",
+        "n": "Rohlík, perla, ovoce, mléko",
         "d": "",
         "a": [
           1,
@@ -3841,67 +3840,9 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Chléb toustový, perla, plátkový sýr, zelenina, kakao",
+            "n": "Rohlík, perla, ovoce, mléko",
             "a": [
               1,
-              7
-            ]
-          }
-        ]
-      },
-      {
-        "c": "polevka",
-        "n": "Pravěká (cizrna, kroupy, houby, brambory)",
-        "d": "",
-        "a": [
-          1,
-          7,
-          9,
-          12
-        ]
-      },
-      {
-        "c": "obed",
-        "m": 1,
-        "n": "Nudle s mákem",
-        "d": "Mošt",
-        "a": [
-          1,
-          7
-        ],
-        "p": [
-          {
-            "l": "Jídlo",
-            "n": "Nudle s mákem",
-            "a": [
-              1,
-              7
-            ]
-          },
-          {
-            "l": "Nápoj",
-            "n": "Mošt",
-            "a": []
-          }
-        ]
-      },
-      {
-        "c": "svacina",
-        "m": 1,
-        "n": "Rohlík mama mia, pom. Švédská, ovoce, čaj",
-        "d": "",
-        "a": [
-          1,
-          3,
-          7
-        ],
-        "p": [
-          {
-            "l": "Jídlo",
-            "n": "Rohlík mama mia, pom. Švédská, ovoce, čaj",
-            "a": [
-              1,
-              3,
               7
             ]
           }
@@ -4215,6 +4156,374 @@
             "n": "Jogurt Tlapková patrola, rohlík, jablko, čaj",
             "a": [
               1,
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-11-16": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "m": 1,
+        "n": "Rohlík, perla, ovoce, mléko",
+        "d": "",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Rohlík, perla, ovoce, mléko",
+            "a": [
+              1,
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Gulášová se sojovým masem",
+        "d": "",
+        "a": [
+          6
+        ]
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Čočka na kyselo se zeleninou",
+        "d": "Chléb · Mošt",
+        "a": [
+          1,
+          9
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Čočka na kyselo se zeleninou",
+            "a": [
+              9
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Chléb",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mošt",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "m": 1,
+        "n": "Chléb toustový pom. z červené řepy, zelenina, čaj",
+        "d": "",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Chléb toustový pom. z červené řepy, zelenina, čaj",
+            "a": [
+              1,
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-11-17": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Státní svátek",
+        "d": "",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Státní svátek",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-11-18": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "m": 1,
+        "n": "Šlehaný tvaroh, piškoty, banán, čaj",
+        "d": "",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Šlehaný tvaroh, piškoty, banán, čaj",
+            "a": [
+              1,
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Hovězí vývar s játrovou rýří",
+        "d": "",
+        "a": [
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Zapečené těstoviny s tuňákem a zeleninou",
+        "d": "Zelný salát · Voda se šťávou",
+        "a": [
+          1,
+          3,
+          4
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Zapečené těstoviny s tuňákem a zeleninou",
+            "a": [
+              1,
+              3,
+              4
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zelný salát",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Voda se šťávou",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "m": 1,
+        "n": "Rohlík graham, pom. hermelínová, zelenina, čaj",
+        "d": "",
+        "a": [
+          1,
+          6,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Rohlík graham, pom. hermelínová, zelenina, čaj",
+            "a": [
+              1,
+              6,
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-11-19": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "m": 1,
+        "n": "Veka, Lučina, ovoce, mléko",
+        "d": "",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Veka, Lučina, ovoce, mléko",
+            "a": [
+              1,
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Selská",
+        "d": "",
+        "a": [
+          1,
+          7,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Sekaný řízek se sýrem",
+        "d": "Bramborová kaše · Ovocný kompot · Voda se šťávou",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Sekaný řízek se sýrem",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Bramborová kaše",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovocný kompot",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Voda se šťávou",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "m": 1,
+        "n": "Babičin chléb, pom. z játrového sýra, zelenina, čaj",
+        "d": "",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Babičin chléb, pom. z játrového sýra, zelenina, čaj",
+            "a": [
+              1,
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-11-20": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "m": 1,
+        "n": "Rohlík, žervé, ovoce, melta",
+        "d": "",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Rohlík, žervé, ovoce, melta",
+            "a": [
+              1,
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Zeleninová krémová",
+        "d": "",
+        "a": [
+          7,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Rozlítaný španělský ptáček",
+        "d": "Dušená rýže · Voda s citrónem",
+        "a": [
+          3
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Rozlítaný španělský ptáček",
+            "a": [
+              3
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Dušená rýže",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Voda s citrónem",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "m": 1,
+        "n": "Chléb, pom. z krabích tyčinek, zelenina, čaj",
+        "d": "",
+        "a": [
+          1,
+          2,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Chléb, pom. z krabích tyčinek, zelenina, čaj",
+            "a": [
+              1,
+              2,
               7
             ]
           }

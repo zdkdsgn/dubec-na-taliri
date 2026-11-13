@@ -3823,5 +3823,90 @@
         ]
       }
     ]
+  },
+  "2026-12-17": {
+    "vydej": "9:00–14:30",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Hrachová s krutony",
+        "d": "",
+        "a": [
+          1
+        ]
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Vepřová plec po selsku",
+        "d": "Dušená rýže · Salátový bar · Džus, mléko, ovocný čaj",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Vepřová plec po selsku",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Dušená rýže",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Salátový bar",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Džus, mléko, ovocný čaj",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "m": 2,
+        "n": "Kuřecí rizoto s hráškem, mrkvi a červenou čočkou",
+        "d": "Červená řepa · Salátový bar · Džus, mléko, ovocný čaj",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Kuřecí rizoto s hráškem, mrkvi a červenou čočkou",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Červená řepa",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Salátový bar",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Džus, mléko, ovocný čaj",
+            "a": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
   }
 }

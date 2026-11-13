@@ -4342,6 +4342,20 @@
             "a": []
           }
         ]
+      },
+      {
+        "c": "svacina",
+        "m": 1,
+        "n": "Státní svátek",
+        "d": "",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Státní svátek",
+            "a": []
+          }
+        ]
       }
     ]
   },
@@ -4418,7 +4432,7 @@
       {
         "c": "svacina",
         "m": 1,
-        "n": "Křehký kukuřičný plátek, pomazánka s červené čočky",
+        "n": "Křehký kukuřičný plátek, pomazánka z červené čočky",
         "d": "Zelenina · Černý čaj, mléko",
         "a": [
           7
@@ -4426,7 +4440,7 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Křehký kukuřičný plátek, pomazánka s červené čočky",
+            "n": "Křehký kukuřičný plátek, pomazánka z červené čočky",
             "a": [
               7
             ]
@@ -4496,18 +4510,21 @@
         "c": "obed",
         "m": 1,
         "n": "Kuskus, , Sombrero\" se sýrem a kukuřicí",
-        "d": "Kompot · Voda",
-        "a": [],
+        "d": "Voda",
+        "a": [
+          1,
+          7,
+          9
+        ],
         "p": [
           {
             "l": "Jídlo",
             "n": "Kuskus, , Sombrero\" se sýrem a kukuřicí",
-            "a": []
-          },
-          {
-            "l": "Doplněk",
-            "n": "Kompot",
-            "a": []
+            "a": [
+              1,
+              7,
+              9
+            ]
           },
           {
             "l": "Nápoj",

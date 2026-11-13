@@ -4115,38 +4115,6 @@
     "vydej": "11:00–12:10",
     "chody": [
       {
-        "c": "presnidavka",
-        "m": 1,
-        "n": "Rohlík se sýrovou pěnou",
-        "d": "Ovoce · Bílá káva, šípkový čaj",
-        "a": [
-          1,
-          7
-        ],
-        "p": [
-          {
-            "l": "Jídlo",
-            "n": "Rohlík se sýrovou pěnou",
-            "a": [
-              1,
-              7
-            ]
-          },
-          {
-            "l": "Doplněk",
-            "n": "Ovoce",
-            "a": []
-          },
-          {
-            "l": "Nápoj",
-            "n": "Bílá káva, šípkový čaj",
-            "a": [
-              7
-            ]
-          }
-        ]
-      },
-      {
         "c": "polevka",
         "n": "Krupicová s vejcem",
         "d": "",
@@ -4189,74 +4157,12 @@
             ]
           }
         ]
-      },
-      {
-        "c": "svacina",
-        "m": 1,
-        "n": "Podmáslový chléb s rybičkovou pomazánkou",
-        "d": "Zelenina · Čaj, voda",
-        "a": [
-          1,
-          4,
-          7
-        ],
-        "p": [
-          {
-            "l": "Jídlo",
-            "n": "Podmáslový chléb s rybičkovou pomazánkou",
-            "a": [
-              1,
-              4,
-              7
-            ]
-          },
-          {
-            "l": "Doplněk",
-            "n": "Zelenina",
-            "a": []
-          },
-          {
-            "l": "Nápoj",
-            "n": "Čaj, voda",
-            "a": []
-          }
-        ]
       }
     ]
   },
   "2026-11-10": {
     "vydej": "11:00–12:10",
     "chody": [
-      {
-        "c": "presnidavka",
-        "m": 1,
-        "n": "Raženka s ochuceným pomazánkovým máslem a pažitkou",
-        "d": "Zelenina · Čaj roibos, voda",
-        "a": [
-          1,
-          7
-        ],
-        "p": [
-          {
-            "l": "Jídlo",
-            "n": "Raženka s ochuceným pomazánkovým máslem a pažitkou",
-            "a": [
-              1,
-              7
-            ]
-          },
-          {
-            "l": "Doplněk",
-            "n": "Zelenina",
-            "a": []
-          },
-          {
-            "l": "Nápoj",
-            "n": "Čaj roibos, voda",
-            "a": []
-          }
-        ]
-      },
       {
         "c": "polevka",
         "n": "Pórková s jáhlovými vločkami",
@@ -4293,70 +4199,12 @@
             "a": []
           }
         ]
-      },
-      {
-        "c": "svacina",
-        "m": 1,
-        "n": "Grahamový rohlík s máslem a plátkem sýra",
-        "d": "Ovoce · Čaj babiččina volba, voda",
-        "a": [
-          1,
-          7
-        ],
-        "p": [
-          {
-            "l": "Jídlo",
-            "n": "Grahamový rohlík s máslem a plátkem sýra",
-            "a": [
-              1,
-              7
-            ]
-          },
-          {
-            "l": "Doplněk",
-            "n": "Ovoce",
-            "a": []
-          },
-          {
-            "l": "Nápoj",
-            "n": "Čaj babiččina volba, voda",
-            "a": []
-          }
-        ]
       }
     ]
   },
   "2026-11-11": {
     "vydej": "11:00–12:10",
     "chody": [
-      {
-        "c": "presnidavka",
-        "m": 1,
-        "n": "Šlehaný tvaroh s grankem",
-        "d": "Ovoce · Dětský čaj, voda",
-        "a": [
-          7
-        ],
-        "p": [
-          {
-            "l": "Jídlo",
-            "n": "Šlehaný tvaroh s grankem",
-            "a": [
-              7
-            ]
-          },
-          {
-            "l": "Doplněk",
-            "n": "Ovoce",
-            "a": []
-          },
-          {
-            "l": "Nápoj",
-            "n": "Dětský čaj, voda",
-            "a": []
-          }
-        ]
-      },
       {
         "c": "polevka",
         "n": "Kulajda",
@@ -4396,64 +4244,12 @@
             "a": []
           }
         ]
-      },
-      {
-        "c": "svacina",
-        "m": 1,
-        "n": "Obložená pletýnka s perlou a plátky zeleniny",
-        "d": "Citronový čaj, voda",
-        "a": [
-          1,
-          7
-        ],
-        "p": [
-          {
-            "l": "Jídlo",
-            "n": "Obložená pletýnka s perlou a plátky zeleniny",
-            "a": [
-              1,
-              7
-            ]
-          },
-          {
-            "l": "Nápoj",
-            "n": "Citronový čaj, voda",
-            "a": []
-          }
-        ]
       }
     ]
   },
   "2026-11-12": {
     "vydej": "11:00–12:10",
     "chody": [
-      {
-        "c": "presnidavka",
-        "m": 1,
-        "n": "Slunečnicová veka s máslem a plátky mrkve",
-        "d": "Mléko, borůvkový čaj",
-        "a": [
-          1,
-          7
-        ],
-        "p": [
-          {
-            "l": "Jídlo",
-            "n": "Slunečnicová veka s máslem a plátky mrkve",
-            "a": [
-              1,
-              7
-            ]
-          },
-          {
-            "l": "Nápoj",
-            "n": "Mléko, borůvkový čaj",
-            "a": [
-              7
-            ]
-          }
-        ]
-      },
       {
         "c": "polevka",
         "n": "Brokolicová s dýňovým kapáním",
@@ -4490,36 +4286,6 @@
           {
             "l": "Nápoj",
             "n": "Čaj s jablkem se se skořicí, voda",
-            "a": []
-          }
-        ]
-      },
-      {
-        "c": "svacina",
-        "m": 1,
-        "n": "Špaldový chléb s lučinou",
-        "d": "Ovoce · Pomerančový čaj, voda",
-        "a": [
-          1,
-          7
-        ],
-        "p": [
-          {
-            "l": "Jídlo",
-            "n": "Špaldový chléb s lučinou",
-            "a": [
-              1,
-              7
-            ]
-          },
-          {
-            "l": "Doplněk",
-            "n": "Ovoce",
-            "a": []
-          },
-          {
-            "l": "Nápoj",
-            "n": "Pomerančový čaj, voda",
             "a": []
           }
         ]

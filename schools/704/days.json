@@ -4737,18 +4737,25 @@
       {
         "c": "presnidavka",
         "m": 1,
-        "n": "JÁHLOVÁ KAŠE S OVOCEM",
-        "d": "MEDUŇKOVÝ ČAJ, VODA S POMERANČEM",
+        "n": "TOUSTOVÝ CHLÉB, RAMA",
+        "d": "ZELENINA · MEDUŇKOVÝ ČAJ, VODA S POMERANČEM",
         "a": [
-          1
+          1,
+          7
         ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "JÁHLOVÁ KAŠE S OVOCEM",
+            "n": "TOUSTOVÝ CHLÉB, RAMA",
             "a": [
-              1
+              1,
+              7
             ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "ZELENINA",
+            "a": []
           },
           {
             "l": "Nápoj",
@@ -4812,8 +4819,8 @@
       {
         "c": "svacina",
         "m": 1,
-        "n": "TOUSTOVÝ CHLÉB, RAMA",
-        "d": "ZELENINA · MEDUŇKOVÝ ČAJ",
+        "n": "MLÉKO S KULIČKAMI",
+        "d": "MEDUŇKOVÝ ČAJ",
         "a": [
           1,
           7
@@ -4821,16 +4828,11 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "TOUSTOVÝ CHLÉB, RAMA",
+            "n": "MLÉKO S KULIČKAMI",
             "a": [
               1,
               7
             ]
-          },
-          {
-            "l": "Doplněk",
-            "n": "ZELENINA",
-            "a": []
           },
           {
             "l": "Nápoj",

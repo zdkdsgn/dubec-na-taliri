@@ -6290,5 +6290,95 @@
         ]
       }
     ]
+  },
+  "2026-12-17": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "S játrovými knedlíčky",
+        "d": "",
+        "a": [
+          1,
+          3,
+          7,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Platýz LIMANDA na másle",
+        "d": "Brambory, citrón · Ovocná přesnídávka · Sirup, voda, horká čokoláda",
+        "a": [
+          1,
+          4,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Platýz LIMANDA na másle",
+            "a": [
+              4,
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Brambory, citrón",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovocná přesnídávka",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Sirup, voda, horká čokoláda",
+            "a": [
+              1,
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "m": 2,
+        "n": "Lasagne se žampiony a smetanou",
+        "d": "Ovocná přesnídávka · Sirup, voda, horká čokoláda",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Lasagne se žampiony a smetanou",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovocná přesnídávka",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Sirup, voda, horká čokoláda",
+            "a": [
+              1,
+              7
+            ]
+          }
+        ]
+      }
+    ]
   }
 }

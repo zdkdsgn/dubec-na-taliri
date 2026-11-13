@@ -6908,7 +6908,7 @@
         "c": "svacina",
         "m": 1,
         "n": "Chléb s kedlubnovou pomazánkou",
-        "d": "Ovoce, zelenina · Čaj",
+        "d": "Zelenina · Čaj",
         "a": [
           1,
           3,
@@ -6926,7 +6926,7 @@
           },
           {
             "l": "Doplněk",
-            "n": "Ovoce, zelenina",
+            "n": "Zelenina",
             "a": []
           },
           {
@@ -7409,7 +7409,7 @@
         "c": "obed",
         "m": 1,
         "n": "Sekaná pečeně, šťouchané brambory",
-        "d": "Okurek · Jogurt · Šťáva",
+        "d": "Okurek · Šťáva",
         "a": [
           1,
           3,
@@ -7431,13 +7431,6 @@
             "a": []
           },
           {
-            "l": "Doplněk",
-            "n": "Jogurt",
-            "a": [
-              7
-            ]
-          },
-          {
             "l": "Nápoj",
             "n": "Šťáva",
             "a": []
@@ -7448,7 +7441,7 @@
         "c": "obed2",
         "m": 2,
         "n": "Tarhoňa se sušenými rajčaty a houbami",
-        "d": "Jogurt · Šťáva",
+        "d": "Šťáva",
         "a": [
           1,
           3,
@@ -7464,13 +7457,6 @@
               3,
               7,
               9
-            ]
-          },
-          {
-            "l": "Doplněk",
-            "n": "Jogurt",
-            "a": [
-              7
             ]
           },
           {
@@ -7680,7 +7666,7 @@
         "c": "obed",
         "m": 1,
         "n": "Boloňské špagety se sýrem",
-        "d": "Ovoce · Šťáva",
+        "d": "Šťáva",
         "a": [
           1,
           3,
@@ -7699,11 +7685,6 @@
             ]
           },
           {
-            "l": "Doplněk",
-            "n": "Ovoce",
-            "a": []
-          },
-          {
             "l": "Nápoj",
             "n": "Šťáva",
             "a": []
@@ -7714,7 +7695,7 @@
         "c": "obed2",
         "m": 2,
         "n": "Krupicová kaše s čokoládouvou polevou",
-        "d": "Ovoce · Šťáva",
+        "d": "Šťáva",
         "a": [
           1,
           7
@@ -7727,11 +7708,6 @@
               1,
               7
             ]
-          },
-          {
-            "l": "Doplněk",
-            "n": "Ovoce",
-            "a": []
           },
           {
             "l": "Nápoj",
@@ -9401,6 +9377,155 @@
               1,
               3,
               7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zelenina",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-12-17": {
+    "vydej": "11:30–13:45",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "m": 1,
+        "n": "Chléb s cizrnovou pomazánkou",
+        "d": "Zelenina, ovoce · Kakao",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Chléb s cizrnovou pomazánkou",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zelenina, ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Kakao",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Franfurtská s párkem",
+        "d": "",
+        "a": []
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Smažené rybí nugety",
+        "d": "Bramborová kaše · Zeleninový salát · Šťáva",
+        "a": [
+          1,
+          3,
+          4,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Smažené rybí nugety",
+            "a": [
+              1,
+              3,
+              4,
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Bramborová kaše",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zeleninový salát",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Šťáva",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "m": 2,
+        "n": "Drůbeží játra na cibulce",
+        "d": "Dušená rýže · Zeleninový salát · Štáva",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Drůbeží játra na cibulce",
+            "a": []
+          },
+          {
+            "l": "Příloha",
+            "n": "Dušená rýže",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zeleninový salát",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Štáva",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "m": 1,
+        "n": "Bulka s celerovou pomazánkou a vajíčkem",
+        "d": "Zelenina · Čaj",
+        "a": [
+          1,
+          3,
+          7,
+          9
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Bulka s celerovou pomazánkou a vajíčkem",
+            "a": [
+              1,
+              3,
+              7,
+              9
             ]
           },
           {

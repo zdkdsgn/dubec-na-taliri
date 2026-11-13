@@ -5494,7 +5494,7 @@
       {
         "c": "presnidavka",
         "m": 1,
-        "n": "Pom. špenátová, chléb, ředkvička",
+        "n": "Pom. špenátová, chléb, paprika",
         "d": "Mléko, čaj, voda",
         "a": [
           1,
@@ -5505,7 +5505,7 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Pom. špenátová, chléb, ředkvička",
+            "n": "Pom. špenátová, chléb, paprika",
             "a": [
               1,
               3,
@@ -5560,9 +5560,7 @@
           {
             "l": "Doplněk",
             "n": "Dušená rýže",
-            "a": [
-              1
-            ]
+            "a": []
           },
           {
             "l": "Nápoj",
@@ -5631,7 +5629,7 @@
       {
         "c": "presnidavka",
         "m": 1,
-        "n": "Pom. ředkvičková, prokornový chléb, rajčátko, Zš sýr",
+        "n": "Pom. ředkvičková, prokornový chléb, kedlubna, ZŠ sýr",
         "d": "Mléko, čaj, voda",
         "a": [
           1,
@@ -5641,7 +5639,7 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Pom. ředkvičková, prokornový chléb, rajčátko, Zš sýr",
+            "n": "Pom. ředkvičková, prokornový chléb, kedlubna, ZŠ sýr",
             "a": [
               1,
               6,
@@ -5745,7 +5743,7 @@
       {
         "c": "presnidavka",
         "m": 1,
-        "n": "Pom. rybí se sýrem, grahamová bulka, ředkvička",
+        "n": "Pom. rybí se sýrem, grahamová bulka, rajče",
         "d": "Mléko, čaj, voda",
         "a": [
           1,
@@ -5755,7 +5753,7 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Pom. rybí se sýrem, grahamová bulka, ředkvička",
+            "n": "Pom. rybí se sýrem, grahamová bulka, rajče",
             "a": [
               1,
               4,
@@ -5773,7 +5771,7 @@
       },
       {
         "c": "polevka",
-        "n": "Gulášová se sojového masa",
+        "n": "Gulášová ze sojového masa",
         "d": "",
         "a": [
           1,
@@ -5851,7 +5849,7 @@
       {
         "c": "presnidavka",
         "m": 1,
-        "n": "Pom. tvarohová s koprem, kedlubna, žitný chléb",
+        "n": "Pom. tvarohová s koprem, salátový okurek, žitný chléb",
         "d": "Mléko, čaj, voda",
         "a": [
           1,
@@ -5860,7 +5858,7 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Pom. tvarohová s koprem, kedlubna, žitný chléb",
+            "n": "Pom. tvarohová s koprem, salátový okurek, žitný chléb",
             "a": [
               1,
               7
@@ -5892,7 +5890,8 @@
         "d": "Bramborová kaše · Hořčice, pórek · Čaj, voda",
         "a": [
           1,
-          6
+          6,
+          10
         ],
         "p": [
           {
@@ -5911,7 +5910,8 @@
             "l": "Doplněk",
             "n": "Hořčice, pórek",
             "a": [
-              6
+              6,
+              10
             ]
           },
           {
