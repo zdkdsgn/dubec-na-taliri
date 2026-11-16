@@ -4209,7 +4209,7 @@
         "c": "obed",
         "m": 1,
         "n": "Zapečené těstoviny s uzeným masem, kyselá okurka",
-        "d": "Kompot · Čaj se sirupem, voda, horká čokoláda",
+        "d": "Broskvový kompot · Čaj se sirupem, voda, horká čokoláda",
         "a": [
           1,
           3,
@@ -4227,7 +4227,7 @@
           },
           {
             "l": "Doplněk",
-            "n": "Kompot",
+            "n": "Broskvový kompot",
             "a": []
           },
           {
@@ -4244,7 +4244,7 @@
         "c": "obed2",
         "m": 2,
         "n": "Perkelt z tofu",
-        "d": "Těstoviny · Kompot · Čaj se sirupem, voda, horká čokoláda",
+        "d": "Těstoviny · Broskvový kompot · Čaj se sirupem, voda, horká čokoláda",
         "a": [
           1,
           6,
@@ -4267,7 +4267,7 @@
           },
           {
             "l": "Doplněk",
-            "n": "Kompot",
+            "n": "Broskvový kompot",
             "a": []
           },
           {
@@ -4287,7 +4287,7 @@
     "chody": [
       {
         "c": "polevka",
-        "n": "Slepičí s těstovinovou zavářkou",
+        "n": "Slepičí s těstovinovou zavářkou tarhoňou",
         "d": "",
         "a": [
           1,
@@ -4410,7 +4410,7 @@
         "c": "obed",
         "m": 1,
         "n": "Rybí file (kostka) z divokého lososa v sýrové peřince",
-        "d": "Brambory, kečup · Kompot · 100% mošt, voda, ochucené mléko",
+        "d": "Brambory, kečup · Míchaný kompot · 100% mošt, voda, ochucené mléko",
         "a": [
           4,
           7
@@ -4431,7 +4431,7 @@
           },
           {
             "l": "Doplněk",
-            "n": "Kompot",
+            "n": "Míchaný kompot",
             "a": []
           },
           {
@@ -4447,7 +4447,7 @@
         "c": "obed2",
         "m": 2,
         "n": "Farfalle se žampionovou omáčkou",
-        "d": "Kompot · 100% mošt, voda, ochucené mléko",
+        "d": "Míchaný kompot · 100% mošt, voda, ochucené mléko",
         "a": [
           1,
           3,
@@ -4465,7 +4465,7 @@
           },
           {
             "l": "Doplněk",
-            "n": "Kompot",
+            "n": "Míchaný kompot",
             "a": []
           },
           {
@@ -4754,7 +4754,7 @@
         "c": "obed",
         "m": 1,
         "n": "Vejce vařené, fazolové lusky na smetaně",
-        "d": "Brambory · Multivitamin, voda, ochucené mléko",
+        "d": "Brambory · Kompot · Multivitamin, voda, ochucené mléko",
         "a": [
           1,
           3,
@@ -4776,6 +4776,11 @@
             "a": []
           },
           {
+            "l": "Doplněk",
+            "n": "Kompot",
+            "a": []
+          },
+          {
             "l": "Nápoj",
             "n": "Multivitamin, voda, ochucené mléko",
             "a": [
@@ -4788,7 +4793,7 @@
         "c": "obed2",
         "m": 2,
         "n": "Kuřecí křídla pečená",
-        "d": "Šťouchané brambory, medová hořčice, nakládaná červená cibule · Multivitamin, voda, ochucené mléko",
+        "d": "Šťouchané brambory, medová hořčice, nakládaná červená cibule · Kompot · Multivitamin, voda, ochucené mléko",
         "a": [
           7
         ],
@@ -4806,6 +4811,11 @@
             "a": [
               7
             ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Kompot",
+            "a": []
           },
           {
             "l": "Nápoj",
@@ -6374,6 +6384,94 @@
             "n": "Sirup, voda, horká čokoláda",
             "a": [
               1,
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-12-18": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Květáková",
+        "d": "",
+        "a": [
+          1,
+          7
+        ]
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Segedínský guláš",
+        "d": "Houskové knedlíky · Multivitamin, voda, mléko",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Segedínský guláš",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Houskové knedlíky",
+            "a": [
+              1,
+              3
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Multivitamin, voda, mléko",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "m": 2,
+        "n": "Kuskus se zeleninou sypaný sýrem",
+        "d": "Rajčatový salát s mini mozzarellou · Multivitamín, voda, mléko",
+        "a": [
+          1,
+          3,
+          7,
+          9
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Kuskus se zeleninou sypaný sýrem",
+            "a": [
+              1,
+              3,
+              7,
+              9
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Rajčatový salát s mini mozzarellou",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Multivitamín, voda, mléko",
+            "a": [
               7
             ]
           }

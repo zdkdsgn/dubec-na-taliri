@@ -5676,29 +5676,39 @@
       },
       {
         "c": "polevka",
-        "n": "Krupicová s vejcem",
+        "n": "Petrželová",
         "d": "",
         "a": [
           1,
-          3,
-          9
+          7
         ]
       },
       {
         "c": "obed",
         "m": 1,
-        "n": "Kuskus s kuřecím masem a brokolici",
-        "d": "Čaj granátové jablko",
-        "a": [],
+        "n": "Fazole s kořenovou zeleninou v rajské omáčce",
+        "d": "Chléb · Meduňkový čaj",
+        "a": [
+          1,
+          9
+        ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Kuskus s kuřecím masem a brokolici",
+            "n": "Fazole s kořenovou zeleninou v rajské omáčce",
+            "a": [
+              1,
+              9
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Chléb",
             "a": []
           },
           {
             "l": "Nápoj",
-            "n": "Čaj granátové jablko",
+            "n": "Meduňkový čaj",
             "a": []
           }
         ]
@@ -5891,41 +5901,29 @@
       },
       {
         "c": "polevka",
-        "n": "Petrželová",
+        "n": "Krupicová s vejcem",
         "d": "",
         "a": [
           1,
-          7
+          3,
+          9
         ]
       },
       {
         "c": "obed",
         "m": 1,
-        "n": "Fazole s kořenovou zeleninou v rajské omáčce",
-        "d": "Chléb · Meduňkový čaj",
-        "a": [
-          1,
-          9
-        ],
+        "n": "Kuskus s kuřecím masem a brokolici",
+        "d": "Čaj granátové jablko",
+        "a": [],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Fazole s kořenovou zeleninou v rajské omáčce",
-            "a": [
-              1,
-              9
-            ]
-          },
-          {
-            "l": "Doplněk",
-            "n": "Chléb",
-            "a": [
-              1
-            ]
+            "n": "Kuskus s kuřecím masem a brokolici",
+            "a": []
           },
           {
             "l": "Nápoj",
-            "n": "Meduňkový čaj",
+            "n": "Čaj granátové jablko",
             "a": []
           }
         ]

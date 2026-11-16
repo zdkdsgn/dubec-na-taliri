@@ -5022,27 +5022,48 @@
       {
         "c": "presnidavka",
         "m": 1,
-        "n": "Jídelní lístek na tento den nebyl ještě stanoven",
-        "d": "",
+        "n": "Křehký chlebík s plátkovým sýrem",
+        "d": "Ovoce · Mléko, voda",
         "a": [],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Jídelní lístek na tento den nebyl ještě stanoven",
+            "n": "Křehký chlebík s plátkovým sýrem",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko, voda",
             "a": []
           }
         ]
       },
       {
+        "c": "polevka",
+        "n": "Polévka kapustová",
+        "d": "",
+        "a": []
+      },
+      {
         "c": "obed",
         "m": 1,
-        "n": "Jídelní lístek na tento den nebyl ještě stanoven",
-        "d": "",
+        "n": "Šunkofleky s červenou řepou",
+        "d": "Ovocný sirup, voda",
         "a": [],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Jídelní lístek na tento den nebyl ještě stanoven",
+            "n": "Šunkofleky s červenou řepou",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný sirup, voda",
             "a": []
           }
         ]
@@ -5050,14 +5071,32 @@
       {
         "c": "svacina",
         "m": 1,
-        "n": "Jídelní lístek na tento den nebyl ještě stanoven",
-        "d": "",
-        "a": [],
+        "n": "Houska, žervé s pažitkou",
+        "d": "Zelenina · Mléko, voda",
+        "a": [
+          1,
+          7
+        ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Jídelní lístek na tento den nebyl ještě stanoven",
+            "n": "Houska, žervé s pažitkou",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zelenina",
             "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko, voda",
+            "a": [
+              7
+            ]
           }
         ]
       }
@@ -5116,27 +5155,59 @@
       {
         "c": "presnidavka",
         "m": 1,
-        "n": "Jídelní lístek na tento den nebyl ještě stanoven",
-        "d": "",
-        "a": [],
+        "n": "Cereálie s mlékem",
+        "d": "Ovoce · Voda",
+        "a": [
+          1,
+          7
+        ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Jídelní lístek na tento den nebyl ještě stanoven",
+            "n": "Cereálie s mlékem",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Voda",
             "a": []
           }
         ]
       },
       {
+        "c": "polevka",
+        "n": "Polévka zeleninová s těstovinovou rýží",
+        "d": "",
+        "a": []
+      },
+      {
         "c": "obed",
         "m": 1,
-        "n": "Jídelní lístek na tento den nebyl ještě stanoven",
-        "d": "",
+        "n": "Pečená treska na másle",
+        "d": "Vařené brabory · Voda",
         "a": [],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Jídelní lístek na tento den nebyl ještě stanoven",
+            "n": "Pečená treska na másle",
+            "a": []
+          },
+          {
+            "l": "Příloha",
+            "n": "Vařené brabory",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Voda",
             "a": []
           }
         ]
@@ -5144,13 +5215,29 @@
       {
         "c": "svacina",
         "m": 1,
-        "n": "Jídelní lístek na tento den nebyl ještě stanoven",
-        "d": "",
-        "a": [],
+        "n": "Toustový chléb s bylinkovou lučinou",
+        "d": "Zelenina · Mléko, voda",
+        "a": [
+          1,
+          7
+        ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Jídelní lístek na tento den nebyl ještě stanoven",
+            "n": "Toustový chléb s bylinkovou lučinou",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zelenina",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko, voda",
             "a": []
           }
         ]
@@ -5163,27 +5250,60 @@
       {
         "c": "presnidavka",
         "m": 1,
-        "n": "Jídelní lístek na tento den nebyl ještě stanoven",
-        "d": "",
+        "n": "Tmavý chléb s tuňákovou pomazánkou",
+        "d": "Zelenina · Ovocný čaj, voda",
         "a": [],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Jídelní lístek na tento den nebyl ještě stanoven",
+            "n": "Tmavý chléb s tuňákovou pomazánkou",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zelenina",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný čaj, voda",
             "a": []
           }
         ]
       },
       {
+        "c": "polevka",
+        "n": "Polévka hrachová se smaženým hráškem",
+        "d": "",
+        "a": []
+      },
+      {
         "c": "obed",
         "m": 1,
-        "n": "Jídelní lístek na tento den nebyl ještě stanoven",
-        "d": "",
-        "a": [],
+        "n": "Krůtí maso v těstíčku",
+        "d": "Bramborová kaše · Ovocný sirup, voda",
+        "a": [
+          1,
+          7
+        ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Jídelní lístek na tento den nebyl ještě stanoven",
+            "n": "Krůtí maso v těstíčku",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Bramborová kaše",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný sirup, voda",
             "a": []
           }
         ]
@@ -5191,13 +5311,29 @@
       {
         "c": "svacina",
         "m": 1,
-        "n": "Jídelní lístek na tento den nebyl ještě stanoven",
-        "d": "",
-        "a": [],
+        "n": "Rohlík, Philadelphia",
+        "d": "Ovoce · Mléko, voda",
+        "a": [
+          1,
+          7
+        ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Jídelní lístek na tento den nebyl ještě stanoven",
+            "n": "Rohlík, Philadelphia",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko, voda",
             "a": []
           }
         ]
@@ -5210,27 +5346,65 @@
       {
         "c": "presnidavka",
         "m": 1,
-        "n": "Jídelní lístek na tento den nebyl ještě stanoven",
-        "d": "",
-        "a": [],
+        "n": "Chléb s medovým máslem",
+        "d": "Ovoce · Kakao, voda",
+        "a": [
+          1,
+          7
+        ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Jídelní lístek na tento den nebyl ještě stanoven",
+            "n": "Chléb s medovým máslem",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
             "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Kakao, voda",
+            "a": [
+              7
+            ]
           }
         ]
       },
       {
+        "c": "polevka",
+        "n": "Polévka mrkvová",
+        "d": "",
+        "a": []
+      },
+      {
         "c": "obed",
         "m": 1,
-        "n": "Jídelní lístek na tento den nebyl ještě stanoven",
-        "d": "",
-        "a": [],
+        "n": "Vařená čočka s vaječnou omeletou",
+        "d": "Sterilovaná okurka · Voda",
+        "a": [
+          3
+        ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Jídelní lístek na tento den nebyl ještě stanoven",
+            "n": "Vařená čočka s vaječnou omeletou",
+            "a": [
+              3
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Sterilovaná okurka",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Voda",
             "a": []
           }
         ]
@@ -5238,13 +5412,29 @@
       {
         "c": "svacina",
         "m": 1,
-        "n": "Jídelní lístek na tento den nebyl ještě stanoven",
-        "d": "",
-        "a": [],
+        "n": "Veka s perlou",
+        "d": "Ovoce · Čaj, voda",
+        "a": [
+          1,
+          7
+        ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Jídelní lístek na tento den nebyl ještě stanoven",
+            "n": "Veka s perlou",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj, voda",
             "a": []
           }
         ]
@@ -6098,6 +6288,53 @@
     ]
   },
   "2026-12-17": {
+    "vydej": "12:00–12:30",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "m": 1,
+        "n": "Jídelní lístek na tento den nebyl ještě stanoven",
+        "d": "",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Jídelní lístek na tento den nebyl ještě stanoven",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Jídelní lístek na tento den nebyl ještě stanoven",
+        "d": "",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Jídelní lístek na tento den nebyl ještě stanoven",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "m": 1,
+        "n": "Jídelní lístek na tento den nebyl ještě stanoven",
+        "d": "",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Jídelní lístek na tento den nebyl ještě stanoven",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-12-18": {
     "vydej": "12:00–12:30",
     "chody": [
       {

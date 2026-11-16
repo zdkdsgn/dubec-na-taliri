@@ -4464,7 +4464,7 @@
       {
         "c": "obed",
         "m": 1,
-        "n": "Krůtí směs s mandlemi a sušenými meruňkami",
+        "n": "Krůtí směs s mandlemi a sušenými švestkami",
         "d": "Dušená rýže · Míchaný kompot · Kohoutková voda",
         "a": [
           1,
@@ -4473,7 +4473,7 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Krůtí směs s mandlemi a sušenými meruňkami",
+            "n": "Krůtí směs s mandlemi a sušenými švestkami",
             "a": [
               1,
               8
@@ -4541,7 +4541,7 @@
       },
       {
         "c": "polevka",
-        "n": "Drůbeží vývar s nudlemi",
+        "n": "Nudlový vývar",
         "d": "",
         "a": [
           1
@@ -4610,7 +4610,7 @@
       {
         "c": "presnidavka",
         "m": 1,
-        "n": "Bageta, vídeňská pomazánka s kápií, zeleninový talíř, caro",
+        "n": "Loupáček, caro, ovocný talíř",
         "d": "",
         "a": [
           1,
@@ -4619,7 +4619,7 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Bageta, vídeňská pomazánka s kápií, zeleninový talíř, caro",
+            "n": "Loupáček, caro, ovocný talíř",
             "a": [
               1,
               7
@@ -4640,24 +4640,26 @@
       {
         "c": "obed",
         "m": 1,
-        "n": "Losos na másle",
-        "d": "Pečené brambory, domácí bylinkový dip · Grilovaná zelenina · Kohoutková voda",
+        "n": "Losos na másle s přelivem",
+        "d": "Pečené brambory · Grilovaná zelenina · Kohoutková voda",
         "a": [
+          1,
           4,
           7
         ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Losos na másle",
+            "n": "Losos na másle s přelivem",
             "a": [
+              1,
               4,
               7
             ]
           },
           {
             "l": "Příloha",
-            "n": "Pečené brambory, domácí bylinkový dip",
+            "n": "Pečené brambory",
             "a": [
               7
             ]
@@ -4677,17 +4679,19 @@
       {
         "c": "svacina",
         "m": 1,
-        "n": "Dětská ovocná přesnídávka, piškoty, dětský čaj",
+        "n": "Veka, vitamínová pomazánka, zelenina, ovocný čaj",
         "d": "",
         "a": [
-          1
+          1,
+          7
         ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Dětská ovocná přesnídávka, piškoty, dětský čaj",
+            "n": "Veka, vitamínová pomazánka, zelenina, ovocný čaj",
             "a": [
-              1
+              1,
+              7
             ]
           }
         ]
@@ -5626,6 +5630,53 @@
     ]
   },
   "2026-12-17": {
+    "vydej": "11:30–12:00",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "m": 1,
+        "n": "Přesnídávka",
+        "d": "",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Přesnídávka",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Oběd",
+        "d": "",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Oběd",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "m": 1,
+        "n": "Svačina",
+        "d": "",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Svačina",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-12-18": {
     "vydej": "11:30–12:00",
     "chody": [
       {

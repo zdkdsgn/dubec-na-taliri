@@ -4369,6 +4369,7 @@
         "d": "",
         "a": [
           1,
+          4,
           5,
           7
         ],
@@ -4378,6 +4379,7 @@
             "n": "Chléb, pomazánka tuňáková, kedlubna, mrkev, bílá káva",
             "a": [
               1,
+              4,
               5,
               7
             ]
@@ -4579,7 +4581,7 @@
       {
         "c": "presnidavka",
         "m": 1,
-        "n": "Jáhlová kaše, banán, čaj lesní směs",
+        "n": "Jáhlová kaše, bluma, čaj lesní směs",
         "d": "",
         "a": [
           1,
@@ -4589,7 +4591,7 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Jáhlová kaše, banán, čaj lesní směs",
+            "n": "Jáhlová kaše, bluma, čaj lesní směs",
             "a": [
               1,
               3,
@@ -4758,7 +4760,7 @@
       {
         "c": "presnidavka",
         "m": 1,
-        "n": "Houska se šunkou a sýrem, ledový salát, borůvkový čaj",
+        "n": "Houska se šunkou a sýrem, ledový salát, rajče, borůvkový čaj",
         "d": "",
         "a": [
           1
@@ -4766,7 +4768,7 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Houska se šunkou a sýrem, ledový salát, borůvkový čaj",
+            "n": "Houska se šunkou a sýrem, ledový salát, rajče, borůvkový čaj",
             "a": [
               1
             ]
@@ -6007,6 +6009,434 @@
             "a": [
               1,
               3
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-12-14": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "m": 1,
+        "n": "Rohlík s řervé, mrkev, okurka, mléko",
+        "d": "",
+        "a": [
+          1
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Rohlík s řervé, mrkev, okurka, mléko",
+            "a": [
+              1
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Slepičí s nudlemi",
+        "d": "",
+        "a": [
+          1,
+          3
+        ]
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Hrachová kaše s uzeným masem",
+        "d": "Chléb · Kyselá okurka · Malinový čaj",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Hrachová kaše s uzeným masem",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Chléb",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Kyselá okurka",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Malinový čaj",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "m": 1,
+        "n": "Chléb s máslem a džemem, hruška, vanilkové mléko",
+        "d": "",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Chléb s máslem a džemem, hruška, vanilkové mléko",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-12-15": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "m": 1,
+        "n": "Houska s lučinou, mrkev, okurka, mléko",
+        "d": "",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Houska s lučinou, mrkev, okurka, mléko",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Zelná s bramborem",
+        "d": "",
+        "a": [
+          1,
+          7
+        ]
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Květákovo sýrové řízečky",
+        "d": "Brambory · Jogurtový dip · Čaj lesní směs",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Květákovo sýrové řízečky",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Brambory",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Jogurtový dip",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj lesní směs",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "m": 1,
+        "n": "Dalamánek s máslem a šunkou, paprika, čaj lesní směs",
+        "d": "",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Dalamánek s máslem a šunkou, paprika, čaj lesní směs",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-12-16": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "m": 1,
+        "n": "Chléb pomazánka s červené čočky, mrkev, okurka, borůvkový čaj",
+        "d": "",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Chléb pomazánka s červené čočky, mrkev, okurka, borůvkový čaj",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Gulášová s bramborem",
+        "d": "",
+        "a": [
+          1,
+          7
+        ]
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Rýžová kaše se skořicí",
+        "d": "Švestkový kompot, banán · Borůvkový čaj",
+        "a": [
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Rýžová kaše se skořicí",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Švestkový kompot, banán",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Borůvkový čaj",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "m": 1,
+        "n": "Houska s taveným sýrem, paprika, mléko",
+        "d": "",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Houska s taveným sýrem, paprika, mléko",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-12-17": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "m": 1,
+        "n": "Vločková kaše se skořicí, banán, čaj citronový",
+        "d": "",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Vločková kaše se skořicí, banán, čaj citronový",
+            "a": [
+              1,
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Fazolová s krutony",
+        "d": "",
+        "a": [
+          1,
+          7
+        ]
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Vepřové na slanině",
+        "d": "Bramborový knedlík · Mošt, citronový čaj",
+        "a": [
+          1
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Vepřové na slanině",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Bramborový knedlík",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mošt, citronový čaj",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "m": 1,
+        "n": "Chléb, pomazánka z leerdameru, okurka, mléko",
+        "d": "",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Chléb, pomazánka z leerdameru, okurka, mléko",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-12-18": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "m": 1,
+        "n": "Pomazánka z ryb v oleji, chléb, kedlubna, mrkev, káva latte",
+        "d": "",
+        "a": [
+          1,
+          3,
+          4,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Pomazánka z ryb v oleji, chléb, kedlubna, mrkev, káva latte",
+            "a": [
+              1,
+              3,
+              4,
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Kuřecí s těstovinou",
+        "d": "",
+        "a": [
+          1,
+          3
+        ]
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Krůtí na žampionech",
+        "d": "Dušená rýže · Černý čaj se sirupem",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Krůtí na žampionech",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Dušená rýže",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Černý čaj se sirupem",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "m": 1,
+        "n": "Rohlík s máslem a eidamem, rajče, mléko",
+        "d": "",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Rohlík s máslem a eidamem, rajče, mléko",
+            "a": [
+              1,
+              7
             ]
           }
         ]

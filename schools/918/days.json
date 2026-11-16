@@ -4696,7 +4696,7 @@
       {
         "c": "obed",
         "m": 1,
-        "n": "Kuskus s kuřecím masem, sypané sýrem",
+        "n": "Kuskus s kuřecím masem a sýrem",
         "d": "Kompot · Mléko",
         "a": [
           1,
@@ -4707,7 +4707,7 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Kuskus s kuřecím masem, sypané sýrem",
+            "n": "Kuskus s kuřecím masem a sýrem",
             "a": [
               1,
               3,
@@ -4997,12 +4997,13 @@
         "c": "obed",
         "m": 1,
         "n": "Smažené filé",
-        "d": "Vařené brambory",
+        "d": "Vařené brambory · Salát · Čaj",
         "a": [
           1,
           3,
           4,
-          7
+          7,
+          10
         ],
         "p": [
           {
@@ -5021,6 +5022,18 @@
             "a": [
               7
             ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Salát",
+            "a": [
+              10
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj",
+            "a": []
           }
         ]
       },

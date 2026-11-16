@@ -5488,13 +5488,24 @@
       {
         "c": "obed",
         "m": 1,
-        "n": "Čočka na Brněnsku",
-        "d": "Chléb kmínový; ZŠ ovoce · Mléko, voda, čaj",
-        "a": [],
+        "n": "Čočka po brněnsku, kyselá okurka",
+        "d": "Vejce · Chléb kmínový; ZŠ ovoce · Mléko, voda, čaj",
+        "a": [
+          7,
+          9
+        ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Čočka na Brněnsku",
+            "n": "Čočka po brněnsku, kyselá okurka",
+            "a": [
+              7,
+              9
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Vejce",
             "a": []
           },
           {
@@ -5574,9 +5585,12 @@
       },
       {
         "c": "polevka",
-        "n": "Masový výar s obrázky",
+        "n": "Masový vývar s obrázky",
         "d": "",
-        "a": []
+        "a": [
+          1,
+          9
+        ]
       },
       {
         "c": "obed",

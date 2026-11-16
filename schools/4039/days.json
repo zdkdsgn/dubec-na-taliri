@@ -967,13 +967,18 @@
         "n": "Kuřecí prsa na čínský způsob",
         "d": "Dušená rýže · Ovoce dle nabídky · Čaj, čirá voda, ochucené nápoje, mléčné nápoje",
         "a": [
+          1,
+          6,
           7
         ],
         "p": [
           {
             "l": "Jídlo",
             "n": "Kuřecí prsa na čínský způsob",
-            "a": []
+            "a": [
+              1,
+              6
+            ]
           },
           {
             "l": "Příloha1",
@@ -2958,6 +2963,91 @@
           {
             "l": "Příloha2",
             "n": "Pudink s ovocem nebo piškotami",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce dle nabídky",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj, čirá voda, ochucené nápoje, mléčné nápoje",
+            "a": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-12-18": {
+    "vydej": "11:30–14:00",
+    "chody": [
+      {
+        "c": "svacina",
+        "m": 1,
+        "n": "2x chléb se šunkou",
+        "d": "",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "2x chléb se šunkou",
+            "a": [
+              1,
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Krupicová s vejcem",
+        "d": "",
+        "a": [
+          1,
+          3,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Rybí nugetky",
+        "d": "Bramborový salát · Domácí moučník se žmolenkou · Ovoce dle nabídky · Čaj, čirá voda, ochucené nápoje, mléčné nápoje",
+        "a": [
+          1,
+          3,
+          4,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Rybí nugetky",
+            "a": [
+              1,
+              3,
+              4,
+              7
+            ]
+          },
+          {
+            "l": "Příloha1",
+            "n": "Bramborový salát",
+            "a": []
+          },
+          {
+            "l": "Příloha2",
+            "n": "Domácí moučník se žmolenkou",
             "a": [
               1,
               3,
