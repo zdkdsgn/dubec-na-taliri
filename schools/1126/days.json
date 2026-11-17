@@ -9650,5 +9650,124 @@
         ]
       }
     ]
+  },
+  "2026-12-21": {
+    "vydej": "11:30–13:45",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "m": 1,
+        "n": "Chléb s pomazánkou z krabích tyčinek",
+        "d": "Zelenina, ovoce · Špaldové mléko",
+        "a": [
+          1,
+          2,
+          3,
+          7,
+          14
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Chléb s pomazánkou z krabích tyčinek",
+            "a": [
+              1,
+              2,
+              3,
+              7,
+              14
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zelenina, ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Špaldové mléko",
+            "a": [
+              1,
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Brokolicový krém",
+        "d": "",
+        "a": [
+          1,
+          7,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Vepřové maso na kmíně",
+        "d": "Vařené brambory · Okurek · Šťáva",
+        "a": [
+          1
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Vepřové maso na kmíně",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Vařené brambory",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Okurek",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Šťáva",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "m": 1,
+        "n": "Rohlík s vitamínovou pomazánkou",
+        "d": "Zelenina · Čaj",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Rohlík s vitamínovou pomazánkou",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zelenina",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj",
+            "a": []
+          }
+        ]
+      }
+    ]
   }
 }

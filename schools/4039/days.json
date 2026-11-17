@@ -3069,5 +3069,83 @@
         ]
       }
     ]
+  },
+  "2026-12-21": {
+    "vydej": "11:30–14:00",
+    "chody": [
+      {
+        "c": "svacina",
+        "m": 1,
+        "n": "2x houska se šunkou",
+        "d": "",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "2x houska se šunkou",
+            "a": [
+              1,
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Hovězí vývar s játrovou zavářkou",
+        "d": "",
+        "a": [
+          1,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Šamorínský rožeň",
+        "d": "Americké brambory · Tatarkový dip, kečup · Ovoce dle nabídky · Čaj, čirá voda, ochucené nápoje, mléčné nápoje",
+        "a": [
+          3,
+          7,
+          10
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Šamorínský rožeň",
+            "a": []
+          },
+          {
+            "l": "Příloha1",
+            "n": "Americké brambory",
+            "a": []
+          },
+          {
+            "l": "Příloha2",
+            "n": "Tatarkový dip, kečup",
+            "a": [
+              3,
+              7,
+              10
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce dle nabídky",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj, čirá voda, ochucené nápoje, mléčné nápoje",
+            "a": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
   }
 }

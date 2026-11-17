@@ -4215,7 +4215,7 @@
         "c": "obed",
         "m": 1,
         "n": "VEPŘENKY S CIBULÍ A HOŘČICÍ",
-        "d": "BRAMBOR · MÍCHANÝ LISTOVÝ SALÁT",
+        "d": "ČAJ, OCHUCENÉ MLÉKO, VODA · BRAMBOR · MÍCHANÝ LISTOVÝ SALÁT",
         "a": [
           1,
           3,
@@ -4236,6 +4236,13 @@
             ]
           },
           {
+            "l": "Nápoj",
+            "n": "ČAJ, OCHUCENÉ MLÉKO, VODA",
+            "a": [
+              7
+            ]
+          },
+          {
             "l": "Příloha",
             "n": "BRAMBOR",
             "a": [
@@ -4253,7 +4260,7 @@
         "c": "obed2",
         "m": 2,
         "n": "FILÉ Z LOSOSA S CITRONOVO-MÁSLOVÝM PŘELIVEM",
-        "d": "BRAMBOR · MÍCHANÝ LISTOVÝ SALÁT",
+        "d": "ČAJ, OCHUCENÉ MLÉKO, VODA · BRAMBOR · MÍCHANÝ LISTOVÝ SALÁT",
         "a": [
           4,
           7,
@@ -4267,6 +4274,13 @@
               4,
               7,
               9
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "ČAJ, OCHUCENÉ MLÉKO, VODA",
+            "a": [
+              7
             ]
           },
           {
@@ -4303,7 +4317,7 @@
         "c": "obed",
         "m": 1,
         "n": "HAMBURSKÁ KÝTA",
-        "d": "HOUSKOVÉ KNEDLÍKY SE ŠPALDOVOU MOUKOU · OVOCE",
+        "d": "ČAJ, DŽUS, VODA S CITRONEM · HOUSKOVÉ KNEDLÍKY SE ŠPALDOVOU MOUKOU · OVOCE",
         "a": [
           1,
           3,
@@ -4321,6 +4335,11 @@
               9,
               10
             ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "ČAJ, DŽUS, VODA S CITRONEM",
+            "a": []
           },
           {
             "l": "Příloha",
@@ -4342,7 +4361,7 @@
         "c": "obed2",
         "m": 2,
         "n": "KUSKUSOVÝ NÁKYP S OVOCEM A TVAROHEM",
-        "d": "OVOCE",
+        "d": "ČAJ, VODA S CITRONEM · OVOCE",
         "a": [
           1,
           3,
@@ -4357,6 +4376,11 @@
               3,
               7
             ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "ČAJ, VODA S CITRONEM",
+            "a": []
           },
           {
             "l": "Doplněk",
@@ -4385,7 +4409,7 @@
         "c": "obed",
         "m": 1,
         "n": "HOLANDSKÝ ŘÍZEK",
-        "d": "BRAMBOROVÁ KAŠE · SALÁT COLESLAW",
+        "d": "ČAJ, MELTA, VODA · BRAMBOROVÁ KAŠE · SALÁT COLESLAW",
         "a": [
           1,
           3,
@@ -4399,6 +4423,14 @@
             "a": [
               1,
               3,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "ČAJ, MELTA, VODA",
+            "a": [
+              1,
               7
             ]
           },
