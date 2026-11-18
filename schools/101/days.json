@@ -3974,6 +3974,7 @@
         "d": "Ovocná kapsička · Ovocný čaj, mléko, voda",
         "a": [
           1,
+          3,
           7,
           9
         ],
@@ -3983,6 +3984,7 @@
             "n": "Zapečené těstoviny se zeleninou a sýrem",
             "a": [
               1,
+              3,
               7,
               9
             ]
@@ -4682,6 +4684,433 @@
           {
             "l": "Doplněk",
             "n": "Ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný čaj, mléko, voda",
+            "a": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-11-30": {
+    "vydej": "11:30–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Kmínová s kapáním",
+        "d": "",
+        "a": [
+          1,
+          3,
+          7,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Kuřecí nudličky po čínsku s barevnými paprikami",
+        "d": "Rýže · Ovocný čaj, mléko, voda",
+        "a": [
+          1,
+          7,
+          9
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Kuřecí nudličky po čínsku s barevnými paprikami",
+            "a": [
+              1,
+              9
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Rýže",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný čaj, mléko, voda",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "m": 2,
+        "n": "Kukuřičný klas na másle",
+        "d": "Brambory · Ovocný čaj, mléko, voda",
+        "a": [
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Kukuřičný klas na másle",
+            "a": []
+          },
+          {
+            "l": "Příloha",
+            "n": "Brambory",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný čaj, mléko, voda",
+            "a": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-12-01": {
+    "vydej": "11:30–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Ze zeleného hrášku",
+        "d": "",
+        "a": [
+          1,
+          3,
+          7,
+          9,
+          13
+        ]
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Čevabčiči, hořčice s cibulí",
+        "d": "Brambory · Zelenina · Ovocný čaj, mléko, voda s citrónem a mátou",
+        "a": [
+          1,
+          3,
+          7,
+          9,
+          10
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Čevabčiči, hořčice s cibulí",
+            "a": [
+              1,
+              3,
+              9,
+              10
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Brambory",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zelenina",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný čaj, mléko, voda s citrónem a mátou",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "m": 2,
+        "n": "Těstoviny s houbami a vejcem, kyselá okurka",
+        "d": "Zelenina · Ovocný čaj, mléko, voda s citrónem a mátou",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Těstoviny s houbami a vejcem, kyselá okurka",
+            "a": [
+              1,
+              3
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zelenina",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný čaj, mléko, voda s citrónem a mátou",
+            "a": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-12-02": {
+    "vydej": "11:30–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Kedlubnový krém s krutony",
+        "d": "",
+        "a": [
+          1,
+          3,
+          7,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Plátek z divočáka",
+        "d": "Bramborový knedlík · Ovoce · Ovocný čaj, mléko, voda",
+        "a": [
+          1,
+          3,
+          7,
+          9
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Plátek z divočáka",
+            "a": [
+              1,
+              9
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Bramborový knedlík",
+            "a": [
+              1,
+              3
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný čaj, mléko, voda",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "m": 2,
+        "n": "Palačinky s tvarohem",
+        "d": "Ovoce · Ovocný čaj, mléko, voda",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Palačinky s tvarohem",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný čaj, mléko, voda",
+            "a": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-12-03": {
+    "vydej": "11:30–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Rajská se sýrem",
+        "d": "",
+        "a": [
+          1,
+          7,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Hrachová kaše se smaženou cibulkou m.s., vařené vejce, okurka",
+        "d": "Ovoce · Ovocný čaj, mléko, voda",
+        "a": [
+          1,
+          3,
+          7,
+          9
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Hrachová kaše se smaženou cibulkou m.s., vařené vejce, okurka",
+            "a": [
+              1,
+              3,
+              7,
+              9
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný čaj, mléko, voda",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "m": 2,
+        "n": "Kuskusový salát s krůtím masem a zeleninou",
+        "d": "Ovoce · Ovocný čaj, mléko, voda",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Kuskusový salát s krůtím masem a zeleninou",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný čaj, mléko, voda",
+            "a": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-12-04": {
+    "vydej": "11:30–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Slepičí vývar s masem a zeleninou",
+        "d": "",
+        "a": [
+          7
+        ]
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Frankfurtská vepřová pečeně",
+        "d": "Bramborová kaše · Ovocný čaj, mléko, voda",
+        "a": [
+          1,
+          5,
+          7,
+          9,
+          10
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Frankfurtská vepřová pečeně",
+            "a": [
+              1,
+              5,
+              9,
+              10
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Bramborová kaše",
+            "a": [
+              7,
+              9
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný čaj, mléko, voda",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "m": 2,
+        "n": "Kuřecí po provensálsku, sušená rajčata",
+        "d": "Pohanka · Ovocný čaj, mléko, voda",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Kuřecí po provensálsku, sušená rajčata",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Pohanka",
             "a": []
           },
           {

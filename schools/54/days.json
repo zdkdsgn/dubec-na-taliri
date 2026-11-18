@@ -6798,5 +6798,59 @@
         ]
       }
     ]
+  },
+  "2026-12-22": {
+    "vydej": "11:30–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Z vaječné jíšky",
+        "d": "",
+        "a": [
+          1,
+          3,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Zapečené brambory s brokolicí a smetanou",
+        "d": "Čaj, ovocný nápoj, mléko, voda",
+        "a": [
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Zapečené brambory s brokolicí a smetanou",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj, ovocný nápoj, mléko, voda",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "m": 2,
+        "n": "Vaří se pouze pro MŠ",
+        "d": "",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Vaří se pouze pro MŠ",
+            "a": []
+          }
+        ]
+      }
+    ]
   }
 }

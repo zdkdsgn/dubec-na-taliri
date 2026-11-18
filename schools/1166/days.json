@@ -6411,6 +6411,36 @@
             ]
           }
         ]
+      },
+      {
+        "c": "svacina",
+        "m": 1,
+        "n": "Sýrové tousty",
+        "d": "Zelenina · Čaj",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Sýrové tousty",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zelenina",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj",
+            "a": []
+          }
+        ]
       }
     ]
   },
@@ -6493,6 +6523,45 @@
             "a": [
               7
             ]
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "m": 1,
+        "n": "Máslo",
+        "d": "Celozrnná kaiserka · Zelenina · Čaj",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Máslo",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Pečivo",
+            "n": "Celozrnná kaiserka",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zelenina",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj",
+            "a": []
           }
         ]
       }

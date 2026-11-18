@@ -5480,40 +5480,6 @@
     "vydej": "11:00–13:00",
     "chody": [
       {
-        "c": "presnidavka",
-        "m": 1,
-        "n": "Chia chléb",
-        "d": "Pomazánka z taveného sýra, kapie · Bikava",
-        "a": [
-          1,
-          7
-        ],
-        "p": [
-          {
-            "l": "Jídlo",
-            "n": "Chia chléb",
-            "a": [
-              1
-            ]
-          },
-          {
-            "l": "Doplněk",
-            "n": "Pomazánka z taveného sýra, kapie",
-            "a": [
-              7
-            ]
-          },
-          {
-            "l": "Nápoj",
-            "n": "Bikava",
-            "a": [
-              1,
-              7
-            ]
-          }
-        ]
-      },
-      {
         "c": "polevka",
         "n": "Mléčná s těstovinami",
         "d": "",
@@ -5561,6 +5527,40 @@
         ]
       },
       {
+        "c": "presnidavka",
+        "m": 1,
+        "n": "Chia chléb",
+        "d": "Pomazánka z taveného sýra, kapie · Bikava",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Chia chléb",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Pomazánka z taveného sýra, kapie",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Bikava",
+            "a": [
+              1,
+              7
+            ]
+          }
+        ]
+      },
+      {
         "c": "svacina",
         "m": 1,
         "n": "Raženka",
@@ -5600,39 +5600,6 @@
     "vydej": "11:00–13:00",
     "chody": [
       {
-        "c": "presnidavka",
-        "m": 1,
-        "n": "Vánočka",
-        "d": "Banán · Mléko",
-        "a": [
-          1,
-          3,
-          7
-        ],
-        "p": [
-          {
-            "l": "Jídlo",
-            "n": "Vánočka",
-            "a": [
-              1,
-              3
-            ]
-          },
-          {
-            "l": "Doplněk",
-            "n": "Banán",
-            "a": []
-          },
-          {
-            "l": "Nápoj",
-            "n": "Mléko",
-            "a": [
-              7
-            ]
-          }
-        ]
-      },
-      {
         "c": "polevka",
         "n": "Kroupová",
         "d": "",
@@ -5671,6 +5638,39 @@
             "l": "Nápoj",
             "n": "Džus",
             "a": []
+          }
+        ]
+      },
+      {
+        "c": "presnidavka",
+        "m": 1,
+        "n": "Vánočka",
+        "d": "Banán · Mléko",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Vánočka",
+            "a": [
+              1,
+              3
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Banán",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko",
+            "a": [
+              7
+            ]
           }
         ]
       },
@@ -5715,6 +5715,37 @@
     "vydej": "11:00–13:00",
     "chody": [
       {
+        "c": "polevka",
+        "n": "Gulášová",
+        "d": "",
+        "a": [
+          1
+        ]
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Knedlíky tvarohové se švestkami",
+        "d": "Mléko",
+        "a": [
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Knedlíky tvarohové se švestkami",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
         "c": "presnidavka",
         "m": 1,
         "n": "Chléb žitný Moskva",
@@ -5745,37 +5776,6 @@
             "n": "Caro",
             "a": [
               1,
-              7
-            ]
-          }
-        ]
-      },
-      {
-        "c": "polevka",
-        "n": "Gulášová",
-        "d": "",
-        "a": [
-          1
-        ]
-      },
-      {
-        "c": "obed",
-        "m": 1,
-        "n": "Knedlíky tvarohové se švestkami",
-        "d": "Mléko",
-        "a": [
-          7
-        ],
-        "p": [
-          {
-            "l": "Jídlo",
-            "n": "Knedlíky tvarohové se švestkami",
-            "a": []
-          },
-          {
-            "l": "Nápoj",
-            "n": "Mléko",
-            "a": [
               7
             ]
           }

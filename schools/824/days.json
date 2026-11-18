@@ -3123,7 +3123,7 @@
         "c": "obed",
         "m": 1,
         "n": "Hovězí maso vařené, koprová omáčka",
-        "d": "Houskové knedlíky – vn · Ovoce · Černý čaj s medem a zázvorem",
+        "d": "Houskové knedlíky – vn · Banán · Černý čaj s medem a zázvorem",
         "a": [
           1,
           3,
@@ -3149,7 +3149,7 @@
           },
           {
             "l": "Doplněk",
-            "n": "Ovoce",
+            "n": "Banán",
             "a": []
           },
           {
@@ -3163,7 +3163,7 @@
         "c": "obed2",
         "m": 2,
         "n": "Čočkový prejt s jáhlemi",
-        "d": "Chléb · Ovoce · Černý čaj s medem a zázvorem",
+        "d": "Chléb · Banán · Černý čaj s medem a zázvorem",
         "a": [
           1
         ],
@@ -3182,7 +3182,7 @@
           },
           {
             "l": "Doplněk",
-            "n": "Ovoce",
+            "n": "Banán",
             "a": []
           },
           {
@@ -3196,7 +3196,7 @@
         "c": "obed2",
         "m": 3,
         "n": "Rýžový salát s kuřecím masem (steril. okurka, paprika, kukuřice, zakysaná smetana)",
-        "d": "Pečivo · Ovoce · Černý čaj s medem a zázvorem",
+        "d": "Pečivo · Banán · Černý čaj s medem a zázvorem",
         "a": [
           1,
           7
@@ -3218,7 +3218,7 @@
           },
           {
             "l": "Doplněk",
-            "n": "Ovoce",
+            "n": "Banán",
             "a": []
           },
           {
@@ -3232,7 +3232,7 @@
         "c": "svacina",
         "m": 1,
         "n": "Tvarohová cereální tyčinka",
-        "d": "Ovoce · Černý čaj s medem a zázvorem",
+        "d": "Mandarinka · Černý čaj s medem a zázvorem",
         "a": [
           1,
           7
@@ -3248,7 +3248,7 @@
           },
           {
             "l": "Doplněk",
-            "n": "Ovoce",
+            "n": "Mandarinka",
             "a": []
           },
           {
@@ -3263,6 +3263,77 @@
   "2026-11-23": {
     "vydej": "11:00–14:00",
     "chody": [
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Banketka vícezrnná",
+        "d": "Lučina · Kedlubna · Zelený čaj",
+        "a": [
+          1,
+          7,
+          11
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Banketka vícezrnná",
+            "a": [
+              1,
+              11
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Lučina",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Kedlubna",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Zelený čaj",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "m": 1,
+        "n": "Cereální rohlík",
+        "d": "Lučina, sýr Lackidammer · Kedlubna",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Cereální rohlík",
+            "a": [
+              1,
+              3
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Lučina, sýr Lackidammer",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Kedlubna",
+            "a": []
+          }
+        ]
+      },
       {
         "c": "polevka",
         "n": "Květáková – vn",
@@ -3390,12 +3461,111 @@
             "a": []
           }
         ]
+      },
+      {
+        "c": "svacina",
+        "m": 1,
+        "n": "Ovocná přesnídávka",
+        "d": "Piškoty · Zelený čaj",
+        "a": [
+          3
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Ovocná přesnídávka",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Piškoty",
+            "a": [
+              3
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Zelený čaj",
+            "a": []
+          }
+        ]
       }
     ]
   },
   "2026-11-24": {
     "vydej": "11:00–14:00",
     "chody": [
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Toustový chléb",
+        "d": "Jablíčková pomazánka s tvarohem a medem · Mandarinka · Kakao",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Toustový chléb",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Jablíčková pomazánka s tvarohem a medem",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Mandarinka",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Kakao",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "m": 1,
+        "n": "Corny bageta se sezamem",
+        "d": "Máslo, mozarella · Rukola, rajče",
+        "a": [
+          1,
+          7,
+          11
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Corny bageta se sezamem",
+            "a": [
+              1,
+              11
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Máslo, mozarella",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Rukola, rajče",
+            "a": []
+          }
+        ]
+      },
       {
         "c": "polevka",
         "n": "Luštěninová se zeleninou",
@@ -3408,7 +3578,7 @@
         "c": "obed",
         "m": 1,
         "n": "Krůtí karbanátky s koriandrem a jarní cibulkou",
-        "d": "Bramborová kaše – vn · Salát Coleslaw · Ovocný horký nápoj",
+        "d": "Bramborová kaše – vn · Červená řepa · Ovocný horký nápoj",
         "a": [
           3,
           7
@@ -3430,10 +3600,8 @@
           },
           {
             "l": "Doplněk",
-            "n": "Salát Coleslaw",
-            "a": [
-              3
-            ]
+            "n": "Červená řepa",
+            "a": []
           },
           {
             "l": "Nápoj",
@@ -3446,10 +3614,9 @@
         "c": "obed2",
         "m": 2,
         "n": "Zapečené papriky s kuskusem, mozzarellou a rajčátky",
-        "d": "Pečivo · Salát Coleslaw · Ovocný horký nápoj",
+        "d": "Pečivo · Červená řepa · Ovocný horký nápoj",
         "a": [
           1,
-          3,
           7
         ],
         "p": [
@@ -3470,10 +3637,8 @@
           },
           {
             "l": "Doplněk",
-            "n": "Salát Coleslaw",
-            "a": [
-              3
-            ]
+            "n": "Červená řepa",
+            "a": []
           },
           {
             "l": "Nápoj",
@@ -3486,10 +3651,9 @@
         "c": "obed2",
         "m": 3,
         "n": "Zeleninový salát s celozrnným bulgurem a kuřecími nudličkami",
-        "d": "Pečivo · Salát Coleslaw · Ovocný horký nápoj",
+        "d": "Pečivo · Červená řepa · Ovocný horký nápoj",
         "a": [
           1,
-          3,
           6
         ],
         "p": [
@@ -3510,10 +3674,41 @@
           },
           {
             "l": "Doplněk",
-            "n": "Salát Coleslaw",
+            "n": "Červená řepa",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný horký nápoj",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "m": 1,
+        "n": "Sýrová parenička",
+        "d": "Křehký plátek (Crispins) · Mrkev · Ovocný horký nápoj",
+        "a": [
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Sýrová parenička",
             "a": [
-              3
+              7
             ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Křehký plátek (Crispins)",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Mrkev",
+            "a": []
           },
           {
             "l": "Nápoj",
@@ -3527,6 +3722,73 @@
   "2026-11-25": {
     "vydej": "11:00–14:00",
     "chody": [
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Chléb",
+        "d": "Maďarská pomazánka – vn · Paprika · Horký jablečný mošt",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Chléb",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Maďarská pomazánka – vn",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Paprika",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Horký jablečný mošt",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "m": 1,
+        "n": "Chléb",
+        "d": "Maďarská pomazánka (tavený sýr, měkký salám, kečup, cibule, steril, okurka), eidam · Salátek",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Chléb",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Maďarská pomazánka (tavený sýr, měkký salám, kečup, cibule, steril, okurka), eidam",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Salátek",
+            "a": []
+          }
+        ]
+      },
       {
         "c": "polevka",
         "n": "Debrecínská zelňačka s opraženou anglickou slaninou",
@@ -3654,12 +3916,114 @@
             "a": []
           }
         ]
+      },
+      {
+        "c": "svacina",
+        "m": 1,
+        "n": "Segedínský tvarohový moučník",
+        "d": "Jablko · Mléko",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Segedínský tvarohový moučník",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Jablko",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko",
+            "a": [
+              7
+            ]
+          }
+        ]
       }
     ]
   },
   "2026-11-26": {
     "vydej": "11:00–14:00",
     "chody": [
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Čokoládová pěna (Chocolate mousse)",
+        "d": "Luštěninová srdíčka · Hruška · Černý čaj rybíz",
+        "a": [
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Čokoládová pěna (Chocolate mousse)",
+            "a": [
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Luštěninová srdíčka",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Hruška",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Černý čaj rybíz",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "m": 1,
+        "n": "Bramborová bulka",
+        "d": "Pomazánka Budapešť, uzený Eidam · Paprika",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Bramborová bulka",
+            "a": [
+              1,
+              3
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Pomazánka Budapešť, uzený Eidam",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Paprika",
+            "a": []
+          }
+        ]
+      },
       {
         "c": "polevka",
         "n": "Žampionová s pohankou – vn",
@@ -3784,12 +4148,124 @@
             "a": []
           }
         ]
+      },
+      {
+        "c": "svacina",
+        "m": 1,
+        "n": "Bulka se slunečnicí",
+        "d": "Pomazánka Budapešť · Rajče · Černý čaj rybíz",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Bulka se slunečnicí",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Pomazánka Budapešť",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Rajče",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Černý čaj rybíz",
+            "a": []
+          }
+        ]
       }
     ]
   },
   "2026-11-27": {
     "vydej": "11:00–14:00",
     "chody": [
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Chléb",
+        "d": "Pomazánka ze sardinek – vn · Okurka · Červený čaj",
+        "a": [
+          1,
+          3,
+          4,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Chléb",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Pomazánka ze sardinek – vn",
+            "a": [
+              4,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Okurka",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Červený čaj",
+            "a": [
+              3
+            ]
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "m": 1,
+        "n": "Chléb",
+        "d": "Pomazánka ze sardinek, vařené vejce · Okurka",
+        "a": [
+          1,
+          3,
+          4,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Chléb",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Pomazánka ze sardinek, vařené vejce",
+            "a": [
+              3,
+              4,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Okurka",
+            "a": []
+          }
+        ]
+      },
       {
         "c": "polevka",
         "n": "Kuřecí se zeleninou, masem a celozrnnými nudlemi",
@@ -3907,6 +4383,34 @@
             "l": "Nápoj",
             "n": "Červený čaj",
             "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "m": 1,
+        "n": "Biosaurus (kukuřičný snack se sýrovou příchutí, bezlepkový)",
+        "d": "Zeleninka · Mléko",
+        "a": [
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Biosaurus (kukuřičný snack se sýrovou příchutí, bezlepkový)",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zeleninka",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko",
+            "a": [
+              7
+            ]
           }
         ]
       }

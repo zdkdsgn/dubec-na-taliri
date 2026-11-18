@@ -6019,9 +6019,10 @@
         "c": "obed",
         "m": 1,
         "n": "Pečený kuřecí špalík na medu",
-        "d": "Rýže s hráškem · Zelný salát s mrkví · Voda s jablkem a pomerančem",
+        "d": "Rýže s hráškem · Zelný salát s mrkví · Voda s jablkem a pomerančem / mléko zš",
         "a": [
-          1
+          1,
+          7
         ],
         "p": [
           {
@@ -6043,8 +6044,10 @@
           },
           {
             "l": "Nápoj",
-            "n": "Voda s jablkem a pomerančem",
-            "a": []
+            "n": "Voda s jablkem a pomerančem / mléko zš",
+            "a": [
+              7
+            ]
           }
         ]
       },
@@ -6163,7 +6166,7 @@
         "c": "svacina",
         "m": 1,
         "n": "Veka",
-        "d": "Tavený sýr · Zelenina · Voda s citrónem",
+        "d": "Máslo /med · Zelenina · Voda s citrónem",
         "a": [
           1,
           7
@@ -6178,7 +6181,7 @@
           },
           {
             "l": "Příloha",
-            "n": "Tavený sýr",
+            "n": "Máslo /med",
             "a": [
               7
             ]
@@ -6289,28 +6292,14 @@
       {
         "c": "svacina",
         "m": 1,
-        "n": "Pečivo",
-        "d": "Hermelínová pomazánka · Mandarinka · Šťáva",
-        "a": [
-          1,
-          3,
-          7
-        ],
+        "n": "Ovocná přesnidávka",
+        "d": "Mandarinka · Šťáva",
+        "a": [],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Pečivo",
-            "a": [
-              1,
-              3
-            ]
-          },
-          {
-            "l": "Příloha",
-            "n": "Hermelínová pomazánka",
-            "a": [
-              7
-            ]
+            "n": "Ovocná přesnidávka",
+            "a": []
           },
           {
             "l": "Doplněk",
@@ -6333,7 +6322,7 @@
         "c": "presnidavka",
         "m": 1,
         "n": "Žitný chléb",
-        "d": "Pomazánka se strouhaného sýra · Mrkev, okurka · Voda s citrónem",
+        "d": "Pomazánka karkulka · Mrkev, okurka · Voda s citrónem",
         "a": [
           1,
           3,
@@ -6351,7 +6340,7 @@
           },
           {
             "l": "Příloha",
-            "n": "Pomazánka se strouhaného sýra",
+            "n": "Pomazánka karkulka",
             "a": [
               7
             ]
@@ -6380,27 +6369,19 @@
       {
         "c": "obed",
         "m": 1,
-        "n": "Rybí filé v cibulové krustě",
-        "d": "Bramborobá kaše · Červená řepa · Voda s citrónem",
+        "n": "Brambory zapečené se zeleninou",
+        "d": "Červená řepa · Voda s citrónem",
         "a": [
-          1,
-          4,
-          7
+          7,
+          9
         ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Rybí filé v cibulové krustě",
+            "n": "Brambory zapečené se zeleninou",
             "a": [
-              1,
-              4
-            ]
-          },
-          {
-            "l": "Příloha",
-            "n": "Bramborobá kaše",
-            "a": [
-              7
+              7,
+              9
             ]
           },
           {
@@ -6454,7 +6435,7 @@
         "c": "presnidavka",
         "m": 1,
         "n": "Veka",
-        "d": "Máslo, med · Jablko · Čaj",
+        "d": "Máslo, med · Jablko · Čaj/ mléko",
         "a": [
           1,
           3,
@@ -6483,8 +6464,10 @@
           },
           {
             "l": "Nápoj",
-            "n": "Čaj",
-            "a": []
+            "n": "Čaj/ mléko",
+            "a": [
+              7
+            ]
           }
         ]
       },
@@ -6548,7 +6531,7 @@
       {
         "c": "svacina",
         "m": 1,
-        "n": "Tvarohový krém s ovocem",
+        "n": "Ovocný puding",
         "d": "Čaj",
         "a": [
           7
@@ -6556,7 +6539,7 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Tvarohový krém s ovocem",
+            "n": "Ovocný puding",
             "a": [
               7
             ]
@@ -6665,16 +6648,20 @@
       {
         "c": "svacina",
         "m": 1,
-        "n": "Řecký jogurt",
+        "n": "Banánový mléčný koktejl + pečivo",
         "d": "Hrozno · Jablečný mošt /voda",
         "a": [
+          1,
+          3,
           7
         ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Řecký jogurt",
+            "n": "Banánový mléčný koktejl + pečivo",
             "a": [
+              1,
+              3,
               7
             ]
           },
@@ -6746,14 +6733,20 @@
       {
         "c": "obed",
         "m": 1,
-        "n": "Kuřecí rizoto se zeleninou a sýrem",
+        "n": "Kuřecí rizoto se zeleninou",
         "d": "Zelný salát s koprem · Čaj",
-        "a": [],
+        "a": [
+          1,
+          9
+        ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Kuřecí rizoto se zeleninou a sýrem",
-            "a": []
+            "n": "Kuřecí rizoto se zeleninou",
+            "a": [
+              1,
+              9
+            ]
           },
           {
             "l": "Doplněk",
@@ -6894,30 +6887,18 @@
       {
         "c": "svacina",
         "m": 1,
-        "n": "Knäckebrot",
-        "d": "Plátky sýra, máslo · Zelenina · Čaj",
-        "a": [
-          1,
-          7
-        ],
+        "n": "Ovocná přesnidávka",
+        "d": "Hruška · Čaj",
+        "a": [],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Knäckebrot",
-            "a": [
-              1
-            ]
-          },
-          {
-            "l": "Příloha",
-            "n": "Plátky sýra, máslo",
-            "a": [
-              7
-            ]
+            "n": "Ovocná přesnidávka",
+            "a": []
           },
           {
             "l": "Doplněk",
-            "n": "Zelenina",
+            "n": "Hruška",
             "a": []
           },
           {
@@ -7016,16 +6997,20 @@
       {
         "c": "svacina",
         "m": 1,
-        "n": "Bílý jogurt s medem",
-        "d": "Ovoce · Voda s mátou",
+        "n": "Vánočka",
+        "d": "Ovoce · Voda s mátou/ kakao",
         "a": [
+          1,
+          3,
           7
         ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Bílý jogurt s medem",
+            "n": "Vánočka",
             "a": [
+              1,
+              3,
               7
             ]
           },
@@ -7036,8 +7021,10 @@
           },
           {
             "l": "Nápoj",
-            "n": "Voda s mátou",
-            "a": []
+            "n": "Voda s mátou/ kakao",
+            "a": [
+              7
+            ]
           }
         ]
       }
@@ -8229,7 +8216,7 @@
         "c": "presnidavka",
         "m": 1,
         "n": "Bulka cristallino",
-        "d": "Vaječná pomazánka · Rajče · Voda s meduňkou a limetkou",
+        "d": "Vaječná pomazánka · Rajče · Voda s meduňkou a limetkou / mléko",
         "a": [
           1,
           3,
@@ -8262,8 +8249,10 @@
           },
           {
             "l": "Nápoj",
-            "n": "Voda s meduňkou a limetkou",
-            "a": []
+            "n": "Voda s meduňkou a limetkou / mléko",
+            "a": [
+              7
+            ]
           }
         ]
       },
@@ -8785,6 +8774,122 @@
             "a": [
               7
             ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-12-22": {
+    "vydej": "11:40–13:30",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "m": 1,
+        "n": "Cerální raženka",
+        "d": "Avokádová pomazánka · Rajče · Čaj",
+        "a": [
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Cerální raženka",
+            "a": [
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Avokádová pomazánka",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Rajče",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Čočková",
+        "d": "",
+        "a": [
+          1,
+          3,
+          9,
+          10
+        ]
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Losos s bylinkovou krustou",
+        "d": "Bramborový salát · Čaj",
+        "a": [
+          4,
+          7,
+          8,
+          9,
+          10
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Losos s bylinkovou krustou",
+            "a": [
+              4,
+              7,
+              10
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Bramborový salát",
+            "a": [
+              7,
+              8,
+              9,
+              10
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "m": 1,
+        "n": "Ovocná přesnidávka",
+        "d": "Hruška · Čaj",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Ovocná přesnidávka",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Hruška",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj",
+            "a": []
           }
         ]
       }

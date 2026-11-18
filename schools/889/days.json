@@ -2646,7 +2646,7 @@
         "c": "obed",
         "m": 1,
         "n": "Segedinský guláš",
-        "d": "Celozrnný houskový knedlík · Ovocná šťáva, voda, mléko",
+        "d": "Celozrnný houskový knedlík · Banán · Ovocná šťáva, voda, mléko",
         "a": [
           1,
           3,
@@ -2673,6 +2673,11 @@
               7,
               11
             ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Banán",
+            "a": []
           },
           {
             "l": "Nápoj",
@@ -2747,7 +2752,7 @@
         "c": "obed",
         "m": 1,
         "n": "Čevabčiči s oblohou",
-        "d": "Brambory m.m · Černý čaj s citrónem, voda, mléko",
+        "d": "Brambory m.m · Pomeranč · Černý čaj s citrónem, voda, mléko",
         "a": [
           1,
           7,
@@ -2769,6 +2774,11 @@
             "a": [
               7
             ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Pomeranč",
+            "a": []
           },
           {
             "l": "Nápoj",
@@ -2836,39 +2846,39 @@
     "chody": [
       {
         "c": "polevka",
-        "n": "Čočková",
+        "n": "Zeleninová s drožď. knedlíčky",
         "d": "",
         "a": [
-          1
+          1,
+          3,
+          9
         ]
       },
       {
         "c": "obed",
         "m": 1,
-        "n": "Obal.rybí filé",
-        "d": "Brambory m.m · Mošt, voda, mléko",
+        "n": "Hovězí maso, rajská omáčka",
+        "d": "Těstoviny · Mošt, voda, mléko",
         "a": [
           1,
           3,
-          4,
           7
         ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Obal.rybí filé",
+            "n": "Hovězí maso, rajská omáčka",
             "a": [
               1,
-              3,
-              4,
-              7
+              3
             ]
           },
           {
             "l": "Příloha",
-            "n": "Brambory m.m",
+            "n": "Těstoviny",
             "a": [
-              7
+              1,
+              3
             ]
           },
           {
@@ -2931,40 +2941,39 @@
     "chody": [
       {
         "c": "polevka",
-        "n": "Zeleninová s drožď. knedlíčky",
+        "n": "Čočková",
         "d": "",
         "a": [
-          1,
-          3,
-          9
+          1
         ]
       },
       {
         "c": "obed",
         "m": 1,
-        "n": "Hovězí maso, rajská omáčka",
-        "d": "Těstoviny · Čaj s citronem, voda, mléko",
+        "n": "Obal.rybí filé",
+        "d": "Brambory m.m · Čaj s citronem, voda, mléko",
         "a": [
           1,
           3,
-          7,
-          12
+          4,
+          7
         ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Hovězí maso, rajská omáčka",
+            "n": "Obal.rybí filé",
             "a": [
               1,
-              12
+              3,
+              4,
+              7
             ]
           },
           {
             "l": "Příloha",
-            "n": "Těstoviny",
+            "n": "Brambory m.m",
             "a": [
-              1,
-              3
+              7
             ]
           },
           {

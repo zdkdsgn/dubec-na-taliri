@@ -6606,7 +6606,7 @@
       },
       {
         "c": "polevka",
-        "n": "Slepičí polévka s masem a nudlemi",
+        "n": "Fazolová polévka s tymiánem",
         "d": "",
         "a": [
           1,
@@ -6737,9 +6737,14 @@
       },
       {
         "c": "polevka",
-        "n": "Zeleninový vývar",
+        "n": "Slepičí vývar s nudlemi",
         "d": "",
-        "a": []
+        "a": [
+          1,
+          3,
+          7,
+          9
+        ]
       },
       {
         "c": "obed",
@@ -6847,11 +6852,10 @@
       },
       {
         "c": "polevka",
-        "n": "Fazolová polévka s tymiánem",
+        "n": "Zeleninový vývar",
         "d": "",
         "a": [
           1,
-          3,
           7,
           9
         ]
@@ -6859,16 +6863,18 @@
       {
         "c": "obed",
         "m": 1,
-        "n": "Kotlety na šalvěji",
+        "n": "Hovězí pečeně s cibulovou omáčkou a zelenými fazolkami",
         "d": "Brambory · Ovocný nápoj, voda, mléko",
         "a": [
+          1,
           7
         ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Kotlety na šalvěji",
+            "n": "Hovězí pečeně s cibulovou omáčkou a zelenými fazolkami",
             "a": [
+              1,
               7
             ]
           },

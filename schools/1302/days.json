@@ -2792,7 +2792,7 @@
         "c": "obed",
         "m": 1,
         "n": "Pečené kuře ala kachna",
-        "d": "Kynutý knedlík, červené zelí · Šťáva, voda",
+        "d": "Kynutý knedlík, červené zelí · ZŠ Šťáva, voda, MŠ čaj, voda",
         "a": [
           1,
           3,
@@ -2815,7 +2815,7 @@
           },
           {
             "l": "Nápoj",
-            "n": "Šťáva, voda",
+            "n": "ZŠ Šťáva, voda, MŠ čaj, voda",
             "a": []
           }
         ]
@@ -3365,11 +3365,11 @@
     "chody": [
       {
         "c": "polevka",
-        "n": "Žampionový krém s krutony",
+        "n": "Česneková s bulgurem",
         "d": "",
         "a": [
           1,
-          7
+          9
         ]
       },
       {
@@ -3406,7 +3406,7 @@
         "c": "obed2",
         "m": 2,
         "n": "Těstoviny po benátsku s hráškem a kuřecím masem",
-        "d": "Broskvový kompot · Čaj, voda",
+        "d": "Polníček · Čaj, voda",
         "a": [
           1,
           7
@@ -3422,7 +3422,7 @@
           },
           {
             "l": "Doplněk",
-            "n": "Broskvový kompot",
+            "n": "Polníček",
             "a": []
           },
           {
@@ -3439,10 +3439,11 @@
     "chody": [
       {
         "c": "polevka",
-        "n": "Gulášová z hlívy ústřičné",
+        "n": "Žampionový krém s krutony",
         "d": "",
         "a": [
-          1
+          1,
+          7
         ]
       },
       {

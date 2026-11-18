@@ -6440,5 +6440,599 @@
         ]
       }
     }
+  },
+  "2026-11-23": {
+    "skupiny": {
+      "ms": {
+        "vydej": "11:00–13:30",
+        "chody": [
+          {
+            "c": "presnidavka",
+            "m": 1,
+            "n": "Ředkvičková pomazánka, pečivo",
+            "d": "",
+            "a": [],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Ředkvičková pomazánka, pečivo",
+                "a": []
+              }
+            ]
+          },
+          {
+            "c": "polevka",
+            "n": "Čočková",
+            "d": "",
+            "a": [
+              1
+            ]
+          },
+          {
+            "c": "obed",
+            "m": 1,
+            "n": "Buchtičky se šodó",
+            "d": "",
+            "a": [
+              1,
+              3,
+              7
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Buchtičky se šodó",
+                "a": [
+                  1,
+                  3,
+                  7
+                ]
+              }
+            ]
+          },
+          {
+            "c": "svacina",
+            "m": 1,
+            "n": "Lučina, Pečivo",
+            "d": "",
+            "a": [],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Lučina, Pečivo",
+                "a": []
+              }
+            ]
+          }
+        ]
+      },
+      "zs": {
+        "vydej": "11:30–13:30",
+        "chody": [
+          {
+            "c": "polevka",
+            "n": "Čočková",
+            "d": "",
+            "a": [
+              1
+            ]
+          },
+          {
+            "c": "obed",
+            "m": 1,
+            "n": "Buchtičky se šodó",
+            "d": "",
+            "a": [
+              1,
+              3,
+              7
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Buchtičky se šodó",
+                "a": [
+                  1,
+                  3,
+                  7
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "2026-11-24": {
+    "skupiny": {
+      "ms": {
+        "vydej": "11:00–13:30",
+        "chody": [
+          {
+            "c": "presnidavka",
+            "m": 1,
+            "n": "Mrkvová pomazánka, pečivo",
+            "d": "",
+            "a": [
+              7
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Mrkvová pomazánka, pečivo",
+                "a": [
+                  7
+                ]
+              }
+            ]
+          },
+          {
+            "c": "polevka",
+            "n": "Zeleninová se svítkem",
+            "d": "",
+            "a": []
+          },
+          {
+            "c": "obed",
+            "m": 1,
+            "n": "Francouzské brambory",
+            "d": "Salát",
+            "a": [],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Francouzské brambory",
+                "a": []
+              },
+              {
+                "l": "Doplněk",
+                "n": "Salát",
+                "a": []
+              }
+            ]
+          },
+          {
+            "c": "svacina",
+            "m": 1,
+            "n": "Musli s jogurtem",
+            "d": "",
+            "a": [],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Musli s jogurtem",
+                "a": []
+              }
+            ]
+          }
+        ]
+      },
+      "zs": {
+        "vydej": "11:30–13:30",
+        "chody": [
+          {
+            "c": "polevka",
+            "n": "Kuřecí se svítkem",
+            "d": "",
+            "a": []
+          },
+          {
+            "c": "obed",
+            "m": 1,
+            "n": "Francouzské brambory",
+            "d": "Salát",
+            "a": [],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Francouzské brambory",
+                "a": []
+              },
+              {
+                "l": "Doplněk",
+                "n": "Salát",
+                "a": []
+              }
+            ]
+          },
+          {
+            "c": "obed2",
+            "m": 2,
+            "n": "Brambory se zeleninou",
+            "d": "Salát",
+            "a": [],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Brambory se zeleninou",
+                "a": []
+              },
+              {
+                "l": "Doplněk",
+                "n": "Salát",
+                "a": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "2026-11-25": {
+    "skupiny": {
+      "ms": {
+        "vydej": "11:00–13:30",
+        "chody": [
+          {
+            "c": "presnidavka",
+            "m": 1,
+            "n": "Bylinková pomazánka, pečivo",
+            "d": "",
+            "a": [
+              7
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Bylinková pomazánka, pečivo",
+                "a": [
+                  7
+                ]
+              }
+            ]
+          },
+          {
+            "c": "polevka",
+            "n": "Brokolicová s kapaním",
+            "d": "",
+            "a": []
+          },
+          {
+            "c": "obed",
+            "m": 1,
+            "n": "Hovězí po stroganovsku",
+            "d": "Dušená rýže",
+            "a": [
+              1
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Hovězí po stroganovsku",
+                "a": [
+                  1
+                ]
+              },
+              {
+                "l": "Příloha",
+                "n": "Dušená rýže",
+                "a": []
+              }
+            ]
+          },
+          {
+            "c": "svacina",
+            "m": 1,
+            "n": "Slaný šneci",
+            "d": "",
+            "a": [],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Slaný šneci",
+                "a": []
+              }
+            ]
+          }
+        ]
+      },
+      "zs": {
+        "vydej": "11:30–13:30",
+        "chody": [
+          {
+            "c": "polevka",
+            "n": "Brokolicová s kapaním",
+            "d": "",
+            "a": []
+          },
+          {
+            "c": "obed",
+            "m": 1,
+            "n": "Hovězí po stroganovsku",
+            "d": "Dušená rýže",
+            "a": [
+              1
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Hovězí po stroganovsku",
+                "a": [
+                  1
+                ]
+              },
+              {
+                "l": "Příloha",
+                "n": "Dušená rýže",
+                "a": []
+              }
+            ]
+          },
+          {
+            "c": "obed2",
+            "m": 2,
+            "n": "Vege po stroganovsku",
+            "d": "Dušená rýže",
+            "a": [],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Vege po stroganovsku",
+                "a": []
+              },
+              {
+                "l": "Příloha",
+                "n": "Dušená rýže",
+                "a": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "2026-11-26": {
+    "skupiny": {
+      "ms": {
+        "vydej": "11:00–13:30",
+        "chody": [
+          {
+            "c": "presnidavka",
+            "m": 1,
+            "n": "Kedlubnová pomazánka, Pečivo",
+            "d": "",
+            "a": [],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Kedlubnová pomazánka, Pečivo",
+                "a": []
+              }
+            ]
+          },
+          {
+            "c": "polevka",
+            "n": "Rajská s písmenky",
+            "d": "",
+            "a": []
+          },
+          {
+            "c": "obed",
+            "m": 1,
+            "n": "Zapečené těstoviny s kukuřicí a tuňákem",
+            "d": "Kompot",
+            "a": [
+              1
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Zapečené těstoviny s kukuřicí a tuňákem",
+                "a": [
+                  1
+                ]
+              },
+              {
+                "l": "Doplněk",
+                "n": "Kompot",
+                "a": []
+              }
+            ]
+          },
+          {
+            "c": "svacina",
+            "m": 1,
+            "n": "Buchta",
+            "d": "",
+            "a": [],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Buchta",
+                "a": []
+              }
+            ]
+          }
+        ]
+      },
+      "zs": {
+        "vydej": "11:30–13:30",
+        "chody": [
+          {
+            "c": "polevka",
+            "n": "Rajská s písmenky",
+            "d": "",
+            "a": []
+          },
+          {
+            "c": "obed",
+            "m": 1,
+            "n": "Zapečené těstoviny s kukuřicí a tuňákem",
+            "d": "Kompot",
+            "a": [
+              1
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Zapečené těstoviny s kukuřicí a tuňákem",
+                "a": [
+                  1
+                ]
+              },
+              {
+                "l": "Doplněk",
+                "n": "Kompot",
+                "a": []
+              }
+            ]
+          },
+          {
+            "c": "obed2",
+            "m": 2,
+            "n": "Zapečené těstoviny s kukuřicí",
+            "d": "Kompot",
+            "a": [
+              1
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Zapečené těstoviny s kukuřicí",
+                "a": [
+                  1
+                ]
+              },
+              {
+                "l": "Doplněk",
+                "n": "Kompot",
+                "a": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "2026-11-27": {
+    "skupiny": {
+      "ms": {
+        "vydej": "11:00–13:30",
+        "chody": [
+          {
+            "c": "presnidavka",
+            "m": 1,
+            "n": "Salámová pomazánka, pečivo",
+            "d": "",
+            "a": [],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Salámová pomazánka, pečivo",
+                "a": []
+              }
+            ]
+          },
+          {
+            "c": "polevka",
+            "n": "Hovězí s játrovou rýží",
+            "d": "",
+            "a": []
+          },
+          {
+            "c": "obed",
+            "m": 1,
+            "n": "Bramborové noky se špenátem a tempehem",
+            "d": "",
+            "a": [
+              1,
+              3,
+              6,
+              7
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Bramborové noky se špenátem a tempehem",
+                "a": [
+                  1,
+                  3,
+                  6,
+                  7
+                ]
+              }
+            ]
+          },
+          {
+            "c": "svacina",
+            "m": 1,
+            "n": "Fazolová pomazánka, pečivo",
+            "d": "",
+            "a": [
+              1
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Fazolová pomazánka, pečivo",
+                "a": [
+                  1
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "zs": {
+        "vydej": "11:30–13:30",
+        "chody": [
+          {
+            "c": "polevka",
+            "n": "Hovězí s játrovou rýží",
+            "d": "",
+            "a": []
+          },
+          {
+            "c": "obed",
+            "m": 1,
+            "n": "Vepřové výpečky, špenát",
+            "d": "Bramborový knedlík",
+            "a": [
+              1,
+              3
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Vepřové výpečky, špenát",
+                "a": []
+              },
+              {
+                "l": "Příloha",
+                "n": "Bramborový knedlík",
+                "a": [
+                  1,
+                  3
+                ]
+              }
+            ]
+          },
+          {
+            "c": "obed2",
+            "m": 2,
+            "n": "Bramborové noky se špenátem a tempehem",
+            "d": "",
+            "a": [
+              1,
+              3,
+              6,
+              7
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Bramborové noky se špenátem a tempehem",
+                "a": [
+                  1,
+                  3,
+                  6,
+                  7
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
   }
 }

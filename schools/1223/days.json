@@ -8184,5 +8184,122 @@
         ]
       }
     ]
+  },
+  "2026-12-22": {
+    "vydej": "11:00–13:30",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "m": 1,
+        "n": "Loupák",
+        "d": "Ovoce · Kakao",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Loupák",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Kakao",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Kuřecí vývar se svítkem",
+        "d": "",
+        "a": [
+          1,
+          3,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Vepřový guláš",
+        "d": "Těstoviny · Ovocná přesnídávka · Džus – voda",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Vepřový guláš",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Těstoviny",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovocná přesnídávka",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Džus – voda",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "m": 1,
+        "n": "Houska, pomazánka z ryb v tomatě",
+        "d": "Šťáva",
+        "a": [
+          1,
+          3,
+          4,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Houska, pomazánka z ryb v tomatě",
+            "a": [
+              1,
+              3,
+              4,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Šťáva",
+            "a": []
+          }
+        ]
+      }
+    ]
   }
 }

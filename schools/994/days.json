@@ -16696,5 +16696,181 @@
         ]
       }
     }
+  },
+  "2026-12-22": {
+    "skupiny": {
+      "ms": {
+        "vydej": "11:00–14:00",
+        "chody": [
+          {
+            "c": "presnidavka",
+            "m": 1,
+            "n": "Šlehaný tvaroh s ovocem",
+            "d": "Čaj",
+            "a": [
+              7
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Šlehaný tvaroh s ovocem",
+                "a": [
+                  7
+                ]
+              },
+              {
+                "l": "Nápoj",
+                "n": "Čaj",
+                "a": []
+              }
+            ]
+          },
+          {
+            "c": "polevka",
+            "n": "Polévka kulajda",
+            "d": "",
+            "a": [
+              1,
+              3,
+              7,
+              9
+            ]
+          },
+          {
+            "c": "obed",
+            "m": 1,
+            "n": "Nudle s mákem, cukrem a perníkem, máslo",
+            "d": "Ovoce · Čaj, vitamínový nápoj",
+            "a": [
+              1,
+              3,
+              7
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Nudle s mákem, cukrem a perníkem, máslo",
+                "a": [
+                  1,
+                  3,
+                  7
+                ]
+              },
+              {
+                "l": "Doplněk",
+                "n": "Ovoce",
+                "a": []
+              },
+              {
+                "l": "Nápoj",
+                "n": "Čaj, vitamínový nápoj",
+                "a": []
+              }
+            ]
+          },
+          {
+            "c": "svacina",
+            "m": 1,
+            "n": "Lámankový chléb, máslová rama",
+            "d": "Kedluben · Čaj",
+            "a": [
+              1,
+              7
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Lámankový chléb, máslová rama",
+                "a": [
+                  1,
+                  7
+                ]
+              },
+              {
+                "l": "Doplněk",
+                "n": "Kedluben",
+                "a": []
+              },
+              {
+                "l": "Nápoj",
+                "n": "Čaj",
+                "a": []
+              }
+            ]
+          }
+        ]
+      },
+      "zs": {
+        "vydej": "11:00–14:00",
+        "chody": [
+          {
+            "c": "presnidavka",
+            "m": 1,
+            "n": "Šlehaný tvaroh s ovocem",
+            "d": "Čaj",
+            "a": [
+              7
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Šlehaný tvaroh s ovocem",
+                "a": [
+                  7
+                ]
+              },
+              {
+                "l": "Nápoj",
+                "n": "Čaj",
+                "a": []
+              }
+            ]
+          },
+          {
+            "c": "polevka",
+            "n": "Polévka kulajda",
+            "d": "",
+            "a": [
+              1,
+              3,
+              7,
+              9
+            ]
+          },
+          {
+            "c": "obed",
+            "m": 1,
+            "n": "Nudle s mákem, cukrem a perníkem, máslo",
+            "d": "Ovoce · Čaj, vitamínový nápoj",
+            "a": [
+              1,
+              3,
+              7
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Nudle s mákem, cukrem a perníkem, máslo",
+                "a": [
+                  1,
+                  3,
+                  7
+                ]
+              },
+              {
+                "l": "Doplněk",
+                "n": "Ovoce",
+                "a": []
+              },
+              {
+                "l": "Nápoj",
+                "n": "Čaj, vitamínový nápoj",
+                "a": []
+              }
+            ]
+          }
+        ]
+      }
+    }
   }
 }
