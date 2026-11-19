@@ -4433,7 +4433,7 @@
         "c": "svacina",
         "m": 1,
         "n": "Křehký kukuřičný plátek, pomazánka z červené čočky",
-        "d": "Zelenina · Černý čaj, mléko",
+        "d": "Zelenina · Černý čaj",
         "a": [
           7
         ],
@@ -4452,7 +4452,7 @@
           },
           {
             "l": "Nápoj",
-            "n": "Černý čaj, mléko",
+            "n": "Černý čaj",
             "a": []
           }
         ]
@@ -4770,21 +4770,21 @@
       {
         "c": "presnidavka",
         "m": 1,
-        "n": "Rohlík, celerová pomazánka",
+        "n": "Rohlík, pomazánka z cottage",
         "d": "Ovoce · Zelený čaj",
         "a": [
           1,
-          7,
-          9
+          3,
+          7
         ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Rohlík, celerová pomazánka",
+            "n": "Rohlík, pomazánka z cottage",
             "a": [
               1,
-              7,
-              9
+              3,
+              7
             ]
           },
           {
@@ -4957,24 +4957,19 @@
       {
         "c": "svacina",
         "m": 1,
-        "n": "Ovocná kapsička",
-        "d": "Piškoty · Bylinkový čaj",
+        "n": "Chléb, sýrová pomazánka",
+        "d": "Bylinkový čaj",
         "a": [
           1,
-          3
+          7
         ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Ovocná kapsička",
-            "a": []
-          },
-          {
-            "l": "Doplněk",
-            "n": "Piškoty",
+            "n": "Chléb, sýrová pomazánka",
             "a": [
               1,
-              3
+              7
             ]
           },
           {
@@ -5062,19 +5057,19 @@
       {
         "c": "svacina",
         "m": 1,
-        "n": "Chléb, sýrová pomazánka",
+        "n": "Ovocná kapsička s piškoty",
         "d": "Zelenina · Ovocný čaj",
         "a": [
           1,
-          7
+          3
         ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Chléb, sýrová pomazánka",
+            "n": "Ovocná kapsička s piškoty",
             "a": [
               1,
-              7
+              3
             ]
           },
           {
@@ -5179,6 +5174,323 @@
           {
             "l": "Nápoj",
             "n": "Černý čaj, mléko",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-11-30": {
+    "vydej": "11:30–12:00",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "m": 1,
+        "n": "Celozrnná kaiserka, Perla, plátkový sýr",
+        "d": "Ovoce · Mléko, čaj",
+        "a": [
+          1,
+          7,
+          11
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Celozrnná kaiserka, Perla, plátkový sýr",
+            "a": [
+              1,
+              7,
+              11
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko, čaj",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Cuketová polévka",
+        "d": "",
+        "a": [
+          3,
+          7
+        ]
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Těstoviny Napoli se sýrem",
+        "d": "Voda",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Těstoviny Napoli se sýrem",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Voda",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-12-01": {
+    "vydej": "11:30–12:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Zeleninový vývar s pohankou",
+        "d": "",
+        "a": [
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Buřtguláš",
+        "d": "Voda",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Buřtguláš",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Voda",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-12-02": {
+    "vydej": "11:30–12:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Bramborová",
+        "d": "",
+        "a": [
+          1,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Kuřecí maso na kari",
+        "d": "Voda · Čínské nudle",
+        "a": [
+          1,
+          3
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Kuřecí maso na kari",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Voda",
+            "a": []
+          },
+          {
+            "l": "Příloha",
+            "n": "Čínské nudle",
+            "a": [
+              1,
+              3
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-12-03": {
+    "vydej": "11:30–12:00",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "m": 1,
+        "n": "Cereální kaiserka, sardinková",
+        "d": "Ovoce · Ovocný čaj",
+        "a": [
+          1,
+          4
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Cereální kaiserka, sardinková",
+            "a": [
+              1,
+              4
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný čaj",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Vepřový přírodní plátek",
+        "d": "Voda · Rýže",
+        "a": [
+          1
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Vepřový přírodní plátek",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Voda",
+            "a": []
+          },
+          {
+            "l": "Příloha",
+            "n": "Rýže",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-12-04": {
+    "vydej": "11:30–12:00",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "m": 1,
+        "n": "Andělský pudink",
+        "d": "Ovoce · Bylinkový čaj",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Andělský pudink",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Bylinkový čaj",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Luciferova červená polévka",
+        "d": "",
+        "a": []
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Mikulášův vypečený zlatavý poklad",
+        "d": "Voda · Pekelná kaše",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Mikulášův vypečený zlatavý poklad",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Voda",
+            "a": []
+          },
+          {
+            "l": "Příloha",
+            "n": "Pekelná kaše",
+            "a": [
+              1,
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "m": 1,
+        "n": "Pekelný chlebíček",
+        "d": "Zelenina · Černý čaj",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Pekelný chlebíček",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zelenina",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Černý čaj",
             "a": []
           }
         ]

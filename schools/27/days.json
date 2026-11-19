@@ -3603,15 +3603,17 @@
     "chody": [
       {
         "c": "polevka",
-        "n": "Zeleninový s lámankou",
+        "n": "Zeleninová s lámankou",
         "d": "",
-        "a": []
+        "a": [
+          9
+        ]
       },
       {
         "c": "obed",
         "m": 1,
         "n": "Bratislavská vepřová pečeně",
-        "d": "Houskový knedlík",
+        "d": "Houskový knedlík · Dle denní nabídky · Voda, čaj, mléko",
         "a": [
           1,
           3,
@@ -3635,6 +3637,18 @@
               1,
               3
             ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Dle denní nabídky",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Voda, čaj, mléko",
+            "a": [
+              7
+            ]
           }
         ]
       },
@@ -3642,8 +3656,10 @@
         "c": "obed2",
         "m": 2,
         "n": "Vegetariánská čína",
-        "d": "Rýže",
-        "a": [],
+        "d": "Rýže · Dle denní nabídky · Voda, čaj, mléko",
+        "a": [
+          7
+        ],
         "p": [
           {
             "l": "Jídlo",
@@ -3654,6 +3670,18 @@
             "l": "Příloha",
             "n": "Rýže",
             "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Dle denní nabídky",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Voda, čaj, mléko",
+            "a": [
+              7
+            ]
           }
         ]
       }
@@ -3676,7 +3704,7 @@
         "c": "obed",
         "m": 1,
         "n": "Obalovaná ryba",
-        "d": "Bramborovo-cizrnový salát",
+        "d": "Bramborovo-cizrnový salát · Dle denní nabídky · Voda, čaj, mléko",
         "a": [
           1,
           3,
@@ -3701,6 +3729,18 @@
               3,
               7
             ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Dle denní nabídky",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Voda, čaj, mléko",
+            "a": [
+              7
+            ]
           }
         ]
       }
@@ -3721,7 +3761,7 @@
         "c": "obed",
         "m": 1,
         "n": "Krůtí maso v sýrové omáčce",
-        "d": "Těstoviny",
+        "d": "Těstoviny · Dle denní nabídky · Voda, čaj, mléko",
         "a": [
           1,
           7
@@ -3741,6 +3781,18 @@
             "a": [
               1
             ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Dle denní nabídky",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Voda, čaj, mléko",
+            "a": [
+              7
+            ]
           }
         ]
       },
@@ -3748,9 +3800,10 @@
         "c": "obed2",
         "m": 2,
         "n": "Hlívová směs",
-        "d": "Bulgur",
+        "d": "Bulgur · Dle denní nabídky · Voda, čaj, mléko",
         "a": [
-          1
+          1,
+          7
         ],
         "p": [
           {
@@ -3763,6 +3816,18 @@
             "n": "Bulgur",
             "a": [
               1
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Dle denní nabídky",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Voda, čaj, mléko",
+            "a": [
+              7
             ]
           }
         ]
@@ -3784,10 +3849,11 @@
         "c": "obed",
         "m": 1,
         "n": "Štěpánská hovězí pečeně",
-        "d": "Kus kus",
+        "d": "Kuskus · Dle denní nabídky · Voda, čaj, mléko",
         "a": [
           1,
-          3
+          3,
+          7
         ],
         "p": [
           {
@@ -3800,9 +3866,21 @@
           },
           {
             "l": "Příloha",
-            "n": "Kus kus",
+            "n": "Kuskus",
             "a": [
               1
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Dle denní nabídky",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Voda, čaj, mléko",
+            "a": [
+              7
             ]
           }
         ]
@@ -3825,7 +3903,7 @@
         "c": "obed",
         "m": 1,
         "n": "Rybí párek",
-        "d": "Bramborová kaše",
+        "d": "Bramborová kaše · Dle denní nabídky · Voda, čaj, mléko",
         "a": [
           4,
           7
@@ -3844,6 +3922,18 @@
             "a": [
               7
             ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Dle denní nabídky",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Voda, čaj, mléko",
+            "a": [
+              7
+            ]
           }
         ]
       },
@@ -3851,8 +3941,10 @@
         "c": "obed2",
         "m": 2,
         "n": "Játra s mandlemi a žampiony",
-        "d": "Rýže",
-        "a": [],
+        "d": "Rýže · Dle denní nabídky · Voda, čaj, mléko",
+        "a": [
+          7
+        ],
         "p": [
           {
             "l": "Jídlo",
@@ -3863,6 +3955,18 @@
             "l": "Příloha",
             "n": "Rýže",
             "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Dle denní nabídky",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Voda, čaj, mléko",
+            "a": [
+              7
+            ]
           }
         ]
       }
@@ -3881,10 +3985,11 @@
         "c": "obed",
         "m": 1,
         "n": "Pečené kuře, zelí",
-        "d": "Vicezrnný knedlík",
+        "d": "Vicezrnný knedlík · Dle denní nabídky · Voda, čaj, mléko",
         "a": [
           1,
-          3
+          3,
+          7
         ],
         "p": [
           {
@@ -3900,6 +4005,18 @@
             "a": [
               1,
               3
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Dle denní nabídky",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Voda, čaj, mléko",
+            "a": [
+              7
             ]
           }
         ]
@@ -3922,9 +4039,10 @@
         "c": "obed",
         "m": 1,
         "n": "Francouzká čočka PUY",
-        "d": "Chléb",
+        "d": "Chléb · Dle denní nabídky · Voda, čaj, mléko",
         "a": [
-          1
+          1,
+          7
         ],
         "p": [
           {
@@ -3939,6 +4057,18 @@
             "n": "Chléb",
             "a": [
               1
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Dle denní nabídky",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Voda, čaj, mléko",
+            "a": [
+              7
             ]
           }
         ]
@@ -3960,7 +4090,7 @@
         "c": "obed",
         "m": 1,
         "n": "Vepřové maso na paprice",
-        "d": "Těstoviny",
+        "d": "Těstoviny · Dle denní nabídky · Voda, čaj, mléko",
         "a": [
           1,
           7
@@ -3980,6 +4110,18 @@
             "a": [
               1
             ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Dle denní nabídky",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Voda, čaj, mléko",
+            "a": [
+              7
+            ]
           }
         ]
       },
@@ -3987,7 +4129,7 @@
         "c": "obed2",
         "m": 2,
         "n": "Bramborové knedlíky plněné švestkami sypané mákem",
-        "d": "",
+        "d": "Dle denní nabídky · Voda, čaj, mléko",
         "a": [
           1,
           3,
@@ -4000,6 +4142,18 @@
             "a": [
               1,
               3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Dle denní nabídky",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Voda, čaj, mléko",
+            "a": [
               7
             ]
           }
@@ -4023,9 +4177,10 @@
         "c": "obed",
         "m": 1,
         "n": "Krůtí maso na slanině s česnekem a bylinkami",
-        "d": "Rýže",
+        "d": "Rýže · Dle denní nabídky · Voda, čaj, mléko",
         "a": [
-          1
+          1,
+          7
         ],
         "p": [
           {
@@ -4039,6 +4194,18 @@
             "l": "Příloha",
             "n": "Rýže",
             "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Dle denní nabídky",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Voda, čaj, mléko",
+            "a": [
+              7
+            ]
           }
         ]
       }
@@ -4062,7 +4229,7 @@
         "c": "obed",
         "m": 1,
         "n": "Plněné tvarohové knedlíky",
-        "d": "",
+        "d": "Dle denní nabídky · Voda, čaj, mléko",
         "a": [
           1,
           3,
@@ -4077,6 +4244,18 @@
               3,
               7
             ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Dle denní nabídky",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Voda, čaj, mléko",
+            "a": [
+              7
+            ]
           }
         ]
       },
@@ -4084,9 +4263,10 @@
         "c": "obed2",
         "m": 2,
         "n": "Zvěřinové ragů",
-        "d": "Rýže",
+        "d": "Rýže · Dle denní nabídky · Voda, čaj, mléko",
         "a": [
           1,
+          7,
           9
         ],
         "p": [
@@ -4102,6 +4282,18 @@
             "l": "Příloha",
             "n": "Rýže",
             "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Dle denní nabídky",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Voda, čaj, mléko",
+            "a": [
+              7
+            ]
           }
         ]
       }
@@ -4124,9 +4316,10 @@
         "c": "obed",
         "m": 1,
         "n": "Krůtí na houbách",
-        "d": "Bulgur",
+        "d": "Bulgur · Dle denní nabídky · Voda, čaj, mléko",
         "a": [
-          1
+          1,
+          7
         ],
         "p": [
           {
@@ -4141,6 +4334,18 @@
             "n": "Bulgur",
             "a": [
               1
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Dle denní nabídky",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Voda, čaj, mléko",
+            "a": [
+              7
             ]
           }
         ]
@@ -4163,9 +4368,10 @@
         "c": "obed",
         "m": 1,
         "n": "Chilli con carne",
-        "d": "Rýže",
+        "d": "Rýže · Dle denní nabídky · Voda, čaj, mléko",
         "a": [
-          1
+          1,
+          7
         ],
         "p": [
           {
@@ -4180,6 +4386,18 @@
             "n": "Rýže",
             "a": [
               1
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Dle denní nabídky",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Voda, čaj, mléko",
+            "a": [
+              7
             ]
           }
         ]
@@ -4202,7 +4420,7 @@
         "c": "obed",
         "m": 1,
         "n": "Segedínský guláš",
-        "d": "Houskový knedlík",
+        "d": "Houskový knedlík · Dle denní nabídky · Voda, čaj, mléko",
         "a": [
           1,
           3,
@@ -4224,6 +4442,18 @@
               1,
               3
             ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Dle denní nabídky",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Voda, čaj, mléko",
+            "a": [
+              7
+            ]
           }
         ]
       },
@@ -4231,7 +4461,7 @@
         "c": "obed2",
         "m": 2,
         "n": "Obalovaný celer",
-        "d": "Brambor, Yofresh",
+        "d": "Brambor, Yofresh · Dle denní nabídky · Voda, čaj, mléko",
         "a": [
           1,
           3,
@@ -4250,6 +4480,18 @@
           {
             "l": "Příloha",
             "n": "Brambor, Yofresh",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Dle denní nabídky",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Voda, čaj, mléko",
             "a": [
               7
             ]
@@ -4273,7 +4515,7 @@
         "c": "obed",
         "m": 1,
         "n": "Holandská sekaná",
-        "d": "Brambor",
+        "d": "Brambor · Dle denní nabídky · Voda, čaj, mléko",
         "a": [
           1,
           3,
@@ -4294,6 +4536,18 @@
             "n": "Brambor",
             "a": [
               1
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Dle denní nabídky",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Voda, čaj, mléko",
+            "a": [
+              7
             ]
           }
         ]

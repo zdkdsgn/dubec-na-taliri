@@ -6136,7 +6136,7 @@
         "c": "obed",
         "m": 1,
         "n": "Vepřové maso v mrkvi",
-        "d": "Brambory · Voda s citrónem",
+        "d": "Brambory · Mléko · Voda s citrónem",
         "a": [
           1,
           7
@@ -6154,6 +6154,13 @@
             "l": "Příloha",
             "n": "Brambory",
             "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Mléko",
+            "a": [
+              7
+            ]
           },
           {
             "l": "Nápoj",
@@ -7316,7 +7323,7 @@
         "c": "obed",
         "m": 1,
         "n": "Rybí filé zapečené se sýrem",
-        "d": "Bramborová Kaše · Rajčatový salát · Čaj s medem",
+        "d": "Brambor · Rajčatový salát · Čaj s medem",
         "a": [
           4,
           7
@@ -7332,10 +7339,8 @@
           },
           {
             "l": "Příloha",
-            "n": "Bramborová Kaše",
-            "a": [
-              7
-            ]
+            "n": "Brambor",
+            "a": []
           },
           {
             "l": "Doplněk",
@@ -8889,6 +8894,25 @@
           {
             "l": "Nápoj",
             "n": "Čaj",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-12-23": {
+    "vydej": "8:30–9:30",
+    "chody": [
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Prázdniny",
+        "d": "",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Prázdniny",
             "a": []
           }
         ]

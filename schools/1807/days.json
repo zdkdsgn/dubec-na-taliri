@@ -3246,6 +3246,58 @@
       {
         "c": "obed",
         "m": 1,
+        "n": "Moravský vrabec",
+        "d": "Bramborové knedlíky s cizrnou, červené zelí · Jablko · Džus, mléko",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Moravský vrabec",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Bramborové knedlíky s cizrnou, červené zelí",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Jablko",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Džus, mléko",
+            "a": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-12-09": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Hovězí vývar s masovou rýží",
+        "d": "",
+        "a": [
+          1,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "m": 1,
         "n": "Zapečený květák se sýrem",
         "d": "Brambor · Okurkový salát · Ovocný čaj, mléko",
         "a": [
@@ -3284,58 +3336,6 @@
       }
     ]
   },
-  "2026-12-09": {
-    "vydej": "11:00–14:00",
-    "chody": [
-      {
-        "c": "polevka",
-        "n": "Hovězí s masovou rýží",
-        "d": "",
-        "a": [
-          1,
-          9
-        ]
-      },
-      {
-        "c": "obed",
-        "m": 1,
-        "n": "Moravský vrabec",
-        "d": "Bramborový knedlík s cizrnou, červené zelí · Jablko · Džus, mléko",
-        "a": [
-          1,
-          7
-        ],
-        "p": [
-          {
-            "l": "Jídlo",
-            "n": "Moravský vrabec",
-            "a": [
-              1
-            ]
-          },
-          {
-            "l": "Příloha",
-            "n": "Bramborový knedlík s cizrnou, červené zelí",
-            "a": [
-              1
-            ]
-          },
-          {
-            "l": "Doplněk",
-            "n": "Jablko",
-            "a": []
-          },
-          {
-            "l": "Nápoj",
-            "n": "Džus, mléko",
-            "a": [
-              7
-            ]
-          }
-        ]
-      }
-    ]
-  },
   "2026-12-10": {
     "vydej": "11:00–14:00",
     "chody": [
@@ -3353,7 +3353,7 @@
         "c": "obed",
         "m": 1,
         "n": "Hrachová kaše s cibulkou",
-        "d": "Chléb, vejce · Steril. okurka · Ovocný čaj se sirupem, mléko",
+        "d": "Chléb, vejce · Steril. okurka · Džus, mléko",
         "a": [
           1,
           3,
@@ -3380,7 +3380,7 @@
           },
           {
             "l": "Nápoj",
-            "n": "Ovocný čaj se sirupem, mléko",
+            "n": "Džus, mléko",
             "a": [
               7
             ]
@@ -3405,7 +3405,7 @@
         "c": "obed",
         "m": 1,
         "n": "Masové kouie v rajčatové omáčce",
-        "d": "Těstoviny · Jablko, tvaroh · Džus, mléko",
+        "d": "Těstoviny · Jablko, tvaroh · Ovocný čaj se sirupem, mléko",
         "a": [
           1,
           3,
@@ -3437,7 +3437,7 @@
           },
           {
             "l": "Nápoj",
-            "n": "Džus, mléko",
+            "n": "Ovocný čaj se sirupem, mléko",
             "a": [
               7
             ]
@@ -3611,7 +3611,7 @@
         "c": "obed",
         "m": 1,
         "n": "Hovězí pečeně na česneku",
-        "d": "Bramborový knedlík s cirnou, špenát · Jablko · Ovocný čaj, mléko",
+        "d": "Bramborový knedlík s cizrnou, špenát · Jablko · Ovocný čaj, mléko",
         "a": [
           1,
           3,
@@ -3627,7 +3627,7 @@
           },
           {
             "l": "Příloha",
-            "n": "Bramborový knedlík s cirnou, špenát",
+            "n": "Bramborový knedlík s cizrnou, špenát",
             "a": [
               1,
               3

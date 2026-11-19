@@ -5221,7 +5221,7 @@
         "c": "obed",
         "m": 1,
         "n": "Hovězí maso, koprová omáčka",
-        "d": "Houskové knedlíky · Multivitamin, voda, bílá káva",
+        "d": "Houskové knedlíky · Kompot · Multivitamin, voda, bílá káva",
         "a": [
           1,
           3,
@@ -5245,6 +5245,11 @@
             ]
           },
           {
+            "l": "Doplněk",
+            "n": "Kompot",
+            "a": []
+          },
+          {
             "l": "Nápoj",
             "n": "Multivitamin, voda, bílá káva",
             "a": [
@@ -5258,7 +5263,7 @@
         "c": "obed2",
         "m": 2,
         "n": "Bezmasý bramborový guláš",
-        "d": "Chléb · Multivitamin, voda, bílá káva",
+        "d": "Chléb · Kompot · Multivitamin, voda, bílá káva",
         "a": [
           1,
           7
@@ -5278,6 +5283,11 @@
             "a": [
               1
             ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Kompot",
+            "a": []
           },
           {
             "l": "Nápoj",
@@ -5601,7 +5611,7 @@
         "c": "obed",
         "m": 1,
         "n": "Bezmasé italské špagety, sýr",
-        "d": "100% mošt, voda, mléko",
+        "d": "Kompot · 100% mošt, voda, mléko",
         "a": [
           1,
           3,
@@ -5618,6 +5628,11 @@
             ]
           },
           {
+            "l": "Doplněk",
+            "n": "Kompot",
+            "a": []
+          },
+          {
             "l": "Nápoj",
             "n": "100% mošt, voda, mléko",
             "a": [
@@ -5630,7 +5645,7 @@
         "c": "obed2",
         "m": 2,
         "n": "Pečené kuřecí stehno po španělsku",
-        "d": "Rýže · 100% mošt, voda, mléko",
+        "d": "Rýže · Kompot · 100% mošt, voda, mléko",
         "a": [
           1,
           7
@@ -5647,6 +5662,11 @@
           {
             "l": "Příloha",
             "n": "Rýže",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Kompot",
             "a": []
           },
           {
@@ -6499,6 +6519,25 @@
     ]
   },
   "2026-12-22": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Vánoční prázdniny",
+        "d": "",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Vánoční prázdniny",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-12-23": {
     "vydej": "11:00–14:00",
     "chody": [
       {

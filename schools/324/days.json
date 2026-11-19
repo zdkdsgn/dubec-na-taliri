@@ -3515,5 +3515,273 @@
         ]
       }
     ]
+  },
+  "2026-11-30": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "A:1 ZELENINOVÁ POLÉVKA",
+        "d": "",
+        "a": [
+          1
+        ]
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "A:1 FARMÁŘSKÉ FAZOLE SE ZELENINOU",
+        "d": "A:1, 3, 7 CHLÉB · A: NAPOJ S PŘICH. CITRON, VODA",
+        "a": [
+          1
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "A:1 FARMÁŘSKÉ FAZOLE SE ZELENINOU",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "A:1, 3, 7 CHLÉB",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "A: NAPOJ S PŘICH. CITRON, VODA",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-12-01": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "A:1 PORKOVÁ POLÉVKA S KAPÁNÍM",
+        "d": "",
+        "a": [
+          1
+        ]
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "A:1, 7 KUŘECÍ PLÁTEK SE SÝREM A BROSKVÍ",
+        "d": "A:BRAMBORY · A:1, 3, 7 BUCHTA · A: ČERNY ČAJ, VODA",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "A:1, 7 KUŘECÍ PLÁTEK SE SÝREM A BROSKVÍ",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "A:BRAMBORY",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "A:1, 3, 7 BUCHTA",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "A: ČERNY ČAJ, VODA",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-12-02": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "A:1 GULAŠOVA POLEVKA",
+        "d": "",
+        "a": [
+          1
+        ]
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "A:1, 3 ŠPANĚLSKÝ PTÁČEK",
+        "d": "A: RÝŽE · A: ZELENINOVÝ BAR · A: NÁPOJ S PŘÍCH. KIWI, VODA",
+        "a": [
+          1,
+          3
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "A:1, 3 ŠPANĚLSKÝ PTÁČEK",
+            "a": [
+              1,
+              3
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "A: RÝŽE",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "A: ZELENINOVÝ BAR",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "A: NÁPOJ S PŘÍCH. KIWI, VODA",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "m": 2,
+        "n": "A:1, 7 SRBSKÉ RIZOTO SE SÝREM",
+        "d": "A: OKUREK",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "A:1, 7 SRBSKÉ RIZOTO SE SÝREM",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "A: OKUREK",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-12-03": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "A:1 HRSTKOVÁ POLÉVKA",
+        "d": "",
+        "a": [
+          1
+        ]
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "A:1, 7 KRÉMOVÉ TĚSTOVINY S MLETÝM MASEM A ZELENINOU",
+        "d": "A: OVOCE · A: NAPOJ S PŘICH.JAHODA, VODA",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "A:1, 7 KRÉMOVÉ TĚSTOVINY S MLETÝM MASEM A ZELENINOU",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "A: OVOCE",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "A: NAPOJ S PŘICH.JAHODA, VODA",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "m": 2,
+        "n": "A:1, 7 CUKETOVÉ TĚSTOVINY",
+        "d": "",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "A:1, 7 CUKETOVÉ TĚSTOVINY",
+            "a": [
+              1,
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-12-04": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "A:1 UZENÁ S RÝŽÍ A HRÁŠKEM",
+        "d": "",
+        "a": [
+          1
+        ]
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "A:1, 12 ŠPECLE SE ZELÍM A UZENÝM MASEM",
+        "d": "A: OVOCNÝ BAR · A: NAPOJ S PŘICH.POMERANČ, VODA",
+        "a": [
+          1,
+          12
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "A:1, 12 ŠPECLE SE ZELÍM A UZENÝM MASEM",
+            "a": [
+              1,
+              12
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "A: OVOCNÝ BAR",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "A: NAPOJ S PŘICH.POMERANČ, VODA",
+            "a": []
+          }
+        ]
+      }
+    ]
   }
 }

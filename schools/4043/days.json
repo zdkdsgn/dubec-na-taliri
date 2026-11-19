@@ -8710,5 +8710,759 @@
         ]
       }
     }
+  },
+  "2026-11-23": {
+    "skupiny": {
+      "zs": {
+        "vydej": "11:00–14:00",
+        "chody": [
+          {
+            "c": "presnidavka",
+            "m": 1,
+            "n": "Ovocný jogurt s rohlíkem",
+            "d": "",
+            "a": [
+              1,
+              3,
+              7
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Ovocný jogurt s rohlíkem",
+                "a": [
+                  1,
+                  3,
+                  7
+                ]
+              }
+            ]
+          },
+          {
+            "c": "polevka",
+            "n": "Celerová polévka",
+            "d": "",
+            "a": [
+              1,
+              7,
+              9
+            ]
+          },
+          {
+            "c": "obed",
+            "m": 1,
+            "n": "Špagety s rajčatovou omáčkou",
+            "d": "",
+            "a": [
+              1,
+              9
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Špagety s rajčatovou omáčkou",
+                "a": [
+                  1,
+                  9
+                ]
+              }
+            ]
+          },
+          {
+            "c": "obed2",
+            "m": 2,
+            "n": "Přírodní kuřecí maso",
+            "d": "Brambory",
+            "a": [],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Přírodní kuřecí maso",
+                "a": []
+              },
+              {
+                "l": "Příloha",
+                "n": "Brambory",
+                "a": []
+              }
+            ]
+          },
+          {
+            "c": "svacina",
+            "m": 1,
+            "n": "Kukuřičná pomazánka",
+            "d": "Bílé pečivo",
+            "a": [
+              1,
+              3,
+              7
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Kukuřičná pomazánka",
+                "a": []
+              },
+              {
+                "l": "Doplněk",
+                "n": "Bílé pečivo",
+                "a": [
+                  1,
+                  3,
+                  7
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "ms": {
+        "vydej": "11:00–14:00",
+        "chody": [
+          {
+            "c": "polevka",
+            "n": "Celerová polévka",
+            "d": "",
+            "a": [
+              1,
+              7,
+              9
+            ]
+          },
+          {
+            "c": "obed",
+            "m": 1,
+            "n": "Špagety s rajčatovou omáčkou",
+            "d": "",
+            "a": [
+              1,
+              9
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Špagety s rajčatovou omáčkou",
+                "a": [
+                  1,
+                  9
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "2026-11-24": {
+    "skupiny": {
+      "zs": {
+        "vydej": "11:00–14:00",
+        "chody": [
+          {
+            "c": "presnidavka",
+            "m": 1,
+            "n": "Vajíčková pomazánka",
+            "d": "Chléb",
+            "a": [
+              1,
+              3,
+              7
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Vajíčková pomazánka",
+                "a": [
+                  3
+                ]
+              },
+              {
+                "l": "Doplněk",
+                "n": "Chléb",
+                "a": [
+                  1,
+                  3,
+                  7
+                ]
+              }
+            ]
+          },
+          {
+            "c": "polevka",
+            "n": "Česnečka",
+            "d": "",
+            "a": [
+              9
+            ]
+          },
+          {
+            "c": "obed",
+            "m": 1,
+            "n": "Pečená kachna",
+            "d": "Zelí · Karlovarský knedlík",
+            "a": [
+              1,
+              3,
+              7
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Pečená kachna",
+                "a": []
+              },
+              {
+                "l": "Příloha",
+                "n": "Zelí",
+                "a": []
+              },
+              {
+                "l": "Doplněk",
+                "n": "Karlovarský knedlík",
+                "a": [
+                  1,
+                  3,
+                  7
+                ]
+              }
+            ]
+          },
+          {
+            "c": "obed2",
+            "m": 2,
+            "n": "Cizrnové kari",
+            "d": "Rýže",
+            "a": [
+              1
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Cizrnové kari",
+                "a": []
+              },
+              {
+                "l": "Příloha",
+                "n": "Rýže",
+                "a": [
+                  1
+                ]
+              }
+            ]
+          },
+          {
+            "c": "svacina",
+            "m": 1,
+            "n": "Těstovinový salát",
+            "d": "",
+            "a": [
+              1
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Těstovinový salát",
+                "a": [
+                  1
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "ms": {
+        "vydej": "11:00–14:00",
+        "chody": [
+          {
+            "c": "polevka",
+            "n": "Česnečka",
+            "d": "",
+            "a": [
+              9
+            ]
+          },
+          {
+            "c": "obed",
+            "m": 1,
+            "n": "Pečená kachna",
+            "d": "Zelí · Karlovarský knedlík",
+            "a": [
+              1,
+              3,
+              7
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Pečená kachna",
+                "a": []
+              },
+              {
+                "l": "Příloha",
+                "n": "Zelí",
+                "a": []
+              },
+              {
+                "l": "Doplněk",
+                "n": "Karlovarský knedlík",
+                "a": [
+                  1,
+                  3,
+                  7
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "2026-11-25": {
+    "skupiny": {
+      "zs": {
+        "vydej": "11:00–14:00",
+        "chody": [
+          {
+            "c": "presnidavka",
+            "m": 1,
+            "n": "Sýrová pomazánka",
+            "d": "Pečivo",
+            "a": [
+              1,
+              3,
+              7
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Sýrová pomazánka",
+                "a": [
+                  7
+                ]
+              },
+              {
+                "l": "Doplněk",
+                "n": "Pečivo",
+                "a": [
+                  1,
+                  3,
+                  7
+                ]
+              }
+            ]
+          },
+          {
+            "c": "polevka",
+            "n": "Gulášová polévka",
+            "d": "",
+            "a": [
+              1
+            ]
+          },
+          {
+            "c": "obed",
+            "m": 1,
+            "n": "Treska",
+            "d": "Ratatouille omáčka · Brambory",
+            "a": [],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Treska",
+                "a": []
+              },
+              {
+                "l": "Příloha",
+                "n": "Ratatouille omáčka",
+                "a": []
+              },
+              {
+                "l": "Doplněk",
+                "n": "Brambory",
+                "a": []
+              }
+            ]
+          },
+          {
+            "c": "obed2",
+            "m": 2,
+            "n": "Mexická pohanková směs",
+            "d": "",
+            "a": [],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Mexická pohanková směs",
+                "a": []
+              }
+            ]
+          },
+          {
+            "c": "svacina",
+            "m": 1,
+            "n": "Dýňová pomazánka",
+            "d": "Bílé pečivo",
+            "a": [
+              1,
+              3,
+              7
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Dýňová pomazánka",
+                "a": []
+              },
+              {
+                "l": "Doplněk",
+                "n": "Bílé pečivo",
+                "a": [
+                  1,
+                  3,
+                  7
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "ms": {
+        "vydej": "11:00–14:00",
+        "chody": [
+          {
+            "c": "polevka",
+            "n": "Gulášová polévka",
+            "d": "",
+            "a": [
+              1
+            ]
+          },
+          {
+            "c": "obed",
+            "m": 1,
+            "n": "Treska",
+            "d": "Ratatouille omáčka · Brambory",
+            "a": [],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Treska",
+                "a": []
+              },
+              {
+                "l": "Příloha",
+                "n": "Ratatouille omáčka",
+                "a": []
+              },
+              {
+                "l": "Doplněk",
+                "n": "Brambory",
+                "a": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "2026-11-26": {
+    "skupiny": {
+      "zs": {
+        "vydej": "11:00–14:00",
+        "chody": [
+          {
+            "c": "presnidavka",
+            "m": 1,
+            "n": "Rohlík s taveným sýrem",
+            "d": "",
+            "a": [
+              1,
+              3,
+              7
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Rohlík s taveným sýrem",
+                "a": [
+                  1,
+                  3,
+                  7
+                ]
+              }
+            ]
+          },
+          {
+            "c": "polevka",
+            "n": "Slepičí vývar s nudlemi",
+            "d": "",
+            "a": [
+              9
+            ]
+          },
+          {
+            "c": "obed",
+            "m": 1,
+            "n": "Nudle s mákem",
+            "d": "",
+            "a": [
+              1,
+              7
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Nudle s mákem",
+                "a": [
+                  1,
+                  7
+                ]
+              }
+            ]
+          },
+          {
+            "c": "obed2",
+            "m": 2,
+            "n": "Zapečené brambory s mletým masem a smetanou",
+            "d": "",
+            "a": [
+              7
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Zapečené brambory s mletým masem a smetanou",
+                "a": [
+                  7
+                ]
+              }
+            ]
+          },
+          {
+            "c": "svacina",
+            "m": 1,
+            "n": "Hradecká pomazánka",
+            "d": "Celozrnné pečivo",
+            "a": [
+              1,
+              3,
+              7,
+              10
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Hradecká pomazánka",
+                "a": [
+                  3,
+                  7,
+                  10
+                ]
+              },
+              {
+                "l": "Doplněk",
+                "n": "Celozrnné pečivo",
+                "a": [
+                  1,
+                  3,
+                  7
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "ms": {
+        "vydej": "11:00–14:00",
+        "chody": [
+          {
+            "c": "polevka",
+            "n": "Slepičí vývar s nudlemi",
+            "d": "",
+            "a": [
+              9
+            ]
+          },
+          {
+            "c": "obed",
+            "m": 1,
+            "n": "Nudle s mákem",
+            "d": "",
+            "a": [
+              1,
+              7
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Nudle s mákem",
+                "a": [
+                  1,
+                  7
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "2026-11-27": {
+    "skupiny": {
+      "zs": {
+        "vydej": "11:00–14:00",
+        "chody": [
+          {
+            "c": "presnidavka",
+            "m": 1,
+            "n": "Perník",
+            "d": "",
+            "a": [],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Perník",
+                "a": []
+              }
+            ]
+          },
+          {
+            "c": "polevka",
+            "n": "Žampionový krém",
+            "d": "",
+            "a": [
+              7
+            ]
+          },
+          {
+            "c": "obed",
+            "m": 1,
+            "n": "Medové kuřecí kousky se sezamem",
+            "d": "Rýže",
+            "a": [
+              1,
+              8,
+              11
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Medové kuřecí kousky se sezamem",
+                "a": [
+                  8,
+                  11
+                ]
+              },
+              {
+                "l": "Příloha",
+                "n": "Rýže",
+                "a": [
+                  1
+                ]
+              }
+            ]
+          },
+          {
+            "c": "obed2",
+            "m": 2,
+            "n": "Sýrová omáčka",
+            "d": "Vařené těstoviny",
+            "a": [
+              1,
+              7
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Sýrová omáčka",
+                "a": [
+                  1,
+                  7
+                ]
+              },
+              {
+                "l": "Příloha",
+                "n": "Vařené těstoviny",
+                "a": [
+                  1
+                ]
+              }
+            ]
+          },
+          {
+            "c": "svacina",
+            "m": 1,
+            "n": "Masová pomazánka",
+            "d": "Bílé pečivo",
+            "a": [
+              1,
+              3,
+              7,
+              10
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Masová pomazánka",
+                "a": [
+                  7,
+                  10
+                ]
+              },
+              {
+                "l": "Doplněk",
+                "n": "Bílé pečivo",
+                "a": [
+                  1,
+                  3,
+                  7
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "ms": {
+        "vydej": "11:00–14:00",
+        "chody": [
+          {
+            "c": "polevka",
+            "n": "Žampionový krém",
+            "d": "",
+            "a": [
+              7
+            ]
+          },
+          {
+            "c": "obed",
+            "m": 1,
+            "n": "Medové kuřecí kousky se sezamem",
+            "d": "Rýže",
+            "a": [
+              1,
+              8,
+              11
+            ],
+            "p": [
+              {
+                "l": "Jídlo",
+                "n": "Medové kuřecí kousky se sezamem",
+                "a": [
+                  8,
+                  11
+                ]
+              },
+              {
+                "l": "Příloha",
+                "n": "Rýže",
+                "a": [
+                  1
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
   }
 }

@@ -1994,23 +1994,16 @@
       {
         "c": "obed",
         "m": 1,
-        "n": "Květákový mozeček",
-        "d": "Brambory vařené · Zeleninový salát · Ovoce dle nabídky · Čaj, čirá voda, ochucené nápoje, mléčné nápoje",
+        "n": "OBĚD PODLE PŘÁNÍ DĚTÍ",
+        "d": "Zeleninový salát · Ovoce dle nabídky · Čaj, čirá voda, ochucené nápoje, mléčné nápoje",
         "a": [
           7
         ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Květákový mozeček",
+            "n": "OBĚD PODLE PŘÁNÍ DĚTÍ",
             "a": []
-          },
-          {
-            "l": "Příloha1",
-            "n": "Brambory vařené",
-            "a": [
-              7
-            ]
           },
           {
             "l": "Příloha2",
@@ -2382,8 +2375,8 @@
       {
         "c": "obed",
         "m": 1,
-        "n": "Čočka na kyselo, smažená cibulka",
-        "d": "Vařené vejce · Kyselá okurka · Domácí moučník se žmolenkou · Čaj, čirá voda, ochucené nápoje, mléčné nápoje",
+        "n": "OBĚD PODLE PŘÁNÍ DĚTÍ",
+        "d": "Domácí moučník se žmolenkou · Čaj, čirá voda, ochucené nápoje, mléčné nápoje",
         "a": [
           1,
           3,
@@ -2392,17 +2385,7 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Čočka na kyselo, smažená cibulka",
-            "a": []
-          },
-          {
-            "l": "Příloha1",
-            "n": "Vařené vejce",
-            "a": []
-          },
-          {
-            "l": "Příloha2",
-            "n": "Kyselá okurka",
+            "n": "OBĚD PODLE PŘÁNÍ DĚTÍ",
             "a": []
           },
           {
@@ -3237,6 +3220,25 @@
             "a": [
               7
             ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-12-23": {
+    "vydej": "11:30–14:00",
+    "chody": [
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "VÁNOČNÍ PRÁZDNINY",
+        "d": "",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "VÁNOČNÍ PRÁZDNINY",
+            "a": []
           }
         ]
       }
