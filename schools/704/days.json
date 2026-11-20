@@ -6016,13 +6016,16 @@
         "n": "ČOČKOVO – KROUPOVÝ ŠOULET",
         "d": "OPEČENÝ PÁREK, CHLÉB · ŠLEHANÝ TVAROH KAKAOVÝ · SIRUP MANGO, VODA S POMERANČEM",
         "a": [
+          1,
           7
         ],
         "p": [
           {
             "l": "Jídlo",
             "n": "ČOČKOVO – KROUPOVÝ ŠOULET",
-            "a": []
+            "a": [
+              1
+            ]
           },
           {
             "l": "Příloha",
@@ -6128,6 +6131,7 @@
         "d": "ČÍNSKÉ NUDLE · LIPOVÝ ČAJ, MLÉKO",
         "a": [
           1,
+          6,
           7,
           9
         ],
@@ -6137,6 +6141,7 @@
             "n": "KUŘECÍ ČÍNA",
             "a": [
               1,
+              6,
               9
             ]
           },
@@ -8294,6 +8299,17 @@
       {
         "c": "polevka",
         "n": "NEVAŘÍ SE",
+        "d": "",
+        "a": []
+      }
+    ]
+  },
+  "2026-12-24": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "ŠTĚDRÝ DEN",
         "d": "",
         "a": []
       }

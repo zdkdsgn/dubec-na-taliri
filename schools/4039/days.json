@@ -1248,7 +1248,7 @@
       {
         "c": "obed",
         "m": 1,
-        "n": "Těstovinový salát se sýrem a vejcem",
+        "n": "Těstovinový salát se sýrem, šunkou a vejcem",
         "d": "Pečivo · Jogurtová buchta s ovocem · Ovoce dle nabídky · Čaj, čirá voda, ochucené nápoje, mléčné nápoje",
         "a": [
           1,
@@ -1258,7 +1258,7 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Těstovinový salát se sýrem a vejcem",
+            "n": "Těstovinový salát se sýrem, šunkou a vejcem",
             "a": []
           },
           {
@@ -1294,7 +1294,7 @@
       {
         "c": "obed2",
         "m": 1,
-        "n": "Těstovinový salát se sýrem a vejcem (BZL těstoviny)",
+        "n": "Těstovinový salát se sýrem, šunkou a vejcem (BZL těstoviny)",
         "d": "Pečivo (BZL) · Jogurtová buchta s ovocem · Ovoce dle nabídky · Čaj, čirá voda, ochucené nápoje, mléčné nápoje",
         "a": [
           1,
@@ -1307,7 +1307,7 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Těstovinový salát se sýrem a vejcem (BZL těstoviny)",
+            "n": "Těstovinový salát se sýrem, šunkou a vejcem (BZL těstoviny)",
             "a": []
           },
           {
@@ -1987,32 +1987,46 @@
       },
       {
         "c": "polevka",
-        "n": "Hovězí vývar s hráškem a rýží",
+        "n": "Rajská s těstovinou",
         "d": "",
-        "a": []
+        "a": [
+          1,
+          3,
+          9
+        ]
       },
       {
         "c": "obed",
         "m": 1,
-        "n": "OBĚD PODLE PŘÁNÍ DĚTÍ",
-        "d": "Zeleninový salát · Ovoce dle nabídky · Čaj, čirá voda, ochucené nápoje, mléčné nápoje",
+        "n": "OBĚD PODLE PŘÁNÍ DĚTÍ 2.B",
+        "d": "Kuře na paprice · Vařené těstoviny · Banán v čokoládě · Čaj, čirá voda, ochucené nápoje, mléčné nápoje",
         "a": [
+          1,
+          3,
           7
         ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "OBĚD PODLE PŘÁNÍ DĚTÍ",
+            "n": "OBĚD PODLE PŘÁNÍ DĚTÍ 2.B",
+            "a": []
+          },
+          {
+            "l": "Příloha1",
+            "n": "Kuře na paprice",
             "a": []
           },
           {
             "l": "Příloha2",
-            "n": "Zeleninový salát",
-            "a": []
+            "n": "Vařené těstoviny",
+            "a": [
+              1,
+              3
+            ]
           },
           {
             "l": "Doplněk",
-            "n": "Ovoce dle nabídky",
+            "n": "Banán v čokoládě",
             "a": []
           },
           {
@@ -2119,27 +2133,26 @@
       },
       {
         "c": "polevka",
-        "n": "Kuřecí vývar s bulgurem",
+        "n": "Zeleninová s tmavou treskou",
         "d": "",
         "a": [
-          1,
+          4,
           9
         ]
       },
       {
         "c": "obed",
         "m": 1,
-        "n": "Vepřové na paprice",
-        "d": "Vařené těstoviny · Mikulášské překvapení · Ovoce dle nabídky · Čaj, čirá voda, ochucené nápoje, mléčné nápoje",
+        "n": "Vepřová pečeně na žampionech",
+        "d": "Dušená rýže · Mikulášské překvapení · Ovoce dle nabídky · Čaj, čirá voda, ochucené nápoje, mléčné nápoje",
         "a": [
           1,
-          3,
           7
         ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Vepřové na paprice",
+            "n": "Vepřová pečeně na žampionech",
             "a": [
               1,
               7
@@ -2147,11 +2160,8 @@
           },
           {
             "l": "Příloha1",
-            "n": "Vařené těstoviny",
-            "a": [
-              1,
-              3
-            ]
+            "n": "Dušená rýže",
+            "a": []
           },
           {
             "l": "Příloha2",
@@ -2259,7 +2269,7 @@
       {
         "c": "svacina",
         "m": 1,
-        "n": "1x toastový chléb s pažitkovým máslem, 1x mléko 0, 25l",
+        "n": "1x toastový chléb s šunkou, 1x mléko",
         "d": "",
         "a": [
           1,
@@ -2268,7 +2278,7 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "1x toastový chléb s pažitkovým máslem, 1x mléko 0, 25l",
+            "n": "1x toastový chléb s šunkou, 1x mléko",
             "a": [
               1,
               7
@@ -2278,51 +2288,35 @@
       },
       {
         "c": "polevka",
-        "n": "Hráškový krém",
+        "n": "Brokolicová se smetanou",
         "d": "",
-        "a": [
-          1,
-          7,
-          9
-        ]
+        "a": []
       },
       {
         "c": "obed",
         "m": 1,
-        "n": "Bavorská sekaná",
-        "d": "Bramborová kaše · Zakysaná smetana s ovocem · Ovoce dle nabídky · Čaj, čirá voda, ochucené nápoje, mléčné nápoje",
+        "n": "Kuřecí rizoto, strouhaný sýr",
+        "d": "Zeleninový salát · Ovoce dle nabídky · Čaj, čirá voda, ochucené nápoje, mléčné nápoje",
         "a": [
-          1,
-          3,
-          7
+          7,
+          9
         ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Bavorská sekaná",
+            "n": "Kuřecí rizoto, strouhaný sýr",
             "a": [
-              1,
-              3,
-              7
+              7,
+              9
             ]
           },
           {
             "l": "Příloha1",
-            "n": "Bramborová kaše",
-            "a": [
-              7
-            ]
+            "n": "Zeleninový salát",
+            "a": []
           },
           {
             "l": "Příloha2",
-            "n": "Zakysaná smetana s ovocem",
-            "a": [
-              1,
-              7
-            ]
-          },
-          {
-            "l": "Doplněk",
             "n": "Ovoce dle nabídky",
             "a": []
           },
@@ -2375,8 +2369,8 @@
       {
         "c": "obed",
         "m": 1,
-        "n": "OBĚD PODLE PŘÁNÍ DĚTÍ",
-        "d": "Domácí moučník se žmolenkou · Čaj, čirá voda, ochucené nápoje, mléčné nápoje",
+        "n": "OBĚD PODLE PŘÁNÍ DĚTÍ 2.A",
+        "d": "Krůtí řízek · Bramborová kaše · Vanilková zmrzlina se šlehačkou · Čaj, čirá voda, ochucené nápoje, mléčné nápoje",
         "a": [
           1,
           3,
@@ -2385,12 +2379,24 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "OBĚD PODLE PŘÁNÍ DĚTÍ",
+            "n": "OBĚD PODLE PŘÁNÍ DĚTÍ 2.A",
             "a": []
           },
           {
+            "l": "Příloha1",
+            "n": "Krůtí řízek",
+            "a": []
+          },
+          {
+            "l": "Příloha2",
+            "n": "Bramborová kaše",
+            "a": [
+              7
+            ]
+          },
+          {
             "l": "Doplněk",
-            "n": "Domácí moučník se žmolenkou",
+            "n": "Vanilková zmrzlina se šlehačkou",
             "a": [
               1,
               3,
@@ -2427,10 +2433,12 @@
       },
       {
         "c": "polevka",
-        "n": "Zeleninová s tmavou treskou",
+        "n": "Zeleninová se sýrovým kapáním",
         "d": "",
         "a": [
-          4,
+          1,
+          3,
+          7,
           9
         ]
       },
@@ -2508,38 +2516,51 @@
       },
       {
         "c": "polevka",
-        "n": "Bramborová klasika",
+        "n": "Hráškový krém",
         "d": "",
         "a": [
           1,
+          7,
           9
         ]
       },
       {
         "c": "obed",
         "m": 1,
-        "n": "Kuřecí rizoto, strouhaný sýr",
-        "d": "Zeleninový salát · Ovoce dle nabídky · Čaj, čirá voda, ochucené nápoje, mléčné nápoje",
+        "n": "Bavorská sekaná",
+        "d": "Šťouchané brambory · Zakysaná smetana s ovocem · Ovoce dle nabídky · Čaj, čirá voda, ochucené nápoje, mléčné nápoje",
         "a": [
-          7,
-          9
+          1,
+          3,
+          7
         ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Kuřecí rizoto, strouhaný sýr",
+            "n": "Bavorská sekaná",
             "a": [
-              7,
-              9
+              1,
+              3,
+              7
             ]
           },
           {
             "l": "Příloha1",
-            "n": "Zeleninový salát",
-            "a": []
+            "n": "Šťouchané brambory",
+            "a": [
+              7
+            ]
           },
           {
             "l": "Příloha2",
+            "n": "Zakysaná smetana s ovocem",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
             "n": "Ovoce dle nabídky",
             "a": []
           },
@@ -3238,6 +3259,25 @@
           {
             "l": "Jídlo",
             "n": "VÁNOČNÍ PRÁZDNINY",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-12-24": {
+    "vydej": "11:30–14:00",
+    "chody": [
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "VÁNOCE",
+        "d": "",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "VÁNOCE",
             "a": []
           }
         ]

@@ -1238,7 +1238,7 @@
         "c": "obed",
         "m": 1,
         "n": "Znojemská vepřová pečeně",
-        "d": "Rýže s mozaikou z černé čočky · Čaj",
+        "d": "Rýže s mozaikou z černé čočky · Sterilovaná zelenina · Čaj",
         "a": [
           1,
           6,
@@ -1264,6 +1264,11 @@
             "a": []
           },
           {
+            "l": "Doplněk",
+            "n": "Sterilovaná zelenina",
+            "a": []
+          },
+          {
             "l": "Nápoj",
             "n": "Čaj",
             "a": []
@@ -1274,7 +1279,7 @@
         "c": "obed2",
         "m": 2,
         "n": "Chilli con carne",
-        "d": "Čaj",
+        "d": "Sterilovaná zelenina · Čaj",
         "a": [
           1,
           6,
@@ -1293,6 +1298,11 @@
             ]
           },
           {
+            "l": "Doplněk",
+            "n": "Sterilovaná zelenina",
+            "a": []
+          },
+          {
             "l": "Nápoj",
             "n": "Čaj",
             "a": []
@@ -1303,7 +1313,7 @@
         "c": "obed2",
         "m": 3,
         "n": "Těstovinový salát s tuňákem",
-        "d": "Čaj",
+        "d": "Sterilovaná zelenina · Čaj",
         "a": [
           1,
           3,
@@ -1318,6 +1328,11 @@
               3,
               4
             ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Sterilovaná zelenina",
+            "a": []
           },
           {
             "l": "Nápoj",
@@ -1344,7 +1359,7 @@
         "c": "obed",
         "m": 1,
         "n": "Plněný bramborový knedlík uzeninou, červené zelí",
-        "d": "Čaj",
+        "d": "Zelenina mix · Čaj",
         "a": [
           1,
           3,
@@ -1363,6 +1378,11 @@
             ]
           },
           {
+            "l": "Doplněk",
+            "n": "Zelenina mix",
+            "a": []
+          },
+          {
             "l": "Nápoj",
             "n": "Čaj",
             "a": []
@@ -1373,7 +1393,7 @@
         "c": "obed2",
         "m": 2,
         "n": "Rybí filé na špenátovo-sýrovém lůžku s rajčaty, tatarka",
-        "d": "Brambory · Čaj",
+        "d": "Brambory · Zelenina mix · Čaj",
         "a": [
           1,
           3,
@@ -1398,6 +1418,11 @@
           {
             "l": "Příloha",
             "n": "Brambory",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zelenina mix",
             "a": []
           },
           {
@@ -2207,11 +2232,12 @@
     "chody": [
       {
         "c": "polevka",
-        "n": "Slepičí vývar",
+        "n": "Krupicová s vejci",
         "d": "",
         "a": [
           1,
           3,
+          7,
           9
         ]
       },
@@ -2590,38 +2616,35 @@
     "chody": [
       {
         "c": "polevka",
-        "n": "Hráškový krém",
+        "n": "Uzená s kroupami",
         "d": "",
         "a": [
           1,
-          7,
           9
         ]
       },
       {
         "c": "obed",
         "m": 1,
-        "n": "Kuřecí plátek na bylinkách, tatarská omáčka",
+        "n": "Kuřecí čínské placičky, tatarka",
         "d": "Brambory · Čaj",
         "a": [
           1,
           3,
           6,
           7,
-          9,
-          10
+          9
         ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Kuřecí plátek na bylinkách, tatarská omáčka",
+            "n": "Kuřecí čínské placičky, tatarka",
             "a": [
               1,
               3,
               6,
               7,
-              9,
-              10
+              9
             ]
           },
           {
@@ -2822,12 +2845,10 @@
     "chody": [
       {
         "c": "polevka",
-        "n": "Hovězí vývar",
+        "n": "Podzimní zeleninová s cizrnou",
         "d": "",
         "a": [
           1,
-          3,
-          7,
           9
         ]
       },
@@ -2883,6 +2904,550 @@
               3,
               7,
               9
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-12-14": {
+    "vydej": "12:00–14:30",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Vývar s krupicovými noky",
+        "d": "",
+        "a": [
+          1,
+          3,
+          7,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Vepřové stroganoff",
+        "d": "Kari rýže · Ovoce · Čaj",
+        "a": [
+          1,
+          6,
+          7,
+          9,
+          10
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Vepřové stroganoff",
+            "a": [
+              1,
+              6,
+              7,
+              9,
+              10
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Kari rýže",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "m": 2,
+        "n": "Ovesná kaše s ovocem, ořechy a skořicí",
+        "d": "Ovoce · Čaj",
+        "a": [
+          1,
+          7,
+          8
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Ovesná kaše s ovocem, ořechy a skořicí",
+            "a": [
+              1,
+              7,
+              8
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-12-15": {
+    "vydej": "12:00–14:30",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Kuřecí vývar s písmenky",
+        "d": "",
+        "a": [
+          3,
+          7,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Pečené kuře",
+        "d": "Bramborová kaše · Čaj",
+        "a": [
+          1,
+          7,
+          9
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Pečené kuře",
+            "a": [
+              1,
+              7,
+              9
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Bramborová kaše",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "m": 2,
+        "n": "Pikantní čínské nudle s tofu",
+        "d": "",
+        "a": [
+          1,
+          5,
+          6,
+          9
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Pikantní čínské nudle s tofu",
+            "a": [
+              1,
+              5,
+              6,
+              9
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-12-16": {
+    "vydej": "12:00–14:30",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Hrstková",
+        "d": "",
+        "a": [
+          1,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Milánské špagety sypané sýrem",
+        "d": "Čaj",
+        "a": [
+          1,
+          3,
+          6,
+          7,
+          9
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Milánské špagety sypané sýrem",
+            "a": [
+              1,
+              3,
+              6,
+              7,
+              9
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "m": 2,
+        "n": "Nilský okoun s krémovou citrónovou omáčkou",
+        "d": "Brambory · Čaj",
+        "a": [
+          1,
+          3,
+          4,
+          7,
+          9,
+          10
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Nilský okoun s krémovou citrónovou omáčkou",
+            "a": [
+              1,
+              3,
+              4,
+              7,
+              9,
+              10
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Brambory",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-12-17": {
+    "vydej": "12:00–14:30",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Zeleninová s cizrnou",
+        "d": "",
+        "a": [
+          1,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Rizoto po srbsku, sýr",
+        "d": "Čaj",
+        "a": [
+          6,
+          7,
+          9
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Rizoto po srbsku, sýr",
+            "a": [
+              6,
+              7,
+              9
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "m": 2,
+        "n": "Sýrové placičky, tatarka",
+        "d": "Brambory · Čaj",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Sýrové placičky, tatarka",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Brambory",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-12-18": {
+    "vydej": "12:00–14:30",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Hovězí vývar",
+        "d": "",
+        "a": [
+          1,
+          3,
+          7,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Retro kuřecí plátek se šunkou a sýrem, tatarka",
+        "d": "Brambory · Čaj",
+        "a": [
+          1,
+          3,
+          6,
+          7,
+          9,
+          10
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Retro kuřecí plátek se šunkou a sýrem, tatarka",
+            "a": [
+              1,
+              3,
+              6,
+              7,
+              9,
+              10
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Brambory",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "m": 2,
+        "n": "Těstoviny s pestem z mandlí a bazalky",
+        "d": "Čaj",
+        "a": [
+          1,
+          3,
+          7,
+          8,
+          9
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Těstoviny s pestem z mandlí a bazalky",
+            "a": [
+              1,
+              3,
+              7,
+              8,
+              9
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-12-21": {
+    "vydej": "12:00–14:30",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Kuřecí vývar",
+        "d": "",
+        "a": [
+          1,
+          3,
+          7,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Velký bramborový knedlík plněný uzeninou, zelí",
+        "d": "Ovoce · Čaj",
+        "a": [
+          1,
+          3,
+          7,
+          9,
+          10
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Velký bramborový knedlík plněný uzeninou, zelí",
+            "a": [
+              1,
+              3,
+              7,
+              9,
+              10
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "m": 2,
+        "n": "Špagety s rajčátky, citrónem a hladkolistou petrželkou",
+        "d": "Ovoce · Čaj",
+        "a": [
+          1,
+          3,
+          7,
+          9
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Špagety s rajčátky, citrónem a hladkolistou petrželkou",
+            "a": [
+              1,
+              3,
+              7,
+              9
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-12-22": {
+    "vydej": "12:00–14:30",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Luštěninová",
+        "d": "",
+        "a": [
+          1,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Kuřízek ( kuřecí řízek)",
+        "d": "Bramborový salát · Čaj",
+        "a": [
+          1,
+          3,
+          7,
+          9,
+          10,
+          12
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Kuřízek ( kuřecí řízek)",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Bramborový salát",
+            "a": [
+              3,
+              7,
+              9,
+              10,
+              12
             ]
           },
           {

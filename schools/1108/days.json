@@ -4617,16 +4617,20 @@
       {
         "c": "presnidavka",
         "m": 1,
-        "n": "Jáhlová kaše s ovocem, čaj",
+        "n": "Chléb s pom., máslem, sýre, rajče, okurek, granko",
         "d": "",
         "a": [
+          1,
+          3,
           7
         ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Jáhlová kaše s ovocem, čaj",
+            "n": "Chléb s pom., máslem, sýre, rajče, okurek, granko",
             "a": [
+              1,
+              3,
               7
             ]
           }
@@ -4634,12 +4638,9 @@
       },
       {
         "c": "polevka",
-        "n": "Kmínová s vejcem",
+        "n": "Cibulová s bramborem",
         "d": "",
-        "a": [
-          1,
-          3
-        ]
+        "a": []
       },
       {
         "c": "obed",
@@ -4674,21 +4675,23 @@
       {
         "c": "svacina",
         "m": 1,
-        "n": "Špaldový chléb s máslem, var. vejce, rajče, granko",
+        "n": "Jáhlová kaše, jablko, čaj",
         "d": "",
         "a": [
           1,
           3,
-          7
+          7,
+          8
         ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Špaldový chléb s máslem, var. vejce, rajče, granko",
+            "n": "Jáhlová kaše, jablko, čaj",
             "a": [
               1,
               3,
-              7
+              7,
+              8
             ]
           }
         ]

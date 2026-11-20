@@ -5013,7 +5013,7 @@
       {
         "c": "presnidavka",
         "m": 1,
-        "n": "Chléb, celerová pomazánka s tvarohem, ovoce, čaj",
+        "n": "Chléb, celerová pomazánka, ovoce, mléko",
         "d": "",
         "a": [
           1,
@@ -5023,7 +5023,7 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Chléb, celerová pomazánka s tvarohem, ovoce, čaj",
+            "n": "Chléb, celerová pomazánka, ovoce, mléko",
             "a": [
               1,
               7,
@@ -5118,7 +5118,7 @@
       },
       {
         "c": "polevka",
-        "n": "Fazolová",
+        "n": "Rajčatová, rýžové vločky",
         "d": "",
         "a": [
           1,
@@ -5129,7 +5129,7 @@
         "c": "obed",
         "m": 1,
         "n": "Kuřecí voňavé kari",
-        "d": "Dušená rýže · Ovoce · Nápoj",
+        "d": "Rýže basmati · Ovoce · Nápoj",
         "a": [
           1,
           7
@@ -5145,7 +5145,7 @@
           },
           {
             "l": "Příloha",
-            "n": "Dušená rýže",
+            "n": "Rýže basmati",
             "a": []
           },
           {
@@ -5188,7 +5188,7 @@
       {
         "c": "presnidavka",
         "m": 1,
-        "n": "Chléb, pomazánka ze sleďů v paprikovém krému, zelenina, čaj",
+        "n": "Chléb, pomazánka ze sleďů s paprikou, zelenina, čaj",
         "d": "",
         "a": [
           1,
@@ -5198,7 +5198,7 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Chléb, pomazánka ze sleďů v paprikovém krému, zelenina, čaj",
+            "n": "Chléb, pomazánka ze sleďů s paprikou, zelenina, čaj",
             "a": [
               1,
               4,
@@ -5209,12 +5209,11 @@
       },
       {
         "c": "polevka",
-        "n": "Rajčatová, špaldové vločky",
+        "n": "Fazolová s kysaným zelím",
         "d": "",
         "a": [
           1,
-          7,
-          9
+          7
         ]
       },
       {
@@ -5331,7 +5330,7 @@
       {
         "c": "svacina",
         "m": 1,
-        "n": "Chléb se sýrem, rajče, čaj",
+        "n": "Chléb s máslem, ovoce, čaj",
         "d": "",
         "a": [
           1,
@@ -5340,7 +5339,7 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Chléb se sýrem, rajče, čaj",
+            "n": "Chléb s máslem, ovoce, čaj",
             "a": [
               1,
               7
@@ -5394,7 +5393,7 @@
         "c": "obed",
         "m": 1,
         "n": "Americká pečeně",
-        "d": "Brambor · Nápoj",
+        "d": "Brambor · Ledový salát s pomerančem · Nápoj",
         "a": [
           7,
           10
@@ -5411,6 +5410,11 @@
           {
             "l": "Příloha",
             "n": "Brambor",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ledový salát s pomerančem",
             "a": []
           },
           {
@@ -5663,7 +5667,7 @@
         "c": "obed",
         "m": 1,
         "n": "Hrachová kaše s bylinkama",
-        "d": "Chléb · Ledový salát s kukuřicí · Nápoj",
+        "d": "Chléb · Zelný salát s kukuřicí · Nápoj",
         "a": [
           1,
           7
@@ -5686,7 +5690,7 @@
           },
           {
             "l": "Doplněk",
-            "n": "Ledový salát s kukuřicí",
+            "n": "Zelný salát s kukuřicí",
             "a": []
           },
           {
@@ -5867,7 +5871,7 @@
         "c": "obed",
         "m": 1,
         "n": "Vepřové na kmíně",
-        "d": "Dušená rýže · Nápoj",
+        "d": "Dušená rýže · Ovoce · Nápoj",
         "a": [
           1,
           7
@@ -5884,6 +5888,11 @@
           {
             "l": "Příloha",
             "n": "Dušená rýže",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
             "a": []
           },
           {

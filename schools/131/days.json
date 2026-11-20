@@ -3930,7 +3930,7 @@
         "c": "obed",
         "m": 1,
         "n": "Bavorská sekaná",
-        "d": "Šťouchané brambory s cibulkou · Cereální tyčinka · Mléko, ovocný čaj, voda",
+        "d": "Šťouchané brambory s cibulkou · Sušené ovoce mrazem – banán · Mléko, ovocný čaj, voda",
         "a": [
           1,
           3,
@@ -3958,7 +3958,7 @@
           },
           {
             "l": "Doplněk",
-            "n": "Cereální tyčinka",
+            "n": "Sušené ovoce mrazem – banán",
             "a": [
               5,
               6,
@@ -4044,6 +4044,28 @@
             ]
           }
         ]
+      },
+      {
+        "c": "svacina",
+        "m": 1,
+        "n": "Maková kaiserka s hráškovou pomazánkou a ricottou, ovoce",
+        "d": "",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Maková kaiserka s hráškovou pomazánkou a ricottou, ovoce",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          }
+        ]
       }
     ]
   },
@@ -4052,38 +4074,27 @@
     "chody": [
       {
         "c": "polevka",
-        "n": "Zeleninový vývar s nudlemi",
+        "n": "Zelňačka",
         "d": "",
         "a": [
           1,
-          3,
-          9
+          7
         ]
       },
       {
         "c": "obed",
         "m": 1,
-        "n": "Pravá svíčková na smetaně podle českých babiček",
-        "d": "Houskový knedlík · Mléko, voda, čaj",
+        "n": "Palačinky s džemem a se šlehačkou",
+        "d": "Kakao, čaj, voda",
         "a": [
           1,
           3,
-          7,
-          9
+          7
         ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Pravá svíčková na smetaně podle českých babiček",
-            "a": [
-              1,
-              7,
-              9
-            ]
-          },
-          {
-            "l": "Příloha",
-            "n": "Houskový knedlík",
+            "n": "Palačinky s džemem a se šlehačkou",
             "a": [
               1,
               3,
@@ -4092,7 +4103,7 @@
           },
           {
             "l": "Nápoj",
-            "n": "Mléko, voda, čaj",
+            "n": "Kakao, čaj, voda",
             "a": [
               7
             ]
@@ -4102,8 +4113,35 @@
       {
         "c": "obed2",
         "m": 2,
-        "n": "Fazolový salát s vajíčkem a tarhoňou",
-        "d": "Mléko, voda, čaj",
+        "n": "Ceasar salát s kuřecím masem ( římský salát, kuřecí prsa, krutonky, parmazán, krutonky, z?",
+        "d": "Kakao, čaj, voda",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Ceasar salát s kuřecím masem ( římský salát, kuřecí prsa, krutonky, parmazán, krutonky, z?",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Kakao, čaj, voda",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "m": 1,
+        "n": "Škvarkovka, zelenina",
+        "d": "",
         "a": [
           1,
           3,
@@ -4112,17 +4150,10 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Fazolový salát s vajíčkem a tarhoňou",
+            "n": "Škvarkovka, zelenina",
             "a": [
               1,
               3,
-              7
-            ]
-          },
-          {
-            "l": "Nápoj",
-            "n": "Mléko, voda, čaj",
-            "a": [
               7
             ]
           }
@@ -4176,6 +4207,24 @@
             ]
           }
         ]
+      },
+      {
+        "c": "svacina",
+        "m": 1,
+        "n": "Jogurt, ovoce",
+        "d": "",
+        "a": [
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Jogurt, ovoce",
+            "a": [
+              7
+            ]
+          }
+        ]
       }
     ]
   },
@@ -4184,29 +4233,38 @@
     "chody": [
       {
         "c": "polevka",
-        "n": "Bramborová s houbami",
+        "n": "Zeleninový vývar s nudlemi",
         "d": "",
         "a": [
           1,
           3,
-          7,
           9
         ]
       },
       {
         "c": "obed",
         "m": 1,
-        "n": "Palačinka s marmeládou a šlehačkou",
-        "d": "Kakao, čaj, voda",
+        "n": "Pravá svíčková na smetaně podle českých babiček",
+        "d": "Houskový knedlík · Mléko, ovocný čaj, voda",
         "a": [
           1,
           3,
-          7
+          7,
+          9
         ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Palačinka s marmeládou a šlehačkou",
+            "n": "Pravá svíčková na smetaně podle českých babiček",
+            "a": [
+              1,
+              7,
+              9
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Houskový knedlík",
             "a": [
               1,
               3,
@@ -4215,7 +4273,7 @@
           },
           {
             "l": "Nápoj",
-            "n": "Kakao, čaj, voda",
+            "n": "Mléko, ovocný čaj, voda",
             "a": [
               7
             ]
@@ -4225,25 +4283,49 @@
       {
         "c": "obed2",
         "m": 2,
-        "n": "Ceasar salát s kuřecím masem ( římský salát, kuřecí prsa, krutonky, parmazán, krutonky, z?",
-        "d": "Kakao, čaj, voda",
+        "n": "Fazolový salát s vajíčkem a tarhoňou",
+        "d": "Mléko, ovocný čaj, voda",
         "a": [
           1,
+          3,
           7
         ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Ceasar salát s kuřecím masem ( římský salát, kuřecí prsa, krutonky, parmazán, krutonky, z?",
+            "n": "Fazolový salát s vajíčkem a tarhoňou",
             "a": [
               1,
+              3,
               7
             ]
           },
           {
             "l": "Nápoj",
-            "n": "Kakao, čaj, voda",
+            "n": "Mléko, ovocný čaj, voda",
             "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "m": 1,
+        "n": "Dalamánek s pomazánkou z oliv a sušených rajčat",
+        "d": "",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Dalamánek s pomazánkou z oliv a sušených rajčat",
+            "a": [
+              1,
+              3,
               7
             ]
           }
@@ -4301,6 +4383,34 @@
             ]
           }
         ]
+      },
+      {
+        "c": "svacina",
+        "m": 1,
+        "n": "Mikulášský balíček",
+        "d": "",
+        "a": [
+          1,
+          3,
+          5,
+          6,
+          7,
+          8
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Mikulášský balíček",
+            "a": [
+              1,
+              3,
+              5,
+              6,
+              7,
+              8
+            ]
+          }
+        ]
       }
     ]
   },
@@ -4309,18 +4419,15 @@
     "chody": [
       {
         "c": "polevka",
-        "n": "Krupicová s vejci",
+        "n": "Pohanková",
         "d": "",
-        "a": [
-          1,
-          3
-        ]
+        "a": []
       },
       {
         "c": "obed",
         "m": 1,
         "n": "Kuře na paprice",
-        "d": "Celozrnné těstoviny – vřetena · Mléko, voda, sirup",
+        "d": "Těstoviny – vřetena · Mléko, voda, sirup",
         "a": [
           1,
           3,
@@ -4337,7 +4444,7 @@
           },
           {
             "l": "Příloha",
-            "n": "Celozrnné těstoviny – vřetena",
+            "n": "Těstoviny – vřetena",
             "a": [
               1,
               3
@@ -4347,6 +4454,28 @@
             "l": "Nápoj",
             "n": "Mléko, voda, sirup",
             "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "m": 1,
+        "n": "Řemeslný chléb s pomazánkou z červených fazolí",
+        "d": "",
+        "a": [
+          1,
+          4,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Řemeslný chléb s pomazánkou z červených fazolí",
+            "a": [
+              1,
+              4,
               7
             ]
           }
@@ -4448,6 +4577,28 @@
             ]
           }
         ]
+      },
+      {
+        "c": "svacina",
+        "m": 1,
+        "n": "Tvarohový dezert s piškoty",
+        "d": "",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Tvarohový dezert s piškoty",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          }
+        ]
       }
     ]
   },
@@ -4496,6 +4647,20 @@
             "a": [
               7
             ]
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "m": 1,
+        "n": "Rýžový chlebíček, ovoce",
+        "d": "",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Rýžový chlebíček, ovoce",
+            "a": []
           }
         ]
       }
@@ -4577,6 +4742,28 @@
             ]
           }
         ]
+      },
+      {
+        "c": "svacina",
+        "m": 1,
+        "n": "Podmáslový chléb s cuketovou pomazánkou, ovoce",
+        "d": "",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Podmáslový chléb s cuketovou pomazánkou, ovoce",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          }
+        ]
       }
     ]
   },
@@ -4630,6 +4817,614 @@
             "a": [
               7
             ]
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "m": 1,
+        "n": "Ovocná přesnídávka",
+        "d": "",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Ovocná přesnídávka",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-12-14": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Červený boršč s kořenovou zeleninou",
+        "d": "",
+        "a": [
+          1,
+          7,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "POLSKO – Pečené tresčí filé v bylinkové krustě",
+        "d": "Bramborovo-zeleninový salát · Mléko, ovocný čaj, voda",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "POLSKO – Pečené tresčí filé v bylinkové krustě",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Bramborovo-zeleninový salát",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko, ovocný čaj, voda",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "m": 1,
+        "n": "Biosaurus",
+        "d": "",
+        "a": [
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Biosaurus",
+            "a": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-12-15": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Italská Minestrone",
+        "d": "",
+        "a": [
+          1,
+          7,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "ITÁLIE – Pečené kuřecí prso s citronovo-bylinkovou omáčkou",
+        "d": "Těstoviny – Penne s rajčaty · Zeleninový bufet · Mléko, voda, sirup",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "ITÁLIE – Pečené kuřecí prso s citronovo-bylinkovou omáčkou",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Těstoviny – Penne s rajčaty",
+            "a": [
+              1,
+              3
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zeleninový bufet",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko, voda, sirup",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "m": 2,
+        "n": "ITÁLIE – Linguine s krevetami, česnekem, rajčaty a petrželkou",
+        "d": "Zeleninový bufet · Mléko, voda, sirup",
+        "a": [
+          1,
+          3,
+          4,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "ITÁLIE – Linguine s krevetami, česnekem, rajčaty a petrželkou",
+            "a": [
+              1,
+              3,
+              4,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zeleninový bufet",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko, voda, sirup",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "m": 1,
+        "n": "Jogurt, ovoce",
+        "d": "",
+        "a": [
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Jogurt, ovoce",
+            "a": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-12-16": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Zeleninový vývar s játrovými knedlíčky a nudlemi",
+        "d": "",
+        "a": [
+          1,
+          3,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "RAKOUSKO – Germknodel – Velký kynutý knedlík plněný povidly s vanilkovou omáčkou, mákem a m?",
+        "d": "Kakao, čaj, voda",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "RAKOUSKO – Germknodel – Velký kynutý knedlík plněný povidly s vanilkovou omáčkou, mákem a m?",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Kakao, čaj, voda",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "m": 1,
+        "n": "Sezamová kaiserka s avokádovou pomazánkou, ovoce",
+        "d": "",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Sezamová kaiserka s avokádovou pomazánkou, ovoce",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-12-17": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Jemný hráškový krém",
+        "d": "",
+        "a": [
+          1,
+          7
+        ]
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "ŠVÉDSKO – Tradiční švédské kuličky v jemné smetanové omáčce s brusinkami",
+        "d": "Dušená rýže · Brusinkový přeliv · Mléko, ovocný čaj, voda",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "ŠVÉDSKO – Tradiční švédské kuličky v jemné smetanové omáčce s brusinkami",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Dušená rýže",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Brusinkový přeliv",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko, ovocný čaj, voda",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "m": 2,
+        "n": "ŠVÉDSKO – Čočkový guláš se zeleninou",
+        "d": "Bramborová kaše a pečená mrkev · Mléko, ovocný čaj, voda",
+        "a": [
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "ŠVÉDSKO – Čočkový guláš se zeleninou",
+            "a": []
+          },
+          {
+            "l": "Příloha",
+            "n": "Bramborová kaše a pečená mrkev",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko, ovocný čaj, voda",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "m": 1,
+        "n": "Sýrové tousty, zelenina",
+        "d": "",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Sýrové tousty, zelenina",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-12-18": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Bramborová polévka se zeleninou",
+        "d": "",
+        "a": [
+          1
+        ]
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "NĚMECKO – Schweinebraten – Pomalu pečená kýta, dušené červené zelí s jablky",
+        "d": "Bramborové knedlíky · Ovocný bufet · Mléko, voda, sirup",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "NĚMECKO – Schweinebraten – Pomalu pečená kýta, dušené červené zelí s jablky",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Bramborové knedlíky",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovocný bufet",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko, voda, sirup",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "m": 1,
+        "n": "Domácí moučník, ovoce",
+        "d": "",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Domácí moučník, ovoce",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-12-21": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Hovězí vývar s ovesnými vločkami",
+        "d": "",
+        "a": [
+          1,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Námořnické rizoto s hráškem a kukuřicí sypané parmazánem",
+        "d": "Červená řepa · Mléko, ovocný čaj, voda",
+        "a": [
+          4,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Námořnické rizoto s hráškem a kukuřicí sypané parmazánem",
+            "a": [
+              4,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Červená řepa",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko, ovocný čaj, voda",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "m": 1,
+        "n": "Biosaurus, zelenina",
+        "d": "",
+        "a": [
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Biosaurus, zelenina",
+            "a": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-12-22": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Česneková",
+        "d": "",
+        "a": [
+          3
+        ]
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Luštěninové ragú",
+        "d": "Tarhoňa · Ovocný bufet · Mléko, voda, sirup",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Luštěninové ragú",
+            "a": []
+          },
+          {
+            "l": "Příloha",
+            "n": "Tarhoňa",
+            "a": [
+              1,
+              3
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovocný bufet",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko, voda, sirup",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "m": 1,
+        "n": "Termix, ovoce",
+        "d": "",
+        "a": [
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Termix, ovoce",
+            "a": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-12-23": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "VÁNOČNÍ PRÁZDNINY",
+        "d": "",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "VÁNOČNÍ PRÁZDNINY",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-12-24": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "VÁNOČNÍ PRÁZDNINY",
+        "d": "",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "VÁNOČNÍ PRÁZDNINY",
+            "a": []
           }
         ]
       }

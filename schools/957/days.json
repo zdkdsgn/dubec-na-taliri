@@ -6053,7 +6053,7 @@
       {
         "c": "obed",
         "m": 1,
-        "n": "Králík na zelenině",
+        "n": "Králík nadivoko",
         "d": "Houskový knedlík · Bylinkový čaj, voda",
         "a": [
           1,
@@ -6063,7 +6063,7 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Králík na zelenině",
+            "n": "Králík nadivoko",
             "a": [
               1,
               7
@@ -6391,8 +6391,8 @@
       {
         "c": "obed",
         "m": 1,
-        "n": "Dukátové buchtičky s vanilkovým krémem",
-        "d": "Hruškový nápoj, voda",
+        "n": "České koláče",
+        "d": "Ovocné mléko",
         "a": [
           1,
           7
@@ -6400,7 +6400,7 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Dukátové buchtičky s vanilkovým krémem",
+            "n": "České koláče",
             "a": [
               1,
               7
@@ -6408,8 +6408,10 @@
           },
           {
             "l": "Nápoj",
-            "n": "Hruškový nápoj, voda",
-            "a": []
+            "n": "Ovocné mléko",
+            "a": [
+              7
+            ]
           }
         ]
       },
@@ -6439,6 +6441,137 @@
           {
             "l": "Nápoj",
             "n": "Ovocný čaj, voda",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-11-30": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Hovězí cikánská",
+        "d": "Těstoviny",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Hovězí cikánská",
+            "a": []
+          },
+          {
+            "l": "Příloha",
+            "n": "Těstoviny",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-12-01": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Špenát, pečené maso",
+        "d": "Bramborový knedlík",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Špenát, pečené maso",
+            "a": []
+          },
+          {
+            "l": "Příloha",
+            "n": "Bramborový knedlík",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-12-02": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Krůtí plátek se šunkou a sýrem",
+        "d": "Bulgur · Kompot",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Krůtí plátek se šunkou a sýrem",
+            "a": []
+          },
+          {
+            "l": "Příloha",
+            "n": "Bulgur",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Kompot",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-12-03": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Smažený květák",
+        "d": "Šťouchané brambory",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Smažený květák",
+            "a": []
+          },
+          {
+            "l": "Příloha",
+            "n": "Šťouchané brambory",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-12-04": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Kovbojské fazole",
+        "d": "Chléb",
+        "a": [
+          1,
+          9
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Kovbojské fazole",
+            "a": [
+              1,
+              9
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Chléb",
             "a": []
           }
         ]
