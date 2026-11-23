@@ -5993,7 +5993,9 @@
           {
             "l": "Nápoj",
             "n": "Caro, čaj heřmánek",
-            "a": []
+            "a": [
+              7
+            ]
           }
         ]
       },
@@ -6010,38 +6012,50 @@
         "m": 1,
         "n": "Nudle s mákem",
         "d": "Mléko, jablečný džus",
-        "a": [],
+        "a": [
+          1,
+          7
+        ],
         "p": [
           {
             "l": "Jídlo",
             "n": "Nudle s mákem",
-            "a": []
+            "a": [
+              1
+            ]
           },
           {
             "l": "Nápoj",
             "n": "Mléko, jablečný džus",
-            "a": []
+            "a": [
+              7
+            ]
           }
         ]
       },
       {
         "c": "svacina",
         "m": 1,
-        "n": "Apetito šunkový",
+        "n": "Šunkový sýr",
         "d": "Toustový chléb, ovoce · Granko",
         "a": [
+          1,
           7
         ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Apetito šunkový",
-            "a": []
+            "n": "Šunkový sýr",
+            "a": [
+              7
+            ]
           },
           {
             "l": "Doplněk",
             "n": "Toustový chléb, ovoce",
-            "a": []
+            "a": [
+              1
+            ]
           },
           {
             "l": "Nápoj",
@@ -6061,7 +6075,7 @@
         "c": "presnidavka",
         "m": 1,
         "n": "Pomazánka cizrnová s vejcem a strouhaným sýrem",
-        "d": "Toustový chleb, ovoce · Mléko, meduňkový čaj",
+        "d": "Toustový chléb, ovoce · Mléko, meduňkový čaj",
         "a": [
           1,
           3,
@@ -6078,7 +6092,7 @@
           },
           {
             "l": "Doplněk",
-            "n": "Toustový chleb, ovoce",
+            "n": "Toustový chléb, ovoce",
             "a": [
               1
             ]
@@ -6107,7 +6121,8 @@
         "n": "Kuřecí řízek přírodní",
         "d": "Bramborová kaše · Broskvový kompot · Jablečný mošt",
         "a": [
-          1
+          1,
+          7
         ],
         "p": [
           {
@@ -6120,7 +6135,9 @@
           {
             "l": "Příloha",
             "n": "Bramborová kaše",
-            "a": []
+            "a": [
+              7
+            ]
           },
           {
             "l": "Doplněk",
@@ -6147,7 +6164,9 @@
           {
             "l": "Jídlo",
             "n": "Pomazánkové máslo",
-            "a": []
+            "a": [
+              7
+            ]
           },
           {
             "l": "Doplněk",
@@ -6176,6 +6195,7 @@
         "n": "Pomazánka tvarohová s mrkví",
         "d": "Toustový chléb, zelenina · Granko, čaj šípkový",
         "a": [
+          1,
           7
         ],
         "p": [
@@ -6189,12 +6209,16 @@
           {
             "l": "Doplněk",
             "n": "Toustový chléb, zelenina",
-            "a": []
+            "a": [
+              1
+            ]
           },
           {
             "l": "Nápoj",
             "n": "Granko, čaj šípkový",
-            "a": []
+            "a": [
+              7
+            ]
           }
         ]
       },
@@ -6212,7 +6236,9 @@
         "m": 1,
         "n": "Králik na zelenině",
         "d": "Kuskus · Čaj lesní ovoce",
-        "a": [],
+        "a": [
+          1
+        ],
         "p": [
           {
             "l": "Jídlo",
@@ -6222,7 +6248,9 @@
           {
             "l": "Příloha",
             "n": "Kuskus",
-            "a": []
+            "a": [
+              1
+            ]
           },
           {
             "l": "Nápoj",
@@ -6258,7 +6286,9 @@
           {
             "l": "Nápoj",
             "n": "Caro",
-            "a": []
+            "a": [
+              7
+            ]
           }
         ]
       }
@@ -6271,7 +6301,7 @@
         "c": "presnidavka",
         "m": 1,
         "n": "Pomazánka kapiová",
-        "d": "Chléb křupak, ovoce · Mléko, čaj černý rybíz s bezinkou",
+        "d": "Chléb křupák, ovoce · Mléko, čaj černý rybíz s bezinkou",
         "a": [
           1,
           3,
@@ -6289,27 +6319,33 @@
           },
           {
             "l": "Doplněk",
-            "n": "Chléb křupak, ovoce",
-            "a": []
+            "n": "Chléb křupák, ovoce",
+            "a": [
+              1
+            ]
           },
           {
             "l": "Nápoj",
             "n": "Mléko, čaj černý rybíz s bezinkou",
-            "a": []
+            "a": [
+              7
+            ]
           }
         ]
       },
       {
         "c": "polevka",
-        "n": "Česnekačka s pohankou a sýrem",
+        "n": "Česnečka s pohankou a sýrem",
         "d": "",
-        "a": []
+        "a": [
+          7
+        ]
       },
       {
         "c": "obed",
         "m": 1,
         "n": "Poděbradské maso",
-        "d": "Dušená rýže · Rajčatový salát · Citronka, jablečný mošt",
+        "d": "Dušená rýže · Citronka",
         "a": [
           1,
           7,
@@ -6331,13 +6367,8 @@
             "a": []
           },
           {
-            "l": "Doplněk",
-            "n": "Rajčatový salát",
-            "a": []
-          },
-          {
             "l": "Nápoj",
-            "n": "Citronka, jablečný mošt",
+            "n": "Citronka",
             "a": []
           }
         ]
@@ -6345,16 +6376,19 @@
       {
         "c": "svacina",
         "m": 1,
-        "n": "Žervé",
+        "n": "Lučina s pažitkou",
         "d": "Chléb křupák, zelenina · Melta",
         "a": [
-          1
+          1,
+          7
         ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Žervé",
-            "a": []
+            "n": "Lučina s pažitkou",
+            "a": [
+              7
+            ]
           },
           {
             "l": "Doplněk",
@@ -6366,7 +6400,9 @@
           {
             "l": "Nápoj",
             "n": "Melta",
-            "a": []
+            "a": [
+              7
+            ]
           }
         ]
       }
@@ -6423,7 +6459,7 @@
         "c": "obed",
         "m": 1,
         "n": "Rybí filé pečené na másle",
-        "d": "Brambory vařené · Mrkvový sálat · Čaj ostružina-borůvka",
+        "d": "Brambory vařené · Čaj ostružina-borůvka",
         "a": [
           4,
           7
@@ -6442,11 +6478,6 @@
             "a": []
           },
           {
-            "l": "Doplněk",
-            "n": "Mrkvový sálat",
-            "a": []
-          },
-          {
             "l": "Nápoj",
             "n": "Čaj ostružina-borůvka",
             "a": [
@@ -6460,7 +6491,9 @@
         "m": 1,
         "n": "Přesnidávka",
         "d": "Piškoty, ovoce · Čaj malina",
-        "a": [],
+        "a": [
+          1
+        ],
         "p": [
           {
             "l": "Jídlo",
@@ -6470,7 +6503,9 @@
           {
             "l": "Doplněk",
             "n": "Piškoty, ovoce",
-            "a": []
+            "a": [
+              1
+            ]
           },
           {
             "l": "Nápoj",

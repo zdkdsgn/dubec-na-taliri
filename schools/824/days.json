@@ -3346,7 +3346,7 @@
         "c": "obed",
         "m": 1,
         "n": "Bratislavské zeleninové rizoto (z těstovinové rýže, bezmasé)",
-        "d": "Strouhaný sýr · Červená řepa · Ovocná přesnídávka · Zelený čaj",
+        "d": "Strouhaný sýr, sterilovaná okurka · Ovocná přesnídávka · Zelený čaj",
         "a": [
           1,
           7
@@ -3361,15 +3361,10 @@
           },
           {
             "l": "Příloha",
-            "n": "Strouhaný sýr",
+            "n": "Strouhaný sýr, sterilovaná okurka",
             "a": [
               7
             ]
-          },
-          {
-            "l": "Doplněk",
-            "n": "Červená řepa",
-            "a": []
           },
           {
             "l": "Doplněk",
@@ -4279,7 +4274,7 @@
         "c": "obed",
         "m": 1,
         "n": "Maso dvou barev – vn",
-        "d": "Jasmínová rýže · Ovoce · Červený čaj",
+        "d": "Jasmínová rýže · Pomeranč · Červený čaj",
         "a": [
           6
         ],
@@ -4298,7 +4293,7 @@
           },
           {
             "l": "Doplněk",
-            "n": "Ovoce",
+            "n": "Pomeranč",
             "a": []
           },
           {
@@ -4312,7 +4307,7 @@
         "c": "obed2",
         "m": 2,
         "n": "Smažený sýr",
-        "d": "Vařené brambory, tatarská omáčka · Ovoce · Červený čaj",
+        "d": "Vařené brambory, tatarská omáčka · Pomeranč · Červený čaj",
         "a": [
           1,
           3,
@@ -4338,7 +4333,7 @@
           },
           {
             "l": "Doplněk",
-            "n": "Ovoce",
+            "n": "Pomeranč",
             "a": []
           },
           {
@@ -4352,7 +4347,7 @@
         "c": "obed2",
         "m": 3,
         "n": "Zeleninový talíř se šunkou, nivou a vařeným vejcem, jogurtový dip",
-        "d": "Pečivo · Ovoce · Červený čaj",
+        "d": "Pečivo · Pomeranč · Červený čaj",
         "a": [
           1,
           3,
@@ -4376,7 +4371,7 @@
           },
           {
             "l": "Doplněk",
-            "n": "Ovoce",
+            "n": "Pomeranč",
             "a": []
           },
           {
@@ -4420,6 +4415,73 @@
     "vydej": "11:00–14:00",
     "chody": [
       {
+        "c": "obed",
+        "m": 1,
+        "n": "Rohlík",
+        "d": "Žervé · Kedlubna · Ovocný čaj",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Rohlík",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Žervé",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Kedlubna",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný čaj",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "m": 1,
+        "n": "Kornspitz",
+        "d": "Žervé, vysočina · Kedlubna",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Kornspitz",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Žervé, vysočina",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Kedlubna",
+            "a": []
+          }
+        ]
+      },
+      {
         "c": "polevka",
         "n": "Dýňová s parmazánem (pórek, kari, smetana)",
         "d": "",
@@ -4431,7 +4493,7 @@
         "c": "obed",
         "m": 1,
         "n": "Gyros kuřecí plátek",
-        "d": "Tříbarevný kuskus · Kompot · Ovocný čaj",
+        "d": "Tříbarevný kuskus · Kukuřice · Musli tyčinka · Ovocný čaj",
         "a": [
           1
         ],
@@ -4450,8 +4512,15 @@
           },
           {
             "l": "Doplněk",
-            "n": "Kompot",
+            "n": "Kukuřice",
             "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Musli tyčinka",
+            "a": [
+              1
+            ]
           },
           {
             "l": "Nápoj",
@@ -4464,7 +4533,7 @@
         "c": "obed2",
         "m": 2,
         "n": "Pizza šunková",
-        "d": "Kompot · Ovocný čaj",
+        "d": "Musli tyčinka · Ovocný čaj",
         "a": [
           1,
           3,
@@ -4482,8 +4551,10 @@
           },
           {
             "l": "Doplněk",
-            "n": "Kompot",
-            "a": []
+            "n": "Musli tyčinka",
+            "a": [
+              1
+            ]
           },
           {
             "l": "Nápoj",
@@ -4496,7 +4567,7 @@
         "c": "obed2",
         "m": 3,
         "n": "Těstovinový salát s Ratatouille zeleninou a Fetou",
-        "d": "Pečivo · Kompot · Ovocný čaj",
+        "d": "Pečivo · Musli tyčinka · Ovocný čaj",
         "a": [
           1,
           7
@@ -4519,12 +4590,895 @@
           },
           {
             "l": "Doplněk",
+            "n": "Musli tyčinka",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný čaj",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "m": 1,
+        "n": "Cereálie s mlékem",
+        "d": "Mléko",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Cereálie s mlékem",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko",
+            "a": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-12-01": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Chléb",
+        "d": "Švédská pomazánka (z tresčích jater) · Okurka · Zelený čaj",
+        "a": [
+          1,
+          4,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Chléb",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Švédská pomazánka (z tresčích jater)",
+            "a": [
+              4,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Okurka",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Zelený čaj",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "m": 1,
+        "n": "Chléb",
+        "d": "Švédská pomazánka (z tresčích jater), vařené vejce · Okurka",
+        "a": [
+          1,
+          3,
+          4,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Chléb",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Švédská pomazánka (z tresčích jater), vařené vejce",
+            "a": [
+              3,
+              4,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Okurka",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Vločková se zeleninou a vejci",
+        "d": "",
+        "a": [
+          1,
+          3,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Domácí lívance s jahodovým přelivem",
+        "d": "Kompot · Mléčný koktejl",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Domácí lívance s jahodovým přelivem",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
             "n": "Kompot",
             "a": []
           },
           {
             "l": "Nápoj",
-            "n": "Ovocný čaj",
+            "n": "Mléčný koktejl",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "m": 2,
+        "n": "O D S T Á V K A E L E K T R I C K É E N E R G I E (ČEZ)",
+        "d": "",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "O D S T Á V K A E L E K T R I C K É E N E R G I E (ČEZ)",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "m": 1,
+        "n": "Chléb toustový vícezrnný",
+        "d": "Rama, plátkový Chedar · Mrkev · Zelený čaj",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Chléb toustový vícezrnný",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Rama, plátkový Chedar",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Mrkev",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Zelený čaj",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-12-02": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Řecký karamelový jogurt",
+        "d": "Pomeranč · Ovocný horký nápoj",
+        "a": [
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Řecký karamelový jogurt",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Pomeranč",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný horký nápoj",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "m": 1,
+        "n": "Špaldový rohlík",
+        "d": "Pomazánka americká z fazolí, tvarohu a bylinek, plátkový sýr · Rukola",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Špaldový rohlík",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Pomazánka americká z fazolí, tvarohu a bylinek, plátkový sýr",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Rukola",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Uzená se zeleninou, masem a opraženou krupicí",
+        "d": "",
+        "a": [
+          1,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Bramborové knedlíky plněné uzeným masem – vn",
+        "d": "Kysané zelí · Smažená cibulka · Řecký karamelový jogurt · Ovocný horký nápoj",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Bramborové knedlíky plněné uzeným masem – vn",
+            "a": [
+              1,
+              3
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Kysané zelí",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Smažená cibulka",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Řecký karamelový jogurt",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný horký nápoj",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "m": 2,
+        "n": "Špenátové tagliatelle s krůtími nudličkami a sušenými rajčaty",
+        "d": "Strouhaný parmazán · Řecký karamelový jogurt · Ovocný horký nápoj",
+        "a": [
+          1,
+          6,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Špenátové tagliatelle s krůtími nudličkami a sušenými rajčaty",
+            "a": [
+              1,
+              6
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Strouhaný parmazán",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Řecký karamelový jogurt",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný horký nápoj",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "m": 3,
+        "n": "Restovaná cizrna se zeleninou a uzeným tofu, na čínském zelí",
+        "d": "Pečivo · Řecký karamelový jogurt · Ovocný horký nápoj",
+        "a": [
+          1,
+          6,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Restovaná cizrna se zeleninou a uzeným tofu, na čínském zelí",
+            "a": [
+              6
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Pečivo",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Řecký karamelový jogurt",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný horký nápoj",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "m": 1,
+        "n": "Houska",
+        "d": "Pomazánka americká z fazolí, tvarohu a bylinek · Rajče · Mléko",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Houska",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Pomazánka americká z fazolí, tvarohu a bylinek",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Rajče",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko",
+            "a": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-12-03": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Chléb",
+        "d": "Paštiková pomazánka · Paprika · Černý čaj broskev",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Chléb",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Paštiková pomazánka",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Paprika",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Černý čaj broskev",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "m": 1,
+        "n": "Houska",
+        "d": "Paštiková pomazánka, uzený sýr · Paprika",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Houska",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Paštiková pomazánka, uzený sýr",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Paprika",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Drožďová – vn",
+        "d": "",
+        "a": [
+          1,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Aljašská treska v bylinkovém pestu – vn",
+        "d": "Smetanový bulgur · Mrkvový salát s ananasem · Černý čaj broskev",
+        "a": [
+          1,
+          4,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Aljašská treska v bylinkovém pestu – vn",
+            "a": [
+              4
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Smetanový bulgur",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Mrkvový salát s ananasem",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Černý čaj broskev",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "m": 2,
+        "n": "Telecí ragú – vn",
+        "d": "Špecle · Zelný salát s křenem · Černý čaj broskev",
+        "a": [
+          1,
+          3,
+          6,
+          7,
+          9
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Telecí ragú – vn",
+            "a": [
+              6,
+              7,
+              9
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Špecle",
+            "a": [
+              1,
+              3
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zelný salát s křenem",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Černý čaj broskev",
+            "a": [
+              3
+            ]
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "m": 3,
+        "n": "Míchaný zeleninový salát s řeckým jogurtem a vařeným vejcem, sypaný sýrem",
+        "d": "Pečivo · Mrkvový salát s ananasem · Černý čaj broskev",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Míchaný zeleninový salát s řeckým jogurtem a vařeným vejcem, sypaný sýrem",
+            "a": [
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Pečivo",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Mrkvový salát s ananasem",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Černý čaj broskev",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "m": 1,
+        "n": "Mléčný piškot",
+        "d": "Jablko · Černý čaj broskev",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Mléčný piškot",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Jablko",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Černý čaj broskev",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-12-04": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Chléb toustový slunečnicový",
+        "d": "Pomazánka tvarohová s ředkvičkami · Mrkev · Bílá káva",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Chléb toustový slunečnicový",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Pomazánka tvarohová s ředkvičkami",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Mrkev",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Bílá káva",
+            "a": [
+              1,
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "m": 1,
+        "n": "Chléb toustový slunečnicový",
+        "d": "Pomazánka tvarohová s ředkvičkami, kuřecí šunka · Salátek",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Chléb toustový slunečnicový",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Pomazánka tvarohová s ředkvičkami, kuřecí šunka",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Salátek",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Slepičí se zeleninou, masem a fridátovými nudlemi",
+        "d": "",
+        "a": [
+          1,
+          3,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Kuřecí nugetky",
+        "d": "Bramborová kaše – vn · \"Sladké překvapení\" · Červený čaj",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Kuřecí nugetky",
+            "a": [
+              1,
+              3
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Bramborová kaše – vn",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "\"Sladké překvapení\"",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Červený čaj",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "m": 2,
+        "n": "Fazolové kari – Rajma (červené fazole, rajčata, kari, kurkuma, koriandr)",
+        "d": "Rýže divoká · \"Sladké překvapení\" · Červený čaj",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Fazolové kari – Rajma (červené fazole, rajčata, kari, kurkuma, koriandr)",
+            "a": []
+          },
+          {
+            "l": "Příloha",
+            "n": "Rýže divoká",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "\"Sladké překvapení\"",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Červený čaj",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "m": 3,
+        "n": "Italský zeleninový salát (tuňák, krabí maso, vejce, olivy, sýr)",
+        "d": "Pečivo · \"Sladké překvapení\" · Červený čaj",
+        "a": [
+          1,
+          2,
+          3,
+          4,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Italský zeleninový salát (tuňák, krabí maso, vejce, olivy, sýr)",
+            "a": [
+              2,
+              3,
+              4,
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Pečivo",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "\"Sladké překvapení\"",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Červený čaj",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "m": 1,
+        "n": "Broskve v jahodovém želé",
+        "d": "Cornflakes · Červený čaj",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Broskve v jahodovém želé",
+            "a": []
+          },
+          {
+            "l": "Příloha",
+            "n": "Cornflakes",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Červený čaj",
             "a": []
           }
         ]

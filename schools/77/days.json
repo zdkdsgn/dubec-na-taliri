@@ -4950,9 +4950,10 @@
         "c": "obed",
         "m": 1,
         "n": "Bretaňské fazole s vepřovým masem",
-        "d": "Domácí chléb z naší jídelny · Sirup, voda, ochucené mléko",
+        "d": "Domácí chléb z naší jídelny · Jogurt s cereáliemi · Sirup, voda, ochucené mléko",
         "a": [
           1,
+          3,
           7,
           9
         ],
@@ -4973,6 +4974,15 @@
             ]
           },
           {
+            "l": "Doplněk",
+            "n": "Jogurt s cereáliemi",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
             "l": "Nápoj",
             "n": "Sirup, voda, ochucené mléko",
             "a": [
@@ -4985,7 +4995,7 @@
         "c": "obed2",
         "m": 2,
         "n": "Vdolky s povidly a šlehačkou",
-        "d": "Sirup, voda, ochucené mléko",
+        "d": "Jogurt s cereáliemi · Sirup, voda, ochucené mléko",
         "a": [
           1,
           3,
@@ -4995,6 +5005,15 @@
           {
             "l": "Jídlo",
             "n": "Vdolky s povidly a šlehačkou",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Jogurt s cereáliemi",
             "a": [
               1,
               3,
@@ -5028,10 +5047,9 @@
         "c": "obed",
         "m": 1,
         "n": "Dušená krůtí játra",
-        "d": "Rýže · Jogurt s cereáliemi · Neslazený ovocný čaj, voda, horká čokoláda",
+        "d": "Rýže · Neslazený ovocný čaj, voda, horká čokoláda",
         "a": [
           1,
-          3,
           7
         ],
         "p": [
@@ -5049,15 +5067,6 @@
             "a": []
           },
           {
-            "l": "Doplněk",
-            "n": "Jogurt s cereáliemi",
-            "a": [
-              1,
-              3,
-              7
-            ]
-          },
-          {
             "l": "Nápoj",
             "n": "Neslazený ovocný čaj, voda, horká čokoláda",
             "a": [
@@ -5071,7 +5080,7 @@
         "c": "obed2",
         "m": 2,
         "n": "Salát Coleslaw",
-        "d": "Pečivo · Jogurt s cereáliemi · Neslazený ovocný čaj, voda, horká čokoláda",
+        "d": "Pečivo · Neslazený ovocný čaj, voda, horká čokoláda",
         "a": [
           1,
           3,
@@ -5093,15 +5102,6 @@
           {
             "l": "Příloha",
             "n": "Pečivo",
-            "a": [
-              1,
-              3,
-              7
-            ]
-          },
-          {
-            "l": "Doplněk",
-            "n": "Jogurt s cereáliemi",
             "a": [
               1,
               3,
@@ -6557,6 +6557,25 @@
     ]
   },
   "2026-12-24": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Svátek vánoční",
+        "d": "",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Svátek vánoční",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-12-25": {
     "vydej": "11:00–14:00",
     "chody": [
       {

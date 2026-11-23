@@ -4525,7 +4525,7 @@
         "c": "obed",
         "m": 1,
         "n": "HOVĚZÍ NA ČESNEKU",
-        "d": "BRAMBOROVÁ KAŠE · SALÁT LEDOVÝ SE ZÁLIVKOU",
+        "d": "ČAJ, VODA S CITRONEM · BRAMBOROVÁ KAŠE · SALÁT LEDOVÝ SE ZÁLIVKOU",
         "a": [
           1,
           7,
@@ -4540,6 +4540,11 @@
               7,
               9
             ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "ČAJ, VODA S CITRONEM",
+            "a": []
           },
           {
             "l": "Příloha",
@@ -4559,7 +4564,7 @@
         "c": "obed2",
         "m": 2,
         "n": "KOVBOJSKÉ FAZOLE S VEPŘOVÝM MASEM",
-        "d": "CHLÉB · SALÁT LEDOVÝ SE ZÁLIVKOU",
+        "d": "ČAJ, DŽUS, VODA S CITRONEM · CHLÉB · SALÁT LEDOVÝ SE ZÁLIVKOU",
         "a": [
           1,
           7,
@@ -4573,6 +4578,11 @@
             "a": [
               9
             ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "ČAJ, DŽUS, VODA S CITRONEM",
+            "a": []
           },
           {
             "l": "Příloha",
@@ -4610,7 +4620,7 @@
         "c": "obed",
         "m": 1,
         "n": "SEGEDÍNSKÝ GULÁŠ",
-        "d": "HOUSKOVÉ KNEDLÍKY · OVOCE",
+        "d": "ČAJ, BÍLÁ KÁVA, VODA · HOUSKOVÉ KNEDLÍKY · OVOCE",
         "a": [
           1,
           3,
@@ -4628,6 +4638,14 @@
               7,
               9,
               12
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "ČAJ, BÍLÁ KÁVA, VODA",
+            "a": [
+              1,
+              7
             ]
           },
           {
@@ -4655,7 +4673,7 @@
         "c": "obed2",
         "m": 2,
         "n": "ŠPECLE S LISTOVÝM ŠPENÁTEM NA SMETANĚ",
-        "d": "OVOCE",
+        "d": "ČAJ, BÍLÁ KÁVA · OVOCE",
         "a": [
           1,
           3,
@@ -4668,6 +4686,14 @@
             "a": [
               1,
               3,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "ČAJ, BÍLÁ KÁVA",
+            "a": [
+              1,
               7
             ]
           },
@@ -4698,7 +4724,7 @@
         "c": "obed",
         "m": 1,
         "n": "PŘÍRODNÍ VEPŘOVÝ PLÁTEK",
-        "d": "RÝŽE · ŠLEHANÝ TVAROH S ČOKOLÁDOU",
+        "d": "ČAJ, DŽUS, VODA S CITRONEM · RÝŽE · ŠLEHANÝ TVAROH S ČOKOLÁDOU",
         "a": [
           1,
           7,
@@ -4713,6 +4739,11 @@
               7,
               9
             ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "ČAJ, DŽUS, VODA S CITRONEM",
+            "a": []
           },
           {
             "l": "Příloha",
@@ -4732,7 +4763,7 @@
         "c": "obed2",
         "m": 2,
         "n": "ZAPEČENÉ TĚSTOVINY S KRŮTÍM MASEM, CUKETOU A RAJČATY",
-        "d": "ŠLEHANÝ TVAROH S ČOKOLÁDOU",
+        "d": "ČAJ, VODA S CITRONEM · ŠLEHANÝ TVAROH S ČOKOLÁDOU",
         "a": [
           1,
           3,
@@ -4749,6 +4780,11 @@
               7,
               9
             ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "ČAJ, VODA S CITRONEM",
+            "a": []
           },
           {
             "l": "Doplněk",
@@ -4780,7 +4816,7 @@
         "c": "obed",
         "m": 1,
         "n": "RYBÍ FILÉ V ZELENINOVÉM TĚSTÍČKU",
-        "d": "BRAMBOR · SALÁT MRKVOVÝ S MANDARINKAMI",
+        "d": "ČAJ, CARO, VODA · BRAMBOR · SALÁT MRKVOVÝ S MANDARINKAMI",
         "a": [
           1,
           3,
@@ -4798,6 +4834,14 @@
               4,
               7,
               9
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "ČAJ, CARO, VODA",
+            "a": [
+              1,
+              7
             ]
           },
           {
@@ -4844,6 +4888,376 @@
           {
             "l": "Doplněk",
             "n": "SALÁT MRKVOVÝ S MANDARINKAMI",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-11-30": {
+    "vydej": "11:00–13:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "HOVĚZÍ RYCHLÁ S VEJCI",
+        "d": "",
+        "a": [
+          1,
+          3,
+          6,
+          7,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "SRBSKÉ RIZOTO SE SÝREM",
+        "d": "SALÁT Z ČERVENÉ ŘEPY S JABLKY",
+        "a": [
+          7,
+          9
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "SRBSKÉ RIZOTO SE SÝREM",
+            "a": [
+              7,
+              9
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "SALÁT Z ČERVENÉ ŘEPY S JABLKY",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-12-01": {
+    "vydej": "11:00–13:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "ZELENINOVÁ S JÁHLAMI",
+        "d": "",
+        "a": [
+          6,
+          7,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "KÝTA NA DIVOKO",
+        "d": "HOUSKOVÉ KNEDLÍKY · OVOCE",
+        "a": [
+          1,
+          3,
+          7,
+          9,
+          10
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "KÝTA NA DIVOKO",
+            "a": [
+              1,
+              7,
+              9,
+              10
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "HOUSKOVÉ KNEDLÍKY",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "OVOCE",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "m": 2,
+        "n": "MEXICKÁ FAZOLOVÁ PÁNEV",
+        "d": "CHLÉB · OVOCE",
+        "a": [
+          1,
+          7,
+          9
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "MEXICKÁ FAZOLOVÁ PÁNEV",
+            "a": [
+              9
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "CHLÉB",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "OVOCE",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-12-02": {
+    "vydej": "11:00–13:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "SEKYRKOVÁ",
+        "d": "",
+        "a": [
+          1,
+          6,
+          7,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "PIKANTNÍ PEČENÉ KUŘÁTKO",
+        "d": "BRAMBOR · SALÁT LEDOVÝ SE ZÁLIVKOU",
+        "a": [
+          6,
+          7,
+          9
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "PIKANTNÍ PEČENÉ KUŘÁTKO",
+            "a": [
+              6,
+              7,
+              9
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "BRAMBOR",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "SALÁT LEDOVÝ SE ZÁLIVKOU",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "m": 2,
+        "n": "ZAPEČENÉ ŠPAGETY SE ŠUNKOU",
+        "d": "SALÁT LEDOVÝ SE ZÁLIVKOU",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "ZAPEČENÉ ŠPAGETY SE ŠUNKOU",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "SALÁT LEDOVÝ SE ZÁLIVKOU",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-12-03": {
+    "vydej": "11:00–13:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "KVĚTÁKOVÁ S VEJCI",
+        "d": "",
+        "a": [
+          1,
+          3,
+          6,
+          7,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "MASOVÉ KOULE V RAJSKÉ OMÁČCE",
+        "d": "TĚSTOVINY · OVOCE",
+        "a": [
+          1,
+          3,
+          7,
+          9
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "MASOVÉ KOULE V RAJSKÉ OMÁČCE",
+            "a": [
+              1,
+              3,
+              7,
+              9
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "TĚSTOVINY",
+            "a": [
+              1,
+              3
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "OVOCE",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "m": 2,
+        "n": "ŠIŠKY Z BRAMBOROVÉHO TĚSTA S CUKREM A MÁKEM",
+        "d": "OVOCE",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "ŠIŠKY Z BRAMBOROVÉHO TĚSTA S CUKREM A MÁKEM",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "OVOCE",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-12-04": {
+    "vydej": "11:00–13:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "HRACHOVÁ",
+        "d": "",
+        "a": [
+          6,
+          7,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "PEČENÉ RYBÍ FILÉ NA MÁSLE",
+        "d": "BRAMBOROVÁ KAŠE · ZELNÝ SALÁT S KOPREM",
+        "a": [
+          4,
+          7,
+          9
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "PEČENÉ RYBÍ FILÉ NA MÁSLE",
+            "a": [
+              4,
+              7,
+              9
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "BRAMBOROVÁ KAŠE",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "ZELNÝ SALÁT S KOPREM",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "m": 2,
+        "n": "MASOVÁ ROLÁDA",
+        "d": "BRAMBOROVÁ KAŠE · SALÁT ZELNÝ S KOPREM",
+        "a": [
+          3,
+          7,
+          9
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "MASOVÁ ROLÁDA",
+            "a": [
+              3,
+              7,
+              9
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "BRAMBOROVÁ KAŠE",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "SALÁT ZELNÝ S KOPREM",
             "a": []
           }
         ]

@@ -2077,50 +2077,6 @@
       },
       {
         "c": "obed2",
-        "m": 3,
-        "n": "Míchaný salát s tuňákem a vejci",
-        "d": "Chléb, pečivo · Ovoce dle sezony · Granko, ovocný sirup ( bez cukru a sladidel), voda",
-        "a": [
-          1,
-          3,
-          4,
-          7,
-          9
-        ],
-        "p": [
-          {
-            "l": "Jídlo",
-            "n": "Míchaný salát s tuňákem a vejci",
-            "a": [
-              3,
-              4
-            ]
-          },
-          {
-            "l": "Příloha",
-            "n": "Chléb, pečivo",
-            "a": [
-              1,
-              3,
-              9
-            ]
-          },
-          {
-            "l": "Doplněk",
-            "n": "Ovoce dle sezony",
-            "a": []
-          },
-          {
-            "l": "Nápoj",
-            "n": "Granko, ovocný sirup ( bez cukru a sladidel), voda",
-            "a": [
-              7
-            ]
-          }
-        ]
-      },
-      {
-        "c": "obed2",
         "m": 4,
         "n": "Kukuřičné špagety, , Aglio – Olio, , pomodoro",
         "d": "Zeleninová přízdoba · Ovoce dle sezony · Granko, ovocný sirup ( bez cukru a sladidel), voda",
@@ -2169,7 +2125,7 @@
         "c": "obed",
         "m": 1,
         "n": "Vepřové na paprice",
-        "d": "Houskový knedlík se špaldou · Celozrnný šáteček s ovocnou náplní · Mléko, ovocný čaj, voda s citronem",
+        "d": "Celozrnné těstoviny/ semolinové těstoviny · Celozrnný šáteček s ovocnou náplní · Mléko, ovocný čaj, voda s citronem",
         "a": [
           1,
           3,
@@ -2186,53 +2142,9 @@
           },
           {
             "l": "Příloha",
-            "n": "Houskový knedlík se špaldou",
-            "a": [
-              1,
-              3,
-              7
-            ]
-          },
-          {
-            "l": "Doplněk",
-            "n": "Celozrnný šáteček s ovocnou náplní",
-            "a": [
-              3,
-              7
-            ]
-          },
-          {
-            "l": "Nápoj",
-            "n": "Mléko, ovocný čaj, voda s citronem",
-            "a": [
-              7
-            ]
-          }
-        ]
-      },
-      {
-        "c": "obed2",
-        "m": 2,
-        "n": "Bulgureto s červenou čočkou a rostlinou bílkovinou",
-        "d": "Vařené vejce, zel. přízdoba · Celozrnný šáteček s ovocnou náplní · Mléko, ovocný čaj, voda s citronem",
-        "a": [
-          1,
-          3,
-          7
-        ],
-        "p": [
-          {
-            "l": "Jídlo",
-            "n": "Bulgureto s červenou čočkou a rostlinou bílkovinou",
+            "n": "Celozrnné těstoviny/ semolinové těstoviny",
             "a": [
               1
-            ]
-          },
-          {
-            "l": "Příloha",
-            "n": "Vařené vejce, zel. přízdoba",
-            "a": [
-              3
             ]
           },
           {
@@ -2349,7 +2261,7 @@
         "c": "obed",
         "m": 1,
         "n": "Bavorská sekaná pečeně",
-        "d": "Lepenice (šťouchané brambory se zelíma cibulkou) · Ovoce dle sezony · Mléko, ovocná voda (cold brew), voda",
+        "d": "Lepenice (šťouchané brambory se zelím a cibulkou) · Ovoce dle sezony · Mléko, ovocná voda (cold brew), voda",
         "a": [
           1,
           3,
@@ -2366,43 +2278,10 @@
           },
           {
             "l": "Příloha",
-            "n": "Lepenice (šťouchané brambory se zelíma cibulkou)",
+            "n": "Lepenice (šťouchané brambory se zelím a cibulkou)",
             "a": [
               7
             ]
-          },
-          {
-            "l": "Doplněk",
-            "n": "Ovoce dle sezony",
-            "a": []
-          },
-          {
-            "l": "Nápoj",
-            "n": "Mléko, ovocná voda (cold brew), voda",
-            "a": [
-              7
-            ]
-          }
-        ]
-      },
-      {
-        "c": "obed2",
-        "m": 2,
-        "n": "Cizrnové ragů",
-        "d": "Dušená rýže · Ovoce dle sezony · Mléko, ovocná voda (cold brew), voda",
-        "a": [
-          7
-        ],
-        "p": [
-          {
-            "l": "Jídlo",
-            "n": "Cizrnové ragů",
-            "a": []
-          },
-          {
-            "l": "Příloha",
-            "n": "Dušená rýže",
-            "a": []
           },
           {
             "l": "Doplněk",
@@ -2445,6 +2324,39 @@
               3,
               9
             ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce dle sezony",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko, ovocná voda (cold brew), voda",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "m": 4,
+        "n": "Cizrnové ragů",
+        "d": "Dušená rýže · Ovoce dle sezony · Mléko, ovocná voda (cold brew), voda",
+        "a": [
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Cizrnové ragů",
+            "a": []
+          },
+          {
+            "l": "Příloha",
+            "n": "Dušená rýže",
+            "a": []
           },
           {
             "l": "Doplněk",
@@ -2765,6 +2677,550 @@
             "l": "Nápoj",
             "n": "Mléko, zázvorový čaj, voda",
             "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-11-30": {
+    "vydej": "11:45–14:45",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Rajská s kapáním",
+        "d": "",
+        "a": [
+          1,
+          3
+        ]
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Smažený sýr ( konvektomat)",
+        "d": "Vařený brambor m.m., tatarská omáčka · Ovoce dle sezony · Mléko, horký ovocný punč, voda",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Smažený sýr ( konvektomat)",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Vařený brambor m.m., tatarská omáčka",
+            "a": [
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce dle sezony",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko, horký ovocný punč, voda",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "m": 3,
+        "n": "Zeleninový salát s balkánským sýrem (šopák)",
+        "d": "Chléb, pečivo · Ovoce dle sezony · Mléko, horký ovocný punč, voda",
+        "a": [
+          1,
+          3,
+          7,
+          9
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Zeleninový salát s balkánským sýrem (šopák)",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Chléb, pečivo",
+            "a": [
+              1,
+              3,
+              9
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce dle sezony",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko, horký ovocný punč, voda",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "m": 4,
+        "n": "BZL Kuřecí stripy",
+        "d": "Vařený brambor · Ovoce dle sezony · Mléko, horký ovocný punč, voda",
+        "a": [
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "BZL Kuřecí stripy",
+            "a": []
+          },
+          {
+            "l": "Příloha",
+            "n": "Vařený brambor",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce dle sezony",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko, horký ovocný punč, voda",
+            "a": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-12-01": {
+    "vydej": "11:45–14:45",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Francouzská",
+        "d": "",
+        "a": [
+          1,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Hovězí na česneku",
+        "d": "Špenátový bramborový knedlík · Mléko, sirup (bez cukru a sladidel), voda",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Hovězí na česneku",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Špenátový bramborový knedlík",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko, sirup (bez cukru a sladidel), voda",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "m": 3,
+        "n": "Těstovinový salát s vajíčkem",
+        "d": "Mléko, sirup (bez cukru a sladidel), voda",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Těstovinový salát s vajíčkem",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko, sirup (bez cukru a sladidel), voda",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "m": 4,
+        "n": "Hovězí na česneku ( bezlepková mouka)",
+        "d": "BZL bramborový knedlík/ bramborový knedlík se špenátem – laktóza · Mléko, sirup (bez cukru a sladidel), voda",
+        "a": [
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Hovězí na česneku ( bezlepková mouka)",
+            "a": []
+          },
+          {
+            "l": "Příloha",
+            "n": "BZL bramborový knedlík/ bramborový knedlík se špenátem – laktóza",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko, sirup (bez cukru a sladidel), voda",
+            "a": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-12-02": {
+    "vydej": "11:45–14:45",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Cizrnová ( luštěninová mouka)",
+        "d": "",
+        "a": []
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Vepřové rizoto",
+        "d": "Strouhaný sýr, červená řepa · Oplatka · Mléko, citronáda, voda",
+        "a": [
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Vepřové rizoto",
+            "a": []
+          },
+          {
+            "l": "Příloha",
+            "n": "Strouhaný sýr, červená řepa",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Oplatka",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko, citronáda, voda",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "m": 3,
+        "n": "Zeleninový talíř s brynzovou pomazánkou",
+        "d": "Chléb, pečivo · Oplatka · Mléko, citronáda, voda",
+        "a": [
+          1,
+          3,
+          7,
+          9,
+          10
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Zeleninový talíř s brynzovou pomazánkou",
+            "a": [
+              7,
+              10
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Chléb, pečivo",
+            "a": [
+              1,
+              3,
+              9
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Oplatka",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko, citronáda, voda",
+            "a": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-12-03": {
+    "vydej": "11:45–14:45",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Vločková",
+        "d": "",
+        "a": [
+          1,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Čočka na kyselo",
+        "d": "Vařené vejce, kyselá okurka, chléb · Ovoce dle sezony · Mléko, černý čaj s citronem, voda",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Čočka na kyselo",
+            "a": []
+          },
+          {
+            "l": "Příloha",
+            "n": "Vařené vejce, kyselá okurka, chléb",
+            "a": [
+              1,
+              3
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce dle sezony",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko, černý čaj s citronem, voda",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "m": 2,
+        "n": "Bramborové šišky plněné mákem m.m",
+        "d": "Ovoce dle sezony · Mléko, černý čaj s citronem, voda",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Bramborové šišky plněné mákem m.m",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce dle sezony",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko, černý čaj s citronem, voda",
+            "a": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-12-04": {
+    "vydej": "11:45–14:45",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Minestrone",
+        "d": "",
+        "a": [
+          1,
+          3,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Penne s krůtím, sekaným špenátem a smetanou",
+        "d": "Strouhaný Grand Moravia · Mikuláš · Mléko, ovocná voda (cold brew), voda",
+        "a": [
+          1,
+          7,
+          8,
+          9
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Penne s krůtím, sekaným špenátem a smetanou",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Strouhaný Grand Moravia",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Mikuláš",
+            "a": [
+              7,
+              8,
+              9
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko, ovocná voda (cold brew), voda",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "m": 2,
+        "n": "Vařený kukuřičný klas na másle",
+        "d": "Vařený brambor · Mikuláš · Mléko, ovocná voda (cold brew), voda",
+        "a": [
+          7,
+          8,
+          9
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Vařený kukuřičný klas na másle",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Vařený brambor",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Mikuláš",
+            "a": [
+              7,
+              8,
+              9
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko, ovocná voda (cold brew), voda",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "m": 4,
+        "n": "BZL Penne s krůtím a špenátem",
+        "d": "Mikuláš · Mléko, ovocná voda (cold brew), voda",
+        "a": [
+          7,
+          8,
+          9
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "BZL Penne s krůtím a špenátem",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Mikuláš",
+            "a": [
+              7,
+              8,
+              9
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko, ovocná voda (cold brew), voda",
+            "a": [
+              7
+            ]
           }
         ]
       }

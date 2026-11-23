@@ -4521,7 +4521,7 @@
       {
         "c": "presnidavka",
         "m": 1,
-        "n": "Bude doplněno",
+        "n": "Bílý jogurt, čokoládové kuličky, ovoce",
         "d": "",
         "a": [
           1,
@@ -4530,7 +4530,7 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Bude doplněno",
+            "n": "Bílý jogurt, čokoládové kuličky, ovoce",
             "a": [
               1,
               7
@@ -4539,21 +4539,29 @@
         ]
       },
       {
+        "c": "polevka",
+        "n": "Bramborová",
+        "d": "",
+        "a": [
+          1
+        ]
+      },
+      {
         "c": "obed",
         "m": 1,
-        "n": "Bude doplněno",
+        "n": "Rybí filet na leču, tarhoňa",
         "d": "",
         "a": [
           1,
-          7
+          4
         ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Bude doplněno",
+            "n": "Rybí filet na leču, tarhoňa",
             "a": [
               1,
-              7
+              4
             ]
           }
         ]
@@ -4561,7 +4569,7 @@
       {
         "c": "svacina",
         "m": 1,
-        "n": "Bude doplněno",
+        "n": "Rohlík, pomazánka ze strouhaného sýra, čerstvé mléko",
         "d": "",
         "a": [
           1,
@@ -4570,7 +4578,7 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Bude doplněno",
+            "n": "Rohlík, pomazánka ze strouhaného sýra, čerstvé mléko",
             "a": [
               1,
               7
@@ -4586,7 +4594,7 @@
       {
         "c": "presnidavka",
         "m": 1,
-        "n": "Bude doplněno",
+        "n": "Rohlík, tvarohová pomazánka s vejcem, zelenina, mléko",
         "d": "",
         "a": [
           1,
@@ -4595,7 +4603,7 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Bude doplněno",
+            "n": "Rohlík, tvarohová pomazánka s vejcem, zelenina, mléko",
             "a": [
               1,
               7
@@ -4604,9 +4612,17 @@
         ]
       },
       {
+        "c": "polevka",
+        "n": "Cibulová s krutony",
+        "d": "",
+        "a": [
+          1
+        ]
+      },
+      {
         "c": "obed",
         "m": 1,
-        "n": "Bude doplněno",
+        "n": "Sekaná pečeně, bramborová kaše, salát z pekingského zelí",
         "d": "",
         "a": [
           1,
@@ -4615,7 +4631,7 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Bude doplněno",
+            "n": "Sekaná pečeně, bramborová kaše, salát z pekingského zelí",
             "a": [
               1,
               7
@@ -4626,7 +4642,7 @@
       {
         "c": "svacina",
         "m": 1,
-        "n": "Bude doplněno",
+        "n": "Makovec, caro, ovoce",
         "d": "",
         "a": [
           1,
@@ -4635,7 +4651,7 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Bude doplněno",
+            "n": "Makovec, caro, ovoce",
             "a": [
               1,
               7
@@ -4651,7 +4667,7 @@
       {
         "c": "presnidavka",
         "m": 1,
-        "n": "Bude doplněno",
+        "n": "Chléb, medové máslo, ovoce, kakao",
         "d": "",
         "a": [
           1,
@@ -4660,7 +4676,7 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Bude doplněno",
+            "n": "Chléb, medové máslo, ovoce, kakao",
             "a": [
               1,
               7
@@ -4669,29 +4685,32 @@
         ]
       },
       {
-        "c": "obed",
-        "m": 1,
-        "n": "Bude doplněno",
+        "c": "polevka",
+        "n": "Pórková s kapáním",
         "d": "",
         "a": [
           1,
-          7
-        ],
+          3
+        ]
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Kuřecí plátek, rýže",
+        "d": "",
+        "a": [],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Bude doplněno",
-            "a": [
-              1,
-              7
-            ]
+            "n": "Kuřecí plátek, rýže",
+            "a": []
           }
         ]
       },
       {
         "c": "svacina",
         "m": 1,
-        "n": "Bude doplněno",
+        "n": "Graham, fazolová pomazánka, zelenina, mléko",
         "d": "",
         "a": [
           1,
@@ -4700,7 +4719,7 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Bude doplněno",
+            "n": "Graham, fazolová pomazánka, zelenina, mléko",
             "a": [
               1,
               7
@@ -4716,7 +4735,7 @@
       {
         "c": "presnidavka",
         "m": 1,
-        "n": "Bude doplněno",
+        "n": "Rohlík, brokolicová pomazánka, zelenina, mléko",
         "d": "",
         "a": [
           1,
@@ -4725,7 +4744,7 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Bude doplněno",
+            "n": "Rohlík, brokolicová pomazánka, zelenina, mléko",
             "a": [
               1,
               7
@@ -4734,21 +4753,27 @@
         ]
       },
       {
-        "c": "obed",
-        "m": 1,
-        "n": "Bude doplněno",
+        "c": "polevka",
+        "n": "Hovězí vývar s písmenky",
         "d": "",
         "a": [
-          1,
-          7
+          1
+        ]
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Hovězí karlovarský guláš, knedlík",
+        "d": "",
+        "a": [
+          1
         ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Bude doplněno",
+            "n": "Hovězí karlovarský guláš, knedlík",
             "a": [
-              1,
-              7
+              1
             ]
           }
         ]
@@ -4756,7 +4781,7 @@
       {
         "c": "svacina",
         "m": 1,
-        "n": "Bude doplněno",
+        "n": "Chléb, masová pomazánka, zelenina, mléko",
         "d": "",
         "a": [
           1,
@@ -4765,7 +4790,7 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Bude doplněno",
+            "n": "Chléb, masová pomazánka, zelenina, mléko",
             "a": [
               1,
               7
@@ -4776,6 +4801,82 @@
     ]
   },
   "2026-12-04": {
+    "vydej": "11:30–12:10",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "m": 1,
+        "n": "Houska raženka, žervé, zelenina, mléko",
+        "d": "",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Houska raženka, žervé, zelenina, mléko",
+            "a": [
+              1,
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Luštěninová",
+        "d": "",
+        "a": [
+          1,
+          3
+        ]
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Vdolky s džemem a tvarohem, ovoce, mléko",
+        "d": "",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Vdolky s džemem a tvarohem, ovoce, mléko",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "m": 1,
+        "n": "Rohlík, máslo, jablko, mléko",
+        "d": "",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Rohlík, máslo, jablko, mléko",
+            "a": [
+              1,
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-12-07": {
     "vydej": "11:30–12:10",
     "chody": [
       {
@@ -4835,6 +4936,778 @@
               1,
               7
             ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-12-08": {
+    "vydej": "11:30–12:10",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "m": 1,
+        "n": "Bude doplněno",
+        "d": "",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Bude doplněno",
+            "a": [
+              1,
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Bude doplněno",
+        "d": "",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Bude doplněno",
+            "a": [
+              1,
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "m": 1,
+        "n": "Bude doplněno",
+        "d": "",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Bude doplněno",
+            "a": [
+              1,
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-12-09": {
+    "vydej": "11:30–12:10",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "m": 1,
+        "n": "Bude doplněno",
+        "d": "",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Bude doplněno",
+            "a": [
+              1,
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Bude doplněno",
+        "d": "",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Bude doplněno",
+            "a": [
+              1,
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "m": 1,
+        "n": "Bude doplněno",
+        "d": "",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Bude doplněno",
+            "a": [
+              1,
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-12-10": {
+    "vydej": "11:30–12:10",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "m": 1,
+        "n": "Bude doplněno",
+        "d": "",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Bude doplněno",
+            "a": [
+              1,
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Bude doplněno",
+        "d": "",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Bude doplněno",
+            "a": [
+              1,
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "m": 1,
+        "n": "Bude doplněno",
+        "d": "",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Bude doplněno",
+            "a": [
+              1,
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-12-11": {
+    "vydej": "11:30–12:10",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "m": 1,
+        "n": "Bude doplněno",
+        "d": "",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Bude doplněno",
+            "a": [
+              1,
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Bude doplněno",
+        "d": "",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Bude doplněno",
+            "a": [
+              1,
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "m": 1,
+        "n": "Bude doplněno",
+        "d": "",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Bude doplněno",
+            "a": [
+              1,
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-12-14": {
+    "vydej": "11:30–12:10",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "m": 1,
+        "n": "Bude doplněno",
+        "d": "",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Bude doplněno",
+            "a": [
+              1,
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Bude doplněno",
+        "d": "",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Bude doplněno",
+            "a": [
+              1,
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "m": 1,
+        "n": "Bude doplněno",
+        "d": "",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Bude doplněno",
+            "a": [
+              1,
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-12-15": {
+    "vydej": "11:30–12:10",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "m": 1,
+        "n": "Bude doplněno",
+        "d": "",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Bude doplněno",
+            "a": [
+              1,
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Bude doplněno",
+        "d": "",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Bude doplněno",
+            "a": [
+              1,
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "m": 1,
+        "n": "Bude doplněno",
+        "d": "",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Bude doplněno",
+            "a": [
+              1,
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-12-16": {
+    "vydej": "11:30–12:10",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "m": 1,
+        "n": "Bude doplněno",
+        "d": "",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Bude doplněno",
+            "a": [
+              1,
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Bude doplněno",
+        "d": "",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Bude doplněno",
+            "a": [
+              1,
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "m": 1,
+        "n": "Bude doplněno",
+        "d": "",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Bude doplněno",
+            "a": [
+              1,
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-12-17": {
+    "vydej": "11:30–12:10",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "m": 1,
+        "n": "Bude doplněno",
+        "d": "",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Bude doplněno",
+            "a": [
+              1,
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Bude doplněno",
+        "d": "",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Bude doplněno",
+            "a": [
+              1,
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "m": 1,
+        "n": "Bude doplněno",
+        "d": "",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Bude doplněno",
+            "a": [
+              1,
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-12-18": {
+    "vydej": "11:30–12:10",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "m": 1,
+        "n": "Bude doplněno",
+        "d": "",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Bude doplněno",
+            "a": [
+              1,
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Bude doplněno",
+        "d": "",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Bude doplněno",
+            "a": [
+              1,
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "m": 1,
+        "n": "Bude doplněno",
+        "d": "",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Bude doplněno",
+            "a": [
+              1,
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-12-21": {
+    "vydej": "11:30–12:10",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "m": 1,
+        "n": "Bude doplněno",
+        "d": "",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Bude doplněno",
+            "a": [
+              1,
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Bude doplněno",
+        "d": "",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Bude doplněno",
+            "a": [
+              1,
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "m": 1,
+        "n": "Bude doplněno",
+        "d": "",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Bude doplněno",
+            "a": [
+              1,
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-12-22": {
+    "vydej": "11:30–12:10",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "m": 1,
+        "n": "Bude doplněno",
+        "d": "",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Bude doplněno",
+            "a": [
+              1,
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Bude doplněno",
+        "d": "",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Bude doplněno",
+            "a": [
+              1,
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "m": 1,
+        "n": "Bude doplněno",
+        "d": "",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Bude doplněno",
+            "a": [
+              1,
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-12-23": {
+    "vydej": "11:30–12:10",
+    "chody": [
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Vánoční prázdniny",
+        "d": "",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Vánoční prázdniny",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-12-24": {
+    "vydej": "11:30–12:10",
+    "chody": [
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Vánoční prázdniny",
+        "d": "",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Vánoční prázdniny",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-12-25": {
+    "vydej": "11:30–12:10",
+    "chody": [
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Vánoční prázdniny",
+        "d": "",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Vánoční prázdniny",
+            "a": []
           }
         ]
       }

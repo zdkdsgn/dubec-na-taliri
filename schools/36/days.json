@@ -1484,7 +1484,7 @@
       {
         "c": "obed2",
         "m": 2,
-        "n": "Řecký salát, bageta, dresink",
+        "n": "Řecký salát, bageta, dresink(NEVAŘÍ SE Z DŮVODU NENAVOLENÝCH POČTU PORCÍ)",
         "d": "",
         "a": [
           1,
@@ -1493,7 +1493,7 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Řecký salát, bageta, dresink",
+            "n": "Řecký salát, bageta, dresink(NEVAŘÍ SE Z DŮVODU NENAVOLENÝCH POČTU PORCÍ)",
             "a": [
               1,
               7
@@ -1554,7 +1554,7 @@
       {
         "c": "obed2",
         "m": 2,
-        "n": "Krémové kuřecí kodtky s kukuřicí",
+        "n": "Krémové kuřecí kostky s kukuřicí",
         "d": "Dušená rýže",
         "a": [
           1,
@@ -1563,7 +1563,7 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Krémové kuřecí kodtky s kukuřicí",
+            "n": "Krémové kuřecí kostky s kukuřicí",
             "a": [
               1,
               7
@@ -3027,6 +3027,17 @@
     ]
   },
   "2026-12-24": {
+    "vydej": "11:30–13:45",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Prázdniny",
+        "d": "",
+        "a": []
+      }
+    ]
+  },
+  "2026-12-25": {
     "vydej": "11:30–13:45",
     "chody": [
       {

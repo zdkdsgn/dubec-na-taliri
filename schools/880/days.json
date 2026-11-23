@@ -6053,7 +6053,7 @@
         "c": "obed",
         "m": 1,
         "n": "Rybí prsty",
-        "d": "Bramborová kaše · Šopský salát · Voda s citronem a mátou, mléko",
+        "d": "Bramborová kaše · Šopský salát · Voda s pomerančem, mléko",
         "a": [
           1,
           4,
@@ -6084,7 +6084,7 @@
           },
           {
             "l": "Nápoj",
-            "n": "Voda s citronem a mátou, mléko",
+            "n": "Voda s pomerančem, mléko",
             "a": [
               7
             ]
@@ -7973,28 +7973,25 @@
       {
         "c": "svacina",
         "m": 1,
-        "n": "Ovocný tvaroh",
-        "d": "Rohlík, jablko · Mléko, čaj",
+        "n": "Rohlík, máslo",
+        "d": "Jablko · Mléko, čaj",
         "a": [
           1,
-          3,
           7
         ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Ovocný tvaroh",
+            "n": "Rohlík, máslo",
             "a": [
+              1,
               7
             ]
           },
           {
             "l": "Doplněk",
-            "n": "Rohlík, jablko",
-            "a": [
-              1,
-              3
-            ]
+            "n": "Jablko",
+            "a": []
           },
           {
             "l": "Nápoj",

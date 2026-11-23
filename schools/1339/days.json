@@ -4735,7 +4735,7 @@
       {
         "c": "svacina",
         "m": 1,
-        "n": "Be-be brumík, jablko, mléko",
+        "n": "Be-be brumík, bluma, mléko",
         "d": "",
         "a": [
           1,
@@ -4744,7 +4744,7 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Be-be brumík, jablko, mléko",
+            "n": "Be-be brumík, bluma, mléko",
             "a": [
               1,
               7
@@ -4760,17 +4760,19 @@
       {
         "c": "presnidavka",
         "m": 1,
-        "n": "Houska se šunkou a sýrem, ledový salát, rajče, borůvkový čaj",
+        "n": "Houska se šunkou a sýrem, ledový salát, okurka, borůvkový čaj",
         "d": "",
         "a": [
-          1
+          1,
+          7
         ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Houska se šunkou a sýrem, ledový salát, rajče, borůvkový čaj",
+            "n": "Houska se šunkou a sýrem, ledový salát, okurka, borůvkový čaj",
             "a": [
-              1
+              1,
+              7
             ]
           }
         ]
@@ -4791,13 +4793,16 @@
         "n": "Ryba pečená na másle s kmínem",
         "d": "Bramborová kaše · Paprika · Borůvkový čaj",
         "a": [
+          4,
           7
         ],
         "p": [
           {
             "l": "Jídlo",
             "n": "Ryba pečená na másle s kmínem",
-            "a": []
+            "a": [
+              4
+            ]
           },
           {
             "l": "Příloha",
@@ -6630,6 +6635,25 @@
     ]
   },
   "2026-12-24": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Vánoční prázdniny",
+        "d": "",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Vánoční prázdniny",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-12-25": {
     "vydej": "11:00–14:00",
     "chody": [
       {
