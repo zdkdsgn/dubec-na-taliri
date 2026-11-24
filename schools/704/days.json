@@ -5629,18 +5629,16 @@
       {
         "c": "presnidavka",
         "m": 1,
-        "n": "RÝŽOVO – JÁHLOVÁ KAŠE",
+        "n": "RÝŽOVÁ KAŠE",
         "d": "OVOCE · ČAJ LESNÍ SMĚS",
         "a": [
-          1,
           7
         ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "RÝŽOVO – JÁHLOVÁ KAŠE",
+            "n": "RÝŽOVÁ KAŠE",
             "a": [
-              1,
               7
             ]
           },
@@ -5701,7 +5699,7 @@
         "c": "svacina",
         "m": 1,
         "n": "TOUSTOVÝ CHLÉB, POMAZÁNKOVÉ MÁSLO",
-        "d": "ZELENINA · ČAJ LESNÍ SMĚS, KAKAO",
+        "d": "ZELENINA · ČAJ LESNÍ SMĚS",
         "a": [
           1,
           7
@@ -5722,10 +5720,8 @@
           },
           {
             "l": "Nápoj",
-            "n": "ČAJ LESNÍ SMĚS, KAKAO",
-            "a": [
-              7
-            ]
+            "n": "ČAJ LESNÍ SMĚS",
+            "a": []
           }
         ]
       }
@@ -6428,20 +6424,19 @@
       {
         "c": "presnidavka",
         "m": 1,
-        "n": "KNUSPI S NUTELOU",
-        "d": "OVOCE · MLÉKO, OVOCNÝ ČAJ",
+        "n": "KRUPIČNÁ KAŠE S KAKAEM A CUKREM",
+        "d": "OVOCE · OVOCNÝ ČAJ",
         "a": [
           1,
-          7,
-          8
+          7
         ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "KNUSPI S NUTELOU",
+            "n": "KRUPIČNÁ KAŠE S KAKAEM A CUKREM",
             "a": [
               1,
-              8
+              7
             ]
           },
           {
@@ -6451,7 +6446,7 @@
           },
           {
             "l": "Nápoj",
-            "n": "MLÉKO, OVOCNÝ ČAJ",
+            "n": "OVOCNÝ ČAJ",
             "a": [
               7
             ]
@@ -6502,19 +6497,21 @@
       {
         "c": "svacina",
         "m": 1,
-        "n": "CHLÉB, POMAZÁNKA HRÁŠKOVÁ",
+        "n": "CHLÉB, POMAZÁNKA CELEROVÁ",
         "d": "ZELENINA · OVOCNÝ ČAJ",
         "a": [
           1,
-          7
+          7,
+          9
         ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "CHLÉB, POMAZÁNKA HRÁŠKOVÁ",
+            "n": "CHLÉB, POMAZÁNKA CELEROVÁ",
             "a": [
               1,
-              7
+              7,
+              9
             ]
           },
           {
@@ -6537,19 +6534,19 @@
       {
         "c": "presnidavka",
         "m": 1,
-        "n": "CHLÉB, POMAZÁNKA TVAROHOVÁ S KAPIÍ",
-        "d": "ZELENINA · MEDUŇKOVÝ ČAJ, KAKAO",
+        "n": "VAJEČNÉ TOPINKY",
+        "d": "ZELENINA · MEDUŇKOVÝ ČAJ",
         "a": [
           1,
-          7
+          3
         ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "CHLÉB, POMAZÁNKA TVAROHOVÁ S KAPIÍ",
+            "n": "VAJEČNÉ TOPINKY",
             "a": [
               1,
-              7
+              3
             ]
           },
           {
@@ -6559,16 +6556,14 @@
           },
           {
             "l": "Nápoj",
-            "n": "MEDUŇKOVÝ ČAJ, KAKAO",
-            "a": [
-              7
-            ]
+            "n": "MEDUŇKOVÝ ČAJ",
+            "a": []
           }
         ]
       },
       {
         "c": "polevka",
-        "n": "KUŘECÍ VÝVAR S VAJEČNÝM SVÍTKEM",
+        "n": "KUŘECÍ VÝVAR S KRUPICOVO- POLENTOVÝMI NOKY",
         "d": "",
         "a": [
           1,
@@ -6702,7 +6697,7 @@
       {
         "c": "svacina",
         "m": 1,
-        "n": "CHLÉB, POMAZÁNKA CIZRNOVÁ",
+        "n": "CHLÉB SLEZSKÝ, POMAZÁNKA CIZRNOVÁ",
         "d": "ZELENINA · MALINOVÝ ČAJ",
         "a": [
           1,
@@ -6711,7 +6706,7 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "CHLÉB, POMAZÁNKA CIZRNOVÁ",
+            "n": "CHLÉB SLEZSKÝ, POMAZÁNKA CIZRNOVÁ",
             "a": [
               1,
               7

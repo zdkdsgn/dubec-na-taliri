@@ -4506,7 +4506,7 @@
         "c": "obed",
         "m": 1,
         "n": "Vepřové na kmíně",
-        "d": "Dušená rýže",
+        "d": "Dušená rýže · Voda, ovocný nápoj",
         "a": [
           1
         ],
@@ -4521,6 +4521,11 @@
           {
             "l": "Příloha",
             "n": "Dušená rýže",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Voda, ovocný nápoj",
             "a": []
           }
         ]
@@ -4582,7 +4587,7 @@
         "c": "obed",
         "m": 1,
         "n": "Králičí maso v kapustě",
-        "d": "Brambor",
+        "d": "Brambor · Voda, ovocný nápoj",
         "a": [],
         "p": [
           {
@@ -4593,6 +4598,11 @@
           {
             "l": "Příloha",
             "n": "Brambor",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Voda, ovocný nápoj",
             "a": []
           }
         ]
@@ -4652,12 +4662,17 @@
         "c": "obed",
         "m": 1,
         "n": "Nudle s mákem",
-        "d": "",
+        "d": "Voda, ovocný nápoj",
         "a": [],
         "p": [
           {
             "l": "Jídlo",
             "n": "Nudle s mákem",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Voda, ovocný nápoj",
             "a": []
           }
         ]
@@ -4718,7 +4733,7 @@
         "c": "obed",
         "m": 1,
         "n": "Zapečené brambory s masem a sýrem",
-        "d": "",
+        "d": "Voda, ovocný nápoj",
         "a": [
           3,
           7
@@ -4731,6 +4746,11 @@
               3,
               7
             ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Voda, ovocný nápoj",
+            "a": []
           }
         ]
       },
@@ -4789,12 +4809,17 @@
         "c": "obed",
         "m": 1,
         "n": "Asijské nudle s kuřecím masem a zeleninou",
-        "d": "",
+        "d": "Voda, ovocný nápoj",
         "a": [],
         "p": [
           {
             "l": "Jídlo",
             "n": "Asijské nudle s kuřecím masem a zeleninou",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Voda, ovocný nápoj",
             "a": []
           }
         ]

@@ -5887,21 +5887,99 @@
     "vydej": "11:15–12:45",
     "chody": [
       {
-        "c": "obed",
+        "c": "presnidavka",
         "m": 1,
-        "n": "Bulgur s kuřecím masem a zeleninou",
+        "n": "Houska sezam, švédská pomazánka",
+        "d": "Ovo-zel · Čaj s citronem",
+        "a": [
+          1,
+          3,
+          4,
+          7,
+          11
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Houska sezam, švédská pomazánka",
+            "a": [
+              1,
+              3,
+              4,
+              7,
+              11
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovo-zel",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj s citronem",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Hrstková polévka",
         "d": "",
         "a": [
           1,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Bulgur s kuřecím masem a zeleninou, sýr",
+        "d": "Bílý jogurt s ovocem¨ · Čaj s citronem, voda, mléko",
+        "a": [
+          1,
+          7,
           9
         ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Bulgur s kuřecím masem a zeleninou",
+            "n": "Bulgur s kuřecím masem a zeleninou, sýr",
             "a": [
               1,
               9
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Bílý jogurt s ovocem¨",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj s citronem, voda, mléko",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "m": 1,
+        "n": "Jogurt s ovocem, mléko",
+        "d": "",
+        "a": [
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Jogurt s ovocem, mléko",
+            "a": [
+              7
             ]
           }
         ]
@@ -5912,10 +5990,54 @@
     "vydej": "11:15–12:45",
     "chody": [
       {
+        "c": "presnidavka",
+        "m": 1,
+        "n": "Kmínový chléb, sýrová s celerem",
+        "d": "Ovo-zel · Mléko",
+        "a": [
+          1,
+          7,
+          9
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Kmínový chléb, sýrová s celerem",
+            "a": [
+              1,
+              7,
+              9
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovo-zel",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléko",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Zeleninová s jáhly",
+        "d": "",
+        "a": [
+          1,
+          7,
+          9
+        ]
+      },
+      {
         "c": "obed",
         "m": 1,
         "n": "Poděbradské maso",
-        "d": "Houskový knedlík",
+        "d": "Houskový knedlík · Zeleninový bar · Džus, voda, mléko",
         "a": [
           1,
           3,
@@ -5940,6 +6062,38 @@
               3,
               7
             ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zeleninový bar",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Džus, voda, mléko",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "m": 1,
+        "n": "Rohlík, pomazánkové máslo, kakao",
+        "d": "",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Rohlík, pomazánkové máslo, kakao",
+            "a": [
+              1,
+              7
+            ]
           }
         ]
       }
@@ -5949,10 +6103,52 @@
     "vydej": "11:15–12:45",
     "chody": [
       {
+        "c": "presnidavka",
+        "m": 1,
+        "n": "Maková houska, šunková pěna",
+        "d": "Ovo-zel · Bílá káva",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Maková houska, šunková pěna",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovo-zel",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Bílá káva",
+            "a": [
+              1,
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Bílá zelná polévka",
+        "d": "",
+        "a": [
+          1,
+          7
+        ]
+      },
+      {
         "c": "obed",
         "m": 1,
         "n": "Pečený karbanátek",
-        "d": "Bramborová kaše",
+        "d": "Bramborová kaše · Sladká kukuřice, jablko · Voda, mléko",
         "a": [
           1,
           3,
@@ -5974,6 +6170,38 @@
             "a": [
               7
             ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Sladká kukuřice, jablko",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Voda, mléko",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "m": 1,
+        "n": "Chléb, máslo a plátkový sýr, mléko",
+        "d": "",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Chléb, máslo a plátkový sýr, mléko",
+            "a": [
+              1,
+              7
+            ]
           }
         ]
       }
@@ -5983,13 +6211,44 @@
     "vydej": "11:15–12:45",
     "chody": [
       {
+        "c": "presnidavka",
+        "m": 1,
+        "n": "Podmáslový chléb, kapiová pomazánka",
+        "d": "Ovo-zel · Ovocný čaj",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Podmáslový chléb, kapiová pomazánka",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovo-zel",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný čaj",
+            "a": []
+          }
+        ]
+      },
+      {
         "c": "obed",
         "m": 1,
         "n": "Vepřový guláš s fazolemi",
-        "d": "Těstoviny",
+        "d": "Těstoviny · Ovocný kompot · Ovocný čaj, voda, mléko",
         "a": [
           1,
-          3
+          3,
+          7
         ],
         "p": [
           {
@@ -6006,6 +6265,38 @@
               1,
               3
             ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovocný kompot",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný čaj, voda, mléko",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "m": 1,
+        "n": "Toastový chléb, lučina, ochucené mléko",
+        "d": "",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Toastový chléb, lučina, ochucené mléko",
+            "a": [
+              1,
+              7
+            ]
           }
         ]
       }
@@ -6015,10 +6306,51 @@
     "vydej": "11:15–12:45",
     "chody": [
       {
+        "c": "presnidavka",
+        "m": 1,
+        "n": "Krupicová kaše",
+        "d": "Ovo-zel · Granko",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Krupicová kaše",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovo-zel",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Granko",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Zeleninová s vejci",
+        "d": "",
+        "a": [
+          3,
+          9
+        ]
+      },
+      {
         "c": "obed",
         "m": 1,
         "n": "Těstovinový salát s tuňákem",
-        "d": "",
+        "d": "Ovo-zel bar · Sirup, voda, mléko",
         "a": [
           1,
           3,
@@ -6035,6 +6367,174 @@
               4,
               7
             ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovo-zel bar",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Sirup, voda, mléko",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "m": 1,
+        "n": "Křehký plátek, žervé, mléko",
+        "d": "",
+        "a": [
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Křehký plátek, žervé, mléko",
+            "a": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-12-07": {
+    "vydej": "11:15–12:45",
+    "chody": [
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Rizoto z vepřové panenky se zeleninou a čočkou beluga, sýr",
+        "d": "",
+        "a": [
+          9
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Rizoto z vepřové panenky se zeleninou a čočkou beluga, sýr",
+            "a": [
+              9
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-12-08": {
+    "vydej": "11:15–12:45",
+    "chody": [
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Pečené kuřecí stehno",
+        "d": "Bramborová kaše",
+        "a": [
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Pečené kuřecí stehno",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Bramborová kaše",
+            "a": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-12-09": {
+    "vydej": "11:15–12:45",
+    "chody": [
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Boloňské špagety s mletým masem a sýrem",
+        "d": "",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Boloňské špagety s mletým masem a sýrem",
+            "a": [
+              1,
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-12-10": {
+    "vydej": "11:15–12:45",
+    "chody": [
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Hovězí znojemská",
+        "d": "Rýže",
+        "a": [
+          1
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Hovězí znojemská",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Rýže",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-12-11": {
+    "vydej": "11:15–12:45",
+    "chody": [
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Zeleninový karbanátek se sýrem",
+        "d": "Brambory",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Zeleninový karbanátek se sýrem",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Brambory",
+            "a": []
           }
         ]
       }

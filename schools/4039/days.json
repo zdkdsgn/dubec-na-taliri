@@ -1467,8 +1467,8 @@
       {
         "c": "obed",
         "m": 1,
-        "n": "Vařené hovězí, koprová omáčka",
-        "d": "Kynutý knedlík · Zakysaná smetana s černou guinoou · Ovoce dle nabídky · Čaj, čirá voda, ochucené nápoje, mléčné nápoje",
+        "n": "Vařené hovězí",
+        "d": "Koprová omáčka · Kynutý knedlík · Zakysaná smetana s černou guinoou · Čaj, čirá voda, ochucené nápoje, mléčné nápoje",
         "a": [
           1,
           3,
@@ -1477,11 +1477,19 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Vařené hovězí, koprová omáčka",
+            "n": "Vařené hovězí",
             "a": []
           },
           {
             "l": "Příloha1",
+            "n": "Koprová omáčka",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Příloha2",
             "n": "Kynutý knedlík",
             "a": [
               1,
@@ -1490,62 +1498,12 @@
             ]
           },
           {
-            "l": "Příloha2",
+            "l": "Doplněk",
             "n": "Zakysaná smetana s černou guinoou",
             "a": [
               1,
               7
             ]
-          },
-          {
-            "l": "Doplněk",
-            "n": "Ovoce dle nabídky",
-            "a": []
-          },
-          {
-            "l": "Nápoj",
-            "n": "Čaj, čirá voda, ochucené nápoje, mléčné nápoje",
-            "a": [
-              7
-            ]
-          }
-        ]
-      },
-      {
-        "c": "obed2",
-        "m": 1,
-        "n": "Vařené hovězí, koprová omáčka (BZL mouka)",
-        "d": "Kynuté knedlíky (BZL) · Zakysaná smetana s černou guinoou · Ovoce dle nabídky · Čaj, čirá voda, ochucené nápoje, mléčné nápoje",
-        "a": [
-          1,
-          3,
-          7
-        ],
-        "p": [
-          {
-            "l": "Jídlo",
-            "n": "Vařené hovězí, koprová omáčka (BZL mouka)",
-            "a": []
-          },
-          {
-            "l": "Příloha1",
-            "n": "Kynuté knedlíky (BZL)",
-            "a": [
-              3
-            ]
-          },
-          {
-            "l": "Příloha2",
-            "n": "Zakysaná smetana s černou guinoou",
-            "a": [
-              1,
-              7
-            ]
-          },
-          {
-            "l": "Doplněk",
-            "n": "Ovoce dle nabídky",
-            "a": []
           },
           {
             "l": "Nápoj",
@@ -3303,6 +3261,25 @@
           {
             "l": "Jídlo",
             "n": "VÁNOCE",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-12-28": {
+    "vydej": "11:30–14:00",
+    "chody": [
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "VÁNOČNÍ PRÁZDNINY",
+        "d": "",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "VÁNOČNÍ PRÁZDNINY",
             "a": []
           }
         ]
