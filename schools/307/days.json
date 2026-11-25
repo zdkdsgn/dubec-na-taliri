@@ -352,7 +352,7 @@
       {
         "c": "obed",
         "m": 1,
-        "n": "Losos",
+        "n": "Pečený losos",
         "d": "Bramborová kaše, pečená zelenina · Ovocný čaj, voda",
         "a": [
           4,
@@ -361,7 +361,7 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Losos",
+            "n": "Pečený losos",
             "a": [
               4
             ]
@@ -485,38 +485,40 @@
     "chody": [
       {
         "c": "polevka",
-        "n": "Pórková",
+        "n": "Gulášová",
         "d": "",
         "a": [
-          1,
-          3
+          1
         ]
       },
       {
         "c": "obed",
         "m": 1,
-        "n": "Krůtí rizoto",
-        "d": "Zeleninová obloha · Ovocný čaj, mléko",
+        "n": "Nudle s mákem a cukrem",
+        "d": "Ovocný kompot · Bílá káva, ovocný čaj",
         "a": [
-          7,
-          9
+          1,
+          3,
+          7
         ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Krůtí rizoto",
+            "n": "Nudle s mákem a cukrem",
             "a": [
-              9
+              1,
+              3,
+              7
             ]
           },
           {
-            "l": "Příloha",
-            "n": "Zeleninová obloha",
+            "l": "Doplněk",
+            "n": "Ovocný kompot",
             "a": []
           },
           {
             "l": "Nápoj",
-            "n": "Ovocný čaj, mléko",
+            "n": "Bílá káva, ovocný čaj",
             "a": [
               7
             ]
@@ -540,8 +542,8 @@
       {
         "c": "obed",
         "m": 1,
-        "n": "Kuře na paprice",
-        "d": "Těstoviny, houskový knedlík · Ovoce · Ovocný čaj, džus",
+        "n": "1. kuře na paprice s těstovinou",
+        "d": "2. kuře na paprice s houskovým knedlíkem · Ovoce · Ovocný čaj, džus",
         "a": [
           1,
           3,
@@ -550,14 +552,16 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Kuře na paprice",
+            "n": "1. kuře na paprice s těstovinou",
             "a": [
-              1
+              1,
+              3,
+              7
             ]
           },
           {
             "l": "Příloha",
-            "n": "Těstoviny, houskový knedlík",
+            "n": "2. kuře na paprice s houskovým knedlíkem",
             "a": [
               1,
               3,
@@ -583,42 +587,39 @@
     "chody": [
       {
         "c": "polevka",
-        "n": "Gulášová",
+        "n": "Pórková",
         "d": "",
         "a": [
-          1
+          1,
+          3
         ]
       },
       {
         "c": "obed",
         "m": 1,
-        "n": "Nudle s mákem a cukrem",
-        "d": "Mléčný výrobek · Bílá káva, ovocný čaj",
+        "n": "Krůtí rizoto se sýrem",
+        "d": "Zeleninová obloha · Ovocný čaj, mléko",
         "a": [
-          1,
-          3,
-          7
+          7,
+          9
         ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Nudle s mákem a cukrem",
+            "n": "Krůtí rizoto se sýrem",
             "a": [
-              1,
-              3,
-              7
+              7,
+              9
             ]
           },
           {
             "l": "Doplněk",
-            "n": "Mléčný výrobek",
-            "a": [
-              7
-            ]
+            "n": "Zeleninová obloha",
+            "a": []
           },
           {
             "l": "Nápoj",
-            "n": "Bílá káva, ovocný čaj",
+            "n": "Ovocný čaj, mléko",
             "a": [
               7
             ]
@@ -698,9 +699,10 @@
         "c": "obed",
         "m": 1,
         "n": "Mexický guláš",
-        "d": "Dušená rýže · Překvapení · Ovocný čaj, džus",
+        "d": "Dušená rýže · Mikulášské překvapení · Ovocný čaj, džus",
         "a": [
-          1
+          1,
+          3
         ],
         "p": [
           {
@@ -717,8 +719,523 @@
           },
           {
             "l": "Doplněk",
-            "n": "Překvapení",
+            "n": "Mikulášské překvapení",
+            "a": [
+              1,
+              3
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný čaj, džus",
             "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-12-07": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Zeleninová",
+        "d": "",
+        "a": [
+          1,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "1.hrachová kaše s cibulkou, vejce, okurka",
+        "d": "2. hrachová kaše s cibulkou, vepřová krkovice, okurka · Mléčný výrobek · Ovocný čaj, voda",
+        "a": [
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "1.hrachová kaše s cibulkou, vejce, okurka",
+            "a": [
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "2. hrachová kaše s cibulkou, vepřová krkovice, okurka",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Mléčný výrobek",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný čaj, voda",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-12-08": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Vývar s těstovinou",
+        "d": "",
+        "a": [
+          1,
+          3,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Holandský řízek",
+        "d": "Brambory · Zeleninový bar · Ovocný čaj, džus",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Holandský řízek",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Brambory",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zeleninový bar",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný čaj, džus",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-12-09": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Z červené čočky",
+        "d": "",
+        "a": [
+          1
+        ]
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "1. vepřové maso po srbsku s rýží",
+        "d": "2. vepřové maso po srbsku s bulgurem · Ovoce · Ovocný čaj, mléko",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "1. vepřové maso po srbsku s rýží",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "2. vepřové maso po srbsku s bulgurem",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný čaj, mléko",
+            "a": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-12-10": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Žampionová krémová",
+        "d": "",
+        "a": [
+          7
+        ]
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Pečená ryba",
+        "d": "Bramborová kaše · Grilovaná zelenina · Ovocný čaj, džus",
+        "a": [
+          1,
+          4,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Pečená ryba",
+            "a": [
+              1,
+              4
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Bramborová kaše",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Grilovaná zelenina",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný čaj, džus",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-12-11": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Masová rychlá",
+        "d": "",
+        "a": [
+          1,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "1. boloňské špagety, sýr",
+        "d": "2. špagety se sušenými rajčaty a bazalkou, sýr · Kompot · Ovocný čaj, voda",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "1. boloňské špagety, sýr",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "2. špagety se sušenými rajčaty a bazalkou, sýr",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Kompot",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný čaj, voda",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-12-14": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Hrachová",
+        "d": "",
+        "a": [
+          1
+        ]
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Vepřové čevabčiči",
+        "d": "Brambory, pórek, hořčice · Moučník · Ovocný čaj, džus",
+        "a": [
+          1,
+          3,
+          7,
+          10
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Vepřové čevabčiči",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Brambory, pórek, hořčice",
+            "a": [
+              10
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Moučník",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný čaj, džus",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-12-15": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Rybí s rajčaty",
+        "d": "",
+        "a": [
+          1,
+          4
+        ]
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Zapečené těstoviny se zeleninou a sýrem",
+        "d": "Ovoce · Ovocný čaj, džus",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Zapečené těstoviny se zeleninou a sýrem",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný čaj, džus",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-12-16": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Česnečka s krutony",
+        "d": "",
+        "a": [
+          1
+        ]
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "1. řecký krůtí guláš s rýží",
+        "d": "2. řecký krůtí guláš s kuskusem · Ovocný čaj, mléko",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "1. řecký krůtí guláš s rýží",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "2. řecký krůtí guláš s kuskusem",
+            "a": [
+              1,
+              3
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný čaj, mléko",
+            "a": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-12-17": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Vývar s vejci",
+        "d": "",
+        "a": [
+          1,
+          3,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Pečené kuře ala kachna",
+        "d": "Bramborový knedlík, zelí · Ovoce · Ovocný čaj, voda",
+        "a": [
+          1,
+          3
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Pečené kuře ala kachna",
+            "a": []
+          },
+          {
+            "l": "Příloha",
+            "n": "Bramborový knedlík, zelí",
+            "a": [
+              1,
+              3
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný čaj, voda",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-12-18": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Bramborová",
+        "d": "",
+        "a": [
+          1,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Kuřecí rizoto se sýrem",
+        "d": "Červená řepa · Mléčný výrobek · Ovocný čaj, džus",
+        "a": [
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Kuřecí rizoto se sýrem",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Červená řepa",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Mléčný výrobek",
+            "a": [
+              7
+            ]
           },
           {
             "l": "Nápoj",

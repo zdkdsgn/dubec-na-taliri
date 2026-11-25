@@ -2930,7 +2930,7 @@
         "c": "obed",
         "m": 1,
         "n": "Hovězí nudličky po provensálsku 1",
-        "d": "Barevná tarhoňa 1 · Ovoce · Ovocný čaj, mléko 7, voda",
+        "d": "Barevná tarhoňa 1 · Banán · Ovocný čaj, mléko 7, voda",
         "a": [],
         "p": [
           {
@@ -2945,7 +2945,7 @@
           },
           {
             "l": "Doplněk",
-            "n": "Ovoce",
+            "n": "Banán",
             "a": []
           },
           {
@@ -2959,7 +2959,7 @@
         "c": "obed2",
         "m": 2,
         "n": "Králík na hořčici 1, 7, 10",
-        "d": "Dušená rýže · Ovoce · Ovocný čaj, mléko 7, voda",
+        "d": "Dušená rýže · Banán · Ovocný čaj, mléko 7, voda",
         "a": [],
         "p": [
           {
@@ -2974,7 +2974,7 @@
           },
           {
             "l": "Doplněk",
-            "n": "Ovoce",
+            "n": "Banán",
             "a": []
           },
           {
@@ -2999,7 +2999,7 @@
         "c": "obed",
         "m": 1,
         "n": "Pečený masový karbanátek se zeleninou 1, 3, 7, 9, bylinkový dip 1, 7",
-        "d": "Brambory · Zeleninový bar, ovoce · Ovocný čaj, mléko 7, voda",
+        "d": "Brambory · Zeleninový bar 7, ovoce · Ovocný čaj, mléko 7, voda",
         "a": [],
         "p": [
           {
@@ -3014,7 +3014,7 @@
           },
           {
             "l": "Doplněk",
-            "n": "Zeleninový bar, ovoce",
+            "n": "Zeleninový bar 7, ovoce",
             "a": []
           },
           {
@@ -3028,7 +3028,7 @@
         "c": "obed2",
         "m": 2,
         "n": "Těstoviny s krémovou omáčkou s dýní, sypané parmezánem 1, 7",
-        "d": "Zeleninový bar, ovoce · Ovocný čaj, mléko 7, voda",
+        "d": "Zeleninový bar 7, ovoce · Ovocný čaj, mléko 7, voda",
         "a": [],
         "p": [
           {
@@ -3038,7 +3038,7 @@
           },
           {
             "l": "Doplněk",
-            "n": "Zeleninový bar, ovoce",
+            "n": "Zeleninový bar 7, ovoce",
             "a": []
           },
           {
@@ -4171,6 +4171,25 @@
     ]
   },
   "2026-12-28": {
+    "vydej": "11:30–14:15",
+    "chody": [
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "VÁNOČNÍ PRÁZDNINY",
+        "d": "",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "VÁNOČNÍ PRÁZDNINY",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-12-29": {
     "vydej": "11:30–14:15",
     "chody": [
       {

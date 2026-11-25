@@ -4481,14 +4481,20 @@
       {
         "c": "obed2",
         "m": 2,
-        "n": "Vepřové rizoto sypané sýrem, sterilovaná okurka",
+        "n": "Srbská vepřová kotleta, dušená rýže",
         "d": "FRESH BAR (čerstvé ovoce a zelenina, mléčné dezerty, moučníky, ovocné a zeleninové saláty) · Mléko, nápoj z ovocného koncentrátu, voda",
-        "a": [],
+        "a": [
+          1,
+          9
+        ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Vepřové rizoto sypané sýrem, sterilovaná okurka",
-            "a": []
+            "n": "Srbská vepřová kotleta, dušená rýže",
+            "a": [
+              1,
+              9
+            ]
           },
           {
             "l": "Doplněk",
@@ -5806,6 +5812,44 @@
         "n": "Vánoční prázdniny",
         "d": "",
         "a": []
+      }
+    ]
+  },
+  "2026-12-28": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Vánoční prázdniny",
+        "d": "",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Vánoční prázdniny",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-12-29": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Vánoční prázdniny",
+        "d": "",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Vánoční prázdniny",
+            "a": []
+          }
+        ]
       }
     ]
   }

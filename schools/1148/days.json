@@ -5466,7 +5466,7 @@
       {
         "c": "obed",
         "m": 1,
-        "n": "Aljašská treska v rajčatové omáčece, vařené brambory s máslem a pažitkou",
+        "n": "Aljašská treska v rajčatové omáčce, vařené brambory s máslem a pažitkou",
         "d": "Banán · Voda s pomerančem",
         "a": [
           1,
@@ -5477,7 +5477,7 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Aljašská treska v rajčatové omáčece, vařené brambory s máslem a pažitkou",
+            "n": "Aljašská treska v rajčatové omáčce, vařené brambory s máslem a pažitkou",
             "a": [
               1,
               3,
@@ -5555,12 +5555,11 @@
       },
       {
         "c": "polevka",
-        "n": "Drožďová na máslové zelenině s kapáním",
+        "n": "Hovězí vývar",
         "d": "",
         "a": [
           1,
           3,
-          7,
           9
         ]
       },
@@ -5657,7 +5656,7 @@
         "c": "obed",
         "m": 1,
         "n": "Kovbojské fazole, chléb",
-        "d": "Voda",
+        "d": "Mandarinka · Voda s citronem",
         "a": [
           1,
           7
@@ -5672,8 +5671,13 @@
             ]
           },
           {
+            "l": "Příloha",
+            "n": "Mandarinka",
+            "a": []
+          },
+          {
             "l": "Nápoj",
-            "n": "Voda",
+            "n": "Voda s citronem",
             "a": []
           }
         ]
@@ -5706,18 +5710,20 @@
       {
         "c": "presnidavka",
         "m": 1,
-        "n": "Zapečený toust, se sýrem, mix zeleniny",
+        "n": "Pomazánkové máslo, veka, mix ovoce a zeleniny",
         "d": "Voda, čaj, mléko",
         "a": [
           1,
+          3,
           7
         ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Zapečený toust, se sýrem, mix zeleniny",
+            "n": "Pomazánkové máslo, veka, mix ovoce a zeleniny",
             "a": [
               1,
+              3,
               7
             ]
           },
@@ -5732,12 +5738,9 @@
       },
       {
         "c": "polevka",
-        "n": "Domácí hovězí vývar s máslovou zeleninou",
+        "n": "Z máslové zeleniny",
         "d": "",
         "a": [
-          1,
-          3,
-          7,
           9
         ]
       },

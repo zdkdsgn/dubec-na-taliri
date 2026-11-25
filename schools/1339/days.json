@@ -5119,7 +5119,7 @@
         "c": "obed",
         "m": 1,
         "n": "Pečené kuře na másle",
-        "d": "Dušená rýže s pohankou · Broskvový kompot · Malinový čaj",
+        "d": "Dušená rýže s pohankou · Kompot ovocný koktejl · Malinový čaj",
         "a": [
           1,
           7
@@ -5142,7 +5142,7 @@
           },
           {
             "l": "Doplněk",
-            "n": "Broskvový kompot",
+            "n": "Kompot ovocný koktejl",
             "a": []
           },
           {
@@ -5355,91 +5355,6 @@
       },
       {
         "c": "polevka",
-        "n": "Rajská s těstovinou",
-        "d": "",
-        "a": [
-          1,
-          3,
-          7,
-          9
-        ]
-      },
-      {
-        "c": "obed",
-        "m": 1,
-        "n": "Zapečená brokolice se sýrem a vejci",
-        "d": "Brambory · Jogurtový dip, jablko · Černý čaj s citronem",
-        "a": [
-          3,
-          7
-        ],
-        "p": [
-          {
-            "l": "Jídlo",
-            "n": "Zapečená brokolice se sýrem a vejci",
-            "a": [
-              3,
-              7
-            ]
-          },
-          {
-            "l": "Příloha",
-            "n": "Brambory",
-            "a": []
-          },
-          {
-            "l": "Doplněk",
-            "n": "Jogurtový dip, jablko",
-            "a": [
-              7
-            ]
-          },
-          {
-            "l": "Nápoj",
-            "n": "Černý čaj s citronem",
-            "a": []
-          }
-        ]
-      },
-      {
-        "c": "svacina",
-        "m": 1,
-        "n": "Chléb, pomazánka šunková, mrkev, černý čaj s citronem",
-        "d": "",
-        "a": [],
-        "p": [
-          {
-            "l": "Jídlo",
-            "n": "Chléb, pomazánka šunková, mrkev, černý čaj s citronem",
-            "a": []
-          }
-        ]
-      }
-    ]
-  },
-  "2026-12-03": {
-    "vydej": "11:00–14:00",
-    "chody": [
-      {
-        "c": "presnidavka",
-        "m": 1,
-        "n": "Bílý jogurt s pečenými jablky, rohlík, jablko, čaj lesní směs",
-        "d": "",
-        "a": [
-          7
-        ],
-        "p": [
-          {
-            "l": "Jídlo",
-            "n": "Bílý jogurt s pečenými jablky, rohlík, jablko, čaj lesní směs",
-            "a": [
-              7
-            ]
-          }
-        ]
-      },
-      {
-        "c": "polevka",
         "n": "Polévka z červené čočky",
         "d": "",
         "a": [
@@ -5450,7 +5365,7 @@
         "c": "obed",
         "m": 1,
         "n": "Krůtí na česneku",
-        "d": "Dušená rýže · Mrkvový salát s ananasem · Mošt, čaj lesní směs",
+        "d": "Dušená rýže · Mrkvový salát s ananasem, kaki · Čaj lesní směs, mošt",
         "a": [
           1,
           7
@@ -5471,12 +5386,97 @@
           },
           {
             "l": "Doplněk",
-            "n": "Mrkvový salát s ananasem",
+            "n": "Mrkvový salát s ananasem, kaki",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj lesní směs, mošt",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "m": 1,
+        "n": "Chléb, pomazánka šunková, mrkev, čaj lesní směs",
+        "d": "",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Chléb, pomazánka šunková, mrkev, čaj lesní směs",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-12-03": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "presnidavka",
+        "m": 1,
+        "n": "Bílý jogurt s pečenými jablky, rohlík, jablko, černý čaj s citronem",
+        "d": "",
+        "a": [
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Bílý jogurt s pečenými jablky, rohlík, jablko, černý čaj s citronem",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Rajská s těstovinou",
+        "d": "",
+        "a": [
+          1,
+          3,
+          7,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Zapečená brokolice se sýrem a vejci",
+        "d": "Brambory · Jogurtový dip · Černý čaj s citronem",
+        "a": [
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Zapečená brokolice se sýrem a vejci",
+            "a": [
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Brambory",
+            "a": []
+          },
+          {
+            "l": "Doplněk",
+            "n": "Jogurtový dip",
             "a": []
           },
           {
             "l": "Nápoj",
-            "n": "Mošt, čaj lesní směs",
+            "n": "Černý čaj s citronem",
             "a": []
           }
         ]
@@ -6673,6 +6673,25 @@
     ]
   },
   "2026-12-28": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Vánoční prázdniny",
+        "d": "",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Vánoční prázdniny",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-12-29": {
     "vydej": "11:00–14:00",
     "chody": [
       {

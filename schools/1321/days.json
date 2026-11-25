@@ -5926,6 +5926,39 @@
     "vydej": "11:00–13:00",
     "chody": [
       {
+        "c": "presnidavka",
+        "m": 1,
+        "n": "Chléb dýňový",
+        "d": "Pomazánka z tuňáka, rajče · Čaj šípkový s citrusy",
+        "a": [
+          1,
+          4,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Chléb dýňový",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Pomazánka z tuňáka, rajče",
+            "a": [
+              4,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj šípkový s citrusy",
+            "a": []
+          }
+        ]
+      },
+      {
         "c": "polevka",
         "n": "Droždová s jáhly",
         "d": "",
@@ -5966,39 +5999,6 @@
         ]
       },
       {
-        "c": "presnidavka",
-        "m": 1,
-        "n": "Chléb dýňový",
-        "d": "Pomazánka z tuňáka, rajče · Čaj šípkový s citrusy",
-        "a": [
-          1,
-          4,
-          7
-        ],
-        "p": [
-          {
-            "l": "Jídlo",
-            "n": "Chléb dýňový",
-            "a": [
-              1
-            ]
-          },
-          {
-            "l": "Doplněk",
-            "n": "Pomazánka z tuňáka, rajče",
-            "a": [
-              4,
-              7
-            ]
-          },
-          {
-            "l": "Nápoj",
-            "n": "Čaj šípkový s citrusy",
-            "a": []
-          }
-        ]
-      },
-      {
         "c": "svacina",
         "m": 1,
         "n": "Racio",
@@ -6026,6 +6026,40 @@
   "2026-11-25": {
     "vydej": "11:00–13:00",
     "chody": [
+      {
+        "c": "presnidavka",
+        "m": 1,
+        "n": "Beskydský chléb",
+        "d": "Luštěninová pomazánka, cherry rajče · Banánové mléko",
+        "a": [
+          1,
+          6,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Beskydský chléb",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Luštěninová pomazánka, cherry rajče",
+            "a": [
+              6
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Banánové mléko",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
       {
         "c": "polevka",
         "n": "Čočková",
@@ -6075,40 +6109,6 @@
         ]
       },
       {
-        "c": "presnidavka",
-        "m": 1,
-        "n": "Beskydský chléb",
-        "d": "Luštěninová pomazánka, cherry rajče · Banánové mléko",
-        "a": [
-          1,
-          6,
-          7
-        ],
-        "p": [
-          {
-            "l": "Jídlo",
-            "n": "Beskydský chléb",
-            "a": [
-              1
-            ]
-          },
-          {
-            "l": "Doplněk",
-            "n": "Luštěninová pomazánka, cherry rajče",
-            "a": [
-              6
-            ]
-          },
-          {
-            "l": "Nápoj",
-            "n": "Banánové mléko",
-            "a": [
-              7
-            ]
-          }
-        ]
-      },
-      {
         "c": "svacina",
         "m": 1,
         "n": "Vita rohlík",
@@ -6145,6 +6145,29 @@
     "vydej": "11:00–13:00",
     "chody": [
       {
+        "c": "presnidavka",
+        "m": 1,
+        "n": "Vanilkový puding",
+        "d": "Ranní čaj",
+        "a": [
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Vanilkový puding",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ranní čaj",
+            "a": []
+          }
+        ]
+      },
+      {
         "c": "polevka",
         "n": "Rybí",
         "d": "",
@@ -6178,29 +6201,6 @@
           {
             "l": "Nápoj",
             "n": "Voda",
-            "a": []
-          }
-        ]
-      },
-      {
-        "c": "presnidavka",
-        "m": 1,
-        "n": "Vanilkový puding",
-        "d": "Ranní čaj",
-        "a": [
-          7
-        ],
-        "p": [
-          {
-            "l": "Jídlo",
-            "n": "Vanilkový puding",
-            "a": [
-              7
-            ]
-          },
-          {
-            "l": "Nápoj",
-            "n": "Ranní čaj",
             "a": []
           }
         ]
@@ -6241,6 +6241,29 @@
   "2026-11-27": {
     "vydej": "11:00–13:00",
     "chody": [
+      {
+        "c": "presnidavka",
+        "m": 1,
+        "n": "Kukuřičné lupínky v jogurtu",
+        "d": "Citronový čaj",
+        "a": [
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Kukuřičné lupínky v jogurtu",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Citronový čaj",
+            "a": []
+          }
+        ]
+      },
       {
         "c": "polevka",
         "n": "Babičina polévka",
@@ -6286,29 +6309,6 @@
           {
             "l": "Nápoj",
             "n": "Čaj švestkový",
-            "a": []
-          }
-        ]
-      },
-      {
-        "c": "presnidavka",
-        "m": 1,
-        "n": "Kukuřičné lupínky v jogurtu",
-        "d": "Citronový čaj",
-        "a": [
-          7
-        ],
-        "p": [
-          {
-            "l": "Jídlo",
-            "n": "Kukuřičné lupínky v jogurtu",
-            "a": [
-              7
-            ]
-          },
-          {
-            "l": "Nápoj",
-            "n": "Citronový čaj",
             "a": []
           }
         ]
