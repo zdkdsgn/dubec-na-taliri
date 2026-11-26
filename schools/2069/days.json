@@ -1563,6 +1563,72 @@
     "chody": [
       {
         "c": "polevka",
+        "n": "Bramborová",
+        "d": "",
+        "a": [
+          1,
+          7,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Kaše z ovesných vloček s ovocem (jahody)",
+        "d": "Čaj s citrónem, Mléko, Voda",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Kaše z ovesných vloček s ovocem (jahody)",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj s citrónem, Mléko, Voda",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "m": 2,
+        "n": "Bulgur s krabím masem a zeleninou",
+        "d": "Čaj s citrónem, Mléko, Voda",
+        "a": [
+          1,
+          4,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Bulgur s krabím masem a zeleninou",
+            "a": [
+              1,
+              4,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj s citrónem, Mléko, Voda",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
         "n": "Zeleninová polévka s vejcem [3, 7, 9, 10]",
         "d": "",
         "a": []
@@ -1586,6 +1652,64 @@
   "2026-12-01": {
     "vydej": "12:30–13:00",
     "chody": [
+      {
+        "c": "polevka",
+        "n": "Z vaječné jíšky",
+        "d": "",
+        "a": []
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Zapečené těstoviny s uzeninou(šunka)",
+        "d": "Voda s ovocným sirupem, Voda, Okurkový salát",
+        "a": [
+          1,
+          3,
+          6,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Zapečené těstoviny s uzeninou(šunka)",
+            "a": [
+              1,
+              3,
+              6,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Voda s ovocným sirupem, Voda, Okurkový salát",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "m": 2,
+        "n": "Čočkový salát s vejcem",
+        "d": "Voda s ovocným sirupem, Voda, Okurkový salát",
+        "a": [
+          3
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Čočkový salát s vejcem",
+            "a": [
+              3
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Voda s ovocným sirupem, Voda, Okurkový salát",
+            "a": []
+          }
+        ]
+      },
       {
         "c": "polevka",
         "n": "Polévka z pohankové krupice s bramborami [3, 7, 9, 10]",
@@ -1613,6 +1737,64 @@
     "chody": [
       {
         "c": "polevka",
+        "n": "Rybí s jáhlami",
+        "d": "",
+        "a": [
+          4,
+          7,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Vepřový guláš debrecínský, rýže",
+        "d": "Čaj s citrónem, Voda",
+        "a": [
+          1
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Vepřový guláš debrecínský, rýže",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj s citrónem, Voda",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "m": 2,
+        "n": "Květákový mozeček, Brambory vařené",
+        "d": "Čaj s citrónem, Voda",
+        "a": [
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Květákový mozeček, Brambory vařené",
+            "a": [
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj s citrónem, Voda",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "polevka",
         "n": "Kapustová polévka s uzeným masem [1, 1a, 3, 7, 9, 10]",
         "d": "",
         "a": []
@@ -1636,6 +1818,66 @@
   "2026-12-03": {
     "vydej": "12:30–13:00",
     "chody": [
+      {
+        "c": "polevka",
+        "n": "Kuřecí s těstovinovou rýží",
+        "d": "",
+        "a": [
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Hrachová kaše s cibulkou, vepřová krkovice uzená, okurka sterilovaná",
+        "d": "Čaj ovocný, Voda",
+        "a": [
+          1,
+          7,
+          10,
+          12
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Hrachová kaše s cibulkou, vepřová krkovice uzená, okurka sterilovaná",
+            "a": [
+              1,
+              7,
+              10,
+              12
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj ovocný, Voda",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "m": 2,
+        "n": "Těstovinový salát",
+        "d": "Čaj ovocný, Voda",
+        "a": [
+          1
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Těstovinový salát",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj ovocný, Voda",
+            "a": []
+          }
+        ]
+      },
       {
         "c": "polevka",
         "n": "Kuřecí polévka s masem, nudlemi a zeleninou [1, 1a, 3, 7, 9, 10]",
@@ -1662,7 +1904,42 @@
     "vydej": "12:30–13:00",
     "chody": [
       {
+        "c": "polevka",
+        "n": "Hrachová s krutony",
+        "d": "",
+        "a": []
+      },
+      {
         "c": "obed",
+        "m": 1,
+        "n": "Kuřecí řízek smažený, Brambory vařené, Tatarská omáčka",
+        "d": "Voda s ovocným sirupem, Voda",
+        "a": [
+          1,
+          3,
+          7,
+          10
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Kuřecí řízek smažený, Brambory vařené, Tatarská omáčka",
+            "a": [
+              1,
+              3,
+              7,
+              10
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Voda s ovocným sirupem, Voda",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "obed2",
         "m": 2,
         "n": "DRUHÁ VARIANTA SE DNES NEVAŘÍ",
         "d": "",
@@ -1696,6 +1973,69 @@
     "chody": [
       {
         "c": "polevka",
+        "n": "Rýžová",
+        "d": "",
+        "a": [
+          7,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Kuře v sýrové omáčce z nivy, těstoviny(penne)",
+        "d": "Čaj s citrónem, Voda",
+        "a": [
+          1,
+          3,
+          7,
+          8
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Kuře v sýrové omáčce z nivy, těstoviny(penne)",
+            "a": [
+              1,
+              3,
+              7,
+              8
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj s citrónem, Voda",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "m": 2,
+        "n": "Zeleninové lečo s vejci, brambory vařené",
+        "d": "Čaj s citrónem, Voda",
+        "a": [
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Zeleninové lečo s vejci, brambory vařené",
+            "a": [
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj s citrónem, Voda",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "polevka",
         "n": "Bílá zeleninová polévka s bramborami [1, 1a, 7, 9]",
         "d": "",
         "a": []
@@ -1719,6 +2059,77 @@
   "2026-12-08": {
     "vydej": "12:30–13:00",
     "chody": [
+      {
+        "c": "polevka",
+        "n": "Zelňačka",
+        "d": "",
+        "a": [
+          6,
+          10
+        ]
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Mletý vepřový řízek, Brambory vařené",
+        "d": "Čaj ovocný, Voda, Zeleninový salát s červenou řepou",
+        "a": [
+          1,
+          3,
+          7,
+          9,
+          12
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Mletý vepřový řízek, Brambory vařené",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj ovocný, Voda, Zeleninový salát s červenou řepou",
+            "a": [
+              9,
+              12
+            ]
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "m": 2,
+        "n": "Špagety s drcenými rajčaty a cuketou",
+        "d": "Čaj ovocný, Voda, Zeleninový salát s červenou řepou",
+        "a": [
+          1,
+          7,
+          9,
+          12
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Špagety s drcenými rajčaty a cuketou",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj ovocný, Voda, Zeleninový salát s červenou řepou",
+            "a": [
+              9,
+              12
+            ]
+          }
+        ]
+      },
       {
         "c": "polevka",
         "n": "Hovězí vývar se zeleninou a játrovými knedlíčky [1, 1a, 3, 7, 9, 10]",
@@ -1746,6 +2157,63 @@
     "chody": [
       {
         "c": "polevka",
+        "n": "Kuřecí s kapáním",
+        "d": "",
+        "a": [
+          1,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Hovězí tokáň, mexická rýže",
+        "d": "Voda s ovocným sirupem, Voda",
+        "a": [
+          1
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Hovězí tokáň, mexická rýže",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Voda s ovocným sirupem, Voda",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "m": 2,
+        "n": "Květák zapečený s brokolicí, bramborem a sýrem",
+        "d": "Voda s ovocným sirupem, Voda",
+        "a": [
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Květák zapečený s brokolicí, bramborem a sýrem",
+            "a": [
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Voda s ovocným sirupem, Voda",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "polevka",
         "n": "Pórkový krém [1, 1a, 3, 7, 9, 10]",
         "d": "",
         "a": []
@@ -1769,6 +2237,62 @@
   "2026-12-10": {
     "vydej": "12:30–13:00",
     "chody": [
+      {
+        "c": "polevka",
+        "n": "Z míchaných luštěnin",
+        "d": "",
+        "a": []
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Kuřecí roláda, bramborová kaše",
+        "d": "Čaj ovocný, Voda, Ovoce",
+        "a": [
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Kuřecí roláda, bramborová kaše",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj ovocný, Voda, Ovoce",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "m": 2,
+        "n": "Nákyp quinoy s ovocem",
+        "d": "Čaj ovocný, Voda, Ovoce",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Nákyp quinoy s ovocem",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj ovocný, Voda, Ovoce",
+            "a": []
+          }
+        ]
+      },
       {
         "c": "polevka",
         "n": "Česnečka s osmaženým chlebem a sýrem [1, 1a, 1b, 1c, 1d, 3, 7, 9, 10]",
@@ -1795,7 +2319,43 @@
     "vydej": "12:30–13:00",
     "chody": [
       {
+        "c": "polevka",
+        "n": "Hovězí s nudlemi",
+        "d": "",
+        "a": [
+          1,
+          9
+        ]
+      },
+      {
         "c": "obed",
+        "m": 1,
+        "n": "Moravský vrabec, dušené zelí, labský knedlíky",
+        "d": "Čaj s citrónem, Voda",
+        "a": [
+          1,
+          7,
+          12
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Moravský vrabec, dušené zelí, labský knedlíky",
+            "a": [
+              1,
+              7,
+              12
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj s citrónem, Voda",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "obed2",
         "m": 2,
         "n": "DRUHÁ VARIANTA SE DNES NEVAŘÍ",
         "d": "",
@@ -2140,6 +2700,39 @@
     ]
   },
   "2026-12-29": {
+    "vydej": "12:30–13:00",
+    "chody": [
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "VÁNOČNÍ PRÁZDNINY",
+        "d": "",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "VÁNOČNÍ PRÁZDNINY",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "obed",
+        "m": 2,
+        "n": "VÁNOČNÍ PRÁZDNINY",
+        "d": "",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "VÁNOČNÍ PRÁZDNINY",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-12-30": {
     "vydej": "12:30–13:00",
     "chody": [
       {

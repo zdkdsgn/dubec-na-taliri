@@ -3235,13 +3235,13 @@
       {
         "c": "obed2",
         "m": 1,
-        "n": "Vepřová pečeně na smetaně, houskové knedlíky",
+        "n": "Vepřová pečeně na smetaně, houskové knedlíky s celozrnným kuskusem",
         "d": "",
         "a": [],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Vepřová pečeně na smetaně, houskové knedlíky",
+            "n": "Vepřová pečeně na smetaně, houskové knedlíky s celozrnným kuskusem",
             "a": []
           }
         ]
@@ -3630,6 +3630,16 @@
         ]
       },
       {
+        "c": "polevka",
+        "n": "Hovězí s mušličkami",
+        "d": "",
+        "a": [
+          1,
+          3,
+          9
+        ]
+      },
+      {
         "c": "obed",
         "m": 1,
         "n": "Hovězí kýta s rajskou omáčkou",
@@ -3670,17 +3680,6 @@
               7
             ]
           }
-        ]
-      },
-      {
-        "c": "polevka",
-        "n": "Hovězí s mušličkami",
-        "d": "",
-        "a": [
-          1,
-          3,
-          7,
-          9
         ]
       },
       {
@@ -5835,6 +5834,25 @@
     ]
   },
   "2026-12-29": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Vánoční prázdniny",
+        "d": "",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Vánoční prázdniny",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-12-30": {
     "vydej": "11:00–14:00",
     "chody": [
       {

@@ -6539,10 +6539,11 @@
         "c": "obed",
         "m": 1,
         "n": "Vepřový guláš po srbsku",
-        "d": "Kolínka · Mix zelenina · Čaj, meruňkový sirup",
+        "d": "Kolínka · Jablka · Čaj, meruňkový sirup",
         "a": [
           1,
-          3
+          3,
+          7
         ],
         "p": [
           {
@@ -6562,8 +6563,10 @@
           },
           {
             "l": "Doplněk",
-            "n": "Mix zelenina",
-            "a": []
+            "n": "Jablka",
+            "a": [
+              7
+            ]
           },
           {
             "l": "Nápoj",
@@ -7137,7 +7140,7 @@
       {
         "c": "obed",
         "m": 1,
-        "n": "Vepřový plátek na žampionech",
+        "n": "Krůtí plátek na žampionech",
         "d": "Brambory, máslo, pažitka · Zeleninový salát s čínským zelím a kukuřicí · Čaj, meruňkový sirup",
         "a": [
           1,
@@ -7146,7 +7149,7 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Vepřový plátek na žampionech",
+            "n": "Krůtí plátek na žampionech",
             "a": [
               1
             ]
@@ -7256,17 +7259,19 @@
       {
         "c": "obed",
         "m": 1,
-        "n": "Hovězí na slanině",
+        "n": "Vepřové na hořčici",
         "d": "Rýže dušená · Čaj, voda",
         "a": [
-          1
+          1,
+          10
         ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Hovězí na slanině",
+            "n": "Vepřové na hořčici",
             "a": [
-              1
+              1,
+              10
             ]
           },
           {

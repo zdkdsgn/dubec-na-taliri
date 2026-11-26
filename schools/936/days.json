@@ -5417,7 +5417,7 @@
         "c": "presnidavka",
         "m": 1,
         "n": "Maková pletýnka s budapešťskou pomazánkou",
-        "d": "Melta, zelenina",
+        "d": "Melta, mrkev, paprika",
         "a": [
           1,
           7
@@ -5433,7 +5433,7 @@
           },
           {
             "l": "Doplněk",
-            "n": "Melta, zelenina",
+            "n": "Melta, mrkev, paprika",
             "a": [
               1,
               7
@@ -5497,7 +5497,7 @@
       {
         "c": "svacina",
         "m": 1,
-        "n": "Himalájský chléb s pomazánkou s nádechem česneku, čaj, zelenina",
+        "n": "Himalájský chléb s pomazánkou s nádechem česneku, čaj, rajče",
         "d": "",
         "a": [
           1,
@@ -5507,7 +5507,7 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Himalájský chléb s pomazánkou s nádechem česneku, čaj, zelenina",
+            "n": "Himalájský chléb s pomazánkou s nádechem česneku, čaj, rajče",
             "a": [
               1,
               7,
@@ -5524,8 +5524,8 @@
       {
         "c": "presnidavka",
         "m": 1,
-        "n": "Veka s rybí pomazánkou",
-        "d": "Caro, zelenina",
+        "n": "Chléb s rybí pomazánkou",
+        "d": "Caro, paprika, kedlubna",
         "a": [
           1,
           4,
@@ -5534,7 +5534,7 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Veka s rybí pomazánkou",
+            "n": "Chléb s rybí pomazánkou",
             "a": [
               1,
               4,
@@ -5543,7 +5543,7 @@
           },
           {
             "l": "Doplněk",
-            "n": "Caro, zelenina",
+            "n": "Caro, paprika, kedlubna",
             "a": [
               1,
               7
@@ -5608,7 +5608,7 @@
       {
         "c": "svacina",
         "m": 1,
-        "n": "Rohlík s ředkvičkovou pomazánkou, čaj, zelenina",
+        "n": "Maková pletýnka s ředkvičkovou pomazánkou, mandarinka, čaj",
         "d": "",
         "a": [
           1,
@@ -5617,7 +5617,7 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Rohlík s ředkvičkovou pomazánkou, čaj, zelenina",
+            "n": "Maková pletýnka s ředkvičkovou pomazánkou, mandarinka, čaj",
             "a": [
               1,
               7
@@ -5833,7 +5833,7 @@
       {
         "c": "presnidavka",
         "m": 1,
-        "n": "Rohlík s bramborovou pomazánkou",
+        "n": "Rohlík se svačinkovou pomazánkou",
         "d": "Mléko, zelenina",
         "a": [
           1,
@@ -5842,7 +5842,7 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Rohlík s bramborovou pomazánkou",
+            "n": "Rohlík se svačinkovou pomazánkou",
             "a": [
               1,
               7
@@ -6026,8 +6026,8 @@
       {
         "c": "presnidavka",
         "m": 1,
-        "n": "Veka s avokádovou pomazánkou",
-        "d": "Caro, zelenina",
+        "n": "Jogurtová kaše seskořicí a kakaem",
+        "d": "Čaj, ovoce",
         "a": [
           1,
           7
@@ -6035,7 +6035,7 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Veka s avokádovou pomazánkou",
+            "n": "Jogurtová kaše seskořicí a kakaem",
             "a": [
               1,
               7
@@ -6043,11 +6043,8 @@
           },
           {
             "l": "Doplněk",
-            "n": "Caro, zelenina",
-            "a": [
-              1,
-              7
-            ]
+            "n": "Čaj, ovoce",
+            "a": []
           }
         ]
       },
@@ -6125,8 +6122,8 @@
       {
         "c": "presnidavka",
         "m": 1,
-        "n": "Jogurtová kaše s cukrem a kakaem",
-        "d": "Čaj, ovoce",
+        "n": "Veka s avokádovou pomazánkou",
+        "d": "Caro, zelenina",
         "a": [
           1,
           7
@@ -6134,7 +6131,7 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Jogurtová kaše s cukrem a kakaem",
+            "n": "Veka s avokádovou pomazánkou",
             "a": [
               1,
               7
@@ -6142,8 +6139,11 @@
           },
           {
             "l": "Doplněk",
-            "n": "Čaj, ovoce",
-            "a": []
+            "n": "Caro, zelenina",
+            "a": [
+              1,
+              7
+            ]
           }
         ]
       },
@@ -6224,26 +6224,25 @@
       {
         "c": "presnidavka",
         "m": 1,
-        "n": "Chléb s tuňákovou pomazánkou",
-        "d": "Kakao, zelenina",
+        "n": "Vánočka",
+        "d": "Čaj, ovoce",
         "a": [
           1,
-          4,
+          3,
           7
         ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Chléb s tuňákovou pomazánkou",
+            "n": "Vánočka",
             "a": [
               1,
-              4,
-              7
+              3
             ]
           },
           {
             "l": "Doplněk",
-            "n": "Kakao, zelenina",
+            "n": "Čaj, ovoce",
             "a": [
               7
             ]
@@ -6305,19 +6304,19 @@
       {
         "c": "svacina",
         "m": 1,
-        "n": "Loupáček, čaj, ovoce",
+        "n": "Toustový chléb zapečený se sýrem, čaj, zelenina",
         "d": "",
         "a": [
           1,
-          3
+          7
         ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Loupáček, čaj, ovoce",
+            "n": "Toustový chléb zapečený se sýrem, čaj, zelenina",
             "a": [
               1,
-              3
+              7
             ]
           }
         ]

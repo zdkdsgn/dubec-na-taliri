@@ -3911,7 +3911,7 @@
       {
         "c": "obed",
         "m": 1,
-        "n": "Plněné bramborové knedlíky, zelí, cibulka",
+        "n": "Plněné bramborové knedlíky uzeným masem, zelí, cibulka",
         "d": "Voda, čaj",
         "a": [
           1,
@@ -3921,7 +3921,7 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Plněné bramborové knedlíky, zelí, cibulka",
+            "n": "Plněné bramborové knedlíky uzeným masem, zelí, cibulka",
             "a": [
               1,
               3,
@@ -4271,6 +4271,336 @@
               1,
               7,
               8
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Voda, čaj",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-12-07": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Polévka z červené čočky",
+        "d": "",
+        "a": [
+          1,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Nudle s tvarohem, cukrem a máslem",
+        "d": "Mléčný koktejl",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Nudle s tvarohem, cukrem a máslem",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Mléčný koktejl",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "m": 2,
+        "n": "Dánský pekáček (vepřová kotleta, pór, sýr, rajčata, smetana) šťouchané brambory",
+        "d": "Voda, čaj",
+        "a": [
+          1,
+          7,
+          9
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Dánský pekáček (vepřová kotleta, pór, sýr, rajčata, smetana) šťouchané brambory",
+            "a": [
+              1,
+              7,
+              9
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Voda, čaj",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-12-08": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Krkonošské kyselo",
+        "d": "",
+        "a": [
+          1,
+          3,
+          7,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Chilli con carne ( fazole, kukuřice, mleté maso, rajčata), dušená rýže",
+        "d": "Voda, čaj",
+        "a": [
+          1,
+          3,
+          7,
+          10
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Chilli con carne ( fazole, kukuřice, mleté maso, rajčata), dušená rýže",
+            "a": [
+              1,
+              3,
+              7,
+              10
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Voda, čaj",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "m": 2,
+        "n": "Obalované žampiony, brambory, tatarská omáčka",
+        "d": "Voda, čaj",
+        "a": [
+          1,
+          3,
+          7,
+          9,
+          10
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Obalované žampiony, brambory, tatarská omáčka",
+            "a": [
+              1,
+              3,
+              7,
+              9,
+              10
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Voda, čaj",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-12-09": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Písmenková",
+        "d": "",
+        "a": [
+          1,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Masové kuličky, rajská omáčka, kolínka",
+        "d": "Voda, čaj",
+        "a": [
+          1,
+          3,
+          7,
+          9
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Masové kuličky, rajská omáčka, kolínka",
+            "a": [
+              1,
+              3,
+              7,
+              9
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Voda, čaj",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "m": 2,
+        "n": "Rýžové nudle s kuřecím masem, sušenými rajčaty a tymiánem",
+        "d": "Voda, čaj",
+        "a": [
+          1,
+          9
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Rýžové nudle s kuřecím masem, sušenými rajčaty a tymiánem",
+            "a": [
+              1,
+              9
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Voda, čaj",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-12-10": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Mungo polévka s červenou řepou a brambory",
+        "d": "",
+        "a": [
+          1,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Vánoční sekaná s bramborovou kaší",
+        "d": "Voda, čaj",
+        "a": [
+          1,
+          3,
+          7,
+          9
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Vánoční sekaná s bramborovou kaší",
+            "a": [
+              1,
+              3,
+              7,
+              9
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Voda, čaj",
+            "a": []
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "m": 2,
+        "n": "Zeleninový talířek s lososovými nugetkami a dresinkem, pečivo",
+        "d": "Voda, čaj",
+        "a": [
+          1,
+          3,
+          4,
+          7,
+          9
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Zeleninový talířek s lososovými nugetkami a dresinkem, pečivo",
+            "a": [
+              1,
+              3,
+              4,
+              7,
+              9
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Voda, čaj",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-12-11": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Rissi – Bissi",
+        "d": "",
+        "a": [
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Vepřové výpečky na česneku, knedlíky, zelí",
+        "d": "Voda, čaj",
+        "a": [
+          1,
+          3,
+          7,
+          9
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Vepřové výpečky na česneku, knedlíky, zelí",
+            "a": [
+              1,
+              3,
+              7,
+              9
             ]
           },
           {

@@ -4270,10 +4270,11 @@
     "chody": [
       {
         "c": "polevka",
-        "n": "Zeleninový krém",
+        "n": "Krémová rybí polévka",
         "d": "",
         "a": [
           1,
+          4,
           7,
           9
         ]
@@ -4631,6 +4632,403 @@
             "a": [
               1,
               3
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce, saláty, zákusek",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Voda, Mléko, Čaj",
+            "a": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-12-07": {
+    "vydej": "11:00–13:45",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Jarní zeleninová polévka s kapáním",
+        "d": "",
+        "a": [
+          1,
+          3,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Bramborové halušky se zelím a uzeným masem",
+        "d": "Ovoce, saláty, zákusek · Voda, Mléko, Čaj",
+        "a": [
+          1,
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Bramborové halušky se zelím a uzeným masem",
+            "a": [
+              1,
+              3
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce, saláty, zákusek",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Voda, Mléko, Čaj",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "m": 2,
+        "n": "Mexické zeleninové rizoto",
+        "d": "Ovoce, saláty, zákusek · Voda, Mléko, Čaj",
+        "a": [
+          7,
+          9
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Mexické zeleninové rizoto",
+            "a": [
+              9
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce, saláty, zákusek",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Voda, Mléko, Čaj",
+            "a": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-12-08": {
+    "vydej": "11:00–13:45",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Zeleninový krém",
+        "d": "",
+        "a": [
+          1,
+          7,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Vepřové maso na medu, bramborová kaše",
+        "d": "Ovoce, saláty, zákusek · Voda, Mléko, Čaj",
+        "a": [
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Vepřové maso na medu, bramborová kaše",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce, saláty, zákusek",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Voda, Mléko, Čaj",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "m": 2,
+        "n": "Smažený obalovaný květák, brambor, Hellmann's Yofresh s jogurtem",
+        "d": "Ovoce, saláty, zákusek · Voda, Mléko, Čaj",
+        "a": [
+          1,
+          5,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Smažený obalovaný květák, brambor, Hellmann's Yofresh s jogurtem",
+            "a": [
+              1,
+              5
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce, saláty, zákusek",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Voda, Mléko, Čaj",
+            "a": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-12-09": {
+    "vydej": "11:00–13:45",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Rajská polévka",
+        "d": "",
+        "a": [
+          1
+        ]
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Čínské nudle se zeleninou",
+        "d": "Ovoce, saláty, zákusek · Voda, Mléko, Čaj",
+        "a": [
+          1,
+          4,
+          7,
+          9
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Čínské nudle se zeleninou",
+            "a": [
+              1,
+              4,
+              9
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce, saláty, zákusek",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Voda, Mléko, Čaj",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "m": 2,
+        "n": "Skořicová ovesná kaše s ovocným rozvarem",
+        "d": "Ovoce, saláty, zákusek · Voda, Mléko, Čaj",
+        "a": [
+          1,
+          5,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Skořicová ovesná kaše s ovocným rozvarem",
+            "a": [
+              1,
+              5,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce, saláty, zákusek",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Voda, Mléko, Čaj",
+            "a": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-12-10": {
+    "vydej": "11:00–13:45",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Česneková polévka",
+        "d": "",
+        "a": [
+          1,
+          3,
+          7,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Kuřecí plátek s veselou zeleninkou (hrášek/kukuřice), brambor",
+        "d": "Ovoce, saláty, zákusek · Voda, Mléko, Čaj",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Kuřecí plátek s veselou zeleninkou (hrášek/kukuřice), brambor",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce, saláty, zákusek",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Voda, Mléko, Čaj",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "m": 2,
+        "n": "Dušená zelenina, brambory a volské oko",
+        "d": "Ovoce, saláty, zákusek · Voda, Mléko, Čaj",
+        "a": [
+          3,
+          7,
+          9
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Dušená zelenina, brambory a volské oko",
+            "a": [
+              3,
+              9
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce, saláty, zákusek",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Voda, Mléko, Čaj",
+            "a": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-12-11": {
+    "vydej": "11:00–13:45",
+    "chody": [
+      {
+        "c": "polevka",
+        "n": "Hrášková polévka s mátou",
+        "d": "",
+        "a": [
+          1,
+          7
+        ]
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Myslivecká vepřová omáčka, rýže",
+        "d": "Ovoce, saláty, zákusek · Voda, Mléko, Čaj",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Myslivecká vepřová omáčka, rýže",
+            "a": [
+              1
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce, saláty, zákusek",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Voda, Mléko, Čaj",
+            "a": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "c": "obed2",
+        "m": 2,
+        "n": "Zapečené brambory se smetanou a špenátem",
+        "d": "Ovoce, saláty, zákusek · Voda, Mléko, Čaj",
+        "a": [
+          3,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Zapečené brambory se smetanou a špenátem",
+            "a": [
+              3,
+              7
             ]
           },
           {

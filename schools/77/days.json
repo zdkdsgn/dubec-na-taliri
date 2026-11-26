@@ -5028,7 +5028,7 @@
         "c": "obed",
         "m": 1,
         "n": "Dušená krůtí játra",
-        "d": "Rýže · Jogurt s cereáliemi · Neslazený ovocný čaj, voda, horká čokoláda",
+        "d": "Rýže · Jogurt s cereáliemi · Neslazený zelený čaj s citronem, voda, horká čokoláda",
         "a": [
           1,
           3,
@@ -5059,7 +5059,7 @@
           },
           {
             "l": "Nápoj",
-            "n": "Neslazený ovocný čaj, voda, horká čokoláda",
+            "n": "Neslazený zelený čaj s citronem, voda, horká čokoláda",
             "a": [
               1,
               7
@@ -5071,7 +5071,7 @@
         "c": "obed2",
         "m": 2,
         "n": "Salát Coleslaw",
-        "d": "Pečivo · Jogurt s cereáliemi · Neslazený ovocný čaj, voda, horká čokoláda",
+        "d": "Pečivo · Jogurt s cereáliemi · Neslazený zelený čaj s citronem, voda, horká čokoláda",
         "a": [
           1,
           3,
@@ -5110,7 +5110,7 @@
           },
           {
             "l": "Nápoj",
-            "n": "Neslazený ovocný čaj, voda, horká čokoláda",
+            "n": "Neslazený zelený čaj s citronem, voda, horká čokoláda",
             "a": [
               1,
               7
@@ -5319,7 +5319,7 @@
         "c": "obed",
         "m": 1,
         "n": "Indonéské kari s cizrnou (bezmasé)",
-        "d": "Rýže basmati · Čokoládové brownies · Neslazený bylinný čaj, voda, ochucené mléko",
+        "d": "Rýže tří barev · Čokoládové brownies · Neslazený bylinný čaj, voda, ochucené mléko",
         "a": [
           1,
           3,
@@ -5339,7 +5339,7 @@
           },
           {
             "l": "Příloha",
-            "n": "Rýže basmati",
+            "n": "Rýže tří barev",
             "a": []
           },
           {
@@ -5433,10 +5433,9 @@
         "c": "obed",
         "m": 1,
         "n": "Vepřová pečeně, brambory",
-        "d": "Míchaná zelenina · Jogurt s cereáliemi · Sirup, voda, mléko",
+        "d": "Míchaná zelenina · Jogurt s müsli a mrazem sušenými jahodami · Sirup, voda, mléko",
         "a": [
           1,
-          3,
           7
         ],
         "p": [
@@ -5456,10 +5455,9 @@
           },
           {
             "l": "Doplněk",
-            "n": "Jogurt s cereáliemi",
+            "n": "Jogurt s müsli a mrazem sušenými jahodami",
             "a": [
               1,
-              3,
               7
             ]
           },
@@ -5476,10 +5474,9 @@
         "c": "obed2",
         "m": 2,
         "n": "Tofu na zelenině",
-        "d": "Bulgur s quinoou a paprikou · Jogurt s cereáliemi · Sirup, voda, mléko",
+        "d": "Bulgur s quinoou a paprikou · Jogurt s müsli a mrazem sušenými jahodami · Sirup, voda, mléko",
         "a": [
           1,
-          3,
           6,
           7
         ],
@@ -5503,10 +5500,9 @@
           },
           {
             "l": "Doplněk",
-            "n": "Jogurt s cereáliemi",
+            "n": "Jogurt s müsli a mrazem sušenými jahodami",
             "a": [
               1,
-              3,
               7
             ]
           },
@@ -6616,6 +6612,25 @@
     ]
   },
   "2026-12-29": {
+    "vydej": "11:00–14:00",
+    "chody": [
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Vánoční prázdniny",
+        "d": "",
+        "a": [],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Vánoční prázdniny",
+            "a": []
+          }
+        ]
+      }
+    ]
+  },
+  "2026-12-30": {
     "vydej": "11:00–14:00",
     "chody": [
       {
