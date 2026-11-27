@@ -8703,220 +8703,37 @@
       {
         "c": "presnidavka",
         "m": 1,
-        "n": "Ovesná kaše s jablkem a medem",
-        "d": "Voda se skořicí a pomerančem",
-        "a": [
-          1,
-          7
-        ],
-        "p": [
-          {
-            "l": "Jídlo",
-            "n": "Ovesná kaše s jablkem a medem",
-            "a": [
-              1,
-              7
-            ]
-          },
-          {
-            "l": "Nápoj",
-            "n": "Voda se skořicí a pomerančem",
-            "a": []
-          }
-        ]
-      },
-      {
-        "c": "polevka",
-        "n": "Rajská s ovesnými vločkami",
+        "n": "Prázdniny",
         "d": "",
-        "a": [
-          1,
-          7,
-          9,
-          10
-        ]
-      },
-      {
-        "c": "obed",
-        "m": 1,
-        "n": "Zeleninový řízek",
-        "d": "Brambor / bylinkový dip · Tvarohový dezért s čokoládou · Voda se skořicí a pomerančem",
-        "a": [
-          1,
-          3,
-          7,
-          9
-        ],
-        "p": [
-          {
-            "l": "Jídlo",
-            "n": "Zeleninový řízek",
-            "a": [
-              1,
-              3,
-              7,
-              9
-            ]
-          },
-          {
-            "l": "Příloha",
-            "n": "Brambor / bylinkový dip",
-            "a": [
-              7
-            ]
-          },
-          {
-            "l": "Doplněk",
-            "n": "Tvarohový dezért s čokoládou",
-            "a": [
-              7
-            ]
-          },
-          {
-            "l": "Nápoj",
-            "n": "Voda se skořicí a pomerančem",
-            "a": []
-          }
-        ]
-      },
-      {
-        "c": "svacina",
-        "m": 1,
-        "n": "Corn flakes",
-        "d": "Mléko",
-        "a": [
-          1,
-          7
-        ],
-        "p": [
-          {
-            "l": "Jídlo",
-            "n": "Corn flakes",
-            "a": [
-              1
-            ]
-          },
-          {
-            "l": "Nápoj",
-            "n": "Mléko",
-            "a": [
-              7
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  "2026-12-22": {
-    "vydej": "11:40–13:30",
-    "chody": [
-      {
-        "c": "presnidavka",
-        "m": 1,
-        "n": "Cerální raženka",
-        "d": "Avokádová pomazánka · Rajče · Čaj",
-        "a": [
-          3,
-          7
-        ],
-        "p": [
-          {
-            "l": "Jídlo",
-            "n": "Cerální raženka",
-            "a": [
-              3,
-              7
-            ]
-          },
-          {
-            "l": "Příloha",
-            "n": "Avokádová pomazánka",
-            "a": [
-              7
-            ]
-          },
-          {
-            "l": "Doplněk",
-            "n": "Rajče",
-            "a": []
-          },
-          {
-            "l": "Nápoj",
-            "n": "Čaj",
-            "a": []
-          }
-        ]
-      },
-      {
-        "c": "polevka",
-        "n": "Čočková",
-        "d": "",
-        "a": [
-          1,
-          3,
-          9,
-          10
-        ]
-      },
-      {
-        "c": "obed",
-        "m": 1,
-        "n": "Losos s bylinkovou krustou",
-        "d": "Bramborový salát · Čaj",
-        "a": [
-          4,
-          7,
-          8,
-          9,
-          10
-        ],
-        "p": [
-          {
-            "l": "Jídlo",
-            "n": "Losos s bylinkovou krustou",
-            "a": [
-              4,
-              7,
-              10
-            ]
-          },
-          {
-            "l": "Příloha",
-            "n": "Bramborový salát",
-            "a": [
-              7,
-              8,
-              9,
-              10
-            ]
-          },
-          {
-            "l": "Nápoj",
-            "n": "Čaj",
-            "a": []
-          }
-        ]
-      },
-      {
-        "c": "svacina",
-        "m": 1,
-        "n": "Ovocná přesnidávka",
-        "d": "Hruška · Čaj",
         "a": [],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Ovocná přesnidávka",
+            "n": "Prázdniny",
             "a": []
-          },
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Prázdniny",
+        "d": "",
+        "a": []
+      }
+    ]
+  },
+  "2026-12-22": {
+    "chody": [
+      {
+        "c": "presnidavka",
+        "m": 1,
+        "n": "Prázdniny",
+        "d": "",
+        "a": [],
+        "p": [
           {
-            "l": "Doplněk",
-            "n": "Hruška",
-            "a": []
-          },
-          {
-            "l": "Nápoj",
-            "n": "Čaj",
+            "l": "Jídlo",
+            "n": "Prázdniny",
             "a": []
           }
         ]

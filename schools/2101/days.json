@@ -6759,36 +6759,52 @@
       },
       {
         "c": "polevka",
-        "n": "Hrstková s pohankou a zeleninou",
+        "n": "Kedlubnová s barmborem",
         "d": "",
         "a": [
-          9
+          1,
+          7
         ]
       },
       {
         "c": "obed",
         "m": 1,
-        "n": "Vepřová pečené, špenát",
-        "d": "Vařené brambory · Čaj ostružina a borůvka",
+        "n": "Masové koule v rajčatové omáčce",
+        "d": "Houskový knedlík · Perník · Čaj lesní ovoce",
         "a": [
-          1
+          1,
+          3,
+          7,
+          9
         ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Vepřová pečené, špenát",
+            "n": "Masové koule v rajčatové omáčce",
+            "a": [
+              1,
+              3,
+              7,
+              9
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Houskový knedlík",
             "a": [
               1
             ]
           },
           {
-            "l": "Příloha",
-            "n": "Vařené brambory",
-            "a": []
+            "l": "Doplněk",
+            "n": "Perník",
+            "a": [
+              1
+            ]
           },
           {
             "l": "Nápoj",
-            "n": "Čaj ostružina a borůvka",
+            "n": "Čaj lesní ovoce",
             "a": []
           }
         ]
@@ -6867,53 +6883,43 @@
       },
       {
         "c": "polevka",
-        "n": "Kedlubnová s bramborem",
+        "n": "Hrstková s pohankou a zeleninou",
         "d": "",
         "a": [
           1,
-          7
+          9
         ]
       },
       {
         "c": "obed",
         "m": 1,
-        "n": "Masové koule v rajčatové omáčce",
-        "d": "Houskový knedlík · Perník · Čaj lesní ovoce",
+        "n": "Vepřová pečené, špenát",
+        "d": "Vařené brambory · Čaj ostružina-borůvka",
         "a": [
           1,
-          3,
           7,
           9
         ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Masové koule v rajčatové omáčce",
+            "n": "Vepřová pečené, špenát",
             "a": [
               1,
-              3,
-              7,
               9
             ]
           },
           {
             "l": "Příloha",
-            "n": "Houskový knedlík",
-            "a": [
-              1
-            ]
-          },
-          {
-            "l": "Doplněk",
-            "n": "Perník",
-            "a": [
-              1
-            ]
+            "n": "Vařené brambory",
+            "a": []
           },
           {
             "l": "Nápoj",
-            "n": "Čaj lesní ovoce",
-            "a": []
+            "n": "Čaj ostružina-borůvka",
+            "a": [
+              7
+            ]
           }
         ]
       },

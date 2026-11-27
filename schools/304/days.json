@@ -6610,7 +6610,7 @@
       {
         "c": "presnidavka",
         "m": 1,
-        "n": "Vánočka",
+        "n": "Pečivo, máslo, plátkový sýr",
         "d": "Ovoce · Ovocný čaj, kakaový nápoj, voda",
         "a": [
           1,
@@ -6620,7 +6620,7 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Vánočka",
+            "n": "Pečivo, máslo, plátkový sýr",
             "a": [
               1,
               3,
@@ -6685,28 +6685,15 @@
       {
         "c": "svacina",
         "m": 1,
-        "n": "Banketka cereální, pomazánka luštěninová",
-        "d": "Zelenina · Ovocný čaj, mléko, voda",
+        "n": "Ovocná přesnídávka",
+        "d": "Ovocný čaj, mléko, voda",
         "a": [
-          1,
-          3,
-          7,
-          11
+          7
         ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Banketka cereální, pomazánka luštěninová",
-            "a": [
-              1,
-              3,
-              7,
-              11
-            ]
-          },
-          {
-            "l": "Doplněk",
-            "n": "Zelenina",
+            "n": "Ovocná přesnídávka",
             "a": []
           },
           {
@@ -6761,10 +6748,11 @@
       },
       {
         "c": "polevka",
-        "n": "Zeleninová s pohankou",
+        "n": "Jemná rybí se zeleninou",
         "d": "",
         "a": [
           1,
+          4,
           9
         ]
       },
@@ -6888,7 +6876,7 @@
         "c": "obed",
         "m": 1,
         "n": "Karbanátek s mrkví a sýrem",
-        "d": "Nastavovaná bramborová kaše s kroupami · Dip (zakysaná smetana, bylinky) · Ovocný čaj, mléko, voda",
+        "d": "Brambory, máslo · Dip (zakysaná smetana, bylinky) · Ovocný čaj, mléko, voda",
         "a": [
           1,
           3,
@@ -6906,9 +6894,8 @@
           },
           {
             "l": "Příloha",
-            "n": "Nastavovaná bramborová kaše s kroupami",
+            "n": "Brambory, máslo",
             "a": [
-              1,
               7
             ]
           },
@@ -7005,19 +6992,18 @@
       },
       {
         "c": "polevka",
-        "n": "Krůtí vývar se zeleninou a těstovinami",
+        "n": "Kuřecí vývar s těstovinou",
         "d": "",
         "a": [
           1,
-          7,
           9
         ]
       },
       {
         "c": "obed",
         "m": 1,
-        "n": "Míchané maso se zeleninou (krůtí, kuřecí, vepřové)",
-        "d": "Bulgur · Polníček · Čaj, citronáda",
+        "n": "Kuřecí prsa na bylinkách, pečená",
+        "d": "Kuskus se zeleninou a sušenými rajčaty · Polníček · Čaj, citronáda",
         "a": [
           1,
           7,
@@ -7026,17 +7012,17 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Míchané maso se zeleninou (krůtí, kuřecí, vepřové)",
+            "n": "Kuřecí prsa na bylinkách, pečená",
             "a": [
-              1,
-              9
+              1
             ]
           },
           {
             "l": "Příloha",
-            "n": "Bulgur",
+            "n": "Kuskus se zeleninou a sušenými rajčaty",
             "a": [
-              1
+              1,
+              9
             ]
           },
           {
@@ -7141,10 +7127,9 @@
         "c": "obed",
         "m": 1,
         "n": "Krůtí plátek na žampionech",
-        "d": "Brambory, máslo, pažitka · Zeleninový salát s čínským zelím a kukuřicí · Čaj, meruňkový sirup",
+        "d": "Rýže dušená · Mix zelenina · Čaj, meruňkový sirup",
         "a": [
-          1,
-          7
+          1
         ],
         "p": [
           {
@@ -7156,14 +7141,12 @@
           },
           {
             "l": "Příloha",
-            "n": "Brambory, máslo, pažitka",
-            "a": [
-              7
-            ]
+            "n": "Rýže dušená",
+            "a": []
           },
           {
             "l": "Doplněk",
-            "n": "Zeleninový salát s čínským zelím a kukuřicí",
+            "n": "Mix zelenina",
             "a": []
           },
           {
@@ -7260,9 +7243,10 @@
         "c": "obed",
         "m": 1,
         "n": "Vepřové na hořčici",
-        "d": "Rýže dušená · Čaj, voda",
+        "d": "Brambory s pažitkou, máslo · Čaj, voda",
         "a": [
           1,
+          7,
           10
         ],
         "p": [
@@ -7276,8 +7260,10 @@
           },
           {
             "l": "Příloha",
-            "n": "Rýže dušená",
-            "a": []
+            "n": "Brambory s pažitkou, máslo",
+            "a": [
+              7
+            ]
           },
           {
             "l": "Nápoj",

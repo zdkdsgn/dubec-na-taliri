@@ -4958,6 +4958,7 @@
         "d": "Ovocný čaj",
         "a": [
           1,
+          4,
           7,
           11
         ],
@@ -4967,6 +4968,7 @@
             "n": "Kuře na paprice, těstoviny",
             "a": [
               1,
+              4,
               7,
               11
             ]
@@ -5049,6 +5051,7 @@
         "d": "Kakao",
         "a": [
           1,
+          3,
           7
         ],
         "p": [
@@ -5057,13 +5060,16 @@
             "n": "Hanácký koláč s povidlím a tvarohem",
             "a": [
               1,
+              3,
               7
             ]
           },
           {
             "l": "Nápoj",
             "n": "Kakao",
-            "a": []
+            "a": [
+              7
+            ]
           }
         ]
       },
@@ -5098,19 +5104,19 @@
       {
         "c": "presnidavka",
         "m": 1,
-        "n": "Vánočka s máslem a marmeládou",
+        "n": "Tvaroháček s marmeládou",
         "d": "Ochucené mléko, jablko",
         "a": [
-          1,
-          7
+          7,
+          11
         ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Vánočka s máslem a marmeládou",
+            "n": "Tvaroháček s marmeládou",
             "a": [
-              1,
-              7
+              7,
+              11
             ]
           },
           {
@@ -5124,13 +5130,15 @@
         "c": "polevka",
         "n": "Pol. kedlubnová",
         "d": "",
-        "a": []
+        "a": [
+          11
+        ]
       },
       {
         "c": "obed",
         "m": 1,
-        "n": "Duš.kuřecí maso, sýrová omáčka, těstoviny",
-        "d": "Ovocný čaj",
+        "n": "Vepřové maso na kmíně, brambory",
+        "d": "100 % džus, ovoce",
         "a": [
           1,
           7
@@ -5138,7 +5146,7 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Duš.kuřecí maso, sýrová omáčka, těstoviny",
+            "n": "Vepřové maso na kmíně, brambory",
             "a": [
               1,
               7
@@ -5146,7 +5154,7 @@
           },
           {
             "l": "Nápoj",
-            "n": "Ovocný čaj",
+            "n": "100 % džus, ovoce",
             "a": []
           }
         ]
@@ -5379,17 +5387,19 @@
       {
         "c": "obed",
         "m": 1,
-        "n": "Vepřové rizoto se str. sýrem, ster. okurek",
+        "n": "Kuřecí rizoto se strouh. sýrem, steril. okurek",
         "d": "Ovocný čaj",
         "a": [
-          7
+          7,
+          8
         ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Vepřové rizoto se str. sýrem, ster. okurek",
+            "n": "Kuřecí rizoto se strouh. sýrem, steril. okurek",
             "a": [
-              7
+              7,
+              8
             ]
           },
           {
@@ -5452,15 +5462,18 @@
       },
       {
         "c": "polevka",
-        "n": "Pol. zelná s klobásou",
+        "n": "Pol. zelná polévka",
         "d": "",
-        "a": []
+        "a": [
+          1,
+          7
+        ]
       },
       {
         "c": "obed",
         "m": 1,
         "n": "Kovbojské fazole s vepř. masem, chléb",
-        "d": "100% džus, perník",
+        "d": "Ovocná šťáva, perník",
         "a": [
           1
         ],
@@ -5474,7 +5487,7 @@
           },
           {
             "l": "Nápoj",
-            "n": "100% džus, perník",
+            "n": "Ovocná šťáva, perník",
             "a": []
           }
         ]

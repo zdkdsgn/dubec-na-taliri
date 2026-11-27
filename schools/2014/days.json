@@ -6486,6 +6486,7 @@
     ]
   },
   "2026-11-30": {
+    "vydej": "11:00–14:00",
     "chody": [
       {
         "c": "presnidavka",
@@ -6516,6 +6517,47 @@
             "a": [
               7
             ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Hovězí vývar s vejcem a krupicí",
+        "d": "",
+        "a": [
+          1,
+          3,
+          7
+        ]
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Bramborové šišky s mákem a máslem",
+        "d": "Voda, čaj",
+        "a": [
+          1,
+          3,
+          5,
+          7,
+          8
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Bramborové šišky s mákem a máslem",
+            "a": [
+              1,
+              3,
+              5,
+              7,
+              8
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Voda, čaj",
+            "a": []
           }
         ]
       },
@@ -6554,6 +6596,7 @@
     ]
   },
   "2026-12-01": {
+    "vydej": "11:00–14:00",
     "chody": [
       {
         "c": "presnidavka",
@@ -6586,6 +6629,49 @@
             "a": [
               7
             ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Frankfurtská s bramborem",
+        "d": "",
+        "a": [
+          1,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Hovězí guláš",
+        "d": "Těstoviny · Voda, čaj",
+        "a": [
+          1,
+          3,
+          9
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Hovězí guláš",
+            "a": [
+              1,
+              9
+            ]
+          },
+          {
+            "l": "Příloha",
+            "n": "Těstoviny",
+            "a": [
+              1,
+              3
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Voda, čaj",
+            "a": []
           }
         ]
       },
@@ -6624,6 +6710,7 @@
     ]
   },
   "2026-12-02": {
+    "vydej": "11:00–14:00",
     "chody": [
       {
         "c": "presnidavka",
@@ -6654,6 +6741,42 @@
             "a": [
               7
             ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Hovězí vývar se zeleninou a kapáním",
+        "d": "",
+        "a": [
+          1,
+          3,
+          7,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Vepřová pečeně, hrášek, brambory",
+        "d": "Voda, čaj",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Vepřová pečeně, hrášek, brambory",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Voda, čaj",
+            "a": []
           }
         ]
       },
@@ -6692,6 +6815,7 @@
     ]
   },
   "2026-12-03": {
+    "vydej": "11:00–14:00",
     "chody": [
       {
         "c": "presnidavka",
@@ -6718,6 +6842,49 @@
             "a": [
               7
             ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Zeleninová s quinoou",
+        "d": "",
+        "a": [
+          1,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Hrachová kaše, mletý řízek",
+        "d": "Kyselá okurka · Voda, čaj",
+        "a": [
+          1,
+          3,
+          7,
+          9
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Hrachová kaše, mletý řízek",
+            "a": [
+              1,
+              3,
+              7,
+              9
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Kyselá okurka",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Voda, čaj",
+            "a": []
           }
         ]
       },
@@ -6756,6 +6923,7 @@
     ]
   },
   "2026-12-04": {
+    "vydej": "11:00–14:00",
     "chody": [
       {
         "c": "presnidavka",
@@ -6784,6 +6952,38 @@
             "n": "Kakao",
             "a": [
               8
+            ]
+          }
+        ]
+      },
+      {
+        "c": "polevka",
+        "n": "Vývar s játrovou zavářkou",
+        "d": "",
+        "a": [
+          1,
+          9
+        ]
+      },
+      {
+        "c": "obed",
+        "m": 1,
+        "n": "Hovězí na česneku",
+        "d": "Bramborový knedlík, špenát",
+        "a": [
+          1
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Hovězí na česneku",
+            "a": []
+          },
+          {
+            "l": "Příloha",
+            "n": "Bramborový knedlík, špenát",
+            "a": [
+              1
             ]
           }
         ]

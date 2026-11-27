@@ -4476,7 +4476,7 @@
       {
         "c": "obed",
         "m": 1,
-        "n": "Kuřecí řízek, bramborová kaše, obloha, ovocná šťáva, čaj",
+        "n": "Smažený kuřecí řízek, bramborová kaše, kys.okurka, ovocná šťáva",
         "d": "",
         "a": [
           1,
@@ -4486,7 +4486,7 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Kuřecí řízek, bramborová kaše, obloha, ovocná šťáva, čaj",
+            "n": "Smažený kuřecí řízek, bramborová kaše, kys.okurka, ovocná šťáva",
             "a": [
               1,
               3,
@@ -4542,28 +4542,29 @@
       },
       {
         "c": "polevka",
-        "n": "Čočková",
+        "n": "Vločková se zeleninou",
         "d": "",
         "a": [
-          1
+          1,
+          9
         ]
       },
       {
         "c": "obed",
         "m": 1,
-        "n": "Kuskus se zeleninou a sýrem, červená řepa, čaj",
+        "n": "Rozlítaný hovězí ptáček, rýže, čaj",
         "d": "",
         "a": [
           1,
-          9
+          3
         ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Kuskus se zeleninou a sýrem, červená řepa, čaj",
+            "n": "Rozlítaný hovězí ptáček, rýže, čaj",
             "a": [
               1,
-              9
+              3
             ]
           }
         ]
@@ -4615,7 +4616,7 @@
       },
       {
         "c": "polevka",
-        "n": "Vločková se zeleninou",
+        "n": "Čočková",
         "d": "",
         "a": [
           1,
@@ -4625,17 +4626,19 @@
       {
         "c": "obed",
         "m": 1,
-        "n": "Rozlítaný hovězí ptáček, rýže, čaj",
+        "n": "Kuskus se zeleninou a sýrem, červená řepa, čaj",
         "d": "",
         "a": [
-          1
+          1,
+          9
         ],
         "p": [
           {
             "l": "Jídlo",
-            "n": "Rozlítaný hovězí ptáček, rýže, čaj",
+            "n": "Kuskus se zeleninou a sýrem, červená řepa, čaj",
             "a": [
-              1
+              1,
+              9
             ]
           }
         ]
@@ -4700,7 +4703,7 @@
       {
         "c": "obed",
         "m": 1,
-        "n": "Přírodní treska, brambor, kys.okurka, čaj",
+        "n": "Přírodní treska, brambor, obloha, čaj",
         "d": "",
         "a": [
           1,
@@ -4709,7 +4712,7 @@
         "p": [
           {
             "l": "Jídlo",
-            "n": "Přírodní treska, brambor, kys.okurka, čaj",
+            "n": "Přírodní treska, brambor, obloha, čaj",
             "a": [
               1,
               4

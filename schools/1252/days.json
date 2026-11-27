@@ -5698,6 +5698,42 @@
     "vydej": "11:30–12:00",
     "chody": [
       {
+        "c": "presnidavka",
+        "m": 1,
+        "n": "Křupavé čoko müsli",
+        "d": "Ovoce · Čaj",
+        "a": [
+          1,
+          6,
+          7,
+          8,
+          11
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Křupavé čoko müsli",
+            "a": [
+              1,
+              6,
+              7,
+              8,
+              11
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj",
+            "a": []
+          }
+        ]
+      },
+      {
         "c": "polevka",
         "n": "Špenátová",
         "d": "",
@@ -5728,12 +5764,70 @@
             "a": []
           }
         ]
+      },
+      {
+        "c": "svacina",
+        "m": 1,
+        "n": "Křehký kukuřičný plátek, česneková pomazánka",
+        "d": "Zelenina · Ovocný čaj",
+        "a": [
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Křehký kukuřičný plátek, česneková pomazánka",
+            "a": [
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zelenina",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Ovocný čaj",
+            "a": []
+          }
+        ]
       }
     ]
   },
   "2026-12-08": {
     "vydej": "11:30–12:00",
     "chody": [
+      {
+        "c": "presnidavka",
+        "m": 1,
+        "n": "Chléb podmáslový, mrkvová pomazánka",
+        "d": "Ovoce · Černý čaj, mléko",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Chléb podmáslový, mrkvová pomazánka",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Černý čaj, mléko",
+            "a": []
+          }
+        ]
+      },
       {
         "c": "polevka",
         "n": "Čočková s bulgurem",
@@ -5761,12 +5855,72 @@
             "a": []
           }
         ]
+      },
+      {
+        "c": "svacina",
+        "m": 1,
+        "n": "Chlebíčková veka, tvarohová pomazánka s Halali",
+        "d": "Zelenina · Zelený čaj",
+        "a": [
+          1,
+          7
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Chlebíčková veka, tvarohová pomazánka s Halali",
+            "a": [
+              1,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zelenina",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Zelený čaj",
+            "a": []
+          }
+        ]
       }
     ]
   },
   "2026-12-09": {
     "vydej": "11:30–12:00",
     "chody": [
+      {
+        "c": "presnidavka",
+        "m": 1,
+        "n": "Houska, vitamínová pomazánka",
+        "d": "Ovoce · Citronový čaj",
+        "a": [
+          7,
+          9
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Houska, vitamínová pomazánka",
+            "a": [
+              7,
+              9
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Ovoce",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Citronový čaj",
+            "a": []
+          }
+        ]
+      },
       {
         "c": "polevka",
         "n": "Vývar se zeleninou",
@@ -5805,6 +5959,38 @@
             "a": [
               1
             ]
+          }
+        ]
+      },
+      {
+        "c": "svacina",
+        "m": 1,
+        "n": "Chléb, mrkvové máslo",
+        "d": "Zelenina · Čaj",
+        "a": [
+          1,
+          2,
+          8
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Chléb, mrkvové máslo",
+            "a": [
+              1,
+              2,
+              8
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Zelenina",
+            "a": []
+          },
+          {
+            "l": "Nápoj",
+            "n": "Čaj",
+            "a": []
           }
         ]
       }
@@ -6031,6 +6217,47 @@
   "2026-12-17": {
     "vydej": "11:30–12:00",
     "chody": [
+      {
+        "c": "presnidavka",
+        "m": 1,
+        "n": "Šlehaný tvaroh",
+        "d": "Křupavé čoko müsli · Bylinkový čaj",
+        "a": [
+          1,
+          3,
+          6,
+          7,
+          8,
+          11
+        ],
+        "p": [
+          {
+            "l": "Jídlo",
+            "n": "Šlehaný tvaroh",
+            "a": [
+              1,
+              3,
+              7
+            ]
+          },
+          {
+            "l": "Doplněk",
+            "n": "Křupavé čoko müsli",
+            "a": [
+              1,
+              6,
+              7,
+              8,
+              11
+            ]
+          },
+          {
+            "l": "Nápoj",
+            "n": "Bylinkový čaj",
+            "a": []
+          }
+        ]
+      },
       {
         "c": "obed",
         "m": 1,
